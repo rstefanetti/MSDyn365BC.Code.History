@@ -567,11 +567,6 @@
           <note from="Developer" annotates="general" priority="2">%1 Specific error code, %2 Extra comment</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshStatusErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 2530820335" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Refreshing the bank account on Envestnet Yodlee is taking longer than expected.\\You can import transactions up to the last successful refresh date while the refresh is running.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshTakingTooLongTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3688584481" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Register consumer.</source>
           <target state="translated">Register consumer.</target>

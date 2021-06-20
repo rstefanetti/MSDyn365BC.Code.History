@@ -123,6 +123,9 @@
                         "path":  ".\\SalesAndInventoryForecast\\Test\\SalesAndInventoryForecastTest"
                     },
                     {
+                        "path":  ".\\SwissQRBill\\Test\\SwissQRBillTest"
+                    },
+                    {
                         "path":  ".\\system application\\test\\System Application Test"
                     },
                     {

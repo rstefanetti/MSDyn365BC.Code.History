@@ -719,7 +719,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 3688674258 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address type used for all printed QR-bills. Recommended value is Structured.</source>
-          <target>Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. La valeur recommandée est Structuré.</target>
+          <target>Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée : Structuré.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control Address Type - Property ToolTip</note>
         </trans-unit>
@@ -1174,7 +1174,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2408521378" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import failed.</source>
-          <target>L’importation de la QR-facture a échoué.</target>
+          <target>Échec d’importation de la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportFailedTxt</note>
         </trans-unit>
@@ -1571,7 +1571,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 2662649033 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record from the scanning of QR-bill with an input scanner, or from manual (copy/paste) of the decoded QR-Code text value into a field.</source>
-          <target>Mettez à jour l’enregistrement de document entrant à partir de la numérisation de la QR-facture avec un scanner de saisie, ou à partir de la saisie manuelle (copier/coller) de la valeur texte du code QR décodée dans un champ.</target>
+          <target>Mettez à jour l’enregistrement de document entrant à partir de la numérisation de la QR-facture avec un scanner de saisie, ou à partir de la saisie manuelle (copier/coller) de la valeur texte du QR-code décodée dans un champ.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1585,7 +1585,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record by importing a scanned QR-bill that is saved as a text file.</source>
-          <target>Mettez à jour l’enregistrement de document entrant en important une QR-facture numérisée qui est enregistrée sous la forme d’un fichier texte.</target>
+          <target>Mettez à jour l’enregistrement de document entrant en important une QR-facture scannée qui est enregistrée sous la forme d’un fichier texte.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -2496,7 +2496,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 846326922 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address type used for all printed QR-Bills. Recommended value is Structured.</source>
-          <target>Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. La valeur recommandée est Structuré.</target>
+          <target>Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée : Structuré.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control AddressType - Property ToolTip</note>
         </trans-unit>

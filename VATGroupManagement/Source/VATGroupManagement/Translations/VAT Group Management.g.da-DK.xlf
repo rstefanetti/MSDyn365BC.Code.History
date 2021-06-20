@@ -1055,7 +1055,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web Service Access Key</source>
-          <target>Adgangsnøgle til webservice</target>
+          <target>Webtjenesteadgangsnøgle</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WebServiceAccessKey - Property Caption</note>
         </trans-unit>
@@ -1711,7 +1711,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 4146260181 - Control 3629137570 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web Service Access Key</source>
-          <target>Adgangsnøgle til webservice</target>
+          <target>Webtjenesteadgangsnøgle</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
@@ -2012,7 +2012,7 @@
         </trans-unit>
         <trans-unit id="Enum 3476321473 - EnumValue 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web Service Access Key</source>
-          <target>Adgangsnøgle til webservice</target>
+          <target>Webtjenesteadgangsnøgle</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type OnPrem - EnumValue WebServiceAccessKey - Property Caption</note>
         </trans-unit>
@@ -2030,7 +2030,7 @@
         </trans-unit>
         <trans-unit id="Enum 1905748320 - EnumValue 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web Service Access Key</source>
-          <target>Adgangsnøgle til webservice</target>
+          <target>Webtjenesteadgangsnøgle</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type Saas - EnumValue WebServiceAccessKey - Property Caption</note>
         </trans-unit>

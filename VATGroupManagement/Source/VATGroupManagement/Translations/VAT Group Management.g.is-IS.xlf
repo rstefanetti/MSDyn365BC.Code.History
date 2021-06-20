@@ -1432,7 +1432,7 @@
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 2792361305 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the codeunit ID.</source>
-          <target>Tilgreinir kenni codeunit.</target>
+          <target>Tilgreinir codeunit-kennið.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Content Codeunit ID - Property ToolTip</note>
         </trans-unit>

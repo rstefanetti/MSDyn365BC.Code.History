@@ -241,7 +241,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 841712208 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable or disable data encryption. Data encryption helps make sure that unauthorized users cannot read business data.</source>
-          <target state="translated">Aktivieren oder deaktivieren Sie die Datenverschlüsselung. Mit der Datenverschlüsselung wird sichergestellt, dass nicht autorisierte Benutzer keine Unternehmensdaten lesen können.</target>
+          <target state="translated">Aktivieren oder deaktivieren Sie die Datenverschlüsselung. Mit der Datenverschlüsselung wird sichergestellt, dass nicht autorisierte Benutzer keine Geschäftsdaten lesen können.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action EncryptionManagement - Property ToolTip</note>
         </trans-unit>

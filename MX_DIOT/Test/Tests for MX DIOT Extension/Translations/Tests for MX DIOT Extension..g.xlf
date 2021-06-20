@@ -8,20 +8,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Wizard Tests - NamedType RunAssistedSetupMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2536574206 - NamedType 1197536597" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Please provide a starting date.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType BlankStartingDateErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2536574206 - NamedType 664378464" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please provide an ending date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType BlankEndingDateErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2536574206 - NamedType 1197536597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please provide a starting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType BlankStartingDateErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2536574206 - NamedType 2922409529" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operations with non-mx Vendor cannot have Lease And Rent Type of operation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType LeaseAndRentNonMXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2536574206 - NamedType 1226924369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MX vendors must have RFC Number filled in.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType MissingRFCNoErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2536574206 - NamedType 4223821622" size-unit="char" translate="yes" xml:space="preserve">
           <source>The amount for Concept No. %1 for Vendor with No. = %2 is negative, which is not valid.</source>
@@ -32,11 +37,6 @@
           <source>There are no VAT Entries for configured concepts in the specified date range.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType NoDataMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2536574206 - NamedType 1226924369" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MX vendors must have RFC Number filled in.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MX DIOT UT - NamedType MissingRFCNoErr</note>
         </trans-unit>
       </group>
     </body>

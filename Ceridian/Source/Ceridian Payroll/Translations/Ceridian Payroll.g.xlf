@@ -8,90 +8,90 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1426161349 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Primary Key</source>
+        <trans-unit id="Table 1426161349 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Primary Key - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1426161349 - Field 129688762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>User Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field User Name - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Enabled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1426161349 - Field 204649572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Password Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Password Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1426161349 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1426161349 - Field 2575991450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service URL</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Service URL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1426161349 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enabled</source>
+        <trans-unit id="Table 1426161349 - Field 129688762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field Enabled - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2839219707 - NamedType 983527446" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ceridian Payroll Import</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType CeridianPayrollTok</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS Ceridian Payroll Setup - Field User Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 2839219707 - NamedType 3410486187" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType CashTok</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2839219707 - NamedType 398994405" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Earnings</source>
+        <trans-unit id="Codeunit 2839219707 - NamedType 983527446" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ceridian Payroll Import</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EarningsTok</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType CeridianPayrollTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2839219707 - NamedType 1721539336" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deductions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType DeductionsTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2839219707 - NamedType 398994405" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Earnings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EarningsTok</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2839219707 - NamedType 3449623633" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee Tax</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EmployeeTaxTok</note>
+        </trans-unit>
+        <trans-unit id="Page 692256314 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - NamedType EncryptionIsNotActivatedQst</note>
         </trans-unit>
         <trans-unit id="Page 692256314 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control General - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 692256314 - Control 2575991450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SFTP Server</source>
+        <trans-unit id="Page 692256314 - Control 2575460289 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the password that is used for your company's login to the Payroll service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Service URL - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 692256314 - Control 2575991450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the URL address of the Ceridian Payroll.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Service URL - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 692256314 - Control 129688762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the name of the user.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control User Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Password - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 692256314 - Control 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Password</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Password - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 692256314 - Control 2575460289 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the password that is used for your company's login to the Payroll service.</source>
+        <trans-unit id="Page 692256314 - Control 2575991450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL address of the Ceridian Payroll.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Password - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Service URL - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 692256314 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+        <trans-unit id="Page 692256314 - Control 2575991450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SFTP Server</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - NamedType EncryptionIsNotActivatedQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control Service URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 692256314 - Control 129688762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the user.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control User Name - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>

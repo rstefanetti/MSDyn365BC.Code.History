@@ -1415,7 +1415,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2162748742 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target>AMC Bank - Positive Pay instellen, om een Positive Pay-bestand te kunnen maken voor afgedrukte cheques.</target>
+          <target>AMC Banking - Positive Pay instellen, om een Positive Pay-bestand te kunnen maken voor afgedrukte cheques.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.5.1 - Property Caption</note>
         </trans-unit>
@@ -1427,7 +1427,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2062336292 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target>AMC Bank - Positive Pay instellen, om een Positive Pay-bestand te kunnen maken voor afgedrukte cheques.</target>
+          <target>AMC Banking - Positive Pay instellen, om een Positive Pay-bestand te kunnen maken voor afgedrukte cheques.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVPP - Property ToolTip</note>
         </trans-unit>

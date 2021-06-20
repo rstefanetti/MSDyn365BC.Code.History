@@ -5,7 +5,7 @@
       <group id="body">
         <trans-unit id="Table 3203079048 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Banks</source>
-          <target>Bankar AMC Service</target>
+          <target>AMC Banking Banks</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Property Caption</note>
         </trans-unit>

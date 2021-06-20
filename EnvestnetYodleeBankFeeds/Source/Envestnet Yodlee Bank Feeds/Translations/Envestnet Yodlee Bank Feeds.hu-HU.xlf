@@ -278,12 +278,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAccountLockedTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 3294252954" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
-          <target state="translated">Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAdditionalAuthInfoNeededTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3806022380" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Yodlee was unable to update your account as the online bank is temporarily down for maintenance. We apologize for the inconvenience. This problem is typically resolved in a few hours. Please try again later.</source>
           <target state="translated">Yodlee was unable to update your account as the online bank is temporarily down for maintenance. We apologize for the inconvenience. This problem is typically resolved in a few hours. Please try again later.</target>
@@ -301,12 +295,6 @@
           <target state="translated">Yodlee was unable to update your account because it has started providing data updates for this online bank, and it may take a few days to be successful. Please try again later.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshBankInBetaMaintenanceTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 2877570477" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
-          <target state="translated">Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshInvalidCredentialsTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3364155623" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Your request timed out due to technical reasons. Please try again.</source>

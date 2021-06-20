@@ -229,7 +229,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 1090569832 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View or update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
-          <target>Visualizzare o aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <target>Visualizzare o aggiornare la lista di banche presenti nel paese/area geografica che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action BankList - Property ToolTip</note>
         </trans-unit>
@@ -1085,7 +1085,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1014588582 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
-          <target>Aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <target>Aggiornare la lista di banche presenti nel paese/area geografica che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.4.1 - Property Caption</note>
         </trans-unit>
@@ -1097,7 +1097,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2565727729 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
-          <target>Aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <target>Aggiornare la lista di banche presenti nel paese/area geografica che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBank - Property ToolTip</note>
         </trans-unit>
@@ -1273,7 +1273,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1983323030 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
-          <target>Aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <target>Aggiornare la lista di banche presenti nel paese/area geografica che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control85 - Property Caption</note>
         </trans-unit>
@@ -1744,7 +1744,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Action 1520941751 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the bank list with any new banks in your country/region.</source>
-          <target>Aggiornare la lista delle banche con tutte le nuove banche presenti nel paese.</target>
+          <target>Aggiornare la lista delle banche con tutte le nuove banche presenti nel paese/area geografica.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Action UpdateBankList - Property ToolTip</note>
         </trans-unit>

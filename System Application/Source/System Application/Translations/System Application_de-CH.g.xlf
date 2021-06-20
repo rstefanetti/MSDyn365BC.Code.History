@@ -2585,6 +2585,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Satisfaction Survey Impl. - NamedType CouldNotModifySetupRecordTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1499095144 - NamedType 2096275478" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Cannot get earliest activate time. Last request time: %1, min delay time: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Satisfaction Survey Impl. - NamedType CannotGetEarliestActivateTimeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1499095144 - NamedType 297961906" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Cannot get next cache expiration time. Previous cache expiration time: %1, cache life time: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Satisfaction Survey Impl. - NamedType CannotGetNextExpireTimeTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1499095144 - NamedType 167498497" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>Too short time since last activation try.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3279,7 +3289,7 @@
         </trans-unit>
         <trans-unit id="Page 3970971575 - Control 315376271 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Excel worksheet is ready, and you can start classifying your data.  When you are done, run this guide again to import the updated Excel worksheet and apply the classifications.</source>
-          <target>Die Excel-Tabelle ist bereit, und Sie können mit dem Klassifizieren der Daten beginnen. Wenn Sie damit fertig sind, führen Sie diesen Vorgang erneut aus, um die aktualisierte Excel-Tabelle zu importieren und die Klassifizierungen zu übernehmen.</target>
+          <target>Das Excel-Arbeitsblatt ist bereit, und Sie können mit dem Klassifizieren der Daten beginnen. Wenn Sie damit fertig sind, führen Sie diesen Vorgang erneut aus, um das aktualisierte Excel-Arbeitsblatt zu importieren und die Klassifizierungen zu übernehmen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Data Classification Wizard - Control Control46 - Property InstructionalText</note>
         </trans-unit>

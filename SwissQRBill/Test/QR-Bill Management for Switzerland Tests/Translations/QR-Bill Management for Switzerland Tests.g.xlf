@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="QR-Bill Management for Switzerland Tests">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2628330781 - NamedType 1262718741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1% for the total amount</source>
+          <note from="Developer" annotates="general" priority="2">%1 - VAT percent (0..100)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test BillingInfo - NamedType VATDetailsTotalTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2628330781 - NamedType 2001546867" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1% on %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - VAT percent (0..100), %2 - amount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test BillingInfo - NamedType VATDetailsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2628330781 - NamedType 3248521621" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 to %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - start\from date, %2 - end\to date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test BillingInfo - NamedType DateRangeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2628330781 - NamedType 2777116673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1% discount for %2 days</source>
+          <note from="Developer" annotates="general" priority="2">%1 - percent value (0..100), %2 - number of days</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test BillingInfo - NamedType PaymentTermsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2628330781 - NamedType 1762402513" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unsupported billing format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test BillingInfo - NamedType UnsupportedFormatMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2984697900 - NamedType 2763560925" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no data to import.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test IncomingDoc - NamedType BlankedImportErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2984697900 - NamedType 2512026717" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR-Bill import has been successfully completed with warnings.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test IncomingDoc - NamedType ImportCompletedWithWarningsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2984697900 - NamedType 660654921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR-Bill import has been completed, but data parsing has been failed. See error section for more details.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test IncomingDoc - NamedType ImportFailedWithErrorsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2984697900 - NamedType 3332840676" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR-Bill import has been successfully completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test IncomingDoc - NamedType ImportCompletedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2622052985 - NamedType 3512084016" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 of %2 Document Types enabled for QR-Bills</source>
+          <note from="Developer" annotates="general" priority="2">%1, %2 - number of records</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test Print - NamedType DocumentTypesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2622052985 - NamedType 2218006611" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no document found to print QR-Bill with the specified filters. Only CHF and EUR currency is allowed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Test Print - NamedType BlankedOutputErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

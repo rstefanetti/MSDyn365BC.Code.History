@@ -579,7 +579,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1572167302" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The log does not contain any more details.</source>
-          <target state="translated">Loki ei sisällä muita lisätietoja.</target>
+          <target state="translated">Loki ei sisällä lisätietoja.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType NoDetailsMsg</note>
         </trans-unit>

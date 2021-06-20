@@ -389,7 +389,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1536358807 - NamedType 1262718741" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1% for the total amount</source>
-          <target state="translated">%1 % für den Gesamtbetrag</target>
+          <target state="translated">%1% für den Gesamtbetrag</target>
           <note from="Developer" annotates="general" priority="2">%1 - VAT percent (0..100)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Billing Info - NamedType VATDetailsTotalTxt</note>
         </trans-unit>
@@ -407,7 +407,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1536358807 - NamedType 2777116673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1% discount for %2 days</source>
-          <target state="translated">%1 % Rabatt für %2 Tage</target>
+          <target state="translated">%1% Rabatt für %2 Tage</target>
           <note from="Developer" annotates="general" priority="2">%1 - percent value (0..100), %2 - number of days</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Billing Info - NamedType PaymentTermsTxt</note>
         </trans-unit>
@@ -425,7 +425,7 @@
         </trans-unit>
         <trans-unit id="Page 1536358807 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Identifies the current record with billing information.</source>
-          <target state="translated">Kennzeichnet den aktuellen Datensatz mit Abrechnungsinformationen.</target>
+          <target state="translated">Erkennt den aktuellen Datensatz mit Abrechnungsinformationen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Billing Info - Control Code - Property ToolTip</note>
         </trans-unit>
@@ -803,7 +803,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 4240745954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the journal batch to use for payment journals or purchase journals created from QR-bills through incoming documents.</source>
-          <target state="translated">Legt den Erfassungsjournalnamen fest, die für Zahlungsausgangs-Erfassungsjournale oder Einkaufserfassungsjournale verwendet werden soll, die aus QR-Rechnungen oder eingehenden Belegen erstellt wurden.</target>
+          <target state="translated">Legt den Erfassungsjournalnamen fest, der für Zahlungsausgangs-Erfassungsjournale oder Einkaufserfassungsjournale verwendet werden soll, die aus QR-Rechnungen oder eingehenden Belegen erstellt wurden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control PaymentJnlBatch - Property ToolTip</note>
         </trans-unit>
@@ -989,13 +989,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 2655798072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blanked reference number is expected for reference type NON.</source>
-          <target state="translated">Geleerte Referenznummer wird erwartet für Referenztyp NON</target>
+          <target state="translated">Geleerte Referenznummer wird erwartet für Referenzart NON.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType BlankedReferenceExpectedLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 3609863065" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Address type "S" or "K" is not found.</source>
-          <target state="translated">Adresstyp 'S' oder 'K' nicht gefunden.</target>
+          <target state="translated">Adressart 'S' oder 'K' nicht gefunden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType AddressTypeNotFoundLbl</note>
         </trans-unit>
@@ -1025,13 +1025,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 1977100052 - NamedType 3103212426" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 of %2 Payment Methods enabled with QR-Bill Layout</source>
-          <target state="translated">%1 von %2 Zahlungsformen für QR-Rechnungslayout aktiviert</target>
+          <target state="translated">%1 von %2 Zahlungsmethoden mit QR-Rechnungslayout aktiviert</target>
           <note from="Developer" annotates="general" priority="2">%1, %2 - number of records</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Mgt. - NamedType PaymentMethodsTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1977100052 - NamedType 3512084016" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 of %2 Document Types enabled for QR-Bills</source>
-          <target state="translated">%1 von %2 Dokumenttypen für QR-Rechnungen aktiviert</target>
+          <target state="translated">%1 von %2 Belegtypen für QR-Rechnungen aktiviert</target>
           <note from="Developer" annotates="general" priority="2">%1, %2 - number of records</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Mgt. - NamedType DocumentTypesTxt</note>
         </trans-unit>
@@ -1312,7 +1312,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 2526402753 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount including VAT for the whole document.</source>
-          <target state="translated">Gibt den gesamten Nettobetrag, inkl. MWST, für den gesamte Beleg an.</target>
+          <target state="translated">Gibt den gesamten Nettobetrag, inkl. MWST, für den gesamten Beleg an.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1883,7 +1883,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1370367660 - NamedType 1787158162" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show the vendor ledger entry.</source>
-          <target state="translated">Den Kreditorenposten anzeigen.</target>
+          <target state="translated">Den Kreditor-Sachposten anzeigen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Purchases - NamedType ShowVendorLedgerEntryTxt</note>
         </trans-unit>
@@ -2289,7 +2289,7 @@
         </trans-unit>
         <trans-unit id="Page 2041862403 - Control 4052036157 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the selected document description.</source>
-          <target state="translated">Gibt die ausgewählte Dokumentbeschreibung an.</target>
+          <target state="translated">Gibt die ausgewählte Belegbeschreibung an.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Print Select Doc - Control CustomerLedgerEntryDescription - Property ToolTip</note>
         </trans-unit>
@@ -2583,7 +2583,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2477987260 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-BILL SETUP (STEP 6 OF 6): RECEIVING QR-BILLS</source>
-          <target state="translated">EINRICHTUNG DER QR-RECHNUNG (SCHRITT 6 VON 6) EMPFANGEN VON QR-RECHNUNGEN</target>
+          <target state="translated">EINRICHTUNG DER QR-RECHNUNG (SCHRITT 6 VON 6): EMPFANGEN VON QR-RECHNUNGEN</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control IncomingDocDescription - Property Caption</note>
         </trans-unit>
@@ -2601,7 +2601,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 4240745954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the journal batch to use for payment journals or purchase journals created from QR-bills through incoming documents.</source>
-          <target state="translated">Legt den Erfassungsjournalnamen fest, die für Zahlungsausgangs-Erfassungsjournale oder Einkaufserfassungsjournale verwendet werden soll, die aus QR-Rechnungen oder eingehenden Belegen erstellt wurden.</target>
+          <target state="translated">Legt den Erfassungsjournalnamen fest, der für Zahlungsausgangs-Erfassungsjournale oder Einkaufserfassungsjournale verwendet werden soll, die aus QR-Rechnungen oder eingehenden Belegen erstellt wurden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control PaymentJnlBatch - Property ToolTip</note>
         </trans-unit>

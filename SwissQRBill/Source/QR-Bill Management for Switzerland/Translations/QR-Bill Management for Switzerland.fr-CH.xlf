@@ -107,13 +107,13 @@
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 3258778244 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Street Or Address Line 1</source>
-          <target state="translated">Rue ou ligne d'adresse 1</target>
+          <target state="translated">Rue ou ligne d’adresse 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field Creditor Street Or AddrLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 3471660999 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Building Number Or Address Line 2</source>
-          <target state="translated">Numéro de bâtiment ou ligne d'adresse 2</target>
+          <target state="translated">Numéro de bâtiment ou ligne d’adresse 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field Creditor BuildNo Or AddrLine2 - Property Caption</note>
         </trans-unit>
@@ -149,13 +149,13 @@
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 2350864687 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Street Or Address Line 1</source>
-          <target state="translated">Rue ou ligne d'adresse 1</target>
+          <target state="translated">Rue ou ligne d’adresse 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field UCreditor Street Or AddrLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 230250676 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Building Number Or Address Line 2</source>
-          <target state="translated">Numéro de bâtiment ou ligne d'adresse 2</target>
+          <target state="translated">Numéro de bâtiment ou ligne d’adresse 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field UCreditor BuildNo Or AddrLine2 - Property Caption</note>
         </trans-unit>
@@ -191,13 +191,13 @@
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 1766368289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Street Or Address Line 1</source>
-          <target state="translated">Rue ou ligne d'adresse 1</target>
+          <target state="translated">Rue ou ligne d’adresse 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field UDebtor Street Or AddrLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3123205156 - Field 2040024118 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Building Number Or Address Line 2</source>
-          <target state="translated">Numéro de bâtiment ou ligne d'adresse 2</target>
+          <target state="translated">Numéro de bâtiment ou ligne d’adresse 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Buffer - Field UDebtor BuildNo Or AddrLine2 - Property Caption</note>
         </trans-unit>
@@ -389,7 +389,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1536358807 - NamedType 1262718741" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1% for the total amount</source>
-          <target state="translated">%1 % pour le montant total.</target>
+          <target state="translated">%1% pour le montant total.</target>
           <note from="Developer" annotates="general" priority="2">%1 - VAT percent (0..100)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Billing Info - NamedType VATDetailsTotalTxt</note>
         </trans-unit>
@@ -407,7 +407,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1536358807 - NamedType 2777116673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1% discount for %2 days</source>
-          <target state="translated">%1 % de remise pour %2 jours</target>
+          <target state="translated">%1% de remise pour %2 jours</target>
           <note from="Developer" annotates="general" priority="2">%1 - percent value (0..100), %2 - number of days</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Billing Info - NamedType PaymentTermsTxt</note>
         </trans-unit>
@@ -425,7 +425,7 @@
         </trans-unit>
         <trans-unit id="Page 1536358807 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Identifies the current record with billing information.</source>
-          <target state="translated">Identifie l'enregistrement actuel avec informations de facturation.</target>
+          <target state="translated">Identifie l’enregistrement actuel avec informations de facturation.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Billing Info - Control Code - Property ToolTip</note>
         </trans-unit>
@@ -533,13 +533,13 @@
         </trans-unit>
         <trans-unit id="Page 3265151286 - Control 1294946424 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN type. Use QR-IBAN if you have been issued a QR-IBAN number from your bank and use this in your Company Information.</source>
-          <target state="translated">Spécifie le type d'IBAN. Utilisez QR-IBAN si votre banque vous a attribué un numéro QR-IBAN et utilisez-le dans les informations sur votre société.</target>
+          <target state="translated">Spécifie le type d’IBAN. Utilisez QR-IBAN si votre banque vous a attribué un numéro QR-IBAN et utilisez-le dans les informations sur votre société.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Layout - Control IBANType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3265151286 - Control 2913489531 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-bIll reference type. Must be set according to the IBAN Type. Use a QR reference if you are using QR-IBAN type.</source>
-          <target state="translated">Spécifie le type de référence QR-facture. Doit être défini en fonction du type d'IBAN. Utilisez une référence QR si vous utilisez le type QR-IBAN.</target>
+          <target state="translated">Spécifie le type de référence de la QR-facture. Doit être défini en fonction du type d’IBAN. Utilisez une référence QR si vous utilisez le type QR-IBAN.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Layout - Control Payment Reference Type - Property ToolTip</note>
         </trans-unit>
@@ -629,7 +629,7 @@
         </trans-unit>
         <trans-unit id="Enum 70102863 - EnumValue 3088327135 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issued Finance Charge Memo</source>
-          <target state="translated">Facture d'intérêts émise</target>
+          <target state="translated">Facture d’intérêts émises</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Swiss QR-Bill Reports - EnumValue Issued Finance Charge Memo - Property Caption</note>
         </trans-unit>
@@ -653,7 +653,7 @@
         </trans-unit>
         <trans-unit id="Table 726691145 - Field 1784136230 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>German Umlaut Chars Encoding Mode</source>
-          <target state="translated">Mode d'encodage des caractères umlaut allemands</target>
+          <target state="translated">Mode d’encodage des caractères umlaut allemands</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Setup - Field Umlaut Chars Encode Mode - Property Caption</note>
         </trans-unit>
@@ -719,25 +719,25 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 3688674258 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address type used for all printed QR-bills. Recommended value is Structured.</source>
-          <target state="translated">Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée : Structuré.</target>
+          <target state="translated">Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée: Structuré.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control Address Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 1097457822 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the German umlaut characters encoding mode. "Single" mode: "Ä" to "A". "Double" mode: "Ä" to "Ae". The recommended value is Double.</source>
-          <target state="translated">Spécifie le mode d'encodage des caractères umlaut allemands. Mode « simple » : « Ä » en « A ». Mode « double » : « Ä » en « Ae ». La valeur recommandée est « Double ».</target>
+          <target state="translated">Spécifie le mode d’encodage des caractères umlaut allemands. Mode «simple»: «Ä» en «A». Mode «double»: «Ä» en «Ae». La valeur recommandée est «Double».</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control UmlautCharsEncodeMode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 3984686947 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default QR-bill layout. It is used for issuing QR-bills for documents that have not been enabled for QR-bills via a payment method but should still have a QR-bill printed.</source>
-          <target state="translated">Spécifie la mise en page par défaut de la QR-facture. Elle est utilisée pour l'émission des QR-factures pour des documents qui n'ont pas été activés pour des QR-factures via un mode de paiement, mais qui doivent quand même avoir une QR-facture imprimée.</target>
+          <target state="translated">Spécifie la mise en page par défaut de la QR-facture. Elle est utilisée pour l’émission des QR-factures pour des documents qui n’ont pas été activés pour des QR-factures via un mode de paiement, mais qui doivent quand même avoir une QR-facture imprimée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control DefaultQRBillLayout - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 2354417969 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the last used payment reference number. This is an integer value used as a source for calculation and printing the payment reference on the QR-Bill report and in the QR code.</source>
-          <target state="translated">Spécifie le dernier numéro de référence de paiement utilisé. Il s'agit d'une valeur entière utilisée comme source pour le calcul et l'impression de la référence de paiement sur l'état QR-facture et dans le code QR.</target>
+          <target state="translated">Spécifie le dernier numéro de référence de paiement utilisé. Il s’agit d’une valeur entière utilisée comme source pour le calcul et l’impression de la référence de paiement sur l’état QR-facture et dans le code QR.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control LastUsedReferenceNo - Property ToolTip</note>
         </trans-unit>
@@ -749,7 +749,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 3842936097 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-IBAN value of your primary bank account. This identifies the bank account to which the receiver of your QR-bills will transfer money.</source>
-          <target state="translated">Spécifie la valeur QR-IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l'argent.</target>
+          <target state="translated">Spécifie la valeur QR-IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l’argent.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control QRIBAN - Property ToolTip</note>
         </trans-unit>
@@ -761,7 +761,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 1176583840 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN value of your primary bank account. This identifies the bank account to which the receiver of your QR-bills will transfer money.</source>
-          <target state="translated">Spécifie la valeur IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l'argent.</target>
+          <target state="translated">Spécifie la valeur IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l’argent.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control IBAN - Property ToolTip</note>
         </trans-unit>
@@ -797,7 +797,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 2081513550 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the journal template to use for payment journals or purchase journals created from QR-bills through incoming documents.</source>
-          <target state="translated">Spécifie le modèle de feuille à utiliser pour les feuilles paiement ou les feuilles achat créées à partir des QR-factures via les documents entrants.</target>
+          <target state="translated">Spécifie le modèle feuille à utiliser pour les feuilles paiement ou les feuilles achat créées à partir des QR-factures via les documents entrants.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control PaymentJnlTemplate - Property ToolTip</note>
         </trans-unit>
@@ -947,7 +947,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 1979560524" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Failed to parse amount value.</source>
-          <target state="translated">Échec de l'analyse de la valeur du montant.</target>
+          <target state="translated">Échec de l’analyse de la valeur du montant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType ParseAmountFailedLbl</note>
         </trans-unit>
@@ -977,7 +977,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 4094403330" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Reference must be 27 chars length.</source>
-          <target state="translated">Le référence QR doit comprendre 27 caractères.</target>
+          <target state="translated">La référence QR doit comprendre 27 caractères.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType QRReferenceLengthLbl</note>
         </trans-unit>
@@ -995,7 +995,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 3609863065" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Address type "S" or "K" is not found.</source>
-          <target state="translated">Type d'adresse « S » ou « K » introuvable.</target>
+          <target state="translated">Type d’adresse «S» ou «K» introuvable.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType AddressTypeNotFoundLbl</note>
         </trans-unit>
@@ -1019,7 +1019,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 3098262022" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>File line %1: %2</source>
-          <target state="translated">Ligne fichier %1 : %2</target>
+          <target state="translated">Ligne fichier %1: %2</target>
           <note from="Developer" annotates="general" priority="2">%1 - line number, %2 - line text message</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType FileLineLbl</note>
         </trans-unit>
@@ -1043,7 +1043,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2763560925" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is no data to import.</source>
-          <target state="translated">Il n'y a aucune donnée à importer.</target>
+          <target state="translated">Il n’y a aucune donnée à importer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType BlankedImportErr</note>
         </trans-unit>
@@ -1061,31 +1061,31 @@
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 3360002383" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The document has already been created. Do you want to open it?</source>
-          <target state="translated">Le document a déjà été créé. Souhaitez-vous l'ouvrir ?</target>
+          <target state="translated">Le document a déjà été créé. Souhaitez-vous l’ouvrir?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ConfirmNavigateDocAlreadyCreatedQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2569920499" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import has been successfully completed.</source>
-          <target state="translated">L'importation de la QR-facture s'est terminée avec succès.</target>
+          <target state="translated">L’importation de la QR-facture s’est terminée avec succès.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportCompletedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2240135102" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import has been successfully completed with warnings.</source>
-          <target state="translated">L'importation de la QR-facture s'est terminée avec des avertissements.</target>
+          <target state="translated">L’importation de la QR-facture s’est terminée avec des avertissements.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportCompletedWithWarningsMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2006026321" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import has been completed, but data parsing has been failed.</source>
-          <target state="translated">L'importation de la QR-facture est terminée, mais l'analyse des données a échoué.</target>
+          <target state="translated">L’importation de la QR-facture est terminée, mais l’analyse des données a échoué.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportFailedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 57448362" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import has been completed, but data parsing has been failed. See error section for more details.</source>
-          <target state="translated">L'importation de la QR-facture est terminée, mais l'analyse des données a échoué. Voir la section des erreurs pour plus d'informations.</target>
+          <target state="translated">L’importation de la QR-facture est terminée, mais l’analyse des données a échoué. Voir la section des erreurs pour plus d’informations.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportFailedWithErrorsMsg</note>
         </trans-unit>
@@ -1214,7 +1214,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 2603816227 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-bill attachment.</source>
-          <target state="translated">Spécifie la pièce jointe de la QR-facture.</target>
+          <target state="translated">Spécifie le document joint à la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1228,7 +1228,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 3196255215 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the record, document, journal line, or ledger entry that is linked to the QR-bill.</source>
-          <target state="translated">Spécifie l'enregistrement, le document, la ligne feuille ou l'écriture comptable lié(e) à la QR-facture.</target>
+          <target state="translated">Spécifie l’enregistrement, le document, la ligne feuille ou l’écriture comptable lié(e) à la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1242,7 +1242,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 454596704 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when the incoming document line was created.</source>
-          <target state="translated">Spécifie la date de création de la ligne document entrant.</target>
+          <target state="translated">Indique la date de création de la ligne document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1277,7 +1277,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 310448217 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when the incoming document line was last modified.</source>
-          <target state="translated">Spécifie la date de la dernière modification de la ligne document entrant.</target>
+          <target state="translated">Indique la date de la dernière modification de la ligne document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1291,14 +1291,14 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 3930846827 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the document or journal line that was created for this incoming document has been posted.</source>
-          <target state="translated">Spécifie si le document ou la ligne feuille créé(e) pour ce document entrant a été enregistré(e).</target>
+          <target state="translated">Spécifie si le document ou la ligne feuille créé(e) pour ce document entrant a été validé(e).</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 1764449511 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when the related document or journal line was posted.</source>
-          <target state="translated">Spécifie à quel moment le document ou la ligne feuille connexe a été enregistré(e).</target>
+          <target state="translated">Spécifie à quel moment le document ou la ligne feuille connexe a été validée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1312,7 +1312,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 2526402753 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount including VAT for the whole document.</source>
-          <target state="translated">Spécifie le montant, TVA comprise, pour l'ensemble du document.</target>
+          <target state="translated">Spécifie le montant, TVA comprise, pour l’ensemble du document.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1389,7 +1389,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 1404488444 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the VAT registration number of the vendor on the incoming document.</source>
-          <target state="translated">Spécifie le numéro d'identification intracommunautaire du fournisseur sur le document entrant.</target>
+          <target state="translated">Spécifie le numéro d’identification intracommunautaire du fournisseur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1410,14 +1410,14 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 3075661710 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address line 1 of the vendor on the incoming document.</source>
-          <target state="translated">Spécifie la ligne d'adresse 1 du fournisseur sur le document entrant.</target>
+          <target state="translated">Spécifie la ligne d’adresse 1 du fournisseur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 1162571859 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address line 2 of the vendor on the incoming document.</source>
-          <target state="translated">Spécifie la ligne d'adresse 2 du fournisseur sur le document entrant.</target>
+          <target state="translated">Spécifie la ligne d’adresse 2 du fournisseur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1459,14 +1459,14 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 4017945059 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address line 1 of the debitor on the incoming document.</source>
-          <target state="translated">Spécifie la ligne d'adresse 1 du débiteur sur le document entrant.</target>
+          <target state="translated">Spécifie la ligne d’adresse 1 du débiteur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 1636067614 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address line 2 of the debitor on the incoming document.</source>
-          <target state="translated">Spécifie la ligne d'adresse 2 du débiteur sur le document entrant.</target>
+          <target state="translated">Spécifie la ligne d’adresse 2 du débiteur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1487,7 +1487,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 1926354757 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the country of the debitor on the incoming document.</source>
-          <target state="translated">Spécifie la pays du débiteur sur le document entrant.</target>
+          <target state="translated">Spécifie le pays du débiteur sur le document entrant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -1763,7 +1763,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1370367660 - NamedType 553602465" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import was cancelled.</source>
-          <target state="translated">L'importation de la QR-facture a été annulée.</target>
+          <target state="translated">L’importation de la QR-facture a été annulée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Purchases - NamedType ImportCancelledMsg</note>
         </trans-unit>
@@ -1823,7 +1823,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1370367660 - NamedType 4222375049" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>A vendor bank account with IBAN or QR-IBAN\%1\was not found.\\Do you want to create a new vendor bank account?</source>
-          <target state="translated">Aucun compte bancaire fournisseur avec IBAN ou QR-IBAN\%1\n'a été trouvé.\\Voulez-vous créer un nouveau compte bancaire fournisseur ?</target>
+          <target state="translated">Aucun compte bancaire fournisseur avec IBAN ou QR-IBAN\%1\n’a été trouvé.\\Voulez-vous créer un nouveau compte bancaire fournisseur?</target>
           <note from="Developer" annotates="general" priority="2">%1 - IBAN value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Purchases - NamedType PurhDocVendBankAccountQst</note>
         </trans-unit>
@@ -1931,7 +1931,7 @@
         </trans-unit>
         <trans-unit id="Page 204813877 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create a new vendor bank account</source>
-          <target state="translated">Créez un nouveau compte bancaire fournisseur</target>
+          <target state="translated">Créez un compte bancaire fournisseur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Create Vend Bank - Property Caption</note>
         </trans-unit>
@@ -2019,13 +2019,13 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 1859002777 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the language code for printing QR-bill captions.</source>
-          <target state="translated">Spécifie le code langue pour l'impression des légendes de la QR-facture.</target>
+          <target state="translated">Spécifie le code langue pour l’impression des légendes de la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control LanguageCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 1294946424 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN type.</source>
-          <target state="translated">Spécifie le type d'IBAN.</target>
+          <target state="translated">Spécifie le type d’IBAN.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control IBANType - Property ToolTip</note>
         </trans-unit>
@@ -2043,7 +2043,7 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 414657639 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the currency code.</source>
-          <target state="translated">Spécifie le code monnaie.</target>
+          <target state="translated">Spécifie le code devise.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control CurrencyField - Property ToolTip</note>
         </trans-unit>
@@ -2067,13 +2067,13 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 4244153623 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the creditor's street or address line 1.</source>
-          <target state="translated">Spécifie la rue ou la ligne d'adresse 1 du créditeur.</target>
+          <target state="translated">Spécifie la rue ou la ligne d’adresse 1 du créditeur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control CreditorAddress1Field - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 3359059002 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the creditor's building number or address line 2.</source>
-          <target state="translated">Spécifie le numéro de bâtiment ou la ligne d'adresse 2 du créditeur.</target>
+          <target state="translated">Spécifie le numéro de bâtiment ou la ligne d’adresse 2 du créditeur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control CreditorAddress2Field - Property ToolTip</note>
         </trans-unit>
@@ -2103,7 +2103,7 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 3530757584 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the creditor's IBAN.</source>
-          <target state="translated">Spécifie l'IBAN du créditeur.</target>
+          <target state="translated">Spécifie l’IBAN du créditeur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control CreditorIBAN - Property ToolTip</note>
         </trans-unit>
@@ -2139,13 +2139,13 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 3313201241 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the debitor's street or address line 1.</source>
-          <target state="translated">Spécifie la rue ou la ligne d'adresse 1 du débiteur.</target>
+          <target state="translated">Spécifie la rue ou la ligne d’adresse 1 du débiteur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control UltimateDebitorAddress1Field - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4176324925 - Control 2511534712 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the debitor's building number or address line 2.</source>
-          <target state="translated">Spécifie le numéro de bâtiment ou la ligne d'adresse 2 du débiteur.</target>
+          <target state="translated">Spécifie le numéro de bâtiment ou la ligne d’adresse 2 du débiteur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Control UltimateDebitorAddress2Field - Property ToolTip</note>
         </trans-unit>
@@ -2229,7 +2229,7 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Action 4232171803 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens the page to select a posted document and set it up as a source for QR-bill printing.</source>
-          <target state="translated">Ouvre la page permettant de sélectionner un document enregistré et de le paramétrer comme source pour l'impression de la QR-facture.</target>
+          <target state="translated">Ouvre la page permettant de sélectionner un document enregistré et de le paramétrer comme source pour l’impression de la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Action FromDocument - Property ToolTip</note>
         </trans-unit>
@@ -2241,7 +2241,7 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - Action 2044816824 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enables editing of the document that has already been printed and has been assigned a reference number.</source>
-          <target state="translated">Permet la modification du document qui a déjà été imprimé et qui s'est vu attribuer un numéro de référence.</target>
+          <target state="translated">Permet la modification du document qui a déjà été imprimé et qui s’est vu attribuer un numéro de référence.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - Action EditPrinted - Property ToolTip</note>
         </trans-unit>
@@ -2259,7 +2259,7 @@
         </trans-unit>
         <trans-unit id="Page 4176324925 - NamedType 3278346697" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The selected source doument is already printed and has an assigned reference number. Only additinal information can be edited. Use Edit Printed action to edit and print the document with a new reference number.</source>
-          <target state="translated">Le document source sélectionné est déjà imprimé et un numéro de référence lui a été attribué. Seules les informations supplémentaires peuvent être modifiées. Utilisez l'action Modifier impression pour modifier et imprimer le document avec un nouveau numéro de référence.</target>
+          <target state="translated">Le document source sélectionné est déjà imprimé et un numéro de référence lui a été attribué. Seules les informations supplémentaires peuvent être modifiées. Utilisez l’action Modifier impression pour modifier et imprimer le document avec un nouveau numéro de référence.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Manual Print - NamedType AlreadyPrintedNotifyLbl</note>
         </trans-unit>
@@ -2349,13 +2349,13 @@
         </trans-unit>
         <trans-unit id="Page 2041862403 - Control 4139731102 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issued Finance Charge Memo</source>
-          <target state="translated">Facture d'intérêts émise</target>
+          <target state="translated">Facture d’intérêts émises</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Print Select Doc - Control IssuedFinChargeMemoHeaderNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2041862403 - Control 4139731102 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the document number of the selected issued finance charge memo.</source>
-          <target state="translated">Spécifie le numéro de document de la facture d'intérêts émise sélectionnée.</target>
+          <target state="translated">Spécifie le numéro de document de la facture d’intérêts émise sélectionnée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Print Select Doc - Control IssuedFinChargeMemoHeaderNo - Property ToolTip</note>
         </trans-unit>
@@ -2373,7 +2373,7 @@
         </trans-unit>
         <trans-unit id="Page 2041862403 - Control 693291367 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the selected customer ledger entry.</source>
-          <target state="translated">Spécifie l'écriture comptable client sélectionnée.</target>
+          <target state="translated">Spécifie l’écriture comptable client sélectionnée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Print Select Doc - Control CustomerLedgerEntry - Property ToolTip</note>
         </trans-unit>
@@ -2439,7 +2439,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2962967730 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill Management for Switzerland is replacing the existing multiplicity of payment slips in Switzerland and will increase efficiency and simplify of payment handling. This set of features for Dynamics 365 Business Central will enable both issuer and receivers of QR-bills to efficiently manage bills and payments. If you do not want to set this up right now, close this page. If you continue with the setup but get interrupted during the process, you can always close the assisted setup and resume where you left. Your setup choices will be saved during the process, even if you close.</source>
-          <target state="translated">La gestion des QR-factures pour la Suisse remplace la multiplicité actuelle des bordereaux de paiement en Suisse et permettra d'accroître l'efficacité et de simplifier le traitement des paiements. Cet ensemble de fonctionnalités pour Dynamics 365 Business Central permettra à l'émetteur et aux destinataires des QR-factures de gérer efficacement les factures et les paiements. Si vous ne souhaitez pas paramétrer cette fonctionnalité maintenant, fermez cette page. Si vous commencez le paramétrage mais que vous êtes interrompu pendant le processus, vous pouvez toujours fermer la configuration assistée et reprendre là où vous en étiez. Vos choix de configuration seront sauvegardés pendant la procédure, même si vous fermez.</target>
+          <target state="translated">La gestion des QR-factures pour la Suisse remplace la multiplicité actuelle des bordereaux de paiement en Suisse et permettra d’accroître l’efficacité et de simplifier le traitement des paiements. Cet ensemble de fonctionnalités pour Dynamics 365 Business Central permettra à l’émetteur et aux destinataires des QR-factures de gérer efficacement les factures et les paiements. Si vous ne souhaitez pas paramétrer cette fonctionnalité maintenant, fermez cette page. Si vous commencez le paramétrage mais que vous êtes interrompu pendant le processus, vous pouvez toujours fermer la configuration assistée et reprendre là où vous en étiez. Vos choix de configuration seront sauvegardés pendant la procédure, même si vous fermez.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control StartDescription - Property InstructionalText</note>
         </trans-unit>
@@ -2451,13 +2451,13 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 3868861290 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For QR-bills to be correctly generated and issued, certain information must be set up in the system, starting with basic information on the Company Information page. Your company’s address is important to verify and is listed below. You must also specify the QR-IBAN issued to you and save this in your company information by entering it below.</source>
-          <target state="translated">Pour que les QR-factures soient correctement générées et émises, certaines informations doivent être paramétrées dans le système, à commencer par les informations de base sur la page Informations société. L'adresse de votre société est importante à vérifier et est indiquée ci-dessous. Vous devez également spécifier le QR-IBAN qui vous a été délivré et l'enregistrer dans les informations société en l'entrant ci-dessous.</target>
+          <target state="translated">Pour que les QR-factures soient correctement générées et émises, certaines informations doivent être paramétrées dans le système, à commencer par les informations de base sur la page Informations société. L’adresse de votre société est importante à vérifier et est indiquée ci-dessous. Vous devez également spécifier le QR-IBAN qui vous a été délivré et l’enregistrer dans les informations société en l’entrant ci-dessous.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control CompanySetupDescription - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 3842936097 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-IBAN value of your primary bank account. This identifies the bank account to which the receiver of your QR-bills will transfer money.</source>
-          <target state="translated">Spécifie la valeur QR-IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l'argent.</target>
+          <target state="translated">Spécifie la valeur QR-IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l’argent.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control QRIBAN - Property ToolTip</note>
         </trans-unit>
@@ -2469,7 +2469,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 1176583840 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN value of your primary bank account. This identifies the bank account to which the receiver of your QR-bills will transfer money.</source>
-          <target state="translated">Spécifie la valeur IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l'argent.</target>
+          <target state="translated">Spécifie la valeur IBAN de votre compte bancaire principal. Elle identifie le compte bancaire sur lequel le destinataire de vos QR-factures transférera l’argent.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control IBAN - Property ToolTip</note>
         </trans-unit>
@@ -2499,19 +2499,19 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 3570068847 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Here you must specify important information regarding the display of addresses on QR-bills. The Address Type field determines how address fields are shown. The recommended value is Structured. German Umlaut Chars Encoding determines how umlaut characters are show and saved in the QR code and, ultimately, shown to the receiver who scans the QR-bill. The recommended value it Double.</source>
-          <target state="translated">Vous devez spécifier ici les informations importantes concernant l'affichage des adresses sur les QR-factures. Le champ Type d'adresse détermine la manière dont les champs d'adresse sont affichés. La valeur recommandée est Structuré. Encodage des caractères Umlaut allemands détermine la manière dont les caractères umlaut sont affichés et enregistrés dans le code QR et, finalement, présentés au destinataire qui scanne la QR-facture. La valeur recommandée est Double.</target>
+          <target state="translated">Vous devez spécifier ici les informations importantes concernant l’affichage des adresses sur les QR-factures. Le champ Type d’adresse détermine la manière dont les champs d’adresse sont affichés. La valeur recommandée est Structuré. Encodage des caractères Umlaut allemands détermine la manière dont les caractères umlaut sont affichés et enregistrés dans le code QR et, finalement, présentés au destinataire qui scanne la QR-facture. La valeur recommandée est Double.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control BasicFieldsDescription - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 846326922 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address type used for all printed QR-Bills. Recommended value is Structured.</source>
-          <target state="translated">Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée : Structuré.</target>
+          <target state="translated">Spécifie le type d’adresse utilisé pour toutes les QR-factures imprimées. Valeur recommandée: Structuré.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control AddressType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 1097457822 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the German umlaut characters encoding mode. "Single" mode: "Ä" to "A". "Double" mode: "Ä" to "Ae". Recommended value is Double.</source>
-          <target state="translated">Spécifie le mode d'encodage des caractères umlaut allemands. Mode « simple » : « Ä » en « A ». Mode « double » : « Ä » en « Ae ». La valeur recommandée est « Double ».</target>
+          <target state="translated">Spécifie le mode d’encodage des caractères umlaut allemands. Mode «simple»: «Ä» en «A». Mode «double»: «Ä» en «Ae». La valeur recommandée est «Double».</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control UmlautCharsEncodeMode - Property ToolTip</note>
         </trans-unit>
@@ -2523,13 +2523,13 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2403440321 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select the default layout of the QR-bill. It is used for issuing QR-bills for documents that have not been enabled for QR-bills via a payment method (the next step in this guide) but should still have a QR-bill printed. The recommended value is DEFAULT QR-IBAN. You can also create other QR-Bill layouts and select one of those.</source>
-          <target state="translated">Spécifie la mise en page par défaut de la QR-facture. Elle est utilisée pour l'émission des QR-factures pour des documents qui n'ont pas été activés pour des QR-factures via un mode de paiement (prochaine étape de ce guide), mais qui doivent quand même avoir une QR-facture imprimée. La valeur recommandée est QR-IBAN PAR DÉFAUT. Vous pouvez également créer d'autres mises en page de QR-facture et en sélectionner une.</target>
+          <target state="translated">Sélectionnez la mise en page par défaut de la QR-facture. Elle est utilisée pour l’émission des QR-factures pour des documents qui n’ont pas été activés pour des QR-factures via un mode de paiement (prochaine étape de ce guide), mais qui doivent quand même avoir une QR-facture imprimée. La valeur recommandée est QR-IBAN PAR DÉFAUT. Vous pouvez également créer d’autres mises en page de QR-facture et en sélectionner une.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control DefaultLayoutDescription - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 1410559283 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default QR-bill layout. It is used for issuing QR-bills for documents that have not been enabled for QR-bills via a payment method but should still have a QR-bill printed.</source>
-          <target state="translated">Spécifie la mise en page par défaut de la QR-facture. Elle est utilisée pour l'émission des QR-factures pour des documents qui n'ont pas été activés pour des QR-factures via un mode de paiement, mais qui doivent quand même avoir une QR-facture imprimée.</target>
+          <target state="translated">Spécifie la mise en page par défaut de la QR-facture. Elle est utilisée pour l’émission des QR-factures pour des documents qui n’ont pas été activés pour des QR-factures via un mode de paiement, mais qui doivent quand même avoir une QR-facture imprimée.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control DefaultLayout - Property ToolTip</note>
         </trans-unit>
@@ -2589,13 +2589,13 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2477987260 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You scan or import QR-bills using the Incoming Documents functionality. An incoming document will be created when you scan or import a QR-bill. From the incoming document, you can create a purchase journal that will post the purchase/invoice issued by the vendor. You can use a certain journal template and journal batch for posting these journals. Select the template and batch here.</source>
-          <target state="translated">Vous pouvez scanner ou importer des QR-factures en utilisant la fonctionnalité Documents entrants. Un document entrant sera créé lorsque vous scannez ou importez une QR-bill. À partir du document entrant, vous pouvez créer une feuille achat qui enregistrera l'achat/la facture émis(e) par le fournisseur. Vous pouvez utiliser un modèle feuille et un lot feuille spécifiques pour l'enregistrement de ces feuilles. Sélectionnez le modèle et le lot ici.</target>
+          <target state="translated">Vous pouvez scanner ou importer des QR-factures en utilisant la fonctionnalité Documents entrants. Un document entrant sera créé lorsque vous scannez ou importez une QR-facture. À partir du document entrant, vous pouvez créer une feuille achat qui enregistrera l’achat/la facture émis(e) par le fournisseur. Vous pouvez utiliser un modèle feuille et un lot feuille spécifiques pour l’enregistrement de ces feuilles. Sélectionnez le modèle et le lot ici.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control IncomingDocDescription - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2081513550 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the journal template to use for payment journals or purchase journals created from QR-bills through incoming documents.</source>
-          <target state="translated">Spécifie le modèle de feuille à utiliser pour les feuilles paiement ou les feuilles achat créées à partir des QR-factures via les documents entrants.</target>
+          <target state="translated">Spécifie le modèle feuille à utiliser pour les feuilles paiement ou les feuilles achat créées à partir des QR-factures via les documents entrants.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control PaymentJnlTemplate - Property ToolTip</note>
         </trans-unit>
@@ -2667,7 +2667,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 984350027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up QR-Bill has not been completed.\\Are you sure that you want to exit?</source>
-          <target state="translated">Le paramétrage n'est pas encore terminé.\\Êtes-vous sûr de vouloir quitter ?</target>
+          <target state="translated">Le paramétrage de la QR-facture n’est pas encore terminé.\\Êtes-vous sûr de vouloir quitter?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType SetupNotCompletedQst</note>
         </trans-unit>
@@ -2679,19 +2679,19 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 1170655125" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no payment methods enabled with a QR-bill layout (step 4 of 6).</source>
-          <target state="translated">Aucun mode de paiement n'est activé avec une mise en page de QR-facture (étape 4 sur 6).</target>
+          <target state="translated">Aucun mode de paiement n’est activé avec une mise en page de QR-facture (étape 4 sur 6).</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType FinishSummaryPaymentMethodsLbl</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 462312515" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no document types enabled for QR-bills (step 5 of 6).</source>
-          <target state="translated">Aucun type de document n'est activé pour les QR-factures (étape 5 sur 6).</target>
+          <target state="translated">Aucun type de document n’est activé pour les QR-factures (étape 5 sur 6).</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType FinishSummaryDocumentTypesLbl</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 2899211317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Journal template and batch are not setup for an incoming QR-bills (step 6 of 6).</source>
-          <target state="translated">Aucun modèle feuille ni lot feuille n'est paramétré pour des QR-factures entrantes (étape 6 sur 6).</target>
+          <target state="translated">Aucun modèle feuille ni lot feuille n’est paramétré pour des QR-factures entrantes (étape 6 sur 6).</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType FinishSummaryJournalSetupLbl</note>
         </trans-unit>
@@ -2703,19 +2703,19 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 3872286878" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no payment methods enabled with a QR-bill layout.\\Do you want to continue?</source>
-          <target state="translated">Aucun mode de paiement n'est activé avec une mise en page de QR-facture.\\Souhaitez-vous continuer ?</target>
+          <target state="translated">Aucun mode de paiement n’est activé avec une mise en page de QR-facture.\\Souhaitez-vous continuer?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType PaymentMethodsConfirmQst</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 2101235044" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no document typse enabled for QR-bills.\\Do you want to continue?</source>
-          <target state="translated">Aucun type de document n'est activé pour les QR-factures.\\Souhaitez-vous continuer ?</target>
+          <target state="translated">Aucun type de document n’est activé pour les QR-factures.\\Souhaitez-vous continuer?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType DocumentTypesConfirmQst</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - NamedType 728939710" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Journal template and batch are not set up for incoming QR-bills.\\Do you want to continue?</source>
-          <target state="translated">Aucun modèle feuille ni lot feuille n'est paramétré pour des QR-factures entrantes\\Souhaitez-vous continuer ?</target>
+          <target state="translated">Aucun modèle feuille ni lot feuille n’est paramétré pour des QR-factures entrantes.\\Souhaitez-vous continuer?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - NamedType JournalSetupConfirmQst</note>
         </trans-unit>
@@ -2799,7 +2799,7 @@
         </trans-unit>
         <trans-unit id="Report 1627277611 - NamedType 1264080383" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not all documents were printed QR-Bill with the specified filters. Only CHF and EUR currency is allowed.</source>
-          <target state="translated">Tous les documents n'ont pas été utilisés pour imprimer la QR-facture avec les filtres spécifiés. Seules les monnaies CHF et EUR sont autorisées.</target>
+          <target state="translated">Tous les documents n’ont pas été utilisés pour imprimer la QR-facture avec les filtres spécifiés. Seules les monnaies CHF et EUR sont autorisées.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Swiss QR-Bill Print - NamedType NotAllPrintedMsg</note>
         </trans-unit>
@@ -2826,7 +2826,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 804901519 - Action 2662649033 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create a new incoming document record from the scanning of QR-bill with an input scanner, or from manual (copy/paste) of the decoded QR-Code text value into a field.</source>
-          <target state="translated">Créez un nouvel enregistrement de document entrant à partir de la numérisation de la QR-facture avec un scanner de saisie, ou à partir de la saisie manuelle (copier/coller) de la valeur texte du code QR décodée dans un champ.</target>
+          <target state="translated">Créez un enregistrement de document entrant à partir de la numérisation de la QR-facture avec un scanner de saisie, ou à partir de la saisie manuelle (copier/coller) de la valeur texte du code QR décodée dans un champ.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1755308350</note>
@@ -2840,7 +2840,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 804901519 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creates a new incoming document record by importing a scanned QR-bill that is saved as a text file.</source>
-          <target state="translated">Crée un nouvel enregistrement de document entrant en important une QR-facture scannée qui est enregistrée sous la forme d'un fichier texte.</target>
+          <target state="translated">Crée un enregistrement de document entrant en important une QR-facture scannée qui est enregistrée sous la forme d’un fichier texte.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1755308350</note>
@@ -2882,7 +2882,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1511376462 - Control 2250177960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN or QR-IBAN account of the QR-Bill vendor.</source>
-          <target state="translated">Spécifie le compte IBAN ou QR-IBAN du fournisseur de QR-facture.</target>
+          <target state="translated">Spécifie le compte IBAN ou QR-IBAN du fournisseur de la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
@@ -2945,7 +2945,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1511376462 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the invoice by importing a scanned QR-bill that is saved as a text file.</source>
-          <target state="translated">Mettez à jour la facture en important une QR-facture numérisée qui est enregistrée sous la forme d'un fichier texte.</target>
+          <target state="translated">Mettez à jour la facture en important une QR-facture scannée qui est enregistrée sous la forme d’un fichier texte.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
@@ -2987,7 +2987,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1480968190 - Action 2662649033 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create a new line from the scanning of QR-bill with an input scanner, or from manual (copy/paste) of the decoded QR-Code text value into a field.</source>
-          <target state="translated">Créez une nouvelle ligne à partir de la numérisation de la QR-facture avec un scanner de saisie ou à partir de la saisie manuelle (copier/coller) de la valeur texte du code QR décodé dans un champ.</target>
+          <target state="translated">Créez une ligne à partir de la numérisation de la QR-facture avec un scanner de saisie ou à partir de la saisie manuelle (copier/coller) de la valeur texte du code QR décodée dans un champ.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3580867622</note>
@@ -3022,7 +3022,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 150894063 - Control 2250177960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the IBAN or QR-IBAN account of the QR-Bill vendor.</source>
-          <target state="translated">Spécifie le compte IBAN ou QR-IBAN du fournisseur de QR-facture.</target>
+          <target state="translated">Spécifie le compte IBAN ou QR-IBAN du fournisseur de la QR-facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 387971303</note>
@@ -3085,7 +3085,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 150894063 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the invoice by importing a scanned QR-bill that is saved as a text file.</source>
-          <target state="translated">Mettez à jour la facture en important une QR-facture numérisée qui est enregistrée sous la forme d'un fichier texte.</target>
+          <target state="translated">Mettez à jour la facture en important une QR-facture scannée qui est enregistrée sous la forme d’un fichier texte.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 387971303</note>

@@ -666,7 +666,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3297083380 - NamedType 2551170292" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Don't show me again</source>
-          <target>Ekki sýna aftur</target>
+          <target>Ekki sýna þetta aftur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post Migration Notificaton - NamedType DontShowAgainLbl</note>
         </trans-unit>
@@ -1216,7 +1216,7 @@
         </trans-unit>
         <trans-unit id="Page 2532438947 - NamedType 3047188992" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must set a schedule time to continue.</source>
-          <target>Setja þarf áætlunartíma til að halda áfram.</target>
+          <target>Stilla þarf áætlunartíma til að halda áfram.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Hybrid Cloud Setup Wizard - NamedType NoScheduleTimeErr</note>
         </trans-unit>
@@ -1281,7 +1281,7 @@
         </trans-unit>
         <trans-unit id="Page 2166408973 - NamedType 1332930564" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must set a schedule time to continue.</source>
-          <target>Þú verður að velja áætlaðan tíma til að halda áfram.</target>
+          <target>Stilla þarf áætlunartíma til að halda áfram.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Schedule - NamedType NoScheduleTimeMsg</note>
         </trans-unit>

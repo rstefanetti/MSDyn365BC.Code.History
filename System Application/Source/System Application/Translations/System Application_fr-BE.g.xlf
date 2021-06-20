@@ -275,7 +275,7 @@
         </trans-unit>
         <trans-unit id="Page 799089619 - Control 2515772770 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the extension which has added this setup.</source>
-          <target>Spécifie l'extension qui a ajouté cette configuration.</target>
+          <target>Spécifie l’extension qui a ajouté cette configuration.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Assisted Setup - Control Extension Name - Property ToolTip</note>
         </trans-unit>
@@ -716,7 +716,7 @@
         </trans-unit>
         <trans-unit id="Table 1106505126 - Field 2691914712 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last Sync Date Time</source>
-          <target>Date et heure de la dernière synchronisation</target>
+          <target>Date-heure dernière synchronisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Fields Sync Status - Field Last Sync Date Time - Property Caption</note>
         </trans-unit>
@@ -1640,7 +1640,7 @@
         </trans-unit>
         <trans-unit id="Page 2776087363 - Control 2966611030 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not connect to camera</source>
-          <target>Impossible de se connecter à l'appareil photo</target>
+          <target>Impossible de se connecter à l’appareil photo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Camera - Control CameraNotSupported - Property Caption</note>
         </trans-unit>
@@ -1847,7 +1847,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 4090787537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 is already installed.</source>
-          <target>L'extension %1 est déjà installée.</target>
+          <target>L’extension %1 est déjà installée.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyInstalledMsg</note>
         </trans-unit>
@@ -1859,7 +1859,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 2392733864" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 is not installed.</source>
-          <target>L'extension %1 n'est pas installée.</target>
+          <target>L’extension %1 n’est pas installée.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyUninstalledMsg</note>
         </trans-unit>
@@ -2132,7 +2132,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3666029466 - NamedType 4090787537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 is already installed.</source>
-          <target>L'extension %1 est déjà installée.</target>
+          <target>L’extension %1 est déjà installée.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Marketplace - NamedType AlreadyInstalledMsg</note>
         </trans-unit>

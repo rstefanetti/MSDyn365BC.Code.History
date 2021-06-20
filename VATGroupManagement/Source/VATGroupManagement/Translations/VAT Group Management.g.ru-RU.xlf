@@ -1223,7 +1223,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Action 2438272767 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to previous page</source>
-          <target>Переход на предыдущую страницу</target>
+          <target>На предыдущую страницу</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionBack - Property ToolTip</note>
         </trans-unit>
@@ -1235,7 +1235,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Action 914282563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to next page</source>
-          <target>Переход на следующую страницу</target>
+          <target>На следующую страницу</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionNext - Property ToolTip</note>
         </trans-unit>
@@ -1444,7 +1444,7 @@
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 1578133954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the ID associated with the submission codeunit.</source>
-          <target>Определяет ИД, связанный с модулем Codeunit подачи отчетов.</target>
+          <target>Определяет идентификатор, связанный с модулем Codeunit подачи отчетов.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Submission Codeunit ID - Property ToolTip</note>
         </trans-unit>

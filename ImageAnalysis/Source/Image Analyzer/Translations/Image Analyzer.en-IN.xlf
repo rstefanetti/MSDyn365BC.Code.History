@@ -3,20 +3,20 @@
   <file datatype="xml" source-language="en-US" target-language="en-IN" original="Image Analyzer">
     <body>
       <group id="body">
-        <trans-unit id="Table 2062634445 - Field 1390308272 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ignore,Use as category,Use as attribute,Add to blacklist</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Action To Perform - Property OptionCaption</note>
+        <trans-unit id="Table 2062634445 - NamedType 686825585" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attribute '%1' is already set.</source>
+          <note from="Developer" annotates="general" priority="2">%1 is the attribute name (ex 'Color')</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType AttributeAlreadyAssignedErr</note>
         </trans-unit>
         <trans-unit id="Table 2062634445 - NamedType 2883311424" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Choose item attribute</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType ChooseItemAttributeTxt</note>
         </trans-unit>
-        <trans-unit id="Table 2062634445 - NamedType 686825585" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Attribute '%1' is already set.</source>
-          <note from="Developer" annotates="general" priority="2">%1 is the attribute name (ex 'Color')</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType AttributeAlreadyAssignedErr</note>
+        <trans-unit id="Table 2062634445 - Field 1390308272 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ignore,Use as category,Use as attribute,Add to blacklist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Action To Perform - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 214061687 - NamedType 1644091217" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>To enable image analysis, you must be an administrator. Ensure that you are assigned the 'SUPER' user permission set.</source>

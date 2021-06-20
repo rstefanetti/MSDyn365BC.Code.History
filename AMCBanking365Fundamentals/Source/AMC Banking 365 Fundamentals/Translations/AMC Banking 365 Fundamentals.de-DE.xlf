@@ -481,7 +481,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1051898237 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pre-processing line no. #1######.</source>
-          <target state="translated">Zeilennummer #1###### wird vorab verarbeitet.</target>
+          <target state="translated">Zeilennummer #1###### wird vorab verarbeitet...</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Pre-Map - NamedType ProgressMsg</note>
         </trans-unit>
@@ -1886,7 +1886,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Action 377844979 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete Entries Older Than 7 Days</source>
-          <target state="translated">Einträge löschen, die über 7 Tage alt sind</target>
+          <target state="translated">Posten löschen, die über 7 Tage alt sind</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Action Delete7days - Property Caption</note>
         </trans-unit>

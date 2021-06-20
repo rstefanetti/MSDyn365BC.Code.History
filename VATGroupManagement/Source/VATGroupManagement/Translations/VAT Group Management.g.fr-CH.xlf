@@ -1414,19 +1414,19 @@
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 1318640161 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the version of the VAT report.</source>
-          <target>Spécifie la version de la déclaration de TVA.</target>
+          <target>Spécifie la version de la déclaration TVA.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control VAT Report Version - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 1555720505 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether an ID is suggested automatically.</source>
-          <target>Spécifie si un ID est proposé automatiquement.</target>
+          <target>Spécifie si un ID est suggéré automatiquement.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Suggest Lines Codeunit ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 554825520 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether a caption is suggested automatically.</source>
-          <target>Spécifie si un libellé est proposé automatiquement.</target>
+          <target>Spécifie si un libellé est suggéré automatiquement.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Suggest Lines Codeunit Caption - Property ToolTip</note>
         </trans-unit>
@@ -1438,7 +1438,7 @@
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 2605127120 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the codeunit caption code.</source>
-          <target>Spécifie le code du libellé du codeunit.</target>
+          <target>Spécifie le code du libellé codeunit.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Content Codeunit Caption - Property ToolTip</note>
         </trans-unit>
@@ -1468,13 +1468,13 @@
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 1943315772 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the codeunit ID for the VAT Report line.</source>
-          <target>Spécifie l’ID codeunit pour la ligne déclaration de TVA.</target>
+          <target>Spécifie l’ID codeunit pour la ligne déclaration TVA.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Validate Codeunit ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 231648147 - Control 1173241261 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the caption for the codeunit VAT Report.</source>
-          <target>Spécifie le libellé pour le codeunit déclaration de TVA.</target>
+          <target>Spécifie le libellé pour le codeunit Déclaration TVA.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Validate Codeunit Caption - Property ToolTip</note>
         </trans-unit>

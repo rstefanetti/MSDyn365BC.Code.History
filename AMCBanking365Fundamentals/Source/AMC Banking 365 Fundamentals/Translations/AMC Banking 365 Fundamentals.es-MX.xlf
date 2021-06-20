@@ -325,7 +325,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1098773093" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The web service returned an error message:\</source>
-          <target state="translated">El servicio web devolvió un mensaje de error: \</target>
+          <target state="translated">El servicio web devolvió un mensaje de error:\</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType TryLoadErrorLbl</note>
         </trans-unit>

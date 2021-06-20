@@ -649,7 +649,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2654677523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Transfer Msg. ID</source>
-          <target state="translated">Code message de virement</target>
+          <target state="translated">Code msg. virement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNameTxt</note>
         </trans-unit>
@@ -715,7 +715,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2253012985" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer</source>
-          <target state="translated">Transfert de compte national vers compte</target>
+          <target state="translated">Transfert compte national vers compte</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc6Txt</note>
         </trans-unit>
@@ -726,7 +726,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1548217914" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer (high value)</source>
-          <target state="translated">Transfert de compte national vers compte (valeur élevée)</target>
+          <target state="translated">Transfert compte national vers compte (valeur élevée)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc7Txt</note>
         </trans-unit>
@@ -1760,7 +1760,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Control 284764054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the country/region of the address.</source>
-          <target state="translated">Spécifie le pays/la région de l'adresse.</target>
+          <target state="translated">Spécifie le pays/la région de l’adresse.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Country/Region Code - Property ToolTip</note>
         </trans-unit>
@@ -1808,7 +1808,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Control 2951585809 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the context in which the activity occurred.</source>
-          <target state="translated">Spécifie le contexte dans lequel l'activité a eu lieu.</target>
+          <target state="translated">Spécifie le contexte dans lequel l’activité s’est produite.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Control Context - Property ToolTip</note>
         </trans-unit>
@@ -1820,7 +1820,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Control 513339096 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the status of the activity.</source>
-          <target state="translated">Spécifie l'état de l'activité.</target>
+          <target state="translated">Spécifie l’état de l’activité.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Control Status - Property ToolTip</note>
         </trans-unit>
@@ -1844,7 +1844,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Control 1454734434 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the status or error message for the activity.</source>
-          <target state="translated">Spécifie l'état ou le message d'erreur de l'activité.</target>
+          <target state="translated">Spécifie l’état ou le message d’erreur de l’activité.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Control Activity Message - Property ToolTip</note>
         </trans-unit>

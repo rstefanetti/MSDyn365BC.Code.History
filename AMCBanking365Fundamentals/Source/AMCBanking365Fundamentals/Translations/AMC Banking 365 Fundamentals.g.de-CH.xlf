@@ -937,7 +937,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 742056434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The closing balance was not found in the data to be imported.</source>
-          <target>Die Abschlussbilanz wurde in den zu importierenden Daten nicht gefunden.</target>
+          <target>Der Endsaldo wurde in den zu importierenden Daten nicht gefunden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingClosingBalInDataMsg</note>
         </trans-unit>
@@ -955,7 +955,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2692357613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file that you are trying to import contains more than one bank statement.</source>
-          <target>Die Datei, die Sie zu importieren versuchen, enthält mindestens einen Bankauszug.</target>
+          <target>Die Datei, die Sie zu importieren versuchen, enthält mehr als einen Bankauszug.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MultipleStmtErr</note>
         </trans-unit>
@@ -985,16 +985,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2956989985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control19 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 744021563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control17 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2916936581 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Step1 - Property Caption</note>
         </trans-unit>
@@ -1006,6 +1009,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 21734773 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1.1 - Property Caption</note>
         </trans-unit>
@@ -1041,6 +1045,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3363685081 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1 - Property Caption</note>
         </trans-unit>
@@ -1052,11 +1057,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2976946581 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3614643198 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.3 - Property Caption</note>
         </trans-unit>
@@ -1080,6 +1087,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3445734175 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.4 - Property Caption</note>
         </trans-unit>
@@ -1103,6 +1111,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 4083430792 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.5 - Property Caption</note>
         </trans-unit>
@@ -1126,6 +1135,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 426160113 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.6 - Property Caption</note>
         </trans-unit>
@@ -1149,6 +1159,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1063856730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.7 - Property Caption</note>
         </trans-unit>
@@ -1172,6 +1183,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2508158987 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.8 - Property Caption</note>
         </trans-unit>
@@ -1195,6 +1207,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 764115667 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS - Property Caption</note>
         </trans-unit>
@@ -1206,11 +1219,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2010657068 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS1.1.1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3879981877 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS1.2.1 - Property Caption</note>
         </trans-unit>
@@ -1252,6 +1267,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3497028712 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks - Property Caption</note>
         </trans-unit>
@@ -1263,11 +1279,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2283606579 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2283606579 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks1.2 - Property InstructionalText</note>
         </trans-unit>
@@ -1279,6 +1297,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2878908208 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control29 - Property Caption</note>
         </trans-unit>
@@ -1290,16 +1309,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2614052691 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control6 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2614052691 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control6 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1814414007 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control82 - Property Caption</note>
         </trans-unit>
@@ -1311,16 +1333,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3727503858 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control81 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3727503858 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control81 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1345626413 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control84 - Property Caption</note>
         </trans-unit>
@@ -1332,22 +1357,25 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2452110624 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control83 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2452110624 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control83 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Data Exchange Definitions</source>
-          <target>Setup von Datenaustauschdefinitionen</target>
+          <target>Einrichten von Datenaustauschdefinitionen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 637564162 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1 - Property Caption</note>
         </trans-unit>
@@ -1359,11 +1387,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 36166686 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3693437365 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.3 - Property Caption</note>
         </trans-unit>
@@ -1387,6 +1417,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 504954280 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.4 - Property Caption</note>
         </trans-unit>
@@ -1410,6 +1441,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 4162224959 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.5 - Property Caption</note>
         </trans-unit>
@@ -1433,6 +1465,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1780347514 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.6 - Property Caption</note>
         </trans-unit>
@@ -1456,6 +1489,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1142650897 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.7 - Property Caption</note>
         </trans-unit>
@@ -1485,6 +1519,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 462590827 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para4.1 - Property Caption</note>
         </trans-unit>
@@ -1496,11 +1531,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3933452063 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para4.1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 276181384 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para4.1.3 - Property Caption</note>
         </trans-unit>
@@ -1530,16 +1567,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1204281020 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankClearStd1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1204281020 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankClearStd1.2 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1917986722 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control32 - Property Caption</note>
         </trans-unit>
@@ -1551,16 +1591,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 963673717 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control95 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 963673717 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control95 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1601370334 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control94 - Property Caption</note>
         </trans-unit>
@@ -1572,11 +1615,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1432461311 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control93 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1432461311 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control93 - Property InstructionalText</note>
         </trans-unit>
@@ -1588,16 +1633,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 692779692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 692779692 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3920327065 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.1 - Property Caption</note>
         </trans-unit>
@@ -1609,16 +1657,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3282630448 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3282630448 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.2 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2644933831 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.3 - Property Caption</note>
         </trans-unit>
@@ -1630,21 +1681,25 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2813842854 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2813842854 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.2.4 - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2702296780 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3339993397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.2 - Property Caption</note>
         </trans-unit>
@@ -1662,11 +1717,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 57579804 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 695276421 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.2 - Property Caption</note>
         </trans-unit>

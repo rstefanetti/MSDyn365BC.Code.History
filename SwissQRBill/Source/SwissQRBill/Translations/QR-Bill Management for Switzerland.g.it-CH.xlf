@@ -1284,7 +1284,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Control 3930846827 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the document or journal line that was created for this incoming document has been posted.</source>
-          <target>Specifica se la riga di documento o di registrazione creata per questo documento in entrata è stata registrata.</target>
+          <target>Specifica se la riga di documento o di registrazione che è stata creata per questo documento in entrata è stata registrata.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>

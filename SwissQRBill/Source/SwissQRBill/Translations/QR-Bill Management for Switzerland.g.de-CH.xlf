@@ -827,7 +827,7 @@
         </trans-unit>
         <trans-unit id="Page 726691145 - Control 71445060 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens the General Ledger Setup page.</source>
-          <target>Öffnet die Seite „Fibuposten Einrichtung“.</target>
+          <target>Öffnet die Seite 'Fibu Einrichtung'.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup - Control OpenGLSetup - Property ToolTip</note>
         </trans-unit>
@@ -982,7 +982,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 2655798072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blanked reference number is expected for reference type NON.</source>
-          <target>Geleerte Referenznummer wird erwartet für Referenztyp NON</target>
+          <target>Geleerte Referenznummer wird erwartet für Referenzart NON.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType BlankedReferenceExpectedLbl</note>
         </trans-unit>
@@ -1876,7 +1876,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1370367660 - NamedType 1787158162" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show the vendor ledger entry.</source>
-          <target>Den Kreditorenposten anzeigen.</target>
+          <target>Den Kreditor-Sachposten anzeigen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Purchases - NamedType ShowVendorLedgerEntryTxt</note>
         </trans-unit>

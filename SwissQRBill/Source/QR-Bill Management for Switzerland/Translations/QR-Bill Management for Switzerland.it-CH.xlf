@@ -989,7 +989,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 2655798072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blanked reference number is expected for reference type NON.</source>
-          <target state="translated">Per il tipo di riferimento NON il numero di riferimento deve essere vuoto</target>
+          <target state="translated">Per il tipo di riferimento NON il numero di riferimento deve essere vuoto.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType BlankedReferenceExpectedLbl</note>
         </trans-unit>
@@ -1181,7 +1181,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2408521378" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import failed.</source>
-          <target state="translated">Importazione fattura QR completata, ma l'analisi dei dati non è riuscita.</target>
+          <target state="translated">Importazione fattura QR non riuscita.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportFailedTxt</note>
         </trans-unit>
@@ -1578,21 +1578,21 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 2662649033 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record from the scanning of QR-bill with an input scanner, or from manual (copy/paste) of the decoded QR-Code text value into a field.</source>
-          <target state="translated">Crea un nuovo record di documenti in entrata dalla scansione della fattura QR con uno scanner di input oppure in modo manuale (copia/incolla) dal valore di testo del codice QR decodificato in un campo.</target>
+          <target state="translated">Aggiornare il record di documento in entrata dalla scansione della fattura QR con uno scanner di input oppure in modo manuale (copia/incolla) dal valore di testo del codice QR decodificato in un campo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 1181078575 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Scanned QR-Bill File</source>
-          <target state="translated">Importa file di fattura QR</target>
+          <target state="translated">Importa file di fattura QR sottoposta a scansione</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record by importing a scanned QR-bill that is saved as a text file.</source>
-          <target state="translated">Crea un nuovo record di documenti in entrata importando una fattura QR sottoposta a scansione salvata come file di testo.</target>
+          <target state="translated">Aggiornare il record di documento in entrata importando una fattura QR sottoposta a scansione salvata come file di testo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -2541,7 +2541,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 3353681316 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issuing QR-bills is tightly connected to sales invoices and service invoices. Whether or not a QR-bill is issued and printed when printing one of these document types is determined by the payment method specified on the customer card. If a payment type is enabled with a QR-bill layout, a QR-bill will be generated and printed. You must enable at least one payment method with a QR-bill layout to be able to issue QR-bills.</source>
-          <target state="translated">L'emissione di fatture QR è strettamente connessa a fatture di vendita, fatture di assistenza, solleciti e note di addebito interessi. L'emissione e la stampa o meno di una fattura QR durante la stampa di uno di questi tipi di documenti è determinata dal metodo di pagamento specificato sulla scheda cliente. Se un tipo di pagamento è abilitato con un layout di fattura QR, verrà generata e stampata una fattura QR. Per emettere fatture QR, è necessario abilitare almeno un metodo di pagamento con un layout di fattura QR.</target>
+          <target state="translated">L’emissione di fatture QR è strettamente connessa a fatture di vendita e fatture di assistenza. L’emissione e la stampa o meno di una fattura QR durante la stampa di uno di questi tipi di documenti è determinata dal metodo di pagamento specificato sulla scheda cliente. Se un tipo di pagamento è abilitato con un layout di fattura QR, verrà generata e stampata una fattura QR. Per emettere fatture QR, è necessario abilitare almeno un metodo di pagamento con un layout di fattura QR.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control PaymentMethodsDescription - Property InstructionalText</note>
         </trans-unit>
@@ -2565,7 +2565,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 4037716635 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>When you print sales invoices or service invoices, you can generate and issue QR-bills. To set this up you, must enable each document type for QR-bills according to your usage of these document types. When you enable a document type for QR-bills, the system will automatically insert an additional report selection for the selected document type. As a minimum, you must enable sales invoices for QR-bills.</source>
-          <target state="translated">Quando si stampano fatture di vendita o di assistenza, solleciti o note di addebito interessi, è possibile generare ed emettere fatture QR. Per configurarle, è necessario abilitare ciascun tipo di documento per le fatture QR in base all'utilizzo di tali tipi di documento. Quando si abilita un tipo di documento per le fatture QR, il sistema inserirà automaticamente un'ulteriore selezione di report per il tipo di documento selezionato. È necessario almeno abilitare le fatture di vendita per le fatture QR.</target>
+          <target state="translated">Quando si stampano fatture di vendita o di assistenza, è possibile generare ed emettere fatture QR. Per configurarle, è necessario abilitare ciascun tipo di documento per le fatture QR in base all’utilizzo di tali tipi di documento. Quando si abilita un tipo di documento per le fatture QR, il sistema inserirà automaticamente un’ulteriore selezione di report per il tipo di documento selezionato. È necessario almeno abilitare le fatture di vendita per le fatture QR.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control DocumentTypeDescription - Property InstructionalText</note>
         </trans-unit>
@@ -2833,7 +2833,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 804901519 - Action 1181078575 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Scanned QR-Bill File</source>
-          <target state="translated">Importa file di fattura QR</target>
+          <target state="translated">Importa file di fattura QR sottoposta a scansione</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1755308350</note>

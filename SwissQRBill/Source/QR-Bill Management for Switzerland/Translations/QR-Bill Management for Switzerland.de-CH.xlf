@@ -521,13 +521,13 @@
         </trans-unit>
         <trans-unit id="Page 3265151286 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill Layouts</source>
-          <target state="translated">QR-Rechnungslayout</target>
+          <target state="translated">QR-Rechnungslayouts</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Layout - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3265151286 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-Bill Layout code as an identifier for the layout.</source>
-          <target state="translated">Legt den Layoutcode der QR-Rechnung als Bezeichner für das Layout fest</target>
+          <target state="translated">Legt den Layoutcode der QR-Rechnung als Bezeichner für das Layout fest.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Layout - Control Code - Property ToolTip</note>
         </trans-unit>
@@ -1181,7 +1181,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2051230818 - NamedType 2408521378" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>QR-Bill import failed.</source>
-          <target state="translated">Der Import der QR-Rechnung wurde abgeschlossen, bei der Datenanalyse ist allerdings ein Fehler aufgetreten.</target>
+          <target state="translated">Fehler bei Import der QR-Rechnung.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Incoming Doc - NamedType ImportFailedTxt</note>
         </trans-unit>
@@ -1578,21 +1578,21 @@
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 2662649033 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record from the scanning of QR-bill with an input scanner, or from manual (copy/paste) of the decoded QR-Code text value into a field.</source>
-          <target state="translated">Erstellen Sie einen neuen Eingangsbeleg aus dem Scan der QR-Rechnung mit einem Eingangsscanner oder manuell durch Kopieren/Einfügen des entschlüsselten QR-Codetextwerts in ein Feld.</target>
+          <target state="translated">Aktualisieren Sie einen Eingangsbeleg aus dem Scan der QR-Rechnung mit einem Eingangsscanner oder manuell durch Kopieren/Einfügen des entschlüsselten QR-Codetextwerts in ein Feld.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 1181078575 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Scanned QR-Bill File</source>
-          <target state="translated">QR-Rechnungsdatei importieren</target>
+          <target state="translated">Gescannte QR-Rechnungsdatei importieren</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
         </trans-unit>
         <trans-unit id="PageExtension 2051230818 - Action 1181078575 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the incoming document record by importing a scanned QR-bill that is saved as a text file.</source>
-          <target state="translated">Erstellt einen neuen Eingangsbeleg durch Importieren einer gescannten QR-Rechnung, die als Textdatei gespeichert ist.</target>
+          <target state="translated">Einen Eingangsbeleg durch Importieren einer gescannten QR-Rechnung aktualisieren, die als Textdatei gespeichert ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 956135699</note>
@@ -2541,7 +2541,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 3353681316 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issuing QR-bills is tightly connected to sales invoices and service invoices. Whether or not a QR-bill is issued and printed when printing one of these document types is determined by the payment method specified on the customer card. If a payment type is enabled with a QR-bill layout, a QR-bill will be generated and printed. You must enable at least one payment method with a QR-bill layout to be able to issue QR-bills.</source>
-          <target state="translated">Die Ausstellung von QR-Rechnungen steht in enger Verbindung zu Verkaufsrechnungen, Servicerechnungen, Mahnungen und Zinsrechnungen. Ob eine QR-Rechnung erstellt und gedruckt wird, wenn eine dieser Belegarten gedruckt wird, wird anhand der auf der Kundenkarte festgelegten Zahlungsform bestimmt. Wenn eine Zahlungsmethode mit QR-Rechnungslayout aktiviert ist, wird eine QR-Rechnung generiert und gedruckt. Sie müssen mindestens eine Zahlungsform mit QR-Rechnungslayout aktivieren, um QR-Rechnungen ausstellen zu können.</target>
+          <target state="translated">Die Ausstellung von QR-Rechnungen steht in enger Verbindung zu Verkaufsrechnungen und Servicerechnungen. Ob eine QR-Rechnung erstellt und gedruckt wird, wenn eine dieser Belegarten gedruckt wird, wird anhand der auf der Kundenkarte festgelegten Zahlungsform bestimmt. Wenn eine Zahlungsmethode mit QR-Rechnungslayout aktiviert ist, wird eine QR-Rechnung generiert und gedruckt. Sie müssen mindestens eine Zahlungsform mit QR-Rechnungslayout aktivieren, um QR-Rechnungen ausstellen zu können.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control PaymentMethodsDescription - Property InstructionalText</note>
         </trans-unit>
@@ -2565,7 +2565,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 4037716635 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>When you print sales invoices or service invoices, you can generate and issue QR-bills. To set this up you, must enable each document type for QR-bills according to your usage of these document types. When you enable a document type for QR-bills, the system will automatically insert an additional report selection for the selected document type. As a minimum, you must enable sales invoices for QR-bills.</source>
-          <target state="translated">Wenn Sie Verkaufsrechnungen, Servicerechnungen, Mahnungen oder Zinsrechnungen drucken, können Sie QR-Rechnungen generieren und ausstellen. Zur Einrichtung müssen Sie jede Belegart entsprechend Ihrer Nutzung dieser Belegarten für QR-Rechnungen aktivieren. Wenn Sie eine Belegart für QR-Rechnungen aktivieren, fügt das System automatisch eine zusätzliche Berichtauswahl für die ausgewählte Belegart ein. Sie müssen zumindest Verkaufsrechnungen für QR-Rechnungen aktivieren.</target>
+          <target state="translated">Wenn Sie Verkaufsrechnungen oder Servicerechnungen drucken, können Sie QR-Rechnungen generieren und ausstellen. Zur Einrichtung müssen Sie jede Belegart entsprechend Ihrer Nutzung dieser Belegarten für QR-Rechnungen aktivieren. Wenn Sie eine Belegart für QR-Rechnungen aktivieren, fügt das System automatisch eine zusätzliche Berichtauswahl für die ausgewählte Belegart ein. Sie müssen zumindest Verkaufsrechnungen für QR-Rechnungen aktivieren.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control DocumentTypeDescription - Property InstructionalText</note>
         </trans-unit>
@@ -2833,7 +2833,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 804901519 - Action 1181078575 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Scanned QR-Bill File</source>
-          <target state="translated">QR-Rechnungsdatei importieren</target>
+          <target state="translated">Gescannte QR-Rechnungsdatei importieren</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1755308350</note>

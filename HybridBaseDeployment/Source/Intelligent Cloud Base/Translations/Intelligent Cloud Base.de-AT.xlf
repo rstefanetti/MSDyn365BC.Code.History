@@ -711,7 +711,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3297083380 - NamedType 2909316202" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Setup Checklist</source>
-          <target state="translated">Einrichtungscheckliste öffnen</target>
+          <target state="translated">Einrichtungcheckliste öffnen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post Migration Notificaton - NamedType OpenWorksheetActionLbl</note>
         </trans-unit>
@@ -1494,13 +1494,13 @@
         </trans-unit>
         <trans-unit id="Page 1208606375 - Action 1433251765 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Checklist</source>
-          <target state="translated">Einrichtungscheckliste</target>
+          <target state="translated">Einrichtungcheckliste</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Management - Action SetupChecklist - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1208606375 - Action 1433251765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Checklist</source>
-          <target state="translated">Einrichtungscheckliste</target>
+          <target state="translated">Einrichtungcheckliste</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Management - Action SetupChecklist - Property ToolTip</note>
         </trans-unit>

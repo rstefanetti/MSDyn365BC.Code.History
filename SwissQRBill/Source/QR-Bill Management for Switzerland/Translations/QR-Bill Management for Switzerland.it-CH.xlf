@@ -2421,11 +2421,13 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 2390380970 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control MediaResourcesStandard - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3142171624 - Control 197703991 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Control MediaResourcesDone - Property ToolTip</note>
         </trans-unit>
@@ -2629,6 +2631,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Action 2438272767 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Action ActionBack - Property ToolTip</note>
         </trans-unit>
@@ -2652,6 +2655,7 @@
         </trans-unit>
         <trans-unit id="Page 3142171624 - Action 3259912055 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Swiss QR-Bill Setup Wizard - Action ActionFinish - Property ToolTip</note>
         </trans-unit>

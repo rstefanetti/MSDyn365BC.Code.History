@@ -15,76 +15,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportPackageTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 1418236329" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>*.iif</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType FileExtensionTok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 1888302128" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importing Data...</source>
           <target state="translated">Importation des données en cours...</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportingMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 897505829" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>!TRNS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransactionHeaderTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 2191410247" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>!SPL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType SplitHeaderTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 1749115446" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>TRNS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransactionLineTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 6761912" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SPL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType SplitLineTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 3107480320" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>TRNSTYPE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransactionTypeTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 512003858" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>ACCNT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType AccountNameTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 3879358640" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>DATE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType DateTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 2128180456" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AMOUNT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType AmountTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 3615193294" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>MEMO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType MemoTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 4053076985" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>GENERAL JOURNAL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType GeneralJournalTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 2280422594" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>CHECK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType CheckTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 374874773" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>TRANSFER</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransferTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 225703786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This is not a valid IIF transaction file. Required token %1 could not be found in the file.</source>
@@ -103,16 +38,6 @@
           <target state="translated">Une ou plusieurs transactions dans le fichier importé n'ont pas été importées car leur type n'est pas pris en charge. Types de transaction pris en charge : Journal général, Chèque et Transfert.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NonSupportedTransactionsDetectedMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 2389028112" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AL Quickbooks Payroll File Import</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType QBPayrollImportTelemetryTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 3696691789" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>%1 Quickbooks G/L transactions imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransactionsImportedTxt</note>
         </trans-unit>
       </group>
     </body>

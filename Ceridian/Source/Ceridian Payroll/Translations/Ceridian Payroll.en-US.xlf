@@ -69,16 +69,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EmployeeTaxTok</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2839219707 - NamedType 4035961916" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AL Ceridian</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType CeridianTelemetryCategoryTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2839219707 - NamedType 3696691789" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>%1 Ceridian payroll transactions imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType TransactionsImportedTxt</note>
-        </trans-unit>
         <trans-unit id="Page 692256314 - Control 2445482498 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <target state="translated">General</target>

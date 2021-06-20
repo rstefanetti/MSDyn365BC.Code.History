@@ -8,16 +8,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType DataEncryptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 2504974333" size-unit="char" translate="no" xml:space="preserve">
-          <source>/status200</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ForceStatus200Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 703425172" size-unit="char" translate="no" xml:space="preserve">
-          <source>The remote server returned an error: %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ServiceErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3810257405 - NamedType 1757144493" size-unit="char" translate="yes" xml:space="preserve">
           <source>The setup test was successful. The settings are valid.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -223,40 +213,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType BadCobrandTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 3913156844" size-unit="char" translate="no" xml:space="preserve">
-          <source>CobrandName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType CobrandNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 2185192168" size-unit="char" translate="no" xml:space="preserve">
-          <source>CobrandPwd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType CobrandPwdTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 26006383" size-unit="char" translate="no" xml:space="preserve">
-          <source>ConsumerPwd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ConsumerPwdTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 711620239" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://localhost:8080/BankStatement</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType TestServiceBaseURLTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3810257405 - NamedType 4283050504" size-unit="char" translate="yes" xml:space="preserve">
           <source>/status500</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ForceStatus500Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 2036268667" size-unit="char" translate="no" xml:space="preserve">
-          <source>/status404</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ForceStatus404Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3810257405 - NamedType 2134938106" size-unit="char" translate="no" xml:space="preserve">
-          <source>/status403</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType ForceStatus403Txt</note>
         </trans-unit>
       </group>
     </body>

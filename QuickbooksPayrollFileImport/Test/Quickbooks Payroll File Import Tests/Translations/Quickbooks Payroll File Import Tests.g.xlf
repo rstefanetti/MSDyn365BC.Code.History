@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Quickbooks Payroll File Import Tests">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 770358666 - NamedType 225703786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This is not a valid IIF transaction file. Required token %1 could not be found in the file.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - arbitrary text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType InvalidIIFTransFileErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 2150449421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No transactions with supported type were found in the imported file. Supported transaction types are: General Journal, Check, and Transfer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType NoGenJnlTransactionsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 2422528798" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more transactions in the imported file were not imported because they are not of supported type. Supported transaction types are: General Journal, Check, and Transfer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType NonGJTransactionsDetectedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 897505829" size-unit="char" translate="no" xml:space="preserve">
+          <source>!TRNS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType TransactionHeaderTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 3107480320" size-unit="char" translate="no" xml:space="preserve">
+          <source>TRNSTYPE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType TransactionTypeTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 512003858" size-unit="char" translate="no" xml:space="preserve">
+          <source>ACCNT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType AccountNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 770358666 - NamedType 2128180456" size-unit="char" translate="no" xml:space="preserve">
+          <source>AMOUNT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType AmountTok</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

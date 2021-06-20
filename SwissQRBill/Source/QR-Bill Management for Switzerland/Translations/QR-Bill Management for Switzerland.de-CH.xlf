@@ -989,7 +989,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4034792744 - NamedType 2655798072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blanked reference number is expected for reference type NON.</source>
-          <target state="translated">Geleerte Referenznummer wird erwartet für Referenztyp NON.</target>
+          <target state="translated">Geleerte Referenznummer wird erwartet für Referenztyp NON</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR-Bill Decode - NamedType BlankedReferenceExpectedLbl</note>
         </trans-unit>

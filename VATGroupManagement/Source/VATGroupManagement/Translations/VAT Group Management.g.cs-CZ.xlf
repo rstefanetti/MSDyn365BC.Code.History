@@ -1,0 +1,1777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="cs-CZ" original="VAT Group Management">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1626420089 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member ID</source>
+          <target>ID člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Approved Member - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1626420089 - Field 3687402140 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member Name</source>
+          <target>Název člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Approved Member - Field Group Member Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1626420089 - Field 3990529670 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Person Name</source>
+          <target>Jméno kontaktní osoby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Approved Member - Field Contact Person Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1626420089 - Field 4012802731 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Person Email</source>
+          <target>E-mail kontaktní osoby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Approved Member - Field Contact Person Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1626420089 - Field 3133801257 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <target>Společnost</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Approved Member - Field Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Member Calculation</source>
+          <target>Výpočet člena skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 3359429197 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission</source>
+          <target>Podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field VAT Group Submission No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 3199380963 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission ID</source>
+          <target>ID podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field VAT Group Submission ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 1402827214 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Return No.</source>
+          <target>Číslo přiznání k DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field VAT Report No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 3687402140 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member Name</source>
+          <target>Název člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field Group Member Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 2989159974 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box No.</source>
+          <target>Č. schránky</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field Box No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 636392376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3497260583 - Field 4035800860 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted On</source>
+          <target>Podáno dne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Calculation - Field Submitted On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission Header</source>
+          <target>Hlavička podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Číslo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 233654603 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Return No.</source>
+          <target>Číslo přiznání skupiny k DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field VAT Group Return No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 3067641958 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member ID</source>
+          <target>ID člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field Group Member ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 3687402140 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member Name</source>
+          <target>Název člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field Group Member Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 474480784 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target>Počáteční datum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 2649176925 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target>Koncové datum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 4035800860 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted On</source>
+          <target>Podáno dne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field Submitted On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3398621917 - Field 3133801257 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <target>Společnost</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Header - Field Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission Line</source>
+          <target>Řádek podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 3199380963 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission ID</source>
+          <target>ID podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field VAT Group Submission ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 3359429197 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission No.</source>
+          <target>Číslo podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field VAT Group Submission No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <target>ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 3320823955 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Číslo řádku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 2782707039 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row No.</source>
+          <target>Číslo řádku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field Row No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Popis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 2989159974 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Box No.</source>
+          <target>Č. schránky</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field Box No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3252717750 - Field 636392376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target>Částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table VAT Group Submission Line - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 4114662404" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT Report Setup could not be found</source>
+          <target>Nastavení sestavy DPH nebylo nalezeno.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType NoVATSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3701627753" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Bearer token could not be retrieved from cache. Please refresh the VAT Group bearer token by logging in the %1 page</source>
+          <target>Token nosiče nelze načíst z mezipaměti. Aktualizujte token nosiče skupiny DPH přihlášením na stránku %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 the caption of a page.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType BearerTokenFromCacheErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 885561812" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization has failed with an unexpected error!</source>
+          <target>Autorizace se nezdařila s neočekávanou chybou!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType OAuthFailedNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3477129491" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization has failed with the error %1</source>
+          <target>Autorizace se nezdařila s chybou %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the error description.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType OAuthFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 2820354451" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/api/microsoft/vatgroup/v1.0/companies(name='%1')</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType URLAppendixCompanyLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3012228274" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/api/microsoft/vatgroup/v1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType URLAppendixLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3631673253" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/vatGroupSubmissionStatus?$filter=no eq '%1' and groupMemberId eq %2&amp;$select=no,status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType VATGroupSubmissionStatusEndpointTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3078278031" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bad Request: the server could not understand the request due to invalid syntax.</source>
+          <target>Chybný požadavek: server nemohl porozumět požadavku z důvodu neplatné syntaxe.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType InvalidSyntaxErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 414826979" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unauthorized: authentication credentials are not valid.</source>
+          <target>Neoprávněná: ověřovací pověření nejsou platná.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType UnauthorizedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3818399266" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forbidden: missing permissions to access the requested resource.</source>
+          <target>Zakázáno: chybí oprávnění pro přístup k požadovanému prostředku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType ForbiddenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3351274" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Found: cannot locate the requested resource.</source>
+          <target>Nebyl nalezen: nelze najít požadovaný prostředek.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType NotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3424589561" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Server Error: the server cannot process the request.</source>
+          <target>Vnitřní chyba serveru: server nemůže požadavek zpracovat.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType InternalServerErrorErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 1628434534" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Unavailable: the server is not available, try again later.</source>
+          <target>Služba není k dispozici: server není k dispozici, opakujte akci později.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType ServiceUnavailableErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 2853925629" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Something went wrong, try again later.</source>
+          <target>Něco se nepodařilo, opakujte akci později.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType GeneralHttpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3412958784" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATGroupTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType VATGroupTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3862724462" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The http request was successful and the resource was created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType HttpSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 2642412622" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The OAuth2 authentication was successfull, a token has been issued.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType BearerTokenSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 1252900355" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Error Code: %1, Error Msg: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType HttpErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 2433936037" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The OAuth2 authentication code retrieved is empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType AuthorizationCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 829071888" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The authorization request URL for the OAuth2 Grant flow cannot be constructed because of missing ClientId or RedirectUrl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType MissingClientIdRedirectUrlErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 433891438" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The authentication request URL %1 has been succesfully retrieved.</source>
+          <target>Adresa URL požadavku na ověření %1 byla úspěšně načtena.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Authentication request URL</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType AuthRequestUrlTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 973150169" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OAuth2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType Oauth2CategoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 1392241203" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The defined redirectURL is: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = The redirect URL</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType RedirectUrlTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3917783520 - NamedType 3501613044" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The redirect URL is missing, the OAuth2 token cannot be retrieved. Please fill in the Redirect URL and try again.</source>
+          <target>Adresa URL přesměrování chybí, token OAuth2 nelze načíst. Vyplňte adresu URL přesměrování a akci opakujte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Communication - NamedType RedirectURLMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1491000021 - NamedType 1420859235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up VAT Group Management</source>
+          <target>Nastavit správu skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Helper Functions - NamedType AssistedSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1491000021 - NamedType 3527398778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT report setup was not found. You can create one on the VAT Report Setup page.</source>
+          <target>Nastavení sestavy DPH nebylo nalezeno. Můžete ho vytvořit na stránce Nastavení sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Helper Functions - NamedType NoVATReportSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1491000021 - NamedType 966443364" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?linkid=2141039</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Helper Functions - NamedType AssistedSetupHelpLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4281638274 - NamedType 3214936391" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must run the Suggest Lines action before you include returns for the VAT group.</source>
+          <target>Před zahrnutím přiznání pro skupinu DPH je nutné spustit akci Navrhnout řádky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Retrieve From Sub. - NamedType SuggestLinesBeforeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 2074369582" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot update VAT report status</source>
+          <target>Nelze aktualizovat stav sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType BatchJsonResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 3412958784" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATGroupTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType VATGroupTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 3209062119" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Updating status for all the VAT reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType AllStatusUpdateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 3531275805" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Status successfully updated for all the VAT reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType AllStatusUpdateSuccMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 2613965570" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Updating status for a single VAT report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType SingleStatusUpdateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 3284500852" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Status for single VAT report successfully updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType SingleStatusUpdateSuccMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 1646333145" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The batch response is empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType BatchEmptyResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3637038916 - NamedType 679432341" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>One of the requests inside the batch failed with error code %1 and message %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submission Status - NamedType BatchSingleRequestErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Query 3637038916 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>vatGroupSubmissionStatus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query VAT Group Submission Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3303680355 - NamedType 3457856064" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/vatGroupSubmissions?$expand=vatGroupSubmissionLines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submit To Represent. - NamedType VATGroupSubmissionsEndPointTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3303680355 - NamedType 3527398778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT report setup was not found. You can create one on the VAT Report Setup page.</source>
+          <target>Nastavení sestavy DPH nebylo nalezeno. Můžete ho vytvořit na stránce Nastavení sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submit To Represent. - NamedType NoVATReportSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3303680355 - NamedType 3792991482" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must be configured as a VAT Group member in order to submit VAT returns to the group representative.</source>
+          <target>Chcete-li odeslat přiznání k DPH zástupci skupiny, musíte být nakonfigurováni jako člen skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submit To Represent. - NamedType SubmitMembersOnlyErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3898161535 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>vatGroupSubmissionNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control vatGroupSubmissionNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3898161535 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier for the VAT return from the group member that submitted it.</source>
+          <target>Určuje identifikátor přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control vatGroupSubmissionNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 1294919425 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>lineNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control lineNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 1294919425 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the line on the VAT return from the group member that submitted it.</source>
+          <target>Určuje číslo řádku přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control lineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3784695125 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>rowNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control rowNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3784695125 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the row number of the VAT return from the group member that submitted it.</source>
+          <target>Určuje číslo řádku přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control rowNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 4232699882 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 4232699882 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description for the VAT group submission line.</source>
+          <target>Určuje popis řádku podání skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3173496544 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>boxNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control boxNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 3173496544 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the box number of the VAT return.</source>
+          <target>Určuje číslo schránky přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control boxNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 1121446808 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2949480547 - Control 1121446808 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT amount for the specified box number.</source>
+          <target>Určuje částku DPH pro zadané číslo pole.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission Lines - Control amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>vatGroupSubmissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 3179096107 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>no</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control no - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 711999654 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>groupMemberId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control groupMemberId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 3341719881 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 2291535868 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>submittedOn</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control submittedOn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 3818733960 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>startDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control startDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 3309971885 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>endDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control endDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1457983745 - Control 264720787 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submissions - Control vatGroupSubmissionLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waiting for a response - do not close this page</source>
+          <target>Čekání na odpověď - nezavírejte tuto stránku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 1957645693" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The authorization code flow grant process has started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType OAuthCodeStartMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 973150169" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OAuth2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType Oauth2CategoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 1622219291" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Error: %1 ; Description: %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = OAuth error message ; %2 = description of OAuth failure error message</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType OauthFailErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 3906946713" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: %1, description: %2</source>
+          <target>Chyba: %1, Popis: %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = The authorization error message, %2 = The authorization error description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType AuthCodeErrorLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 737339074" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The returned authorization code is missing information about the returned state.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType MissingStateErr</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 1956023362" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The authroization code returned state is missmatching the expected state value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType MismatchingStateErr</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 2342417125" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No state has been returned</source>
+          <target>Nebyl vrácen žádný stav.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType NoStateErr</note>
+        </trans-unit>
+        <trans-unit id="Page 898351636 - NamedType 1232297936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The state parameter value does not match.</source>
+          <target>Hodnota parametru stavu se neshoduje.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Access Dialog - NamedType NotMatchingStateErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Approved Members</source>
+          <target>Schválení členové skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Control 3641927271 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier of the group member.</source>
+          <target>Určuje identifikátor člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Control 3687402140 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the group member.</source>
+          <target>Určuje název člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Control Group Member Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Control 3133801257 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company from which the group member will send VAT returns in Business Central.</source>
+          <target>Určuje společnost, ze které bude člen skupiny odesílat přiznání k DPH v Business Central.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Control Company - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Control 3990529670 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the contact person in the group member company.</source>
+          <target>Určuje jméno kontaktní osoby ve společnosti člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Control Contact Person Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3244774383 - Control 4012802731 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email of the contact person in the group member company.</source>
+          <target>Určuje emailovou adresu kontaktní osoby ve společnosti člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Approved Member List - Control Contact Person Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 1873299968 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the box number of the VAT return.</source>
+          <target>Určuje číslo schránky přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control BoxNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 3687402140 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the group member that submitted the VAT report.</source>
+          <target>Určuje jméno člena skupiny, který podal výkaz DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control Group Member Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 3359429197 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier for the VAT return from the group member that submitted it.</source>
+          <target>Určuje identifikátor přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control VAT Group Submission No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 4081666332 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the timestamp during which the VAT report was submitted.</source>
+          <target>Určuje časové razítko, během kterého byl výkaz DPH podán.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control SubmittedOn - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 636392376 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT amount for the specified box number.</source>
+          <target>Určuje částku DPH pro zadané číslo pole.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 245426702 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total amount for the specified box number aggregated from all the group member returns.</source>
+          <target>Určuje celkovou částku za zadané číslo pole agregované ze všechny členy skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1700225543 - Control 245426702 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Celkem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Member Calculation - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Management</source>
+          <target>Správa skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3626173821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Banner</source>
+          <target>Nastavit banner</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control SetupBanner - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2991574887 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete Banner</source>
+          <target>Kompletní banner</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control CompleteBanner - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3800514526 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome</source>
+          <target>Vítejte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Welcome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3800514526 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT Group Management extension makes it easy to be part of a VAT group.</source>
+          <target>Rozšíření správy skupiny DPH usnadňuje být součástí seskupení pro účely DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Welcome - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2882169296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This guide will help you define member and representative companies in the VAT group. Group members submit VAT returns to the group representative, who then submits the aggregated return for all member companies to the tax authorities.</source>
+          <target>Tato příručka vám pomůže definovat členské a zastupující společnosti ve skupině DPH. Členové skupiny podávají přiznání k DPH zástupci skupiny, který poté podává souhrnné přiznání za všechny členské společnosti finančnímu úřadu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WelcomeLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 926340698 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's get started</source>
+          <target>Začněme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control LetsGo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 926340698 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose Next to configure your company's role in the VAT group.</source>
+          <target>Chcete-li nakonfigurovat roli vaší společnosti ve skupině DPH, zvolte Další.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control LetsGo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2552321247 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose your company's role in the VAT group</source>
+          <target>Vyberte si roli vaší společnosti ve skupině s DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ChooseType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2552321247 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The configuration settings depend on your role in the VAT group.</source>
+          <target>Nastavení konfigurace závisí na vaší roli ve skupině s DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ChooseType - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3582926020 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Role</source>
+          <target>Role skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupRole - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3582926020 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether you are a member of the group, or the group's representative.</source>
+          <target>Určuje, zda jste členem skupiny nebo zástupcem skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupRole - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1485942955 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No VAT group role specified</source>
+          <target>Nebyla zadána žádná role skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control NoVATGroupRole - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1485942955 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To continue, you must specify your role in the VAT group.</source>
+          <target>Chcete-li pokračovat, musíte zadat svou roli ve skupině DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control NoVATGroupRole - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 697164535 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group representative</source>
+          <target>Zástupce skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RepresentativeDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 697164535 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose this option to act as the group representative and submit vat returns on behalf of the group. Group members will submit their VAT returns to you instead of the tax authority.</source>
+          <target>Tuto možnost zvolte, chcete-li jednat jako zástupce skupiny a podávat přiznání k DPH jménem skupiny. Členové skupiny vám místo finančního úřadu předloží přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RepresentativeDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2722143938 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group member</source>
+          <target>Člen skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2722143938 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose this option to act as a group member and submit VAT your returns to the group representative instead of the tax authority.</source>
+          <target>Tuto možnost zvolte, chcete-li jednat jako člen skupiny a odeslat přiznání k DPH zástupci skupiny namísto finančnímu úřadu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 595469094 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My company is the group representative</source>
+          <target>Moje společnost je zástupcem skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RepresentativeSetupInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 595469094 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As the group representative you must define a list of approved group members who submit their VAT returns to you. You can manage group members on the VAT Report Setup page.</source>
+          <target>Jako zástupce skupiny musíte definovat seznam schválených členů skupiny, kteří vám podávají přiznání k DPH. Členy skupiny můžete spravovat na stránce Nastavení sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RepresentativeSetupInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2797239947 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To add members, choose the number in the Approved Members field.</source>
+          <target>Chcete-li přidat členy, zvolte číslo v poli Schválení členové.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RepresentativeSetupInfoMembers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2301097644 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved Members</source>
+          <target>Schválení členové</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ApprovedMembers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2301097644 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of approved members that are allowed to submit their VAT returns. Clicking on this number will open the Approved Members page.</source>
+          <target>Určuje počet schválených členů, kteří mohou podávat přiznání k DPH. Kliknutím na toto číslo se otevře stránka Schválení členové.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ApprovedMembers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 357596043 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>My company is a member of the VAT group</source>
+          <target>Moje společnost je členem skupiny pro účely DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberSetupInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 357596043 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As a group member, you must connect to the representative company for your VAT group.</source>
+          <target>Jako člen skupiny se musíte připojit k zastupující společnosti pro vaši skupinu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberSetupInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3880925993 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter connection settings for the group representative company's Business Central. Connection settings can differ, depending on how Business Central is deployed. The representative can provide this information.</source>
+          <target>Zadejte nastavení připojení pro Business Central společnosti zastupující skupinu. Nastavení připojení se může lišit v závislosti na tom, jak je aplikace Business Central nasazena. Tyto informace může poskytnout zástupce.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberSetupInfoLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2346114009 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member Id</source>
+          <target>Id člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberGuid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2346114009 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The group member identifier.</source>
+          <target>Identifikátor člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control MemberGuid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3187090157 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API URL</source>
+          <target>Adresa rozhraní API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control APIURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3187090157 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The API URL of the representative company's Business Central.</source>
+          <target>Adresa URL společnosti Business Central, která je zástupcem společnosti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control APIURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 785940005 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Representative Company</source>
+          <target>Společnost zástupce skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupRepresentativeCompany - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 785940005 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The name of the company in the representative's Business Central that will receive your VAT returns.</source>
+          <target>Název společnosti v Business Central, která obdrží vaše přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupRepresentativeCompany - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 952030296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication Type</source>
+          <target>Typ ověření</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupAuthenticationType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 952030296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication types that you can use when connecting to a VAT group representative using Business Central.</source>
+          <target>Určuje typy ověřování, které můžete použít při připojování k zástupci skupiny DPH pomocí aplikace Business Central.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupAuthenticationType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1343840248 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication Type</source>
+          <target>Typ ověření</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupAuthenticationTypeSaas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1343840248 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the authentication types that you can use when connecting to a VAT group representative using Business Central.</source>
+          <target>Určuje typy ověřování, které můžete použít při připojování k zástupci skupiny DPH pomocí aplikace Business Central.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupAuthenticationTypeSaas - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1537974217 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web service access key authentication</source>
+          <target>Ověřování přístupového klíče webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WSAKSetupInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1537974217 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please fill in the User Name and Web Service Access Key of the user in the group representative.</source>
+          <target>Vyplňte prosím uživatelské jméno a přístupový klíč webové služby uživatele u zástupce skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WSAKSetupInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2994142618 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <target>Uživatelské jméno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Username - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2994142618 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name in the representative company's Business Central that you will use when you connect</source>
+          <target>Určuje název uživatele v Business Central v zastupující společnosti, který budete používat při připojení</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Username - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Access Key</source>
+          <target>Přístupový klíč webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WebServiceAccessKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3742023362 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the web service access key of a user in the representative company's Business Central that you will use when you connect.</source>
+          <target>Určuje přístupový klíč webové služby uživatele v Business Central v zastupující společnosti, který budete používat při připojení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control WebServiceAccessKey - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 4203936973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth2 details</source>
+          <target>OAuth2 podrobnosti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control OAuth2Info - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 4203936973 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Provide information about the App Registration in Azure Active Directory that will be used to connect with OAuth2.</source>
+          <target>Poskytněte informace o registraci aplikací ve službě Azure Active Directory, které se budou používat k připojení k OAuth2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control OAuth2Info - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2788077256 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target>ID klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ClientId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2788077256 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client ID from the App Registration in Azure Active Directory.</source>
+          <target>Určuje ID klienta z registrace aplikace ve službě Azure Active Directory.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ClientId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 4069789961 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <target>Tajný klíč klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ClientSecret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 4069789961 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client secret from the App Registration in Azure Active Directory.</source>
+          <target>Určuje tajný klíč klienta z registrace aplikace ve službě Azure Active Directory.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ClientSecret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1139402143 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Authority Endpoint</source>
+          <target>Koncový bod autority OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control OAuthAuthorityUrl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1139402143 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the OAuth 2.0 authority endpoint of the App Registration in Azure Active Directory.</source>
+          <target>Určuje koncový bod autority OAuth 2.0 registrace aplikace ve službě Azure Active Directory.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control OAuthAuthorityUrl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1423931915 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Resource URL</source>
+          <target>Adresa URL zdroje OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ResourceURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1423931915 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the OAuth 2.0 resource URL of the API you will get access to in Azure Active Directory. For instance https://api.businesscentral.dynamics.com/</source>
+          <target>Určuje adresu URL prostředků OAuth 2.0 rozhraní API, ke kterým získáte přístup ve službě Azure Active Directory. Například https://api.businesscentral.dynamics.com/</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control ResourceURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1464062987 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Redirect URL</source>
+          <target>Adresa URL přesměrování OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RedirectURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1464062987 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the OAuth 2.0 redirect URL of the App Registration in Azure Active Directory.</source>
+          <target>Určuje adresu URL přesměrování OAuth 2.0 registrace aplikace ve službě Azure Active Directory.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control RedirectURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1362072938 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click Next to authenticate, get access to the group representative's API and continue.</source>
+          <target>Klikněte na Další pro ověření, získejte přístup k rozhraní API zástupce skupiny a pokračujte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control OAuth2Finish - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2169452637 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select a VAT report configuration</source>
+          <target>Výběr konfigurace sestavy DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATReportConfigurationInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 2169452637 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose the VAT Report Configuration that is currently being used to send reports to the authorities. At the end of the setup we will create a new configuration based on the one chosen here which will be used to send VAT reports to the group representative.</source>
+          <target>Zvolte konfiguraci sestavy DPH, která se aktuálně používá k odesílání sestav úřadům. Na konci nastavení vytvoříme novou konfiguraci, která bude použita k odeslání sestav DPH zástupci skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATReportConfigurationInfo - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 529781750 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Report Configurations</source>
+          <target>Konfigurace sestavy DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATReportConfigurationPart - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3189484627 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All done</source>
+          <target>Vše hotovo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control AllDone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3189484627 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click Finish to save the setup and exit the setup guide.</source>
+          <target>Klepnutím na tlačítko Dokončit uložte nastavení a ukončete průvodce nastavením.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control AllDone - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 3750769219 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To test the connection to the VAT group representative, choose Test Connection.</source>
+          <target>Chcete-li otestovat připojení k zástupci skupiny DPH, zvolte Testovat připojení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control AllDoneTestConnection - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 545533337 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically refresh VAT report statuses</source>
+          <target>Automaticky aktualizovat stavy sestavy DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control EnableJobQueue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 545533337 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled this will automatically try to refresh the statuses of submitted VAT returns from the group representative if the submitted report was used in a VAT group report in that period.</source>
+          <target>Pokud je tato možnost povolena, pokusí se automaticky aktualizovat stavy odeslaných přiznání k DPH od zástupce skupiny, pokud byl odeslaný přehled v daném období použit ve výkazu skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control EnableJobQueue - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1938190553 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Automatic Refresh</source>
+          <target>Povolit automatickou aktualizaci</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Enable JobQueue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Control 1938190553 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to automatically update the status of the VAT reports with a background task.</source>
+          <target>Určuje, zda chcete automaticky aktualizovat stav sestav DPH pomocí úlohy na pozadí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control Enable JobQueue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 4263468516 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Connection</source>
+          <target>Test připojení</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action TestConnection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 4263468516 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initiates a test connection to the group master company in order to check if the authentication is correctly set up.</source>
+          <target>Inicializováno testovací připojení k hlavní společnosti skupiny, aby bylo možné zkontrolovat, zda je ověřování správně nastaveno.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action TestConnection - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 2438272767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target>Zpět</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 2438272767 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to previous page</source>
+          <target>Přejít na předchozí stranu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionBack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 914282563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target>Další</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 914282563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to next page</source>
+          <target>Přejít na další stranu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionNext - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 3259912055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target>Dokončit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - Action 3259912055 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish the wizard</source>
+          <target>Dokončení průvodce</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionFinish - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - NamedType 1147111024" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The setup for the VAT Group is not finished.\\Are you sure you want to exit?</source>
+          <target>Nastavení skupiny DPH není dokončeno.\\Opravdu chcete ukončit program?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - NamedType NotSetUpQst</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - NamedType 3527398778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT report setup was not found. You can create one on the VAT Report Setup page.</source>
+          <target>Nastavení sestavy DPH nebylo nalezeno. Můžete ji vytvořit na stránce Nastavení sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - NamedType NoVATReportSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - NamedType 1148646153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not save changes to the %1 table.</source>
+          <target>Nelze uložit změny v tabulce %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the name of a table.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - NamedType CouldNotModifyVATReportSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - NamedType 1886430882" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The connection is working properly. You can now close the Setup Guide.</source>
+          <target>Připojení funguje správně. Nyní můžete zavřít Průvodce instalací.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - NamedType ConnectionWorkingMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 27651019 - NamedType 1557331577" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATGROUP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - NamedType VATReportVersionTok</note>
+        </trans-unit>
+        <trans-unit id="Page 3464953971 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission Lines</source>
+          <target>Řádky podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Sub. Lines Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3464953971 - Control 2782707039 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the row number of the VAT return from the group member that submitted it.</source>
+          <target>Určuje číslo řádku přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Sub. Lines Subform - Control Row No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464953971 - Control 2989159974 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the box number of the VAT return.</source>
+          <target>Určuje číslo schránky přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Sub. Lines Subform - Control Box No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464953971 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description for the VAT group submission line.</source>
+          <target>Určuje popis řádku podání skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Sub. Lines Subform - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464953971 - Control 636392376 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT amount for the specified box number.</source>
+          <target>Určuje částku DPH pro zadané číslo pole.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Sub. Lines Subform - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submission</source>
+          <target>Podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier for the VAT return from the group member that submitted it.</source>
+          <target>Určuje identifikátor přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 3178072769 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the group member that submitted the VAT report.</source>
+          <target>Určuje jméno člena skupiny, který podal výkaz DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control Member Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 3133801257 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company from which the VAT report was submitted.</source>
+          <target>Určuje společnost, ze které byla výkaz DPH podán.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control Company - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 4035800860 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the timestamp during which the VAT report was submitted.</source>
+          <target>Určuje časové razítko, během kterého byl výkaz DPH podán.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control Submitted On - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 474480784 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the start date of the report period for the VAT report submission.</source>
+          <target>Určuje počáteční datum období pro podání výkazu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 2649176925 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end date of the report period for the VAT report submission.</source>
+          <target>Určuje koncové datum období pro podání výkazu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2910311616 - Control 3932791859 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Lines</source>
+          <target>Řádky sestavy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission - Control VATGroupSubmissionLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Submissions</source>
+          <target>Podání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the identifier for the VAT return from the group member that submitted it.</source>
+          <target>Určuje identifikátor přiznání k DPH od člena skupiny, který jej podal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 3178072769 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the group member that submitted the VAT report.</source>
+          <target>Určuje jméno člena skupiny, který podal výkaz DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control Member Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 474480784 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the start date of the report period for the VAT report submission.</source>
+          <target>Určuje počáteční datum období pro podání výkazu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 2649176925 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end date of the report period for the VAT report submission.</source>
+          <target>Určuje koncové datum období pro podání výkazu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 3133801257 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company from which the VAT report was submitted.</source>
+          <target>Určuje společnost, ze které byla výkaz DPH podán.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control Company - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 4035800860 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the timestamp during which the VAT report was submitted.</source>
+          <target>Určuje časové razítko, během kterého byl výkaz DPH podán.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control Submitted On - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590669234 - Control 2782722823 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the group member that submitted the VAT report.</source>
+          <target>Určuje ID člena skupiny, který podal sestavu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Submission List - Control Member ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reports Configuration</source>
+          <target>Konfigurace sestav DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1318640161 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the version of the VAT report.</source>
+          <target>Určuje verzi sestavy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control VAT Report Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1555720505 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether an ID is suggested automatically.</source>
+          <target>Určuje, zda je ID navrženo automaticky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Suggest Lines Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 554825520 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a caption is suggested automatically.</source>
+          <target>Určuje, zda je automaticky navržen titulek.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Suggest Lines Codeunit Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 2792361305 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the codeunit ID.</source>
+          <target>Určuje ID procedury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Content Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 2605127120 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the codeunit caption code.</source>
+          <target>Určuje kód titulku procedury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Content Codeunit Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1578133954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID associated with the submission codeunit.</source>
+          <target>Určuje ID spojené s procedurou podání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Submission Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1235910239 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the caption associated with the submission codeunit.</source>
+          <target>Určuje titulek spojený s procedurou podání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Submission Codeunit Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 39760095 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the codeunit ID of the response handler.</source>
+          <target>Určuje ID procedury obslužné rutiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Response Handler Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 4045529433 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the caption that related to the line.</source>
+          <target>Určuje název titulku, který se vztahuje k řádku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Resp. Handler Codeunit Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1943315772 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the codeunit ID for the VAT Report line.</source>
+          <target>Určuje ID procedury pro řádek výkazu DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Validate Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 231648147 - Control 1173241261 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the caption for the codeunit VAT Report.</source>
+          <target>Určuje titulek pro proceduru Výkaz DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Reports Configuration Part - Control Validate Codeunit Caption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 130569615 - Control 1676047464 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member Submissions</source>
+          <target>Podání člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3071660306</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 130569615 - Control 1676047464 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of VAT returns submitted by group members in this period.</source>
+          <target>Určuje počet přiznání k DPH odeslaných členy skupiny v tomto období.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3071660306</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 130569615 - NamedType 3282014969" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 of %2 submitted</source>
+          <target>%1 ze %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = number ex. 2 of 4 submitted</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3071660306</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Control 966004738 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Included</source>
+          <target>Skupina DPH zahrnuta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Control 966004738 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specified whether this is a VAT group return.</source>
+          <target>Bylo zadáno, zda se jedná o přiznání skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Control 190253636 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the VAT return on the group representative side. If this VAT return was used in a VAT group return by the group representative, the status is shown here.</source>
+          <target>Určuje stav přiznání k DPH na straně zástupce skupiny. Pokud bylo toto přiznání k DPH použito v přiznání skupiny zástupcem skupiny, je zde uveden stav.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Action 3475387180 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include VAT Group</source>
+          <target>Zahrnout skupinu DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Action 3475387180 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Includes the amounts of submitted VAT returns from members in this period.</source>
+          <target>Zahrnuje částky odeslaných přiznání k DPH od členů v tomto období.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Action 2421935703 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Status</source>
+          <target>Stav aktualizace</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - Action 2421935703 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manually update the status of this VAT return to mirror the status of the VAT Group return in the group representative company. </source>
+          <target>Ručně aktualizujte stav tohoto přiznání k DPH tak, aby odrážel stav přiznání skupiny DPH ve společnosti zastupující skupinu. </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - NamedType 596730981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The amounts submitted by group members have changed. Please review the new values.</source>
+          <target>Částky odeslané členy skupiny se změnily. Zkontrolujte nové hodnoty.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - NamedType 1023320891" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are newer VAT Group submissions from members for this period. Click Reopen to incorporate the new values.</source>
+          <target>Pro toto období existují novější podání členů skupiny DPH. Chcete-li začlenit nové hodnoty, klepněte na tlačítko Znovu otevřít.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1476524600 - NamedType 1742762397" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some VAT Group members have not submitted their VAT return for this period. Wait until all members have submitted before you continue.\n You can see the current submission on the VAT Group Submision page.</source>
+          <target>Někteří členové skupiny pro účely DPH za toto období přiznání k DPH nepodali. Před pokračováním počkejte, až budou přiznání podána všemi členy.\n Aktuální podání můžete zobrazit na stránce Podání skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1203664658 - Control 966004738 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether or not this is a VAT group return.</source>
+          <target>Určuje, zda se jedná o přiznání skupiny DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4060593033</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1203664658 - Control 190253636 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the VAT return on the group representative side. If this VAT return was used in any VAT Group return on the representative side, that status is mirrored here.</source>
+          <target>Určuje stav přiznání k DPH na straně zástupce skupiny. Pokud bylo toto přiznání k DPH použito v jakémkoli přiznání skupiny pro účely DPH na straně zástupce, odráží se tento status zde.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4060593033</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3739812496 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Management</source>
+          <target>Správa skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3582926020 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies what kind of role the current user has in the VAT group.</source>
+          <target>Určuje, jakou roli má aktuální uživatel ve skupině s DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 952030296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which authentication type will be used to send data to the group representative.</source>
+          <target>Určuje, který typ ověřování bude použit k odeslání dat zástupci skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 1343840248 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication Type</source>
+          <target>Typ ověření</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 1343840248 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which authentication type will be used to send data to the group representative.</source>
+          <target>Určuje, který typ ověřování bude použit k odeslání dat zástupci skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 857185741 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the current ID of the group member.</source>
+          <target>Určuje aktuální ID člena skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3187090157 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the API URL of the group representative tenant.</source>
+          <target>Určuje adresu URL rozhraní API klienta zástupce skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 785940005 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company name of the group representative tenant to which the VAT returns will be sent.</source>
+          <target>Určuje název společnosti nájemce zástupce skupiny, kterému budou odeslána přiznání k DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3549826426 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <target>Uživatelské jméno</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3549826426 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the web service access key of the user in the group representative company.</source>
+          <target>Určuje přístupový klíč webové služby uživatele ve společnosti, která je zástupcem skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3629137570 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Access Key</source>
+          <target>Přístupový klíč webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 3629137570 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the web service access key of the user in the group representative company.</source>
+          <target>Určuje přístupový klíč webové služby uživatele ve společnosti, která je zástupcem skupiny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 2788077256 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target>ID klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 2788077256 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client ID of the Azure AD application used to access the API.</source>
+          <target>Určuje ID klienta aplikace Azure AD používané pro přístup k rozhraní API.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 4069789961 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <target>Tajný klíč klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 4069789961 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client secret of the Azure AD application used to access the API.</source>
+          <target>Určuje tajný klíč klienta aplikace Azure AD používané pro přístup k rozhraní API.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 2715030446 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the authority URL of the OAuth authority used to grant access tokens.</source>
+          <target>Určuje adresu URL autority autority OAuth, která slouží k udělení přístupových tokenů.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 1423931915 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the resource URL of the Azure AD application to which access will be granted.</source>
+          <target>Určuje adresu URL prostředku aplikace Azure AD, ke které bude udělen přístup.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 1464062987 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the OAuth2 redirect URL of the Azure AD application used to access the API.</source>
+          <target>Určuje adresu URL přesměrování OAuth2 aplikace Azure AD používané pro přístup k rozhraní API.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Control 2301097644 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of approved members that are allowed to submit their VAT returns. Clicking on this number will open the Approved Members page.</source>
+          <target>Určuje počet schválených členů, kteří mohou podávat přiznání k DPH. Kliknutím na toto číslo se otevře stránka Schválení členové.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Action 22890876 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Renew OAuth2 Token</source>
+          <target>Obnovit token OAuth2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4146260181 - Action 22890876 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initiates a new OAuth2 authetication flow which will result in getting a new token. This should be used if the the previous token has expired or can no longer be used.</source>
+          <target>Zahájí nový tok ověření OAuth2, který bude mít za následek získání nového tokenu. To by mělo být použito, pokud předchozí token vypršel nebo již nelze použít.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 3583765724 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Role</source>
+          <target>Role skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 148869180 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved Members</source>
+          <target>Schválení členové</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 3067641958 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Member ID</source>
+          <target>ID člena skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 741335537 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Representative API URL</source>
+          <target>Adresa URL rozhraní API zástupce skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 2906998308 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication Type</source>
+          <target>Typ ověření</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 2519885595 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name Key</source>
+          <target>Klíč uživatelského jména</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 587592091 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Access Key Key</source>
+          <target>Přístupový klíč webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 438063357 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Representative Company</source>
+          <target>Společnost zástupce skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 640746029 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID Key</source>
+          <target>Klíč ID klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 4106039276 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret Key</source>
+          <target>Tajný klíč klienta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 866753070 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Authority URL</source>
+          <target>Adresa URL autority OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 2731867443 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Resource URL</source>
+          <target>Adresa URL zdroje OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4146260181 - Field 618784563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Redirect URL</source>
+          <target>Adresa URL přesměrování OAuth 2.0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 539298427 - Control 3054127057 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the representative VAT amount for the specified box number.</source>
+          <target>Určuje částku DPH zástupce pro zadané číslo pole.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4176980254</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 539298427 - Control 2195804493 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Amount</source>
+          <target>Částka skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4176980254</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 539298427 - Control 2195804493 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the group VAT amount for the specified box number without the representative amount.</source>
+          <target>Určuje částku DPH skupiny pro zadané číslo pole bez částky zástupce.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4176980254</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 539298427 - Change 636392376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount</source>
+          <target>Celkem částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4176980254</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 191829437 - Field 966004738 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Return</source>
+          <target>Přiznání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4272790790</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 191829437 - Field 190253636 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Group Return Status</source>
+          <target>Stav přiznání skupiny DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4272790790</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 84290559 - Field 3054127057 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Representative Amount</source>
+          <target>Částka zástupce</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2925949834</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 84290559 - Field 2195804493 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group Amount</source>
+          <target>Částka skupiny</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2925949834</note>
+        </trans-unit>
+        <trans-unit id="Enum 3476321473 - EnumValue 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Access Key</source>
+          <target>Přístupový klíč webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type OnPrem - EnumValue WebServiceAccessKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3476321473 - EnumValue 1970998423 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth2</source>
+          <target>OAuth2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type OnPrem - EnumValue OAuth2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3476321473 - EnumValue 3367207849 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Windows Authentication</source>
+          <target>Ověřování systému Windows</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type OnPrem - EnumValue WindowsAuthentication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1905748320 - EnumValue 3742023362 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Access Key</source>
+          <target>Přístupový klíč webové služby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type Saas - EnumValue WebServiceAccessKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1905748320 - EnumValue 1970998423 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth2</source>
+          <target>OAuth2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Authentication Type Saas - EnumValue OAuth2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3583765724 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Role - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3583765724 - EnumValue 490050973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Representative</source>
+          <target>Zástupce</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Role - EnumValue Representative - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3583765724 - EnumValue 69905980 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member</source>
+          <target>Člen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Role - EnumValue Member - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

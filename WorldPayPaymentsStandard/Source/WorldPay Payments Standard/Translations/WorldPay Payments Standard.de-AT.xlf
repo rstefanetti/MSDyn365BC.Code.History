@@ -203,7 +203,7 @@
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 1516166834 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the frequency with which the logo is updated.</source>
-          <target state="translated">Gibt die Häufigkeit an, in der das Logo aktualisiert wird.</target>
+          <target state="translated">Gibt die Häufigkeit an, mit der das Logo aktualisiert wird.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Logo Update Frequency - Property ToolTip</note>
         </trans-unit>
@@ -379,6 +379,11 @@
           <source>https://go.microsoft.com/fwlink/?linkid=844662</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType TermsOfServiceURLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1284802830 - NamedType 396223260" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://cdn-bc.dynamics.com/common/images/extensionslogos/worldpay_colour_v1.png</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType LogoURLTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 19477768" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>https://secure-test.worldpay.com/wcc/purchase?testMode=100</source>

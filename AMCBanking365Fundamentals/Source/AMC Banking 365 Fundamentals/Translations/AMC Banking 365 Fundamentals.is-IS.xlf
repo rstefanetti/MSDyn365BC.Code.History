@@ -410,7 +410,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2319047537 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please wait while the operation is being completed.</source>
-          <target state="translated">Bíðið á meðan aðgerðin stendur yfir.</target>
+          <target state="translated">Bíðið þar til aðgerðinni hefur verið lokið.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - NamedType ProgressWindowMsg</note>
         </trans-unit>
@@ -1490,7 +1490,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Setja upp skilgreiningar gagnaskipta</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
         </trans-unit>
@@ -1614,7 +1614,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1973572167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Setja upp grunngreiðslumáta</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdatePayMeth - Property Caption</note>
         </trans-unit>

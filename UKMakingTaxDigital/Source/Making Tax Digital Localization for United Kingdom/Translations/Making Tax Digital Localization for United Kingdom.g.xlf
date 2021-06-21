@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Making Tax Digital Localization for United Kingdom">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 127999022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Liability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 2110632758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field From Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 2565971985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field To Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 1077555671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Original Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 3134116370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Outstanding Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Payment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Field 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Field 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Field End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Field 746750605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Received Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Field Received Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4276328401 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Payment - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted VAT Return</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 1992362598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Period Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 2098622169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Due Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field VAT Due Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 2772972831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Due Acquisitions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field VAT Due Acquisitions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 2271252895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total VAT Due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Total VAT Due - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 1938964512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reclaimed Curr Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field VAT Reclaimed Curr Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 482036124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net VAT Due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Net VAT Due - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 1706568186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Value Sales Excl. VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Total Value Sales Excl. VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 2666256442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Value Purchases Excl.VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Total Value Purchases Excl.VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 790515197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Value Goods Suppl. ExVAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Total Value Goods Suppl. ExVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 3344583705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Acquisitions Excl. VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Total Acquisitions Excl. VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3379191951 - Field 1762208945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finalised</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field Finalised - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted VAT Returns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 2098622169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT due on sales and other outputs. This corresponds to box 1 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control VAT Due Sales - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 2772972831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT due on acquisitions from other EC Member States. This corresponds to box 2 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control VAT Due Acquisitions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 2271252895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total VAT due (the sum of "VAT Due Sales" and "VAT Due Acquisitions"). This corresponds to box 3 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Total VAT Due - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 1938964512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT reclaimed on purchases and other inputs (including acquisitions from the EC). This corresponds to box 4 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control VAT Reclaimed Curr Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 482036124 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the difference between "Total VAT Due" and "VAT Reclaimed Curr Period". This corresponds to box 5 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Net VAT Due - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 1706568186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the yotal value of sales and all other outputs excluding any VAT. This corresponds to box 6 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Total Value Sales Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 2666256442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total value of purchases and all other inputs excluding any VAT (including exempt purchases). This corresponds to box 7 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Total Value Purchases Excl.VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 790515197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total value of all supplies of goods and related costs, excluding any VAT, to other EC member states. This corresponds to box 8 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Total Value Goods Suppl. ExVAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3379191951 - Control 3344583705 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total value of acquisitions of goods and related costs excluding any VAT, from other EC member states. This corresponds to box 9 on the VAT Return form.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control Total Acquisitions Excl. VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 1495301485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT return periods are up to date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePeriodsUpToDateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 2015523248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve submitted VAT returns are up to date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveReturnsUpToDateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 4163168824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT payments are up to date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePaymentsUpToDateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 3831077096" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT liabilities are up to date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveLiabilitiesUpToDateMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 997485531" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT return periods successful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePeriodsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 347022370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve submitted VAT returns successful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveReturnsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 3545832570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT payments successful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePaymentsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 2523148074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT liabilities successful</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveLiabilitiesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 1253545892" size-unit="char" translate="yes" xml:space="preserve">
+          <source>including %1 new and %2 modified records.</source>
+          <note from="Developer" annotates="general" priority="2">%1, %2 - records count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType IncludingMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 1695200263" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to retrieve VAT return periods.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePeriodsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 86560958" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to retrieve VAT liabilities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveLiabilitiesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 783031342" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to retrieve VAT payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrievePaymentsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 1057011078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to retrieve submitted VAT returns.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType RetrieveReturnsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 35889469" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to submit VAT return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType SubmitReturnErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 937380464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason from the HMRC server: </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType ReasonTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 4143198876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The remote endpoint has indicated that there is no submitted VAT returns for the specified period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType NoSubmittedReturnsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - NamedType 404031900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no return period linked to this VAT return.\\Use the Create From VAT Return Period action on the VAT Returns page or the Create VAT Return action on the VAT Return Periods page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType PeriodLinkErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3921054357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType OAuthNotConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3556582670" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open service connections to setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType OpenSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2966527975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the setup?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType OpenSetupQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 8489975" size-unit="char" translate="no" xml:space="preserve">
+          <source>Submit VAT Return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType SubmitVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 4268559657" size-unit="char" translate="no" xml:space="preserve">
+          <source>Retrieve VAT Return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType RetrieveVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2185032555" size-unit="char" translate="no" xml:space="preserve">
+          <source>Retrieve VAT Return Periods.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType RetrieveVATReturnPeriodsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 509830736" size-unit="char" translate="no" xml:space="preserve">
+          <source>Retrieve VAT Liabilities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType RetrieveVATLiabilitiesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1967639592" size-unit="char" translate="no" xml:space="preserve">
+          <source>Retrieve VAT Payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType RetrieveVATPaymentsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3075210248" size-unit="char" translate="no" xml:space="preserve">
+          <source>The provided VRN is invalid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_VRN_INVALID_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2543889661" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid date from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_DATE_FROM_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2179689570" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid date to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_DATE_TO_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1083910414" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid date range.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_DATE_RANGE_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3669109006" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_STATUS_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 4036945821" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid period key.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_PERIOD_KEY_INVALID_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1744187697" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_REQUEST_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1265479702" size-unit="char" translate="no" xml:space="preserve">
+          <source>TotalVatDue should be equal to the sum of vatDueSales and vatDueAcquisitions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_VAT_TOTAL_VALUE_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3521390553" size-unit="char" translate="no" xml:space="preserve">
+          <source>NetVatDue should be the difference between the largest and the smallest values among totalVatDue and vatReclaimedCurrPeriod.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_VAT_NET_VALUE_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 517232147" size-unit="char" translate="no" xml:space="preserve">
+          <source>Please provide a numeric field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_INVALID_NUMERIC_VALUE_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1588953087" size-unit="char" translate="no" xml:space="preserve">
+          <source>The date of the requested return cannot be more than four years from the current date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_DATE_RANGE_TOO_LARGE_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3688978095" size-unit="char" translate="no" xml:space="preserve">
+          <source>User has not declared VAT return as final.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_NOT_FINALISED_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1995368700" size-unit="char" translate="no" xml:space="preserve">
+          <source>User has has already submitted a VAT return for the given period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_DUPLICATE_SUBMISSION_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 440480794" size-unit="char" translate="no" xml:space="preserve">
+          <source>The client and/or agent is not authorised.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_CLIENT_OR_AGENT_NOT_AUTHORISED_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1959782352" size-unit="char" translate="no" xml:space="preserve">
+          <source>The remote endpoint has indicated that no associated data is found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_NOT_FOUND_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3764255011" size-unit="char" translate="no" xml:space="preserve">
+          <source>The HMRC service is busy. Try again later.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_TOO_MANY_REQ_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1930133636" size-unit="char" translate="no" xml:space="preserve">
+          <source>DESKTOP_APP_VIA_SERVER</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ConnectionMethodWinClientTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2772929892" size-unit="char" translate="no" xml:space="preserve">
+          <source>WEB_APP_VIA_SERVER</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ConnectionMethodWebClientTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2178399248" size-unit="char" translate="no" xml:space="preserve">
+          <source>BATCH_PROCESS_DIRECT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ConnectionMethodBatchClientTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 348309610" size-unit="char" translate="no" xml:space="preserve">
+          <source>Microsoft_Dynamics_365_Business_Central</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ProdNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1225220918" size-unit="char" translate="no" xml:space="preserve">
+          <source>_OnPrem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ProdNameOnPremSuffixTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 663661500" size-unit="char" translate="no" xml:space="preserve">
+          <source>16.0.0.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType DefaultProdVersionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 720040891" size-unit="char" translate="no" xml:space="preserve">
+          <source>Windows</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType DefaultOSFamilyTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2155965333" size-unit="char" translate="no" xml:space="preserve">
+          <source>Version,CurrentTimeZone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_OSInfo_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2505595792" size-unit="char" translate="no" xml:space="preserve">
+          <source>Primary='true' and Name like '%Windows%'</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_OSInfo_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3671148481" size-unit="char" translate="no" xml:space="preserve">
+          <source>UUID,Vendor,Version,Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_DeviceInfo_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2076344644" size-unit="char" translate="no" xml:space="preserve">
+          <source>UUID is not null and Vendor is not null and Name is not null</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_DeviceInfo_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3849085274" size-unit="char" translate="no" xml:space="preserve">
+          <source>UserName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_SysInfo_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3520689451" size-unit="char" translate="no" xml:space="preserve">
+          <source>UserName is not null</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_SysInfo_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3532501511" size-unit="char" translate="no" xml:space="preserve">
+          <source>CurrentBitsPerPixel,CurrentHorizontalResolution,CurrentVerticalResolution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Screen_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 571564574" size-unit="char" translate="no" xml:space="preserve">
+          <source>CurrentBitsPerPixel is not null and CurrentHorizontalResolution is not null and CurrentVerticalResolution is not null</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Screen_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3742518919" size-unit="char" translate="no" xml:space="preserve">
+          <source>ScreenHeight,ScreenWidth</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Monitor_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 781581982" size-unit="char" translate="no" xml:space="preserve">
+          <source>ScreenHeight is not null and ScreenWidth is not null</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Monitor_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 431184545" size-unit="char" translate="no" xml:space="preserve">
+          <source>IPAddress,MACAddress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Network_FieldTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2792741412" size-unit="char" translate="no" xml:space="preserve">
+          <source>MACAddress is not null</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Network_WhereTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1524965798" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_OperatingSystem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_OperatingSystemTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 358123373" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_ComputerSystemProduct</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_ComputerSystemProductTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1411340020" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_ComputerSystem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_ComputerSystemTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3237645728" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_DesktopMonitor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_DesktopMonitorTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1959912393" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_VideoController</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_VideoControllerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1197420805" size-unit="char" translate="no" xml:space="preserve">
+          <source>Win32_NetworkAdapterConfiguration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType WMI_Win32_NetworkAdapterConfigurationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 893323605" size-unit="char" translate="no" xml:space="preserve">
+          <source>HMRC VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType OAuthPRODSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1956058697" size-unit="char" translate="no" xml:space="preserve">
+          <source>HMRC VAT Sandbox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType OAuthSandboxSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1983710681" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://api.service.hmrc.gov.uk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ServiceURLPRODTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 3482982669" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://test-api.service.hmrc.gov.uk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ServiceURLSandboxTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 2280301443" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://localhost:8080/test-api.service.hmrc.gov.uk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ServiceURLMockServiceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1596210425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC VAT Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ServiceConnectionPRODSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 2555273173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC VAT Sandbox Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ServiceConnectionSandboxSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 837215791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Making Tax Digital VAT Returns</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType OAuthPRODSetupDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 4067733099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Making Tax Digital VAT Returns Sandbox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType OAuthSandboxSetupDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1481040075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType CheckCompanyVATNoAfterSuccessAuthorizationQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1324004288" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKHMRC-MTDVAT-PROD-ClientID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType PRODAzureClientIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 2915416025" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKHMRC-MTDVAT-PROD-ClientSecret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType PRODAzureClientSecretTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 2013953540" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKHMRC-MTDVAT-Sandbox-ClientID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType SandboxAzureClientIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 712266973" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKHMRC-MTDVAT-Sandbox-ClientSecret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType SandboxAzureClientSecretTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 3083327283" size-unit="char" translate="no" xml:space="preserve">
+          <source>urn:ietf:wg:oauth:2.0:oob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType RedirectURLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 3812260238" size-unit="char" translate="no" xml:space="preserve">
+          <source>write:vat read:vat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType ScopeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1136373071" size-unit="char" translate="no" xml:space="preserve">
+          <source>/oauth/authorize</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType AuthorizationURLPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1790386491" size-unit="char" translate="no" xml:space="preserve">
+          <source>/oauth/token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType AccessTokenURLPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1845993124" size-unit="char" translate="no" xml:space="preserve">
+          <source>/oauth/token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType RefreshTokenURLPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - NamedType 1390968420" size-unit="char" translate="no" xml:space="preserve">
+          <source>code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - NamedType AuthorizationResponseTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 80986240 - NamedType 1809312125" size-unit="char" translate="no" xml:space="preserve">
+          <source>Auto update of VAT return period job.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Auto Receive Period - NamedType TraceCategoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 80986240 - NamedType 3138717585" size-unit="char" translate="no" xml:space="preserve">
+          <source>A job for an auto update of VAT return period has been executed: total = %1, new = %2, modified = %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Auto Receive Period - NamedType TraceExecuteMessageLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436680869 - NamedType 1424015748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Submit Return - NamedType ConfirmSubmitQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 753440336 - NamedType 2451153937" size-unit="char" translate="no" xml:space="preserve">
+          <source>HMRC MTD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType VATReportLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 753440336 - NamedType 3200418601" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATPERIODS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType NoSeriesCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 753440336 - NamedType 1672992501" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Return Periods</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType NoSeriesDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 753440336 - NamedType 3030306024" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATPER-0001</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType VATReturnPeriodStartTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 753440336 - NamedType 1060775701" size-unit="char" translate="no" xml:space="preserve">
+          <source>VATPER-9999</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType VATReturnPeriodEndTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Liabilities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 2110632758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the from date of this tax period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control From Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 2565971985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the to date of this tax period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control To Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the charge type of this liability.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 1077555671 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original liability value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control Original Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 3134116370 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the outstanding liability value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control Outstanding Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Control 4085727052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the liability due date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Action 3867691064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Liabilities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Action Get VAT Liabilities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3844370208 - Action 3867691064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve and sync VAT liabilities from HMRC service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Liabilities - Action Get VAT Liabilities - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the start date of the period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Control Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end date of the period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Control End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Control 746750605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment received date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Control Received Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Action 2959983568 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Action Get VAT Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 383642376 - Action 2959983568 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve and sync VAT payments from HMRC service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Payments - Action Get VAT Payments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - Control 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - Control Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date from which to return the records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - Control Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - Control 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - Control End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date to which to return the records.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - Control End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - NamedType 233832780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get VAT Return Periods</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - NamedType GetReturnPeriodsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - NamedType 3688490447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get VAT Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - NamedType GetPaymentsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - NamedType 94923679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get VAT Liabilities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - NamedType GetLiabilitiesLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2737659627 - Control 1992187002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3364475416">
+          <source>Client Tokens</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD OAuth 2.0 Setup - Control HMRC VAT Client Tokens - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2737659627 - Control 2856825125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3364475416">
+          <source>Client ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD OAuth 2.0 Setup - Control HMRC VAT Client ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2737659627 - Control 2856825125 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3364475416">
+          <source>Specifies the client ID token.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD OAuth 2.0 Setup - Control HMRC VAT Client ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2737659627 - Control 3105606052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3364475416">
+          <source>Client Secret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD OAuth 2.0 Setup - Control HMRC VAT Client Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2737659627 - Control 3105606052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3364475416">
+          <source>Specifies the client secret token.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD OAuth 2.0 Setup - Control HMRC VAT Client Secret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 3204024253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>Disable Fraud Prevention Headers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTDDisableFPHeaders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 3204024253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>Specifies if fraud prevention headers are disabled. Choose the field if you do not want to include fraud prevention headers in the HTTP requests that are sent to HMRC.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTDDisableFPHeaders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 3935026298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>OAuth Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTD OAuth Setup Option - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 3935026298 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>Specifies the OAuth 2.0 setup for the HMRC connection.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTD OAuth Setup Option - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 2038032189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>Gov Test Scenario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTD Gov Test Scenario - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2246652568 - Control 2038032189 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
+          <source>Specifies the "Gov Test Scenario" flag for the HMRC sandbox connection.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MTD Report Setup - Control MTD Gov Test Scenario - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3935026298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD OAuth Setup Option</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD OAuth Setup Option - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 2038032189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD Gov Test Scenario</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD Gov Test Scenario - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3417661058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD Disable FraudPrev. Headers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD Disable FraudPrev. Headers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 343078785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WinClient Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WinClient Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 2580648929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WebClient Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WebClient Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3423376878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP Batch Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP Batch Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3096414478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WinClient Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WinClient Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 693085422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WebClient Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WebClient Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 1157416033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP Batch Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP Batch Json - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

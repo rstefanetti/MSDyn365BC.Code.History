@@ -1,0 +1,1788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="AMC Banking 365 Fundamentals">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3203079048 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Banks</source>
+          <target>Banche AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3203079048 - Field 1732083938 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <target>Banca</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Field Bank - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3203079048 - Field 2685439803 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Name</source>
+          <target>Nome banca</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Field Bank Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3203079048 - Field 284764054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Codice paese/area geografica</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3203079048 - Field 2501792105 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Update Date</source>
+          <target>Data ultimo aggiornamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Field Last Update Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3203079048 - Field 171145402 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Index</source>
+          <target>Indice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Banks - Field Index - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Setup</source>
+          <target>Setup AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Chiave primaria</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 129688762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <target>Nome utente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 204649572 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password Key</source>
+          <target>Codice password</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Password Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 678782652 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign-up URL</source>
+          <target>URL iscrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Sign-up URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 2575991450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service URL</source>
+          <target>URL servizio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Service URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 1645510544 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Support URL</source>
+          <target>URL supporto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Support URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 4006456467 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Namespace API Version</source>
+          <target>Versione API spazio dei nomi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Namespace API Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - Field 1857133763 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solution</source>
+          <target>Soluzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Solution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - NamedType 3321025375" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>demouser</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - NamedType DemoUserNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 3704095706 - NamedType 2491328944" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>DemoPassword</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - NamedType DemoPasswordTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Property 3863440606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>bank file import,bank file export,bank transfer,amc,bank service setup,bank data conversion</source>
+          <target>importazione file della banca,esportazione file della banca,bonifico bancario,amc,setup servizio bancario, servizio di conversione dati bancari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Setup</source>
+          <target>Setup AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Page,Sign-up,Assisted setup,Bank Name,Encryption,Support</source>
+          <target>Nuovo,Processo,Pagina,Iscrizione,Setup assistito,Nome banca,Crittografia,Supporto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 1814464443 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User information</source>
+          <target>Informazioni utente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 129688762 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the user name that represents your company's sign-up for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files.</source>
+          <target>Specifica il nome utente che rappresenta l'iscrizione dell'azienda al servizio che converte i dati bancari nel formato richiesto dalla banca quando si esportano file di pagamento della banca e si importano file del rendiconto bancario.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control User Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 2575460289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target>Password</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 2575460289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your company's password to the service that converts bank data to the format required by your bank. The password that you enter in the Password field must be the same as on the service provider's sign-on page.</source>
+          <target>Specifica la password della società per il servizio che converte i dati bancari nel formato richiesto dalla banca. La password che viene immessa nel campo Password deve essere uguale a quella immessa nella pagina di iscrizione del provider del servizio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Password - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 470245246 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Solution information</source>
+          <target>Informazioni soluzione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control SolutionLicense - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 3046671720 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control SolutionGrp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 1857133763 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a customizable calendar for bank's that holds the bank's working days and holidays. Choose the field to select another bank calendars or to set up a customized calendar.</source>
+          <target>Specifica un calendario personalizzabile per le banche indicante i giorni lavorativi e i periodi di ferie della banca. Scegliere il campo per selezionare un altro calendario banca o per impostare un calendario personalizzato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Solution - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 2182313082 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control LicenseGrp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 1958465003 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License</source>
+          <target>Licenza</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control BCLicenseNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 1958465003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License number of Business Central for AMC Banking</source>
+          <target>Numero licenza di Business Central per AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control BCLicenseNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 2187938695 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target>Servizio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 2575991450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
+          <target>Specifica l'indirizzo del servizio che converte i dati bancari nel formato richiesto dalla banca quando si esportano file di pagamento della banca e si importano file del rendiconto bancario. Il servizio specificato nel campo URL servizio viene richiamato quando gli utenti esportano o importano file della banca.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Service URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Control 4006456467 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default namespace for the AMC Banking.</source>
+          <target>Specifica lo spazio dei nomi di default per AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Namespace API Version - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 3044174282 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign-up here</source>
+          <target>Iscrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 3044174282 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calls the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
+          <target>Chiama la pagina di iscrizione al servizio che converte i dati bancari nel formato richiesto dalla banca quando si esportano file di pagamento della banca e si importano file dell'estratto conto bancario. Si tratta della pagina Web nella quale si immettono il nome utente e la password dell'azienda per iscriverla al servizio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 4124192386 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assisted Setup</source>
+          <target>Setup assistito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action AMCAssistedSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 4124192386 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Runs Service setup wizard</source>
+          <target>Esegui Setup assistenza guidato</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action AMCAssistedSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 1090569832 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Name List</source>
+          <target>Lista nomi banche</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action BankList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 1090569832 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
+          <target>Visualizzare o aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action BankList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 841712208 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encryption Management</source>
+          <target>Gestione crittografia</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action EncryptionManagement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 841712208 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable or disable data encryption. Data encryption helps make sure that unauthorized users cannot read business data.</source>
+          <target>Abilitare o disabilitare la crittografia dei dati. La crittografia dei dati contribuisce a garantire che gli utenti non autorizzati non possano accedere ai dati aziendali.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action EncryptionManagement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 2444778289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get support</source>
+          <target>Ottieni supporto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - Action 2444778289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calls the web site where the provider of the AMC Banking publishes status and support information about the service.</source>
+          <target>Chiama il sito Web nel quale il provider di AMC Banking pubblica le informazioni sullo stato e di supporto sul servizio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3704095706 - NamedType 3838141333" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management page?</source>
+          <target>Crittografia dati non attivata. Si consiglia di crittografare i dati. \Aprire la pagina Gestione crittografia dati?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - NamedType EncryptionIsNotActivatedQst</note>
+        </trans-unit>
+        <trans-unit id="Table 3875559386 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Payment types</source>
+          <target>Tipi di pagamento AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Pmt. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3875559386 - Field 3004954119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Pmt. Type - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3875559386 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Bank Pmt. Type - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For more information, go to %1.</source>
+          <target>Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AddnlInfoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 82900180" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Web Service Setup User Name (%1) does not match the License number (%2) or the (%3)</source>
+          <target>Il nome utente di Setup servizi Web (%1) non corrisponde al numero di licenza (%2) o a (%3)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType NotCorrectUserLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1828158795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have two option to change this:</source>
+          <target>Esistono due possibilità per modificare questo:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType YouHave2OptionsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 319023829" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1. Please register the User Name (%1) using the Sign-up URL %2</source>
+          <target>1. Registrare il nome utente (%1) usando l'URL di iscrizione %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType UseBCLicenseLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 3074365349" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2. Delete the Web Service setup record using the Trash can symbol and reopen the page to use (%1)</source>
+          <target>2. Eliminare il record di Setup servizi Web utilizzando il simbolo del cestino e riaprire la pagina da utilizzare (%1)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType UseDemoUserLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 3280846935" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>dataExchangeResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DataExchResponseNodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1098773093" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The web service returned an error message:\</source>
+          <target>Il servizio Web ha restituito un messaggio di errore:\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType TryLoadErrorLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 4203108968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status code: %1</source>
+          <target>Codice stato: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType WebLoadErrorLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 4278671633" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking 365 Foundation extension needs some information.</source>
+          <target>L'estensione AMC Banking 365 Foundation richiede informazioni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupNeededNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1973957526" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the AMC Banking Setup page to run the Assisted Setup action?</source>
+          <target>Aprire la pagina Setup di AMC Banking per eseguire l'azione del setup assistito?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupNotificationActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 3073354073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking 365 Foundation extension is in Demo mode.</source>
+          <target>L'estensione AMC Banking 365 Foundation è in modalità demo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 2589768243" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the AMC Banking 365 Foundation extension setup page?</source>
+          <target>Aprire la pagina Setup dell'estensione AMC Banking 365 Foundation?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 2828970756" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify user of AMC Banking Demo solution.</source>
+          <target>Notificare all'utente AMC Banking Soluzione demo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 2084177634" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show a notification informing the user that AMC Banking is working in Demo solution.</source>
+          <target>Mostrare una notifica che informa l'utente che AMC Banking sta lavorando in soluzione demo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationDescTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1829946207" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Don't show this again.</source>
+          <target>Non visualizzare più questo messaggio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DontShowThisAgainMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1420859235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up AMC Banking 365 Foundation extension</source>
+          <target>Imposta l'estensione AMC Banking 365 Foundation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1815440819" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>text/xml; charset=utf-8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType ContentTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 2493814900" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?linkid=2115384</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupHelpTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
+          <target>Connettersi a un servizio bancario online che può convertire i dati bancari da Business Central nei formati della banca, per semplificare e rendere più accurato l'invio dei dati alle banche.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2319047537 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target>Attendere il completamento dell'operazione.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - NamedType ProgressWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 4285678296" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 XML tag was not found, or was found more than once in the body content of the SOAP request.</source>
+          <target>Il tag XML %1 non è stato trovato oppure è stato trovato più di una volta nel corpo della richiesta SOAP.</target>
+          <note from="Developer" annotates="general" priority="2">%1=XmlTag</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType BodyContentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 3314864117" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file has not been saved.</source>
+          <target>Il file non è stato salvato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType DownloadFromStreamErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 1810949511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request body is not set.</source>
+          <target>Corpo della richiesta non impostato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType NoRequestBodyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 842108793" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to export.</source>
+          <target>Nulla da esportare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType NothingToExportErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 3826889551" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has not returned any payment data.\\For more information, go to %1.</source>
+          <target>AMC Banking non ha restituito alcun dato di pagamento.\Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType PaymentDataNotCollectedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 3022150365" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>paymentExportBankResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType ResponseNodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has found one or more errors.\\For each line to be exported, resolve the errors that are displayed in the FactBox.\\Choose an error to see more information.</source>
+          <target>AMC Banking ha rilevato uno o più errori.\\Per ogni riga da esportare, risolvere l'errore visualizzato nel riquadro Dettaglio informazioni.\\Per visualizzare ulteriori informazioni, scegliere un errore.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType HasErrorsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 1219964534" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is an incorrect file conversion error element in the response. Reference: %1, error text: %2.</source>
+          <target>Elemento non corretto nell'errore di conversione file della risposta. Riferimento: %1, testo errore: %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType IncorrectElementErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 531377784" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has returned the following error message:</source>
+          <target>AMC Banking ha restituito il messaggio di errore seguente:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType BankDataConvServSysErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For more information, go to %1.</source>
+          <target>Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType AddnlInfoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3646414981 - NamedType 1815440819" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>text/xml; charset=utf-8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType ContentTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2413088747 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing line no. #1######.</source>
+          <target>Elaborazione riga nr. #1######.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Mapping - NamedType ProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1051898237 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pre-processing line no. #1######.</source>
+          <target>Riga pre-elaborazione nr. #1######.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Pre-Map - NamedType ProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3605141263 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file export has one or more errors.\\For each line to be exported, resolve the errors displayed to the right and then try to export again.</source>
+          <target>Nell'esportazione file sono presenti uno o più errori.\\Per ognuna delle righe da esportare, risolvere gli errori visualizzati sulla destra e ritentare l'esportazione.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Valid. - NamedType HasErrorsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3927356675 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For more information, go to %1.</source>
+          <target>Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType AddnlInfoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3927356675 - NamedType 3022150365" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>bankListResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType ResponseNodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3927356675 - NamedType 4096535761" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has returned the following error message:</source>
+          <target>AMC Banking ha restituito il messaggio di errore seguente:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType AMCBankServSysErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3927356675 - NamedType 1815440819" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>text/xml; charset=utf-8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType ContentTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3857426880 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preparing line number #1#######</source>
+          <target>Preparazione numero di riga #1#######</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Import Bank STMT - NamedType ProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3925124761 - NamedType 2676459513" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/reportExportResponse/return/finsta/statement/balanceenddate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Post-Mapping - NamedType StmtDatePathFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3925124761 - NamedType 809723493" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/reportExportResponse/return/finsta/statement/balanceend</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Post-Mapping - NamedType StmtAmtPathFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3234607452 - NamedType 387681623" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/reportExportResponse/return/finsta/statement/ownbankaccount/bankaccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType StmtBankAccNoPathFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3234607452 - NamedType 368446010" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>='/reportExportResponse/return/finsta/statement/ownbankaccount/currency'|='/reportExportResponse/return/finsta/statement/finstatransus/amountdetails/currency'</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType CurrCodePathFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3234607452 - NamedType 2159309086" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/reportExportResponse/return/finsta/statement/statementno</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType StmtNoPathFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 1810949511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request body is not set.</source>
+          <target>Corpo della richiesta non impostato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType NoRequestBodyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 3014721114" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Files(*.*)|*.*|XML Files(*.xml)|*.xml|Text Files(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</source>
+          <target>Tutti i file(*.*)|*.*|File XML(*.xml)|*.xml|File di testo(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FileFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 4100096721" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>txt,csv,asc,xml</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FileFilterExtensionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 1051517620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has not returned any statement transactions.\\For more information, go to %1.</source>
+          <target>AMC Banking non ha restituito alcuna transazione di rendiconto.\\Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FinstaNotCollectedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 3022150365" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>reportExportResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType ResponseNodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 2711926903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select a file to import.</source>
+          <target>Selezionare un file da importare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType ImportBankStmtTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 531377784" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has returned the following error message:</source>
+          <target>AMC Banking ha restituito il messaggio di errore seguente:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType BankDataConvServSysErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For more information, go to %1.</source>
+          <target>Per ulteriori informazioni, andare a %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType AddnlInfoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 52548103 - NamedType 1815440819" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>text/xml; charset=utf-8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType ContentTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3164795350" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 is missing the user name or password. Do you want to open the %2 page?</source>
+          <target>In %1 non è presente il nome utente o la password. Aprire la pagina %2?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType MissingCredentialsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2591510851" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The user name and password must be filled in %1 page.</source>
+          <target>È necessario specificare il nome utente e la password nella pagina %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType MissingCredentialsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1434987672" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/amc:%1/return/syslog[syslogtype[text()="error"]]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ResultPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2232507934" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/amc:%1/return/finsta/statement/finstatransus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType FinstaPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3097643425" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/amc:%1/return/header/result[text()="error"]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType HeaderErrPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3843122408" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/amc:%1/return/pack/convertlog[syslogtype[text()="error"]]</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ConvErrPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 314874199" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/amc:%1/return/pack/data/text()</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 4035481662" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>nav03</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ApiVersionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3323267032" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>amcbanking fundamentals bc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ClientCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3831436902" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>demo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DemoSolutionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3853440174" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>amcxml</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType LicenseXmlApiTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1412550074" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>amcwebservice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ModuleInfoWebCallTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2221827266" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BANKDATACONVSERVCT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameCtTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 289864401" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BANKDATACONVSERVSTMT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameStmtTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 51338091" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BANKDATACONVSERVPP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNamePPTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 4095258164" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BANKDATACONVSERVCREM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameCremTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1719713625" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>CT-MSG</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2654677523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Transfer Msg. ID</source>
+          <target>ID messaggio bonifico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3551381072" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IntAcc2Acc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode1Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1549064060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International account to account transfer (standard)</source>
+          <target>Trasferimento da conto internazionale a conto (standard)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc1Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 488556561" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IntAcc2AccExp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode2Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 4065590717" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International account to account transfer (express)</source>
+          <target>Trasferimento da conto internazionale a conto (espresso)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc2Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 90690834" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IntAcc2AccFoFa</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode3Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2681215102" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International account to account transfer</source>
+          <target>Trasferimento da conto internazionale a conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc3Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3535909715" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IntAcc2AccHighVal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode4Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1079285239" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International account to account transfer (high value)</source>
+          <target>Trasferimento da conto internazionale a conto (valore elevato)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc4Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1732698452" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IntAcc2AccInterComp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode5Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 416066872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International account to account transfer (inter company)</source>
+          <target>Trasferimento da conto internazionale a conto (intercompany)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc5Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2243683989" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>DomAcc2Acc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode6Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2253012985" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic account to account transfer</source>
+          <target>Trasferimento da conto nazionale a conto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc6Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 2608552214" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>DomAcc2AccHighVal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode7Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1548217914" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic account to account transfer (high value)</source>
+          <target>Trasferimento da conto nazionale a conto (valore elevato)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc7Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1654902183" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>DomAcc2AccInterComp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode8Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1793495987" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic account to account transfer (inter company)</source>
+          <target>Trasferimento da conto nazionale a conto (intercompany)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc8Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 1609524776" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>EurAcc2AccSepa</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode9Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - NamedType 3630442100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEPA credit transfer</source>
+          <target>Bonifico SEPA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc9Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2012585824 - NamedType 1280327305" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BNKCONVDOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitPaymentMethods - NamedType BNKDOMACC_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2012585824 - NamedType 2924315302" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BNKCONVINT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitPaymentMethods - NamedType BNKINTACC_Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1712108724" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>AustrianBankleitzahl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode1Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2491202904" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Austrian BLZ number</source>
+          <target>Numero BLZ austriaco</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc1Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3645005429" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>CanadianPaymentsARN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode2Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 712762265" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Canadian ARN number</source>
+          <target>Numero ARN canadese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc2Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2546385782" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>CHIPSParticipant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode3Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3623353946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>American CHIPS number</source>
+          <target>Numero CHIPS americano</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc3Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2460946479" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>CHIPSUniversal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode4Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3566261211" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>American CHIPS universal number</source>
+          <target>Numero universale CHIPS americano</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc4Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4210371888" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>ExtensiveBranchNetwork</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode5Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2861466140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Extensive branch network number</source>
+          <target>Numero rete filiale estesa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc5Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1168720753" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>FedwireRoutingNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode6Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1845759453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>American Fedwire/ABA routing number</source>
+          <target>Numero ciclo Fedwire/ABA americano</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc6Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3643911154" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>GermanBankleitzahl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode7Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1182541086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>German BLZ number</source>
+          <target>Numero BLZ tedesco</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc7Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 516383755" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>HongKongBank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode8Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hong Kong branch number</source>
+          <target>Numero filiale Hong Kong</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 471006348" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IrishNSC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode9Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 277613648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Irish NSC number</source>
+          <target>Numero NSC irlandese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc9Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2813775244" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>ItalianDomestic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode10Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1424949952" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Italian domestic code</source>
+          <target>Codice nazionale italiano</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc10Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2859152651" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>NewZealandNCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode11Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2450858303" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Zealand NCC number</source>
+          <target>Numero NCC neozelandese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc11Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3679427342" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>PortugueseNCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode12Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4040992194" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Portuguese NCC number</source>
+          <target>Numero NCC portoghese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc12Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3003647501" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>RussianCentralBankIdentificationCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode13Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1482888833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Russian CBI code</source>
+          <target>Codice CBI russo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc13Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 337490568" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>SouthAfricanNCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode14Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2557947140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>South African NCC number</source>
+          <target>Numero NCC sudafricano</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc14Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3956678023" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>SpanishDomesticInterbanking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode15Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3583855491" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Spanish domestic interbanking number</source>
+          <target>Numero rete nazionale interbancaria spagnolo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc15Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1924299914" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>SwissBC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode16Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 879022086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Swiss BC number</source>
+          <target>Numero BC svizzero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc16Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 527362825" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>SwissSIC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode17Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1894728773" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Swiss SIC number</source>
+          <target>Numero SIC svizzero</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc17Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4054877620" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKDomesticSortCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode18Tok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2164849672" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>British sorting code</source>
+          <target>Codice ordinamento britannico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc18Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 3179812607" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank statement that you are importing contains transactions in %1 %2. This conflicts with the %3 %4.\\Do you want to continue?</source>
+          <target>Il rendiconto bancario che si desidera importare contiene transazioni in %1 %2. Ciò crea conflitti con %3 %4.\\Continuare?</target>
+          <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 %4 = LCY Code DKK.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType DiffCurrQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 1106260476" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The statement date was not found in the data to be imported.</source>
+          <target>Data del rendiconto non trovata nei dati da importare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingStmtDateInDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 742056434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The closing balance was not found in the data to be imported.</source>
+          <target>Saldo di chiusura non trovato nei dati da importare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingClosingBalInDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 4082076936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 does not have a bank account number.\\Do you want to continue?</source>
+          <target>Al conto bancario %1 non è associato un numero.\\Continuare?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
+          <target>Il rendiconto bancario che si desidera importare contiene transazioni in valute diverse dal %1 %2 del conto bancario %3.</target>
+          <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 = Bank Account No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccCurrErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 2692357613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file that you are trying to import contains more than one bank statement.</source>
+          <target>Il file che si sta tentando di importare contiene più di un rendiconto bancario.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MultipleStmtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 2242781076" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank account number was not found in the data to be imported.</source>
+          <target>Numero di conto bancario non trovato nei dati da importare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoInDataErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - NamedType 1975081983" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 does not have the bank account number %2, as specified in the bank statement file.\\Do you want to continue?</source>
+          <target>Al conto bancario %1 non è associato un numero %2 come specificato nel file di rendiconto bancario.\\Continuare?</target>
+          <note from="Developer" annotates="general" priority="2">%1=Value; %2 = Bank account no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccMismatchQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 33113820 - NamedType 930138903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We have updated the AMC Banking 365 Foundation extension.\\Before you can use the extension you must provide some information. Go to the AMC Banking Setup page and run the Assisted Setup action.</source>
+          <target>È stata aggiornata l'estensione AMC Banking 365 Foundation.\\Per poter utilizzare l'estensione è necessario fornire alcune informazioni. Andare alla pagina Setup di AMC Banking ed eseguire l'azione del setup assistito.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Upg. Notification - NamedType UpgNotificationLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 739346273 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 739346273 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select which bank accounts to set up.</source>
+          <target>Selezionare il C/C bancario da impostare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Group - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>Specifica il numero del movimento o del record interessato, in base alla numerazione specificata.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank where you have the bank account.</source>
+          <target>Specifica il nome della banca presso la quale si è sottoscritto il conto corrente bancario.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 567887726 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Codice valuta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 567887726 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the relevant currency code for the bank account.</source>
+          <target>Specifica il codice valuta appropriato per il C/C bancario.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 4248640148 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number used by the bank for the bank account.</source>
+          <target>Specifica il numero utilizzato dalla banca per il conto corrente bancario.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 3838875782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target>Aggiorna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2582853259 - Control 3838875782 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select bank account to set up with Data Exch. Def. for AMC Banking.</source>
+          <target>Selezionare il C/C bancario da impostare con la definizione scambio dati per AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking 365 Foundation Assisted Setup</source>
+          <target>Setup assistito AMC Banking 365 Foundation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2956989985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control19 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2390380970 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control MediaResourcesStandard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 744021563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Control17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 197703991 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control MediaResourcesDone - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2916936581 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Step1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3724241072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome</source>
+          <target>Benvenuti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 21734773 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 21734773 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking 365 Foundation extension saves you time and reduces errors when you send data to your bank. The extension uses the AMC Banking 365 Business service to transform data from Microsoft Dynamics 365 Business Central into formats that banks require. You specify the bank, and the extension does the rest. For more information, see the documentation.</source>
+          <target>L'estensione AMC Banking 365 Foundation consente di risparmiare tempo e ridurre gli errori quando si inviano i dati alla banca. L'estensione utilizza il servizio AMC Banking 365 Business per trasformare i dati di Microsoft Dynamics 365 Business Central nei formati richiesti dalle banche. È sufficiente specificare la banca e l'estensione fa il resto. Per ulteriori informazioni, vedere la documentazione.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1.1 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 673429932 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking 365 Foundation documentation</source>
+          <target>Documentazione AMC Banking 365 Foundation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AMCBankingHelpLink - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3706489003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By enabling this extension you consent to sharing your data with an external system. Your use of this extension may be subject to additional licensing terms from AMC. To enable the service you must read and accept the terms of use.</source>
+          <target>Abilitando questa estensione si acconsente a condividere i dati con un sistema esterno. L'uso dell'estensione può essere soggetto a condizioni di licenza aggiuntive di AMC. Per abilitare il servizio è necessario leggere e accettare le condizioni per l'utilizzo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ConsentPart - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2114002185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking 365 Foundation terms of use</source>
+          <target>Condizioni per l'utilizzo di AMC Banking 365 Foundation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control TermsOfUseLink - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1443400578 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I understand and accept these terms</source>
+          <target>Ho compreso e accetto le condizioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AcceptConsent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1443400578 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I understand and accept these terms</source>
+          <target>Ho compreso e accetto le condizioni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AcceptConsent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3679005452 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Let's get started</source>
+          <target>Iniziamo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1.2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 454113819 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use default values for AMC Banking setup</source>
+          <target>Usa valori di default per setup AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdAll1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 454113819 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use the default settings for back formats, payment methods, and data exchange definitions.</source>
+          <target>Utilizzare le impostazioni predefinite per i formati di riconversione, i metodi di pagamento e le definizioni di scambio dati.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdAll1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2279239964 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Step2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3363685081 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please choose what to setup:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2503791606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change the Service, Support and Sign-up URLs to their default values.</source>
+          <target>Impostare gli URL di Assistenza, Supporto e Iscrizione sui rispettivi valori di default.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control URLContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1924348262 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set URLs to Default</source>
+          <target>Imposta URL su default</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1924348262 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change the Service, Support and Sign-up URLs to their default values.</source>
+          <target>Impostare gli URL di Assistenza, Supporto e Iscrizione sui rispettivi valori di default.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1947706647 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
+          <target>Aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankListContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2565727729 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Bank Name List</source>
+          <target>Aggiorna lista nomi banche</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBank - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2565727729 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
+          <target>Aggiornare la lista di banche presenti nel paese che è possibile utilizzare per importare o esportare i dati di C/C bancario utilizzando AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBank - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 282001185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Data Exchange Definitions to current version of your system for AMC Banking.</source>
+          <target>Setup delle definizioni di scambio dati nella versione corrente del sistema per AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control DataExchContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2227844388 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Data Exchange Definitions</source>
+          <target>Setup definizioni scambio dati</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdDataExchDef - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2227844388 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Data Exchange Definitions to current version of your system for AMC Banking.</source>
+          <target>Setup delle definizioni di scambio dati nella versione corrente del sistema per AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdDataExchDef - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3071017491 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</source>
+          <target>Setup conto bancario personale con Codice definizione scambio dati e Nr. messaggi bonifico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control OwnBankContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2148337815 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Bank Accounts</source>
+          <target>Setup conti bancari</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2148337815 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</source>
+          <target>Setup conto bancario personale con Codice definizione scambio dati e Nr. messaggi bonifico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1107564148 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethGrp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1107564148 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
+          <target>Setup dei metodi di pagamento di base per AMC Banking nella versione corrente del sistema.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethGrp - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2583683381 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup basic paymentmethods</source>
+          <target>Setup metodi di pagamento di base</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2583683381 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
+          <target>Setup dei metodi di pagamento di base per AMC Banking nella versione corrente del sistema.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2099105517 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearGrp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2099105517 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Bank Clearing Standards to be used on vendors bank accounts</source>
+          <target>Setup Clearing Bancario Standard da utilizzare nei C/C bancari fornitori</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearGrp - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1143591 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Bank Clearing Standards</source>
+          <target>Setup Clearing Bancari Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearStd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1143591 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Bank Clearing Standards to be used on vendors bank accounts.</source>
+          <target>Setup Clearing Bancari Standard da utilizzare nei conti bancari fornitori.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearStd - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 764115667 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2894771417 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set URLs to Default</source>
+          <target>Imposta URL su default</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2010657068 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS1.1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3879981877 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateURLS1.2.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3504517071 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign-up URL</source>
+          <target>URL iscrizione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SignupURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3504517071 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
+          <target>Specifica la pagina di iscrizione al servizio che converte i dati bancari nel formato richiesto dalla banca quando si esportano file di pagamento della banca e si importano file del rendiconto bancario. Si tratta della pagina Web nella quale si immettono il nome utente e la password dell'azienda per iscriverla al servizio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SignupURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2456674618 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service URL</source>
+          <target>URL servizio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ServiceURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2456674618 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
+          <target>Specifica l'indirizzo del servizio che converte i dati bancari nel formato richiesto dalla banca quando si esportano file di pagamento della banca e si importano file del rendiconto bancario. Il servizio specificato nel campo URL servizio viene richiamato quando gli utenti esportano o importano file della banca.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ServiceURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3662684448 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Support URL</source>
+          <target>URL supporto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SupportURL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3662684448 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the web site where the provider of the AMC Banking publishes status and support information about the service.</source>
+          <target>Specifica il sito Web nel quale il provider di AMC Banking pubblica le informazioni sullo stato e di supporto sul servizio.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SupportURL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3497028712 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>  </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 4196696430 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Bank Name List</source>
+          <target>Aggiorna lista nomi banche</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2283606579 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks1.2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2283606579 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBanks1.2 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2078930944 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select countrycode to filter banklist.</source>
+          <target>Selezionare un codice paese per filtrare l'estratto conto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SelctCountryContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3984635372 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Countrycode</source>
+          <target>Codice paese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3984635372 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode. Otherwise leave empty</source>
+          <target>Selezionare solo un codice paese se si desidera filtrare l'estratto conto per il codice paese selezionato. Altrimenti lasciare vuoto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 962401299 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode, otherwise leave empty</source>
+          <target>Selezionare solo un codice paese se si desidera filtrare l'estratto conto per il codice paese selezionato, altrimenti lasciare vuoto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CountryFilterContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target>Setup definizioni scambio dati</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 637564162 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Data Exchange Definitions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3545658343 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applicationversion and buildnumber to get Data Exchange Definition for:</source>
+          <target>Versione applicazione e numero build per ottenere la definizione di scambio dati per:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVerContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2293885176 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applicationversion</source>
+          <target>Versione applicazione</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2293885176 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applicationversion of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
+          <target>Versione applicazione di Business Central, utilizzato per il recupero della corrispondente definizione scambio dati da AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3735344025 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Buildnumber</source>
+          <target>Numero build</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BuildNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3735344025 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Buildnumber of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
+          <target>Numero build di Business Central, utilizzato per il recupero della corrispondente definizione scambio dati da AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BuildNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3917370826 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Credit Transfer, to be able to make outgoing payments</source>
+          <target>Setup AMC Banking - Bonifico, per poter effettuare pagamenti in uscita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CTContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 903022497 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking - Credit Transfer</source>
+          <target>AMC Banking - Bonifico</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVCT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 903022497 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Credit Transfer, to be able to make outgoing payments</source>
+          <target>Setup AMC Banking - Bonifico, per poter effettuare pagamenti in uscita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVCT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3445513641 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
+          <target>Setup AMC Banking - Estratto conto bancario, per poter importare estratti conto bancari dalle banche.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control StmtContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1951053626 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking - Bank Statement</source>
+          <target>AMC Banking - Estratto conto bancario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVSTMT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1951053626 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
+          <target>Setup AMC Banking - Estratto conto bancario, per poter importare estratti conto bancari dalle banche.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVSTMT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1177833522 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Business - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2334494483 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
+          <target>Setup AMC Banking - Positive Pay, per poter preparare il file Positive Pay per gli assegni stampati.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PPContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2062336292 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking - Positive Pay</source>
+          <target>AMC Banking - Positive Pay</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVPP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2062336292 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
+          <target>Setup AMC Banking - Positive Pay, per poter preparare il file Positive Pay per gli assegni stampati.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVPP - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1614652589 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Credit Advice, to be able to import Customer payments from your banks.</source>
+          <target>Setup AMC Banking - Comunicazione di accredito, per poter importare i pagamenti clienti dalle banche.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CAContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 828769395 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking - Credit Advice</source>
+          <target>AMC Banking - Comunicazione di accredito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVCREM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 828769395 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup AMC Banking - Credit Advice, to be able to import Customer payments from your banks.</source>
+          <target>Setup AMC Banking - Comunicazione di accredito, per poter importare i pagamenti clienti dalle banche.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVCREM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1330476309 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup own Bank accounts</source>
+          <target>Setup conti bancari personali</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateBankAccounts1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1973572167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target>Setup metodi di pagamento di base</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdatePayMeth - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1551574618 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup basic paymentmethods</source>
+          <target>Setup metodi di pagamento di base</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para4.1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 611897472 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please choose Contrycode for Paymentmethods to setup.</source>
+          <target>Scegliere il codice paese per i metodi di pagamento da impostare.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethContent - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 864163580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Countrycode</source>
+          <target>Codice paese</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 864163580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup paymentmethods for the selected countrycode.</source>
+          <target>Setup metodi di pagamento per il codice paese selezionato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 2702296780 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3339993397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3977690014 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup is done!</source>
+          <target>Setup completato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 3977690014 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can start using the AMC Banking now.</source>
+          <target>È possibile iniziare a utilizzare ora AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDone1.1.3 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 57579804 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 695276421 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1332973038 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An error occurred during setup!</source>
+          <target>Errore durante l'installazione.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Control 1332973038 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please look into the activity log in AMC Banking setup and correct the errors, then run the assisted setup again</source>
+          <target>Esaminare il log delle attività nel setup di AMC Banking e correggere gli errori, quindi eseguire nuovamente il setup assistito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateError1.1.3 - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 742034285 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target>Indietro</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Back - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 742034285 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go back to previous step.</source>
+          <target>Tornare al passaggio precedente.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Back - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 1235620153 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target>Avanti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Next - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 1235620153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to next step.</source>
+          <target>Passare al passaggio successivo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Next - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 462653747 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start update</source>
+          <target>Avvia aggiornamento</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Start update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 462653747 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start update of data.</source>
+          <target>Avviare l'aggiornamento dei dati.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Start update - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 293070022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target>Chiudi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1294546084 - Action 293070022 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click button to close the assisted setup page</source>
+          <target>Fare clic sul pulsante per chiudere la pagina setup assistito</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Bank Name List</source>
+          <target>Lista nomi banche AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Page,Setup</source>
+          <target>Nuovo,Processo,Pagina,Setup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Control 1732083938 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank, and potentially its country/region code, that supports your setup for import/export of bank data using the AMC Banking feature.</source>
+          <target>Specifica il nome della banca, e potenzialmente il relativo codice paese, che supporta la configurazione per l'importazione/esportazione di dati bancari utilizzando la funzionalità AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Bank - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Control 2685439803 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank that supports your setup for import/export of bank data using the AMC Banking feature.</source>
+          <target>Specifica il nome della banca che supporta la configurazione per l'importazione/esportazione di dati bancari utilizzando la funzionalità AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Bank Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Control 284764054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the address.</source>
+          <target>Specifica il paese dell'indirizzo.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Control 2501792105 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last time the list of supported banks was updated.</source>
+          <target>Specifica la data dell'ultimo aggiornamento della lista di banche supportate.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Last Update Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Action 1520941751 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Bank Name List</source>
+          <target>Aggiorna lista nomi banche</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Action UpdateBankList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3327916022 - Action 1520941751 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the bank list with any new banks in your country/region.</source>
+          <target>Aggiornare la lista delle banche con tutte le nuove banche presenti nel paese.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Action UpdateBankList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2285503463 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Payment Types</source>
+          <target>Tipi di pagamento AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Pmt. Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2285503463 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the payment type. You set up payment types for a payment method so that the AMC Banking 365 Foundation extension can identify the payment type when exporting payments. The payment types are displayed in the AMC Banking Pmt. Types window.</source>
+          <target>Specifica il codice del tipo di pagamento. Si impostano i tipi di pagamento per un metodo di pagamento affinché l'estensione AMC Banking 365 Foundation possa identificare il tipo di pagamento quando si esportano i pagamenti. I tipi di pagamento sono visualizzati nella finestra Tipo pagamento AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Pmt. Types - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2285503463 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the payment type. You set up payment types for a payment method so that the AMC Banking 365 Foundation extension can identify the payment type when exporting payments. The payment types are displayed in the AMC Banking Pmt. Types window.</source>
+          <target>Specifica la descrizione del tipo di pagamento. Si impostano i tipi di pagamento per un metodo di pagamento affinché l'estensione AMC Banking 365 Foundation possa identificare il tipo di pagamento quando si esportano i pagamenti. I tipi di pagamento sono visualizzati nella finestra Tipo pagamento AMC Banking.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Pmt. Types - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 417263901 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMC Banking Export CreditTransfer</source>
+          <target>Esportazione trasferimento credito AMC Banking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort AMC Bank Export CreditTransfer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1620763456 - Control 1281447598 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies your bank's data format as required by the AMC Banking when you import and export bank files.</source>
+          <target>Specifica il formato dati della banca come richiesto da AMC Banking quando si importano ed esportano file bancari.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2292249509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 387856334 - Control 265409144 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment type that the AMC Banking 365 Foundation extension requires when you export payments that have the selected payment method.</source>
+          <target>Specifica il tipo di pagamento richiesto dall'estensione AMC Banking 365 Foundation quando si esportano i pagamenti con il metodo di pagamento selezionato.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2805771090</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 329099011 - Field 3981858850 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Name</source>
+          <target>Nome banca</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1682139193</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196096046 - Field 4135611573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exch. Entry No.</source>
+          <target>Nr. movimento scambio dati</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1974046518</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3196096046 - Field 2906221467 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pmt. Disc. Possible</source>
+          <target>Sconto pagamento possibile</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1974046518</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1672724984 - Field 3875559386 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Pmt. Type</source>
+          <target>Tipo di pagamento bancario</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3566004263</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

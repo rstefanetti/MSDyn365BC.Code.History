@@ -619,7 +619,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 232778209" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The response was not valid.</source>
-          <target state="translated">La réponse n'était pas valide.</target>
+          <target state="translated">La réponse n'est pas valide.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType InvalidResponseErr</note>
         </trans-unit>
@@ -1226,7 +1226,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 2147530522" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up bank integration</source>
-          <target state="translated">Configurer intégration bancaire</target>
+          <target state="translated">Configuration de l'intégration de banque</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType VideoBankintegrationNameTxt</note>
         </trans-unit>
@@ -1250,6 +1250,11 @@
           <source>Unable to insert information about account that is linked on Yodlee. ProviderAccount id - %1, AccountId - %2.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnableToInsertUnlinkedBankAccToBufferErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2997122605" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Starting to register user %1 with currency code %2 on Yodlee.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType StartingToRegisterUserTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 1033613857" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>/root/root/transaction/accountId</source>

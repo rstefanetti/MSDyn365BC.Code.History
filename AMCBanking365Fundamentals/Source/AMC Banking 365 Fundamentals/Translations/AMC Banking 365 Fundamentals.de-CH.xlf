@@ -705,7 +705,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 742056434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The closing balance was not found in the data to be imported.</source>
-          <target state="translated">Die Abschlussbilanz wurde in den zu importierenden Daten nicht gefunden.</target>
+          <target state="translated">Der Endsaldo wurde in den zu importierenden Daten nicht gefunden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingClosingBalInDataMsg</note>
         </trans-unit>
@@ -723,7 +723,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2692357613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file that you are trying to import contains more than one bank statement.</source>
-          <target state="translated">Die Datei, die Sie zu importieren versuchen, enthält mindestens einen Bankauszug.</target>
+          <target state="translated">Die Datei, die Sie zu importieren versuchen, enthält mehr als einen Bankauszug.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MultipleStmtErr</note>
         </trans-unit>
@@ -1155,7 +1155,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Setup von Datenaustauschdefinitionen</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
         </trans-unit>
@@ -1279,7 +1279,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1973572167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Setup von Standardzahlungsformen</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdatePayMeth - Property Caption</note>
         </trans-unit>

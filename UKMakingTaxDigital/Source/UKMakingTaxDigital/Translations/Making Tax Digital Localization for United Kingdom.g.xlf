@@ -833,6 +833,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD Disable FraudPrev. Headers - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 343078785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WinClient Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WinClient Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 2580648929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WebClient Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WebClient Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3423376878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP Batch Due DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP Batch Due DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3096414478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WinClient Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WinClient Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 693085422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP WebClient Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP WebClient Json - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 1157416033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 456029390">
+          <source>MTD FP Batch Json</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MTD Report Setup - Field MTD FP Batch Json - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>

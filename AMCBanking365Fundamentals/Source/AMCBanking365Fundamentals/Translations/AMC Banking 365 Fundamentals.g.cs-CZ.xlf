@@ -1119,6 +1119,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2540363514 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</source>
+          <target>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para2.1.8.1 - Property Caption</note>
         </trans-unit>

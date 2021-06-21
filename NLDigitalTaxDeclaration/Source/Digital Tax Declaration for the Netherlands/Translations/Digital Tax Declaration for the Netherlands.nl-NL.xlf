@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nl-NL" original="Digital Tax Declaration for the Netherlands">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3303160028 - NamedType 1098592984" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Create Elec. Tax Declaration - NamedType BdINameSpaceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2007660978 - NamedType 4228917949" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>DigitalTaxDecl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax Decl. Install - NamedType DigitalTaxDeclLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 3222702005" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receiving Electronic Tax Declaration Responses...</source>
+          <target>Responsberichten van elektronische belastingaangifte ontvangen...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ReceiveDeclarationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 3289377875" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Report header %1,%2 could not be found.</source>
+          <target>Kan koptekst van btw-rapport %1,%2 niet vinden.</target>
+          <note from="Developer" annotates="general" priority="2">%1,%2 - key values</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType HeaderNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2140808972 - NamedType 837239636" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A content for submission is not available. Make sure you specified the correct value in the Content Codeunit ID field on the VAT Reports Configuration page.</source>
+          <target>Er is geen inhoud beschikbaar voor verzending. Controleer of u de juiste waarde hebt opgegeven in het veld Id van inhoud-codeunit op de pagina Btw-rapportconfiguratie.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Submit Elec. Tax Declaration - NamedType ContentNotAvailableErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 950139582 - NamedType 1124693441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Information can only contain letters, digits and dashes</source>
+          <target>Aanvullende informatie kan alleen letters, cijfers en koppeltekens bevatten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType OnlySpecificSymbolErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 950139582 - NamedType 3897458987" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional Information must start with 'OB-'</source>
+          <target>Aanvullende informatie moet beginnen met 'OB-'</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType StartsWithOBErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 950139582 - NamedType 1962471661" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is only possible to create an Electronic VAT Declaration for one company. If more companies belong to this Fiscal Entity, please submit the VAT details via the Tax Authority website.</source>
+          <target>Het is alleen mogelijk om een elektronische BTW-aangifte per bedrijf te maken. Als er meer bedrijven tot deze fiscale eenheid behoren, moet u de BTW-aangifte via de website van de belastingdienst handmatig invoeren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType OneCompanyTxt</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

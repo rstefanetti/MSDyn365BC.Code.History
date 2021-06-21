@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Digital Tax Declaration for the Netherlands Tests">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 983340432 - NamedType 3565974412" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The report has been successfully generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digipoort XML - NamedType ReportGeneratedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 983340432 - NamedType 2960367987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>xbrli:xbrl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digipoort XML - NamedType XbrliXbrlTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 983340432 - NamedType 2679649536" size-unit="char" translate="yes" xml:space="preserve">
+          <source>xmlns:bd-i</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digipoort XML - NamedType AttrBdITok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 983340432 - NamedType 2885277596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>xmlns:bd-ob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digipoort XML - NamedType AttrBdObTok</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Payroll Data Import Definition (NO)">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2876398573 - NamedType 1697846669" size-unit="char" translate="no" xml:space="preserve">
+          <source>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;&lt;root&gt;&lt;DataExchDef Code="HULDT-LILLEVIK" Name="" Type="2" ReadingWritingXMLport="1220" ExternalDataHandlingCodeunit="1240" ColumnSeparator="2" FileType="1"&gt;&lt;DataExchLineDef LineType="0" Code="HULDT-LILLEVIK" Name="HULDT-LILLEVIK" ColumnCount="17"&gt;&lt;DataExchColumnDef ColumnNo="1" Name="AccountNo" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="2" Name="VATCode" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="3" Name="Department" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="4" Name="Project" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="12" Name="PostingDate" Show="false" DataType="1" DataFormat="ddmmyyyy" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="15" Name="Quantity" Show="false" DataType="2" DataFormat="F" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="17" Name="Amount" Show="false" DataType="2" DataFormat="F" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchMapping TableId="81" Name="" MappingCodeunit="1247"&gt;&lt;DataExchFieldMapping ColumnNo="1" FieldID="4" TransformationRule="EVAL_TXT_TO_INT"&gt;&lt;/DataExchFieldMapping&gt;&lt;DataExchFieldMapping ColumnNo="3" FieldID="24" Optional="true" TransformationRule="BLANK_DIM_CODE"/&gt;&lt;DataExchFieldMapping ColumnNo="4" FieldID="25" Optional="true" TransformationRule="BLANK_DIM_CODE"/&gt;&lt;DataExchFieldMapping ColumnNo="12" FieldID="5"/&gt;&lt;DataExchFieldMapping ColumnNo="15" FieldID="43" Optional="true" TransformationRule="AMOUNT_IN_CENTS"/&gt;&lt;DataExchFieldMapping ColumnNo="17" FieldID="13" TransformationRule="AMOUNT_IN_CENTS"/&gt;&lt;/DataExchMapping&gt;&lt;/DataExchLineDef&gt;&lt;/DataExchDef&gt;&lt;/root&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType ExchDefinitionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 807862682" size-unit="char" translate="no" xml:space="preserve">
+          <source>HULDT-LILLEVIK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType HuldtAndLillevikTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 2820649274" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Huldt &amp; Lillevik Payroll - transactions import.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType HuldtAndLillevikTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 4098239920" size-unit="char" translate="no" xml:space="preserve">
+          <source>AMOUNT_IN_CENTS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType AmountInCentsTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 569322656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transform amounts with leading zeros to decimal amounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType AmountInCentsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 463377109" size-unit="char" translate="no" xml:space="preserve">
+          <source>EVAL_TXT_TO_INT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType EvaluateTextToIntegerTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 2923749637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transform numeric strings with leading zeroes to integers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType EvaluateTextToIntegerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 2128612129" size-unit="char" translate="no" xml:space="preserve">
+          <source>BLANK_DIM_CODE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType BlankDimCodeTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2876398573 - NamedType 517545489" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blank value if your company does not want to import dimension codes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO) - NamedType BlankDimCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1506921715 - Control 1270257717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Specifies if data from the two first dimensions in the import file must be copied to the journal line as global dimension codes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NO General Journal Setup - Control Import Dimension Codes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2095224941 - Field 1270257717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+          <source>Import Dimension Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ImportDimCodes - Field Import Dimension Codes - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

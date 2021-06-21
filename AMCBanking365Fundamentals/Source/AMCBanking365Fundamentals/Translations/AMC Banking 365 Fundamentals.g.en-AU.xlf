@@ -158,7 +158,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 1857133763 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a customizable calendar for bank's that holds the bank's working days and holidays. Choose the field to select another bank calendars or to set up a customized calendar.</source>
-          <target>Specifies a customizable calendar for bank's that holds the bank's working days and holidays. Choose the field to select another bank calendars or to set up a customized calendar.</target>
+          <target>Specifies a customisable calendar for bank's that holds the bank's working days and holidays. Choose the field to select another bank calendars or to set up a customised calendar.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Solution - Property ToolTip</note>
         </trans-unit>
@@ -169,13 +169,13 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 1958465003 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>License</source>
-          <target>License</target>
+          <target>Licence</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control BCLicenseNumber - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 1958465003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>License number of Business Central for AMC Banking</source>
-          <target>License number of Business Central for AMC Banking</target>
+          <target>Licence number of Business Central for AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control BCLicenseNumber - Property ToolTip</note>
         </trans-unit>
@@ -277,7 +277,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 82900180" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Web Service Setup User Name (%1) does not match the License number (%2) or the (%3)</source>
-          <target>The Web Service Setup User Name (%1) does not match the License number (%2) or the (%3)</target>
+          <target>The Web Service Setup User Name (%1) does not match the Licence number (%2) or the (%3)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType NotCorrectUserLbl</note>
         </trans-unit>
@@ -1447,7 +1447,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2162748742 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</target>
+          <target>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed cheques.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.5.1 - Property Caption</note>
         </trans-unit>
@@ -1459,7 +1459,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2062336292 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</target>
+          <target>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed cheques.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVPP - Property ToolTip</note>
         </trans-unit>

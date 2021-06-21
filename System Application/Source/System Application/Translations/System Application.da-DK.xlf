@@ -5365,7 +5365,7 @@
         </trans-unit>
         <trans-unit id="Page 4047916792 - Control 1772640682 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the person or company that created the extension.</source>
-          <target state="translated">Angiver den person eller den virksomhed, som oprettede udvidelsen.</target>
+          <target state="translated">Angiver den person eller den virksomhed, der oprettede udvidelsen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extension Details Part - Control Publisher - Property ToolTip</note>
         </trans-unit>
@@ -6039,7 +6039,7 @@
         </trans-unit>
         <trans-unit id="Page 4035890834 - Control 3711240756 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the object ID.</source>
-          <target state="translated">Angiver id'et for objektet.</target>
+          <target state="translated">Angiver objekt-id'et.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Objects - Control Object ID - Property ToolTip</note>
         </trans-unit>

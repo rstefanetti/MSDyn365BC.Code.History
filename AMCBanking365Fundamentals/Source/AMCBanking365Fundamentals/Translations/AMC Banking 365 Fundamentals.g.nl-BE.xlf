@@ -787,7 +787,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1845759453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American Fedwire/ABA routing number</source>
-          <target>Amerikaans Fedwire/ABA-routeringsnummer</target>
+          <target>Amerikaans Fedwire/ABA-bewerkingsplannummer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc6Txt</note>
         </trans-unit>
@@ -1852,7 +1852,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 3196096046 - Field 4135611573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Exch. Entry No.</source>
-          <target>Nr. gegevensuitwisselingspost</target>
+          <target>Nr. van gegevensuitwisselingspost</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1974046518</note>

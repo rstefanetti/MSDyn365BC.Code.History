@@ -213,11 +213,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action ApplyOffice365 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 2856463624 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authenticate</source>
+          <target state="translated">Godkend</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Authenticate with OAuth 2.0 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 2856463624 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authenticate with your Exchange Online account.</source>
+          <target state="translated">Godkend med din Exchange Online-konto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Authenticate with OAuth 2.0 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 3313980247 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verify Authentication</source>
+          <target state="translated">Bekræft godkendelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Check OAuth 2.0 authentication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 3313980247 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verify that OAuth 2.0 authentication was successful.</source>
+          <target state="translated">Kontroller, at OAuth 2.0-godkendelse lykkedes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Check OAuth 2.0 authentication - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4170592685 - NamedType 1197554121" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to override the current data?</source>
           <target state="translated">Skal de aktuelle data tilsidesættes?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - NamedType ConfirmApplyO365Qst</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - NamedType 3367967186" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before people can send email they must authenticate their email account. They can do that by choosing the Authenticate action on the SMTP Account page.</source>
+          <target state="translated">Inden brugerne kan sende mail, skal de godkende deres mailkonto. Det kan de gøre ved at vælge Godkendelseshandlingen på siden SMTP-konto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - NamedType EveryUserShouldPressAuthenticateMsg</note>
         </trans-unit>
         <trans-unit id="EnumExtension 557475667 - EnumValue 303760854 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SMTP</source>
@@ -340,6 +370,30 @@
           <note from="Developer" annotates="general" priority="2">%1=The email address</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType EmailParseFailureErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 1846709916" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No extension provided the OAuth 2.0 authentication.</source>
+          <target state="translated">Ingen udvidelse har givet OAuth 2.0-godkendelsen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType NoOAuth2ProviderErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 441163528" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not authenticate. To resolve the problem, choose the Authenticate action on the SMTP Account page.</source>
+          <target state="translated">Kunne ikke godkendes. Du kan løse problemet ved at vælge Godkendelseshandlingen på siden SMTP-konto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType CouldNotAuthenticateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 1534236911" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 was authenticated.</source>
+          <target state="translated">%1 blev godkendt.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - user email, for example, admin@domain.com</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType AuthenticationSuccessfulMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 2563123446" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not authenticate.</source>
+          <target state="translated">Kunne ikke godkendes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType AuthenticationFailedMsg</note>
+        </trans-unit>
         <trans-unit id="Page 707219180 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup SMTP Account</source>
           <target state="translated">Konfigurer SMTP-konto</target>
@@ -348,11 +402,13 @@
         </trans-unit>
         <trans-unit id="Page 707219180 - Control 2141615146 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - Control NotDoneIcon - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 707219180 - Control 2141615146 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - Control NotDoneIcon - Property Caption</note>
         </trans-unit>
@@ -505,6 +561,12 @@
           <target state="translated">Skal de aktuelle data tilsidesættes?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - NamedType ConfirmApplyO365Qst</note>
+        </trans-unit>
+        <trans-unit id="Page 707219180 - NamedType 3367967186" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before people can send email they must authenticate their email account. They can do that by choosing the Authenticate action on the SMTP Account page.</source>
+          <target state="translated">Inden brugerne kan sende mail, skal de godkende deres mailkonto. Det kan de gøre ved at vælge Godkendelseshandlingen på siden SMTP-konto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - NamedType EveryUserShouldPressAuthenticateMsg</note>
         </trans-unit>
       </group>
     </body>

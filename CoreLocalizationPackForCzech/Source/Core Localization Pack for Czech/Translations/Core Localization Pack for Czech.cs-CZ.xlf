@@ -2285,7 +2285,7 @@
         </trans-unit>
         <trans-unit id="Page 99819693 - Control 3718789915 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VIES</source>
-          <target state="translated">SH</target>
+          <target state="translated">Souhrnné hlášení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Statutory Reporting Setup CZL - Control VIES - Property Caption</note>
         </trans-unit>
@@ -4485,6 +4485,12 @@
           <note from="Developer" annotates="general" priority="2">%1=Vendor No.;%2=VAT Registration No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - NamedType VendUnrVATPayerQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 3695914689" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check is disabled for vendor %1.</source>
+          <target state="translated">Pro dodavatele %1 není kontrola povolena.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Vendor No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType CheckDisabledMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 855666346" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check is not possible.\%1 must not be empty and must match %2 in %3.</source>
           <target state="translated">Kontrola není možná.\%1 nesmí být prázdný a musí odpovídat %2 v %3.</target>
@@ -4504,9 +4510,9 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method CreateUnrelPayerServiceNotSetNotification - NamedType SetupLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2334311711 - Method 2377581700 - NamedType 3081249927" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is 100 and %1 were sent. The service returns a response for only the first top 100 VAT Registration No.</source>
-          <target state="translated">Počet DIČ byl překročen. Maximální počet DIČ je 100 a %1 jich bylo odesláno. Služba vrátí odpovědi pouze pro prvních 100 registračních čísel.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
+          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is %1 and %2 were sent. The service returns a response for only the first top %1 VAT Registration No.</source>
+          <target state="translated">Počet DIČ byl překročen. Maximální počet DIČ je %1 a %2 jich bylo odesláno. Služba vrátí odpovědi pouze pro prvních %1 DIČ.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = input record limit; %2 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2533767483 - Method 1623353540 - NamedType 225647726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -7756,8 +7762,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1461519631 - Action 1405007275 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
-          <target state="translated">Navi&amp;govat</target>
+          <source>Find Entries</source>
+          <target state="translated">Najít položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
@@ -20778,6 +20784,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance As Vendor (LCY)</source>
+          <target state="translated">Zůstatek jako dodavatel (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's balance which is connected with certain customer</source>
+          <target state="translated">Určuje saldo dodavatele, které je spojeno s určitým zákazníkem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1640560951 - Action 46772440 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balance Reconciliation</source>
           <target state="translated">Odsouhlasení salda</target>
@@ -23133,6 +23153,20 @@
         <trans-unit id="PageExtension 3731745343 - Control 715756482 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the secondary VAT registration number for the vendor.</source>
           <target state="translated">Určuje sekundární DIČ dodavatele.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance As Customer (LCY)</source>
+          <target state="translated">Zůstatek jako zákazník (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's balance which is connected with certain vendor</source>
+          <target state="translated">Určuje saldo zákazníka, které je spojena s určitým dodavatelem.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>

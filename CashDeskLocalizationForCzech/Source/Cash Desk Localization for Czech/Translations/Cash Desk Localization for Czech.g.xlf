@@ -4264,7 +4264,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document CZP - Action &amp;Print - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1242474714 - Action 1405007275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document CZP - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
@@ -4349,7 +4349,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document List CZP - Action &amp;Print - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1038428832 - Action 1405007275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document List CZP - Action &amp;Navigate - Property Caption</note>
         </trans-unit>

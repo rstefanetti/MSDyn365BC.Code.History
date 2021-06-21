@@ -3738,6 +3738,11 @@
           <note from="Developer" annotates="general" priority="2">%1=Vendor No.;%2=VAT Registration No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - NamedType VendUnrVATPayerQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 3695914689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check is disabled for vendor %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Vendor No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType CheckDisabledMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 855666346" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check is not possible.\%1 must not be empty and must match %2 in %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Registration No. FieldCaption, %2 =  Country/Region CodeFieldCaption, %3 = CompanyInfromation TabeCaption</note>
@@ -3754,8 +3759,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method CreateUnrelPayerServiceNotSetNotification - NamedType SetupLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2334311711 - Method 2377581700 - NamedType 3081249927" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is 100 and %1 were sent. The service returns a response for only the first top 100 VAT Registration No.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
+          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is %1 and %2 were sent. The service returns a response for only the first top %1 VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = input record limit; %2 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2533767483 - Method 1623353540 - NamedType 225647726" size-unit="char" translate="yes" xml:space="preserve">
@@ -6464,7 +6469,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1461519631 - Action 1405007275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
@@ -17188,6 +17193,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control Tax Registration No. CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Balance As Vendor (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control BalanceOfVendorCZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the vendor's balance which is connected with certain customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control BalanceOfVendorCZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1640560951 - Action 46772440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Balance Reconciliation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -18872,6 +18887,16 @@
           <source>Specifies the secondary VAT registration number for the vendor.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control Tax Registration No. CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Balance As Customer (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control BalanceOfCustomerCZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the customer's balance which is connected with certain vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control BalanceOfCustomerCZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3731745343 - Control 2122310075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>Specifies the date of the last check of unreliability.</source>

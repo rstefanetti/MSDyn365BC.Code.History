@@ -1,10 +1,15 @@
 {
-    "al.enableCodeAnalysis": true,
-    "al.codeAnalyzers": [
-        "${CodeCop}",
-        "${AppSourceCop}"
-    ],
-    "al.ruleSetPath": "../../firstparty.ruleset.json",
-    "editor.formatOnSave": true
+    "al.enableCodeAnalysis":  false,
+    "editor.codeLens":  false,
+    "al.incrementalBuild":  true,
+    "al.packageCachePath":  "G:/ms/repo/nav16/run/gb/AllExtensions",
+    "al.assemblyProbingPaths":  [
+                                    "g:/nugetcache/NET_Framework_48_TargetingPack.4.8.3761",
+                                    "g:/nugetcache/microsoft.nav.platform.nav16x.universal.16.0.25934-0",
+                                    "C:/WINDOWS/assembly/GAC/ADODB",
+                                    "G:/ms/repo/nav16/test/App/MockService/MockService",
+                                    "G:/ms/repo/nav16/test/App/MockTest",
+                                    "G:/ms/repo/nav16/test/App/ALTest/DGMLVisualizationAddIn"
+                                ],
+    "al.enableCodeActions":  false
 }
-

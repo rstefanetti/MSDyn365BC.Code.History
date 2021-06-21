@@ -2033,7 +2033,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Payment Journal VI - Action Void_Check - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3522356808 - NamedType 3157689106" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+        <trans-unit id="PageExtension 3522356808 - NamedType 3157689106" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3522356808">
           <source>Void Check %1?</source>
           <note from="Developer" annotates="general" priority="2">%1= Cheque No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Payment Journal VI - NamedType VoidLbl</note>

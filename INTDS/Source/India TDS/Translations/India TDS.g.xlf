@@ -5033,7 +5033,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Action Apply Provisional Entry - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3872830763 - Action 352215824 - Method 1377591017 - NamedType 3374871139" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+        <trans-unit id="PageExtension 3872830763 - Action 352215824 - Method 1377591017 - NamedType 3374871139" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3872830763">
           <source>Amount must be Negative.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Action Apply Provisional Entry - Method OnAction - NamedType AmtNegErr</note>
@@ -5223,7 +5223,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry - Field TDS Certificate Receivable - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2733917450 - Field 3105022 - Method 2126772001 - NamedType 2720769573" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+        <trans-unit id="TableExtension 2733917450 - Field 3105022 - Method 2126772001 - NamedType 2720769573" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2733917450">
           <source>Please uncheck TDS Certificate Received.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry - Field TDS Certificate Receivable - Method OnValidate - NamedType TDSCertUnCheckErr</note>
@@ -5233,7 +5233,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry - Field TDS Certificate Received - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2733917450 - Field 910431851 - Method 2126772001 - NamedType 4019626274" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+        <trans-unit id="TableExtension 2733917450 - Field 910431851 - Method 2126772001 - NamedType 4019626274" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2733917450">
           <source>TDS Certificate Received cannot be False unless TDS Receivable is False.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry - Field TDS Certificate Received - Method OnValidate - NamedType TDSCertErr</note>
@@ -5973,22 +5973,22 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJournalLineExt - Field TDS Adjustment - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1389322310 - NamedType 3255313783" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1389322310 - NamedType 3255313783" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1389322310">
           <source>Non Resident Payments is not selected for Vendor No. %1</source>
           <note from="Developer" annotates="general" priority="2">%1 is Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJournalLineExt - NamedType NonResidentPaymentsSelectionErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1389322310 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1389322310 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1389322310">
           <source>TDS Section Code %1 is not attached with Vendor No. %2, Do you want to assign to vendor &amp; Continue ?</source>
           <note from="Developer" annotates="general" priority="2">%1 = TDS Section Code, %2= Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJournalLineExt - NamedType ConfirmMessageMsg</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1389322310 - NamedType 2111648834" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1389322310 - NamedType 2111648834" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1389322310">
           <source>Amount must be negative.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJournalLineExt - NamedType AmtNegativeErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1389322310 - NamedType 3045115142" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1389322310 - NamedType 3045115142" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1389322310">
           <source>Multi Line transactions are not allowed for Provisional Entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GenJournalLineExt - NamedType MultiLineErr</note>
@@ -6008,17 +6008,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Line - Field Act Applicable - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1519909599 - NamedType 2109327200" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+        <trans-unit id="TableExtension 1519909599 - NamedType 2109327200" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1519909599">
           <source>%1 does not exist in table %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = TDS Section Code, %2= Table Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Line - NamedType SectionErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1519909599 - NamedType 3255313783" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+        <trans-unit id="TableExtension 1519909599 - NamedType 3255313783" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1519909599">
           <source>Non Resident Payments is not selected for Vendor No. %1</source>
           <note from="Developer" annotates="general" priority="2">%1 is Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Line - NamedType NonResidentPaymentsSelectionErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1519909599 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+        <trans-unit id="TableExtension 1519909599 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1519909599">
           <source>TDS Section Code %1 is not attached with Vendor No. %2, Do you want to assign to vendor &amp; Continue ?</source>
           <note from="Developer" annotates="general" priority="2">%1= TDS Section Code ,%2= Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Line - NamedType ConfirmMessageMsg</note>

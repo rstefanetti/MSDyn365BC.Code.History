@@ -6958,7 +6958,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CompanyInformation - Field P.A.N. Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 591338493 - Field 2798609015 - Method 2126772001 - NamedType 2052427306" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
+        <trans-unit id="TableExtension 591338493 - Field 2798609015 - Method 2126772001 - NamedType 2052427306" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 591338493">
           <source>PANNOTREQD</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CompanyInformation - Field P.A.N. Status - Method OnValidate - NamedType PANNotReqLbl</note>

@@ -16908,12 +16908,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchases Setup Ext - Field RCM Exempt End Date (Unreg) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 781067458 - NamedType 2433870832" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
+        <trans-unit id="TableExtension 781067458 - NamedType 2433870832" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 781067458">
           <source>RCM start date must be earlier then RCM End Date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchases Setup Ext - NamedType RcmBeforeDateErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 781067458 - NamedType 4020972539" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
+        <trans-unit id="TableExtension 781067458 - NamedType 4020972539" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 781067458">
           <source>RCM End date must not be earlier then RCM start Date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchases Setup Ext - NamedType RcmAfterDateErr</note>
@@ -19188,7 +19188,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Rec Setup - Field Posted Cr. Memo No. (Non-GST) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1271468701 - NamedType 3522264462" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+        <trans-unit id="TableExtension 1271468701 - NamedType 3522264462" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1271468701">
           <source>GST Dependency Type must be Bill-To Address Or Ship-To Address.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Rec Setup - NamedType GSTDependencyErr</note>
@@ -19343,22 +19343,22 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Party - Field ARN No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 964180562 - NamedType 719772468" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2208376698">
+        <trans-unit id="TableExtension 964180562 - NamedType 719772468" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 964180562">
           <source>Either GST Registration No. or ARN No. must have a value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Party - NamedType GSTARNErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 964180562 - NamedType 240401758" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2208376698">
+        <trans-unit id="TableExtension 964180562 - NamedType 240401758" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 964180562">
           <source>PAN No. must be entered.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Party - NamedType PANErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 964180562 - NamedType 932383268" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2208376698">
+        <trans-unit id="TableExtension 964180562 - NamedType 932383268" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 964180562">
           <source>From postion 3 to 12 it must be same as it is in PAN No. so delete the GST Registration No. and then update it.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Party - NamedType SamePANErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 964180562 - NamedType 1650606488" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2208376698">
+        <trans-unit id="TableExtension 964180562 - NamedType 1650606488" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 964180562">
           <source>GST Customer type 'Blank' &amp; 'Registered' is allowed to select when GST Registration Type is UID or GID.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Party - NamedType GSTCustRegErr</note>

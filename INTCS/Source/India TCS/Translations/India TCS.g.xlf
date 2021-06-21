@@ -2768,7 +2768,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Line - Field T.C.A.N. No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1806786327 - Method 1520322843 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1806786327 - Method 1520322843 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1806786327">
           <source>NOC Type %1 is not attached with Customer No. %2, Do you want to assign to customer &amp; Continue ?</source>
           <note from="Developer" annotates="general" priority="2">%1= Noc Type, %2=Customer No..</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Line - Method ConfirmAssignNOC - NamedType ConfirmMessageMsg</note>
@@ -2803,7 +2803,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Line - Field Assessee Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2574427010 - Method 1520322843 - NamedType 3312550659" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+        <trans-unit id="TableExtension 2574427010 - Method 1520322843 - NamedType 3312550659" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2574427010">
           <source>NOC Type %1 is not attached with Customer No. %2, Do you want to assign to customer &amp; Continue ?</source>
           <note from="Developer" annotates="general" priority="2">%1=Noc Type., %2=Customer No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Line - Method ConfirmAssignNOC - NamedType NOCConfirmMsg</note>

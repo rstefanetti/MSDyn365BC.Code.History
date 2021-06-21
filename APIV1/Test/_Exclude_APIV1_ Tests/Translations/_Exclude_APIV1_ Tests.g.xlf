@@ -208,11 +208,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Invoices E2E - NamedType InvoiceServiceNameTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2406125732 - NamedType 3963655173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>contactId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Invoices E2E - NamedType GraphContactIdFieldTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2406125732 - NamedType 2695440829" size-unit="char" translate="yes" xml:space="preserve">
           <source>customerId</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -357,11 +352,6 @@
           <source>salesOrders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Orders E2E - NamedType OrderServiceNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819057199 - NamedType 3963655173" size-unit="char" translate="no" xml:space="preserve">
-          <source>contactId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Orders E2E - NamedType GraphContactIdFieldTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 819057199 - NamedType 2695440829" size-unit="char" translate="no" xml:space="preserve">
           <source>customerId</source>
@@ -517,11 +507,6 @@
           <source>salesQuotes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Quotes E2E - NamedType QuoteServiceNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2362635299 - NamedType 3963655173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>contactId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Quotes E2E - NamedType GraphContactIdFieldTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2362635299 - NamedType 2695440829" size-unit="char" translate="yes" xml:space="preserve">
           <source>customerId</source>
@@ -717,11 +702,6 @@
           <source>salesCreditMemos</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Credit Memos E2E - NamedType CreditMemoServiceNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3178702784 - NamedType 3963655173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>contactId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit APIV1 - Sales Credit Memos E2E - NamedType GraphContactIdFieldTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3178702784 - NamedType 2695440829" size-unit="char" translate="yes" xml:space="preserve">
           <source>customerId</source>

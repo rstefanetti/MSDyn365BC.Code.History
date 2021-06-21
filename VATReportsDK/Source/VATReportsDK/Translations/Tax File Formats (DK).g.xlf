@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Tax File Formats (DK)">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1772322696 - NamedType 16760292" size-unit="char" translate="no" xml:space="preserve">
+          <source>ECSL-DK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType MSECSLDKTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possible to display %1 in a field with a length of %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType ExceedingLenghtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3511232442 - NamedType 1977192435" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The period is not valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType InvalidPeriodErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 1991297358" size-unit="char" translate="no" xml:space="preserve">
+          <source>Default.txt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType DefaultFilenameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 2292565108" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the file name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType MissingFileNameErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 700774942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WwWw</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 2277198143" size-unit="char" translate="yes" xml:space="preserve">
+          <source>INTRASTAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 4260029528" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possible to display %1 in a field with a length of %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType ZeroFormatErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

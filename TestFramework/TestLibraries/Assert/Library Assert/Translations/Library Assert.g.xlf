@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Library Assert">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 442225071 - NamedType 2352494830" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.IsTrue failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType IsTrueFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1951989491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.IsFalse failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType IsFalseFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1167279939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreNearlyEqual failed. Expected a difference no greater than &lt;%1&gt; between expected value &lt;%2&gt; and actual value &lt;%3&gt;. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType AreNearlyEqualFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1410394360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.AreNotNearlyEqual failed. Expected a difference greater than &lt;%1&gt; between expected value &lt;%2&gt; and actual value &lt;%3&gt;. %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType AreNotNearlyEqualFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1995418520" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.Fail failed. %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType FailFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 3341925898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Known failure: see VSTF Bug #%1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType KnownFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 2316275356" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.ExpectedError failed. Expected: %1. Actual: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType ExpectedErrorFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 2520604711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.ExpectedErrorCode failed. Expected: %1. Actual: %2. Actual error message: %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType ExpectedErrorCodeFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1071010381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assert.ExpectedMessage failed. Expected: %1. Actual: %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType ExpectedMessageFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 3458570292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equality assertions only support Boolean, Option, Integer, BigInteger, Decimal, Code, Text, Date, DateFormula, Time, Duration, and DateTime values. Current value:%1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType UnsupportedTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 1218333354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:RecordNotFound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType RecordNotFoundTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 74906461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:RecordExists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType RecordAlreadyExistsTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 4149171024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:NothingInsideFilter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType RecordNothingInsideFilterTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 3943079121" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected error %1 actual %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType AssertErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 670840788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:PrimRecordNotFound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType PrimRecordNotFoundTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 525961915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DB:NoFilter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType NoFilterTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442225071 - NamedType 562635058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The error has not been thrown.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library Assert - NamedType ErrorHasNotBeenThrownErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

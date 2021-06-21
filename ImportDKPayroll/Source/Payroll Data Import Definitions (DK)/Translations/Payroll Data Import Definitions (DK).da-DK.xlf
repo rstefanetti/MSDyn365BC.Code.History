@@ -30,25 +30,25 @@
         </trans-unit>
         <trans-unit id="Page 868071540 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,General,Posting,VAT,Bank,Journal Templates</source>
-          <target>Ny,Proces,Rapport,Generelt,Bogføring,Moms,Bank,Kladdetyper</target>
+          <target state="translated">Ny,Proces,Rapport,Generelt,Bogføring,Moms,Bank,Kladdetyper</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 868071540 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Payroll Data Import Definitions (DK)</source>
-          <target>Opsætning af definitioner for løndataimport (DK)</target>
+          <target state="translated">Opsætning af definitioner for løndataimport (DK)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 868071540 - Control 2488944089 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the format of the payroll transaction file that can be imported into the General Journal window.</source>
-          <target>Angiver formatet på filen med løntransaktioner, som kan importeres i vinduet Finanskladde.</target>
+          <target state="translated">Angiver formatet på filen med løntransaktioner, som kan importeres i vinduet Finanskladde.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Control Payroll Trans. Import Format - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="XmlPort 1985359964 - NamedType 3403918908" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The imported file does not match the expected format.</source>
-          <target>Den importerede fil stemmer ikke overens med det forventede format.</target>
+          <target state="translated">Den importerede fil stemmer ikke overens med det forventede format.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort Data Exch. Imp.- Proløn - NamedType WrongFileErr</note>
         </trans-unit>

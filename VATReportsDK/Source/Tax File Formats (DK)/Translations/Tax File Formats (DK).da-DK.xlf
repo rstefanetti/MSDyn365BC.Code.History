@@ -10,13 +10,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
-          <target>Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>
+          <target state="translated">Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType ExceedingLenghtErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 1977192435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The period is not valid.</source>
-          <target>Perioden er ugyldig.</target>
+          <target state="translated">Perioden er ugyldig.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType InvalidPeriodErr</note>
         </trans-unit>
@@ -27,25 +27,25 @@
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 2292565108" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter the file name.</source>
-          <target>Indtast filnavnet.</target>
+          <target state="translated">Indtast filnavnet.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType MissingFileNameErr</note>
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 700774942" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WwWw</source>
-          <target>WwWw</target>
+          <target state="translated">WwWw</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatTxt</note>
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 2277198143" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>INTRASTAT</source>
-          <target>INTRASTAT</target>
+          <target state="translated">INTRASTAT</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatNameTxt</note>
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 4260029528" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
-          <target>Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>
+          <target state="translated">Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType ZeroFormatErr</note>
         </trans-unit>

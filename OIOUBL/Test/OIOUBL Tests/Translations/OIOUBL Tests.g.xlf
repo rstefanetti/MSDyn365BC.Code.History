@@ -28,6 +28,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType GLEntryVerifyErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 45890088" size-unit="char" translate="yes" xml:space="preserve">
+          <source>is not found on the page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType NotFoundOnPageErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 4179870118" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TestFieldNotFound</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType TestFieldNotFoundErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2585361865 - NamedType 18626856" size-unit="char" translate="yes" xml:space="preserve">
           <source>5790000510146</source>
           <note from="Developer" annotates="general" priority="2"></note>

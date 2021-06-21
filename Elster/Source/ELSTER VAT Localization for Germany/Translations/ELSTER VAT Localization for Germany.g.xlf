@@ -183,6 +183,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType XmlFilterTxt</note>
         </trans-unit>
+        <trans-unit id="Table 3039476855 - NamedType 2590538451" size-unit="char" translate="no" xml:space="preserve">
+          <source>ElsterTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType ElsterTok</note>
+        </trans-unit>
+        <trans-unit id="Table 3039476855 - NamedType 677225625" size-unit="char" translate="no" xml:space="preserve">
+          <source>Deleting XML file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType DeleteXMLFileMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 3039476855 - NamedType 570602104" size-unit="char" translate="no" xml:space="preserve">
+          <source>XML file deleted successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType DeleteXMLFileSuccessMsg</note>
+        </trans-unit>
         <trans-unit id="Table 1923262567 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -622,6 +637,21 @@
           <source>Please make sure that as well category %1 and %2 are defined in %3 %4.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType ErrorCategoryErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3274648176 - NamedType 2590538451" size-unit="char" translate="no" xml:space="preserve">
+          <source>ElsterTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType ElsterTok</note>
+        </trans-unit>
+        <trans-unit id="Report 3274648176 - NamedType 2269713358" size-unit="char" translate="no" xml:space="preserve">
+          <source>Creating XML file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType CreateXMLFileMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 3274648176 - NamedType 1701028595" size-unit="char" translate="no" xml:space="preserve">
+          <source>XML file created successfully</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType CreateXMLFileSuccessMsg</note>
         </trans-unit>
         <trans-unit id="PageExtension 1221682893 - Control 1895445557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2290637262">
           <source>Specifies that a VAT statement name is used for the calculation of the tax and base amounts for the key figures required by the tax authorities.</source>

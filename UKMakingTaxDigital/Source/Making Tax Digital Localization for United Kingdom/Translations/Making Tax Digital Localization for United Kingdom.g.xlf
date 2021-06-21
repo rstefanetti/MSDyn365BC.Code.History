@@ -393,6 +393,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType Error_TOO_MANY_REQ_Txt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2135715258" size-unit="char" translate="no" xml:space="preserve">
+          <source>UKMakingTaxDigitalTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType UKMakingTaxDigitalTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 2953910129" size-unit="char" translate="no" xml:space="preserve">
+          <source>invoke request: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType InvokeReqMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 4008079760" size-unit="char" translate="no" xml:space="preserve">
+          <source>https request successfully executed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType InvokeReqSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1494142597" size-unit="char" translate="no" xml:space="preserve">
+          <source>refreshing access token</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType RefreshAccessTokenMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1652119284" size-unit="char" translate="no" xml:space="preserve">
+          <source>No http status from the https response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType NoHttpStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3539155225" size-unit="char" translate="no" xml:space="preserve">
+          <source>Could not parse http response as json object</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType NoJsonResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 491454794" size-unit="char" translate="no" xml:space="preserve">
+          <source>No content.message in the json response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType NoContentMessageErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 524441672" size-unit="char" translate="no" xml:space="preserve">
+          <source>Missing error description in json response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType EmptyJsonErrMsgErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 913112312" size-unit="char" translate="no" xml:space="preserve">
+          <source>No Content.statusCode in json response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType NoContentStatusCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 3063667515" size-unit="char" translate="no" xml:space="preserve">
+          <source>Empty status code in json response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType EmptyStatusCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - NamedType 1928942278" size-unit="char" translate="no" xml:space="preserve">
+          <source>Cannot parse the http error response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType CannotParseResponseErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2777125217 - NamedType 1930133636" size-unit="char" translate="no" xml:space="preserve">
           <source>DESKTOP_APP_VIA_SERVER</source>
           <note from="Developer" annotates="general" priority="2"></note>

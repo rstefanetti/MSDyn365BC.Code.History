@@ -1,6 +1,14 @@
 codeunit 18926 "TCS Journal - Library"
 {
-    procedure CreateGenJournalTemplateBatch(var GenJournalTemplate: Record "Gen. Journal Template";
+    var
+        LibraryERM: Codeunit "Library - ERM";
+        LibraryJournals: Codeunit "Library - Journals";
+        LibraryTCS: Codeunit "TCS - Library";
+        LibraryRandom: Codeunit "Library - Random";
+        Assert: Codeunit Assert;
+
+    procedure CreateGenJournalTemplateBatch(
+        var GenJournalTemplate: Record "Gen. Journal Template";
         var GenJournalBatch: Record "Gen. Journal Batch";
         VoucherType: Enum "Gen. Journal Template Type")
     begin
@@ -10,8 +18,11 @@ codeunit 18926 "TCS Journal - Library"
         LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
     end;
 
-    procedure CreateGenJnlLineFromCustToGLForPaymentWithFCY(var GenJournalLine: Record "Gen. Journal Line";
-    CustomerNo: code[20]; VoucherType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
+    procedure CreateGenJnlLineFromCustToGLForPaymentWithFCY(
+        var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: Code[20];
+        VoucherType: Enum "Gen. Journal Template Type";
+        TCSNOC: Code[10])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
@@ -32,8 +43,11 @@ codeunit 18926 "TCS Journal - Library"
         GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJnlLineFromCustToGLForPayment(var GenJournalLine: Record "Gen. Journal Line";
-    CustomerNo: code[20]; VoucherType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
+    procedure CreateGenJnlLineFromCustToGLForPayment(
+        var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: Code[20];
+        VoucherType: Enum "Gen. Journal Template Type";
+        TCSNOC: Code[10])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
@@ -51,8 +65,11 @@ codeunit 18926 "TCS Journal - Library"
         GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJnlLineFromCustToGLForInvoiceWithFCY(var GenJournalLine: Record "Gen. Journal Line";
-    CustomerNo: code[20]; VoucherType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
+    procedure CreateGenJnlLineFromCustToGLForInvoiceWithFCY(
+        var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: Code[20];
+        VoucherType: Enum "Gen. Journal Template Type";
+        TCSNOC: Code[10])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
@@ -73,8 +90,11 @@ codeunit 18926 "TCS Journal - Library"
         GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJnlLineFromCustToGLForInvoice(var GenJournalLine: Record "Gen. Journal Line";
-    CustomerNo: code[20]; VoucherType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
+    procedure CreateGenJnlLineFromCustToGLForInvoice(
+        var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: Code[20];
+        VoucherType: Enum "Gen. Journal Template Type";
+        TCSNOC: Code[10])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
@@ -99,9 +119,13 @@ codeunit 18926 "TCS Journal - Library"
         CalculateTax.CallTaxEngineOnGenJnlLine(GenJnlLine, GenJnlLine)
     end;
 
-    procedure CreateGenJnlLineFromCustToGLForInvoiceWithoutTemplateAndBatch(var GenJournalLine: Record "Gen. Journal Line";
-        CustomerNo: code[20]; VoucherType: Enum "Gen. Journal Template Type"; TCSNOC: code[10];
-        JournalTemplateName: code[10]; JournalBtatchName: code[10])
+    procedure CreateGenJnlLineFromCustToGLForInvoiceWithoutTemplateAndBatch(
+        var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: Code[20];
+        VoucherType: Enum "Gen. Journal Template Type";
+        TCSNOC: Code[10];
+        JournalTemplateName: Code[10];
+        JournalBtatchName: Code[10])
     var
         GLAccount: Record "G/L Account";
     begin
@@ -116,12 +140,12 @@ codeunit 18926 "TCS Journal - Library"
         GenJournalLine.Modify(true);
     end;
 
-    procedure VerifyJournalGLEntryCount(JnlBatchName: Code[10]; ExpectedCount: Integer): code[20]
+    procedure VerifyJournalGLEntryCount(JnlBatchName: Code[10]; ExpectedCount: Integer): Code[20]
     var
         GLEntry: Record "G/L Entry";
     begin
-        GLEntry.SETRANGE("Journal Batch Name", JnlBatchName);
-        if GLEntry.FindFirst() then;
+        GLEntry.SetRange("Journal Batch Name", JnlBatchName);
+        GLEntry.FindFirst();
         Assert.RecordCount(GLEntry, ExpectedCount);
         exit(GLEntry."Document No.");
     end;
@@ -129,7 +153,7 @@ codeunit 18926 "TCS Journal - Library"
     procedure FindStartDateOnAccountingPeriod(): Date
     var
         TCSSetup: Record "TCS Setup";
-        TaxType: record "Tax Type";
+        TaxType: Record "Tax Type";
         AccountingPeriod: Record "Tax Accounting Period";
     begin
         TCSSetup.Get();
@@ -141,11 +165,4 @@ codeunit 18926 "TCS Journal - Library"
         if AccountingPeriod.FindFirst() then
             exit(AccountingPeriod."Starting Date");
     end;
-
-    var
-        LibraryERM: Codeunit "Library - ERM";
-        LibraryJournals: Codeunit "Library - Journals";
-        LibraryTCS: Codeunit "TCS - Library";
-        LibraryRandom: Codeunit "Library - Random";
-        Assert: Codeunit Assert;
 }

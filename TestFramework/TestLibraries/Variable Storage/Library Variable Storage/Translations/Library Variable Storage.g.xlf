@@ -13,6 +13,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType AssertFullErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1656420359 - NamedType 1475155589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Index out of bounds.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType OutOfBoundsErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1656420359 - NamedType 561567251" size-unit="char" translate="yes" xml:space="preserve">
           <source>Queue overflow.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -22,11 +27,6 @@
           <source>Queue underflow.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType UnderflowErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1656420359 - NamedType 1475155589" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Index out of bounds.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType OutOfBoundsErr</note>
         </trans-unit>
       </group>
     </body>

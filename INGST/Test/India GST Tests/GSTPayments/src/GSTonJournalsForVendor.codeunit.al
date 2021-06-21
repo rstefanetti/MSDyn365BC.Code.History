@@ -1,4 +1,4 @@
-codeunit 18272 "GST on Journals For Vendor"
+codeunit 18272 "GST On Journals For Vendor"
 {
     Subtype = Test;
 
@@ -6,418 +6,806 @@ codeunit 18272 "GST on Journals For Vendor"
         VATPostingSetup: Record "VAT Posting Setup";
         LibraryRandom: Codeunit "Library - Random";
         LibraryGST: Codeunit "Library GST";
+        LibraryERM: Codeunit "Library - ERM";
+        LibraryJournals: Codeunit "Library - Journals";
         ComponentPerArray: array[20] of Decimal;
         Storage: Dictionary of [Text, Text[20]];
-        StorageEnum: Dictionary of [Text, Text];
         StorageBoolean: Dictionary of [Text, Boolean];
+        LocationCodeLbl: Label 'LocationCode';
+        POSoutOfIndiaLbl: Label 'POSoutOfIndia';
+        LocationStateCodeLbl: Label 'LocationStateCode';
+        ExemptedLbl: Label 'Exempted';
+        AssociateEnterpriseLbl: Label 'AssociateEnterprise';
+        POSLbl: Label 'POS';
+        GSTGroupCodeLbl: Label 'GSTGroupCode';
+        HSNSACCodeLbl: Label 'HSNSACCode';
+        FromStateCodeLbl: Label 'FromStateCode';
+        InputCreditAvailmentLbl: Label 'InputCreditAvailment';
+        VendorNoLbl: Label 'VendorNo';
+        ToStateCodeLbl: Label 'ToStateCode';
+        TemplateNameLbl: Label 'TemplateName';
+        PostedDocumentNoLbl: Label 'PostedDocumentNo';
+        GSTLEVerifyErr: Label '%1 is incorrect in %2.', Comment = '%1 and %2 = Field Caption and Table Caption';
+        VendGSTTypeErr: Label 'You can select POS Out Of India field on header only if GST Vendor Type is Registered.';
+        POSAsVednorStateErr: Label 'POS Out Of India must be equal to ''No''  in Gen. Journal Line: Journal Template Name=%1, Journal Batch Name=%2, Line No.=%3. Current value is ''Yes''.', Comment = '%1 = Journal Template Name,%2 = Journal Batch Name,%3= Line No.';
 
-    //[Scenario 355324] Check If system is calculating GST when Invoice created from Purchase Journals for Registered Vendor.
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckGSTTDSTCSGSTJurisdictionType()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+    begin
+        // [SCENARIO] Check If system is assigning GST Jurisdiction Type, from Purchase Journals for Registered Vendor for GST TDS/TCS.
+
+        // [GIVEN] Gen Journal Line for Account Type Vendor and GST TDS/GST TCS.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Payment, GenJournalLine, TemplateType::Purchases);
+        ProvideGSTTDSTCValue(GenJournalLine);
+
+        // [WHEN] The function GSTTDSTCS is called.
+        GSTJournalLineValidations.OnValidateGSTTDSTCS(GenJournalLine);
+
+        //[THEN] Verify GST Jurisdiction Type
+        Assert.AreNotEqual('', GenJournalLine."GST Jurisdiction Type",
+            StrSubstNo(GSTLEVerifyErr, GenJournalLine.FieldName("GST Jurisdiction Type"), GenJournalLine.TableCaption));
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckPosOutofIndiaImportVendor()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+    begin
+        // [SCENARIO] Check If system is only allowing POS out of India for Registered Vendor.
+
+        // [GIVEN] Gen Journal Line for Account Type Vendor and POS out of India.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Import, GSTGroupType::Service, true, false);
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+        ProvidePOSOutofIndiaValue(GenJournalLine);
+
+        // [WHEN] The function Pos out of India is called.
+        asserterror GSTJournalLineValidations.POSOutOfIndia(GenJournalLine);
+
+        //[THEN] Verify error message for Vendor Type.
+        Assert.ExpectedError(VendGSTTypeErr);
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckAccountNoPartyTypeVendor()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+    begin
+        // [SCENARIO] Check if system assigning same value in account no. as party code for party type Vendor .
+
+        // [GIVEN] Gen journal line for party type vendor.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
+        CreateGenJnlLineFromPartyTypeVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+
+        // [WHEN] The function PartyCode is called.
+        GSTJournalLineValidations.PartyCode(GenJournalLine);
+
+        //[THEN] Verify the account no. is same as party code.
+        Assert.Compare(GenJournalLine."Party Code", GenJournalLine."Account No.");
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckPosAsVendorStateWithPOSoutOfIndia()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+    begin
+        // [SCENARIO] Check if system is allowing POS as vendor state, when POS out of India is false.
+
+        // [GIVEN] Gen Journal Line for Account Type Vendor and POS as vendor state.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+        ProvidePOSAsVendorStateValue(GenJournalLine);
+
+        // [WHEN] The function Pos as vendor state is called.
+        asserterror GSTJournalLineValidations.POSasVendorState(GenJournalLine);
+
+        //[THEN] Verify error message for Pos out of India.
+        Assert.AreEqual(StrSubstNo(POSAsVednorStateErr,
+                        GenJournalLine."Journal Template Name",
+                        GenJournalLine."Journal Batch Name",
+                        GenJournalLine."Line No."),
+                        GetLastErrorText,
+                        '');
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckBalVendNo()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        Vendor: Record Vendor;
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        PartyCode: Code[20];
+    begin
+        // [SCENARIO] Check if system assigning GST vendor type same as bal vendor, when party type vendor.
+
+        // [GIVEN] Gen journal line for party type vendor.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Goods, true, false);
+        PartyCode := LibraryGST.CreateVendorParties(GSTVendorType::Registered);
+        CreateGenJnlLineFromPartyTypeVendorInvoice(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases, PartyCode);
+        Vendor.Get(GenJournalLine."Account No.");
+
+        // [WHEN] The function BalVendNo is called.
+        GSTJournalLineValidations.BalVendNo(GenJournalLine, Vendor);
+
+        //[THEN] Verify the gst vendor type same in gen. journal line.
+        Assert.Compare(GenJournalLine."GST Vendor Type", Vendor."GST Vendor Type");
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckABSValueGSTAssessableValue()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+    begin
+        // [SCENARIO] Check if system assign abs value in GST Assessable Value.
+
+        // [GIVEN] Gen Journal Line for Account Type Vendor and GST Assessable Value.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Goods, true, false);
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+        AssignNegativeGSTAssessableValue(GenJournalLine);
+
+        // [WHEN] The function GSTAssessableValue is called.
+        GSTJournalLineValidations.GSTAssessableValue(GenJournalLine);
+
+        //[THEN] Verify GST Assessable Value is positive.
+        Assert.AreNearlyEqual(GenJournalLine.Amount,
+        GenJournalLine."GST Assessable Value",
+        GenJournalLine.Amount - GenJournalLine."GST Assessable Value",
+        StrSubstNo(GSTLEVerifyErr,
+            GenJournalLine.FieldName("GST Assessable Value"),
+            GenJournalLine.TableCaption)
+            );
+    end;
+
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler')]
+    procedure CheckABSValueGSTCustomDutyAmount()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTJournalLineValidations: codeunit "GST Journal Line Validations";
+        Assert: Codeunit Assert;
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+    begin
+        // [SCENARIO] Check if system assign abs value in GST Custom Duty Amount.
+
+        // [GIVEN] Gen Journal Line for Account Type Vendor and GST Custom Duty Amount.
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Goods, true, false);
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+        AssignNegativeGSTCustomDutyAmount(GenJournalLine);
+
+        // [WHEN] The function CustomDutyAmount is called.
+        GSTJournalLineValidations.CustomDutyAmount(GenJournalLine);
+
+        //[THEN] Verify GST Custom Duty is positive.
+        Assert.AreNearlyEqual(GenJournalLine.Amount,
+        GenJournalLine."Custom Duty Amount",
+        GenJournalLine.Amount - GenJournalLine."Custom Duty Amount",
+        StrSubstNo(GSTLEVerifyErr,
+            GenJournalLine.FieldName("Custom Duty Amount"),
+            GenJournalLine.TableCaption)
+            );
+    end;
+
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithITCForRegisetredVendor()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355324] Check If system is calculating GST when Invoice created from Purchase Journals for Registered Vendor.
+
+        // [GIVEN] Created GST Setup and tax rates for registered customer
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 355325] Check If system is calculating GST when Invoice created from Purchase Journals for Unregistered Vendor.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithITCForUnregisetredVendor()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355325] Check If system is calculating GST when Invoice created from Purchase Journals for Unregistered Vendor.
+
+        // [GIVEN] Created GST Setup Customer type is Unregistered and GST Group type is Service
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Unregistered, GSTGroupType::Service, true, true);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 355326] Check If system is calculating GST when Invoice created from Purchase Journals for Import Vendor.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithITCForImportVendor()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355326] Check If system is calculating GST when Invoice created from Purchase Journals for Import Vendor.
+
+        // [GIVEN] Created GST Setup customer type is import and gst group type is service
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Import, GSTGroupType::Service, false, true);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 355327] Check If system is calculating GST when Invoice created from Purchase Journals for Associate Import Vendor.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithITCForAssociateVendor()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355327] Check If system is calculating GST when Invoice created from Purchase Journals for Associate Import Vendor.
+
+        // [GIVEN] Created GST Setup with Customer type is Import and GST group type is Srvice and Jurisdiction is Interstate
         InitializeShareStep(true, false);
         InitializeAssociateVendor(true);
         CreateGSTSetup(GSTVendorType::Import, GSTGroupType::Service, false, true);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 357299] Intra-State Purchase of Services from an Unregistered Vendor where Input Tax Credit is not available (Reverse Charge) through General Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalWithReverseChargeWithoutInputCreditAvailmentForUnregisetredVendor()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357299] Intra-State Purchase of Services from an Unregistered Vendor where Input Tax Credit is not available (Reverse Charge) through General Journal
+
+        // [GIVEN] Created GST Setup Customer type is unregistered and gts group type is services
         InitializeShareStep(false, false);
         CreateGSTSetup(GSTVendorType::Unregistered, GSTGroupType::Service, true, true);
 
-        //[WHEN] Create and Post General Journal
+        // [WHEN] Create and Post General Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::General);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 357303] Intra-State Purchase of Services from an Registered Vendor where Input Tax Credit is available (Reverse Charge) through Purchase Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithReverseChargeWithAvailment()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357303] Intra-State Purchase of Services from an Registered Vendor where Input Tax Credit is available (Reverse Charge) through Purchase Journal
+
+        // [GIVEN] Created GST Setup Customer is Registered and jurisdiction is Intrastate
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, true);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 357444] Intra-State Purchase of Services from an Registered Vendor where Input Tax Credit is not available (Reverse Charge) through Purchase Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalWithReverseChargeWithoutInputCreditAvailment()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357444] Intra-State Purchase of Services from an Registered Vendor where Input Tax Credit is not available (Reverse Charge) through Purchase Journal
+
+        // [GIVEN] Created GST Setup with GST Customer type is Registered and GST group type is Service
         InitializeShareStep(false, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, true);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 355329] Check If system is calculating GST when Invoice created from FA G/L Journals for Registered Vendor 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromFAGLournalForRegisteredWithAvailmentForIntraState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
-
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355329] Check If system is calculating GST when Invoice created from FA G/L Journals for Registered Vendor 
+
+        // [GIVEN] Created GST Setup and Customer is Registred with GST group type Service and Jusrisdiction is Intrastate
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
 
-        //[WHEN] Create and Post FA G/L Journal
+        // [WHEN] Create and Post FA G/L Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Assets);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 355331] Check If system is calculating GST when Invoice created from FA G/L Journals for Import Vendor 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromFAGLournalForImportWithAvailmentForInterState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
-
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355331] Check If system is calculating GST when Invoice created from FA G/L Journals for Import Vendor 
+
+        // [GIVEN] Created GST Setup with Customer type is Import and GSt goup type is Service
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Import, GSTGroupType::Service, false, false);
 
-        //[WHEN] Create and Post FA G/L Journal
+        // [WHEN] Create and Post FA G/L Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Assets);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 355374] Check If system is calculating GST when Credit Memo created from FA G/L Journals for Registered Vendor 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromFAGLournalCreditMemoForRegisteredWithAvailmentForIntraState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
-
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [355374] Check If system is calculating GST when Credit Memo created from FA G/L Journals for Registered Vendor 
+
+        // [GIVEN] Created GST Setup with Customer is Registered and GST Group type is Service with Intrastate Jurisdiction
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, true, false);
 
-        //[WHEN] Create and Post FA G/L Journal
+        // [WHEN] Create and Post FA G/L Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::"Credit Memo", GenJournalLine, TemplateType::Assets);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 355376] Check If system is calculating GST when Credit Memo created from FA G/L Journals for Unregistered Vendor 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromFAGLournalCreditMemoForUnregisteredWithAvailmentForIntraState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
-        InitializeShareStep(true, false);
-        CreateGSTSetup(GSTVendorType::UnRegistered, GSTGroupType::Service, true, false);
+        // [SCENARIO] [355376] Check If system is calculating GST when Credit Memo created from FA G/L Journals for Unregistered Vendor 
 
-        //[WHEN] Create and Post FA G/L Journal
+        // [GIVEN] Created GST Setup where Customer type is Registered and Jurisdiction is Interstate and GST group type is Goods
+        InitializeShareStep(true, false);
+        CreateGSTSetup(GSTVendorType::Unregistered, GSTGroupType::Service, true, false);
+
+        // [WHEN] Create and Post FA G/L Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::"Credit Memo", GenJournalLine, TemplateType::Assets);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 2);
     end;
 
-    //[Scenario 357249] Inter-State Purchase of Goods from Registered Vendor where Input Tax Credit is not available through Purchase Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalForGoodsRegisteredWithoutAvailmentInterState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357249] Inter-State Purchase of Goods from Registered Vendor where Input Tax Credit is not available through Purchase Journal
+
+        // [GIVEN] Created GST Setup where Customer type is Registered and Jurisdiction is Interstate and GST group type is Goods
         InitializeShareStep(false, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Goods, false, false);
 
-        //[WHEN] Create and Post Purchase Journal
+        // [WHEN] Create and Post Purchase Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 357253] Inter-State Purchase of Services from Registered Vendor where Input Tax Credit is available through General journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalForServiceRegisteredWithAvailmentInterState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357253] Inter-State Purchase of Services from Registered Vendor where Input Tax Credit is available through General journal
+
+        // [GIVEN] Created GST Setup where Customer type is Registered and Jurisdiction is Interstate
         InitializeShareStep(true, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, false, false);
 
-        //[WHEN] Create and Post General Journal
+        // [WHEN] Create and Post General Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::General);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 357263] Inter-State Purchase of Services from Registered Vendor where Input Tax Credit is not available through General journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalForServiceRegisteredWithoutAvailmentInterState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [357263] Inter-State Purchase of Services from Registered Vendor where Input Tax Credit is not available through General journal
+
+        // [GIVEN] Created GST Setup where Customer type is Registered and Jurisdiction is Interstate and GST group type is Service
         InitializeShareStep(false, false);
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, false, false);
 
-        //[WHEN] Create and Post General Journal
+        // [WHEN] Create and Post General Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::General);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    //[Scenario 358518] Inter-State Purchase of Services from an Registered Vendor where Input Tax Credit is not available (Reverse Charge) through Purchase Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromPurchaseJournalForRegisteredReverseInterState()
     var
         GenJournalLine: Record "Gen. Journal Line";
-        LibraryERM: Codeunit "Library - ERM";
         GSTGroupType: Enum "GST Group Type";
         GSTVendorType: Enum "GST Vendor Type";
-        TemplateType: enum "Gen. Journal Template Type";
+        TemplateType: Enum "Gen. Journal Template Type";
         GenJnlDocType: Enum "Gen. Journal Document Type";
         DocumentNo: Code[20];
     begin
-        //[GIVEN] Created GST Setup
+        // [SCENARIO] [358518] Inter-State Purchase of Services from an Registered Vendor where Input Tax Credit is not available (Reverse Charge) through Purchase Journal
+
+        // [GIVEN] Created GST Setup where Customer type is Registered and Jurisdiction is Interstate
         CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, false, true);
         InitializeShareStep(true, false);
-        //[WHEN] Create and Post Sales Journal
+
+        // [WHEN] Create and Post Sales Journal
         CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] Verify GST ledger entries
+        // [THEN] GST ledger entries are created and Verified
         DocumentNo := LibraryGST.VerifyGLEntry(GenJournalLine."Journal Batch Name");
         LibraryGST.GSTLedgerEntryCount(DocumentNo, 1);
     end;
 
-    local procedure CreateGSTSetup(GSTVendorType: Enum "GST Vendor Type"; GSTGroupType: Enum "GST Group Type"; IntraState: Boolean; ReverseCharge: Boolean)
+    [Test]
+    [HandlerFunctions('TaxRatePageHandler,JournalTemplateHandler,ReferencePageHandler,VendorLedgerEntries')]
+    procedure PostFromPurchaseJournalForRegisteredReverseInterStateCreditMemo()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        GSTGroupType: Enum "GST Group Type";
+        GSTVendorType: Enum "GST Vendor Type";
+        TemplateType: Enum "Gen. Journal Template Type";
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+    begin
+        // [SCENARIO] Inter-State Purchase Return of Services from an Registered Vendor where Input Tax Credit is not available (Reverse Charge) through Purchase Journal
+
+        // [GIVEN] Created GST Setup and tax rates for registred vendor with interstate jurisdiction
+        CreateGSTSetup(GSTVendorType::Registered, GSTGroupType::Service, false, true);
+        InitializeShareStep(true, false);
+
+        // [WHEN] Create and Post Sales Journal from purchase journal
+        CreateGenJnlLineFromVendorToGL(GenJnlDocType::Invoice, GenJournalLine, TemplateType::Purchases);
+        LibraryERM.PostGeneralJnlLine(GenJournalLine);
+
+        // [THEN] create and post Credit Memo with reference invoice number
+        CreateGenJnlLineforVendorToGLCreditMemo(GenJournalLine, TemplateType::Purchases);
+    end;
+
+    local procedure CreateGenJnlLineforVendorToGLCreditMemo(var GenJournalLine: Record "Gen. Journal Line"; TemplateType: Enum "Gen. Journal Template Type")
+    var
+        GenJournalTemplate: Record "Gen. Journal Template";
+        GenJournalBatch: Record "Gen. Journal Batch";
+        VendorNo: Code[20];
+        LocationCode: Code[10];
+    begin
+        CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
+        Storage.Set(TemplateNameLbl, GenJournalTemplate.Name);
+        VendorNo := CopyStr(Storage.Get(VendorNoLbl), 1, 20);
+        Evaluate(LocationCode, Storage.Get(LocationCodeLbl));
+
+        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::"Credit Memo",
+            GenJournalLine."Account Type"::Vendor, VendorNo,
+            GenJournalLine."Bal. Account Type"::"G/L Account",
+            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, CopyStr(Storage.Get(GSTGroupCodeLbl), 1, 20), CopyStr(Storage.Get(HSNSACCodeLbl), 1, 10), true, StorageBoolean.Get(ExemptedLbl)),
+            LibraryRandom.RandIntInRange(1, 100000));
+
+        GenJournalLine.Validate("Location Code", LocationCode);
+        GenJournalLine.Validate("Bal. Gen. Posting Type", GenJournalLine."Bal. Gen. Posting Type"::Purchase);
+        CalculateGST(GenJournalLine);
+        GenJournalLine.Modify(true);
+        CalculateGST(GenJournalLine);
+
+        UpdateReferenceInvoiceNoAndVerify();
+    end;
+
+    local procedure UpdateReferenceInvoiceNoAndVerify()
+    var
+        PurchaseJournal: TestPage "Purchase Journal";
+    begin
+        PurchaseJournal.OpenEdit();
+        PurchaseJournal."Update Reference Invoice No.".Invoke();
+    end;
+
+    local procedure CreateTaxRate()
+    var
+        GSTSetup: Record "GST Setup";
+        TaxTypes: TestPage "Tax Types";
+    begin
+        GSTSetup.Get();
+        TaxTypes.OpenEdit();
+        TaxTypes.Filter.SetFilter(Code, GSTSetup."GST Tax Type");
+        TaxTypes.TaxRates.Invoke();
+    end;
+
+    local procedure CreateGenJournalTemplateBatch(
+        var GenJournalTemplate: Record "Gen. Journal Template";
+        var GenJournalBatch: Record "Gen. Journal Batch";
+        TemplateType: Enum "Gen. Journal Template Type")
+    var
+        LocationCode: Code[10];
+    begin
+        LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
+        GenJournalTemplate.Validate(Type, TemplateType);
+        GenJournalTemplate.Modify(true);
+
+        Evaluate(LocationCode, Storage.Get(LocationCodeLbl));
+        LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
+        GenJournalBatch.Validate("Location Code", LocationCode);
+        GenJournalBatch.Modify(true);
+    end;
+
+    local procedure CreateGenJnlLineFromVendorToGL(
+        GenJnlDocType: Enum "Gen. Journal Document Type";
+        var GenJournalLine: Record "Gen. Journal Line";
+        TemplateType: Enum "Gen. Journal Template Type")
+    var
+        GenJournalTemplate: Record "Gen. Journal Template";
+        GenJournalBatch: Record "Gen. Journal Batch";
+        VendorNo: Code[20];
+        LocationCode: Code[10];
+        POSoutOfIndia: Boolean;
+    begin
+        CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
+        VendorNo := Storage.Get(VendorNoLbl);
+        Evaluate(LocationCode, Storage.Get(LocationCodeLbl));
+        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJnlDocType,
+            GenJournalLine."Account Type"::Vendor, VendorNo,
+            GenJournalLine."Bal. Account Type"::"G/L Account",
+            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, CopyStr(Storage.Get(GSTGroupCodeLbl), 1, 20), CopyStr(Storage.Get(HSNSACCodeLbl), 1, 10), StorageBoolean.Get(InputCreditAvailmentLbl), StorageBoolean.Get(ExemptedLbl)),
+            -LibraryRandom.RandIntInRange(1, 10000));
+
+        GenJournalLine.Validate("Location Code", LocationCode);
+        GenJournalLine.Validate("GST Group Code");
+        GenJournalLine.Validate("HSN/SAC Code");
+        if StorageBoolean.ContainsKey(POSoutOfIndiaLbl) then begin
+            Evaluate(POSoutOfIndia, Format(StorageBoolean.Get(POSoutOfIndiaLbl)));
+            GenJournalLine.Validate("POS Out Of India", POSoutOfIndia);
+            POSoutOfIndia := false;
+        end;
+
+        if GenJournalLine."Document Type" in [GenJournalLine."Document Type"::"Credit Memo"] then
+            GenJournalLine.Validate(Amount, -GenJournalLine.Amount)
+        else
+            GenJournalLine.Validate(Amount);
+
+        CalculateGST(GenJournalLine);
+        Storage.Set(PostedDocumentNoLbl, GenJournalLine."Document No.");
+        GenJournalLine.Modify(true);
+    end;
+
+    local procedure UpdateVendorSetupWithGST(
+        VendorNo: Code[20];
+        GSTVendorType: Enum "GST Vendor Type";
+        AssociateEnterprise: Boolean;
+        StateCode: Code[10];
+        PANNo: Code[20])
+    var
+        Vendor: Record Vendor;
+        State: Record State;
+    begin
+        Vendor.Get(VendorNo);
+        if (GSTVendorType <> GSTVendorType::Import) then begin
+            State.Get(StateCode);
+            Vendor.Validate("State Code", StateCode);
+            Vendor.Validate("P.A.N. No.", PANNo);
+            if not ((GSTVendorType = GSTVendorType::" ") or (GSTVendorType = GSTVendorType::Unregistered)) then
+                Vendor.Validate("GST Registration No.", LibraryGST.GenerateGSTRegistrationNo(State."State Code (GST Reg. No.)", PANNo));
+        end;
+        Vendor.Validate("GST Vendor Type", GSTVendorType);
+        if Vendor."GST Vendor Type" = Vendor."GST Vendor Type"::Import then
+            Vendor.Validate("Associated Enterprises", AssociateEnterprise);
+        Vendor.Modify(true);
+    end;
+
+    local procedure CalculateGST(GenJournalLine: Record "Gen. Journal Line")
+    var
+        CalculateTax: Codeunit "Calculate Tax";
+    begin
+        CalculateTax.CallTaxEngineOnGenJnlLine(GenJournalLine, GenJournalLine)
+    end;
+
+    local procedure CreateGSTSetup(
+        GSTVendorType: Enum "GST Vendor Type";
+        GSTGroupType: Enum "GST Group Type";
+        IntraState: Boolean;
+        ReverseCharge: Boolean)
     var
         GSTGroup: Record "GST Group";
         HSNSAC: Record "HSN/SAC";
-        GSTComponent: Record "Tax Component";
+        TaxComponent: Record "Tax Component";
         CompanyInformation: Record "Company information";
         LocationStateCode: Code[10];
         VendorNo: Code[20];
         LocationCode: Code[10];
         VendorStateCode: Code[10];
-        LocPan: Code[20];
+        LocPANNo: Code[20];
         LocationGSTRegNo: Code[15];
         HsnSacType: Enum "GST Goods And Services Type";
-        GSTcomponentcode: Text[30];
+        GSTComponentCode: Text[30];
         GSTGroupCode: Code[20];
         HSNSACCode: Code[10];
     begin
@@ -426,173 +814,147 @@ codeunit 18272 "GST on Journals For Vendor"
             CompanyInformation."P.A.N. No." := LibraryGST.CreatePANNos();
             CompanyInformation.Modify();
         end else
-            LocPan := CompanyInformation."P.A.N. No.";
-        LocPan := CompanyInformation."P.A.N. No.";
+            LocPANNo := CompanyInformation."P.A.N. No.";
+        LocPANNo := CompanyInformation."P.A.N. No.";
         LocationStateCode := LibraryGST.CreateInitialSetup();
-        Storage.Set('LocationStateCode', LocationStateCode);
+        Storage.Set(LocationStateCodeLbl, LocationStateCode);
 
-        LocationGSTRegNo := LibraryGST.CreateGSTRegistrationNos(LocationStateCode, LocPan);
+        LocationGSTRegNo := LibraryGST.CreateGSTRegistrationNos(LocationStateCode, LocPANNo);
 
         if CompanyInformation."GST Registration No." = '' then begin
             CompanyInformation."GST Registration No." := LocationGSTRegNo;
-            CompanyInformation.MODIFY(TRUE);
+            CompanyInformation.Modify(true);
         end;
 
-        LocationCode := LibraryGST.CreateLocationSetup(LocationStateCode, LocationGSTRegNo, FALSE);
-        Storage.Set('LocationCode', LocationCode);
+        LocationCode := LibraryGST.CreateLocationSetup(LocationStateCode, LocationGSTRegNo, false);
+        Storage.Set(LocationCodeLbl, LocationCode);
 
         GSTGroupCode := LibraryGST.CreateGSTGroup(GSTGroup, GSTGroupType, GSTGroup."GST Place Of Supply"::"Bill-to Address", ReverseCharge);
-        Storage.Set('GSTGroupCode', GSTGroupCode);
+        Storage.Set(GSTGroupCodeLbl, GSTGroupCode);
 
         HSNSACCode := LibraryGST.CreateHSNSACCode(HSNSAC, GSTGroupCode, HsnSacType::HSN);
-        Storage.Set('HSNSACCode', HSNSACCode);
+        Storage.Set(HSNSACCodeLbl, HSNSACCode);
         if IntraState then begin
             VendorNo := LibraryGST.CreateVendorSetup();
-            UpdateVendorSetupWithGST(VendorNo, GSTVendorType, false, LocationStateCode, LocPan);
+            UpdateVendorSetupWithGST(VendorNo, GSTVendorType, false, LocationStateCode, LocPANNo);
             InitializeTaxRateParameters(IntraState, LocationStateCode, LocationStateCode);
-            CreateGSTComponentAndPostingSetup(IntraState, LocationStateCode, GSTComponent, GSTcomponentcode);
         end else begin
             VendorStateCode := LibraryGST.CreateGSTStateCode();
             VendorNo := LibraryGST.CreateVendorSetup();
-            if StorageBoolean.ContainsKey('AssociateEnterprise') then begin
-                UpdateVendorSetupWithGST(VendorNo, GSTVendorType, StorageBoolean.Get('AssociateEnterprise'), VendorStateCode, LocPan);
-                StorageBoolean.Remove('AssociateEnterprise')
+            if StorageBoolean.ContainsKey(AssociateEnterpriseLbl) then begin
+                UpdateVendorSetupWithGST(VendorNo, GSTVendorType, StorageBoolean.Get(AssociateEnterpriseLbl), VendorStateCode, LocPANNo);
+                StorageBoolean.Remove(AssociateEnterpriseLbl)
             end else
-                UpdateVendorSetupWithGST(VendorNo, GSTVendorType, false, VendorStateCode, LocPan);
-            Storage.Set('VendorStateCode', VendorStateCode);
+                UpdateVendorSetupWithGST(VendorNo, GSTVendorType, false, VendorStateCode, LocPANNo);
             if GSTVendorType in [GSTVendorType::Import, GSTVendorType::SEZ] then
-                InitializeTaxRateParameters(IntraState, LocationStateCode, '')
+                InitializeTaxRateParameters(IntraState, '', LocationStateCode)
             else
                 InitializeTaxRateParameters(IntraState, VendorStateCode, LocationStateCode);
         end;
-        Storage.Set('VendorNo', VendorNo);
+        Storage.Set(VendorNoLbl, VendorNo);
         CreateTaxRate();
-        CreateGSTComponentAndPostingSetup(IntraState, LocationStateCode, GSTComponent, GSTcomponentcode);
+        LibraryGST.CreateGSTComponentAndPostingSetup(IntraState, LocationStateCode, TaxComponent, GSTComponentCode);
     end;
-
-    local procedure CreateGSTComponentAndPostingSetup(IntraState: Boolean; LocationStateCode: Code[10]; GSTComponent: Record "Tax Component"; GSTcomponentcode: Text[30]);
-    begin
-        IF not IntraState THEN begin
-            GSTcomponentcode := 'IGST';
-            LibraryGST.CreateGSTComponent(GSTComponent, GSTcomponentcode);
-            LibraryGST.CreateGSTPostingSetup(GSTComponent, LocationStateCode);
-        end else begin
-            GSTcomponentcode := 'CGST';
-            LibraryGST.CreateGSTComponent(GSTComponent, GSTcomponentcode);
-            LibraryGST.CreateGSTPostingSetup(GSTComponent, LocationStateCode);
-
-            GSTcomponentcode := 'UTGST';
-            LibraryGST.CreateGSTComponent(GSTComponent, GSTcomponentcode);
-            LibraryGST.CreateGSTPostingSetup(GSTComponent, LocationStateCode);
-
-            GSTcomponentcode := 'SGST';
-            LibraryGST.CreateGSTComponent(GSTComponent, GSTcomponentcode);
-            LibraryGST.CreateGSTPostingSetup(GSTComponent, LocationStateCode);
-        end;
-    end;
-
 
     local procedure InitializeShareStep(InputCreditAvailment: Boolean; Exempted: Boolean)
     begin
-        StorageBoolean.Set('InputCreditAvailment', InputCreditAvailment);
-        StorageBoolean.Set('Exempted', Exempted);
+        StorageBoolean.Set(InputCreditAvailmentLbl, InputCreditAvailment);
+        StorageBoolean.Set(ExemptedLbl, Exempted);
     end;
 
     local procedure InitializeAssociateVendor(AssociateEnterprise: Boolean)
     begin
-        StorageBoolean.Set('AssociateEnterprise', AssociateEnterprise);
+        StorageBoolean.Set(AssociateEnterpriseLbl, AssociateEnterprise);
     end;
 
-    local procedure InitializeTaxRateParameters(IntraState: Boolean; FromState: Code[10]; ToState: Code[10])
-     GSTTaxPercent: decimal;
-
+    local procedure InitializeTaxRateParameters(
+        IntraState: Boolean;
+        FromState: Code[10];
+        ToState: Code[10]) GSTTaxPercent: Decimal;
     begin
-        Storage.Set('FromStateCode', FromState);
-        Storage.Set('ToStateCode', ToState);
+        Storage.Set(FromStateCodeLbl, FromState);
+        Storage.Set(ToStateCodeLbl, ToState);
         GSTTaxPercent := LibraryRandom.RandDecInRange(10, 18, 0);
         if IntraState then begin
-            componentPerArray[1] := (GSTTaxPercent / 2);
-            componentPerArray[2] := (GSTTaxPercent / 2);
-            componentPerArray[3] := 0;
+            ComponentPerArray[1] := (GSTTaxPercent / 2);
+            ComponentPerArray[2] := (GSTTaxPercent / 2);
+            ComponentPerArray[3] := 0;
         end else
-            componentPerArray[4] := GSTTaxPercent;
+            ComponentPerArray[3] := GSTTaxPercent;
     end;
 
-    procedure CreateTaxRate()
-    var
-        TaxtypeSetup: Record "Tax Type Setup";
-        PageTaxtype: TestPage "Tax Types";
+    local procedure ProvideGSTTDSTCValue(var GenJournalLine: record "Gen. Journal Line")
     begin
-        TaxtypeSetup.GET();
-        PageTaxtype.OpenEdit();
-        PageTaxtype.Filter.SetFilter(Code, TaxtypeSetup.Code);
-        PageTaxtype.TaxRates.Invoke();
+        GenJournalLine."GST TCS State Code" := GenJournalLine."Location State Code";
+        GenJournalLine."GST TDS/GST TCS" := GenJournalLine."GST TDS/GST TCS"::TDS;
+        GenJournalLine."GST TDS/TCS Base Amount" := GenJournalLine.Amount;
+        GenJournalLine.Modify(true);
     end;
 
-    [PageHandler]
-    procedure TaxRatePageHandler(var TaxRate: TestPage "Tax Rates")
+    local procedure ProvidePOSOutofIndiaValue(var GenJournalLine: record "Gen. Journal Line")
     begin
-        TaxRate.AttributeValue1.SetValue(Storage.Get('HSNSACCode'));
-        TaxRate.AttributeValue2.SetValue(CopyStr(Storage.Get('GSTGroupCode'), 1, 20));
-        TaxRate.AttributeValue3.SetValue(Storage.Get('FromStateCode'));
-        TaxRate.AttributeValue4.SetValue(Storage.Get('ToStateCode'));
-        TaxRate.AttributeValue5.SetValue(WorkDate());
-        TaxRate.AttributeValue6.SetValue(CALCDATE('<10Y>', WorkDate()));
-        TaxRate.AttributeValue7.SetValue(componentPerArray[1]); // SGST
-        TaxRate.AttributeValue8.SetValue(componentPerArray[2]); // CGST
-        TaxRate.AttributeValue9.SetValue(componentPerArray[4]); // IGST
-        TaxRate.AttributeValue10.SetValue(componentPerArray[3]); // UTGST
-        TaxRate.AttributeValue11.SetValue(componentPerArray[5]); // Cess
-        TaxRate.AttributeValue12.SetValue(componentPerArray[6]); // KFC 
-        if StorageBoolean.ContainsKey('POSoutOfIndia') then
-            TaxRate.AttributeValue13.SetValue(format(StorageBoolean.Get('POSoutOfIndia')))
-        else
-            TaxRate.AttributeValue13.SetValue(false);
-        TaxRate.AttributeValue14.SetValue(false);
-        TaxRate.OK().Invoke();
+        GenJournalLine."POS Out Of India" := true;
+        GenJournalLine."Location State Code" := GenJournalLine."GST Ship-to State Code";
+        GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJournalTemplateBatch(var GenJournalTemplate: Record "Gen. Journal Template";
-                                                    var GenJournalBatch: Record "Gen. Journal Batch";
-                                                    TemplateType: Enum "Gen. Journal Template Type")
-    var
-        LibraryERM: Codeunit "Library - ERM";
-        LocationCode: Code[10];
+    local procedure ProvidePOSAsVendorStateValue(var GenJournalLine: record "Gen. Journal Line")
     begin
-        LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
-        GenJournalTemplate.Validate(Type, TemplateType);
-        GenJournalTemplate.Modify(true);
-
-        evaluate(LocationCode, Storage.Get('LocationCode'));
-        LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
-        GenJournalBatch.Validate("Location Code", LocationCode);
-        GenJournalBatch.Modify(true);
+        GenJournalLine."POS Out Of India" := true;
+        GenJournalLine."POS as Vendor State" := false;
+        GenJournalLine."Location State Code" := GenJournalLine."GST Ship-to State Code";
+        GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJnlLineFromVendorToGL(GenJnlDocType: Enum "Gen. Journal Document Type"; var GenJournalLine: Record "Gen. Journal Line";
-        TemplateType: Enum "Gen. Journal Template Type")
+    local procedure AssignNegativeGSTAssessableValue(var GenJournalLine: record "Gen. Journal Line")
+    begin
+        GenJournalLine."GST Assessable Value" := -Abs(GenJournalLine.Amount);
+        GenJournalLine.Modify(true);
+    end;
+
+    local procedure AssignNegativeGSTCustomDutyAmount(var GenJournalLine: record "Gen. Journal Line")
+    begin
+        GenJournalLine."Custom Duty Amount" := -Abs(GenJournalLine.Amount);
+        GenJournalLine.Modify(true);
+    end;
+
+    local procedure CreateGenJnlLineFromPartyTypeVendorToGL(
+            GenJnlDocType: Enum "Gen. Journal Document Type";
+            var GenJournalLine: Record "Gen. Journal Line";
+            TemplateType: Enum "Gen. Journal Template Type")
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
-        LibraryJournals: Codeunit "Library - Journals";
-        VendorNo: code[20];
+        VendorNo: Code[20];
         LocationCode: Code[10];
         POSoutOfIndia: Boolean;
     begin
         CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
-        VendorNo := Storage.Get('VendorNo');
-        evaluate(LocationCode, Storage.Get('LocationCode'));
-        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
-                                            GenJnlDocType,
-                                            GenJournalLine."Account Type"::Vendor, VendorNo,
-                                            GenJournalLine."Bal. Account Type"::"G/L Account",
-                                            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, CopyStr(Storage.Get('GSTGroupCode'), 1, 20), CopyStr(Storage.Get('HSNSACCode'), 1, 10), StorageBoolean.Get('InputCreditAvailment'), StorageBoolean.Get('Exempted')),
-                                            -LibraryRandom.RandIntInRange(1, 10000));
+        VendorNo := Storage.Get(VendorNoLbl);
+        Evaluate(LocationCode, Storage.Get(LocationCodeLbl));
+        LibraryJournals.CreateGenJournalLine(
+            GenJournalLine,
+            GenJournalTemplate.Name,
+            GenJournalBatch.Name,
+            GenJnlDocType,
+            GenJournalLine."Account Type"::"G/L Account",
+            '',
+            GenJournalLine."Bal. Account Type"::"G/L Account",
+            LibraryGST.CreateGLAccWithGSTDetails(
+                VATPostingSetup,
+                CopyStr(Storage.Get(GSTGroupCodeLbl), 1, 20),
+                CopyStr(Storage.Get(HSNSACCodeLbl), 1, 10),
+                StorageBoolean.Get(InputCreditAvailmentLbl),
+                StorageBoolean.Get(ExemptedLbl)
+            ),
+            -LibraryRandom.RandIntInRange(1, 10000));
         GenJournalLine.Validate("Location Code", LocationCode);
         GenJournalLine.Validate("GST Group Code");
-        GenJournalLine.validate("HSN/SAC Code");
-        if StorageBoolean.ContainsKey('POSoutOfIndia') then begin
-            Evaluate(POSoutOfIndia, format(StorageBoolean.Get('POSoutOfIndia')));
+        GenJournalLine.Validate("HSN/SAC Code");
+        GenJournalLine.Validate(GenJournalLine."Party Type", GenJournalLine."Party Type"::Vendor);
+        GenJournalLine.Validate("Party Code", VendorNo);
+        if StorageBoolean.ContainsKey(POSoutOfIndiaLbl) then begin
+            Evaluate(POSoutOfIndia, Format(StorageBoolean.Get(POSoutOfIndiaLbl)));
             GenJournalLine.Validate("POS Out Of India", POSoutOfIndia);
             POSoutOfIndia := false;
         end;
@@ -600,119 +962,105 @@ codeunit 18272 "GST on Journals For Vendor"
             GenJournalLine.Validate(Amount, -GenJournalLine.Amount)
         else
             GenJournalLine.Validate(Amount);
-        CalculateTDS(GenJournalLine);
         GenJournalLine.Modify(true);
     end;
 
-    procedure CreateGenJnlLineFromGLToBank(GenJnlDocType: Enum "Gen. Journal Document Type"; var GenJournalLine: Record "Gen. Journal Line";
-            TemplateType: Enum "Gen. Journal Template Type")
+    local procedure CreateGenJnlLineFromPartyTypeVendorInvoice(
+             GenJnlDocType: Enum "Gen. Journal Document Type";
+             var GenJournalLine: Record "Gen. Journal Line";
+             TemplateType: Enum "Gen. Journal Template Type";
+             PartyCode: code[20])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         GenJournalBatch: Record "Gen. Journal Batch";
-        BankAccount: Record "Bank Account";
-        LibraryJournals: Codeunit "Library - Journals";
-        LibraryERM: Codeunit "Library - ERM";
+        VendorNo: Code[20];
         LocationCode: Code[10];
+        POSoutOfIndia: Boolean;
     begin
         CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
-        LibraryERM.CreateBankAccount(BankAccount);
-        evaluate(LocationCode, Storage.Get('LocationCode'));
-        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
-                                            GenJnlDocType,
-                                            GenJournalLine."Account Type"::"G/L Account",
-                                            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, CopyStr(Storage.Get('GSTGroupCode'), 1, 20), Copystr(Storage.Get('HSNSACCode'), 1, 10), StorageBoolean.Get('InputCreditAvailment'), StorageBoolean.Get('Exempted')),
-                                            GenJournalLine."Bal. Account Type"::"Bank Account",
-                                            BankAccount."No.",
-                                            -LibraryRandom.RandIntInRange(1, 100000));
+        VendorNo := Storage.Get(VendorNoLbl);
+        Evaluate(LocationCode, Storage.Get(LocationCodeLbl));
+        LibraryJournals.CreateGenJournalLine(
+            GenJournalLine,
+            GenJournalTemplate.Name,
+            GenJournalBatch.Name,
+            GenJnlDocType,
+            GenJournalLine."Account Type"::Vendor,
+            VendorNo,
+            GenJournalLine."Bal. Account Type"::"G/L Account",
+            LibraryGST.CreateGLAccWithGSTDetails(
+                VATPostingSetup,
+                CopyStr(Storage.Get(GSTGroupCodeLbl), 1, 20),
+                CopyStr(Storage.Get(HSNSACCodeLbl), 1, 10),
+                StorageBoolean.Get(InputCreditAvailmentLbl),
+                StorageBoolean.Get(ExemptedLbl)
+            ),
+            -LibraryRandom.RandIntInRange(1, 10000));
         GenJournalLine.Validate("Location Code", LocationCode);
-        if GenJournalLine."Document Type" in [GenJournalLine."Document Type"::"Credit Memo"] then
-            GenJournalLine.Validate(Amount, -GenJournalLine.Amount)
-        else
-            GenJournalLine.Validate(Amount);
-        GenJournalLine.Validate("Location Code", LocationCode);
-        GenJournalLine.Modify(true);
-    end;
-
-    procedure CreateGenJnlLineFromGLToGL(GenJnlDocType: Enum "Gen. Journal Document Type"; var GenJournalLine: Record "Gen. Journal Line";
-            TemplateType: Enum "Gen. Journal Template Type")
-    var
-        GenJournalTemplate: Record "Gen. Journal Template";
-        GenJournalBatch: Record "Gen. Journal Batch";
-        BankAccount: Record "Bank Account";
-        LibraryJournals: Codeunit "Library - Journals";
-        LibraryERM: Codeunit "Library - ERM";
-        LocationCode: Code[10];
-    begin
-        CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
-        LibraryERM.CreateBankAccount(BankAccount);
-        evaluate(LocationCode, Storage.Get('LocationCode'));
-        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
-                                            GenJnlDocType,
-                                            GenJournalLine."Account Type"::"G/L Account",
-                                            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, CopyStr(Storage.Get('GSTGroupCode'), 1, 20), Storage.Get('HSNSACCode'), StorageBoolean.Get('InputCreditAvailment'), StorageBoolean.Get('Exempted')),
-                                            GenJournalLine."Bal. Account Type"::"G/L Account",
-                                            LibraryGST.CreateGLAccWithGSTDetails(VATPostingSetup, '', '', true, false),
-                                            -LibraryRandom.RandDecInRange(10000, 20000, 2));
-        GenJournalLine.Validate("Location Code", LocationCode);
-        if GenJournalLine."Document Type" in [GenJournalLine."Document Type"::"Credit Memo"] then
-            GenJournalLine.Validate(Amount, -GenJournalLine.Amount)
-        else
-            GenJournalLine.Validate(Amount);
-        GenJournalLine.Validate("Location Code", LocationCode);
-        GenJournalLine.Modify(true);
-        GenJournalLine.Validate(Amount);
-        GenJournalLine.Modify(true);
-    end;
-
-    procedure UpdateVendorSetupWithGST(VendorNo: Code[20]; GSTVendorType: Enum "GST Vendor Type"; AssociateEnterprise: boolean; StateCode1: Code[10]; Pan: Code[20]);
-    var
-        Vendor: Record Vendor;
-        State: Record State;
-    begin
-        Vendor.Get(VendorNo);
-        if (GSTVendorType <> GSTVendorType::Import) then begin
-            State.Get(StateCode1);
-            Vendor.Validate("State Code", StateCode1);
-            Vendor.Validate("P.A.N. No.", Pan);
-            if not ((GSTVendorType = GSTVendorType::" ") OR (GSTVendorType = GSTVendorType::Unregistered)) then
-                Vendor.Validate("GST Registration No.", LibraryGST.GenerateGSTRegistrationNo(State."State Code (GST Reg. No.)", Pan));
+        GenJournalLine.Validate("GST Group Code");
+        GenJournalLine.Validate("HSN/SAC Code");
+        GenJournalLine.Validate(GenJournalLine."Party Type", GenJournalLine."Party Type"::Vendor);
+        GenJournalLine.Validate("Party Code", VendorNo);
+        if StorageBoolean.ContainsKey(POSoutOfIndiaLbl) then begin
+            Evaluate(POSoutOfIndia, Format(StorageBoolean.Get(POSoutOfIndiaLbl)));
+            GenJournalLine.Validate("POS Out Of India", POSoutOfIndia);
+            POSoutOfIndia := false;
         end;
-        Vendor.Validate("GST Vendor Type", GSTVendorType);
-        if Vendor."GST Vendor Type" = Vendor."GST Vendor Type"::Import then
-            Vendor.Validate("Associated Enterprises", AssociateEnterprise);
-        Vendor.Modify(true);
+        if GenJournalLine."Document Type" in [GenJournalLine."Document Type"::"Credit Memo"] then
+            GenJournalLine.Validate(Amount, -GenJournalLine.Amount)
+        else
+            GenJournalLine.Validate(Amount);
+        GenJournalLine."Bal. Account No." := VendorNo;
+        GenJournalLine.Validate("Party Type", GenJournalLine."Party Type"::Party);
+        GenJournalLine.Validate("Party Code", PartyCode);
+        GenJournalLine.Modify(true);
+    end;
+
+    [ModalPageHandler]
+    procedure JournalTemplateHandler(var GeneralJournalTemplateList: TestPage "General Journal Template List")
+    begin
+        GeneralJournalTemplateList.Filter.SetFilter(Name, Storage.Get(TemplateNameLbl));
+        GeneralJournalTemplateList.OK().Invoke();
     end;
 
     [PageHandler]
-    procedure VoucherAccountCredit(var VoucherCrAccount: TestPage "Voucher Posting Credit Account");
-    var
-        AccountNo: Code[20];
-        AccountType: Enum "Gen. Journal Account Type";
+    procedure ReferencePageHandler(var UpdateReferenceInvJournals: TestPage "Update Reference Inv. Journals")
     begin
-        Evaluate(AccountType, StorageEnum.Get('AccountType'));
-        Evaluate(AccountNo, Storage.Get('AccountNo'));
-        VoucherCrAccount.Type.SetValue(AccountType);
-        VoucherCrAccount."Account No.".SetValue(AccountNo);
-        VoucherCrAccount.OK().Invoke();
+        UpdateReferenceInvJournals."Reference Invoice Nos.".Lookup();
+        UpdateReferenceInvJournals."Reference Invoice Nos.".SetValue(Storage.Get(PostedDocumentNoLbl));
+        UpdateReferenceInvJournals.Verify.Invoke();
+    end;
+
+    [ModalPageHandler]
+    procedure VendorLedgerEntries(var VendorLedgerEntries: TestPage "Vendor Ledger Entries")
+    begin
+        VendorLedgerEntries.Filter.SetFilter("Document No.", Storage.Get(PostedDocumentNoLbl));
+        VendorLedgerEntries.OK().Invoke();
     end;
 
     [PageHandler]
-    procedure VoucherAccountDebit(var VoucherDrAccount: TestPage "Voucher Posting Debit Accounts");
+    procedure TaxRatePageHandler(var TaxRates: TestPage "Tax Rates")
     var
-        AccountNo: Variant;
-        AccountType: Enum "Gen. Journal Account Type";
+        POS: Boolean;
     begin
-        Evaluate(AccountType, StorageEnum.Get('AccountType'));
-        Evaluate(AccountNo, Storage.Get('AccountNo'));
-        VoucherDrAccount.Type.SetValue(AccountType);
-        VoucherDrAccount."Account No.".SetValue(AccountNo);
-        VoucherDrAccount.OK().Invoke();
-    end;
-
-    procedure CalculateTDS(GenJnlLine: Record "Gen. Journal Line")
-    var
-        CalculateTax: Codeunit "Calculate Tax";
-    begin
-        CalculateTax.CallTaxEngineOnGenJnlLine(GenJnlLine, GenJnlLine)
+        if StorageBoolean.ContainsKey(POSLbl) then
+            POS := StorageBoolean.Get(POSLbl);
+        TaxRates.New();
+        TaxRates.AttributeValue1.SetValue(Storage.Get(GSTGroupCodeLbl));
+        TaxRates.AttributeValue2.SetValue(Storage.Get(HSNSACCodeLbl));
+        TaxRates.AttributeValue3.SetValue(Storage.Get(FromStateCodeLbl));
+        TaxRates.AttributeValue4.SetValue(Storage.Get(ToStateCodeLbl));
+        TaxRates.AttributeValue5.SetValue(WorkDate());
+        TaxRates.AttributeValue6.SetValue(CalcDate('<10Y>', WorkDate()));
+        TaxRates.AttributeValue7.SetValue(ComponentPerArray[1]); // SGST
+        TaxRates.AttributeValue8.SetValue(ComponentPerArray[2]); // CGST
+        TaxRates.AttributeValue9.SetValue(ComponentPerArray[3]); // IGST
+        TaxRates.AttributeValue10.SetValue(ComponentPerArray[4]); // KFloodCess
+        if POS then
+            TaxRates.AttributeValue11.SetValue(POS)
+        else
+            TaxRates.AttributeValue11.SetValue(POS);
+        TaxRates.OK().Invoke();
+        POS := false;
     end;
 }

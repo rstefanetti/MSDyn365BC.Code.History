@@ -1,0 +1,2069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="India Gate Entry">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 910066366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Attachment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 220249928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Gate Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 3823770551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Purchase Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 3753913412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memo No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Sales Credit Memo No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 910066366 - Field 1333439528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Recpt. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Attachment - Field Warehouse Recpt. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Comment Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 1653555165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field Gate Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 456577626 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Comment Line - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 1658344021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Comment Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 899828662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Document Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 2540259231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field LR/RR Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 552369994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field LR/RR No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 514695969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Posting No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 103924864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Posting No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 1152644207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Posting Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 722461620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station From/To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Station From/To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2628085808 - Field 1535571897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Header - Field Vehicle No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - NamedType 3680524780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type must not be blank in %1 %2.</source>
+          <note from="Developer" annotates="general" priority="2"> %1= FieldCaption("Line No."),  %2 = "Line No."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - NamedType SourceTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 3359238299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Challan Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 2310087350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Challan No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 220249928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Gate Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 1343707150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Source Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3849615863 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Gate Entry Line - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry Attachment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 220249928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Gate Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 3823770551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Purchase Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 2253333645 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Receipt No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 3753913412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memo No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Sales Credit Memo No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 142237093 - Field 1333439528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Recpt. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Attachment - Field Warehouse Recpt. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 899828662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Document Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 220249928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Gate Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 2540259231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field LR/RR Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 552369994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field LR/RR No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 1152644207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Posting Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 722461620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station From/To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Station From/To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2392146743 - Field 1535571897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Header - Field Vehicle No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 3359238299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Challan Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 2310087350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Challan No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 220249928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Gate Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 2196167343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mark</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Mark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 1343707150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Source Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3551142128 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Gate Entry Line - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1795148434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Entity Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Entity Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1795148434 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Entity Type - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1795148434 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Entity Type - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2507676325 - NamedType 4007176675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry Post - NamedType GateEntryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2507676325 - NamedType 2518151060" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Gate Entry Caption,%2 = Gate Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry Post - NamedType GateEntryNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2507676325 - NamedType 1467956684" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry %1 -&gt; Posted Gate Entry %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = No., %2 =  PostedGateEntryHeader.No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry Post - NamedType GateEntryUpdateLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2507676325 - NamedType 272352229" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry Post - NamedType NothingToPostErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2507676325 - NamedType 2392444129" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Lines #2######\</source>
+          <note from="Developer" annotates="general" priority="2">#2 = Open Dialog Window</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry Post - NamedType PostingLinesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2321525722 - NamedType 2640227964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to Post the Gate Entry?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry- Post (Yes/No) - NamedType ConfirmPostLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2321525722 - NamedType 797794909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Posted successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gate Entry- Post (Yes/No) - NamedType SuccessfullyLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Attachment List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Line number assigned to posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4218946556 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Attachment List - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327752718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Comment List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 327752718 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment entered on gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment List - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327752718 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which comment is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment List - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 327752718 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2966480161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry Comment Sheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment Sheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2966480161 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code assigned to the comment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment Sheet - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2966480161 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment entered on gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment Sheet - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2966480161 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which comment is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry Comment Sheet - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2326818523 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Gate Entry List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inward Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 1152644207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Posting Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 722461620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the station for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Station From/To - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 722461620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Station From/To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Action 2245087378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;osting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Action P&amp;osting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Action 3074831410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company book(F9).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Action Po&amp;st - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1633633800 - Action 3074831410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Po&amp;st</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry - Action Po&amp;st - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inward Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3805427322 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inward Gate Entry SubForm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the description of the challan document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 974158066 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Inward Gate Entry SubForm - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outward Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 1152644207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Posting Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 722461620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the station for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Station From/To - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 722461620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Station From/To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 1106935191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action &amp;Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 1606682606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of service entry types that can be assigned to the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 1606682606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 2245087378 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;osting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action P&amp;osting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 3074831410 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company book(F9).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action Po&amp;st - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 66900375 - Action 3074831410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Po&amp;st</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry - Action Po&amp;st - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outward Gate Entry Line List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the description of the posted challan document of the gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 958205899 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry Line List - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outward Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 253487969 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outward Gate Entry SubForm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the description of the challan document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3648332017 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Outward Gate Entry SubForm - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Attachment List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the posted document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Control 2253333645 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the receipt number of the posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Control Receipt No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3509505335 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Attachment List - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry Line List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the posted gate entry document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry that the document belongs to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Line number assigned to posted gate entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1345472994 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted gate entry is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Gate Entry Line List - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry - Inward</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posted gate entry number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 1152644207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Posting Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 722461620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the station for which the posted document was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Station From/To - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Action 1106935191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Action &amp;Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Action 1606682606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Posted Inward Gate Entry List.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Action List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3318081199 - Action 1606682606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry - Action List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inward Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3131328185 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate Entry List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inward Gate SubForm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the description of the posted challan document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 755189517 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the posted document i.e. whether it is open or closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Inward Gate SubForm - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry - Outward</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 220249928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posted gate entry number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Gate Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 1152644207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Posting Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 722461620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the station for which the posted document was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Station From/To - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 722461620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station To</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Station From/To - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Action 1106935191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Action &amp;Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Action 1606682606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Posted Outward Gate Entry List.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Action List - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 254475176 - Action 1606682606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry - Action List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Outward Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation date of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 899828662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the creation time of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Document Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of entry of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 2842094365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the items on the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Item Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lorry receipt number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 588184730 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the posted document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate Entry List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Outward Gate SubForm</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 3359238299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Challan Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 2310087350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the challan number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Challan No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the description of the posted challan document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 1343707150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of customer/vendor for which the document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Source Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of source document for which the posted document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2309007414 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the posted document is created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Outward Gate SubForm - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2673407455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Entity Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Entity Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2673407455 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of service entity type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Entity Types - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2673407455 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the service entity type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Entity Types - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 2061927007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType ChallanDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 4238086732" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType ChallanNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 817831222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 4218231935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrDocDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 4042921136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrDocTimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 2124841997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrLRRRDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 49854111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrPostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 1089356880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrPostingTimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 857701799" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType GateEntryHdrStnFromToCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 660590820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType Gate_EntryCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 1939371474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType SourceNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 2485371228" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType SourceNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 244465541 - NamedType 1850330459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry - NamedType SourceTypeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry - Inward Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - NamedType 2805341416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry - Inward Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - NamedType GateEntryInwardStatusCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - NamedType 2308951394" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - NamedType PageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - NamedType 724619843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - NamedType PostedGateEntryLineChallanDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - NamedType 3153470899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - NamedType ReceiptNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Control 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code for which the report is run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Control Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Control 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Control Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Control 2397723431 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of source document for which the report is run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Control Source - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3928028508 - Control 2397723431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry Inward Status - Control Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 4218231935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType GateEntryHdrDocDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 4042921136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType GateEntryHdrDocTimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 2124841997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType GateEntryHdrLRRRDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 2443042058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType GateEntryHdrStationFromToCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 2792767647" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType GateEntryListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2326818523 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Gate Entry List - NamedType PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 2061927007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType ChallanDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 4238086732" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Challan No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType ChallanNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 817831222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType DescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 942525314" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 1698900728" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrDocDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 1936137367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrDocTimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 16678462" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrLRRRDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 473162504" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrPostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 1705928167" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrPostingTimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 2174390480" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station From</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType PostedGateEntryHdrStationFromCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 1939371474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType SourceNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 2485371228" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType SourceNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 1850330459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType SourceTypeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 597628758 - NamedType 3384896548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry - NamedType StatusCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 1118383959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__Document_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 2298971024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Document Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__Document_Time_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 4033932349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__LR_RR_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 150684358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__Posting_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 3161441885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__Posting_Time_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 4102018266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Station</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_Header__Station_From_To_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 242290324 - NamedType 672085333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Gate Entry List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Gate Entry List - NamedType Posted_Gate_Entry_ListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078407402 - Control 3990899220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies the number series from which numbers are assigned to new Gate Entry Inward documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Inventory Setup - Control Inward Gate Entry Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3078407402 - Control 2212096219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies the number series from which numbers are assigned to new Gate Entry Outward documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Inventory Setup - Control Outward Gate Entry Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 855181324 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>View available gate entry lines for attachment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Purch. Invoice - Action Get Gate Entry Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 855181324 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Purch. Invoice - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 797066033 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>View available gate entry lines for attachment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Purch. Order - Action Get Gate Entry Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 797066033 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Purch. Order - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1164750007 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Order - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1164750007 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Order - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>View available gate entry lines for attachment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Action Get Gate Entry Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1369737489 - Control 481545316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the type of vehicle.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Return Order - Control Vehicle Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1758755754 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>View available gate entry lines for attachment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Transfer Order - Action Get Gate Entry Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1758755754 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Transfer Order - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1617996161 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3986227771">
+          <source>View available gate entry lines for attachment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Whse Rcpt - Action Get Gate Entry Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1617996161 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3986227771">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Whse Rcpt - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 265204677 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2344297010">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Purch. Rcpt. - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 265204677 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2344297010">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Purch. Rcpt. - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 265204677 - Control 481545316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2344297010">
+          <source>Specifies the type of vehicle.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Purch. Rcpt. - Control Vehicle Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1106668395 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514853781">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Retrn Shpmnt - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1106668395 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514853781">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Retrn Shpmnt - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1106668395 - Control 481545316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514853781">
+          <source>Specifies the type of vehicle.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Retrn Shpmnt - Control Vehicle Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3526383085 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52957233">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Return Rcpt. - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1794717586 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Sales Shpmnt - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1794717586 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Sales Shpmnt - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1794717586 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Sales Shpmnt - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1794717586 - Control 1535571897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specifies the vehicle number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Sales Shpmnt - Control Vehicle No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1794717586 - Control 481545316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specifies the type of vehicle.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Sales Shpmnt - Control Vehicle Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3599728971 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2714855698">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Transfr Rcpt - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 801300882 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3013621822">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Gate Entry Whse Rcpt - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4201932270 - Action 544882571 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
+          <source>View attached gate entry list.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Transfer Shipment - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 767294089 - Field 1535571897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1721347679">
+          <source>Vehicle No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Return Shipment Hdr - Field Vehicle No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 767294089 - Field 481545316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1721347679">
+          <source>Vehicle Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Return Shipment Hdr - Field Vehicle Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3156167304 - Field 2540259231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Header - Field LR/RR Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3156167304 - Field 552369994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>LR/RR No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Header - Field LR/RR No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1400638205 - Field 2540259231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Inv. Header - Field LR/RR Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1400638205 - Field 552369994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>LR/RR No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Inv. Header - Field LR/RR No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2165826051 - Field 2540259231 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>LR/RR Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Shpmnt Hdr - Field LR/RR Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2165826051 - Field 552369994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>LR/RR No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gate Entry Sales Shpmnt Hdr - Field LR/RR No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4046963520 - Field 3990899220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Inward Gate Entry Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Inventory Setup Ext - Field Inward Gate Entry Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4046963520 - Field 2212096219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Outward Gate Entry Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Inventory Setup Ext - Field Outward Gate Entry Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 387971303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 3593461227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Purchase Return Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 1598289728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Sales Return Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 2746818404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 908944129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Transfer Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3702114698 - EnumValue 1974672357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Source Type - EnumValue Transfer Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2342518473 - EnumValue 2674503554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Status - EnumValue Close - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2342518473 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1653555165 - EnumValue 362160249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inward</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Type - EnumValue Inward - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1653555165 - EnumValue 2703856066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outward</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Gate Entry Type - EnumValue Outward - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 251509788 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For Option</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue For Option - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 387971303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 3593461227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Return Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Purchase Return Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 1598289728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Return Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Sales Return Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 2746818404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Sales Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 908944129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Transfer Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3501932633 - EnumValue 1974672357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posted Gate Entry Source Type - EnumValue Transfer Shipment - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

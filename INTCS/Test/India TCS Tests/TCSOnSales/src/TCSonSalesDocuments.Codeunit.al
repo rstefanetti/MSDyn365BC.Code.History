@@ -13,7 +13,7 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        // [Scenario] 354569 - Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Item.
+        // [SCENARIO] [354569] Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -45,7 +45,7 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354570 - Check if the program is calculating TCS in case of creating Sales Order for the customer with Item.
+        // [SCENARIO] [354570] Check if the program is calculating TCS in case of creating Sales Order for the customer with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -76,13 +76,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354580 - Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where Accounting Period has not been specified.
-        //[Scenario] 355136 - Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354580] Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [355136] Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
-        //[WHEN] Created and Posted Sales Invoice with item
+        // [WHEN] Created and Posted Sales Invoice with item
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -91,7 +91,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Assert Error Verified.
+        // [THEN] Assert Error Verified.
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
@@ -105,14 +105,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354581 - Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where Accounting Period has not been specified.
-        //[Scenario] 354583 - Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354581] Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [354583] Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with Item
+        // [WHEN] Created and Posted Sales Invoice with Item
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -121,7 +121,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Assert Error Verified
+        // [THEN] Assert Error Verified
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
@@ -135,13 +135,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354584 - Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where  TCAN No. has not been defined.
+        // [SCENARIO] [354584] Check if the program is allowing the posting of Invoice with Item using the Sales Order with TCS information where  TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -151,7 +151,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Assert Error Verified
+        // [THEN] Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
@@ -165,13 +165,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354585 - Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where  TCAN No. has not been defined.
+        // [SCENARIO] [354585] Check if the program is allowing the posting of Invoice with Item using the Sales Invoice with TCS information where  TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Order with Item
+        // [WHEN]Created and Posted Sales Order with Item
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -181,13 +181,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Assert Error Verified
+        // [THEN] Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccount()
+    procedure PostFromSalesOrderWithGLAcc()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -196,13 +196,13 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354651 - Check if the program is calculating TCS in case of creating Sales Order for the customer with G/L Account.
+        // [SCENARIO] [354651] Check if the program is calculating TCS in case of creating Sales Order for the customer with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales order with G/L Account
+        // [WHEN]Created and Posted Sales order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -211,7 +211,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -219,7 +219,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccount()
+    procedure PostFromSalesInvoiceWithGLAcc()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -228,13 +228,13 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354652 - Check if the program is calculating TCS in case of creating Sales Invoice for the customer with G/L Account.
+        // [SCENARIO] [354652] Check if the program is calculating TCS in case of creating Sales Invoice for the customer with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -251,7 +251,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithoutAccountingPeriod()
+    procedure PostFromSalesOrderWithGLAccWithoutAccountingPeriod()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -259,14 +259,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354664 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where Accounting Period has not been specified.
-        //[Scenario] 355418 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354664] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [355418] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -275,13 +275,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithoutAccountingPeriod()
+    procedure PostFromSalesInvoiceWithGLAccWithoutAccountingPeriod()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -289,14 +289,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354665 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where Accounting Period has not been specified.
-        //[Scenario] 355419 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [SCENARIO] [354665] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [355419] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -305,13 +305,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] Assert Error Verified
+        // [THEN] Assert Error Verified
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithoutTCAN()
+    procedure PostFromSalesOrderWithGLAccWithoutTCAN()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -319,13 +319,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355420 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where  TCAN No. has not been defined.
+        // [SCENARIO] [355420] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Order with TCS information where  TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Order with G/L Account
+        // [WHEN]Created and Posted Sales Order with G/L Account
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -335,13 +335,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithoutTCAN()
+    procedure PostFromSalesInvoiceWithGLAccWithoutTCAN()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -349,13 +349,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355421 - Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where  TCAN No. has not been defined.
+        // [SCENARIO] [355421] Check if the program is allowing the posting of Invoice with G/L Account using the Sales Invoice with TCS information where  TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Invoice with G/L Account
+        // [WHEN]Created and Posted Sales Invoice with G/L Account
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -365,13 +365,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetWithoutTCAN()
+    procedure PostFromSalesInvoiceWithFAWithoutTCAN()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -379,13 +379,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355422 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where  TCAN No. has not been defined.
+        // [SCENARIO] [355422] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where  TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Invoice with Fixed Asset.
+        // [WHEN]Created and Posted Sales Invoice with Fixed Asset.
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -395,13 +395,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"Fixed Asset",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetWithoutTCAN()
+    procedure PostFromSalesOrderWithFAWithoutTCAN()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -409,13 +409,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355423 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where TCAN No. has not been defined.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [SCENARIO] [355423] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where TCAN No. has not been defined.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Fixed Asset
+        // [WHEN] Created and Posted Sales Order with Fixed Asset
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -439,13 +439,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355425 - Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where TCAN No. has not been defined.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [SCENARIO] [355425] Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where TCAN No. has not been defined.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Invoice with Resource
+        // [WHEN]Created and Posted Sales Invoice with Resource
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -469,13 +469,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 355424 - Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where  TCAN No. has not been defined.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [SCENARIO] [355424] Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where  TCAN No. has not been defined.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Order with Resource
+        // [WHEN]Created and Posted Sales Order with Resource
         LibraryTCS.RemoveTCANOnCompInfo();
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
@@ -498,7 +498,7 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         SalesDocumentType: Enum "Sales Document Type";
     begin
-        // [Scenario 355426] - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where TCAN No. has not been defined.
+        // [SCENARIO] [355426] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -521,7 +521,7 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         SalesDocumentType: Enum "Sales Document Type";
     begin
-        //[Scenario] 355427 - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where TCAN No. has not been defined.
+        // [SCENARIO] [355427] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where TCAN No. has not been defined.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -531,13 +531,13 @@ codeunit 18917 "TCS On Sales Documents"
         // [WHEN] Sales Invoice with Charge Item created and Posted
         asserterror CreateandPostSalesDocumentWithChargeItem(SalesDocumentType::Invoice, Customer."No.", WorkDate());
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(TCANNoErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetWithoutAccountingPeriod()
+    procedure PostFromSalesOrderWithFAWithoutAccountingPeriod()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -545,8 +545,8 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354716 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where Accounting Period has not been specified.
-        //[Scenario] 354718 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354716] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [354718] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -561,13 +561,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"Fixed Asset",
             false);
 
-        //[THEN]Assert Error Verified
+        // [THEN]Assert Error Verified
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoicerWithFixedAssetWithoutAccountingPeriod()
+    procedure PostFromSalesInvoicerWithFAWithoutAccountingPeriod()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -575,14 +575,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354717 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where Accounting Period has not been specified.
-        //[Scenario] 354719 - Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354717] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [354719] Check if the program is allowing the posting of Invoice with Fixed Assets using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[THEN]Created and Posted Sales Invoice with Fixed Asset
+        // [THEN]Created and Posted Sales Invoice with Fixed Asset
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -591,7 +591,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"Fixed Asset",
             false);
 
-        //[WHEN]Assert Error Verified
+        // [WHEN]Assert Error Verified
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
@@ -604,8 +604,8 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         SalesDocumentType: Enum "Sales Document Type";
     begin
-        //[Scenario] 354720 - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where Accounting Period has not been specified.
-        //[Scenario] 354722 - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354720] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [354722] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -627,8 +627,8 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         SalesDocumentType: Enum "Sales Document Type";
     begin
-        //[Scenario] 354721 - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where Accounting Period has not been specified.
-        //[Scenario] 354723 - Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354721] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where Accounting Period has not been specified.
+        // [SCENARIO] [354723] Check if the program is allowing the posting of Invoice with Charge Items using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -651,14 +651,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354724 - Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
-        //[Scenario] 354726 - Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where Accounting Period has not been specified.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
+        // [SCENARIO] [354724] Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354726] Check if the program is allowing the posting of Invoice with Resources using the Sales Order with TCS information where Accounting Period has not been specified.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Order with Resource
+        // [WHEN]Created and Posted Sales Order with Resource
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -667,7 +667,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Resource,
             false);
 
-        //[THEN] Expected Error: Posting date not defined
+        // [THEN] Expected Error: Posting date not defined
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
@@ -681,14 +681,14 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         ConcessionalCode: Record "Concessional Code";
     begin
-        //[Scenario] 354725 - Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
-        //[Scenario] 354727 - Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where Accounting Period has not been specified.
-        //[GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
+        // [SCENARIO] [354725] Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where Accounting Period has been specified but Quarter for the period is not specified.
+        // [SCENARIO] [354727] Check if the program is allowing the posting of Invoice with Resources using the Sales Invoice with TCS information where Accounting Period has not been specified.
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and Company information without TCAN No.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Invoice with Resource
+        // [WHEN]Created and Posted Sales Invoice with Resource
         asserterror TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -697,7 +697,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Resource,
             false);
 
-        //[THEN] Expected Error: Posting date not defined
+        // [THEN] Expected Error: Posting date not defined
         Assert.ExpectedError(IncomeTaxAccountingErr);
     end;
 
@@ -711,7 +711,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesDocumentType: Enum "Sales Document Type";
         DocumentNo: Code[20];
     begin
-        //[Scenario 354728] - Check if the program is calculating TCS in case of creating Sales Order for the customer with Charge Items.
+        // [SCENARIO] [354728] Check if the program is calculating TCS in case of creating Sales Order for the customer with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -739,7 +739,7 @@ codeunit 18917 "TCS On Sales Documents"
         ItemChargeAssignmentSales: Record "Item Charge Assignment (Sales)";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354729] - Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Charge Items.
+        // [SCENARIO] [354729] Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -762,7 +762,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithSurchargeAndThresholdOverlook()
+    procedure PostFromSalesOrderWithGLAccWithSurchargeAndThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -771,13 +771,13 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354779 - Check if the program is calculating TCS using the Sales Order with threshold and surcharge overlook for NOC lines of a particular customer with G/L Account.
+        // [SCENARIO] [354779] Check if the program is calculating TCS using the Sales Order with threshold and surcharge overlook for NOC lines of a particular customer with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Order with G/L Account
+        // [WHEN]Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -786,7 +786,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -794,7 +794,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithThresholdOverlook()
+    procedure PostFromSalesOrderWithGLAccWithThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -803,7 +803,7 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        // [Scenario] 354780 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with G/L Account.
+        // [SCENARIO] [354780] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with G/L Account.
         // [GIVEN] Created Setup for NOC with Threshold overlook, Assessee Code, Customer with PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, false);
@@ -818,7 +818,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, false);
@@ -826,7 +826,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithThresholdOverlook()
+    procedure PostFromSalesInvoiceWithGLAccWithThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -835,13 +835,13 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354781 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with G/L Account.
+        // [SCENARIO] [354781] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN]Created and Posted Sales Invoice with G/L Account
+        // [WHEN]Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -850,7 +850,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, false);
@@ -858,7 +858,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithoutThresholdOverlook()
+    procedure PostFromSalesOrderWithGLAccWithoutThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         Customer: Record Customer;
@@ -867,14 +867,14 @@ codeunit 18917 "TCS On Sales Documents"
         ConcessionalCode: Record "Concessional Code";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354782 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with G/L Account.
+        // [SCENARIO] [354782] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
 
-        //[WHEN]Created and Posted Sales Order with G/L Account
+        // [WHEN]Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -883,7 +883,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, true);
@@ -891,7 +891,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithoutThresholdOverlook()
+    procedure PostFromSalesInvoiceWithGLAccWithoutThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -900,13 +900,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354783 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with G/L Account.
+        // [SCENARIO] [354783] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -915,7 +915,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, true);
@@ -923,7 +923,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithoutThresholdandSurchargeOverlook()
+    procedure PostFromSalesOrderWithGLAccWithoutThresholdandSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -932,13 +932,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354784 - Check if the program is calculating TCS in Sales Order with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
+        // [SCENARIO] [354784] Check if the program is calculating TCS in Sales Order with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -947,7 +947,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false);
@@ -955,7 +955,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithoutThresholdandSurchargeOverlook()
+    procedure PostFromSalesInvoiceWithGLAccWithoutThresholdandSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -964,13 +964,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354785 - Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
+        // [SCENARIO] [354785] Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -979,7 +979,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false)
@@ -987,7 +987,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithConcessional()
+    procedure PostFromSalesOrderWithGLAccWithConcessional()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -996,13 +996,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354790 - Check if the program is calculating TCS using Sales Order with concessional codes with G/L Account.
+        // [SCENARIO] [354790] Check if the program is calculating TCS using Sales Order with concessional codes with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1011,7 +1011,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1019,7 +1019,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithConcessional()
+    procedure PostFromSalesInvoiceWithGLAccWithConcessional()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1028,13 +1028,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354791 - Check if the program is calculating TCS using Sales Invoice with concessional codes with G/L Account.
+        // [SCENARIO] [354791] Check if the program is calculating TCS using Sales Invoice with concessional codes with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1043,7 +1043,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1060,13 +1060,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354812 - Check if the program is calculating TCS using the Sales Order with threshold and surcharge overlook for NOC lines of a particular customer with Item.
+        // [SCENARIO] [354812] Check if the program is calculating TCS using the Sales Order with threshold and surcharge overlook for NOC lines of a particular customer with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1075,7 +1075,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1092,13 +1092,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354813 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Item.
+        // [SCENARIO] [354813] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1107,7 +1107,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, false);
@@ -1124,13 +1124,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354814 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Item.
+        // [SCENARIO] [354814] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice
+        // [WHEN] Created and Posted Sales Invoice
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1139,7 +1139,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, false)
@@ -1156,13 +1156,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354815 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Item.
+        // [SCENARIO] [354815] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1171,7 +1171,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false)
@@ -1188,13 +1188,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354816 - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Item.
+        // [SCENARIO] [354816] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice
+        // [WHEN] Created and Posted Sales Invoice
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1203,7 +1203,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified.
+        // [THEN] TCS and G/L Entries Verified.
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false)
@@ -1220,7 +1220,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354817 - Check if the program is calculating TCS in Sales Order with no threshold and surcharge overlook for NOD lines of a particular Customer with Item.
+        // [SCENARIO] [354817] Check if the program is calculating TCS in Sales Order with no threshold and surcharge overlook for NOD lines of a particular Customer with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, false, false);
@@ -1235,7 +1235,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false);
@@ -1252,13 +1252,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354818 - Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with Item.
+        // [SCENARIO] [354818] Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice
+        // [WHEN] Created and Posted Sales Invoice
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1267,7 +1267,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, false, false)
@@ -1284,13 +1284,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354821 - Check if the program is calculating TCS using Sales Order/Invoice with concessional codes with Item.
+        // [SCENARIO] [354821] Check if the program is calculating TCS using Sales Order/Invoice with concessional codes with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        //[THEN] Created and Posted Sales Order with Item
+        // [THEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1299,7 +1299,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1316,13 +1316,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354821 - Check if the program is calculating TCS using Sales Order/Invoice with concessional codes with Item.
+        // [SCENARIO] [354821] Check if the program is calculating TCS using Sales Order/Invoice with concessional codes with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice
+        // [WHEN] Created and Posted Sales Invoice
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1331,7 +1331,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1339,7 +1339,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithoutPANNo()
+    procedure PostFromSalesOrderWithGLAccWithoutPANNo()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1348,13 +1348,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354915 - Check if the program is calculating TCS on higher rate in case an invoice with G/L Account is raised to the Customer which is not having PAN No. using Sales Order
+        // [SCENARIO] [354915] Check if the program is calculating TCS on higher rate in case an invoice with G/L Account is raised to the Customer which is not having PAN No. using Sales Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1363,7 +1363,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true);
@@ -1371,7 +1371,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithoutPANNo()
+    procedure PostFromSalesInvoiceWithGLAccWithoutPANNo()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1380,13 +1380,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354916 - Check if the program is calculating TCS on higher rate in case an invoice with G/L Account is raised to the Customer which is not having PAN No. using Sales Invoice.
+        // [SCENARIO] [354916] Check if the program is calculating TCS on higher rate in case an invoice with G/L Account is raised to the Customer which is not having PAN No. using Sales Invoice.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice G/L Account
+        // [WHEN] Created and Posted Sales Invoice G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1395,7 +1395,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/LEntries Verified
+        // [THEN] TCS and G/LEntries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true);
@@ -1412,13 +1412,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354917 - Check if the program is calculating TCS on higher rate in case an invoice with Item is raised to the Customer which is not having PAN No. using Sales Order
+        // [SCENARIO] [354917] Check if the program is calculating TCS on higher rate in case an invoice with Item is raised to the Customer which is not having PAN No. using Sales Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1427,7 +1427,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true);
@@ -1444,13 +1444,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354918 - Check if the program is calculating TCS on higher rate in case an invoice with Item is raised to the Customer which is not having PAN No. using Sales Invoice.
+        // [SCENARIO] [354918] Check if the program is calculating TCS on higher rate in case an invoice with Item is raised to the Customer which is not having PAN No. using Sales Invoice.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with Item
+        // [WHEN] Created and Posted Sales Invoice with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1459,7 +1459,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true)
@@ -1467,7 +1467,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithCertificate()
+    procedure PostFromSalesOrderWithGLAccWithCertificate()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1476,13 +1476,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354925 - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with G/L Account is raised to the Customer is having a certificate using Sales Order
+        // [SCENARIO] [354925] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with G/L Account is raised to the Customer is having a certificate using Sales Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1491,7 +1491,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true)
@@ -1499,7 +1499,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithCertificate()
+    procedure PostFromSalesInvoiceWithGLAccWithCertificate()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1508,13 +1508,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354926 - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with G/L Account is raised to the Customer is having a certificate using Sales Invoice
+        // [SCENARIO] [354926] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with G/L Account is raised to the Customer is having a certificate using Sales Invoice
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1523,7 +1523,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true);
@@ -1540,13 +1540,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354927 - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with Item is raised to the Customer is having a certificate using Sales Order.
+        // [SCENARIO] [354927] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with Item is raised to the Customer is having a certificate using Sales Order.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1555,7 +1555,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true)
@@ -1572,13 +1572,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354928 - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with Item is raised to the Customer is having a certificate using Sales Invoice
+        // [SCENARIO] [354928] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice with Item is raised to the Customer is having a certificate using Sales Invoice
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.code, WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with Item
+        // [WHEN] Created and Posted Sales Invoice with Item
         DocumentNo := TCSSalesLibrary.CreateAndPostSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1587,7 +1587,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, false, true, true)
@@ -1604,13 +1604,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355112 - Check if the program is calculating TCS using Sales Order with Item where TCS is applicable only on selected lines.
+        // [SCENARIO] [355112] Check if the program is calculating TCS using Sales Order with Item where TCS is applicable only on selected lines.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with Item
+        // [WHEN] Created and Posted Sales Order with Item
         DocumentNo := CreateAndPostMultiLineSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1619,7 +1619,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCSand G/L Entries Verified
+        // [THEN] TCSand G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true)
@@ -1636,13 +1636,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355113 - Check if the program is calculating TCS using Sales Invoice with Item where TCS is applicable only on selected lines.
+        // [SCENARIO] [355113] Check if the program is calculating TCS using Sales Invoice with Item where TCS is applicable only on selected lines.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales invoice with Item
+        // [WHEN] Created and Posted Sales invoice with Item
         DocumentNo := CreateAndPostMultiLineSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1651,7 +1651,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true)
@@ -1659,7 +1659,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceMultiLineWithGLAccountAndNOCSelected()
+    procedure PostFromSalesInvoiceMultiLineWithGLAccAndNOCSelected()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1668,13 +1668,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355114 - Check if the program is calculating TCS using Sales Invoice with G/L Account where TCS is applicable only on selected lines.
+        // [SCENARIO] [355114] Check if the program is calculating TCS using Sales Invoice with G/L Account where TCS is applicable only on selected lines.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Invoice with G/L Account
+        // [WHEN] Created and Posted Sales Invoice with G/L Account
         DocumentNo := CreateAndPostMultiLineSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1683,14 +1683,14 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderMultiLineWithGLAccountAndNOCSelected()
+    procedure PostFromSalesOrderMultiLineWithGLAccAndNOCSelected()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1699,13 +1699,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355115 - Check if the program is calculating TCS using Sales Order with G/L Account where TCS is applicable only on selected lines.
+        // [SCENARIO] [355115] Check if the program is calculating TCS using Sales Order with G/L Account where TCS is applicable only on selected lines.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created and Posted Sales Order with G/L Account
+        // [WHEN] Created and Posted Sales Order with G/L Account
         DocumentNo := CreateAndPostMultiLineSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1714,7 +1714,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
     end;
@@ -1729,13 +1729,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        //[Scenario] 355124 - Check if the program is showing TCS amount should be shown in Statistics while creating Sales Order with G/L Account.
+        // [SCENARIO] [355124] Check if the program is showing TCS amount should be shown in Statistics while creating Sales Order with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created Sales Order with G/L Account
+        // [WHEN] Created Sales Order with G/L Account
         TCSSalesLibrary.CreateSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1744,7 +1744,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] Statistics Verified
+        // [THEN] Statistics Verified
         VerifyStatisticsForTCS(SalesHeader);
     end;
 
@@ -1758,13 +1758,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        //[Scenario] 355126 - Check if the program is showing TCS amount should be shown in Statistics while creating Sales Order with Item.
+        // [SCENARIO] [355126] Check if the program is showing TCS amount should be shown in Statistics while creating Sales Order with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created Sales Order with Item
+        // [WHEN] Created Sales Order with Item
         TCSSalesLibrary.CreateSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1773,7 +1773,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Statistics Verified
+        // [THEN] Statistics Verified
         VerifyStatisticsForTCS(SalesHeader);
     end;
 
@@ -1787,13 +1787,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        //[Scenario] 355125 - Check if the program is showing TCS amount should be shown in Statistics while creating Sales Invoice with G/L Account.
+        // [SCENARIO] [355125] Check if the program is showing TCS amount should be shown in Statistics while creating Sales Invoice with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created Sales Invoice with G/L Account
+        // [WHEN] Created Sales Invoice with G/L Account
         TCSSalesLibrary.CreateSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1802,7 +1802,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] Statistics Verified
+        // [THEN] Statistics Verified
         VerifyStatisticsForTCSWithInvoice(SalesHeader);
     end;
 
@@ -1816,13 +1816,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        //[Scenario] 355127 - Check if the program is showing TCS amount should be shown in Statistics while creating Sales Invoice with Item.
+        // [SCENARIO] [355127] Check if the program is showing TCS amount should be shown in Statistics while creating Sales Invoice with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created Sales Invoice with Item
+        // [WHEN] Created Sales Invoice with Item
         TCSSalesLibrary.CreateSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Invoice,
@@ -1831,13 +1831,13 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::Item,
             false);
 
-        //[THEN] Statistics Verified
+        // [THEN] Statistics Verified
         VerifyStatisticsForTCSWithInvoice(SalesHeader);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderMultiLineWithGLAccountAndMultiNOC()
+    procedure PostFromSalesOrderMultiLineWithGLAccAndMultiNOC()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1846,13 +1846,13 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355198 - Check if the program is calculating TCS while creating Invoice with G/L Account using the Sales Order with multiple NOC.
+        // [SCENARIO] [355198] Check if the program is calculating TCS while creating Invoice with G/L Account using the Sales Order with multiple NOC.
         // [GIVEN] Created Setup for Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period with different Nature of collections
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        //[WHEN] Created Sales Invoice with GL Account
+        // [WHEN] Created Sales Invoice with GL Account
         DocumentNo := CreateAndPostMultiLineSalesDocument(
             SalesHeader,
             SalesHeader."Document Type"::Order,
@@ -1861,14 +1861,14 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS and G/L Entries Verified
+        // [THEN] TCS and G/L Entries Verified
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
     end;
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithGLAccountWithRounding()
+    procedure PostFromSalesInvoiceWithGLAccWithRounding()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1877,7 +1877,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 354663 - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with G/L Account
+        // [SCENARIO] [354663] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with G/L Account
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer and TCS Setup without Threshold and Surcharge Overlook.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -1892,7 +1892,7 @@ codeunit 18917 "TCS On Sales Documents"
             SalesLine.Type::"G/L Account",
             false);
 
-        //[THEN] TCS Entry has been created and Verified
+        // [THEN] TCS Entry has been created and Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         VerifyTCSEntry(DocumentNo, true, true, true);
@@ -1900,7 +1900,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithRounding()
+    procedure PostFromSalesOrderWithGLAccWithRounding()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -1909,7 +1909,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        // [Scenario] 354661 - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with G/L Account
+        // [SCENARIO] [354661] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with G/L Account
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer and TCS Setup without Threshold and Surcharge Overlook.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -1941,7 +1941,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354575] - Check if the program is calculating TCS in case of creating Sales Order for partial shipments with Item.
+        // [Scneraio [354575] Check if the program is calculating TCS in case of creating Sales Order for partial shipments with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer and TCS Setup 
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -1972,7 +1972,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354577] - Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Item.
+        // [Scneraio [354577] Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Item.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer and TCS Setup 
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2004,7 +2004,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenairo 354578] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Item
+        // [Scenairo [354578] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Item
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2036,7 +2036,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenairo 354579] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Item
+        // [Scenairo [354579] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Item
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2059,7 +2059,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithPartialShipment()
+    procedure PostFromSalesOrderWithGLAccWithPartialShipment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -2068,7 +2068,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354657] - Check if the program is calculating TCS in case of creating Sales Order for partial shipments with G/L Account.
+        // [Scneraio [354657] Check if the program is calculating TCS in case of creating Sales Order for partial shipments with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting period 
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2090,7 +2090,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithGLAccountWithPartialInvoice()
+    procedure PostFromSalesOrderWithGLAccWithPartialInvoice()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -2099,7 +2099,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354659] - Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with G/L Account.
+        // [Scneraio [354659] Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with G/L Account.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2131,7 +2131,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354733] - Check if the program is calculating TCS in case of creating Sales Order/Invoice for partial shipments with Charge Items.
+        // [Scneraio [354733] Check if the program is calculating TCS in case of creating Sales Order/Invoice for partial shipments with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting period 
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2161,7 +2161,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354734] - Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Charge Items.
+        // [Scneraio [354734] Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2190,7 +2190,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354738] - Check if the program is calculating TCS using Sales Order with Item in case of shipment only
+        // [Scneraio [354738] Check if the program is calculating TCS using Sales Order with Item in case of shipment only
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting period 
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2220,7 +2220,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLineType: Enum "Sales Line Type";
     begin
-        // [Scenairo 354663] - Check if the program is allowing the posting of Invoice using the General Journal/Sales Journal/Sales Invoice/Sales Order with TDS information where deductee PAN is not specified.
+        // [Scenairo [354663] Check if the program is allowing the posting of Invoice using the General Journal/Sales Journal/Sales Invoice/Sales Order with TDS information where deductee PAN is not specified.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and PAN No. removed on Company information
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2250,7 +2250,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354705] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Charge Items
+        // [Scneraio [354705] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Charge Items
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2275,7 +2275,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354706] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Charge Items
+        // [Scneraio [354706] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Charge Items
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2300,7 +2300,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354864] - Check if the program is calculating TCS using Sales Order with concessional codes with Charge Items.
+        // [Scneraio [354864] Check if the program is calculating TCS using Sales Order with concessional codes with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer with Concessional Code, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -2325,7 +2325,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354865] - Check if the program is calculating TCS using Sales Invoice with concessional codes with Charge Items.
+        // [Scneraio [354865] Check if the program is calculating TCS using Sales Invoice with concessional codes with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer with Concessional Code, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -2350,7 +2350,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354867] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Charge Items
+        // [Scneraio [354867] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Charge Items
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
@@ -2377,7 +2377,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354868] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Charge Items
+        // [Scneraio [354868] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Charge Items
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
@@ -2404,7 +2404,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354870] - Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with Charge Items.
+        // [Scneraio [354870] Check if the program is calculating TCS in Sales Invoice with no threshold and surcharge overlook for NOD lines of a particular Customer with Charge Items.
         // [GIVEN] Created Setup for NOC with threshold overlook, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
@@ -2429,7 +2429,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354871] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Charge Items.
+        // [Scneraio [354871] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Charge Items.
         // [GIVEN] Created Setup for NOC without threshold overlook, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
@@ -2454,7 +2454,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354872] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Charge Items.
+        // [Scneraio [354872] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Charge Items.
         // [GIVEN] Created Setup for NOC with threshold overlook, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
@@ -2479,7 +2479,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354874] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Charge Items.
+        // [Scneraio [354874] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Charge Items.
         // [GIVEN] Created Setup for NOC with threshold overlook, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2504,7 +2504,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354875] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Charge Items.
+        // [Scneraio [354875] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Charge Items.
         // [GIVEN] Created Setup for NOC with threshold overlook, Assessee Code, Customer, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2529,7 +2529,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354880] - Check if the program is calculating TCS using Sales Order in case of different rates for same NOC with different effective dates with Charge Items.
+        // [Scneraio [354880] Check if the program is calculating TCS using Sales Order in case of different rates for same NOC with different effective dates with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates with different Effective Date
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2555,7 +2555,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354881] - Check if the program is calculating TCS using Sales Invoice in case of different rates for same NOC with different effective dates with Charge Items.
+        // [Scneraio [354881] Check if the program is calculating TCS using Sales Invoice in case of different rates for same NOC with different effective dates with Charge Items.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates with different Effective Date
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, true, true);
@@ -2581,7 +2581,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
     begin
-        // [Scneraio 354935] - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice Charge Items is raised to the Customer is having a certificate using Sales Invoice.
+        // [Scneraio [354935] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice Charge Items is raised to the Customer is having a certificate using Sales Invoice.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -2606,7 +2606,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesHeader: Record "Sales Header";
         DocumentNo: Code[20];
     begin
-        // [Scneraio 354936] - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice Charge Items is raised to the Customer is having a certificate using Sales Order
+        // [Scneraio [354936] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice Charge Items is raised to the Customer is having a certificate using Sales Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -2632,7 +2632,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354736] - Check if the program is calculating TCS in case of creating Sales Order for the customer with Resources.
+        // [SCENARIO] [354736] Check if the program is calculating TCS in case of creating Sales Order for the customer with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -2663,7 +2663,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354742] - Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Resources.
+        // [SCENARIO] [354742] Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -2694,7 +2694,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354747] - Check if the program is calculating TCS in case of creating Sales Order/Invoice for partial shipments with Resources.
+        // [SCENARIO] [354747] Check if the program is calculating TCS in case of creating Sales Order/Invoice for partial shipments with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -2725,7 +2725,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354748] - Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Resources.
+        // [SCENARIO] [354748] Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -2748,7 +2748,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFCYSalesOrderWithGLAccountAndSurchargeOverlook()
+    procedure PostFCYSalesOrderWithGLAccAndSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -2757,7 +2757,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354788] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with G/L Account
+        // [SCENARIO] [354788] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with G/L Account
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
@@ -2780,7 +2780,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFCYSalesInvoiceWithGLAccountAndSurchargeOverlook()
+    procedure PostFCYSalesInvoiceWithGLAccAndSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -2789,7 +2789,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354789] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with G/L Account
+        // [SCENARIO] [354789] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with G/L Account
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
@@ -2821,7 +2821,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354819] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Item
+        // [SCENARIO] [354819] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Item
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
@@ -2853,7 +2853,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354820] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Item
+        // [SCENARIO] [354820] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Item
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, true);
@@ -2885,7 +2885,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354850] - Check if the program is calculating TCS using Sales Order with concessional codes with Resources.
+        // [SCENARIO] [354850] Check if the program is calculating TCS using Sales Order with concessional codes with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
@@ -2916,7 +2916,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354851] - Check if the program is calculating TCS using Sales Invoice with concessional codes with Resources.
+        // [SCENARIO] [354851] Check if the program is calculating TCS using Sales Invoice with concessional codes with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
@@ -2947,7 +2947,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354853] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Resources
+        // [SCENARIO] [354853] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Order and Surcharge Overlook is selected with Resources
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithOutPANWithOutConcessional(Customer, false, true);
@@ -2978,7 +2978,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354854] - Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Resources
+        // [SCENARIO] [354854] Check if the program is calculating TCS in case an invoice is raised to the foreign Customer using Sales Invoice and Surcharge Overlook is selected with Resources
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithOutPANWithOutConcessional(Customer, false, true);
@@ -3009,7 +3009,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354857] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Resources.
+        // [SCENARIO] [354857] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithOutPANWithOutConcessional(Customer, true, false);
@@ -3040,7 +3040,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354858] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Resources.
+        // [SCENARIO] [354858] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Resources.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithOutPANWithOutConcessional(Customer, true, false);
@@ -3062,7 +3062,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetWithRoundOff()
+    procedure PostFromSalesOrderWithFAWithRoundOff()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3071,7 +3071,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354701] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Fixed Assets
+        // [SCENARIO] [354701] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Fixed Assets
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3092,7 +3092,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetWithRoundOff()
+    procedure PostFromSalesInvoiceWithFAWithRoundOff()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3101,7 +3101,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354702] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Fixed Assets
+        // [SCENARIO] [354702] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Fixed Assets
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3131,7 +3131,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354703] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Resources
+        // [SCENARIO] [354703] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Order with Resources
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3162,7 +3162,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354704] - Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Resources
+        // [SCENARIO] [354704] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while raising invoice or receiving advance from the customer using Sales Invoice with Resources
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3184,7 +3184,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAsset()
+    procedure PostFromSalesOrderWithFA()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3193,7 +3193,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354707] - Check if the program is calculating TCS in case of creating Sales Order for the customer with Fixed Assets.
+        // [SCENARIO] [354707] Check if the program is calculating TCS in case of creating Sales Order for the customer with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3214,7 +3214,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAsset()
+    procedure PostFromSalesInvoiceWithFA()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3223,7 +3223,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354708] - Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Fixed Assets.
+        // [SCENARIO] [354708] Check if the program is calculating TCS in case of creating Sales Invoice for the customer with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3244,7 +3244,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetAgaintAdvancePayment()
+    procedure PostFromSalesOrderWithFAAgaintAdvancePayment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3255,7 +3255,7 @@ codeunit 18917 "TCS On Sales Documents"
         DocumentNo: Code[20];
         PaymentDocNo: Code[20];
     begin
-        // [Scenario 354709] - Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Fixed Assets.
+        // [SCENARIO] [354709] Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3280,7 +3280,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetAgaintAdvancePayment()
+    procedure PostFromSalesInvoiceWithFAAgaintAdvancePayment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3291,7 +3291,7 @@ codeunit 18917 "TCS On Sales Documents"
         DocumentNo: Code[20];
         PaymentDocNo: Code[20];
     begin
-        // [Scenario 354710] - Check if the program is calculating TCS  in case of creating Sales Invoice against an advance payment with Fixed Assets.
+        // [SCENARIO] [354710] Check if the program is calculating TCS  in case of creating Sales Invoice against an advance payment with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3316,7 +3316,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetAgaintPartialAdvancePayment()
+    procedure PostFromSalesOrderWithFAAgaintPartialAdvancePayment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3327,7 +3327,7 @@ codeunit 18917 "TCS On Sales Documents"
         DocumentNo: Code[20];
         PaymentDocNo: Code[20];
     begin
-        // [Scenario 354711] - Check if the program is calculating TCS in case of creating Sales Order against partial advance payment with Fixed Assets.
+        // [SCENARIO] [354711] Check if the program is calculating TCS in case of creating Sales Order against partial advance payment with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3352,7 +3352,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetAgaintPartialAdvancePayment()
+    procedure PostFromSalesInvoiceWithFAAgaintPartialAdvancePayment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3363,7 +3363,7 @@ codeunit 18917 "TCS On Sales Documents"
         DocumentNo: Code[20];
         PaymentDocNo: Code[20];
     begin
-        // [Scenario 354712] - Check if the program is calculating TCS in case of creating Sales Invoice against partial advance payment with Fixed Assets.
+        // [SCENARIO] [354712] Check if the program is calculating TCS in case of creating Sales Invoice against partial advance payment with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3388,7 +3388,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetPartialShipment()
+    procedure PostFromSalesOrderWithFAPartialShipment()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3397,7 +3397,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354713] - Check if the program is calculating TCS in case of creating Sales Order for partial shipments with Fixed Assets.
+        // [SCENARIO] [354713] Check if the program is calculating TCS in case of creating Sales Order for partial shipments with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3419,7 +3419,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetPartialInvoice()
+    procedure PostFromSalesOrderWithFAPartialInvoice()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3428,7 +3428,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354714] - Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Fixed Assets.
+        // [SCENARIO] [354714] Check if the program is calculating TCS  in case of creating Sales Order for partial invoicing with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, true);
@@ -3449,7 +3449,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetWithThresholdOverlook()
+    procedure PostFromSalesOrderWithFAWithThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3458,7 +3458,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354829] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Fixed Assets.
+        // [SCENARIO] [354829] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is selected with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period, TCS Rates and threshold overlook
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, false);
@@ -3479,7 +3479,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetWithThresholdOverlook()
+    procedure PostFromSalesInvoiceWithFAWithThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3488,7 +3488,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354830] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Fixed Assets.
+        // [SCENARIO] [354830] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is selected with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period, TCS Rates and threshold overlook
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, true, false);
@@ -3509,7 +3509,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesOrderWithFixedAssetWithoutThresholdOverlook()
+    procedure PostFromSalesOrderWithFAWithoutThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3518,7 +3518,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354831] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Fixed Assets.
+        // [SCENARIO] [354831] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Order and Threshold Overlook is not selected with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period, TCS Rates and threshold overlook not Selected
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -3539,7 +3539,7 @@ codeunit 18917 "TCS On Sales Documents"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesInvoiceWithFixedAssetWithOutThresholdOverlook()
+    procedure PostFromSalesInvoiceWithFAWithOutThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -3548,7 +3548,7 @@ codeunit 18917 "TCS On Sales Documents"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354832] - Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Fixed Assets.
+        // [SCENARIO] [354832] Check if the program is calculating TCS in case an invoice is raised to the Customer using Sales Invoice and Threshold Overlook is not selected with Fixed Assets.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period, TCS Rates and threshold overlook not Selected
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
@@ -3594,11 +3594,11 @@ codeunit 18917 "TCS On Sales Documents"
         exit(Currency.Code);
     end;
 
-    Local procedure RemovePANNoOnCompInfo()
+    local procedure RemovePANNoOnCompInfo()
     var
         CompInfo: Record "Company Information";
     begin
-        CompInfo.get();
+        CompInfo.Get();
         CompInfo.Validate("P.A.N. No.", '');
         CompInfo.Modify(true);
     end;
@@ -3628,10 +3628,10 @@ codeunit 18917 "TCS On Sales Documents"
         SalesOrders: TestPage "Sales Order List";
         ExpectedTCSAmount, ActualAmount, TCSPercentage, SurchargePercentage, eCessPercentage, SHECessPercentage : Decimal;
     begin
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
 
         SalesLine.SetRange("Document Type", SalesHeader."Document Type");
         SalesLine.SetRange("Document No.", SalesHeader."No.");
@@ -3647,19 +3647,10 @@ codeunit 18917 "TCS On Sales Documents"
         SalesOrders.GoToRecord(SalesHeader);
         SalesOrders.Statistics.Invoke();
 
-        Evaluate(ActualAmount, Storage.Get('StatsTCSAmount'));
+        Evaluate(ActualAmount, Storage.Get(StatsTCSAmountLbl));
 
         Assert.AreNearlyEqual(ExpectedTCSAmount, ActualAmount, LibraryTCS.GetTCSRoundingPrecision(),
-         STRSUBSTNO(AmountErr, ActualAmount, ExpectedTCSAmount));
-    end;
-
-    [ModalPageHandler]
-    procedure StatisticsPageHandler(var SalesStatistics: TestPage "Sales Order Statistics")
-    var
-        Amount: Text;
-    begin
-        Amount := SalesStatistics."TCS Amount".Value;
-        Storage.Set('StatsTCSAmount', Amount);
+            StrSubstNo(AmountErr, ActualAmount, ExpectedTCSAmount));
     end;
 
     local procedure VerifyStatisticsForTCSWithInvoice(SalesHeader: Record "Sales Header")
@@ -3668,10 +3659,10 @@ codeunit 18917 "TCS On Sales Documents"
         SalesOrders: TestPage "Sales Invoice List";
         ExpectedTCSAmount, ActualAmount, TCSPercentage, SurchargePercentage, eCessPercentage, SHECessPercentage : Decimal;
     begin
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
 
         SalesLine.SetRange("Document Type", SalesHeader."Document Type");
         SalesLine.SetRange("Document No.", SalesHeader."No.");
@@ -3687,19 +3678,10 @@ codeunit 18917 "TCS On Sales Documents"
         SalesOrders.GoToRecord(SalesHeader);
         SalesOrders.Statistics.Invoke();
 
-        Evaluate(ActualAmount, Storage.Get('StatsTCSAmount'));
+        Evaluate(ActualAmount, Storage.Get(StatsTCSAmountLbl));
 
         Assert.AreNearlyEqual(ExpectedTCSAmount, ActualAmount, LibraryTCS.GetTCSRoundingPrecision(),
-         STRSUBSTNO(AmountErr, ActualAmount, ExpectedTCSAmount));
-    end;
-
-    [ModalPageHandler]
-    procedure InvoiceStatisticsPageHandler(var SalesStatistics: TestPage "Sales Statistics");
-    var
-        Amount: Text;
-    begin
-        Amount := SalesStatistics."TCS Amount".Value;
-        Storage.Set('StatsTCSAmount', Amount);
+            StrSubstNo(AmountErr, ActualAmount, ExpectedTCSAmount));
     end;
 
     local procedure CreateAndPostSalesDocumentWithShipmentOnly(
@@ -3760,7 +3742,7 @@ codeunit 18917 "TCS On Sales Documents"
     var
         TCSEntry: Record "TCS Entry";
     begin
-        TCSEntry.SETRANGE("Document No.", DocumentNo);
+        TCSEntry.SetRange("Document No.", DocumentNo);
         Assert.RecordCount(TCSEntry, ExpectedCount);
     end;
 
@@ -3858,20 +3840,20 @@ codeunit 18917 "TCS On Sales Documents"
         exit(LibrarySales.PostSalesDocument(SalesHeader, true, true));
     end;
 
-    LOCAL procedure VerifyTCSEntry(DocumentNo: Code[20]; WithPAN: Boolean; TCSThresholdOverlook: Boolean; SurchargeOverlook: Boolean)
+    local procedure VerifyTCSEntry(DocumentNo: Code[20]; WithPAN: Boolean; TCSThresholdOverlook: Boolean; SurchargeOverlook: Boolean)
     var
         TCSEntry: Record "TCS Entry";
         ExpectedTCSAmount, ExpectedSurchargeAmount, ExpectedEcessAmount, ExpectedSHEcessAmount : Decimal;
         TCSPercentage, NonPANTCSPercentage, SurchargePercentage, eCessPercentage, SHECessPercentage : Decimal;
         TCSThresholdAmount, SurchargeThresholdAmount, TCSBaseAmount, CurrencyFactor : Decimal;
     begin
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
         TCSBaseAmount := GetBaseAmountForSales(DocumentNo);
         CurrencyFactor := GetCurrencyFactorForSales(DocumentNo);
@@ -3892,44 +3874,44 @@ codeunit 18917 "TCS On Sales Documents"
             ExpectedSurchargeAmount := ExpectedTCSAmount * SurchargePercentage / 100;
         ExpectedEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * eCessPercentage / 100;
         ExpectedSHEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * SHECessPercentage / 100;
-        TCSEntry.SETRANGE("Document No.", DocumentNo);
-        TCSEntry.FINDFIRST();
+        TCSEntry.SetRange("Document No.", DocumentNo);
+        TCSEntry.FindFirst();
 
         Assert.AreNearlyEqual(
-          TCSBaseAmount / CurrencyFactor, TCSEntry."TCS Base Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Base Amount"), TCSEntry.TABLECAPTION()));
+            TCSBaseAmount / CurrencyFactor, TCSEntry."TCS Base Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Base Amount"), TCSEntry.TableCaption()));
         if WithPAN then
             Assert.AreEqual(
-              TCSPercentage, TCSEntry."TCS %",
-              STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()))
+                TCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()))
         else
             Assert.AreEqual(
-            NonPANTCSPercentage, TCSEntry."TCS %",
-            STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()));
+                NonPANTCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SurchargePercentage, TCSEntry."Surcharge %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge %"), TCSEntry.TABLECAPTION()));
+            SurchargePercentage, TCSEntry."Surcharge %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          eCessPercentage, TCSEntry."eCESS %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS %"), TCSEntry.TABLECAPTION()));
+            eCessPercentage, TCSEntry."eCESS %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SHECessPercentage, TCSEntry."SHE Cess %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess %"), TCSEntry.TABLECAPTION()));
+            SHECessPercentage, TCSEntry."SHE Cess %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess Amount"), TCSEntry.TableCaption()));
     end;
 
-    Local procedure CreateTaxRate()
+    local procedure CreateTaxRate()
     var
         TCSSetup: Record "TCS Setup";
         PageTaxtype: TestPage "Tax Types";
@@ -3952,18 +3934,19 @@ codeunit 18917 "TCS On Sales Documents"
         TCSThresholdAmount: Decimal;
         SurchargeThresholdAmount: Decimal;
     begin
-        Evaluate(EffectiveDate, Storage.Get('EffectiveDate'));
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(EffectiveDate, Storage.Get(EffectiveDateLbl), 9);
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
-        TaxRate.AttributeValue1.SetValue(Storage.Get('TCSNOCType'));
-        TaxRate.AttributeValue2.SetValue(Storage.Get('TCSAssesseeCode'));
-        TaxRate.AttributeValue3.SetValue(Storage.Get('TCSConcessionalCode'));
+        TaxRate.New();
+        TaxRate.AttributeValue1.SetValue(Storage.Get(TCSNOCTypeLbl));
+        TaxRate.AttributeValue2.SetValue(Storage.Get(TCSAssesseeCodeLbl));
+        TaxRate.AttributeValue3.SetValue(Storage.Get(TCSConcessionalCodeLbl));
         TaxRate.AttributeValue4.SetValue(EffectiveDate);
         TaxRate.AttributeValue5.SetValue(TCSPercentage);
         TaxRate.AttributeValue6.SetValue(SurchargePercentage);
@@ -3977,10 +3960,10 @@ codeunit 18917 "TCS On Sales Documents"
 
     local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
     begin
-        Storage.Set('TCSNOCType', TCSNOC);
-        Storage.Set('TCSAssesseeCode', AssesseeCode);
-        Storage.Set('TCSConcessionalCode', ConcessionalCode);
-        Storage.Set('EffectiveDate', Format(EffectiveDate));
+        Storage.Set(TCSNOCTypeLbl, TCSNOC);
+        Storage.Set(TCSAssesseeCodeLbl, AssesseeCode);
+        Storage.Set(TCSConcessionalCodeLbl, ConcessionalCode);
+        Storage.Set(EffectiveDateLbl, Format(EffectiveDate, 0, 9));
         GenerateTaxComponentsPercentage();
         CreateTaxRate();
     end;
@@ -3988,13 +3971,31 @@ codeunit 18917 "TCS On Sales Documents"
     local procedure GenerateTaxComponentsPercentage()
     var
     begin
-        Storage.Set('TCSPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('NonPANTCSPercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('SurchargePercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('eCessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('SHECessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('TCSThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
-        Storage.Set('SurchargeThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(TCSPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(NonPANTCSPercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(SurchargePercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(ECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(SHECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(TCSThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(SurchargeThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+    end;
+
+    [ModalPageHandler]
+    procedure InvoiceStatisticsPageHandler(var SalesStatistics: TestPage "Sales Statistics");
+    var
+        Amount: Text;
+    begin
+        Amount := SalesStatistics."TCS Amount".Value;
+        Storage.Set(StatsTCSAmountLbl, Amount);
+    end;
+
+    [ModalPageHandler]
+    procedure StatisticsPageHandler(var SalesStatistics: TestPage "Sales Order Statistics")
+    var
+        Amount: Text;
+    begin
+        Amount := SalesStatistics."TCS Amount".Value;
+        Storage.Set(StatsTCSAmountLbl, Amount);
     end;
 
     var
@@ -4005,6 +4006,18 @@ codeunit 18917 "TCS On Sales Documents"
         LibraryRandom: Codeunit "Library - Random";
         Assert: Codeunit Assert;
         Storage: Dictionary of [Text, Text];
+        EffectiveDateLbl: Label 'EffectiveDate', locked = true;
+        TCSNOCTypeLbl: Label 'TCSNOCType', locked = true;
+        TCSAssesseeCodeLbl: Label 'TCSAssesseeCode', locked = true;
+        TCSConcessionalCodeLbl: Label 'TCSConcessionalCode', locked = true;
+        TCSPercentageLbl: Label 'TCSPercentage', locked = true;
+        NonPANTCSPercentageLbl: Label 'NonPANTCSPercentage', locked = true;
+        SurchargePercentageLbl: Label 'SurchargePercentage', locked = true;
+        ECessPercentageLbl: Label 'ECessPercentage', Locked = true;
+        SHECessPercentageLbl: Label 'SHECessPercentage', locked = true;
+        TCSThresholdAmountLbl: Label 'TCSThresholdAmount', locked = true;
+        SurchargeThresholdAmountLbl: Label 'SurchargeThresholdAmount', locked = true;
+        StatsTCSAmountLbl: Label 'StatsTCSAmount', locked = true;
         IncomeTaxAccountingErr: Label 'Posting Date doesn''t lie in Tax Accounting Period', Locked = true;
         TCANNoErr: Label 'T.C.A.N. No. must have a value in Gen. Journal Line: Journal Template Name=, Journal Batch Name=, Line No.=0. It cannot be zero or empty.', Locked = true;
         CompanyInfoErr: Label 'P.A.N. No. must have a value in Company Information: Primary Key=. It cannot be zero or empty.';

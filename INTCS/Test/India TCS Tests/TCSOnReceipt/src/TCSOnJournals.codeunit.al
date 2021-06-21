@@ -3,7 +3,6 @@ codeunit 18928 "TCS On Journals"
     Subtype = Test;
 
     var
-        LibVarStorage: Codeunit "Library - Variable Storage";
         LibraryTCS: Codeunit "TCS - Library";
         LibraryERM: Codeunit "Library - ERM";
         Assert: Codeunit Assert;
@@ -11,13 +10,24 @@ codeunit 18928 "TCS On Journals"
         LibraryJournals: Codeunit "Library - Journals";
         LibraryRandom: Codeunit "Library - Random";
         Storage: Dictionary of [Text, Text];
-        VerificationLbl: Label 'TCS not paid';
+        VerificationLbl: Label 'TCS not paid', Locked = true;
+        EffectiveDateLbl: Label 'EffectiveDate', locked = true;
+        TCSNOCTypeLbl: Label 'TCSNOCType', locked = true;
+        TCSAssesseeCodeLbl: Label 'TCSAssesseeCode', locked = true;
+        TCSConcessionalCodeLbl: Label 'TCSConcessionalCode', locked = true;
+        TCSPercentageLbl: Label 'TCSPercentage', locked = true;
+        NonPANTCSPercentageLbl: Label 'NonPANTCSPercentage', locked = true;
+        SurchargePercentageLbl: Label 'SurchargePercentage', locked = true;
+        ECessPercentageLbl: Label 'ECessPercentage', Locked = true;
+        SHECessPercentageLbl: Label 'SHECessPercentage', locked = true;
+        TCSThresholdAmountLbl: Label 'TCSThresholdAmount', locked = true;
+        SurchargeThresholdAmountLbl: Label 'SurchargeThresholdAmount', locked = true;
         TCSPayErr: Label 'There are no TCS entries for Account No. %1.', Comment = '%1= G/L Account No.';
         AmountErr: Label '%1 is incorrect in %2.', Comment = '%1 and %2 = TCS Amount and TCS field Caption';
 
 
-    //[Scenario 354362] Check if the program is calculating TCS in case an invoice is raised to the customer using General Journal
-    //[Scenario 354500] Check if the program is calculating TCS in case an invoice is raised to the customer using Sales Journal
+    // [SCENARIO] [354362] Check if the program is calculating TCS in case an invoice is raised to the customer using General Journal
+    // [SCENARIO] [354500] Check if the program is calculating TCS in case an invoice is raised to the customer using Sales Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCS()
@@ -29,22 +39,22 @@ codeunit 18928 "TCS On Journals"
         TaxTransactionValue: Record "Tax Transaction Value";
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithoutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         TaxTransactionValue.Reset();
         TaxTransactionValue.SetRange("Tax Record ID", GenJournalLine.RecordId);
         Assert.RecordIsNotEmpty(TaxTransactionValue);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
     end;
 
-    //[Scenario 354428] -Check if the program is calculating TCS using General Journal with concessional codes.
+    // [SCENARIO] [354428] -Check if the program is calculating TCS using General Journal with concessional codes.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCSWithConssionalCode()
@@ -55,20 +65,20 @@ codeunit 18928 "TCS On Journals"
         Customer: Record Customer;
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
     end;
 
-    //[Scenario 354376] Check if the program is calculating TCS in case an invoice is raised to the Customer using General Journal and Threshold Overlook is not selected.
+    // [SCENARIO] [354376] Check if the program is calculating TCS in case an invoice is raised to the Customer using General Journal and Threshold Overlook is not selected.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCSWithoutThreshholdAndSurcharge()
@@ -80,21 +90,21 @@ codeunit 18928 "TCS On Journals"
         TemplateType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         VerifyTCSEntry(DocumentNo, LibraryTCS.RoundTCSAmount(GenJournalLine.Amount), GenJournalLine."Currency Factor", true, false, false);
     end;
 
-    //[Scenario 354377] Check if the program is calculating TCS in General Journal with no threshold and surcharge overlook for NOD lines of a particular Customer.
+    // [SCENARIO] [354377] Check if the program is calculating TCS in General Journal with no threshold and surcharge overlook for NOD lines of a particular Customer.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCSWithoutThreshholdAndWithSurcharge()
@@ -106,21 +116,21 @@ codeunit 18928 "TCS On Journals"
         TemplateType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         VerifyTCSEntry(DocumentNo, LibraryTCS.RoundTCSAmount(GenJournalLine.Amount), GenJournalLine."Currency Factor", true, true, false);
     end;
 
-    //[Scenario 354414] Check if the program is calculating TCS in case advance payment is received from the customer using General Journal
+    // [SCENARIO] [354414] Check if the program is calculating TCS in case advance payment is received from the customer using General Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCSForAdvancePayment()
@@ -131,20 +141,20 @@ codeunit 18928 "TCS On Journals"
         Customer: Record Customer;
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPayment(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
     end;
 
-    //[Scenario 354378] Check if the program is calculating TCS in case advance payment is received from the customer using General Journal
+    // [SCENARIO] [354378] Check if the program is calculating TCS in case advance payment is received from the customer using General Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromGeneralJournalTCSForFCY()
@@ -156,22 +166,22 @@ codeunit 18928 "TCS On Journals"
         TaxTransactionValue: Record "Tax Transaction Value";
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPaymentWithFCY(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         TaxTransactionValue.Reset();
         TaxTransactionValue.SetRange("Tax Record ID", GenJournalLine.RecordId);
         Assert.RecordIsNotEmpty(TaxTransactionValue);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
     end;
 
-    //[Scenario 354370] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while or receiving advance from the customer using 
+    // [SCENARIO] [354370] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while or receiving advance from the customer using 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromAdvanceGeneralJournalWithTCSRoundOff()
@@ -184,16 +194,16 @@ codeunit 18928 "TCS On Journals"
         TemplateType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create General Journal
+        // [WHEN] Create General Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPayment(GenJournalLine, Customer."No.", TemplateType::General, TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         CustLedEntry.SetRange("Document No.", DocumentNo);
         CustLedEntry.FindFirst();
@@ -202,7 +212,7 @@ codeunit 18928 "TCS On Journals"
     end;
 
 
-    //[Scenario 354940] Calculation of TCS in case of receiving Advance from the customer while preparing Cash receipt journal/Voucher.
+    // [SCENARIO] [354940] Calculation of TCS in case of receiving Advance from the customer while preparing Cash receipt journal/Voucher.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalTCSAndAdvancePayment()
@@ -213,20 +223,20 @@ codeunit 18928 "TCS On Journals"
         Customer: Record Customer;
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPayment(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
     end;
 
-    //[Scenario 354941] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while preparing Cash receipt journal/Voucher.
+    // [SCENARIO] [354941] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while preparing Cash receipt journal/Voucher.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalWithTCS()
@@ -238,21 +248,21 @@ codeunit 18928 "TCS On Journals"
         TemplateType: enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         VerifyTCSEntry(DocumentNo, LibraryTCS.RoundTCSAmount(GenJournalLine.Amount), GenJournalLine."Currency Factor", true, true, true);
     end;
 
-    //[Scenario 354942] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while receiving advance from the customer using Cash Receipt journal Journal
+    // [SCENARIO] [354942] Check if the system is calculating TCS rounded off on each component (TCS amount, surcharge amount, eCess amount) while receiving advance from the customer using Cash Receipt journal Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalTCSWithAdvancePaymentAndRoundingOff()
@@ -265,16 +275,16 @@ codeunit 18928 "TCS On Journals"
         TemplateType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPayment(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify TCS Entry with Rounding off
+        // [THEN] Verify TCS Entry with Rounding off
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         CustLedEntry.SetRange("Document No.", DocumentNo);
         CustLedEntry.FindFirst();
@@ -282,7 +292,7 @@ codeunit 18928 "TCS On Journals"
         VerifyTCSEntry(DocumentNo, LibraryTCS.RoundTCSAmount(-CustLedEntry.Amount), GenJournalLine."Currency Factor", true, true, true);
     end;
 
-    //[Scenario 355107] Check if the program is calculating TCS using Cash receipt journal/Voucher in case of Foreign Currency.
+    // [SCENARIO] [355107] Check if the program is calculating TCS using Cash receipt journal/Voucher in case of Foreign Currency.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalWithTCSAndFCY()
@@ -294,21 +304,21 @@ codeunit 18928 "TCS On Journals"
         TemplateType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoiceWithFCY(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
         VerifyTCSEntry(DocumentNo, LibraryTCS.RoundTCSAmount(GenJournalLine.Amount), GenJournalLine."Currency Factor", true, true, true);
     end;
 
-    //[Scenario 355106] Check if the program is calculating TCS using  Cash receipt journal/Voucher in case of different rates for same NOC with different assessee codes
+    // [SCENARIO] [355106] Check if the program is calculating TCS using  Cash receipt journal/Voucher in case of different rates for same NOC with different assessee codes
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalWithTCSAndDifferentAssesseeCode()
@@ -325,7 +335,7 @@ codeunit 18928 "TCS On Journals"
         DocumentNo: Code[20];
         DocumentNo2: Code[20];
     begin
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateAccPeriodAndFillCompInfo();
         LibraryTCS.CreateTCSPostingSetupWithNOC(TCSPostingSetup, TCSNatureOfCollection);
 
@@ -334,7 +344,7 @@ codeunit 18928 "TCS On Journals"
         LibraryTCS.UpdateCustomerAssesseeAndConcessionalCode(Customer, AssesseeCode, ConcessionalCode, TCSPostingSetup."TCS Nature of Collection");
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         DocumentNo := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
@@ -344,17 +354,17 @@ codeunit 18928 "TCS On Journals"
         LibraryTCS.UpdateCustomerAssesseeAndConcessionalCode(Customer2, AssesseeCode2, ConcessionalCode, TCSPostingSetup."TCS Nature of Collection");
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer2."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer2."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         DocumentNo2 := TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalLine."Journal Batch Name", 3);
 
-        // [THEN] Verify TCS Entry with different Assessee Code
+        // [THEN] Verify TCS Entry with different Assessee Code
         LibraryTCS.VerifyTCSEntryForAssesseeCode(DocumentNo, AssesseeCode.Code);
         LibraryTCS.VerifyTCSEntryForAssesseeCode(DocumentNo2, AssesseeCode2.Code);
     end;
 
-    //[Scenario 354937] Check if the system is handling Additional Reporting Currency while calculating TCS from General Journal
+    // [SCENARIO] [354937] Check if the system is handling Additional Reporting Currency while calculating TCS from General Journal
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromTCSGeneralJournalWithAdditionalCurrency()
@@ -365,21 +375,21 @@ codeunit 18928 "TCS On Journals"
         Customer: Record Customer;
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.UpdateGenLedSetupForAddReportingCurrency();
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create Cash Receipt Journal
+        // [WHEN] Create Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForPayment(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
 
-        // [THEN] Verify TCS Entry and Post General Journal
+        // [THEN] Verify TCS Entry and Post General Journal
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
         LibraryTCS.VerifyGLEntryAdditionalCurrencyAmt(GenJournalLine."Journal Batch Name", '');
     end;
 
-    //[Scenario 354938] Check if the system is handling Additional Reporting Currency while calculating TCS from Cash receipt Journal.
+    // [SCENARIO] [354938] Check if the system is handling Additional Reporting Currency while calculating TCS from Cash receipt Journal.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalWithTCSAndAdditionalCurrency()
@@ -390,21 +400,21 @@ codeunit 18928 "TCS On Journals"
         Customer: Record Customer;
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.UpdateGenLedSetupForAddReportingCurrency();
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Cash Receipt Journal
+        // [WHEN] Create and Post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoice(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts", TCSPostingSetup."TCS Nature of Collection");
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] Verify Additional Currency
+        // [THEN] Verify Additional Currency
         LibraryTCS.VerifyGLEntryAdditionalCurrencyAmt(GenJournalLine."Journal Batch Name", '');
     end;
 
-    //[Scenario 355105] Check if the program is calculating TCS using  Cash receipt journal/Voucher in case of different rates for same NOC with different effective dates.
+    // [SCENARIO] [355105] Check if the program is calculating TCS using  Cash receipt journal/Voucher in case of different rates for same NOC with different effective dates.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromCashReceiptJournalWithTCSAndDifferentEffectiveDates()
@@ -417,19 +427,19 @@ codeunit 18928 "TCS On Journals"
         GenJournalBatch: Record "Gen. Journal Batch";
         TemplateType: Enum "Gen. Journal Template Type";
     begin
-        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        // [GIVEN] Created Setup for Additional Currency, NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, false, false);
         LibraryTCS.CreateTCSPostingSetupWithDifferentEffectiveDate(TCSPostingSetup."TCS Nature of Collection", CalcDate('<-CM>', WorkDate()), TCSPostingSetup."TCS Account No.");
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        //[WHEN] Create cash receipt journal for different effective date
+        // [WHEN] Create cash receipt journal for different effective date
         TCSJnlLibrary.CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType::"Cash Receipts");
 
         //Create and Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoiceWithoutTemplateAndBatch(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts",
-                                                    TCSPostingSetup."TCS Nature of Collection",
-                                                    GenJournalTemplate.Name, GenJournalBatch.Name);
+            TCSPostingSetup."TCS Nature of Collection",
+            GenJournalTemplate.Name, GenJournalBatch.Name);
         GenJournalLine.Validate("Posting Date", WorkDate());
         GenJournalLine.Modify(true);
 
@@ -438,15 +448,14 @@ codeunit 18928 "TCS On Journals"
 
         //Create and post Cash Receipt Journal
         TCSJnlLibrary.CreateGenJnlLineFromCustToGLForInvoiceWithoutTemplateAndBatch(GenJournalLine, Customer."No.", TemplateType::"Cash Receipts",
-                                                    TCSPostingSetup."TCS Nature of Collection",
-                                                    GenJournalTemplate.Name, GenJournalBatch.Name);
+            TCSPostingSetup."TCS Nature of Collection",
+            GenJournalTemplate.Name, GenJournalBatch.Name);
         GenJournalLine.Modify(true);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        //[THEN] GL Entries verified 
+        // [THEN] GL Entries verified 
         TCSJnlLibrary.VerifyJournalGLEntryCount(GenJournalBatch.Name, 5);
     end;
-
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler,PayTax')]
@@ -459,7 +468,7 @@ codeunit 18928 "TCS On Journals"
         VoucherType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354433] Check if the program is allowing to pay TCS amount to Government Authority through Bank Payment Voucher.
+        // [SCENARIO] [354433] Check if the program is allowing to pay TCS amount to Government Authority through Bank Payment Voucher.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup,Accounting Period and Concessional code
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -490,7 +499,7 @@ codeunit 18928 "TCS On Journals"
         VoucherType: Enum "Gen. Journal Template Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 354508] Check if the program is allowing to pay TCS amount to Government Authority through Sales Journal.
+        // [SCENARIO] [354508] Check if the program is allowing to pay TCS amount to Government Authority through Sales Journal.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup,Accounting Period and Concessional code
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -516,7 +525,7 @@ codeunit 18928 "TCS On Journals"
         VoucherType: Enum "Gen. Journal Template Type";
         GLAccountNo: Code[20];
     begin
-        // [Scenario 354434] Check if the program is allowing to pay TCS amount to Government Authority through Bank Payment Voucher for which no TCS entries exist.
+        // [SCENARIO] [354434] Check if the program is allowing to pay TCS amount to Government Authority through Bank Payment Voucher for which no TCS entries exist.
         // [GIVEN] GL Account
         GLAccountNo := LibraryERM.CreateGLAccountNo();
 
@@ -533,7 +542,7 @@ codeunit 18928 "TCS On Journals"
         VoucherType: Enum "Gen. Journal Template Type";
         GLAccountNo: Code[20];
     begin
-        // [Scenario 354509] Check if the program is allowing to pay TCS amount to Government Authority through Sales Journal for which no TCS entries exist.
+        // [SCENARIO] [354509] Check if the program is allowing to pay TCS amount to Government Authority through Sales Journal for which no TCS entries exist.
         // [GIVEN] GL Account
         GLAccountNo := LibraryERM.CreateGLAccountNo();
 
@@ -555,7 +564,7 @@ codeunit 18928 "TCS On Journals"
         TCSOnJournal: Codeunit "TCS On General Journal";
         DocumentNo: Code[20];
     begin
-        //[Senerio 355278] [Check if system is marking TCS entries as paid which have been paid  to government using Payment Journal]
+        //[Senerio [355278] [Check if system is marking TCS entries as paid which have been paid  to government using Payment Journal]
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup and Concessional code
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -585,24 +594,24 @@ codeunit 18928 "TCS On Journals"
         TCSOnJournal: Codeunit "TCS On General Journal";
         DocumentNo: Code[20];
     begin
-        //[Senerio 355276][Check if system is allowing to pay TCS amount to government which is already deducted using Payment Journal]
-        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
+        //[Senerio [355276][Check if system is allowing to pay TCS amount to government which is already deducted using Payment Journal]
+        // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
 
-        // [WHEN] Create and Post Gen. Journal Line & Pay TDS Amount to Govt.
+        // [WHEN] Create and Post Gen. Journal Line & Pay TDS Amount to Govt.
         TCSOnJournal.CreateGenJnlLineWithTCS(GenJournalLine, Customer);
         DocumentNo := GenJournalLine."Document No.";
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
 
-        // [THEN] TCS and G/L Entry Created and Verified
+        // [THEN] TCS and G/L Entry Created and Verified
         LibraryTCS.VerifyGLEntryCount(DocumentNo, 3);
         LibraryTCS.VerifyGLEntryWithTCS(DocumentNo, TCSPostingSetup."TCS Account No.");
         CreateTCSPayment(TCSPostingSetup."TCS Account No.");
     end;
 
-    procedure CreateTCSPayment(TCSAccount: Code[20])
+    local procedure CreateTCSPayment(TCSAccount: Code[20])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         CompanyInformation: Record "Company Information";
@@ -610,7 +619,7 @@ codeunit 18928 "TCS On Journals"
         GenJournalLine: Record "Gen. Journal Line";
         PayTCS: Codeunit "Pay-TCS";
     begin
-        CompanyInformation.get();
+        CompanyInformation.Get();
         LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
         LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
         LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalBatch."Journal Template Name", GenJournalBatch.Name,
@@ -633,7 +642,7 @@ codeunit 18928 "TCS On Journals"
         BalAccountType: Enum "Gen. Journal Account Type";
         BalAccountNo: Code[20];
     begin
-        CompanyInformation.get();
+        CompanyInformation.Get();
         if VoucherType in [VoucherType::"Bank Payment Voucher", VoucherType::"Bank Receipt Voucher"] then begin
             BalAccountType := BalAccountType::"Bank Account";
             BalAccountNo := CreateGenJournalTemplateAndDefineVoucherAccount(GenJournalTemplate, VoucherType);
@@ -660,8 +669,9 @@ codeunit 18928 "TCS On Journals"
 
     local procedure CreateGenJournalTemplateAndDefineVoucherAccount(var GenJournalTemplate: Record "Gen. Journal Template"; VoucherType: Enum "Gen. Journal Template Type"): Code[20]
     var
-        JournalVoucherPostingSetup: Record "Journal Voucher Posting Setup";
-        VoucherPostingCreditAccount: Record "Voucher Posting Credit Account";
+        TaxBasePublishers: Codeunit "Tax Base Test Publishers";
+        TransactionDirection: Option " ",Debit,Credit,Both;
+        AccountNo: Code[20];
     begin
         LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
         GenJournalTemplate.Validate(Type, VoucherType);
@@ -670,37 +680,9 @@ codeunit 18928 "TCS On Journals"
         if VoucherType < 18000 then
             exit;
 
-        VoucherPostingCreditAccount.SetRange(Type, VoucherType);
-        VoucherPostingCreditAccount.SetFilter("Account No.", '<>%1', '');
-        if VoucherPostingCreditAccount.FindFirst() then
-            exit(VoucherPostingCreditAccount."Account No.");
-
-        JournalVoucherPostingSetup.SetRange(Type, VoucherType);
-        JournalVoucherPostingSetup.SetRange("Transaction Direction", JournalVoucherPostingSetup."Transaction Direction"::Credit);
-        if not JournalVoucherPostingSetup.IsEmpty then
-            exit;
-
-        JournalVoucherPostingSetup.Init();
-        JournalVoucherPostingSetup.Validate(Type, VoucherType);
-        JournalVoucherPostingSetup.Validate("Transaction Direction", JournalVoucherPostingSetup."Transaction Direction"::Credit);
-        JournalVoucherPostingSetup.Insert();
-
-        VoucherPostingCreditAccount.Init();
-        VoucherPostingCreditAccount.Validate(Type, VoucherType);
-        case VoucherType of
-            voucherType::"Bank Payment Voucher":
-                begin
-                    VoucherPostingCreditAccount.Validate("Account Type", VoucherPostingCreditAccount."Account Type"::"Bank Account");
-                    VoucherPostingCreditAccount.Validate("Account No.", LibraryERM.CreateBankAccountNo());
-                end;
-            VoucherType::"Cash Payment Voucher":
-                begin
-                    VoucherPostingCreditAccount.Validate("Account Type", VoucherPostingCreditAccount."Account Type"::"G/L Account");
-                    VoucherPostingCreditAccount.Validate("Account No.", LibraryERM.CreateGLAccountNo());
-                end;
-        end;
-        VoucherPostingCreditAccount.Insert();
-        exit(VoucherPostingCreditAccount."Account No.");
+        TaxBasePublishers.InsertJournalVoucherPostingSetup(VoucherType, TransactionDirection::Credit);
+        TaxBasePublishers.InsertVoucherCreditAccountNo(VoucherType, AccountNo);
+        exit(AccountNo);
     end;
 
     local procedure VerifyTCSPaid(DocumentNo: Code[20]): Boolean
@@ -727,78 +709,25 @@ codeunit 18928 "TCS On Journals"
         GenJournalLine.Modify();
     end;
 
-    procedure VerifyGLEntryForDifferentPostingDates(JournalTemplateName: Code[10]; JournaBatchName: code[10]; ExpectedCount: Integer)
-    var
-        GenJournalLineCopy: Record "Gen. Journal Line";
-        GLEntry: Record "G/L Entry";
-        Record: Variant;
-    begin
-        LibVarStorage.Dequeue(Record);
-        GenJournalLineCopy := Record;
-        GenJournalLineCopy.SetRange("Journal Template Name", JournalTemplateName);
-        GenJournalLineCopy.SetRange("Journal Batch Name", JournaBatchName);
-        if GenJournalLineCopy.FindFirst() then begin
-            GLEntry.SetCurrentKey("Entry No.");
-            GLEntry.SetRange("Journal Batch Name", GenJournalLineCopy."Journal Batch Name");
-            GLEntry.Ascending(true);
-            if GLEntry.FindSet() then
-                repeat
-                    Assert.IsSubstring(format(GenJournalLineCopy."Posting Date"), format(GLEntry."Posting Date"));
-                until GLEntry.Next() = 0;
-            Assert.RecordCount(GLEntry, ExpectedCount);
-        end;
-    end;
-
-    [PageHandler]
-    procedure TaxRatePageHandler(var TaxRate: TestPage "Tax Rates");
-    var
-        TCSPercentage, NonPANTCSPercentage, SurchargePercentage : Decimal;
-        eCessPercentage, SHECessPercentage : Decimal;
-        TCSThresholdAmount, SurchargeThresholdAmount : Decimal;
-        EffectiveDate: Date;
-    begin
-        Evaluate(EffectiveDate, Storage.Get('EffectiveDate'));
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
-
-        TaxRate.AttributeValue1.SetValue(Storage.Get('TCSNOCType'));
-        TaxRate.AttributeValue2.SetValue(Storage.Get('TCSAssesseeCode'));
-        TaxRate.AttributeValue3.SetValue(Storage.Get('TCSConcessionalCode'));
-        TaxRate.AttributeValue4.SetValue(EffectiveDate);
-        TaxRate.AttributeValue5.SetValue(TCSPercentage);
-        TaxRate.AttributeValue6.SetValue(SurchargePercentage);
-        TaxRate.AttributeValue7.SetValue(NonPANTCSPercentage);
-        TaxRate.AttributeValue8.SetValue(eCessPercentage);
-        TaxRate.AttributeValue9.SetValue(SHECessPercentage);
-        TaxRate.AttributeValue10.SetValue(TCSThresholdAmount);
-        TaxRate.AttributeValue11.SetValue(SurchargeThresholdAmount);
-        TaxRate.OK().Invoke();
-    end;
-
     local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
     begin
-        Storage.Set('TCSNOCType', TCSNOC);
-        Storage.Set('TCSAssesseeCode', AssesseeCode);
-        Storage.Set('TCSConcessionalCode', ConcessionalCode);
-        Storage.Set('EffectiveDate', Format(EffectiveDate));
+        Storage.Set(TCSNOCTypeLbl, TCSNOC);
+        Storage.Set(TCSAssesseeCodeLbl, AssesseeCode);
+        Storage.Set(TCSConcessionalCodeLbl, ConcessionalCode);
+        Storage.Set(EffectiveDateLbl, Format(EffectiveDate, 0, 9));
         GenerateTaxComponentsPercentage();
         CreateTaxRate();
     end;
 
     local procedure GenerateTaxComponentsPercentage()
     begin
-        Storage.Set('TCSPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('NonPANTCSPercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('SurchargePercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('eCessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('SHECessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('TCSThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
-        Storage.Set('SurchargeThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(TCSPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(NonPANTCSPercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(SurchargePercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(ECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(SHECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(TCSThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(SurchargeThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
     end;
 
     local procedure CreateTaxRate()
@@ -813,7 +742,7 @@ codeunit 18928 "TCS On Journals"
         PageTaxtype.TaxRates.Invoke();
     end;
 
-    procedure VerifyTCSEntry(DocumentNo: Code[20]; TCSBaseAmount: Decimal; CurrencyFactor: Decimal;
+    local procedure VerifyTCSEntry(DocumentNo: Code[20]; TCSBaseAmount: Decimal; CurrencyFactor: Decimal;
                  WithPAN: Boolean; SurchargeOverlook: Boolean; TCSThresholdOverlook: Boolean)
     var
         TCSEntry: Record "TCS Entry";
@@ -824,13 +753,13 @@ codeunit 18928 "TCS On Journals"
         if CurrencyFactor = 0 then
             CurrencyFactor := 1;
 
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
         if (TCSBaseAmount < TCSThresholdAmount) and (TCSThresholdOverlook = false) then
             ExpectedTCSAmount := 0
@@ -846,45 +775,77 @@ codeunit 18928 "TCS On Journals"
             ExpectedSurchargeAmount := ExpectedTCSAmount * SurchargePercentage / 100;
         ExpectedEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * eCessPercentage / 100;
         ExpectedSHEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * SHECessPercentage / 100;
-        TCSEntry.SETRANGE("Document No.", DocumentNo);
-        TCSEntry.FINDFIRST();
+        TCSEntry.SetRange("Document No.", DocumentNo);
+        TCSEntry.FindFirst();
         Assert.AreNearlyEqual(
           TCSBaseAmount / CurrencyFactor, TCSEntry."TCS Base Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Base Amount"), TCSEntry.TABLECAPTION()));
+          StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Base Amount"), TCSEntry.TableCaption()));
         if WithPAN then
             Assert.AreEqual(
-              TCSPercentage, TCSEntry."TCS %",
-              STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()))
+                TCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()))
         else
             Assert.AreEqual(
-            NonPANTCSPercentage, TCSEntry."TCS %",
-            STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()));
+                NonPANTCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SurchargePercentage, TCSEntry."Surcharge %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge %"), TCSEntry.TABLECAPTION()));
+            SurchargePercentage, TCSEntry."Surcharge %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          eCessPercentage, TCSEntry."eCESS %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS %"), TCSEntry.TABLECAPTION()));
+            eCessPercentage, TCSEntry."eCESS %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SHECessPercentage, TCSEntry."SHE Cess %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess %"), TCSEntry.TABLECAPTION()));
+            SHECessPercentage, TCSEntry."SHE Cess %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess Amount"), TCSEntry.TableCaption()));
     end;
 
     [PageHandler]
     procedure PayTax(var PayTCS: TestPage "Pay TCS")
     begin
         PayTCS."&Pay".Invoke();
+    end;
+
+    [PageHandler]
+    procedure TaxRatePageHandler(var TaxRates: TestPage "Tax Rates");
+    var
+        TCSPercentage, NonPANTCSPercentage, SurchargePercentage : Decimal;
+        eCessPercentage, SHECessPercentage : Decimal;
+        TCSThresholdAmount, SurchargeThresholdAmount : Decimal;
+        EffectiveDate: Date;
+    begin
+        Evaluate(EffectiveDate, Storage.Get(EffectiveDateLbl), 9);
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
+
+        TaxRates.New();
+        TaxRates.AttributeValue1.SetValue(Storage.Get(TCSNOCTypeLbl));
+        TaxRates.AttributeValue2.SetValue(Storage.Get(TCSAssesseeCodeLbl));
+        TaxRates.AttributeValue3.SetValue(Storage.Get(TCSConcessionalCodeLbl));
+        TaxRates.AttributeValue4.SetValue(EffectiveDate);
+        TaxRates.AttributeValue5.SetValue(TCSPercentage);
+        TaxRates.AttributeValue6.SetValue(SurchargePercentage);
+        TaxRates.AttributeValue7.SetValue(NonPANTCSPercentage);
+        TaxRates.AttributeValue8.SetValue(eCessPercentage);
+        TaxRates.AttributeValue9.SetValue(SHECessPercentage);
+        TaxRates.AttributeValue10.SetValue(TCSThresholdAmount);
+        TaxRates.AttributeValue11.SetValue(SurchargeThresholdAmount);
+        TaxRates.OK().Invoke();
     end;
 }

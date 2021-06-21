@@ -13,7 +13,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 355265] - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice is raised to the Customer is having a certificate using Return Order
+        // [SCENARIO] [355265] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice is raised to the Customer is having a certificate using Return Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN with Concessional Code, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -36,7 +36,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromReturnOrderWithGLAccountWithoutThresholdOverlook()
+    procedure PostFromReturnOrderWithGLAccWithoutThresholdOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -45,7 +45,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355234 - Check if the program is calculating TCS  raised to the Customer using Return Order and Threshold Overlook is not selected with G/L Account.
+        // [SCENARIO] [355234] Check if the program is calculating TCS  raised to the Customer using Return Order and Threshold Overlook is not selected with G/L Account.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
@@ -66,7 +66,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromCreditMemoWithGLAccountWithoutThresholdAndSurchargeOverlook()
+    procedure PostFromCrMemoWithGLAccWithoutThresholdAndSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -75,7 +75,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355235 - Check if the program is calculating TCS in Credit Memo with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
+        // [SCENARIO] [355235] Check if the program is calculating TCS in Credit Memo with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
@@ -96,7 +96,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromReturnOrderWithGLAccountWithoutThresholdAndSurchargeOverlook()
+    procedure PostFromReturnOrderWithGLAccWithoutThresholdAndSurchargeOverlook()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -105,7 +105,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355236 - Check if the program is calculating TCS in Return Order with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
+        // [SCENARIO] [355236] Check if the program is calculating TCS in Return Order with no threshold and surcharge overlook for NOD lines of a particular Customer with G/L Account.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithOutConcessional(Customer, false, false);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
@@ -126,7 +126,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromCreditMemoWithItemWithConcessional()
+    procedure PostFromCrMemoWithItemWithConcessional()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -135,7 +135,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355242 - Check if the program is calculating TCS using Credit Memo with Concessional codes
+        // [SCENARIO] [355242] Check if the program is calculating TCS using Credit Memo with Concessional codes
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
@@ -165,7 +165,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355243 - Check if the program is calculating TCS using Return Order with Concessional codes
+        // [SCENARIO] [355243] Check if the program is calculating TCS using Return Order with Concessional codes
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", ConcessionalCode.Code, WorkDate());
@@ -187,7 +187,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromCreditMemoWithItemWithoutPAN()
+    procedure PostFromCrMemoWithItemWithoutPAN()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -196,7 +196,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: Record "Sales Line";
         DocumentNo: Code[20];
     begin
-        //[Scenario] 355262 - Check if the program is calculating TCS on higher rate in case an invoice is raised to the Customer which is not having PAN No. using Credit Memo.
+        // [SCENARIO] [355262] Check if the program is calculating TCS on higher rate in case an invoice is raised to the Customer which is not having PAN No. using Credit Memo.
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
         CreateTaxRateSetup(TCSPostingSetup."TCS Nature of Collection", Customer."Assessee Code", '', WorkDate());
@@ -227,7 +227,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 355263] - Check if the program is calculating TCS on higher rate in case an invoice is raised to the Customer which is not having PAN No. using Return Order
+        // [SCENARIO] [355263] Check if the program is calculating TCS on higher rate in case an invoice is raised to the Customer which is not having PAN No. using Return Order
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithoutPANWithoutConcessional(Customer, true, true);
@@ -250,7 +250,7 @@ codeunit 18919 "TCS on Sales Return"
 
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
-    procedure PostFromSalesCreditMemoWithItemWithConcessional()
+    procedure PostFromSalesCrMemoWithItemWithConcessional()
     var
         TCSPostingSetup: Record "TCS Posting Setup";
         ConcessionalCode: Record "Concessional Code";
@@ -259,7 +259,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLineType: Enum "Sales Line Type";
         DocumentNo: Code[20];
     begin
-        // [Scenario 355264] - Check if the program is calculating TCS on Lower rate/zero rate in case an invoice is raised to the Customer is having a certificate using Credit Memo.
+        // [SCENARIO] [355264] Check if the program is calculating TCS on Lower rate/zero rate in case an invoice is raised to the Customer is having a certificate using Credit Memo.
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer without PAN with Concessional Code, TCS Setup and Tax Accounting Period
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -292,7 +292,7 @@ codeunit 18919 "TCS on Sales Return"
         SalesLine: record "Sales Line";
         InvoiceDocumentNo: Code[20];
     begin
-        //[Senerio 355285][Check if the program is calculating TCS in case of Credit Memo before depositing tax to Government]
+        //[Senerio [355285][Check if the program is calculating TCS in case of Credit Memo before depositing tax to Government]
         // [GIVEN] Created Setup for NOC, Assessee Code, Customer, TCS Setup, Tax Accounting Period and TCS Rates
         LibraryTCS.CreateTCSSetup(Customer, TCSPostingSetup, ConcessionalCode);
         LibraryTCS.UpdateCustomerWithPANWithConcessional(Customer, true, true);
@@ -321,14 +321,14 @@ codeunit 18919 "TCS on Sales Return"
         CreateTCSPayment(TCSPostingSetup."TCS Account No.");
     end;
 
-    procedure CreateTCSPayment(TCSAccount: Code[20])
+    local procedure CreateTCSPayment(TCSAccount: Code[20])
     var
         GenJournalTemplate: Record "Gen. Journal Template";
         CompanyInformation: Record "Company Information";
         GenJournalBatch: Record "Gen. Journal Batch";
         GenJournalLine: Record "Gen. Journal Line";
     begin
-        CompanyInformation.get();
+        CompanyInformation.Get();
         LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
         LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
         LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalBatch."Journal Template Name", GenJournalBatch.Name,
@@ -339,12 +339,6 @@ codeunit 18919 "TCS on Sales Return"
         GenJournalLine.Modify(true);
         Payment.PayTCS(GenJournalLine);
         LibraryERM.PostGeneralJnlLine(GenJournalLine);
-    end;
-
-    [PageHandler]
-    procedure PayTax(var PayTCS: TestPage "Pay TCS")
-    begin
-        PayTCS."&Pay".Invoke();
     end;
 
     local procedure CreateGenJnlLineForTCS(var GenJournalLine: Record "Gen. Journal Line"; var Customer: Record Customer)
@@ -363,20 +357,20 @@ codeunit 18919 "TCS on Sales Return"
         TCSSalesLibrary.CalculateTCS(GenJournalLine);
     end;
 
-    LOCAL procedure VerifyTCSEntry(DocumentNo: Code[20]; WithPAN: Boolean; TCSThresholdOverlook: Boolean; SurchargeOverlook: Boolean)
+    local procedure VerifyTCSEntry(DocumentNo: Code[20]; WithPAN: Boolean; TCSThresholdOverlook: Boolean; SurchargeOverlook: Boolean)
     var
         TCSEntry: Record "TCS Entry";
         ExpectedTCSAmount, ExpectedSurchargeAmount, ExpectedEcessAmount, ExpectedSHEcessAmount : Decimal;
         TCSPercentage, NonPANTCSPercentage, SurchargePercentage, eCessPercentage, SHECessPercentage : Decimal;
         TCSThresholdAmount, SurchargeThresholdAmount, TCSBaseAmount, CurrencyFactor : Decimal;
     begin
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
         TCSBaseAmount := GetBaseAmountForSales(DocumentNo);
         CurrencyFactor := GetCurrencyFactorForSales(DocumentNo);
@@ -396,41 +390,41 @@ codeunit 18919 "TCS on Sales Return"
             ExpectedSurchargeAmount := ExpectedTCSAmount * SurchargePercentage / 100;
         ExpectedEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * eCessPercentage / 100;
         ExpectedSHEcessAmount := (ExpectedTCSAmount + ExpectedSurchargeAmount) * SHECessPercentage / 100;
-        TCSEntry.SETRANGE("Document No.", DocumentNo);
-        TCSEntry.FINDFIRST();
+        TCSEntry.SetRange("Document No.", DocumentNo);
+        TCSEntry.FindFirst();
 
         Assert.AreNearlyEqual(
-          TCSBaseAmount / CurrencyFactor, TCSEntry."TCS Base Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Base Amount"), TCSEntry.TABLECAPTION()));
+            TCSBaseAmount / CurrencyFactor, TCSEntry."TCS Base Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Base Amount"), TCSEntry.TableCaption()));
         if WithPAN then
             Assert.AreEqual(
-              TCSPercentage, TCSEntry."TCS %",
-              STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()))
+                TCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()))
         else
             Assert.AreEqual(
-            NonPANTCSPercentage, TCSEntry."TCS %",
-            STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS %"), TCSEntry.TABLECAPTION()));
+                NonPANTCSPercentage, TCSEntry."TCS %",
+                StrSubstNo(AmountErr, TCSEntry.FieldName("TCS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("TCS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedTCSAmount, TCSEntry."TCS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("TCS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SurchargePercentage, TCSEntry."Surcharge %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge %"), TCSEntry.TABLECAPTION()));
+            SurchargePercentage, TCSEntry."Surcharge %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("Surcharge Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSurchargeAmount, TCSEntry."Surcharge Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("Surcharge Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          eCessPercentage, TCSEntry."eCESS %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS %"), TCSEntry.TABLECAPTION()));
+            eCessPercentage, TCSEntry."eCESS %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("eCESS Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedEcessAmount, TCSEntry."eCESS Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("eCESS Amount"), TCSEntry.TableCaption()));
         Assert.AreEqual(
-          SHECessPercentage, TCSEntry."SHE Cess %",
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess %"), TCSEntry.TABLECAPTION()));
+            SHECessPercentage, TCSEntry."SHE Cess %",
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess %"), TCSEntry.TableCaption()));
         Assert.AreNearlyEqual(
-          ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
-          STRSUBSTNO(AmountErr, TCSEntry.FIELDNAME("SHE Cess Amount"), TCSEntry.TABLECAPTION()));
+            ExpectedSHEcessAmount, TCSEntry."SHE Cess Amount", LibraryTCS.GetTCSRoundingPrecision(),
+            StrSubstNo(AmountErr, TCSEntry.FieldName("SHE Cess Amount"), TCSEntry.TableCaption()));
     end;
 
     local procedure GetBaseAmountForSales(DocumentNo: Code[20]): Decimal
@@ -456,12 +450,12 @@ codeunit 18919 "TCS on Sales Return"
         GLEntry: Record "G/L Entry";
     begin
         FindGLEntry(GLEntry, DocumentNo, TCSAccountNo);
-        GLEntry.TESTFIELD(Amount, -GetTCSAmount(DocumentNo));
+        GLEntry.TestField(Amount, -GetTCSAmount(DocumentNo));
     end;
 
     local procedure FindGLEntry(var GLEntry: Record "G/L Entry"; DocumentNo: Code[20]; TCSAccountNo: Code[20])
     begin
-        GLEntry.SETRANGE("Document No.", DocumentNo);
+        GLEntry.SetRange("Document No.", DocumentNo);
         GLEntry.SetRange("G/L Account No.", TCSAccountNo);
         GLEntry.FINDSET();
     end;
@@ -490,6 +484,28 @@ codeunit 18919 "TCS on Sales Return"
         PageTaxtype.TaxRates.Invoke();
     end;
 
+    local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
+    begin
+        Storage.Set(TCSNOCTypeLbl, TCSNOC);
+        Storage.Set(TCSAssesseeCodeLbl, AssesseeCode);
+        Storage.Set(TCSConcessionalCodeLbl, ConcessionalCode);
+        Storage.Set(EffectiveDateLbl, Format(EffectiveDate, 0, 9));
+        GenerateTaxComponentsPercentage();
+        CreateTaxRate();
+    end;
+
+    local procedure GenerateTaxComponentsPercentage()
+    var
+    begin
+        Storage.Set(TCSPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(NonPANTCSPercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(SurchargePercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(ECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(SHECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(TCSThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(SurchargeThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+    end;
+
     [PageHandler]
     procedure TaxRatePageHandler(var TaxRate: TestPage "Tax Rates");
     var
@@ -502,18 +518,19 @@ codeunit 18919 "TCS on Sales Return"
         TCSThresholdAmount: Decimal;
         SurchargeThresholdAmount: Decimal;
     begin
-        Evaluate(EffectiveDate, Storage.Get('EffectiveDate'));
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(EffectiveDate, Storage.Get(EffectiveDateLbl), 9);
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
-        TaxRate.AttributeValue1.SetValue(Storage.Get('TCSNOCType'));
-        TaxRate.AttributeValue2.SetValue(Storage.Get('TCSAssesseeCode'));
-        TaxRate.AttributeValue3.SetValue(Storage.Get('TCSConcessionalCode'));
+        TaxRate.New();
+        TaxRate.AttributeValue1.SetValue(Storage.Get(TCSNOCTypeLbl));
+        TaxRate.AttributeValue2.SetValue(Storage.Get(TCSAssesseeCodeLbl));
+        TaxRate.AttributeValue3.SetValue(Storage.Get(TCSConcessionalCodeLbl));
         TaxRate.AttributeValue4.SetValue(EffectiveDate);
         TaxRate.AttributeValue5.SetValue(TCSPercentage);
         TaxRate.AttributeValue6.SetValue(SurchargePercentage);
@@ -525,26 +542,10 @@ codeunit 18919 "TCS on Sales Return"
         TaxRate.OK().Invoke();
     end;
 
-    local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
+    [PageHandler]
+    procedure PayTax(var PayTCS: TestPage "Pay TCS")
     begin
-        Storage.Set('TCSNOCType', TCSNOC);
-        Storage.Set('TCSAssesseeCode', AssesseeCode);
-        Storage.Set('TCSConcessionalCode', ConcessionalCode);
-        Storage.Set('EffectiveDate', Format(EffectiveDate));
-        GenerateTaxComponentsPercentage();
-        CreateTaxRate();
-    end;
-
-    local procedure GenerateTaxComponentsPercentage()
-    var
-    begin
-        Storage.Set('TCSPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('NonPANTCSPercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('SurchargePercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('eCessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('SHECessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('TCSThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
-        Storage.Set('SurchargeThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        PayTCS."&Pay".Invoke();
     end;
 
     var
@@ -557,5 +558,16 @@ codeunit 18919 "TCS on Sales Return"
         Assert: Codeunit Assert;
         Payment: Codeunit "Pay-TCS";
         Storage: Dictionary of [Text, Text];
+        EffectiveDateLbl: Label 'EffectiveDate', locked = true;
+        TCSNOCTypeLbl: Label 'TCSNOCType', locked = true;
+        TCSAssesseeCodeLbl: Label 'TCSAssesseeCode', locked = true;
+        TCSConcessionalCodeLbl: Label 'TCSConcessionalCode', locked = true;
+        TCSPercentageLbl: Label 'TCSPercentage', locked = true;
+        NonPANTCSPercentageLbl: Label 'NonPANTCSPercentage', locked = true;
+        SurchargePercentageLbl: Label 'SurchargePercentage', locked = true;
+        ECessPercentageLbl: Label 'ECessPercentage', Locked = true;
+        SHECessPercentageLbl: Label 'SHECessPercentage', locked = true;
+        TCSThresholdAmountLbl: Label 'TCSThresholdAmount', locked = true;
+        SurchargeThresholdAmountLbl: Label 'SurchargeThresholdAmount', locked = true;
         AmountErr: Label '%1 is incorrect in %2.', Comment = '%1 and %2 = TCS Amount and TCS field Caption';
 }

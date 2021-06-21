@@ -1,5 +1,9 @@
 codeunit 18995 "Library Voucher Interface"
 {
+    var
+        LibraryERM: Codeunit "Library - ERM";
+        LibraryJournals: Codeunit "Library - Journals";
+
     procedure VerifyVoucherGLEntryCount(JnlBatchName: Code[10]; ExpectedCount: Integer): Code[20]
     var
         GLEntry: Record "G/L Entry";
@@ -74,15 +78,14 @@ codeunit 18995 "Library Voucher Interface"
     var
         Customer: Record Customer;
         LibrarySales: Codeunit "Library - Sales";
-        LibraryJournals: Codeunit "Library - Journals";
     begin
         LibrarySales.CreateCustomer(Customer);
         LibraryJournals.CreateGenJournalLine(GenJournalLine,
-        GenJournalTemplate.Name, GenJournalBatch.Name,
-        GenJournalLine."Document Type"::Payment,
-        GenJournalLine."Account Type"::"G/L Account", GLAccNo,
-        GenJournalLine."Bal. Account Type"::Customer, Customer."No.",
-        10000);
+            GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::Payment,
+            GenJournalLine."Account Type"::"G/L Account", GLAccNo,
+            GenJournalLine."Bal. Account Type"::Customer, Customer."No.",
+            10000);
         if LineNarration then
             AssignLineNarration(GenJournalLine."Document No.");
     end;
@@ -95,16 +98,14 @@ codeunit 18995 "Library Voucher Interface"
         GLAccNo: Code[20])
     var
         BankAccount: Record "Bank Account";
-        LibraryJournals: Codeunit "Library - Journals";
-        LibraryERM: Codeunit "Library - ERM";
     begin
         LibraryERM.CreateBankAccount(BankAccount);
         LibraryJournals.CreateGenJournalLine(GenJournalLine,
-        GenJournalTemplate.Name, GenJournalBatch.Name,
-        GenJournalLine."Document Type"::Payment,
-        GenJournalLine."Account Type"::"Bank Account", BankAccount."No.",
-        GenJournalLine."Bal. Account Type"::"G/L Account", GLAccNo,
-        10000);
+            GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::Payment,
+            GenJournalLine."Account Type"::"Bank Account", BankAccount."No.",
+            GenJournalLine."Bal. Account Type"::"G/L Account", GLAccNo,
+            10000);
         if LineNarration then
             AssignLineNarration(GenJournalLine."Document No.");
     end;
@@ -118,15 +119,14 @@ codeunit 18995 "Library Voucher Interface"
     var
         Customer: Record Customer;
         LibrarySales: Codeunit "Library - Sales";
-        LibraryJournals: Codeunit "Library - Journals";
     begin
         LibrarySales.CreateCustomer(Customer);
         LibraryJournals.CreateGenJournalLine(GenJournalLine,
-        GenJournalTemplate.Name, GenJournalBatch.Name,
-        GenJournalLine."Document Type"::Payment,
-        GenJournalLine."Account Type"::"Bank Account", BankAccNo,
-        GenJournalLine."Bal. Account Type"::Customer, Customer."No.",
-        10000);
+            GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::Payment,
+            GenJournalLine."Account Type"::"Bank Account", BankAccNo,
+            GenJournalLine."Bal. Account Type"::Customer, Customer."No.",
+            10000);
         if LineNarration then
             AssignLineNarration(GenJournalLine."Document No.");
     end;
@@ -140,15 +140,14 @@ codeunit 18995 "Library Voucher Interface"
     var
         Vendor: Record Vendor;
         LibraryPurchase: Codeunit "Library - Purchase";
-        LibraryJournals: Codeunit "Library - Journals";
     begin
         LibraryPurchase.CreateVendor(Vendor);
         LibraryJournals.CreateGenJournalLine(GenJournalLine,
-        GenJournalTemplate.Name, GenJournalBatch.Name,
-        GenJournalLine."Document Type"::Payment,
-        GenJournalLine."Account Type"::Vendor, Vendor."No.",
-        GenJournalLine."Account Type"::"Bank Account", BankAccNo,
-        10000);
+            GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::Payment,
+            GenJournalLine."Account Type"::Vendor, Vendor."No.",
+            GenJournalLine."Account Type"::"Bank Account", BankAccNo,
+            10000);
         if LineNarration then
             AssignLineNarration(GenJournalLine."Document No.");
     end;

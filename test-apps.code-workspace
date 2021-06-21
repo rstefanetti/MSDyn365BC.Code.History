@@ -9,12 +9,6 @@
                  },
     "folders":  [
                     {
-                        "path":  ".\\APIV1\\Test\\_Exclude_APIV1_ Tests"
-                    },
-                    {
-                        "path":  ".\\APIV2\\Test\\_Exclude_APIV2_ Tests"
-                    },
-                    {
                         "path":  ".\\BaseApp\\Source\\Base Application\\Test Framework"
                     },
                     {
@@ -117,6 +111,9 @@
                         "path":  ".\\BaseApp\\Test\\Tests-Workflow"
                     },
                     {
+                        "path":  ".\\CompanyHub\\Test\\Company Hub Tests"
+                    },
+                    {
                         "path":  ".\\Email - Current User Connector\\Test\\Email - Current User Connector Tests"
                     },
                     {
@@ -132,7 +129,19 @@
                         "path":  ".\\EssentialBusinessHeadlines\\Test\\Essential Business Headlines Test"
                     },
                     {
+                        "path":  ".\\INFADepreciation\\Test\\Fixed Asset Depreciation Tests"
+                    },
+                    {
+                        "path":  ".\\INGateEntry\\Test\\India Gate Entry Tests"
+                    },
+                    {
                         "path":  ".\\INGST\\Test\\India GST Tests"
+                    },
+                    {
+                        "path":  ".\\INReports\\Test\\India Reports Tests"
+                    },
+                    {
+                        "path":  ".\\INTaxBase\\Test\\India Tax Base Tests"
                     },
                     {
                         "path":  ".\\INTaxEngine\\Test\\Tax Engine Test"
@@ -148,6 +157,9 @@
                     },
                     {
                         "path":  ".\\LatePaymentPredictor\\Test\\Late Payment Prediction Tests"
+                    },
+                    {
+                        "path":  ".\\Onprem Permissions\\Test\\OnPrem Permissions Tests"
                     },
                     {
                         "path":  ".\\PayPalPaymentsStandard\\Test\\PayPal Payments Standard Tests"
@@ -169,6 +181,12 @@
                     },
                     {
                         "path":  ".\\testframework\\TestLibraries"
+                    },
+                    {
+                        "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests"
+                    },
+                    {
+                        "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests\\src\\Mock Tests"
                     },
                     {
                         "path":  ".\\testframework\\TestRunner\\Test Runner"

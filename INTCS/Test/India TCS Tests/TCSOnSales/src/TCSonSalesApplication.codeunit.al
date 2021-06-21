@@ -2,7 +2,7 @@ codeunit 18914 "TCS on Sales Application"
 {
     Subtype = Test;
 
-    //[Scenario 354743] Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Resources.
+    // [SCENARIO] [354743] Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Resources.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromSalesOrderForAdvancePayment()
@@ -33,7 +33,7 @@ codeunit 18914 "TCS on Sales Application"
         TCSSalesLibrary.VerifyTCSEntryForFAandResource(DocumentNo);
     end;
 
-    //[Scenario 354744] Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Resources.
+    // [SCENARIO] [354744] Check if the program is calculating TCS  in case of creating Sales Order against an advance payment with Resources.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromSalesInvoiceForAdvancePayment()
@@ -64,7 +64,7 @@ codeunit 18914 "TCS on Sales Application"
         TCSSalesLibrary.VerifyTCSEntryForFAandResource(DocumentNo);
     end;
 
-    //[Scenario 354745] Check if the program is calculating TCS in case of creating Sales Order against partial advance payment with Resources.
+    // [SCENARIO] [354745] Check if the program is calculating TCS in case of creating Sales Order against partial advance payment with Resources.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromSalesOrderForPartialAdvancePayment()
@@ -95,7 +95,7 @@ codeunit 18914 "TCS on Sales Application"
         TCSSalesLibrary.VerifyTCSEntryForFAandResource(DocumentNo);
     end;
 
-    //[Scenario 354746] Check if the program is calculating TCS in case of creating Sales Invoice against partial advance payment with Resources.
+    // [SCENARIO] [354746] Check if the program is calculating TCS in case of creating Sales Invoice against partial advance payment with Resources.
     [Test]
     [HandlerFunctions('TaxRatePageHandler')]
     procedure PostFromSalesInvoiceForPartialAdvancePayment()
@@ -127,9 +127,9 @@ codeunit 18914 "TCS on Sales Application"
     end;
 
     local procedure CreateAndPostSalesDocumentWithApplication(CustomerNo: code[20];
-                    GLDocNo: code[20];
-                    DocumentType: Enum "Sales Document Type";
-                    LineType: Enum "Sales Line Type"): Code[20]
+        GLDocNo: code[20];
+        DocumentType: Enum "Sales Document Type";
+        LineType: Enum "Sales Line Type"): Code[20]
     var
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
@@ -154,9 +154,9 @@ codeunit 18914 "TCS on Sales Application"
     end;
 
     local procedure CreateAndPostSalesDocumentWithPartialApplication(CustomerNo: code[20];
-                    GLDocNo: code[20];
-                    DocumentType: Enum "Sales Document Type";
-                    LineType: Enum "Sales Line Type"): Code[20]
+        GLDocNo: code[20];
+        DocumentType: Enum "Sales Document Type";
+        LineType: Enum "Sales Line Type"): Code[20]
     var
         SalesHeader: Record "Sales Header";
         SalesLine: Record "Sales Line";
@@ -201,6 +201,69 @@ codeunit 18914 "TCS on Sales Application"
         PageTaxtype.TaxRates.Invoke();
     end;
 
+    local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
+    begin
+        Storage.Set(TCSNOCTypeLbl, TCSNOC);
+        Storage.Set(TCSAssesseeCodeLbl, AssesseeCode);
+        Storage.Set(TCSConcessionalCodeLbl, ConcessionalCode);
+        Storage.Set(EffectiveDateLbl, Format(EffectiveDate, 0, 9));
+        GenerateTaxComponentsPercentage();
+        CreateTaxRate();
+    end;
+
+    local procedure GenerateTaxComponentsPercentage()
+    var
+    begin
+        Storage.Set(TCSPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(NonPANTCSPercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(SurchargePercentageLbl, Format(LibraryRandom.RandIntInRange(6, 10)));
+        Storage.Set(ECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(SHECessPercentageLbl, Format(LibraryRandom.RandIntInRange(2, 4)));
+        Storage.Set(TCSThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+        Storage.Set(SurchargeThresholdAmountLbl, Format(LibraryRandom.RandIntInRange(4000, 6000)));
+    end;
+
+    local procedure CreateGenJournalTemplateBatch(var GenJournalTemplate: Record "Gen. Journal Template";
+        var GenJournalBatch: Record "Gen. Journal Batch";
+        TemplateType: Enum "Gen. Journal Template Type")
+    var
+    begin
+        LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
+        GenJournalTemplate.Validate(Type, TemplateType);
+        GenJournalTemplate.Modify(true);
+        LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
+    end;
+
+    local procedure CreateGenJnlLineFromCustToGLForPayment(var GenJournalLine: Record "Gen. Journal Line";
+        CustomerNo: code[20]; TemplateType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
+    var
+        GenJournalTemplate: Record "Gen. Journal Template";
+        GenJournalBatch: Record "Gen. Journal Batch";
+        GLAccount: Record "G/L Account";
+        LibraryJournals: Codeunit "Library - Journals";
+    begin
+        CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
+        LibraryERM.CreateGLAccount(GLAccount);
+        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
+            GenJournalLine."Document Type"::Payment,
+            GenJournalLine."Account Type"::Customer, CustomerNo,
+            GenJournalLine."Bal. Account Type"::"G/L Account", GLAccount."No.",
+            -LibraryRandom.RandDecInRange(10000, 20000, 2));
+        GenJournalLine.Validate("TCS Nature of Collection", TCSNOC);
+        GenJournalLine.Validate(Amount);
+        TCSSalesLibrary.CalculateTCS(GenJournalLine);
+    end;
+
+    local procedure VerifyJournalGLEntryCount(JnlBatchName: Code[10]; ExpectedCount: Integer): code[20]
+    var
+        GLEntry: Record "G/L Entry";
+    begin
+        GLEntry.SetRange("Journal Batch Name", JnlBatchName);
+        GLEntry.FindFirst();
+        Assert.RecordCount(GLEntry, ExpectedCount);
+        exit(GLEntry."Document No.");
+    end;
+
     [PageHandler]
     procedure TaxRatePageHandler(var TaxRate: TestPage "Tax Rates");
     var
@@ -213,18 +276,19 @@ codeunit 18914 "TCS on Sales Application"
         TCSThresholdAmount: Decimal;
         SurchargeThresholdAmount: Decimal;
     begin
-        Evaluate(EffectiveDate, Storage.Get('EffectiveDate'));
-        Evaluate(TCSPercentage, Storage.Get('TCSPercentage'));
-        Evaluate(NonPANTCSPercentage, Storage.Get('NonPANTCSPercentage'));
-        Evaluate(SurchargePercentage, Storage.Get('SurchargePercentage'));
-        Evaluate(eCessPercentage, Storage.Get('eCessPercentage'));
-        Evaluate(SHECessPercentage, Storage.Get('SHECessPercentage'));
-        Evaluate(TCSThresholdAmount, Storage.Get('TCSThresholdAmount'));
-        Evaluate(SurchargeThresholdAmount, Storage.Get('SurchargeThresholdAmount'));
+        Evaluate(EffectiveDate, Storage.Get(EffectiveDateLbl), 9);
+        Evaluate(TCSPercentage, Storage.Get(TCSPercentageLbl));
+        Evaluate(NonPANTCSPercentage, Storage.Get(NonPANTCSPercentageLbl));
+        Evaluate(SurchargePercentage, Storage.Get(SurchargePercentageLbl));
+        Evaluate(eCessPercentage, Storage.Get(ECessPercentageLbl));
+        Evaluate(SHECessPercentage, Storage.Get(SHECessPercentageLbl));
+        Evaluate(TCSThresholdAmount, Storage.Get(TCSThresholdAmountLbl));
+        Evaluate(SurchargeThresholdAmount, Storage.Get(SurchargeThresholdAmountLbl));
 
-        TaxRate.AttributeValue1.SetValue(Storage.Get('TCSNOCType'));
-        TaxRate.AttributeValue2.SetValue(Storage.Get('TCSAssesseeCode'));
-        TaxRate.AttributeValue3.SetValue(Storage.Get('TCSConcessionalCode'));
+        TaxRate.New();
+        TaxRate.AttributeValue1.SetValue(Storage.Get(TCSNOCTypeLbl));
+        TaxRate.AttributeValue2.SetValue(Storage.Get(TCSAssesseeCodeLbl));
+        TaxRate.AttributeValue3.SetValue(Storage.Get(TCSConcessionalCodeLbl));
         TaxRate.AttributeValue4.SetValue(EffectiveDate);
         TaxRate.AttributeValue5.SetValue(TCSPercentage);
         TaxRate.AttributeValue6.SetValue(SurchargePercentage);
@@ -236,69 +300,6 @@ codeunit 18914 "TCS on Sales Application"
         TaxRate.OK().Invoke();
     end;
 
-    local procedure CreateTaxRateSetup(TCSNOC: Code[10]; AssesseeCode: Code[10]; ConcessionalCode: Code[10]; EffectiveDate: Date)
-    begin
-        Storage.Set('TCSNOCType', TCSNOC);
-        Storage.Set('TCSAssesseeCode', AssesseeCode);
-        Storage.Set('TCSConcessionalCode', ConcessionalCode);
-        Storage.Set('EffectiveDate', Format(EffectiveDate));
-        GenerateTaxComponentsPercentage();
-        CreateTaxRate();
-    end;
-
-    local procedure GenerateTaxComponentsPercentage()
-    var
-    begin
-        Storage.Set('TCSPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('NonPANTCSPercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('SurchargePercentage', Format(LibraryRandom.RandIntInRange(6, 10)));
-        Storage.Set('eCessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('SHECessPercentage', Format(LibraryRandom.RandIntInRange(2, 4)));
-        Storage.Set('TCSThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
-        Storage.Set('SurchargeThresholdAmount', Format(LibraryRandom.RandIntInRange(4000, 6000)));
-    end;
-
-    procedure CreateGenJournalTemplateBatch(var GenJournalTemplate: Record "Gen. Journal Template";
-                                                    var GenJournalBatch: Record "Gen. Journal Batch";
-                                                    TemplateType: Enum "Gen. Journal Template Type")
-    var
-    begin
-        LibraryERM.CreateGenJournalTemplate(GenJournalTemplate);
-        GenJournalTemplate.Validate(Type, TemplateType);
-        GenJournalTemplate.Modify(true);
-        LibraryERM.CreateGenJournalBatch(GenJournalBatch, GenJournalTemplate.Name);
-    end;
-
-    procedure CreateGenJnlLineFromCustToGLForPayment(var GenJournalLine: Record "Gen. Journal Line";
-            CustomerNo: code[20]; TemplateType: Enum "Gen. Journal Template Type"; TCSNOC: code[10])
-    var
-        GenJournalTemplate: Record "Gen. Journal Template";
-        GenJournalBatch: Record "Gen. Journal Batch";
-        GLAccount: Record "G/L Account";
-        LibraryJournals: Codeunit "Library - Journals";
-    begin
-        CreateGenJournalTemplateBatch(GenJournalTemplate, GenJournalBatch, TemplateType);
-        LibraryERM.CreateGLAccount(GLAccount);
-        LibraryJournals.CreateGenJournalLine(GenJournalLine, GenJournalTemplate.Name, GenJournalBatch.Name,
-                                            GenJournalLine."Document Type"::Payment,
-                                            GenJournalLine."Account Type"::Customer, CustomerNo,
-                                            GenJournalLine."Bal. Account Type"::"G/L Account", GLAccount."No.",
-                                            -LibraryRandom.RandDecInRange(10000, 20000, 2));
-        GenJournalLine.Validate("TCS Nature of Collection", TCSNOC);
-        GenJournalLine.Validate(Amount);
-        TCSSalesLibrary.CalculateTCS(GenJournalLine);
-    end;
-
-    procedure VerifyJournalGLEntryCount(JnlBatchName: Code[10]; ExpectedCount: Integer): code[20]
-    var
-        GLEntry: Record "G/L Entry";
-    begin
-        GLEntry.SETRANGE("Journal Batch Name", JnlBatchName);
-        GLEntry.FindFirst();
-        Assert.RecordCount(GLEntry, ExpectedCount);
-        exit(GLEntry."Document No.");
-    end;
-
     var
         LibraryRandom: Codeunit "Library - Random";
         LibraryTCS: Codeunit "TCS - Library";
@@ -307,4 +308,15 @@ codeunit 18914 "TCS on Sales Application"
         LibraryERM: Codeunit "Library - ERM";
         Assert: Codeunit Assert;
         Storage: Dictionary of [Text, Text];
+        EffectiveDateLbl: Label 'EffectiveDate', locked = true;
+        TCSNOCTypeLbl: Label 'TCSNOCType', locked = true;
+        TCSAssesseeCodeLbl: Label 'TCSAssesseeCode', locked = true;
+        TCSConcessionalCodeLbl: Label 'TCSConcessionalCode', locked = true;
+        TCSPercentageLbl: Label 'TCSPercentage', locked = true;
+        NonPANTCSPercentageLbl: Label 'NonPANTCSPercentage', locked = true;
+        SurchargePercentageLbl: Label 'SurchargePercentage', locked = true;
+        ECessPercentageLbl: Label 'ECessPercentage', Locked = true;
+        SHECessPercentageLbl: Label 'SHECessPercentage', locked = true;
+        TCSThresholdAmountLbl: Label 'TCSThresholdAmount', locked = true;
+        SurchargeThresholdAmountLbl: Label 'SurchargeThresholdAmount', locked = true;
 }

@@ -1252,6 +1252,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnauthorizedResponseCodeTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 366795098" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Unable to insert information about account that is linked on Yodlee. ProviderAccount id - %1, AccountId - %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnableToInsertUnlinkedBankAccToBufferErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 1033613857" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/transaction/accountId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccountIDPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 2162809841" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/transaction/runningBalance/amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceAmountPathTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank feed that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
           <target>The bank feed that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</target>
@@ -1269,6 +1284,16 @@
           <target>This bank account is not linked to an online bank account.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccNotLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 3588725952" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/transaction/runningBalance/currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceCurrencyPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 686796650" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/transaction/amount/currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType TransactionCurrencyPathTxt</note>
         </trans-unit>
         <trans-unit id="Page 3194416848 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

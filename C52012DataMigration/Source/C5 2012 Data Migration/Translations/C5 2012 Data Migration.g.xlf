@@ -623,11 +623,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustContact - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 3539943979 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 CustTable - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 1026866142 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row number</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1323,11 +1318,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action BOM - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 2113318422 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 InvenTable - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 3302297368 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>RecId</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1808,11 +1798,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendContact - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 424594451 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 VendTable - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 3594340523 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Ledger Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1947,11 +1932,6 @@
           <source>Settlement period</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 LedTrans - Field VatPeriodRecId - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="XmlPort 3594340523 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 LedTrans - NamedType DateFormatStringTxt</note>
         </trans-unit>
         <trans-unit id="Table 3409802943 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row number</source>
@@ -2358,11 +2338,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTrans - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 3306450511 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 CustTrans - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 2524746349 - Field 970416965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PK</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2693,11 +2668,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenCustDisc - Field PriceUnit - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 4256155628 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 InvenCustDisc - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 541957803 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row number</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2762,11 +2732,6 @@
           <source>C5 InvenPriceGroup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenPrice - Action C5InvenPriceGroup - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="XmlPort 541957803 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 InvenPrice - NamedType DateFormatStringTxt</note>
         </trans-unit>
         <trans-unit id="Table 493508491 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row number</source>
@@ -3203,11 +3168,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTrans - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 3319706570 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 InvenTrans - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Table 2602790647 - Field 956471723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Row number</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3568,11 +3528,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTrans - Property Caption</note>
         </trans-unit>
-        <trans-unit id="XmlPort 1668449495 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 VendTrans - NamedType DateFormatStringTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1329906748 - NamedType 1182180183" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer %1 is related to %2, but we couldn’t find %2. Try migrating again.</source>
           <note from="Developer" annotates="general" priority="2">%1 is the current customer number, %2 is the referenced customer's number</note>
@@ -3607,11 +3562,6 @@
           <source>The Payment '%1' was not found.</source>
           <note from="Developer" annotates="general" priority="2">%1 = payment</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - NamedType PaymentNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - NamedType 981159464" size-unit="char" translate="no" xml:space="preserve">
-          <source>CUSTMIGR</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - NamedType GeneralJournalBatchNameTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3299432891 - NamedType 2955075171" size-unit="char" translate="yes" xml:space="preserve">
           <source>The combination of PostCode '%1' and City '%2' was not found.</source>
@@ -3688,16 +3638,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = invent price group group</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - NamedType InventPriceGroupNotFoundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 819262142 - NamedType 2315716121" size-unit="char" translate="no" xml:space="preserve">
-          <source>ITEMMIGR</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - NamedType ItemJournalBatchNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - NamedType 4047505897" size-unit="char" translate="no" xml:space="preserve">
-          <source>MIGRATION</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - NamedType FakeProductPostingGroupPrefixLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 819262142 - NamedType 3972347495" size-unit="char" translate="yes" xml:space="preserve">
           <source>A unit of measure is not specified for item %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 is the current item number</note>
@@ -3717,16 +3657,6 @@
           <source>Something went wrong with copying the zip file to Database.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Telemetry - NamedType CopyToDatabaseFailedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3865269683 - NamedType 261724691" size-unit="char" translate="no" xml:space="preserve">
-          <source>CSV file import to staging tables started.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Telemetry - NamedType StagingTablesImportStartTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3865269683 - NamedType 1551107486" size-unit="char" translate="no" xml:space="preserve">
-          <source>CSV file import to staging tables finished; duration: %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Telemetry - NamedType StagingTablesImportFinishTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2391856692 - NamedType 1708045119" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor %1 is related to %2, but we couldn’t find %2. Try migrating again.</source>
@@ -3752,26 +3682,6 @@
           <source>The Payment '%1' was not found.</source>
           <note from="Developer" annotates="general" priority="2">%1 = payment</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - NamedType PaymentNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - NamedType 981159464" size-unit="char" translate="no" xml:space="preserve">
-          <source>VENDMIGR</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - NamedType GeneralJournalBatchNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3863875260 - NamedType 3195722338" size-unit="char" translate="no" xml:space="preserve">
-          <source>GLACCMIGR</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTrans Migrator - NamedType GeneralJournalBatchCodeTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4214254469 - NamedType 2620200806" size-unit="char" translate="no" xml:space="preserve">
-          <source>C5 2012</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Migr. Dashboard Mgt - NamedType C5MigrationTypeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4214254469 - NamedType 2343010139" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://go.microsoft.com/fwlink/?linkid=859310</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Migr. Dashboard Mgt - NamedType C5HelptTopicUrlTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3631254966 - NamedType 2217288702" size-unit="char" translate="yes" xml:space="preserve">
           <source>Oops, it seems the definition file (exp00000.def) was missing from the zip file.</source>
@@ -3912,11 +3822,6 @@
           <source>Specifies the currency code for your company.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 Company Settings - Control LocalCurrencyCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="XmlPort 1249283304 - NamedType 189636886" size-unit="char" translate="no" xml:space="preserve">
-          <source>yyyy/MM/dd</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">XmlPort C5 Exch. Rate - NamedType DateFormatStringTxt</note>
         </trans-unit>
         <trans-unit id="PageExtension 3315441300 - Control 485730734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3857729393">
           <source>Migrating Data from Microsoft Dynamics C5 2012</source>

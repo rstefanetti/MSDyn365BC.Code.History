@@ -3,11 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="Tax File Formats (DK)">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 1772322696 - NamedType 16760292" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>ECSL-DK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType MSECSLDKTok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
           <target state="translated">Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>
@@ -19,11 +14,6 @@
           <target state="translated">Perioden er ugyldig.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType InvalidPeriodErr</note>
-        </trans-unit>
-        <trans-unit id="Report 2597579300 - NamedType 1991297358" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Default.txt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType DefaultFilenameTxt</note>
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 2292565108" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter the file name.</source>

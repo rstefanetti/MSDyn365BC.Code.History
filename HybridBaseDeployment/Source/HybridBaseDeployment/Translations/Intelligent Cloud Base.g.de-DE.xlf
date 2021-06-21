@@ -660,7 +660,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3297083380 - NamedType 2909316202" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Setup Checklist</source>
-          <target>Einrichtungscheckliste öffnen</target>
+          <target>Einrichtungcheckliste öffnen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post Migration Notificaton - NamedType OpenWorksheetActionLbl</note>
         </trans-unit>

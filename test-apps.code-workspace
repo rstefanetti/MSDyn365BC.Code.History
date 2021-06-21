@@ -9,6 +9,15 @@
                  },
     "folders":  [
                     {
+                        "path":  ".\\APIV1\\Test\\_Exclude_APIV1_ Tests"
+                    },
+                    {
+                        "path":  ".\\APIV2\\Test\\_Exclude_APIV2_ Tests"
+                    },
+                    {
+                        "path":  ".\\BaseApp\\Source\\Base Application\\Test Framework"
+                    },
+                    {
                         "path":  ".\\BaseApp\\Test\\Tests-Bank"
                     },
                     {
@@ -55,6 +64,9 @@
                     },
                     {
                         "path":  ".\\BaseApp\\Test\\Tests-Misc"
+                    },
+                    {
+                        "path":  ".\\BaseApp\\Test\\Tests-Monitor Sensitive Fields"
                     },
                     {
                         "path":  ".\\BaseApp\\Test\\Tests-Permissions"
@@ -105,7 +117,34 @@
                         "path":  ".\\BaseApp\\Test\\Tests-Workflow"
                     },
                     {
+                        "path":  ".\\Email - Current User Connector\\Test\\Email - Current User Connector Tests"
+                    },
+                    {
+                        "path":  ".\\Email - Microsoft 365 Connector\\Test\\Email - Microsoft 365 Connector Tests"
+                    },
+                    {
+                        "path":  ".\\Email - Outlook REST API\\Test"
+                    },
+                    {
+                        "path":  ".\\Email - SMTP Connector\\Test\\Email - SMTP Connector Tests"
+                    },
+                    {
                         "path":  ".\\EssentialBusinessHeadlines\\Test\\Essential Business Headlines Test"
+                    },
+                    {
+                        "path":  ".\\INGST\\Test\\India GST Tests"
+                    },
+                    {
+                        "path":  ".\\INTaxEngine\\Test\\Tax Engine Test"
+                    },
+                    {
+                        "path":  ".\\INTCS\\Test\\India TCS Tests"
+                    },
+                    {
+                        "path":  ".\\INTDS\\Test\\India TDS Tests"
+                    },
+                    {
+                        "path":  ".\\INVoucherInterface\\Test\\India Voucher Interface Tests"
                     },
                     {
                         "path":  ".\\LatePaymentPredictor\\Test\\Late Payment Prediction Tests"
@@ -129,10 +168,10 @@
                         "path":  ".\\System Application\\Test\\System Application Test\\Extension Management\\testArtifacts"
                     },
                     {
-                        "path":  ".\\TestFramework\\TestLibraries"
+                        "path":  ".\\testframework\\TestLibraries"
                     },
                     {
-                        "path":  ".\\TestFramework\\TestRunner\\Test Runner"
+                        "path":  ".\\testframework\\TestRunner\\Test Runner"
                     }
                 ]
 }

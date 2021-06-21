@@ -3041,7 +3041,7 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2382355777" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Receivables %1</source>
-          <target state="translated">Závazky %1</target>
+          <target state="translated">Pohledávky %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ReceivablesTxt</note>
         </trans-unit>
@@ -3233,7 +3233,7 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2382355777" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Receivables %1</source>
-          <target state="translated">Závazky %1</target>
+          <target state="translated">Pohledávky %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ReceivablesTxt</note>
         </trans-unit>

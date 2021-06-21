@@ -19648,6 +19648,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control Tax Registration No. CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the vendor's balance which is connected with certain customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control BalanceOfVendorCZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Balance As Vendor (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card CZL - Control BalanceOfVendorCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1640560951 - Control 3624777196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Foreign Trade</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -20488,6 +20498,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Inventory Setup CZL - Control Def.Tmpl. for Phys.Pos.Adj CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1701714446 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4066605313">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Invt. Receipt CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4259230723 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2341382488">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Invt. Receipts CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1883198442 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2589860325">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Invt. Shipment CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3313000319 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2378614812">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Invt. Shipments CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2315661134 - Control 10130681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3138431460">
           <source>Specifies a code to idenfity bank account of company.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -21017,6 +21047,26 @@
           <source>Specifies the posting group that will be used in posting the journal line. The field is used only if the account type is either customer or vendor.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted General Journal CZL - Control Posting Group CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3511462517 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 920795658">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Invt. Receipt CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3219836932 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2543266615">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Invt. Receipts CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2460552953 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1251096278">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Invt. Shipment CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4056532328 - Control 3056514551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 155881795">
+          <source>Specifies the template for item movement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Invt. Shipments CZL - Control Invt. Movement Template CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1853128743 - Action 3632438814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 823350980">
           <source>Print physical inventory counting document.</source>
@@ -25948,6 +25998,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control Tax Registration No. CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Specifies the customer's balance which is connected with certain vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control BalanceOfCustomerCZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
+          <source>Balance As Customer (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Card CZL - Control BalanceOfCustomerCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3731745343 - Control 4263661069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4055858012">
           <source>Specifies that the check of VAT Unreliable Payer is disabled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26727,6 +26787,21 @@
           <source>VAT Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Invoice Post. Buffer CZL - Field VAT Date CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 775211178 - Field 3056514551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2199490085">
+          <source>Inventory Movement Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Invt. Document Header CZL - Field Invt. Movement Template CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3841722071 - Field 3056514551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4076887508">
+          <source>Inventory Movement Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Invt. Receipt Header CZL - Field Invt. Movement Template CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971335387 - Field 3056514551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1657534480">
+          <source>Inventory Movement Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Invt. Shipment Header CZL - Field Invt. Movement Template CZL - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3995117583 - Field 2185168351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 196574476">
           <source>Certificate Code</source>
@@ -29392,6 +29467,11 @@
           <source>Liabilities</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Assets Liabilities Type CZL - EnumValue Liabilities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 817743510 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Credit Memo Type CZL - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 817743510 - EnumValue 4241608458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Corrective Tax Document</source>

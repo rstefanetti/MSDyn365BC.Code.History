@@ -3581,7 +3581,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4156100231 - NamedType 578053703" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show warning to check the VAT amount in local currency if the purchase document (invoice, credit memo) has been posted in a foreign currency.</source>
-          <target state="translated">Zobrazit upozornění na kontrolu částky DPH v lokální měně, pokud byl nákupní doklad (faktura, dobropis) zaúčtován v cizí měně.</target>
+          <target state="translated">Zobrazuje upozornění na kontrolu částky DPH v lokální měně, pokud byl nákupní doklad (faktura, dobropis) zaúčtován v cizí měně.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Instruction Mgt. CZL - NamedType WarnVATLCYDocumentsDescriptionTxt</note>
         </trans-unit>
@@ -23679,6 +23679,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's balance which is connected with certain customer</source>
+          <target state="translated">Určuje saldo dodavatele, které je spojeno s určitým zákazníkem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640560951 - Control 1453074954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance As Vendor (LCY)</source>
+          <target state="translated">Zůstatek jako dodavatel (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 523354100</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1640560951 - Control 3624777196 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Foreign Trade</source>
           <target state="translated">Zahraniční obchod</target>
@@ -24855,6 +24869,34 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1180040559</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1701714446 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4066605313</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4259230723 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2341382488</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1883198442 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2589860325</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3313000319 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2378614812</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2315661134 - Control 10130681 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a code to idenfity bank account of company.</source>
           <target state="translated">Určuje kód identifikující bankovní účet společnosti.</target>
@@ -25596,6 +25638,34 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4050300754</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3511462517 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 920795658</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3219836932 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2543266615</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2460552953 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1251096278</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4056532328 - Control 3056514551 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the template for item movement.</source>
+          <target state="translated">Určuje šablonu pro přesun zboží.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 155881795</note>
         </trans-unit>
         <trans-unit id="PageExtension 1853128743 - Action 3632438814 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print physical inventory counting document.</source>
@@ -32499,6 +32569,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's balance which is connected with certain vendor</source>
+          <target state="translated">Určuje saldo zákazníka, které je spojena s určitým dodavatelem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3731745343 - Control 120763986 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance As Customer (LCY)</source>
+          <target state="translated">Zůstatek jako zákazník (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3731745343 - Control 4263661069 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies that the check of VAT Unreliable Payer is disabled.</source>
           <target state="translated">Určuje, že kontrola nespolehlivého plátce DPH je zakázána.</target>
@@ -33590,6 +33674,27 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2247222673</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 775211178 - Field 3056514551 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Movement Template</source>
+          <target state="translated">Šablona pohybu zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2199490085</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3841722071 - Field 3056514551 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Movement Template</source>
+          <target state="translated">Šablona pohybu zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4076887508</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971335387 - Field 3056514551 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Movement Template</source>
+          <target state="translated">Šablona pohybu zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1657534480</note>
         </trans-unit>
         <trans-unit id="TableExtension 3995117583 - Field 2185168351 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Certificate Code</source>
@@ -37312,6 +37417,11 @@
           <target state="translated">Závazky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Assets Liabilities Type CZL - EnumValue Liabilities - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 817743510 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Credit Memo Type CZL - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 817743510 - EnumValue 4241608458 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Corrective Tax Document</source>

@@ -2464,7 +2464,7 @@
         </trans-unit>
         <trans-unit id="Page 2005578726 - Action 737724599 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check status for upload process for extensions.</source>
-          <target state="translated">Cheque status for upload process for extensions.</target>
+          <target state="translated">Check status for upload process for extensions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extension Management - Action Deployment Status - Property ToolTip</note>
         </trans-unit>

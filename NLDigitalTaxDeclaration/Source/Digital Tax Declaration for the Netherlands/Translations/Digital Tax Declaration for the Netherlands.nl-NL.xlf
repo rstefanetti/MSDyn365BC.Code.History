@@ -3,11 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="nl-NL" original="Digital Tax Declaration for the Netherlands">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3303160028 - NamedType 1098592984" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Create Elec. Tax Declaration - NamedType BdINameSpaceTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2007660978 - NamedType 4228917949" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>DigitalTaxDecl</source>
           <note from="Developer" annotates="general" priority="2"></note>

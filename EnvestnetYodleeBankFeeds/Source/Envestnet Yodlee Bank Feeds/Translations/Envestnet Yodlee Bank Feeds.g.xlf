@@ -1073,6 +1073,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnableToInsertUnlinkedBankAccToBufferErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2997122605" size-unit="char" translate="no" xml:space="preserve">
+          <source>Starting to register user %1 with currency code %2 on Yodlee.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType StartingToRegisterUserTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 1033613857" size-unit="char" translate="no" xml:space="preserve">
           <source>/root/root/transaction/accountId</source>
           <note from="Developer" annotates="general" priority="2"></note>

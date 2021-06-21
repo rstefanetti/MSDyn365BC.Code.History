@@ -42,7 +42,7 @@
         </trans-unit>
         <trans-unit id="Page 868071540 - Control 2488944089 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the format of the payroll transaction file that can be imported into the General Journal window.</source>
-          <target state="translated">Angiver formatet på filen med løntransaktioner, som kan importeres i vinduet Finanskladde.</target>
+          <target state="translated">Angiver formatet på filen med løntransaktioner, der kan importeres i vinduet Finanskladde.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Control Payroll Trans. Import Format - Property ToolTip</note>
         </trans-unit>

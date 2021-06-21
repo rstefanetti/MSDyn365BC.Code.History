@@ -272,7 +272,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3601034231 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 and %2 cannot be used simultaneously for payments.</source>
-          <target state="translated">%1 og %2 kan ikke bruges samtidigt til betalinger.</target>
+          <target state="translated">%1 og %2 kan ikke bruges samtidig til betalinger.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType SimultaneousPaymentDetailsErr</note>
         </trans-unit>
@@ -475,7 +475,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 and %2 cannot be used simultaneously for payments.</source>
-          <target state="translated">%1 og %2 kan ikke bruges samtidigt til betalinger.</target>
+          <target state="translated">%1 og %2 kan ikke bruges samtidig til betalinger.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType SimultaneousPaymentDetailsErr</note>
         </trans-unit>

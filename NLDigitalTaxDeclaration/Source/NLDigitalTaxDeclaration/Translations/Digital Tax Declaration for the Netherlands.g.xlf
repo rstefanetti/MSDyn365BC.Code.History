@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Codeunit 3303160028 - NamedType 1098592984" size-unit="char" translate="no" xml:space="preserve">
-          <source>http://www.nltaxonomie.nl/nt14/bd/20191211/dictionary/bd-data</source>
+          <source>http://www.nltaxonomie.nl/nt15/bd/20201209/dictionary/bd-data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Create Elec. Tax Declaration - NamedType BdINameSpaceTxt</note>
         </trans-unit>

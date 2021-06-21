@@ -1102,7 +1102,7 @@
         </trans-unit>
         <trans-unit id="Table 4224243242 - Field 3896559642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country name</source>
-          <target state="translated">Lande-/områdenavn</target>
+          <target state="translated">Lande/områdenavn</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 Country - Field ExtCountryName - Property Caption</note>
         </trans-unit>

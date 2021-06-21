@@ -48,15 +48,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestLiabilitiesWebService - NamedType RetrieveLiabilitiesUpToDateMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2206341920 - NamedType 2555273173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HMRC VAT Sandbox Setup</source>
+        <trans-unit id="Codeunit 2206341920 - NamedType 3921054357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType ServiceConnectionSandboxSetupLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2206341920 - NamedType 1596210425" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HMRC VAT Setup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType ServiceConnectionPRODSetupLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType OAuthNotConfiguredErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2206341920 - NamedType 837215791" size-unit="char" translate="yes" xml:space="preserve">
           <source>HMRC Making Tax Digital VAT Returns</source>
@@ -68,11 +63,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType OAuthSandboxSetupDescriptionLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2206341920 - NamedType 3921054357" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType OAuthNotConfiguredErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2206341920 - NamedType 3556582670" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open service connections to setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -82,6 +72,16 @@
           <source>Do you want to open the setup?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType OpenSetupQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2206341920 - NamedType 1596210425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC VAT Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType ServiceConnectionPRODSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2206341920 - NamedType 2555273173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC VAT Sandbox Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType ServiceConnectionSandboxSetupLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 323320427 - NamedType 1481040075" size-unit="char" translate="yes" xml:space="preserve">
           <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
@@ -98,25 +98,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType OpenSetupQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 323320427 - NamedType 783031342" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Not possible to retrieve VAT payments.</source>
+        <trans-unit id="Codeunit 323320427 - NamedType 937380464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason: </source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType RetrievePaymentsErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 323320427 - NamedType 1740893731" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Refresh token successful.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType RefreshSuccessfulTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType ReasonTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 323320427 - NamedType 4040706098" size-unit="char" translate="yes" xml:space="preserve">
           <source>Refresh token failed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType RefreshFailedTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 323320427 - NamedType 937380464" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reason: </source>
+        <trans-unit id="Codeunit 323320427 - NamedType 1740893731" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh token successful.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType ReasonTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType RefreshSuccessfulTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 323320427 - NamedType 783031342" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to retrieve VAT payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType RetrievePaymentsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1254836697 - NamedType 3688490447" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get VAT Payments</source>
@@ -138,30 +138,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestPeriodsWebService - NamedType GetReturnPeriodsLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1434974284 - NamedType 1495301485" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Retrieve VAT return periods are up to date.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestPeriodsWebService - NamedType RetrievePeriodsUpToDateMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1434974284 - NamedType 1695200263" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not possible to retrieve VAT return periods.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestPeriodsWebService - NamedType RetrievePeriodsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1434974284 - NamedType 1495301485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve VAT return periods are up to date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestPeriodsWebService - NamedType RetrievePeriodsUpToDateMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1515240710 - NamedType 1424015748" size-unit="char" translate="yes" xml:space="preserve">
           <source>When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution. Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturns - NamedType ConfirmSubmitQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1515240710 - NamedType 404031900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no return period linked to this VAT return.\\Use the Create From VAT Return Period action on the VAT Returns page or the Create VAT Return action on the VAT Return Periods page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturns - NamedType PeriodLinkErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1515240710 - NamedType 4230685477" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT statement template %1 name %2 has a wrong setup. There must be nine rows, each with a value between 1 and 9 for the Box No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturns - NamedType WrongVATSatementSetupErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1515240710 - NamedType 404031900" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is no return period linked to this VAT return.\\Use the Create From VAT Return Period action on the VAT Returns page or the Create VAT Return action on the VAT Return Periods page.</source>
+        <trans-unit id="Codeunit 3611664745 - NamedType 1424015748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution. Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturns - NamedType PeriodLinkErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType ConfirmSubmitQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3611664745 - NamedType 4143198876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The remote endpoint has indicated that there is no submitted VAT returns for the specified period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType NoSubmittedReturnsMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3611664745 - NamedType 1057011078" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not possible to retrieve submitted VAT returns.</source>
@@ -173,20 +183,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType RetrieveReturnsUpToDateMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3611664745 - NamedType 4143198876" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The remote endpoint has indicated that there is no submitted VAT returns for the specified period.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType NoSubmittedReturnsMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3611664745 - NamedType 35889469" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not possible to submit VAT return.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType SubmitReturnErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3611664745 - NamedType 1424015748" size-unit="char" translate="yes" xml:space="preserve">
-          <source>When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution. Do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestReturnsWebService - NamedType ConfirmSubmitQst</note>
         </trans-unit>
       </group>
     </body>

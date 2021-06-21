@@ -3,35 +3,35 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Quickbooks Payroll File Import">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 489640992 - NamedType 877301624" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Quickbooks Payroll File Import</source>
+        <trans-unit id="Codeunit 489640992 - NamedType 1888302128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing Data...</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType QuickbooksPayrollExtensionNameTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportingMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 3047505457" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import IIF file</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportPackageTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 1888302128" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Importing Data...</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportingMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 225703786" size-unit="char" translate="yes" xml:space="preserve">
           <source>This is not a valid IIF transaction file. Required token %1 could not be found in the file.</source>
           <note from="Developer" annotates="general" priority="2">%1 - arbitrary text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType InvalidIIFTransFileErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 489640992 - NamedType 364873347" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more transactions in the imported file were not imported because they are not of supported type. Supported transaction types are: General Journal, Check, and Transfer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NonSupportedTransactionsDetectedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 1033154955" size-unit="char" translate="yes" xml:space="preserve">
           <source>No transactions with supported type were found in the imported file. Supported transaction types are: General Journal, Check, and Transfer.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NoSupportedTransactionsMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 489640992 - NamedType 364873347" size-unit="char" translate="yes" xml:space="preserve">
-          <source>One or more transactions in the imported file were not imported because they are not of supported type. Supported transaction types are: General Journal, Check, and Transfer.</source>
+        <trans-unit id="Codeunit 489640992 - NamedType 877301624" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quickbooks Payroll File Import</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NonSupportedTransactionsDetectedMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType QuickbooksPayrollExtensionNameTxt</note>
         </trans-unit>
       </group>
     </body>

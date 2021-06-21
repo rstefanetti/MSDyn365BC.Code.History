@@ -1013,6 +1013,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field Dimension Set ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2453418483 - Field 3770308547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter Link Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field Advance Letter Link Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2453418483 - NamedType 430254759" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = TableCaption</note>
@@ -3227,6 +3232,36 @@
           <source>Specifies rounding of cash document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Cash Document Rounding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 781841601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Advance Letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Advance Letters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 781841601 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow to link partial payment of advance letters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Advance Letters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 1336921863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Whole Advance Letter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Whole Advance Letter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 1336921863 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow to link whole advance letters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Whole Advance Letter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 217464279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UnLink Linked Advance Letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action UnLink Linked Advance Letters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 217464279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlinks linked advance letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action UnLink Linked Advance Letters - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1970646769 - Action 1359316502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Copy Document</source>

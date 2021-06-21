@@ -14243,6 +14243,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information CZL - Action OfficialsCZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2364533234 - Action 538895888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
+          <source>Document Footers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information CZL - Action DocumentFootersCZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2364533234 - Action 538895888 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
+          <source>Allows the setup of document footers for printout.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information CZL - Action DocumentFootersCZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2364533234 - Field 1381025112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
           <source>Default Bank Account Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17183,15 +17193,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Default VAT Date CZL - EnumValue Blank - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 488479161 - EnumValue 990296649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Internal</source>
+        <trans-unit id="Enum 488479161 - EnumValue 3983413516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financial Accounting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Internal - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Financial Accounting - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 488479161 - EnumValue 975553592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Off-Balance</source>
+        <trans-unit id="Enum 488479161 - EnumValue 1349841242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Accounting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Off-Balance - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Internal Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 488479161 - EnumValue 3289514687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Off-Balance Accounting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Off-Balance Accounting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2705620411 - EnumValue 673258877 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Limit Check</source>

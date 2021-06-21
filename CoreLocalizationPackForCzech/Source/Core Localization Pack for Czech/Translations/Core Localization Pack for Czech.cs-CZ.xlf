@@ -10329,7 +10329,7 @@
         </trans-unit>
         <trans-unit id="Report 22646490 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>General Ledger</source>
-          <target state="translated">Věcné položky</target>
+          <target state="translated">Hlavní účetní kniha</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report General Ledger CZL - Property Caption</note>
         </trans-unit>
@@ -10413,7 +10413,7 @@
         </trans-unit>
         <trans-unit id="Report 22646490 - NamedType 1511862940" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>General Ledger</source>
-          <target state="translated">Věcné položky</target>
+          <target state="translated">Hlavní účetní kniha</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report General Ledger CZL - NamedType General_LedgerCaptionLbl</note>
         </trans-unit>
@@ -15402,7 +15402,7 @@
         </trans-unit>
         <trans-unit id="Report 3935922130 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Turnover Report by Global Dimensions</source>
-          <target state="translated">Sestava obratu podle globálních dimenzí</target>
+          <target state="translated">Obratová předvaha dle globální dimenze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Turnover Rpt. by Gl. Dim. CZL - Property Caption</note>
         </trans-unit>
@@ -17118,7 +17118,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1240574134 - Action 877071095 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Turnover Report by Global Dimensions</source>
-          <target state="translated">Obratová předvaha dle glob.dimenze</target>
+          <target state="translated">Obratová předvaha dle globální dimenze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3105459369</note>
@@ -17224,6 +17224,20 @@
         <trans-unit id="PageExtension 2364533234 - Action 2950946185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contains the list of officials whitch represent the company.</source>
           <target state="translated">Obsahuje seznam zástupců, kteří reprezentují společnost.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3469146285</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2364533234 - Action 538895888 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Footers</source>
+          <target state="translated">Zápatí dokumentů</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3469146285</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2364533234 - Action 538895888 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows the setup of document footers for printout.</source>
+          <target state="translated">Umožňuje nastavení zápatí dokumentu pro tisk.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3469146285</note>
@@ -17650,7 +17664,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3270158888 - Action 877071095 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Turnover Report by Global Dimensions</source>
-          <target state="translated">Obratová předvaha dle glob.dimenze</target>
+          <target state="translated">Obratová předvaha dle globální dimenze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4219821699</note>
@@ -21329,17 +21343,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Default VAT Date CZL - EnumValue Blank - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 488479161 - EnumValue 990296649 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Internal</source>
-          <target state="translated">Vnitropodniková</target>
+        <trans-unit id="Enum 488479161 - EnumValue 3983413516 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financial Accounting</source>
+          <target state="translated">Finanční účet</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Internal - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Financial Accounting - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 488479161 - EnumValue 975553592 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Off-Balance</source>
-          <target state="translated">Podrozvahová</target>
+        <trans-unit id="Enum 488479161 - EnumValue 1349841242 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Accounting</source>
+          <target state="translated">Vnitropodnikový účet</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Off-Balance - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Internal Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 488479161 - EnumValue 3289514687 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Off-Balance Accounting</source>
+          <target state="translated">Podrozvahový účet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum G/L Account Group CZL - EnumValue Off-Balance Accounting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2705620411 - EnumValue 673258877 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Limit Check</source>

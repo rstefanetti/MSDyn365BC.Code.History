@@ -638,7 +638,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Elster VAT Statement Name - Field Sales VAT Adv. Notif. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1421593324 - NamedType 2126343653" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3421076227">
+        <trans-unit id="TableExtension 1421593324 - NamedType 2126343653" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1421593324">
           <source>There is already a %1 set up for %2.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Elster VAT Statement Name - NamedType AlreadyExistsErr</note>

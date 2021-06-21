@@ -383,6 +383,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XCHECKTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 2318297758" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK71</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType FIKImportFormatTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 1350017906" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Code</source>
           <note from="Developer" annotates="general" priority="2">Translate to FIK-kode (FIK is danish abbreviation).</note>

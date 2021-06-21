@@ -13,12 +13,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FIKUplift - Field IsUpgraded - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 766343727 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 766343727 - Field 3004954119 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FIKExtension - Field Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 766343727 - Field 4243077746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 766343727 - Field 4243077746 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>IsUpgraded</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FIKExtension - Field IsUpgraded - Property Caption</note>

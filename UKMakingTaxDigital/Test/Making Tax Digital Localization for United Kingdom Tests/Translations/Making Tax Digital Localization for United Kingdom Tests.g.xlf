@@ -33,6 +33,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Making Tax Digital - NamedType RetrieveReturnsMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1641507374 - NamedType 2221049881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC requires additional information that will be used to uniquely identify your request. The following fraud prevention headers will be sent:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Making Tax Digital - NamedType ConfirmHeadersMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3288911696 - NamedType 2910485357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All required fraud prevention headers were provided in the latest HMRC request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Test Fraud Prevention Hdrs - NamedType NoMissingHeaderMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3288911696 - NamedType 872010099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following fraud prevention headers were missing in the latest HMRC request:\\%1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Test Fraud Prevention Hdrs - NamedType MissingHeadersMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3288911696 - NamedType 3355038226" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Communication with HMRC without fraud prevention headers is not allowed. Set up the missing headers in the HMRC Fraud Prevention Headers Setup page, and specify a default value for each of them. Choose the Get Current Headers action to see which headers cannot be retrieved automatically.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Test Fraud Prevention Hdrs - NamedType OpenHeadersSetupMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2445249313 - NamedType 94923679" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get VAT Liabilities</source>
           <note from="Developer" annotates="general" priority="2"></note>

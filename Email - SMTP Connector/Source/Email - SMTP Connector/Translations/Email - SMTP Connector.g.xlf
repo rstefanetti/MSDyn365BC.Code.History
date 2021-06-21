@@ -178,10 +178,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action ApplyOffice365 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 2856463624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authenticate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Authenticate with OAuth 2.0 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 2856463624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authenticate with your Exchange Online account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Authenticate with OAuth 2.0 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 3313980247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verify Authentication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Check OAuth 2.0 authentication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - Action 3313980247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verify that OAuth 2.0 authentication was successful.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - Action Check OAuth 2.0 authentication - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4170592685 - NamedType 1197554121" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to override the current data?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - NamedType ConfirmApplyO365Qst</note>
+        </trans-unit>
+        <trans-unit id="Page 4170592685 - NamedType 3367967186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before people can send email they must authenticate their email account. They can do that by choosing the Authenticate action on the SMTP Account page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account - NamedType EveryUserShouldPressAuthenticateMsg</note>
         </trans-unit>
         <trans-unit id="EnumExtension 557475667 - EnumValue 303760854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1993094577">
           <source>SMTP</source>
@@ -282,6 +307,26 @@
           <source>The address %1 could not be parsed correctly.</source>
           <note from="Developer" annotates="general" priority="2">%1=The email address</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType EmailParseFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 1846709916" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No extension provided the OAuth 2.0 authentication.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType NoOAuth2ProviderErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 441163528" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not authenticate. To resolve the problem, choose the Authenticate action on the SMTP Account page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType CouldNotAuthenticateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 1534236911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 was authenticated.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - user email, for example, admin@domain.com</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType AuthenticationSuccessfulMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4052218681 - NamedType 2563123446" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not authenticate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OAuth2 SMTP Authentication - NamedType AuthenticationFailedMsg</note>
         </trans-unit>
         <trans-unit id="Page 707219180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup SMTP Account</source>
@@ -422,6 +467,11 @@
           <source>Do you want to override the current data?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - NamedType ConfirmApplyO365Qst</note>
+        </trans-unit>
+        <trans-unit id="Page 707219180 - NamedType 3367967186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Before people can send email they must authenticate their email account. They can do that by choosing the Authenticate action on the SMTP Account page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SMTP Account Wizard - NamedType EveryUserShouldPressAuthenticateMsg</note>
         </trans-unit>
       </group>
     </body>

@@ -3,20 +3,25 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Digital Tax Declaration for the Netherlands">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3421905931 - NamedType 3222702005" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Receiving Electronic Tax Declaration Responses...</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ReceiveDeclarationTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3421905931 - NamedType 3289377875" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Report header %1,%2 could not be found.</source>
           <note from="Developer" annotates="general" priority="2">%1,%2 - key values</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType HeaderNotFoundErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 3222702005" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receiving Electronic Tax Declaration Responses...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ReceiveDeclarationTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2140808972 - NamedType 837239636" size-unit="char" translate="yes" xml:space="preserve">
           <source>A content for submission is not available. Make sure you specified the correct value in the Content Codeunit ID field on the VAT Reports Configuration page.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Submit Elec. Tax Declaration - NamedType ContentNotAvailableErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 950139582 - NamedType 1962471661" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is only possible to create an Electronic VAT Declaration for one company. If more companies belong to this Fiscal Entity, please submit the VAT details via the Tax Authority website.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType OneCompanyTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 950139582 - NamedType 1124693441" size-unit="char" translate="yes" xml:space="preserve">
           <source>Additional Information can only contain letters, digits and dashes</source>
@@ -27,11 +32,6 @@
           <source>Additional Information must start with 'OB-'</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType StartsWithOBErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 950139582 - NamedType 1962471661" size-unit="char" translate="yes" xml:space="preserve">
-          <source>It is only possible to create an Electronic VAT Declaration for one company. If more companies belong to this Fiscal Entity, please submit the VAT details via the Tax Authority website.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validate Elec. Tax Declaration - NamedType OneCompanyTxt</note>
         </trans-unit>
       </group>
     </body>

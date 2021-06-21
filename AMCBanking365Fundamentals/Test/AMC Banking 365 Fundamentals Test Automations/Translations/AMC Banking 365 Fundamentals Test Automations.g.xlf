@@ -3,115 +3,20 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="AMC Banking 365 Fundamentals Test Automations">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 2979246637 - NamedType 3164795350" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The %1 is missing the user name or password. Do you want to open the %1 page?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = page name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Credential UT - NamedType MissingCredentialsQst</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2979246637 - NamedType 2591510851" size-unit="char" translate="yes" xml:space="preserve">
           <source>The user name and password must be filled in %1 page.</source>
           <note from="Developer" annotates="general" priority="2">%1 = page name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Credential UT - NamedType MissingCredentialsErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2979246637 - NamedType 3164795350" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 is missing the user name or password. Do you want to open the %1 page?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = page name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Credential UT - NamedType MissingCredentialsQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2979246637 - NamedType 128301118" size-unit="char" translate="yes" xml:space="preserve">
           <source>The expected data was not received from the web service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Credential UT - NamedType NoConnectionErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 987723820 - NamedType 1810949511" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The request body is not set.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Stmt. to AMC Format UT - NamedType NoRequestBodyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 45019233" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The URI is not secure.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType UnsecureUriErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 3531511414" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The URI is not valid.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType InvalidUriErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 652137115" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The password from the database does not match the one that was introduced.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType PasswordDoesNotMatchErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 4016683539" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The encryption was not activated.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType EncryptionIsNotActiveErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 3072151880" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The encryption is activated and it should not be.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType EncryptionIsActiveErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1204471083 - NamedType 2591510851" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The user name and password must be filled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType MissingCredentialsErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 3656526069" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 Field:"%2" different from expected.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType AssertMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 1702298147" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The file that you are trying to import contains more than one bank statement.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MultiStatementErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 3608730181" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The statement date was not found in the data to be imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingStatementDateInDataMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 957449493" size-unit="char" translate="yes" xml:space="preserve">
-          <source>urn:iso:std:iso:20022:tech:xsd:camt.053.001.02</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType NamespaceTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 1975081983" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank account %1 does not have the bank account number</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType BankAccMismatchQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 2242781076" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The bank account number was not found in the data to be imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBankAccNoInDataErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 4082076936" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank account %1 does not have a bank account number. Do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBankAccNoQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 1428720056" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The bank statement that you are importing contains transactions in currencies other than the Currency Code </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType BankAccCurrErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 2166558474" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 of bank account %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType CurrCodeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 393648751" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The balance type was not found in the data to be imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBalTypeInDataMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2463095515 - NamedType 3619650937" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The closing balance was not found in the data to be imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingClosingBalanceInDataMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 14298264 - NamedType 1278999224" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must have a value</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt. Export AMC - Extract Data - NamedType MissingBankNameDataConvErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3946625331 - NamedType 1284718327" size-unit="char" translate="yes" xml:space="preserve">
           <source>Errors should have been inserted.</source>
@@ -123,11 +28,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC CT E2E Web Service Test - NamedType HasErrorsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3946625331 - NamedType 1606912885" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The AMC Banking has returned the following error message:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC CT E2E Web Service Test - NamedType SyslogErrorsErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3946625331 - NamedType 4085682537" size-unit="char" translate="yes" xml:space="preserve">
           <source>File not recognized as valid bankfile</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -138,10 +38,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC CT E2E Web Service Test - NamedType StmtNotRecognized2Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3946625331 - NamedType 1606912885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The AMC Banking has returned the following error message:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC CT E2E Web Service Test - NamedType SyslogErrorsErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3946625331 - NamedType 488662429" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unexpected value was found. Expected value was: %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Test error value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC CT E2E Web Service Test - NamedType UnexpectedValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 230233303 - NamedType 3795224834" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank name is not the same as the expected one.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Name Conv Serv Lookup - NamedType IncorrectBankMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 230233303 - NamedType 2563208725" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is no element in the list. The service did not provide any elements.</source>
@@ -153,20 +63,110 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Name Conv Serv Lookup - NamedType NotEmptyListMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 230233303 - NamedType 3795224834" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The bank name is not the same as the expected one.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Name Conv Serv Lookup - NamedType IncorrectBankMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1849500811 - NamedType 228609747" size-unit="char" translate="yes" xml:space="preserve">
           <source>The country code entered does not exist</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Name Lookup E2E - NamedType CountrCodeErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 987723820 - NamedType 1810949511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request body is not set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Stmt. to AMC Format UT - NamedType NoRequestBodyErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1947765334 - NamedType 1975081983" size-unit="char" translate="yes" xml:space="preserve">
           <source>as specified in the bank statement file.\\Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Base64 Decoding / Encoding - NamedType BankAccMismatchQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 3072151880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The encryption is activated and it should not be.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType EncryptionIsActiveErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 4016683539" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The encryption was not activated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType EncryptionIsNotActiveErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 3531511414" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The URI is not valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType InvalidUriErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 2591510851" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The user name and password must be filled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType MissingCredentialsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 652137115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The password from the database does not match the one that was introduced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType PasswordDoesNotMatchErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1204471083 - NamedType 45019233" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The URI is not secure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ERM AMC banking Setup ATDD - NamedType UnsecureUriErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 3656526069" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Field:"%2" different from expected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType AssertMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 1428720056" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank statement that you are importing contains transactions in currencies other than the Currency Code </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType BankAccCurrErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 1975081983" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 does not have the bank account number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType BankAccMismatchQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 2166558474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 of bank account %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType CurrCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 393648751" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The balance type was not found in the data to be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBalTypeInDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 2242781076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank account number was not found in the data to be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBankAccNoInDataErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 4082076936" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 does not have a bank account number. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingBankAccNoQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 3619650937" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The closing balance was not found in the data to be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingClosingBalanceInDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 3608730181" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The statement date was not found in the data to be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MissingStatementDateInDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 1702298147" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file that you are trying to import contains more than one bank statement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType MultiStatementErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2463095515 - NamedType 957449493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>urn:iso:std:iso:20022:tech:xsd:camt.053.001.02</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Import XML Bank Acc. Rec. Line - NamedType NamespaceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 14298264 - NamedType 1278999224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt. Export AMC - Extract Data - NamedType MissingBankNameDataConvErr</note>
         </trans-unit>
       </group>
     </body>

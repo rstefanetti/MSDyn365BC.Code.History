@@ -809,7 +809,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hong Kong branch number</source>
-          <target>Hongkong-afdelingsnummer</target>
+          <target>SAR Hongkong-afdelingsnummer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
         </trans-unit>
@@ -1714,7 +1714,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Control 1732083938 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the bank, and potentially its country/region code, that supports your setup for import/export of bank data using the AMC Banking feature.</source>
-          <target>Angiver navnet på den bank og eventuelt dens lande/områdekode, som understøtter konfigurationen til import/eksport af bankdata ved hjælp af AMC Banking.</target>
+          <target>Angiver navnet/området på den bank og eventuelt dens lande/områdekode, som understøtter konfigurationen til import/eksport af bankdata ved hjælp af AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Bank - Property ToolTip</note>
         </trans-unit>

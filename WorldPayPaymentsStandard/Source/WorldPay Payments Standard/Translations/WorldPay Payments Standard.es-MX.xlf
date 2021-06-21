@@ -5,373 +5,373 @@
       <group id="body">
         <trans-unit id="Table 229120069 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard Account</source>
-          <target>Cuenta WorldPay Payments Standard</target>
+          <target state="translated">Cuenta WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
-          <target>Clave principal</target>
+          <target state="translated">Clave principal</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Primary Key - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 2961552353 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target>Nombre</target>
+          <target state="translated">Nombre</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target>Descripción</target>
+          <target state="translated">Descripción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 2891538263 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enabled</source>
-          <target>Habilitado</target>
+          <target state="translated">Habilitado</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Enabled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 3302455580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Always Include on Documents</source>
-          <target>Incluir siempre en documentos</target>
+          <target state="translated">Incluir siempre en documentos</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Always Include on Documents - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 161526099 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Terms of Service</source>
-          <target>Condiciones del servicio</target>
+          <target state="translated">Condiciones del servicio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Terms of Service - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 629845928 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account ID</source>
-          <target>Id. de cuenta</target>
+          <target state="translated">Id. de cuenta</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Account ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - Field 2362480470 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service URL</source>
-          <target>URL de servicio</target>
+          <target state="translated">URL de servicio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - Field Target URL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - NamedType 1467349039" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify an account ID for this payment service.</source>
-          <target>Debe especificar un id. de cuenta para este servicio de pago.</target>
+          <target state="translated">Debe especificar un id. de cuenta para este servicio de pago.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - NamedType AccountIDCannotBeBlankErr</note>
         </trans-unit>
         <trans-unit id="Table 229120069 - NamedType 246429963" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>A link for the WorldPay payment service will be included for new sales documents. To add it to existing sales documents, you must manually select it in the Payment Service field on the sales document.</source>
-          <target>Se incluirá un vínculo del servicio de pago de WorldPay para los nuevos documentos de venta. Para agregarlo a los documentos de venta existentes, debe seleccionarlo manualmente en el campo Servicio de pago del documento de venta.</target>
+          <target state="translated">Se incluirá un vínculo del servicio de pago de WorldPay para los nuevos documentos de venta. Para agregarlo a los documentos de venta existentes, debe seleccionarlo manualmente en el campo Servicio de pago del documento de venta.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Standard Account - NamedType UpdateOpenInvoicesManuallyMsg</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard Account Template</source>
-          <target>Plantilla de cuenta WorldPay Payments Standard</target>
+          <target state="translated">Plantilla de cuenta WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 3004954119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
-          <target>Código</target>
+          <target state="translated">Código</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 2961552353 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target>Nombre</target>
+          <target state="translated">Nombre</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <target>Descripción</target>
+          <target state="translated">Descripción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 161526099 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Terms of Service</source>
-          <target>Condiciones del servicio</target>
+          <target state="translated">Condiciones del servicio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Terms of Service - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 1123305005 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo</source>
-          <target>Logotipo</target>
+          <target state="translated">Logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Logo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 2362480470 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service URL</source>
-          <target>URL de servicio</target>
+          <target state="translated">URL de servicio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Target URL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 2211917788 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo URL</source>
-          <target>URL del logotipo</target>
+          <target state="translated">URL del logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Logo URL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 1402567763 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo Last Update DateTime</source>
-          <target>Fecha y hora de actualización más reciente de logotipo</target>
+          <target state="translated">Fecha y hora de actualización más reciente de logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Logo Last Update DateTime - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 1516166834 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo Update Frequency</source>
-          <target>Frecuencia de actualización de logotipo</target>
+          <target state="translated">Frecuencia de actualización de logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Logo Update Frequency - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - NamedType 2091149682" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot update the WorldPay logo.</source>
-          <target>No se puede actualizar el logotipo de WorldPay.</target>
+          <target state="translated">No se puede actualizar el logotipo de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - NamedType UpdatingWorldPayLogoFailedTxt</note>
         </trans-unit>
         <trans-unit id="Table 4133982816 - NamedType 413249967" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Standard</source>
-          <target>Servicio estándar de WorldPay</target>
+          <target state="translated">Servicio estándar de WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - NamedType WorldPayContextTxt</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard Template</source>
-          <target>Plantilla WorldPay Payments Standard</target>
+          <target state="translated">Plantilla WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 2445482498 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
-          <target>General</target>
+          <target state="translated">General</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default name for the WorldPay payment service.</source>
-          <target>Especifica el nombre predeterminado para el servicio de pago de WorldPay.</target>
+          <target state="translated">Especifica el nombre predeterminado para el servicio de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default description for the WorldPay payment service.</source>
-          <target>Especifica la descripción predeterminada para el servicio de pago de WorldPay.</target>
+          <target state="translated">Especifica la descripción predeterminada para el servicio de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 1123305005 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default logo for the WorldPay payment service.</source>
-          <target>Especifica el logotipo predeterminado para el servicio de pago de WorldPay.</target>
+          <target state="translated">Especifica el logotipo predeterminado para el servicio de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Logo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 4086242710 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Target URL</source>
-          <target>URL de destino</target>
+          <target state="translated">URL de destino</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control TargetURL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 4086242710 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default target URL that will be used for the WorldPay payment services.</source>
-          <target>Especifica la dirección URL de destino predeterminada que se va a utilizar para los servicios de pago de WorldPay.</target>
+          <target state="translated">Especifica la dirección URL de destino predeterminada que se va a utilizar para los servicios de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control TargetURL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 161526099 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the terms of use for the WorldPay payment service.</source>
-          <target>Especifica las condiciones de uso del servicio de pago de WorldPay.</target>
+          <target state="translated">Especifica las condiciones de uso del servicio de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Terms of Service - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 2228795340 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo URL</source>
-          <target>URL del logotipo</target>
+          <target state="translated">URL del logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control LogoURL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 2228795340 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the URL from which the logo will be refreshed regularly.</source>
-          <target>Especifica la dirección URL desde la que se actualizará periódicamente el logotipo.</target>
+          <target state="translated">Especifica la dirección URL desde la que se actualizará periódicamente el logotipo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control LogoURL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 1516166834 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the frequency with which the logo is updated.</source>
-          <target>Especifica la frecuencia con la que se actualiza el logotipo.</target>
+          <target state="translated">Especifica la frecuencia con la que se actualiza el logotipo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Logo Update Frequency - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Action 3160976295 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reset To Default</source>
-          <target>Restaurar valores predeterminados</target>
+          <target state="translated">Restaurar valores predeterminados</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Action ResetToDefault - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Action 3160976295 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Resets values to default.</source>
-          <target>Restablece los valores predeterminados.</target>
+          <target state="translated">Restablece los valores predeterminados.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Action ResetToDefault - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - NamedType 1102136885" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settings have been set to default.</source>
-          <target>La configuración se ha establecido en los valores predeterminados.</target>
+          <target state="translated">La configuración se ha establecido en los valores predeterminados.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - NamedType SetToDefaultMsg</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 629845928 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account ID</source>
-          <target>Id. de cuenta</target>
+          <target state="translated">Id. de cuenta</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Account ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 443943387 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transaction ID</source>
-          <target>Id. de transacción</target>
+          <target state="translated">Id. de transacción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Transaction ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 587668972 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transaction Status</source>
-          <target>Estado de la transacción</target>
+          <target state="translated">Estado de la transacción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Transaction Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 775380468 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transaction Date</source>
-          <target>Fecha de transacción</target>
+          <target state="translated">Fecha de transacción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Transaction Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 3773776616 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transaction Type</source>
-          <target>Naturaleza de la transacción</target>
+          <target state="translated">Naturaleza de la transacción</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Transaction Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 4198939294 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
-          <target>Cód. divisa</target>
+          <target state="translated">Cód. divisa</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Currency Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 471669354 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gross Amount</source>
-          <target>Importe bruto</target>
+          <target state="translated">Importe bruto</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Gross Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 3035691293 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net Amount</source>
-          <target>Importe neto</target>
+          <target state="translated">Importe neto</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Net Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 3167542630 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fee Amount</source>
-          <target>Importe de comisión</target>
+          <target state="translated">Importe de comisión</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Fee Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 2525374026 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payer E-mail</source>
-          <target>Correo electrónico de pagador</target>
+          <target state="translated">Correo electrónico de pagador</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Payer E-mail - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 2434967932 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payer Name</source>
-          <target>Nombre de pagador</target>
+          <target state="translated">Nombre de pagador</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Payer Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 2819864851 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payer Address</source>
-          <target>Dirección de pagador</target>
+          <target state="translated">Dirección de pagador</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Payer Address - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 2898143332 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Note</source>
-          <target>Nota</target>
+          <target state="translated">Nota</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Note - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 3431463797 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Custom</source>
-          <target>Personalizado</target>
+          <target state="translated">Personalizado</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Custom - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 166038250 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice No.</source>
-          <target>N.º de factura</target>
+          <target state="translated">N.º de factura</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Invoice No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 2595192385 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Response Date</source>
-          <target>Fecha de respuesta</target>
+          <target state="translated">Fecha de respuesta</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Response Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2732276791 - Field 318613646 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Details</source>
-          <target>Detalles</target>
+          <target state="translated">Detalles</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Field Details - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3804706331" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice %1</source>
-          <target>Factura %1</target>
+          <target state="translated">Factura %1</target>
           <note from="Developer" annotates="general" priority="2">%1 Invoice No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType InvoiceTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3023250626" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This function is not supported for the %1 table.</source>
-          <target>No se admite esta función para la tabla %1.</target>
+          <target state="translated">No se admite esta función para la tabla %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 Caption of the table</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType NotSupportedTypeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 1399000617" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pay with WorldPay</source>
-          <target>Pagar con WorldPay</target>
+          <target state="translated">Pagar con WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayCaptionURLTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3790335743" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Note: You're in an evaluation company, and this isn't a real invoice. You can't actually pay it.</source>
-          <target>Nota: Se encuentra en una empresa de evaluación y esta no es una factura real. En realidad, no puede pagarla.</target>
+          <target state="translated">Nota: Se encuentra en una empresa de evaluación y esta no es una factura real. En realidad, no puede pagarla.</target>
           <note from="Developer" annotates="general" priority="2">Will be shown next to the Pay with WorldPay link.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType DemoLinkCaptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3939406074" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard</source>
-          <target>Servicio WorldPay Payments Standard</target>
+          <target state="translated">Servicio WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayStandardNameTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3729521185" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use the WorldPay Payments Standard service</source>
-          <target>Usar el servicio WorldPay Payments Standard</target>
+          <target state="translated">Usar el servicio WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayStandardDescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3235254042" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up and enable the WorldPay Payments Standard service.</source>
-          <target>Permite configurar y habilitar el servicio WorldPay Payments Standard.</target>
+          <target state="translated">Permite configurar y habilitar el servicio WorldPay Payments Standard.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayStandardBusinessSetupDescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 1045122670" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Your Ref.</source>
-          <target>Su ref.</target>
+          <target state="translated">Su ref.</target>
           <note from="Developer" annotates="general" priority="2">Ref. is short for reference from Your Reference field. After Ref there will be a number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType YourReferenceTxt</note>
         </trans-unit>
@@ -397,7 +397,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3394800156" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the target URL in the demonstration company.</source>
-          <target>No puede cambiar la dirección URL de destino de la empresa de demostración.</target>
+          <target state="translated">No puede cambiar la dirección URL de destino de la empresa de demostración.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType TargetURLCannotBeChangedInDemoCompanyErr</note>
         </trans-unit>
@@ -408,7 +408,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3143294897" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Add WorldPay link to your invoices.</source>
-          <target>Agregar un vínculo a WorldPay a sus facturas.</target>
+          <target state="translated">Agregar un vínculo a WorldPay a sus facturas.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayMenuDescriptionTxt</note>
         </trans-unit>
@@ -419,7 +419,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 2259426355" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finance,WorldPay,Payment</source>
-          <target>Finanzas,WorldPay,Pago</target>
+          <target state="translated">Finanzas,WorldPay,Pago</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayBusinessSetupKeywordsTxt</note>
         </trans-unit>
@@ -430,7 +430,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3149818938" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay payment</source>
-          <target>Pago de WorldPay</target>
+          <target state="translated">Pago de WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayPaymentMethodDescTok</note>
         </trans-unit>
@@ -456,13 +456,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 1788631818" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>An error occured while creating the WorldPay payment link.</source>
-          <target>Error al crear el vínculo de pago de WorldPay.</target>
+          <target state="translated">Error al crear el vínculo de pago de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayNoLinkErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3694338423" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>An error occured while creating the WorldPay payment link.\\Do you want to continue to create the document without the link?</source>
-          <target>Error al crear el vínculo de pago de WorldPay.\\¿Desea continuar creando el documento sin el vínculo?</target>
+          <target state="translated">Error al crear el vínculo de pago de WorldPay.\\¿Desea continuar creando el documento sin el vínculo?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayNoLinkQst</note>
         </trans-unit>
@@ -478,7 +478,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3255327378 - NamedType 101907022" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Demo Sandbox Account - </source>
-          <target>Cuenta de espacio aislado de demostración - </target>
+          <target state="translated">Cuenta de espacio aislado de demostración - </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Create Demo Data - NamedType DemoAccountPrefixTxt</note>
         </trans-unit>
@@ -489,127 +489,127 @@
         </trans-unit>
         <trans-unit id="Page 259547023 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard Setup</source>
-          <target>Configuración del servicio WorldPay Payments Standard</target>
+          <target state="translated">Configuración del servicio WorldPay Payments Standard</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 2445482498 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
-          <target>General</target>
+          <target state="translated">General</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control General - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the WorldPay account.</source>
-          <target>Especifica el nombre de la cuenta de WorldPay.</target>
+          <target state="translated">Especifica el nombre de la cuenta de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a description of what this WorldPay account is used for.</source>
-          <target>Especifica la descripción de la finalidad de la cuenta de WorldPay.</target>
+          <target state="translated">Especifica la descripción de la finalidad de la cuenta de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 629845928 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the email or the merchant account ID of the WorldPay account.</source>
-          <target>Especifica el correo electrónico o el id. de cuenta de comerciante de la cuenta de WorldPay.</target>
+          <target state="translated">Especifica el correo electrónico o el id. de cuenta de comerciante de la cuenta de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Account ID - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 2891538263 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the payment service is enabled.</source>
-          <target>Especifica si el servicio de pagos está habilitado.</target>
+          <target state="translated">Especifica si el servicio de pagos está habilitado.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Enabled - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 3302455580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to make this WorldPay account available on all documents.</source>
-          <target>Especifica si se debe realizar esta cuenta WorldPay disponible en todos los documentos.</target>
+          <target state="translated">Especifica si se debe realizar esta cuenta WorldPay disponible en todos los documentos.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Always Include on Documents - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 1123305005 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo</source>
-          <target>Logotipo</target>
+          <target state="translated">Logotipo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Logo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 1123305005 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the logo to include for this account on all invoices.</source>
-          <target>Especifica el logotipo que se debe incluir para esta cuenta en todas las facturas.</target>
+          <target state="translated">Especifica el logotipo que se debe incluir para esta cuenta en todas las facturas.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Logo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 4086242710 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Target URL</source>
-          <target>URL de destino</target>
+          <target state="translated">URL de destino</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control TargetURL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 4086242710 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address of the web page that opens when the customer chooses the link on the invoice.</source>
-          <target>Especifica la dirección de la página web que se abrirá cuando el cliente elija el vínculo de la factura.</target>
+          <target state="translated">Especifica la dirección de la página web que se abrirá cuando el cliente elija el vínculo de la factura.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control TargetURL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Control 161526099 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies WorldPay terms of service.</source>
-          <target>Especifica las condiciones del servicio de WorldPay.</target>
+          <target state="translated">Especifica las condiciones del servicio de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Control Terms of Service - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Action 2397962153 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Template</source>
-          <target>Plantilla de configuración</target>
+          <target state="translated">Plantilla de configuración</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Action SetupTemplate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Action 2397962153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens Template Setup for all WorldPay accounts.</source>
-          <target>Abre la plantilla de configuración para todas las cuentas de WorldPay.</target>
+          <target state="translated">Abre la plantilla de configuración para todas las cuentas de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Action SetupTemplate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Action 2678035379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Activity Log</source>
-          <target>Registro de actividades</target>
+          <target state="translated">Registro de actividades</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Action ActivityLog - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Action 2678035379 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Log listing events for this WorldPay account.</source>
-          <target>Registra eventos de listado de esta cuenta de WorldPay.</target>
+          <target state="translated">Registra eventos de listado de esta cuenta de WorldPay.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - Action ActivityLog - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - NamedType 3035575630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is not enabled. Are you sure you want to exit?</source>
-          <target>El %1 no está habilitado. ¿Está seguro de que desea salir?</target>
+          <target state="translated">El %1 no está habilitado. ¿Está seguro de que desea salir?</target>
           <note from="Developer" annotates="general" priority="2">%1 = pagecaption (WorldPay Payments Standard Setup)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - NamedType EnableServiceQst</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - NamedType 1234289210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This extension uses the WorldPay, a third-party provider. By enabling this extension, you will be subject to the applicable terms, conditions, and privacy policies that WorldPay may make available.\\When you establish a connection through the WorldPay Payments Standard extension, customer data from the invoice, such as invoice number, due date, amount, and currency, as well as your WorldPay account ID, will be inserted into the WorldPay payment link on invoices and sent to WorldPay when the customer chooses the link to pay. This data is used to ensure that the link contains enough information for your customers to pay the invoice, as well as for WorldPay to identify you as the recipient of a payment using the link.\\By installing this solution, you agree for this limited set of data to be sent to the WorldPay. Note that you can disable or uninstall the WorldPay Payments Standard extension at any time to discontinue the functionality.</source>
-          <target>Esta extensión utiliza el servicio WorldPay, un proveedor de terceros. Si habilita esta extensión, estará sujeto a los términos, condiciones y directivas de privacidad aplicables que WorldPay establezca.\\Al conectarse a través de la extensión WorldPay Payments Standard, los datos del cliente de la factura, como el número de factura, la fecha de vencimiento, el importe y la divisa, así como su id. de cuenta de WorldPay, se insertarán en el vínculo de pago de WorldPay de las facturas y se enviarán a WorldPay cuando el cliente elija el vínculo para pagar. Estos datos se utilizan para garantizar que el vínculo contenga suficiente información para que los clientes paguen la factura, y para que WorldPay le identifique como el destinatario de un pago a través del vínculo.\\Al instalar esta solución, acepta que se envíe este conjunto de datos limitado al servicio WorldPay. Tenga en cuenta que puede deshabilitar o desinstalar la extensión WorldPay Payments Standard en cualquier momento para suspender esta funcionalidad.</target>
+          <target state="translated">Esta extensión utiliza el servicio WorldPay, un proveedor de terceros. Si habilita esta extensión, estará sujeto a los términos, condiciones y directivas de privacidad aplicables que WorldPay establezca.\\Al conectarse a través de la extensión WorldPay Payments Standard, los datos del cliente de la factura, como el número de factura, la fecha de vencimiento, el importe y la divisa, así como su id. de cuenta de WorldPay, se insertarán en el vínculo de pago de WorldPay de las facturas y se enviarán a WorldPay cuando el cliente elija el vínculo para pagar. Estos datos se utilizan para garantizar que el vínculo contenga suficiente información para que los clientes paguen la factura, y para que WorldPay le identifique como el destinatario de un pago a través del vínculo.\\Al instalar esta solución, acepta que se envíe este conjunto de datos limitado al servicio WorldPay. Tenga en cuenta que puede deshabilitar o desinstalar la extensión WorldPay Payments Standard en cualquier momento para suspender esta funcionalidad.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - NamedType ThirdPartyNoticeMsg</note>
         </trans-unit>
         <trans-unit id="Page 2493693963 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Email</source>
-          <target>Correo electrónico de WorldPay</target>
+          <target state="translated">Correo electrónico de WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2493693963 - Control 2356209274 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Information</source>
-          <target>Información de WorldPay</target>
+          <target state="translated">Información de WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - Control WorldPay Information - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2493693963 - Control 1807660456 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Email</source>
-          <target>Correo electrónico de WorldPay</target>
+          <target state="translated">Correo electrónico de WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - Control AccountID - Property Caption</note>
         </trans-unit>
@@ -620,13 +620,13 @@
         </trans-unit>
         <trans-unit id="Page 2493693963 - NamedType 865041942" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to enable WorldPay Sandbox setup?</source>
-          <target>¿Confirma que desea habilitar la configuración de espacio aislado de WorldPay?</target>
+          <target state="translated">¿Confirma que desea habilitar la configuración de espacio aislado de WorldPay?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - NamedType WorldPaySandBoxModeQst</note>
         </trans-unit>
         <trans-unit id="Page 2493693963 - NamedType 1234289210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are accessing a third-party website and service. You should review the third-party''s terms and privacy policy.</source>
-          <target>Está accediendo a un servicio o sitio web de terceros. Debe revisar la política de privacidad y las condiciones de terceros.</target>
+          <target state="translated">Está accediendo a un servicio o sitio web de terceros. Debe revisar la política de privacidad y las condiciones de terceros.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - NamedType ThirdPartyNoticeMsg</note>
         </trans-unit>

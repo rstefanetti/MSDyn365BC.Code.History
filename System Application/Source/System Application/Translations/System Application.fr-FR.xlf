@@ -4589,7 +4589,7 @@
         </trans-unit>
         <trans-unit id="Page 2282749623 - NamedType 4178145242" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Keep as draft in Email Outbox,Discard email</source>
-          <target state="translated">Conserver en tant que brouillon dans la boîte d’envoi d’e-mails,ignorer e-mail</target>
+          <target state="translated">Conserver en tant que brouillon dans la boîte d’envoi d’e-mails,Ignorer e-mail</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Email Editor - NamedType OptionsOnClosePageNewEmailLbl</note>
         </trans-unit>

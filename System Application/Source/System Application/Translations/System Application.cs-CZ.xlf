@@ -317,7 +317,7 @@
         </trans-unit>
         <trans-unit id="Page 799089619 - Action 415555793 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start the assisted setup guide.</source>
-          <target state="translated">Spusťte Průvodce asistovanou instalaci.</target>
+          <target state="translated">Spusťte průvodce asistovaným nastavením.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Assisted Setup - Action Start Setup - Property ToolTip</note>
         </trans-unit>
@@ -1583,7 +1583,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3023760489 - NamedType 287455396" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have already completed the %1 assisted setup guide. Do you want to run it again?</source>
-          <target state="translated">Již jste dokončil %1 průvodce asistovaným nastavením. Chcete jej spustit znovu?</target>
+          <target state="translated">Již jste dokončil průvodce asistovaným nastavením %1. Chcete jej spustit znovu?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Assisted Setup Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Assisted Setup Impl. - NamedType RunSetupAgainQst</note>
         </trans-unit>
@@ -4380,7 +4380,7 @@
         </trans-unit>
         <trans-unit id="Page 3970971575 - Control 315376271 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Excel worksheet is ready, and you can start classifying your data.  When you are done, run this guide again to import the updated Excel worksheet and apply the classifications.</source>
-          <target state="translated">List aplikace Excel je připraven a můžete začít klasifikaci dat.  Po dokončení spusťte tento průvodce znovu pro import aktualizovaného listu aplikace Excel a použití klasifikace.</target>
+          <target state="translated">List aplikace Excel je připraven a můžete začít klasifikovat data.  Po dokončení spusťte tohoto průvodce znovu pro import aktualizovaného listu aplikace Excel a použití klasifikace.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Data Classification Wizard - Control Control46 - Property InstructionalText</note>
         </trans-unit>

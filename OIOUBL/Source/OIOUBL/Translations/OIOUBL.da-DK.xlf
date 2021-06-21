@@ -1783,14 +1783,14 @@
           <target state="translated">OIOUBL-stien til OIOMXL-filen mangler. Vil du opdatere den nu?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3249536815</note>
         </trans-unit>
         <trans-unit id="TableExtension 3249536815 - NamedType 1764743520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
           <target state="translated">OIOUBL-stien til OIOMXL-filen mangler. Ret den venligst.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3249536815</note>
         </trans-unit>
         <trans-unit id="PageExtension 2375302088 - Control 3095583229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the role of the contact person at the customer.</source>
@@ -2028,7 +2028,7 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2766054287</note>
         </trans-unit>
         <trans-unit id="TableExtension 2254828034 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
@@ -2042,7 +2042,7 @@
           <target state="translated">Du kan ikke angive %1, hvis %2 er "%3".</target>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4059857058</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2254828034</note>
         </trans-unit>
         <trans-unit id="TableExtension 152500644 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
@@ -2105,7 +2105,7 @@
           <target state="translated">Du kan ikke angive %1, hvis %2 er "%3".</target>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3313652032</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 9721095</note>
         </trans-unit>
         <trans-unit id="TableExtension 3294164146 - Field 2042155141 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>User ID</source>
@@ -2161,7 +2161,7 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3541931442</note>
         </trans-unit>
         <trans-unit id="TableExtension 3967370585 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
@@ -2175,7 +2175,7 @@
           <target state="translated">Du kan ikke angive %1, hvis %2 er "%3".</target>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2681651900</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3967370585</note>
         </trans-unit>
         <trans-unit id="TableExtension 2137679277 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
@@ -2399,14 +2399,14 @@
           <target state="translated">OIOUBL-stien til OIOMXL-filen mangler. Vil du opdatere den nu?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2054303147</note>
         </trans-unit>
         <trans-unit id="TableExtension 2054303147 - NamedType 1764743520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
           <target state="translated">OIOUBL-stien til OIOMXL-filen mangler. Ret den venligst.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2054303147</note>
         </trans-unit>
         <trans-unit id="TableExtension 3274756772 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
@@ -2462,7 +2462,7 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3274756772</note>
         </trans-unit>
         <trans-unit id="TableExtension 3955044619 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
@@ -2476,7 +2476,7 @@
           <target state="translated">Du kan ikke angive %1, hvis %2 er "%3".</target>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2574427010</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3955044619</note>
         </trans-unit>
         <trans-unit id="TableExtension 2435267110 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
@@ -2602,7 +2602,7 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1014637951</note>
         </trans-unit>
         <trans-unit id="TableExtension 80978112 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
@@ -2616,7 +2616,7 @@
           <target state="translated">Du kan ikke angive %1, hvis %2 er "%3".</target>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2682833765</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 80978112</note>
         </trans-unit>
         <trans-unit id="TableExtension 3544167776 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
@@ -2686,7 +2686,7 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3890267005</note>
         </trans-unit>
         <trans-unit id="TableExtension 2870539612 - Field 447982215 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
@@ -2714,14 +2714,14 @@
           <target state="translated">Du skal angive oplysninger i %1 til understøttelse af OIOUBL. Vil du opdatere dem nu?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 8651240</note>
         </trans-unit>
         <trans-unit id="TableExtension 8651240 - NamedType 1498947560" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The needed information to support OIOUBL is not provided in %1.</source>
           <target state="translated">De nødvendige oplysninger til understøttelse af OIOUBL er ikke angivet i %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 8651240</note>
         </trans-unit>
         <trans-unit id="TableExtension 2471236884 - Field 3952910319 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country/Region Code</source>

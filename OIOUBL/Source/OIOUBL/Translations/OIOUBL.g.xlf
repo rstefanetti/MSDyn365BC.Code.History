@@ -1343,12 +1343,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Service Mgt. Setup - Field OIOUBL-Service Cr. Memo Path - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3249536815 - NamedType 3900895965" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 297536702">
+        <trans-unit id="TableExtension 3249536815 - NamedType 3900895965" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3249536815">
           <source>OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Service Mgt. Setup - NamedType SetupOIOUBLQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3249536815 - NamedType 1764743520" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 297536702">
+        <trans-unit id="TableExtension 3249536815 - NamedType 1764743520" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3249536815">
           <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Service Mgt. Setup - NamedType MissingSetupOIOUBLErr</note>
@@ -1518,7 +1518,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-FinChrgMemoHeader - Field OIOUBL-Contact Role - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2766054287 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3952648489">
+        <trans-unit id="TableExtension 2766054287 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2766054287">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-FinChrgMemoHeader - NamedType InvalidGLNErr</note>
@@ -1528,7 +1528,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Fin. Charge Memo Line - Field OIOUBL-Account Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2254828034 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4059857058">
+        <trans-unit id="TableExtension 2254828034 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2254828034">
           <source>You cannot enter %1 if %2 is "%3".</source>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Fin. Charge Memo Line - NamedType EmptyTypeWithAccCodeErr</note>
@@ -1573,7 +1573,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-IssuedFinChargeMemoLine - Field OIOUBL-Account Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 9721095 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3313652032">
+        <trans-unit id="TableExtension 9721095 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 9721095">
           <source>You cannot enter %1 if %2 is "%3".</source>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-IssuedFinChargeMemoLine - NamedType EmptyTypeWithAccCodeErr</note>
@@ -1613,7 +1613,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Reminder Header - Field OIOUBL-Contact Role - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3541931442 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1837124963">
+        <trans-unit id="TableExtension 3541931442 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3541931442">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Reminder Header - NamedType InvalidGLNErr</note>
@@ -1623,7 +1623,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Reminder Line - Field OIOUBL-Account Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3967370585 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2681651900">
+        <trans-unit id="TableExtension 3967370585 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3967370585">
           <source>You cannot enter %1 if %2 is "%3".</source>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Reminder Line - NamedType EmptyTypeWithAccCodeErr</note>
@@ -1783,12 +1783,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales&amp;Receivables Setup - Field OIOUBL-Default Profile Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2054303147 - NamedType 3900895965" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+        <trans-unit id="TableExtension 2054303147 - NamedType 3900895965" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2054303147">
           <source>OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales&amp;Receivables Setup - NamedType SetupOIOUBLQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2054303147 - NamedType 1764743520" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+        <trans-unit id="TableExtension 2054303147 - NamedType 1764743520" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2054303147">
           <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales&amp;Receivables Setup - NamedType MissingSetupOIOUBLErr</note>
@@ -1828,7 +1828,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales Header - Field OIOUBL-Sell-to Contact Role - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3274756772 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+        <trans-unit id="TableExtension 3274756772 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3274756772">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales Header - NamedType InvalidGLNErr</note>
@@ -1838,7 +1838,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales Line - Field OIOUBL-Account Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3955044619 - NamedType 3599942508" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+        <trans-unit id="TableExtension 3955044619 - NamedType 3599942508" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3955044619">
           <source>You cannot enter %1 if %2 is "%3".</source>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales Line - NamedType InvalidAccountCodeErr</note>
@@ -1928,7 +1928,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Service Header - Field OIOUBL-Contact Role - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1014637951 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3610197182">
+        <trans-unit id="TableExtension 1014637951 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1014637951">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Service Header - NamedType InvalidGLNErr</note>
@@ -1938,7 +1938,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension20001 - Field OIOUBL-Account Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 80978112 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2682833765">
+        <trans-unit id="TableExtension 80978112 - NamedType 739368154" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 80978112">
           <source>You cannot enter %1 if %2 is "%3".</source>
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension20001 - NamedType EmptyTypeWithAccCodeErr</note>
@@ -1988,7 +1988,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Customer - Field OIOUBL-Profile Code Required - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3890267005 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+        <trans-unit id="TableExtension 3890267005 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3890267005">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Customer - NamedType InvalidGLNErr</note>
@@ -2008,12 +2008,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Item Charge - Field OIOUBL-Charge Category - Property OptionCaption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 8651240 - NamedType 1665574169" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
+        <trans-unit id="TableExtension 8651240 - NamedType 1665574169" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 8651240">
           <source>You need to provide information in %1 to support OIOUBL. Do you want to update it now?</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Company Information - NamedType MissingOIOUBMInfoQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 8651240 - NamedType 1498947560" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
+        <trans-unit id="TableExtension 8651240 - NamedType 1498947560" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 8651240">
           <source>The needed information to support OIOUBL is not provided in %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Company Information - NamedType MissingOIOUBMInfoErr</note>

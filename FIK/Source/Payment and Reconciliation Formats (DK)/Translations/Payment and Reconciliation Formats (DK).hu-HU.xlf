@@ -385,7 +385,7 @@
           <target state="translated">%1 must be an 8-digit number.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 591338493</note>
         </trans-unit>
         <trans-unit id="PageExtension 2636339152 - Action 2465313450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import FIK Statement</source>
@@ -406,21 +406,21 @@
           <target state="translated">You cannot use the Map Text to Account function for payments of type FIK.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2636339152</note>
         </trans-unit>
         <trans-unit id="PageExtension 2636339152 - NamedType 67952508" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot import FIK statement files into this payment reconciliation journal, because it contains journal lines for non-FIK payments.\\Import the FIK statement file into a payment reconciliation journal that is empty or contains lines for other FIK payments.</source>
           <target state="translated">You cannot import FIK statement files into this payment reconciliation journal, because it contains journal lines for non-FIK payments.\\Import the FIK statement file into a payment reconciliation journal that is empty or contains lines for other FIK payments.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2636339152</note>
         </trans-unit>
         <trans-unit id="PageExtension 2636339152 - NamedType 2965608912" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot import bank statement files for non-FIK payments into a payment reconciliation journal that already contains journal lines for FIK payments.</source>
           <target state="translated">You cannot import bank statement files for non-FIK payments into a payment reconciliation journal that already contains journal lines for FIK payments.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2636339152</note>
         </trans-unit>
         <trans-unit id="PageExtension 1016612176 - Action 1325671315 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import &amp;FIK Statement</source>
@@ -581,14 +581,14 @@
           <target state="translated">%1 cannot be used while %2 has a value.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 406314583</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
         </trans-unit>
         <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should be blank for %2 %3.</source>
           <target state="translated">%1 should be blank for %2 %3.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 406314583</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
         </trans-unit>
         <trans-unit id="TableExtension 2836340947 - Field 2857408379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Payment Reconciliation</source>
@@ -630,7 +630,7 @@
           <target state="translated">%1 should be blank for %2 %3.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2937376488</note>
         </trans-unit>
         <trans-unit id="TableExtension 1079743675 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Giro Acc No.</source>
@@ -644,14 +644,14 @@
           <target state="translated">%1 cannot be used while %2 has a value.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1079743675</note>
         </trans-unit>
         <trans-unit id="TableExtension 1079743675 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should be blank for %2 %3.</source>
           <target state="translated">%1 should be blank for %2 %3.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field"</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1079743675</note>
         </trans-unit>
         <trans-unit id="TableExtension 691353248 - Field 2407072886 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Import Format</source>

@@ -4599,7 +4599,7 @@
           <target state="translated">Tingene gøres klar. %1 % fuldført. Opdater for at opdatere status.</target>
           <note from="Developer" annotates="general" priority="2">%1=Progress Percent</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3857729393</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 3315441300</note>
         </trans-unit>
       </group>
     </body>

@@ -328,7 +328,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CompanyInformation - Field BankCreditorNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 591338493 - NamedType 1923762040" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
+        <trans-unit id="TableExtension 591338493 - NamedType 1923762040" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 591338493">
           <source>%1 must be an 8-digit number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension CompanyInformation - NamedType BankCreditorNumberLengthErr</note>
@@ -343,17 +343,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentReconciliationJournal - Action ImportFIKStatement2 - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2636339152 - NamedType 1282842658" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+        <trans-unit id="PageExtension 2636339152 - NamedType 1282842658" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2636339152">
           <source>You cannot use the Map Text to Account function for payments of type FIK.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentReconciliationJournal - NamedType CannotAddMappingRulesForFIKLinesErr</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2636339152 - NamedType 67952508" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+        <trans-unit id="PageExtension 2636339152 - NamedType 67952508" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2636339152">
           <source>You cannot import FIK statement files into this payment reconciliation journal, because it contains journal lines for non-FIK payments.\\Import the FIK statement file into a payment reconciliation journal that is empty or contains lines for other FIK payments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentReconciliationJournal - NamedType CannotImportFIKLinesErr</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2636339152 - NamedType 2965608912" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3039851816">
+        <trans-unit id="PageExtension 2636339152 - NamedType 2965608912" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2636339152">
           <source>You cannot import bank statement files for non-FIK payments into a payment reconciliation journal that already contains journal lines for FIK payments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension PaymentReconciliationJournal - NamedType CannotImportStatementIntoFIKErr</note>
@@ -468,12 +468,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VendorLedgerEntry - Field GiroAccNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4104438143 - NamedType 3719928791" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 406314583">
+        <trans-unit id="TableExtension 4104438143 - NamedType 3719928791" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4104438143">
           <source>%1 cannot be used while %2 has a value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VendorLedgerEntry - NamedType FieldIsNotEmptyErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 406314583">
+        <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4104438143">
           <source>%1 should be blank for %2 %3.</source>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VendorLedgerEntry - NamedType PmtReferenceErr</note>
@@ -503,7 +503,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseHeader - Field GiroAccNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2937376488 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+        <trans-unit id="TableExtension 2937376488 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2937376488">
           <source>%1 should be blank for %2 %3.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension PurchaseHeader - NamedType PmtReferenceErr</note>
@@ -513,12 +513,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GeneralJournalLine - Field GiroAccNo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1079743675 - NamedType 3719928791" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1079743675 - NamedType 3719928791" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1079743675">
           <source>%1 cannot be used while %2 has a value.</source>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GeneralJournalLine - NamedType FieldIsNotEmptyErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1079743675 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+        <trans-unit id="TableExtension 1079743675 - NamedType 1477709441" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1079743675">
           <source>%1 should be blank for %2 %3.</source>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GeneralJournalLine - NamedType PmtReferenceErr</note>

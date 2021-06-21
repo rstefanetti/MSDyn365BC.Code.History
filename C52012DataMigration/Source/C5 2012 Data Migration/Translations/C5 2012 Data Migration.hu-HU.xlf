@@ -4599,7 +4599,7 @@
           <target state="translated">Getting things ready. %1% complete. Refresh to update the progress.</target>
           <note from="Developer" annotates="general" priority="2">%1=Progress Percent</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3857729393</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 3315441300</note>
         </trans-unit>
       </group>
     </body>

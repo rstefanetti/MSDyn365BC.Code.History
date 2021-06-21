@@ -3828,7 +3828,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Data Migration Overview Ext. - Control ProgressGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3315441300 - NamedType 3950098385" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3857729393">
+        <trans-unit id="PageExtension 3315441300 - NamedType 3950098385" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3315441300">
           <source>Getting things ready. %1% complete. Refresh to update the progress.</source>
           <note from="Developer" annotates="general" priority="2">%1=Progress Percent</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Data Migration Overview Ext. - NamedType ProgressLbl</note>

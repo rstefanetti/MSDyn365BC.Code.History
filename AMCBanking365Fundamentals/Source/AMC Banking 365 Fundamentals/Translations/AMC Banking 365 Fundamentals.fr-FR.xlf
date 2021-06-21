@@ -384,7 +384,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
-          <target state="translated">Connectez-vous à un service bancaire en ligne capable de convertir les données bancaires de Business Central dans les formats de votre banque, afin de faciliter l’envoi de données à vos banques et pour une plus grande exactitude de celles-ci.</target>
+          <target state="translated">Connectez-vous à un service bancaire en ligne capable de convertir les données bancaires de Business Central dans les formats de votre banque, afin de faciliter l’envoi de données à vos banques et pour une plus grande exactitude des informations.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupDescriptionTxt</note>
         </trans-unit>

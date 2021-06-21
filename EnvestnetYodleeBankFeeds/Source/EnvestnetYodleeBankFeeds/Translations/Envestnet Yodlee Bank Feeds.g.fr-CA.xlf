@@ -69,27 +69,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Bank Feed Import Format - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 3447211134 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 3447211134 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>Cobrand Session Token</source>
-          <target>Jeton session co-marketing</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Session Token - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 807152436 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 807152436 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>Cob. Token Last Date Updated</source>
-          <target>Jeton co-marketing - Date de la dernière mise à jour</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cob. Token Last Date Updated - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 1447929701 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 1447929701 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>Consumer Session Token</source>
-          <target>Jeton session consommateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Consumer Session Token - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 1473726113 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 1473726113 - Property 2879900210" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>Cons. Token Last Date Updated</source>
-          <target>Jeton consommateur - Date de la dernière mise à jour</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cons. Token Last Date Updated - Property Caption</note>
         </trans-unit>
@@ -1256,16 +1252,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnauthorizedResponseCodeTok</note>
         </trans-unit>
-        <trans-unit id="Codeunit 839769576 - NamedType 1033613857" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/itemAccountId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccountIDPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 839769576 - NamedType 2162809841" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/accountBalance/amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceAmountPathTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank feed that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
           <target>Le flux bancaire que vous importez contient des transactions dans des devises différentes du code devise %1 %2 du compte bancaire %3.</target>
@@ -1283,16 +1269,6 @@
           <target>Ce compte bancaire n'est pas lié à un compte bancaire en ligne.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccNotLinkedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 839769576 - NamedType 3588725952" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/accountBalance/currencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceCurrencyPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 839769576 - NamedType 686796650" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/amount/currencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType TransactionCurrencyPathTxt</note>
         </trans-unit>
         <trans-unit id="Page 3194416848 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

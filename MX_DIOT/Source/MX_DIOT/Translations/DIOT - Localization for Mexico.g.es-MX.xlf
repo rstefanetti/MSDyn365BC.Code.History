@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es-MX" original="DIOT - Localization for Mexico">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1187154282 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concept</source>
+          <target>Concepto de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 1928491569 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Concept No.</source>
+          <target>N.º de concepto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Concept No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 1389794395 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column No.</source>
+          <target>N.° de columna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Column No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 2012224114 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None,VAT Base,VAT Amount</source>
+          <target>Ninguno,base IVA,Importe IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Column Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 2012224114 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Type</source>
+          <target>Tipo de columna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Column Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 1521047049 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Deductible</source>
+          <target>No deducible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Non-Deductible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 2515832252 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Deductible percent</source>
+          <target>Porcentaje no deducible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field Non-Deductible Pct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - Field 2583033413 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Links Count</source>
+          <target>Recuento de enlaces de IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - Field VAT Links Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1187154282 - NamedType 2950979562" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selecting None as column type will delete all existing links to this concept. Continue?</source>
+          <target>Si selecciona ninguno como tipo de columna, se eliminarán todos los vínculos existentes a este concepto. ¿Continuar?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept - NamedType ConceptLinksWillBeDeletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 1474668530 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concept Link</source>
+          <target>Enlace del concepto de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1474668530 - Field 3253010691 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concept No.</source>
+          <target>N.º de concepto DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Field DIOT Concept No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1474668530 - Field 236064653 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Product Posting Group</source>
+          <target>Grupo de registro de IVA de producto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Field VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1474668530 - Field 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Business Posting Group</source>
+          <target>Grupo registro de IVA de negocio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Field VAT Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1474668530 - NamedType 151341639" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The DIOT Concept is disabled. Do not add VAT Posting Setup links to it. If you need to add links, enable the concept first by changing the column type of the concept on "DIOT Concepts" page.</source>
+          <target>El concepto DIOT está deshabilitado. No agregue vínculos de configuración de registro de IVA. Si necesita agregar vínculos, habilite primero el concepto cambiando el tipo de columna del concepto en la página "conceptos de DIOT".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - NamedType ConceptDisabledErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2287590843 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Country/Region Data</source>
+          <target>Datos de país o región de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2287590843 - Field 284764054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Código de país o región</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2287590843 - Field 3982364230 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nationality</source>
+          <target>Nacionalidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Field Nationality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2287590843 - Field 1167855317 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BC Country/Region Code</source>
+          <target>Cód. país/región BC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Field BC Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 284764054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Código de país o región</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 284764054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT specific country/region code.</source>
+          <target>Especifica el código de país o región específico de DIOT.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 3982364230 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nationality</source>
+          <target>Nacionalidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control Nationality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 3982364230 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT specific nationality.</source>
+          <target>Especifica la nacionalidad específica de la DIOT.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control Nationality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 1167855317 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BC Country Code</source>
+          <target>Código de país de BC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control BC Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2287590843 - Control 1167855317 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Business Central country/region code.</source>
+          <target>Especifica el código de país o región de Business Central.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Control BC Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3340763564 - Field 1527594213 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>N.º de proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3340763564 - Field 3440505640 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Operation</source>
+          <target>Tipo de operación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Type of Operation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3340763564 - Field 3440505640 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Type of Operation - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3340763564 - Field 3253010691 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concept No.</source>
+          <target>N.º de concepto DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field DIOT Concept No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3340763564 - Field 1131619133 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target>Valor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 1527594213 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>N.º de proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 3440505640 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Operation</source>
+          <target>Tipo de operación</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 1230890852 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Vendor Text</source>
+          <target>Tipo de texto del proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Vendor Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 815981027 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Operation Text</source>
+          <target>Tipo de operación de texto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 2450334648 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RFC Number</source>
+          <target>Número de RFC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field RFC Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 1360714227 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TAX Registration ID</source>
+          <target>ID. registro impto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field TAX Registration ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 3119688693 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <target>Nombre del proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 284764054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Código de país o región</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 3982364230 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nationality</source>
+          <target>Nacionalidad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Nationality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 176275029" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up DIOT</source>
+          <target>Configurar DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType DIOTSetupGuideTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 360914660" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid at the rate of 15% or 16% VAT</source>
+          <target>Valor de los actos o actividades pagados a una tasa de 15% o de 16% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc1Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1161184165" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid at the 15% VAT rate</source>
+          <target>Valor de los actos o de las actividades pagadas a una tasa del 15% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc2Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 2976956902" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount of VAT paid not creditable at the rate of 15% or 16% (corresponding to the proportion of authorized deductions)</source>
+          <target>Importe de IVA pagado no abonado a una tasa de 15% o 16% (correspondiente a la proporción de las deducciones autorizadas)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc3Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1717313695" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid at the rate of 10% or 11% VAT</source>
+          <target>Valor de los actos o actividades pagados a una tasa de 10% o de 11% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc4Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 4285618720" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid at the 10% VAT rate</source>
+          <target>Valor de los actos o de las actividades pagadas a una tasa del 10% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc5Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 28186977" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of the acts or activities paid subject to the stimulation of the northern border region</source>
+          <target>Valor de los actos o de las actividades que se pagan sujetos al fomento de la región del norte de la frontera</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc6Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1122802466" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount of VAT paid not creditable at the rate of 10% or 11% (corresponding to the proportion of authorized deductions)</source>
+          <target>Importe de IVA pagado no abonado a una tasa de 10% o 11% (correspondiente a la proporción de las deducciones autorizadas)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc7Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 3227520619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount of VAT not creditable subject to the stimulation of the northern border region (corresponding to the proportion of authorized deductions)</source>
+          <target>Cantidad de IVA no acreditable sometida al fomento de la región del norte de la frontera (correspondiente a la proporción de deducciones autorizadas)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc8Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1843145004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid in the importation of goods and services at the rate of 15% or 16% VAT</source>
+          <target>Valor de los actos o de las actividades pagados en la importación de productos y servicios a una tasa de 15% o 16% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc9Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1060547116" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount of VAT paid not creditable for importation at the rate of 15% or 16% (corresponding to the proportion of authorized deductions)</source>
+          <target>Importe de IVA pagado no abonado para la importación a una tasa de 15% o 16% (correspondiente a la proporción de deducciones autorizadas)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc10Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 2444922731" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of the acts or activities paid in the import of goods and services at the rate of 10% or 11% VAT</source>
+          <target>Valor de los actos o de las actividades pagados en la importación de bienes y servicios a una tasa de 10% o 11% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc11Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 3666387694" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount of VAT paid not creditable for importation at the rate of 10% or 11% (corresponding in the proportion of authorized deductions)</source>
+          <target>Importe de IVA pagado no abonado para la importación a una tasa de 10% o 11% (correspondiente a la proporción de deducciones autorizadas)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc12Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 76215469" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid in the importation of goods and services for which VAT is not paid (Exempt)</source>
+          <target>Valor de los actos o actividades pagados en la importación de bienes y servicios para los que no se haya pagado el IVA (exento)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc13Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 4222517224" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of other acts or activities paid at the 0% VAT rate</source>
+          <target>Valor de otros actos o de las actividades pagadas a una tasa de 0% del IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc14Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 632344999" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value of acts or activities paid for which VAT will not be paid (Exempt)</source>
+          <target>Valor de los actos o actividades pagados por los que no se abonará el IVA (exentos)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc15Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 3296124458" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Withheld by the taxpayer</source>
+          <target>IVA retenido por el contribuyente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc16Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 3238185577" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT corresponding to returns, discounts and bonuses on purchases</source>
+          <target>IVA correspondiente a retornos, descuentos y primas en las compras</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc17Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 2000378165" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operations reported in DIOT must have a non-blank Type of Operation or Vendor must have a Type of Operation.</source>
+          <target>Las operaciones de las que se reporta en DIOT deben tener un tipo de operación o un proveedor que no esté en blanco debe tener un tipo de operación.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType BlankTypeOfOperationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 2922409529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operations with non-mx Vendor cannot have Lease And Rent Type of operation.</source>
+          <target>Las operaciones con el proveedor que no es mx no pueden tener arrendamiento y tipo de operación.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType LeaseAndRentNonMXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 1226924369" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MX vendors must have RFC Number filled in.</source>
+          <target>Los proveedores MX deben tener el número RFC rellenado.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType MissingRFCNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 4253252813" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor's Country Code is not among valid DIOT Country Codes.</source>
+          <target>El código de país del proveedor no está entre los códigos de país de DIOT válidos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType CountryCodeNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The amount for Concept No. %1 for Vendor with No. = %2 is negative, which is not valid.</source>
+          <target>El importe del concepto N.º %1 para el proveedor con Nº = %2 es negativo, lo que no es válido.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType NegativeAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - NamedType 3970746100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no VAT Entries for configured concepts in the specified date range.</source>
+          <target>No existen movimientos de IVA para los conceptos configurados en el intervalo de fechas especificado.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType NoDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1245640553 - NamedType 1329765847" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-MX Vendors cannot have Type of Operation equal to Lease and Rent</source>
+          <target>Los proveedores que no son MX no pueden tener el tipo de operación igual que arrendamiento y alquiler</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Subscribers - NamedType LeaseAndRentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1245640553 - NamedType 2581893341" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 can not have higher value than %2</source>
+          <target>%1 no puede tener un valor mayor que %2</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field name;%2=Another field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Subscribers - NamedType WHTMoreThanVATErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concept Links</source>
+          <target>Enlaces de conceptos de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - Control 236064653 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Product Posting Group</source>
+          <target>Grupo de registro de IVA de producto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - Control 236064653 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
+          <target>Indica la especificación de IVA del elemento o el recurso relacionado para vincular las transacciones realizadas para este registro con la cuenta de contabilidad general correspondiente de acuerdo con la configuración de registro de IVA.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - Control 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Business Posting Group</source>
+          <target>Grupo registro de IVA de negocio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - Control 1844012642 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
+          <target>Indica la especificación de IVA del cliente o el proveedor relacionado para vincular las transacciones realizadas para este registro con la cuenta de contabilidad general correspondiente de acuerdo con la configuración de registro de IVA.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Concepts</source>
+          <target>Conceptos de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1928491569 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Concept Number</source>
+          <target>Número de concepto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Concept No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1928491569 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of this concept.</source>
+          <target>Especifica el número de este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Concept No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of this concept.</source>
+          <target>Especifica la descripción de este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1389794395 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Number</source>
+          <target>Número de columna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Column No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1389794395 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the column number of this concept.</source>
+          <target>Especifica el número de columna de este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Column No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2012224114 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Type</source>
+          <target>Tipo de columna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Column Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2012224114 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the column type for this concept.</source>
+          <target>Especifica el tipo de columna para este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Column Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1521047049 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Deductible</source>
+          <target>No deducible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Non-Deductible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 1521047049 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if this concept describes non-deductible VAT.</source>
+          <target>Especifica si este concepto describe el IVA no deducible.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Non-Deductible - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2515832252 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Deductible Percent</source>
+          <target>Porcentaje no deducible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Non-Deductible Pct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2515832252 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the percentage of non-deductible VAT for this concept.</source>
+          <target>Especifica el porcentaje de IVA no deducible para este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control Non-Deductible Pct - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2583033413 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Links Count</source>
+          <target>Recuento de enlaces de IVA</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control VAT Links Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Control 2583033413 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many VAT links exist for this concept.</source>
+          <target>Especifica el número de enlaces de IVA que existen para este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Control VAT Links Count - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Action 2417859864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Setup Links</source>
+          <target>&amp;Enlaces de configuración</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Action Setup Links - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - Action 2417859864 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link a VAT posting setup to this concept.</source>
+          <target>Enlazar una configuración de contabilización del IVA a este concepto.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Action Setup Links - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - NamedType 151341639" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The DIOT Concept is disabled. Do not add VAT Posting Setup Links to it or enable it first.</source>
+          <target>El concepto DIOT está deshabilitado. No agregue vínculos de configuración de registro de IVA o habilítelo primero.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - NamedType ConceptDisabledErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1565502167 - NamedType 3669251627" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some of the concepts that have Column Type not None do not have a link setup.\\Are you sure you have finished setting them up?</source>
+          <target>Algunos de los conceptos que tienen un tipo de columna no ninguno carecen de una configuración de vínculos.\\¿Está seguro de que ha terminado de configurarlos?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - NamedType NotAllLinksSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Setup Guide</source>
+          <target>Guía de configuración de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1063300772 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to the DIOT Setup Wizard</source>
+          <target>Bienvenido al asistente para instalación de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1063300772 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The DIOT is a monthly/quarterly declaration that is required by Mexican SAT. This extension will export your data to a properly formatted file that you can import into the government-provided tool. This wizard will guide you through setting up DIOT for the Mexico version of Dynamics 365 Business Central. If you do not want to set this up right now, close this page.</source>
+          <target>La DIOT es una declaración mensual/trimestral que es necesaria para el SAT mexicano. Esta extensión exportará los datos a un archivo con el formato apropiado que se pueda importar a la herramienta proporcionada por el gobierno. Este asistente le guiará a través de la configuración de DIOT para la versión México de Dynamics 365 Business Central. Si no desea configurar este botón ahora, cierre esta página.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1503429287 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up default DIOT Type of Operation</source>
+          <target>Configurar el tipo de operación predeterminado de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTOperationTypeDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1503429287 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT requires all reported operations with vendors to have a type. In this step, you can set up a default value that all new vendors will get upon creation. If you specify this value with the wizard now, all vendors in your database will be updated with the value. Note that vendors that do not operate in Mexico cannot have the Lease and Rent operation type. Do not select Lease and Rent unless all the vendors you work with operate in Mexico.</source>
+          <target>DIOT requiere que todas las operaciones con proveedores estén registradas para tener un tipo. En este paso, puede configurar un valor predeterminado que los proveedores nuevos obtendrán al crearse. Si especifica este valor con el asistente ahora, todos los proveedores de la base de datos se actualizarán con el valor. Tenga en cuenta que los proveedores que no operan en México no pueden tener el tipo de operación arrendar y alquilar. No seleccione arrendar ni alquilar a menos que todos los proveedores con los que trabaje en México.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTOperationTypeDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 93176563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Vendor DIOT Type of Operation</source>
+          <target>Tipo de operación de la DIOT del proveedor predeterminado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DefaultDIOTVendorType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 93176563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default DIOT operation type to be used for all vendors.</source>
+          <target>Especifica el tipo de operación de DIOT predeterminado que se va a usar para todos los proveedores.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DefaultDIOTVendorType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 3383760608 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up individual DIOT Type of Operation for Vendors</source>
+          <target>Configurar el tipo de operación de DIOT individual para proveedores</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control VendorDIOTTypeDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 3383760608 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT requires all reported operations with vendors to have a type. In this step, you can set up a type for each vendor individually. This value will be used for all operations with the vendor, unless you specifically set another value in the individual document when posting. Currently, all vendors have a DIOT operation type equal to the default value that you selected in the previous step. If you do not want to change any existing vendors, you can ignore this step.</source>
+          <target>DIOT requiere que todas las operaciones con proveedores estén registradas para tener un tipo. En este paso, puede configurar un tipo para cada proveedor de forma individual. Este valor se usará para todas las operaciones con el proveedor, a menos que defina específicamente otro valor en el documento individual al registrar. Actualmente, todos los proveedores tienen un tipo de operación DIOT igual al valor predeterminado que se seleccionó en el paso anterior. Si no desea modificar ninguno de los proveedores existentes, puede ignorar este paso.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control VendorDIOTTypeDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 2684083116 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up DIOT Concepts</source>
+          <target>Configuración de conceptos de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTConceptDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 2684083116 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT uses several concept definitions to provide VAT-related information to SAT. You must link your existing or future VAT posting setups to the appropriate concepts for this report to produce correct and valid numbers. Please set the links up on the DIOT Concept Links page.</source>
+          <target>DIOT usa varias definiciones de concepto para proporcionar reportación relacionada con el IVA a SAT. Debe vincular su configuración de registro de IVA existente o futura a los conceptos adecuados para este reporte para generar números correctos y válidos. Configure los vínculos hacia arriba en la página vínculos de concepto de DIOT.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTConceptDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1182202415 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All done!</source>
+          <target>¡Listo!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control FinishDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Control 1182202415 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seems like you are all done! Now you can choose the Generate DIOT Report action to generate the DIOT file from your data.</source>
+          <target>Parece que ya ha terminado. Ahora puede elegir la acción generar reporte de DIOT para generar el archivo DIOT a partir de los datos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control FinishDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Action 2438272767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target>Atrás</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Action 914282563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target>Siguiente</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Action 3259912055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target>Finalizar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Action 1344389500 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open DIOT Concepts</source>
+          <target>Conceptos de DIOT abiertos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action OpenDIOTConceptList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - Action 350507312 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Vendor List</source>
+          <target>Lista de proveedores abiertos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action OpenVendorDIOTTypeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 626210182 - NamedType 984350027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup of DIOT has not been completed.\\Are you sure that you want to exit?</source>
+          <target>No se ha completado la configuración de DIOT.\\¿Está seguro de que desea salir?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - NamedType SetupNotCompletedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>N.º</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>Especifica el número del movimiento o del registro implicado, según la serie numérica especificada.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 2961552353 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nombre</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's name. You can enter a maximum of 30 characters, both numbers and letters.</source>
+          <target>Especifica el nombre del proveedor. Se pueden escribir un máximo de 30 caracteres, tanto números como letras.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 633819257 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Business Posting Group</source>
+          <target>Grupo contable empresarial general</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control Gen. Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 633819257 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's trade type to link transactions made for this vendor with the appropriate general ledger account according to the general posting setup.</source>
+          <target>Especifica el tipo de comercio del proveedor para vincular las transacciones realizadas para este proveedor con la cuenta de contabilidad general correspondiente según la configuración de registro general.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Business Posting Group</source>
+          <target>Grupo registro de IVA de negocio</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control VAT Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 1844012642 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
+          <target>Indica la especificación de IVA del cliente o el proveedor relacionado para vincular las transacciones realizadas para este registro con la cuenta de contabilidad general correspondiente de acuerdo con la configuración de registro de IVA.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control DIOT Type of Operation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type to be used for all documents and entries for this vendor.</source>
+          <target>Especifica el tipo de operación de DIOT que se va a usar para todos los documentos y movimientos de este proveedor.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control DIOT Type of Operation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create DIOT Report</source>
+          <target>Crear reporte de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - Control 543275552 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Fecha inicial</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - Control StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date for the report</source>
+          <target>Fecha inicial del reporte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - Control 3592094765 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Fecha final</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date for the report</source>
+          <target>Fecha final del reporte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - NamedType 1197536597" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please provide a starting date.</source>
+          <target>Especifique una fecha inicial.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - NamedType BlankStartingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - NamedType 664378464" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please provide an ending date.</source>
+          <target>Indique una fecha final.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - NamedType BlankEndingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - NamedType 2892395240" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending date cannot be before starting date.</source>
+          <target>La fecha final no debe ser anterior a la inicial.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - NamedType EndingDateBeforeStartinDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1739196608 - NamedType 3875767267" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must complete Assisted Setup for DIOT before running this report. \\ Do you want to open assisted setup now?</source>
+          <target>Debe completar la instalación asistida para el DIOT antes de ejecutar este reporte.\\¿Desea abrir el programa de instalación asistido ahora?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - NamedType RunAssistedSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2511214395 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2511214395 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type for this document.</source>
+          <target>Especifica el tipo de operación de DIOT para este documento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3581817271 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3196174509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3581817271 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type for this document.</source>
+          <target>Especifica el tipo de operación de DIOT para este documento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3196174509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 391989008 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 391989008 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type for this document.</source>
+          <target>Especifica el tipo de operación de DIOT para este documento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2701280096 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3580867622</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2701280096 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type for this document.</source>
+          <target>Especifica el tipo de operación de DIOT para este documento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3580867622</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 116529096 - Control 349234259 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Vendor DIOT Type</source>
+          <target>Tipo de DIOT de proveedor predeterminado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3921990236</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 116529096 - Control 349234259 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default DIOT operation type to be used for all vendors.</source>
+          <target>Especifica el tipo de operación de DIOT predeterminado que se va a usar para todos los proveedores.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3921990236</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 116529096 - Field 349234259 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Vendor DIOT Type</source>
+          <target>Tipo de DIOT de proveedor predeterminado</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3921990236</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 116529096 - Field 349234259 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3921990236</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 116529096 - NamedType 958265227" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Mexican vendors cannot have Lease and Rent as their DIOT operation type. This default will only work for MX vendors. The rest will have their type changed to Others.</source>
+          <target>Los proveedores no mexicanos no pueden tener arrendamiento y alquiler como su tipo de operación DIOT. Este valor predeterminado sólo funcionará para los proveedores de MX. Al resto se le cambiará su tipo a Otros.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3921990236</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2519417953 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2248515987</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2519417953 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type for this entry.</source>
+          <target>Especifica el tipo de operación DIOT de este movimiento.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2248515987</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 835251686 - Control 251155636 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the withholding tax percentage to be used with this VAT posting setup when exporting the DIOT report. Important: This field only affects the DIOT report.</source>
+          <target>Especifica el porcentaje de retención de impuestos que se usará con esta configuración de registro de IVA al exportar el reporte de DIOT. Importante: este campo solo afecta al reporte de DIOT.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 835251686 - Field 251155636 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT WHT Percent</source>
+          <target>Porcentaje WHT DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3229951978 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3229951978 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the DIOT operation type to be used for all documents with this vendor.</source>
+          <target>Especifica el tipo de operación de DIOT que se va a usar para todos los documentos con este proveedor.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 447154957 - Field 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 447154957 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1968756878 - Field 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1968756878 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 59620640 - Field 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1592379974</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 59620640 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1592379974</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2677889483 - Field 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2941967353</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2677889483 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2941967353</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2347064590 - Field 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Type of Operation</source>
+          <target>Tipo de operación DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2347064590 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Prof. Services,Lease and Rent,Others</source>
+          <target> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

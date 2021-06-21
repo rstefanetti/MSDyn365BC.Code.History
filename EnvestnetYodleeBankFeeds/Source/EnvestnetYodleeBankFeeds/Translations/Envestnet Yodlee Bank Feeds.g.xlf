@@ -58,22 +58,22 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Bank Feed Import Format - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 3447211134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 3447211134 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>Cobrand Session Token</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Session Token - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 807152436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 807152436 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>Cob. Token Last Date Updated</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cob. Token Last Date Updated - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 1447929701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 1447929701 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>Consumer Session Token</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Consumer Session Token - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1268761635 - Field 1473726113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1268761635 - Field 1473726113 - Property 2879900210" size-unit="char" translate="no" xml:space="preserve">
           <source>Cons. Token Last Date Updated</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cons. Token Last Date Updated - Property Caption</note>
@@ -1073,13 +1073,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnauthorizedResponseCodeTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 366795098" size-unit="char" translate="no" xml:space="preserve">
+          <source>Unable to insert information about account that is linked on Yodlee. ProviderAccount id - %1, AccountId - %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnableToInsertUnlinkedBankAccToBufferErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 1033613857" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/itemAccountId</source>
+          <source>/root/root/transaction/accountId</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccountIDPathTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 2162809841" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/accountBalance/amount</source>
+          <source>/root/root/transaction/runningBalance/amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceAmountPathTxt</note>
         </trans-unit>
@@ -1099,12 +1104,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccNotLinkedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 3588725952" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/account/accountBalance/currencyCode</source>
+          <source>/root/root/transaction/runningBalance/currency</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceCurrencyPathTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 839769576 - NamedType 686796650" size-unit="char" translate="no" xml:space="preserve">
-          <source>/root/root/searchResult/transactions/amount/currencyCode</source>
+          <source>/root/root/transaction/amount/currency</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType TransactionCurrencyPathTxt</note>
         </trans-unit>

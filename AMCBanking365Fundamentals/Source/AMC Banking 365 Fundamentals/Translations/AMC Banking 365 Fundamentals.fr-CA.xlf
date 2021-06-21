@@ -383,8 +383,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupHelpTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Connect to an online bank service that can�convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
-          <target state="translated">Connectez-vous à un service bancaire en ligne capable de convertir les données bancaires de Business Central dans les formats de votre banque, afin de faciliter l'envoi de données à vos banques et pour une plus grande exactitude des informations.</target>
+          <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
+          <target state="translated">Connectez-vous à un service bancaire en ligne capable de convertir les données bancaires de Business Central dans les formats de votre banque, afin de faciliter l’envoi de données à vos banques et pour une plus grande exactitude de celles-ci.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupDescriptionTxt</note>
         </trans-unit>
@@ -1092,6 +1092,11 @@
           <source>//return/pack/bank</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType BankPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - NamedType 1482267448" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>//return/pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType PackPathTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 33113820 - NamedType 930138903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We have updated the AMC Banking 365 Fundamentals extension.\\Before you can use the extension you must provide some information. Go to the AMC Banking Setup page and run the Assisted Setup action.</source>
@@ -1922,6 +1927,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2292249509</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3493802159 - Control 2640682147 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XTL Journal associated with the Credit Transfer Register</source>
+          <target state="translated">Journal XTL associé au registre virement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 294717160</note>
+        </trans-unit>
         <trans-unit id="PageExtension 387856334 - Control 265409144 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the payment type that the AMC Banking 365 Fundamentals extension requires when you export payments that have the selected payment method.</source>
           <target state="translated">Spécifie le type de règlement requis par l'extension AMC Banking 365 Fundamentals lorsque vous exportez des règlements avec le mode de règlement sélectionné.</target>
@@ -1956,6 +1968,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1974046518</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2889429356 - Field 4135611573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exch. Entry No.</source>
+          <target state="translated">N° écriture échange données</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2889429356 - Field 14686028 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XTL Journal</source>
+          <target state="translated">Journal XTL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>
         </trans-unit>
         <trans-unit id="TableExtension 1672724984 - Field 3875559386 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank Pmt. Type</source>

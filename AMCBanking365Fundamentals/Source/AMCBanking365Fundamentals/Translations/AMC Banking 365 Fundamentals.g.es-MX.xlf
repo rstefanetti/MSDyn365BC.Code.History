@@ -324,7 +324,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1973957526" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to open the AMC Banking Setup page to run the Assisted Setup action?</source>
-          <target>¿Desea abrir la página de configuración de banca AMC para ejecutar la acción Configuración asistida?</target>
+          <target>¿Desea abrir la página de configuración de AMC Banking para ejecutar la acción Configuración asistida?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupNotificationActionTxt</note>
         </trans-unit>
@@ -496,7 +496,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 1051517620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has not returned any statement transactions.\\For more information, go to %1.</source>
-          <target>El servicio bancario AMC no ha devuelto ninguna transacción de estado de cuenta.\\Para obtener más información, vaya %1.</target>
+          <target>AMC Banking no ha devuelto ninguna transacción de estado de cuenta.\\Para obtener más información, vaya %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FinstaNotCollectedErr</note>
         </trans-unit>
@@ -1438,7 +1438,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3680579275 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
-          <target>Configurar servicio bancario AMC: estado de cuenta bancario, para poder importar estados de cuenta bancarios de sus bancos.</target>
+          <target>Configurar AMC Banking: estado de cuenta bancario, para poder importar estados de cuenta bancarios de sus bancos.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para3.1.6.1 - Property Caption</note>
         </trans-unit>
@@ -1450,7 +1450,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1951053626 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
-          <target>Configurar servicio bancario AMC: estado de cuenta bancario, para poder importar estados de cuenta bancarios de sus bancos.</target>
+          <target>Configurar AMC Banking: estado de cuenta bancario, para poder importar estados de cuenta bancarios de sus bancos.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVSTMT - Property ToolTip</note>
         </trans-unit>
@@ -1702,7 +1702,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Bank Name List</source>
-          <target>Lista nombres banco AMC</target>
+          <target>Lista de nombres de banco AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Property Caption</note>
         </trans-unit>
@@ -1750,7 +1750,7 @@
         </trans-unit>
         <trans-unit id="Page 2285503463 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Payment Types</source>
-          <target>Tipos de pagos bancarios AMC</target>
+          <target>Tipos de pagos de AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Pmt. Types - Property Caption</note>
         </trans-unit>
@@ -1768,7 +1768,7 @@
         </trans-unit>
         <trans-unit id="XmlPort 417263901 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Export CreditTransfer</source>
-          <target>CreditTransfer exportación bancaria AMC</target>
+          <target>CreditTransfer exportación de AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort AMC Bank Export CreditTransfer - Property Caption</note>
         </trans-unit>

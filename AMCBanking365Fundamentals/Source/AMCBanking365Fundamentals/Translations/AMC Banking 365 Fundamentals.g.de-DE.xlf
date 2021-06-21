@@ -41,7 +41,7 @@
         </trans-unit>
         <trans-unit id="Table 3704095706 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Setup</source>
-          <target>AMC-Banking - Einrichtung</target>
+          <target>AMC Banking - Einrichtung</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Property Caption</note>
         </trans-unit>
@@ -111,7 +111,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Setup</source>
-          <target>AMC-Banking - Einrichtung</target>
+          <target>AMC Banking - Einrichtung</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Property Caption</note>
         </trans-unit>
@@ -324,7 +324,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1973957526" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to open the AMC Banking Setup page to run the Assisted Setup action?</source>
-          <target>Möchten Sie die Seite „AMC-Banking - Einrichtung“ öffnen, um die Aktion „Unterstützte Einrichtung“ auszuführen?</target>
+          <target>Möchten Sie die Seite „AMC Banking - Einrichtung“ öffnen, um die Aktion „Unterstützte Einrichtung“ auszuführen?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupNotificationActionTxt</note>
         </trans-unit>
@@ -1781,7 +1781,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 387856334 - Control 265409144 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the payment type that the AMC Banking 365 Foundation extension requires when you export payments that have the selected payment method.</source>
-          <target>Gibt die Zahlungsart an, die die AMC Bank 365 Foundation-Erweiterung benötigt, wenn Sie Zahlungen exportieren, die die ausgewählte Zahlungsform aufweisen.</target>
+          <target>Gibt die Zahlungsart an, die die AMC Banking 365 Foundation-Erweiterung benötigt, wenn Sie Zahlungen exportieren, die die ausgewählte Zahlungsform aufweisen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2805771090</note>

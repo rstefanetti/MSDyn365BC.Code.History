@@ -108,6 +108,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TransactionsImportedTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 489640992 - NamedType 1263966795" size-unit="char" translate="no" xml:space="preserve">
+          <source>!TRNS%1TRNSID%1TRNSTYPE%1DATE%1ACCNT%1CLASS%1AMOUNT%1DOCNUM%1MEMO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TrnsDateClassTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 489640992 - NamedType 6629484" size-unit="char" translate="no" xml:space="preserve">
+          <source>!SPL%1SPLID%1TRNSTYPE%1DATE%1ACCNT%1CLASS%1AMOUNT%1DOCNUM%1MEMO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType SplitDateClassTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 489640992 - NamedType 2778853824" size-unit="char" translate="no" xml:space="preserve">
+          <source>TRNS%1%1GENERAL JOURNAL%1 7/1/16%1Savings%1%1 650%1%1Savings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType TrnsGeneralJournalTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 489640992 - NamedType 975198199" size-unit="char" translate="no" xml:space="preserve">
+          <source>SPL%1%1GENERAL JOURNAL%1 7/1/16%1Construction:Labor%1%1 -650%1%1Construction:Labor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType SplitGeneralJournalTxt</note>
+        </trans-unit>
       </group>
     </body>
   </file>

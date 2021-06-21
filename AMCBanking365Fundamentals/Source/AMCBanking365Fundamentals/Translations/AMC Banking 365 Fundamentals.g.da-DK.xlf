@@ -973,7 +973,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 33113820 - NamedType 930138903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We have updated the AMC Banking 365 Foundation extension.\\Before you can use the extension you must provide some information. Go to the AMC Banking Setup page and run the Assisted Setup action.</source>
-          <target>Vi har opdateret udvidelsen AMC Banking 365 Foundation.\\Før du kan bruge udvidelsen, skal du angive nogle oplysninger. Gå til siden Konfiguration af AMC Banking, og kør handlingen Assisteret opsætning.</target>
+          <target>Vi har opdateret AMC Banking 365 Foundation-udvidelsen.\\Før du kan bruge udvidelsen, skal du angive nogle oplysninger. Gå til siden AMC Banking Setup, og kør handlingen Assisteret installation.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Upg. Notification - NamedType UpgNotificationLbl</note>
         </trans-unit>

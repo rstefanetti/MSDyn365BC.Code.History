@@ -559,7 +559,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1926784871 - NamedType 1120322070" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>An error occured while creating the PayPal payment link.\\Do you want to continue to create the document without the link?</source>
-          <target>Der opstod en fejl under oprettelse af betalingslinket til PayPal.\\Vil du fortsætte med at oprette bilaget uden linket]A;?</target>
+          <target>Der opstod en fejl under oprettelse af betalingslinket til PayPal.\\Vil du fortsætte med at oprette bilaget uden linket?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - PayPal Standard Mgt. - NamedType PayPalNoLinkQst</note>
         </trans-unit>

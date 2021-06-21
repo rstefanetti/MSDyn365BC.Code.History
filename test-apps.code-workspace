@@ -156,6 +156,9 @@
                         "path":  ".\\UKSendRemittanceAdvice\\Test\\UKSendRemittanceAdviceTest"
                     },
                     {
+                        "path":  ".\\VATGroupManagement\\Test\\VATGroupManagementTest"
+                    },
+                    {
                         "path":  ".\\WorldPayPaymentsStandard\\Test\\WorldPayPaymentsStandardTest"
                     }
                 ]

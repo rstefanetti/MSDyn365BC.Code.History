@@ -638,6 +638,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType SkatteetatenMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 3369811046" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType BlankTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2299721209 - NamedType 1936075235" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not specified</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -2610,6 +2610,7 @@
         </trans-unit>
         <trans-unit id="Page 3494060223 - Control 594817020 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Code</source>
+          <target state="translated">Kód daně</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - JournalLines - Control taxCode - Property Caption</note>
         </trans-unit>
@@ -2620,11 +2621,13 @@
         </trans-unit>
         <trans-unit id="Page 3494060223 - Control 175815001 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balancing Account Id</source>
+          <target state="translated">ID protiúčtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - JournalLines - Control balancingAccountId - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3494060223 - Control 2661940603 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balancing Account No.</source>
+          <target state="translated">Číslo protiúčtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - JournalLines - Control balancingAccountNumber - Property Caption</note>
         </trans-unit>
@@ -3603,6 +3606,7 @@
         </trans-unit>
         <trans-unit id="Page 1779564587 - Control 594817020 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Code</source>
+          <target state="translated">Kód daně</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Order Lines - Control taxCode - Property Caption</note>
         </trans-unit>
@@ -3664,6 +3668,7 @@
         </trans-unit>
         <trans-unit id="Page 1779564587 - Control 794240300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship Quantity</source>
+          <target state="translated">Množství dodání</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Order Lines - Control receiveQuantity - Property Caption</note>
         </trans-unit>
@@ -3946,11 +3951,13 @@
         </trans-unit>
         <trans-unit id="Page 825103897 - Control 73969887 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fully Received</source>
+          <target state="translated">Plně přijato</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Orders - Control fullyReceived - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 825103897 - Control 998393528 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status</source>
+          <target state="translated">Stav</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Orders - Control status - Property Caption</note>
         </trans-unit>
@@ -7007,11 +7014,13 @@
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 3276161585 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-To Name</source>
+          <target state="translated">Název plátce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control billToName - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 3592631193 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-To Customer No.</source>
+          <target state="translated">Číslo plátce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control billToCustomerNumber - Property Caption</note>
         </trans-unit>
@@ -7074,16 +7083,19 @@
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 683811484 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to Country/Region Code</source>
+          <target state="translated">Kód země/oblasti plátce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control billToCountry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 2700905313 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to State</source>
+          <target state="translated">Stát plátce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control billToState - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 3070315367 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to Post Code</source>
+          <target state="translated">PSČ plátce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control billToPostCode - Property Caption</note>
         </trans-unit>
@@ -7465,11 +7477,13 @@
         </trans-unit>
         <trans-unit id="Page 720133695 - Property 3446740159" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial Balance</source>
+          <target state="translated">Předvaha</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Trial Balance - Property EntityCaption</note>
         </trans-unit>
         <trans-unit id="Page 720133695 - Property 631549417" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial Balances</source>
+          <target state="translated">Předvahy</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Trial Balance - Property EntitySetCaption</note>
         </trans-unit>
@@ -7653,6 +7667,7 @@
         </trans-unit>
         <trans-unit id="Page 2253128152 - Control 2998405077 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Comment</source>
+          <target state="translated">Komentář</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Vendor Payments - Control comment - Property Caption</note>
         </trans-unit>
@@ -7728,6 +7743,7 @@
         </trans-unit>
         <trans-unit id="Page 4034971528 - Control 707985127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
+          <target state="translated">Kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Vendor Paym. Journals - Control code - Property Caption</note>
         </trans-unit>
@@ -7738,11 +7754,13 @@
         </trans-unit>
         <trans-unit id="Page 4034971528 - Control 175815001 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balancing Account Id</source>
+          <target state="translated">ID protiúčtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Vendor Paym. Journals - Control balancingAccountId - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4034971528 - Control 2661940603 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balancing Account No.</source>
+          <target state="translated">Číslo protiúčtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Vendor Paym. Journals - Control balancingAccountNumber - Property Caption</note>
         </trans-unit>

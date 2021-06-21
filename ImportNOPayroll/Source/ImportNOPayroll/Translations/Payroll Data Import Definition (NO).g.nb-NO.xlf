@@ -59,9 +59,23 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4050813720</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1506921715 - Control 1137597916 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that field values that consist of zeros only will be treated as blank values. Such field values can occur when importing payroll files, for example.</source>
+          <target>Angir at feltverdier som består av bare nuller, ikke blir behandlet som tomme verdier. Slike feltverdier kan for eksempel forekomme når du importerer lønnsfiler.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4050813720</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2095224941 - Field 1270257717 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Dimension Codes</source>
           <target>Importer dimensjonskoder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2095224941 - Field 1137597916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ignore Zeros-Only Values</source>
+          <target>Ignorer bare null-verdier</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>

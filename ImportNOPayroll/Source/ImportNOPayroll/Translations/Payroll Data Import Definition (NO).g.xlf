@@ -53,10 +53,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension NO General Journal Setup - Control Import Dimension Codes - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1506921715 - Control 1137597916 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Specifies that field values that consist of zeros only will be treated as blank values. Such field values can occur when importing payroll files, for example.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension NO General Journal Setup - Control Ignore Zeros-Only Values - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2095224941 - Field 1270257717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
           <source>Import Dimension Codes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ImportDimCodes - Field Import Dimension Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2095224941 - Field 1137597916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+          <source>Ignore Zeros-Only Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ImportDimCodes - Field Ignore Zeros-Only Values - Property Caption</note>
         </trans-unit>
       </group>
     </body>

@@ -754,7 +754,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3623353946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS number</source>
-          <target>Número CHIPS americano</target>
+          <target>Número CHIPS estadounidense</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc3Txt</note>
         </trans-unit>
@@ -765,7 +765,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3566261211" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS universal number</source>
-          <target>Número universal CHIPS americano</target>
+          <target>Número universal CHIPS estadounidense</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc4Txt</note>
         </trans-unit>

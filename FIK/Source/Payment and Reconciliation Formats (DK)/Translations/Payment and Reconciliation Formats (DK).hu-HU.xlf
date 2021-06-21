@@ -15,293 +15,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FIKUplift - Field IsUpgraded - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 306597383" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Reference for %1 cannot be longer than %2.</source>
-          <target state="translated">Payment Reference for %1 cannot be longer than %2.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field,%2=Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType FIKLengthErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 829888159" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Payment Reference that you entered does not have the correct control cipher.</source>
-          <target state="translated">The Payment Reference that you entered does not have the correct control cipher.</target>
+        <trans-unit id="Codeunit 2819143507 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file export has one or more errors. For each of the lines to be exported, resolve any errors that are displayed in the File Export Errors FactBox.</source>
+          <target state="translated">The file export has one or more errors. For each of the lines to be exported, resolve any errors that are displayed in the File Export Errors FactBox.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType WrongCheckCypherErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Exp. Flat File Validation - NamedType HasErrorsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 1076626012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The selected payment method is not a FIK payment.</source>
-          <target state="translated">The selected payment method is not a FIK payment.</target>
+        <trans-unit id="Codeunit 1144821822 - NamedType 2210098175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Transfer Date value should be the same for all payment export data within the specified filters: %1.</source>
+          <target state="translated">The Transfer Date value should be the same for all payment export data within the specified filters: %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType FIKPmtErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Reference should be blank for payment method %1.</source>
-          <target state="translated">Payment Reference should be blank for payment method %1.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Name of selected payment method</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType PmtReferenceErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Please wait while the operation is being completed.</source>
-          <target state="translated">Please wait while the operation is being completed.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType ProgressWindowMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 605215594" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You cannot use bank account %1 for importing a FIK statement because the bank account currency is %2. The bank account currency must be DKK.</source>
-          <target state="translated">You cannot use bank account %1 for importing a FIK statement because the bank account currency is %2. The bank account currency must be DKK.</target>
-          <note from="Developer" annotates="general" priority="2">%1: Bank Account No., %2: Currency Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType BankAccountCurrencyNotLCYErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 1438492929" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The %1 in %2, %3 must be %4 or %5.</source>
-          <target state="translated">The %1 in %2, %3 must be %4 or %5.</target>
-          <note from="Developer" annotates="general" priority="2">The Payment Type Validation in Payment Method, Code must be Domestic or International.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType PmtTypeValidationErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - NamedType 2819125358" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Creditor Number field must not exceed %1 digits.</source>
-          <target state="translated">The Creditor Number field must not exceed %1 digits.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType CreditorNumberLengthErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines out of %2 have been applied.\\</source>
-          <target state="translated">%1 payment lines out of %2 have been applied.\\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchSummaryMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Please wait while the operation is being completed.</source>
-          <target state="translated">Please wait while the operation is being completed.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType ProgressBarMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 3488829619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Partial Amount</source>
-          <target state="translated">Partial Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionPartialTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 1957237868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Excess Amount</source>
-          <target state="translated">Excess Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionExtraTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Duplicate FIK Number</source>
-          <target state="translated">Duplicate FIK Number</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionDuplicateTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 416903980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No Matching FIK Number</source>
-          <target state="translated">No Matching FIK Number</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionNoMatchTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 1996552382" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Matching Amount</source>
-          <target state="translated">Matching Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionFullMatchTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 3169612504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Already Paid</source>
-          <target state="translated">Invoice Already Paid</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionIsPaidTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are partially paid.\</source>
-          <target state="translated">%1 payment lines are partially paid.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchPartialTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines have excess amounts.\</source>
-          <target state="translated">%1 payment lines have excess amounts.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchExtraTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are fully applied.\</source>
-          <target state="translated">%1 payment lines are fully applied.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchFullyTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 3985604872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are duplicates.\</source>
-          <target state="translated">%1 payment lines are duplicates.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchDuplicateTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 2688615703" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are already paid.\</source>
-          <target state="translated">%1 payment lines are already paid.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchIsPaidTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - NamedType 513951787" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Details:\</source>
-          <target state="translated">Details:\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchDetailsTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines out of %2 have been applied.\\</source>
-          <target state="translated">%1 payment lines out of %2 have been applied.\\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchSummaryMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Please wait while the operation is being completed.</source>
-          <target state="translated">Please wait while the operation is being completed.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType ProgressBarMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 3488829619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Partial Amount</source>
-          <target state="translated">Partial Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionPartialTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 1957237868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Excess Amount</source>
-          <target state="translated">Excess Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionExtraTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Duplicate FIK Number</source>
-          <target state="translated">Duplicate FIK Number</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionDuplicateTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 416903980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No Matching FIK Number</source>
-          <target state="translated">No Matching FIK Number</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionNoMatchTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 1996552382" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Matching Amount</source>
-          <target state="translated">Matching Amount</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionFullMatchTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 3169612504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Already Paid</source>
-          <target state="translated">Invoice Already Paid</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionIsPaidTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are partially paid.\</source>
-          <target state="translated">%1 payment lines are partially paid.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchPartialTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines have excess amounts.\</source>
-          <target state="translated">%1 payment lines have excess amounts.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchExtraTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 payment lines are fully applied.\</source>
-          <target state="translated">%1 payment lines are fully applied.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchFullyTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - NamedType 513951787" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Details:\</source>
-          <target state="translated">Details:\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchDetailsTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 1610805731" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should be %2 in %3.</source>
-          <target state="translated">%1 should be %2 in %3.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldBeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 589692984" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should not be %2 in %3.</source>
-          <target state="translated">%1 should not be %2 in %3.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldNotBeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 966906556" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The selected export format only supports vendor payments.</source>
-          <target state="translated">The selected export format only supports vendor payments.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType MustBeVendorPmtErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 753782083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 for one or more %2 is incorrect. You can only use %3.</source>
-          <target state="translated">%1 for one or more %2 is incorrect. You can only use %3.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType WrongCreditorCurrencyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 3611146998" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 for one or more %2 is incorrect. You can only use %3 or %4.</source>
-          <target state="translated">%1 for one or more %2 is incorrect. You can only use %3 or %4.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Value;%4=Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType WrongTransferCurrencyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must have a value</source>
-          <target state="translated">%1 must have a value</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType FieldIsNotEmptyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 and %2 cannot be used simultaneously for payments.</source>
-          <target state="translated">%1 and %2 cannot be used simultaneously for payments.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType SimultaneousPaymentDetailsErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1334383345 - NamedType 3467663936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The selected file is not a FIK file.</source>
-          <target state="translated">The selected file is not a FIK file.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_ReadFile - NamedType FIKFileNotValidErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1334383345 - NamedType 3559496198" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FI0</source>
-          <target state="translated">FI0</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_ReadFile - NamedType FIKPrefixValidateTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 3534592300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK 71 Payment</source>
-          <note from="Developer" annotates="general" priority="2">FIK is Danish abbreviation</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XFik71PaymentTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 3750078604" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GIRO 01 Payment</source>
-          <note from="Developer" annotates="general" priority="2">GIRO is Danish abbreviation</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XGIRO01PaymentTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 3933834078" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK 73 Payment</source>
-          <note from="Developer" annotates="general" priority="2">FIK is Danish abbreviation</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XFik73PaymentTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 1908419055" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GIRO 04 Payment</source>
-          <note from="Developer" annotates="general" priority="2">GIRO is Danish abbreviation</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XGIRO04PaymentTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 3334900457" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>International Bank Transfer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XInternationalBankTransferTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2941720393 - NamedType 463652529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Domestic Bank Transfer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XDomesticlBankTransferTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export BankData Fixed Width - NamedType NotSameDueDateForAllLinesErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2941720393 - NamedType 900708658" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>BANK</source>
@@ -318,17 +42,95 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XCHECKTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - NamedType 1350017906" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK Code</source>
-          <target state="translated">FIK Code</target>
-          <note from="Developer" annotates="general" priority="2">Translate to FIK-kode (FIK is danish abbreviation).</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType PaymentRefrenceLblTxt</note>
+        <trans-unit id="Codeunit 2941720393 - NamedType 463652529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic Bank Transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XDomesticlBankTransferTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 3534592300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK 71 Payment</source>
+          <note from="Developer" annotates="general" priority="2">FIK is Danish abbreviation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XFik71PaymentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 3933834078" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK 73 Payment</source>
+          <note from="Developer" annotates="general" priority="2">FIK is Danish abbreviation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XFik73PaymentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 3750078604" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GIRO 01 Payment</source>
+          <note from="Developer" annotates="general" priority="2">GIRO is Danish abbreviation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XGIRO01PaymentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 1908419055" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GIRO 04 Payment</source>
+          <note from="Developer" annotates="general" priority="2">GIRO is Danish abbreviation</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XGIRO04PaymentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2941720393 - NamedType 3334900457" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>International Bank Transfer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XInternationalBankTransferTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 605215594" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use bank account %1 for importing a FIK statement because the bank account currency is %2. The bank account currency must be DKK.</source>
+          <target state="translated">You cannot use bank account %1 for importing a FIK statement because the bank account currency is %2. The bank account currency must be DKK.</target>
+          <note from="Developer" annotates="general" priority="2">%1: Bank Account No., %2: Currency Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType BankAccountCurrencyNotLCYErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 2819125358" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Creditor Number field must not exceed %1 digits.</source>
+          <target state="translated">The Creditor Number field must not exceed %1 digits.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType CreditorNumberLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 306597383" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Reference for %1 cannot be longer than %2.</source>
+          <target state="translated">Payment Reference for %1 cannot be longer than %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field,%2=Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType FIKLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 1076626012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected payment method is not a FIK payment.</source>
+          <target state="translated">The selected payment method is not a FIK payment.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType FIKPmtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Reference should be blank for payment method %1.</source>
+          <target state="translated">Payment Reference should be blank for payment method %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Name of selected payment method</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType PmtReferenceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 1438492929" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 in %2, %3 must be %4 or %5.</source>
+          <target state="translated">The %1 in %2, %3 must be %4 or %5.</target>
+          <note from="Developer" annotates="general" priority="2">The Payment Type Validation in Payment Method, Code must be Domestic or International.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType PmtTypeValidationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target state="translated">Please wait while the operation is being completed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType ProgressWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3470095905 - NamedType 829888159" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Payment Reference that you entered does not have the correct control cipher.</source>
+          <target state="translated">The Payment Reference that you entered does not have the correct control cipher.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType WrongCheckCypherErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 4242579174" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Code</source>
           <target state="translated">FIK Code</target>
           <note from="Developer" annotates="general" priority="2">Translate to FIK-kode (FIK is danish abbreviation).</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType DocumentReferenceCaptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2837327687 - NamedType 3007127596" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1, %2 or %3 must be used for payments.</source>
+          <target state="translated">%1, %2 or %3 must be used for payments.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field;%3=Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType EmptyPaymentDetailsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 2639551156" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The account must be a vendor or customer account.</source>
@@ -342,11 +144,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType MustBeVendPmtOrCustRefundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - NamedType 3007127596" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1, %2 or %3 must be used for payments.</source>
-          <target state="translated">%1, %2 or %3 must be used for payments.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field;%3=Field</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType EmptyPaymentDetailsErr</note>
+        <trans-unit id="Codeunit 2837327687 - NamedType 1350017906" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK Code</source>
+          <target state="translated">FIK Code</target>
+          <note from="Developer" annotates="general" priority="2">Translate to FIK-kode (FIK is danish abbreviation).</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType PaymentRefrenceLblTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 and %2 cannot be used simultaneously for payments.</source>
@@ -354,17 +156,215 @@
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType SimultaneousPaymentDetailsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1144821822 - NamedType 2210098175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Transfer Date value should be the same for all payment export data within the specified filters: %1.</source>
-          <target state="translated">The Transfer Date value should be the same for all payment export data within the specified filters: %1.</target>
+        <trans-unit id="Codeunit 2671379033 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate FIK Number</source>
+          <target state="translated">Duplicate FIK Number</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export BankData Fixed Width - NamedType NotSameDueDateForAllLinesErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionDuplicateTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2819143507 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The file export has one or more errors. For each of the lines to be exported, resolve any errors that are displayed in the File Export Errors FactBox.</source>
-          <target state="translated">The file export has one or more errors. For each of the lines to be exported, resolve any errors that are displayed in the File Export Errors FactBox.</target>
+        <trans-unit id="Codeunit 2671379033 - NamedType 1957237868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excess Amount</source>
+          <target state="translated">Excess Amount</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Exp. Flat File Validation - NamedType HasErrorsErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionExtraTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 1996552382" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matching Amount</source>
+          <target state="translated">Matching Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionFullMatchTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 3169612504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Already Paid</source>
+          <target state="translated">Invoice Already Paid</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionIsPaidTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 416903980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Matching FIK Number</source>
+          <target state="translated">No Matching FIK Number</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionNoMatchTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 3488829619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partial Amount</source>
+          <target state="translated">Partial Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType FIKDescriptionPartialTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 513951787" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details:\</source>
+          <target state="translated">Details:\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchDetailsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 3985604872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are duplicates.\</source>
+          <target state="translated">%1 payment lines are duplicates.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchDuplicateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines have excess amounts.\</source>
+          <target state="translated">%1 payment lines have excess amounts.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchExtraTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are fully applied.\</source>
+          <target state="translated">%1 payment lines are fully applied.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchFullyTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 2688615703" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are already paid.\</source>
+          <target state="translated">%1 payment lines are already paid.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchIsPaidTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are partially paid.\</source>
+          <target state="translated">%1 payment lines are partially paid.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchPartialTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 have been applied.\\</source>
+          <target state="translated">%1 payment lines out of %2 have been applied.\\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671379033 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target state="translated">Please wait while the operation is being completed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate FIK Number</source>
+          <target state="translated">Duplicate FIK Number</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionDuplicateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 1957237868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Excess Amount</source>
+          <target state="translated">Excess Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionExtraTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 1996552382" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matching Amount</source>
+          <target state="translated">Matching Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionFullMatchTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 3169612504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Already Paid</source>
+          <target state="translated">Invoice Already Paid</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionIsPaidTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 416903980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Matching FIK Number</source>
+          <target state="translated">No Matching FIK Number</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionNoMatchTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 3488829619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partial Amount</source>
+          <target state="translated">Partial Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType FIKDescriptionPartialTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 513951787" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details:\</source>
+          <target state="translated">Details:\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchDetailsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines have excess amounts.\</source>
+          <target state="translated">%1 payment lines have excess amounts.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchExtraTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are fully applied.\</source>
+          <target state="translated">%1 payment lines are fully applied.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchFullyTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines are partially paid.\</source>
+          <target state="translated">%1 payment lines are partially paid.\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchPartialTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 payment lines out of %2 have been applied.\\</source>
+          <target state="translated">%1 payment lines out of %2 have been applied.\\</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1543107980 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the operation is being completed.</source>
+          <target state="translated">Please wait while the operation is being completed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType ProgressBarMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1334383345 - NamedType 3467663936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected file is not a FIK file.</source>
+          <target state="translated">The selected file is not a FIK file.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_ReadFile - NamedType FIKFileNotValidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1334383345 - NamedType 3559496198" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FI0</source>
+          <target state="translated">FI0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_ReadFile - NamedType FIKPrefixValidateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value</source>
+          <target state="translated">%1 must have a value</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType FieldIsNotEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 966906556" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected export format only supports vendor payments.</source>
+          <target state="translated">The selected export format only supports vendor payments.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType MustBeVendorPmtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 1610805731" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should be %2 in %3.</source>
+          <target state="translated">%1 should be %2 in %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldBeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 589692984" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should not be %2 in %3.</source>
+          <target state="translated">%1 should not be %2 in %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldNotBeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 and %2 cannot be used simultaneously for payments.</source>
+          <target state="translated">%1 and %2 cannot be used simultaneously for payments.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType SimultaneousPaymentDetailsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 753782083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 for one or more %2 is incorrect. You can only use %3.</source>
+          <target state="translated">%1 for one or more %2 is incorrect. You can only use %3.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType WrongCreditorCurrencyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3601034231 - NamedType 3611146998" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 for one or more %2 is incorrect. You can only use %3 or %4.</source>
+          <target state="translated">%1 for one or more %2 is incorrect. You can only use %3 or %4.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Value;%4=Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType WrongTransferCurrencyErr</note>
         </trans-unit>
         <trans-unit id="PageExtension 591338493 - Control 1207730083 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the FIK reference that will be inserted on sales invoice documents to domestic customers.</source>
@@ -373,33 +373,47 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3469146285</note>
         </trans-unit>
-        <trans-unit id="TableExtension 591338493 - Field 856674489 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank Creditor No.</source>
-          <target state="translated">Bank Creditor No.</target>
+        <trans-unit id="PageExtension 1126956274 - Action 1819442748 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export a file with the payment information from the ledger entries.</source>
+          <target state="translated">Export a file with the payment information from the ledger entries.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2393537757</note>
         </trans-unit>
-        <trans-unit id="TableExtension 591338493 - NamedType 1923762040" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must be an 8-digit number.</source>
-          <target state="translated">%1 must be an 8-digit number.</target>
+        <trans-unit id="PageExtension 1126956274 - Action 1819442748 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Payments to File</source>
+          <target state="translated">Export Payments to File</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 591338493</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2393537757</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2636339152 - Action 2465313450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import FIK Statement</source>
-          <target state="translated">Import FIK Statement</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2636339152 - Action 2465313450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 2212959633 - Action 2487007379 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</source>
           <target state="translated">Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2212959633 - Action 2487007379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import FIK Statement</source>
+          <target state="translated">Import FIK Statement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3961762325 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's giro account.</source>
+          <target state="translated">Specifies the vendor's giro account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3196174509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2535861002 - Control 2861112435 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the FIK code when the payment is processed using the Danish bank standard, FIK.</source>
+          <target state="translated">Specifies the FIK code when the payment is processed using the Danish bank standard, FIK.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2805771090</note>
         </trans-unit>
         <trans-unit id="PageExtension 2636339152 - NamedType 1282842658" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot use the Map Text to Account function for payments of type FIK.</source>
@@ -422,16 +436,30 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2636339152</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1016612176 - Action 1325671315 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import &amp;FIK Statement</source>
-          <target state="translated">Import &amp;FIK Statement</target>
+        <trans-unit id="PageExtension 2636339152 - Action 2465313450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</source>
+          <target state="translated">Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 4226890118</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2636339152 - Action 2465313450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import FIK Statement</source>
+          <target state="translated">Import FIK Statement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3039851816</note>
         </trans-unit>
         <trans-unit id="PageExtension 1016612176 - Action 1325671315 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</source>
           <target state="translated">Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4226890118</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1016612176 - Action 1325671315 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import &amp;FIK Statement</source>
+          <target state="translated">Import &amp;FIK Statement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4226890118</note>
@@ -443,26 +471,26 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4048657685</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1126956274 - Action 1819442748 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export Payments to File</source>
-          <target state="translated">Export Payments to File</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2393537757</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1126956274 - Action 1819442748 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export a file with the payment information from the ledger entries.</source>
-          <target state="translated">Export a file with the payment information from the ledger entries.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2393537757</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3961762325 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 783370822 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the vendor's giro account.</source>
           <target state="translated">Specifies the vendor's giro account.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3196174509</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1640572759 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's giro account.</source>
+          <target state="translated">Specifies the vendor's giro account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 387971303</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2277685387 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's giro account.</source>
+          <target state="translated">Specifies the vendor's giro account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3321822267</note>
         </trans-unit>
         <trans-unit id="PageExtension 1574261460 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the vendor's giro account.</source>
@@ -471,9 +499,9 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4055858012</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4166035261 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the vendor's giro account.</source>
-          <target state="translated">Specifies the vendor's giro account.</target>
+        <trans-unit id="PageExtension 4166035261 - Action 1819442748 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export a file with the payment information from the ledger entries.</source>
+          <target state="translated">Export a file with the payment information from the ledger entries.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1567633909</note>
@@ -485,117 +513,12 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1567633909</note>
         </trans-unit>
-        <trans-unit id="PageExtension 4166035261 - Action 1819442748 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export a file with the payment information from the ledger entries.</source>
-          <target state="translated">Export a file with the payment information from the ledger entries.</target>
+        <trans-unit id="PageExtension 4166035261 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's giro account.</source>
+          <target state="translated">Specifies the vendor's giro account.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1567633909</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2212959633 - Action 2487007379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import FIK Statement</source>
-          <target state="translated">Import FIK Statement</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2212959633 - Action 2487007379 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</source>
-          <target state="translated">Import a file with FIK payments. The Fik payments are automatically applied as suggestions.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2535861002 - Control 2861112435 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the FIK code when the payment is processed using the Danish bank standard, FIK.</source>
-          <target state="translated">Specifies the FIK code when the payment is processed using the Danish bank standard, FIK.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2805771090</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2277685387 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the vendor's giro account.</source>
-          <target state="translated">Specifies the vendor's giro account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3321822267</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1640572759 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the vendor's giro account.</source>
-          <target state="translated">Specifies the vendor's giro account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 387971303</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 783370822 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the vendor's giro account.</source>
-          <target state="translated">Specifies the vendor's giro account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2437096118</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2212885919 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1592379974</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2641964810 - Field 2876303620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Recipient Giro Acc No.</source>
-          <target state="translated">Recipient Giro Acc No.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 658627162</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1134024500 - Field 3874601753 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Match Status</source>
-          <target state="translated">Match Status</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2574635364</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1134024500 - Field 3905673732 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description</source>
-          <target state="translated">Description</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2574635364</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1936001480 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4104438143 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 406314583</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4104438143 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 cannot be used while %2 has a value.</source>
-          <target state="translated">%1 cannot be used while %2 has a value.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should be blank for %2 %3.</source>
-          <target state="translated">%1 should be blank for %2 %3.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2836340947 - Field 2857408379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK Payment Reconciliation</source>
-          <target state="translated">FIK Payment Reconciliation</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3012722930</note>
         </trans-unit>
         <trans-unit id="TableExtension 306556503 - Field 1811986635 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Reference</source>
@@ -604,40 +527,40 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2110786292</note>
         </trans-unit>
-        <trans-unit id="TableExtension 200753951 - Field 3393125203 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Type Validation</source>
-          <target state="translated">Payment Type Validation</target>
+        <trans-unit id="TableExtension 2836340947 - Field 2857408379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK Payment Reconciliation</source>
+          <target state="translated">FIK Payment Reconciliation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3566004263</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3012722930</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3740986590 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
+        <trans-unit id="TableExtension 1134024500 - Field 3905673732 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3413189046</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2574635364</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2937376488 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
+        <trans-unit id="TableExtension 1134024500 - Field 3874601753 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Status</source>
+          <target state="translated">Match Status</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2574635364</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2937376488 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should be blank for %2 %3.</source>
-          <target state="translated">%1 should be blank for %2 %3.</target>
+        <trans-unit id="TableExtension 591338493 - NamedType 1923762040" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be an 8-digit number.</source>
+          <target state="translated">%1 must be an 8-digit number.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2937376488</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 591338493</note>
         </trans-unit>
-        <trans-unit id="TableExtension 1079743675 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Giro Acc No.</source>
-          <target state="translated">Giro Acc No.</target>
+        <trans-unit id="TableExtension 591338493 - Field 856674489 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Creditor No.</source>
+          <target state="translated">Bank Creditor No.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
         </trans-unit>
         <trans-unit id="TableExtension 1079743675 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 cannot be used while %2 has a value.</source>
@@ -653,6 +576,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1079743675</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1079743675 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+        </trans-unit>
         <trans-unit id="TableExtension 691353248 - Field 2407072886 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Import Format</source>
           <target state="translated">FIK Import Format</target>
@@ -660,20 +590,85 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3740986590 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3413189046</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2641964810 - Field 2876303620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Giro Acc No.</source>
+          <target state="translated">Recipient Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 658627162</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 200753951 - Field 3393125203 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Type Validation</source>
+          <target state="translated">Payment Type Validation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3566004263</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2937376488 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should be blank for %2 %3.</source>
+          <target state="translated">%1 should be blank for %2 %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2937376488</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2937376488 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2212885919 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1592379974</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1936001480 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4104438143 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be used while %2 has a value.</source>
+          <target state="translated">%1 cannot be used while %2 has a value.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should be blank for %2 %3.</source>
+          <target state="translated">%1 should be blank for %2 %3.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4104438143 - Field 929023181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Giro Acc No.</source>
+          <target state="translated">Giro Acc No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 406314583</note>
+        </trans-unit>
         <trans-unit id="Enum 2861112435 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue   - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2861112435 - EnumValue 367077094 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK 71</source>
+        <trans-unit id="Enum 2861112435 - EnumValue 669682258 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue FIK 71 - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2861112435 - EnumValue 3386651156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FIK 73</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue FIK 73 - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue Domestic - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2861112435 - EnumValue 956233407 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK 01</source>
@@ -685,10 +680,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue FIK 04 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2861112435 - EnumValue 669682258 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Domestic</source>
+        <trans-unit id="Enum 2861112435 - EnumValue 367077094 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK 71</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue Domestic - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue FIK 71 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2861112435 - EnumValue 3386651156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK 73</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Payment Type Validation - EnumValue FIK 73 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2861112435 - EnumValue 1192464718 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International</source>

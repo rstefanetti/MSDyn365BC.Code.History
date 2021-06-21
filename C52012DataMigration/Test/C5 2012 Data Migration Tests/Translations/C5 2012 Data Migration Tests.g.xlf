@@ -3,55 +3,55 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="C5 2012 Data Migration Tests">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 176235313 - NamedType 2955075171" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The combination of PostCode '%1' and City '%2' was not found.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Post code and %2 = City</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType PostCodeOrCityNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 176235313 - NamedType 611240008" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The language '%1' was not found.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = language name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType LanguageNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 176235313 - NamedType 1820438706" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The country '%1' was not found.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = country name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType CountryNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2820602941 - NamedType 272094360" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SALESX</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType DepartmentTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2820602941 - NamedType 2034318468" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CostCntX</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType CostCenterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2820602941 - NamedType 2292131154" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PurposeX</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType PurposeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2820602941 - NamedType 3785888258" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SALESY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType Department2Txt</note>
+        <trans-unit id="Codeunit 1442971587 - NamedType 288635494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to migrate the updated entities?\\If you do, remember to refresh the %1 page so you can follow the progress.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = caption of page Data Migration overview</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Bulk-Fix Errors Test - NamedType MigrateEntitiesAgainQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2820602941 - NamedType 1084752078" size-unit="char" translate="yes" xml:space="preserve">
           <source>CostCntY</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType CostCenter2Txt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2820602941 - NamedType 2034318468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CostCntX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType CostCenterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2820602941 - NamedType 3785888258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SALESY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType Department2Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2820602941 - NamedType 272094360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SALESX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType DepartmentTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2820602941 - NamedType 84013480" size-unit="char" translate="yes" xml:space="preserve">
           <source>PurposeY</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType Purpose2Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1442971587 - NamedType 288635494" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to migrate the updated entities?\\If you do, remember to refresh the %1 page so you can follow the progress.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = caption of page Data Migration overview</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Bulk-Fix Errors Test - NamedType MigrateEntitiesAgainQst</note>
+        <trans-unit id="Codeunit 2820602941 - NamedType 2292131154" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PurposeX</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator Tst - NamedType PurposeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 176235313 - NamedType 1820438706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The country '%1' was not found.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = country name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType CountryNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 176235313 - NamedType 611240008" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The language '%1' was not found.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = language name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType LanguageNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 176235313 - NamedType 2955075171" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The combination of PostCode '%1' and City '%2' was not found.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Post code and %2 = City</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions Test - NamedType PostCodeOrCityNotFoundErr</note>
         </trans-unit>
       </group>
     </body>

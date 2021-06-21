@@ -18,6 +18,11 @@
           <note from="Developer" annotates="general" priority="2">%1=Table;%2=Table;%3=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Statement Import Sunshine - NamedType RecordsMismatchErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2217454995 - NamedType 3084275768" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The data to be exported is not structured correctly. The columns in the dataset must be sequential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt Export Fixed-Width UT - NamedType ColumnsNotSequentialErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2217454995 - NamedType 4275565513" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number of lines in file %1 is wrong.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -28,40 +33,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt Export Fixed-Width UT - NamedType FileLineValueIsWrongErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2217454995 - NamedType 3084275768" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The data to be exported is not structured correctly. The columns in the dataset must be sequential.</source>
+        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1646966345" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"ED000000000003","20130128","125352"</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt Export Fixed-Width UT - NamedType ColumnsNotSequentialErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataHeaderSampleTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 2582613147" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must have a value</source>
+        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1784399067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"ED010103000003","5","20120227","-32,00","2","080790002010094","20120227","99932981,40","test ik aftale","0","","","","","","Creditor ID","","","","","701205828770497959","DKK","","0,00","0,00","","","0,00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType FieldMustHaveValueErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataSample1Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 987998246" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The value in the %1 field does not have the length that is required by the export format.</source>
+        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 3695646238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"ED010103000003","10","20120227","9000,00","2","080790002010094","20120227","99957978,46","240212 Indbet.ID=0000000000000018^2","0","","","","","","","","","PK test FI 75 sumbetalinger","","721205800344032009","DKK","","0,00","0,00","","","0,00","Payer Info","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType WrongBankInfoLengthErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataSample2Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 1610805731" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should be %2 in %3.</source>
+        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1399504991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"ED999999999999","20130128","125352","11","48574,25"</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldBeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 589692984" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should not be %2 in %3.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldNotBeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 3170386756" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The selected export format only supports vendor payments.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType VendorPmtErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 3308473712" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field GiroAccNo has wrong value.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType GiroAccValueErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataFooterSampleTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1493445404 - Method 959896493 - NamedType 2049591907" size-unit="char" translate="yes" xml:space="preserve">
           <source>"CMKXKSX",0901060939,0901060016,1111111111,081208,081208,"DKK",-0.33,"",,"Short advice","",+0.00,-0.33","Extended advice 1","Extended advice 2"</source>
@@ -103,26 +93,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestNordeaCorpSampleImport - NamedType NordeaCorpTemplateTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1646966345" size-unit="char" translate="yes" xml:space="preserve">
-          <source>"ED000000000003","20130128","125352"</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataHeaderSampleTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1784399067" size-unit="char" translate="yes" xml:space="preserve">
-          <source>"ED010103000003","5","20120227","-32,00","2","080790002010094","20120227","99932981,40","test ik aftale","0","","","","","","Creditor ID","","","","","701205828770497959","DKK","","0,00","0,00","","","0,00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataSample1Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 3695646238" size-unit="char" translate="yes" xml:space="preserve">
-          <source>"ED010103000003","10","20120227","9000,00","2","080790002010094","20120227","99957978,46","240212 Indbet.ID=0000000000000018^2","0","","","","","","","","","PK test FI 75 sumbetalinger","","721205800344032009","DKK","","0,00","0,00","","","0,00","Payer Info","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataSample2Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1399504991" size-unit="char" translate="yes" xml:space="preserve">
-          <source>"ED999999999999","20130128","125352","11","48574,25"</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestBankDataSampleImport - NamedType BankDataFooterSampleTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1493445404 - Method 4065643355 - NamedType 3659077266" size-unit="char" translate="yes" xml:space="preserve">
           <source>0400 4010393855;30-01-2013;30-01-2013;26239,15;DKK;26239,15;DKK;;LØNOVERFØRSEL;;Q000004890;;;;;Skandinavisk Data Center A/S;Borupvang 1;2750  Ballerup;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -153,15 +123,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType ControlCypherErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1270266574 - NamedType 306597383" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Reference for %1 cannot be longer than %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType FIKLengthErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1270266574 - NamedType 3939448886" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Payment Reference that you entered does not have the correct control cipher.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType WrongFIKErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1270266574 - NamedType 306597383" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Payment Reference for %1 cannot be longer than %2.</source>
+        <trans-unit id="Codeunit 1975316130 - NamedType 2582613147" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType FIKLengthErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType FieldMustHaveValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1975316130 - NamedType 3308473712" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field GiroAccNo has wrong value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType GiroAccValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1975316130 - NamedType 1610805731" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should be %2 in %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldBeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1975316130 - NamedType 589692984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 should not be %2 in %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldNotBeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1975316130 - NamedType 3170386756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected export format only supports vendor payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType VendorPmtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1975316130 - NamedType 987998246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the %1 field does not have the length that is required by the export format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType WrongBankInfoLengthErr</note>
         </trans-unit>
       </group>
     </body>

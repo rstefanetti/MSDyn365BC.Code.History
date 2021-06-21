@@ -18,15 +18,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType MissingFileNameErr</note>
         </trans-unit>
-        <trans-unit id="Report 2597579300 - NamedType 700774942" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WwWw</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatTxt</note>
-        </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 2277198143" size-unit="char" translate="yes" xml:space="preserve">
           <source>INTRASTAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2597579300 - NamedType 700774942" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WwWw</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType RegNoFormatTxt</note>
         </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 4260029528" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>

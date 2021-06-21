@@ -293,7 +293,7 @@
         </trans-unit>
         <trans-unit id="Page 4132159392 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,Confidence Score,Blacklist</source>
-          <target>Uusi,Käsittely,Raportti,Luottamuspistemäärä,Musta lista</target>
+          <target>Uusi,Käsittely,Raportti,Luottamuspistemäärä,Estettyjen luettelo</target>
           <note from="Developer" annotates="general" priority="2">Blacklist is used to prevent the selected attributes from being suggested in the future.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Property PromotedActionCategories</note>
         </trans-unit>
@@ -329,7 +329,7 @@
         </trans-unit>
         <trans-unit id="Page 4132159392 - Action 2630983774 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blacklist</source>
-          <target>Musta lista</target>
+          <target>Estettyjen luettelo</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action BlacklistGroup - Property Caption</note>
         </trans-unit>

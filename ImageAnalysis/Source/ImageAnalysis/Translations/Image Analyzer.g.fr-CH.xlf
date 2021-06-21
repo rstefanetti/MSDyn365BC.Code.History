@@ -402,7 +402,7 @@
         </trans-unit>
         <trans-unit id="Page 872216054 - Control 2762510287 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>I understand and accept these terms</source>
-          <target>Je comprends et accepte ces conditions</target>
+          <target>Je comprends et j'accepte ces conditions</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control EnableFeature - Property Caption</note>
         </trans-unit>

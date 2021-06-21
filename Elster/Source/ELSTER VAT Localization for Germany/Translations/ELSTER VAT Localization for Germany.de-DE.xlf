@@ -3,6 +3,12 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="ELSTER VAT Localization for Germany">
     <body>
       <group id="body">
+        <trans-unit id="Table 1923262567 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. VAT Decl. Setup</source>
+          <target state="translated">Elektr. Umsatzsteuererklärung – Einrichtung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Decl. Setup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1923262567 - NamedType 2028656701" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales VAT Adv. Notif. Path of the XML file is missing. Do you want to update it now?</source>
           <target state="translated">Der USt.-Voranmeldungspfad der XML-Datei fehlt. Möchten Sie ihn jetzt aktualisieren?</target>
@@ -38,6 +44,12 @@
           <target state="translated">Standardname der XML-Datei</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Decl. Setup - Field XML File Default Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3039476855 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales VAT Advance Notif.</source>
+          <target state="translated">USt.-Voranmeldungs–Benachr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3039476855 - NamedType 3649316047" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the value of this field anymore after the XML-File for the %1 has been created.</source>
@@ -243,6 +255,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster - Initialize - NamedType XVATADVANCENOTIFICATIONTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - Method 2921338925" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetElsterUpgradeTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - Method GetElsterUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - Method 3754745012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCleanupElsterTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - Method GetCleanupElsterTag</note>
+        </trans-unit>
         <trans-unit id="Page 2767607058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic VAT Decl. Setup</source>
           <target state="translated">Elektronische Umsatzsteuererklärung - Einrichtung</target>
@@ -447,6 +469,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action F&amp;unctions - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 2347438355 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <target state="translated">1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 4260528206 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action 2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1934416626 - Action 4273177972 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Close open VAT entries and transfers purchase and sales VAT amounts to the VAT settlement account. For every VAT posting group, the batch job finds all the VAT entries in the VAT Entry table that are included in the filters in the definition window.</source>
           <target state="translated">Schließt offene MwSt.-Posten und überträgt Vor- und Umsatzsteuerbeträge auf das MwSt.-Abrechnungskonto. Die Stapelverarbeitung ermittelt für jede MwSt-Buchungsgruppe die MwSt.-Posten in der Tabelle „MwSt.-Posten”, die in den Filtern im Fenster „Definition” enthalten sind.</target>
@@ -460,8 +494,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action Calc. and Post &amp;VAT Settlement - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 3633506597 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <target state="translated">Die XML-Datei erstellen, die an die Steuerbehörde gesendet wird.</target>
+          <source>Prepares information which are to be included in the xml file when the data will be exported using the Export action.</source>
+          <target state="translated">Bereitet Informationen vor, die in die XML-Datei einbezogen werden sollen, wenn die Daten mithilfe der Aktion „Exportieren“ exportiert werden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property ToolTip</note>
         </trans-unit>
@@ -472,8 +506,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 4208453226 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <target state="translated">Die XML-Datei erstellen, die an die Steuerbehörde gesendet wird.</target>
+          <source>Deletes the file information which have been stored inside BC when the file got created. The xml file will not get deleted from the file location where it has been saved before.</source>
+          <target state="translated">Löscht die Dateiinformationen, die innerhalb von BC gespeichert wurden, als die Datei erstellt wurde. Die XML-Datei wird nicht vom Dateispeicherort gelöscht, an dem sie zuvor gespeichert wurde.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property ToolTip</note>
         </trans-unit>
@@ -579,6 +613,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action F&amp;unctions - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 323663860 - Action 2347438355 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>1</source>
+          <target state="translated">1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 323663860 - Action 4260528206 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>2</source>
+          <target state="translated">2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action 2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 323663860 - Action 4273177972 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Close open VAT entries and transfers purchase and sales VAT amounts to the VAT settlement account. For every VAT posting group, the batch job finds all the VAT entries in the VAT Entry table that are included in the filters in the definition window.</source>
           <target state="translated">Schließt offene MwSt.-Posten und überträgt Vor- und Umsatzsteuerbeträge auf das MwSt.-Abrechnungskonto. Die Stapelverarbeitung ermittelt für jede MwSt-Buchungsgruppe die MwSt.-Posten in der Tabelle „MwSt.-Posten”, die in den Filtern im Fenster „Definition” enthalten sind.</target>
@@ -650,6 +696,12 @@
           <target state="translated">Drucken</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3274648176 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create XML-File VAT Adv.Notif.</source>
+          <target state="translated">XML-Datei erstellen MwSt. Erw. Benach.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 1983405159" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculating Tax Amounts</source>

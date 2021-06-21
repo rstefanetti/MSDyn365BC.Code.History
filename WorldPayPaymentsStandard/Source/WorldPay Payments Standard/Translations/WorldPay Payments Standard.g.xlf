@@ -118,6 +118,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Terms of Service - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2732276791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - WorldPay Transaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Transaction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2732276791 - Field 629845928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account ID</source>
           <note from="Developer" annotates="general" priority="2"></note>

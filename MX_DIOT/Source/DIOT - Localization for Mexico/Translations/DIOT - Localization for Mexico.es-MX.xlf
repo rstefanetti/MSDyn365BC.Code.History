@@ -77,13 +77,13 @@
         </trans-unit>
         <trans-unit id="Table 1474668530 - Field 236064653 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Product Posting Group</source>
-          <target state="translated">Grupo de registro de IVA de producto</target>
+          <target state="translated">Grupo registro IVA producto</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Field VAT Prod. Posting Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1474668530 - Field 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Business Posting Group</source>
-          <target state="translated">Grupo registro de IVA de negocio</target>
+          <target state="translated">Grupo registro IVA negocio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Concept Link - Field VAT Bus. Posting Group - Property Caption</note>
         </trans-unit>
@@ -203,7 +203,7 @@
         </trans-unit>
         <trans-unit id="Table 3444493240 - Field 815981027 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type of Operation Text</source>
-          <target state="translated">Tipo de operación de texto</target>
+          <target state="translated">Tipo de texto de operación</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation Text - Property Caption</note>
         </trans-unit>
@@ -263,7 +263,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 1717313695" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value of acts or activities paid at the rate of 10% or 11% VAT</source>
-          <target state="translated">Valor de los actos o actividades pagados a una tasa de 10% o de 11% del IVA</target>
+          <target state="translated">Valor de los actos o las actividades pagados a una tasa de IVA del 10 % o el 11 %</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc4Txt</note>
         </trans-unit>
@@ -287,7 +287,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 3227520619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount of VAT not creditable subject to the stimulation of the northern border region (corresponding to the proportion of authorized deductions)</source>
-          <target state="translated">Cantidad de IVA no acreditable sometida al fomento de la región del norte de la frontera (correspondiente a la proporción de deducciones autorizadas)</target>
+          <target state="translated">Importe de IVA no acreditable sujeto al fomento de la región del norte de la frontera (correspondiente a la proporción de deducciones autorizadas)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc8Txt</note>
         </trans-unit>
@@ -305,7 +305,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 2444922731" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value of the acts or activities paid in the import of goods and services at the rate of 10% or 11% VAT</source>
-          <target state="translated">Valor de los actos o de las actividades pagados en la importación de bienes y servicios a una tasa de 10% o 11% del IVA</target>
+          <target state="translated">Valor de los actos o las actividades pagados en la importación de bienes y servicios a una tasa de IVA del 10 % o el 11 %</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType ConceptDesc11Txt</note>
         </trans-unit>
@@ -353,7 +353,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 2922409529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operations with non-mx Vendor cannot have Lease And Rent Type of operation.</source>
-          <target state="translated">Las operaciones con el proveedor que no es mx no pueden tener arrendamiento y tipo de operación.</target>
+          <target state="translated">Las operaciones con un proveedor que no sea de México no pueden tener el tipo de operación Arrendamiento y alquiler.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType LeaseAndRentNonMXErr</note>
         </trans-unit>
@@ -401,7 +401,7 @@
         </trans-unit>
         <trans-unit id="Page 3456414591 - Control 236064653 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Product Posting Group</source>
-          <target state="translated">Grupo de registro de IVA de producto</target>
+          <target state="translated">Grupo registro IVA producto</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Prod. Posting Group - Property Caption</note>
         </trans-unit>
@@ -413,7 +413,7 @@
         </trans-unit>
         <trans-unit id="Page 3456414591 - Control 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Business Posting Group</source>
-          <target state="translated">Grupo registro de IVA de negocio</target>
+          <target state="translated">Grupo registro IVA negocio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Control VAT Bus. Posting Group - Property Caption</note>
         </trans-unit>
@@ -563,7 +563,7 @@
         </trans-unit>
         <trans-unit id="Page 626210182 - Control 1503429287 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>DIOT requires all reported operations with vendors to have a type. In this step, you can set up a default value that all new vendors will get upon creation. If you specify this value with the wizard now, all vendors in your database will be updated with the value. Note that vendors that do not operate in Mexico cannot have the Lease and Rent operation type. Do not select Lease and Rent unless all the vendors you work with operate in Mexico.</source>
-          <target state="translated">DIOT requiere que todas las operaciones con proveedores estén registradas para tener un tipo. En este paso, puede configurar un valor predeterminado que los proveedores nuevos obtendrán al crearse. Si especifica este valor con el asistente ahora, todos los proveedores de la base de datos se actualizarán con el valor. Tenga en cuenta que los proveedores que no operan en México no pueden tener el tipo de operación arrendar y alquilar. No seleccione arrendar ni alquilar a menos que todos los proveedores con los que trabaje en México.</target>
+          <target state="translated">DIOT requiere que todas las operaciones notificadas con proveedores tengan un tipo. En este paso, puede configurar un valor predeterminado que los proveedores nuevos obtendrán al crearse. Si especifica este valor con el asistente ahora, todos los proveedores de su base de datos se actualizarán con dicho valor. Tenga en cuenta que los proveedores que no operan en México no pueden tener el tipo de operación Arrendamiento y alquiler. No seleccione Arrendamiento y alquiler a menos que todos los proveedores con los que trabaja operen en México.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Control DIOTOperationTypeDescription - Property InstructionalText</note>
         </trans-unit>
@@ -689,7 +689,7 @@
         </trans-unit>
         <trans-unit id="Page 1713992279 - Control 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Business Posting Group</source>
-          <target state="translated">Grupo registro de IVA de negocio</target>
+          <target state="translated">Grupo registro IVA negocio</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control VAT Bus. Posting Group - Property Caption</note>
         </trans-unit>
@@ -761,7 +761,7 @@
         </trans-unit>
         <trans-unit id="Report 1739196608 - NamedType 3875767267" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must complete Assisted Setup for DIOT before running this report. \\ Do you want to open assisted setup now?</source>
-          <target state="translated">Debe completar la instalación asistida para el DIOT antes de ejecutar este reporte.\\¿Desea abrir el programa de instalación asistido ahora?</target>
+          <target state="translated">Debe completar la configuración asistida para la DIOT antes de ejecutar este reporte. \\ ¿Desea abrir la configuración asistida ahora?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create DIOT Report - NamedType RunAssistedSetupMsg</note>
         </trans-unit>

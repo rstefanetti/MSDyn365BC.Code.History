@@ -5,13 +5,13 @@
       <group id="body">
         <trans-unit id="Codeunit 489640992 - NamedType 877301624" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quickbooks Payroll File Import</source>
-          <target>Importation du fichier de paie Quickbooks</target>
+          <target state="translated">Importation du fichier de paie Quickbooks</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType QuickbooksPayrollExtensionNameTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 3047505457" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import IIF file</source>
-          <target>Importer fichier IIF</target>
+          <target state="translated">Importer fichier IIF</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportPackageTxt</note>
         </trans-unit>
@@ -22,7 +22,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 1888302128" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importing Data...</source>
-          <target>Importation des données en cours...</target>
+          <target state="translated">Importation des données en cours...</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType ImportingMsg</note>
         </trans-unit>
@@ -88,19 +88,19 @@
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 225703786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This is not a valid IIF transaction file. Required token %1 could not be found in the file.</source>
-          <target>Ce fichier de transaction IIF n'est pas valide. Il ne contient pas le jeton requis %1.</target>
+          <target state="translated">Ce fichier de transaction IIF n'est pas valide. Il ne contient pas le jeton requis %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 - arbitrary text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType InvalidIIFTransFileErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 1033154955" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No transactions with supported type were found in the imported file. Supported transaction types are: General Journal, Check, and Transfer.</source>
-          <target>Aucune transaction dont le type est pris en charge n'a été trouvée dans le fichier importé. Types de transaction pris en charge : Journal général, Chèque et Transfert.</target>
+          <target state="translated">Aucune transaction dont le type est pris en charge n'a été trouvée dans le fichier importé. Types de transaction pris en charge : Journal général, Chèque et Transfert.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NoSupportedTransactionsMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 364873347" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>One or more transactions in the imported file were not imported because they are not of supported type. Supported transaction types are: General Journal, Check, and Transfer.</source>
-          <target>Une ou plusieurs transactions dans le fichier importé n'ont pas été importées car leur type n'est pas pris en charge. Types de transaction pris en charge : Journal général, Chèque et Transfert.</target>
+          <target state="translated">Une ou plusieurs transactions dans le fichier importé n'ont pas été importées car leur type n'est pas pris en charge. Types de transaction pris en charge : Journal général, Chèque et Transfert.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - NamedType NonSupportedTransactionsDetectedMsg</note>
         </trans-unit>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="OnPrem Permissions (ES)">
+    <body>
+      <group id="body">
+        <trans-unit id="PermissionSet 2110468734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cartera Bank account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-BANK ACC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2721671246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cartera - Bank Account, Edit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-BANK ACC, EDIT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1066925904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create movs in cartera jnls.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-JOURNAL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1469927660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post cartera journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-JOURNAL, POST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3955950814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cartera - Periodic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-PERIODIC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 913899459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post payment order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-PMTORD, POST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1098485632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post bill group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-REMESA, POST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2635004790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cartera - Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CAR-SETUP - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

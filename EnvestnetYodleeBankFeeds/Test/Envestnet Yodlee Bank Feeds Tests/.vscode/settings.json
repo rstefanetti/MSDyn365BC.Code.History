@@ -1,0 +1,15 @@
+{
+    "al.enableCodeAnalysis":  false,
+    "editor.codeLens":  false,
+    "al.incrementalBuild":  true,
+    "al.packageCachePath":  "C:/depot/NAV/run/W1/AllExtensions",
+    "al.assemblyProbingPaths":  [
+                                    "C:/NugetCache/NET_Framework_48_TargetingPack.4.8.3761",
+                                    "C:/NugetCache/Microsoft.Nav.Platform.Main.15.0.39494",
+                                    "C:/Windows/assembly/GAC/ADODB",
+                                    "C:/depot/NAV/test/App/MockService/MockService",
+                                    "C:/depot/NAV/test/App/MockTest",
+                                    "C:/depot/NAV/test/App/ALTest/DGMLVisualizationAddIn"
+                                ],
+    "al.enableCodeActions":  false
+}

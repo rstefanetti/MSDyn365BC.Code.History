@@ -1763,6 +1763,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Inventory Setup - Control Outward Gate Entry Nos. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 713946759 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Posted Sales Inv. - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 713946759 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Posted Sales Inv. - Control LR/RR No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 855181324 - Action 3144850588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
           <source>View available gate entry lines for attachment.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1782,6 +1792,16 @@
           <source>View attached gate entry list.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Purch. Order - Action Attached Gate Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 857178022 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Specifies the lorry receipt date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Invoice - Control LR/RR Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 857178022 - Control 552369994 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Specifies the lorry receipt number of the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Gate Entry Sales Invoice - Control LR/RR No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1164750007 - Control 2540259231 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Specifies the lorry receipt date.</source>

@@ -1963,6 +1963,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Types - NamedType TDSTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 811705213 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Posting Date doesn't lie in Tax Accounting Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Validations - NamedType AccountingPeriodErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 811705213 - NamedType 403758621" size-unit="char" translate="yes" xml:space="preserve">
           <source>The deductee P.A.N. No. is invalid.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1982,6 +1987,11 @@
           <source>T.A.N. No must have a value in TDS Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Validations - NamedType TANNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 811705213 - NamedType 1340446322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot reverse the transaction, because it has already been reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Validations - NamedType TDSReverseErr</note>
         </trans-unit>
         <trans-unit id="Page 3496913511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acknowledgement Setup</source>

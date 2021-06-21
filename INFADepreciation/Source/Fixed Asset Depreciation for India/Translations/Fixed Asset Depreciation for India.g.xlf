@@ -458,12 +458,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Fixed Asset Shift - Field Write-Down - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3210798129 - Method 4271611449" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3210798129 - Method 2722598482" size-unit="char" translate="yes" xml:space="preserve">
           <source>CheckAddedDeprApplicable</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calc Normal Depreciation - Method CheckAddedDeprApplicable</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3210798129 - Method 987227589" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3210798129 - Method 3416426492" size-unit="char" translate="yes" xml:space="preserve">
           <source>CheckDeprRedApllicable</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calc Normal Depreciation - Method CheckDeprRedApllicable</note>

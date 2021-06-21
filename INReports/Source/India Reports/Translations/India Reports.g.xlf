@@ -1793,6 +1793,116 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - Control TransAction Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3838384194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Detailed GST Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - NamedType 1412182434" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must enter End Date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - NamedType EndDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - NamedType 548802939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must enter Start Date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - NamedType StartDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - NamedType 1714016785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must not enter Start Date that is greater than End Date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - NamedType StartDtGreaterErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the document type is Payment, Invoice, Credit Memo, Transfer or Refund.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date of the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 2649176925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the entry is an initial entry or an application entry or an adjustment entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 149522872 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,"Initial Entry",Application,"Adjustment Entry"</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Entry Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 897926272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the GST registration number of the location for which the report will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Location GST Reg. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 897926272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location GST Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Location GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 1697504357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the nature of GST transaction. For example, B2B/B2C.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Nature Of Supply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 1697504357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nature Of Supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Nature Of Supply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 1697504357 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,B2B,B2C</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Nature Of Supply - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 474480784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 3773776616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the transaction type for which the report will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Transaction Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 3773776616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Transaction Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3838384194 - Control 3773776616 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> , Purchase, Sales, Transfer, Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export Detailed GST Entries - Control Transaction Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Report 3346116784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General Journal - Test</source>
           <note from="Developer" annotates="general" priority="2"></note>

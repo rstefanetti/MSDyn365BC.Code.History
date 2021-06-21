@@ -123,20 +123,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Voucher Posting Debit Account - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1613073681 - NamedType 2459919189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot Financially Void checks posted in a non-balancing transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType CannotVoidNonBalanceTransErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1613073681 - NamedType 580772436" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The cheque has already been marked stale.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType CheckMarkedStaleErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1613073681 - NamedType 2759573039" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot find an applied entry within the specified filter.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType NoAppliedEntryErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1613073681 - NamedType 2602534137" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You cannot Financially Void checks posted in a non-balancing transaction.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType VoidCheckErr</note>
+        <trans-unit id="Codeunit 1613073681 - NamedType 2127027289" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cheque Ledger entry can be marked as Stale only after %1. </source>
+          <note from="Developer" annotates="general" priority="2">%1= Stale Check Expiry Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType StaleCheckExpiryDateErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1613073681 - NamedType 2423998225" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1613073681 - NamedType 3699957020" size-unit="char" translate="yes" xml:space="preserve">
           <source>Voiding check %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CheckLedgEntry."Check No."</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType VoidingCheckErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType VoidingCheckLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 450714271 - NamedType 2075353876" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No. %1 is not defined as %2 account for the Voucher Sub Type %3 and Document No. %4.</source>
@@ -372,6 +382,86 @@
           <source>Specifies a document number for the journal line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Check Preview Custom - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm Financial Stale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - NamedType 433315416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 No.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Bal Account Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - NamedType BalAccountTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - NamedType 474054727" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void Date must not be before the original %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Check Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - NamedType VoidDateErr</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the Amount of the transaction posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 1891586249 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the G/L Account, Customer, Vendor or Bank Account of the transaction posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Bal. Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 4248640148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays Bank Account No. of the transaction posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 4248640148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 1341799211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays Check No. of the transaction posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Check No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 1341799211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control Check No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 808428060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays the date of marking the cheque as stale.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control VoidDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 808428060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stale Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control VoidDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 643682752 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select whether check is to be marked as stale or it should be unapplied and marked as stale.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control VoidType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 643682752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type of Stale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control VoidType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 599620912 - Control 643682752 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapply and Stale check,Stale check only</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Confirm Financial Stale - Control VoidType - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Page 1431083931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Voucher Narration</source>
@@ -802,11 +892,6 @@
           <source>Check for %1 %2</source>
           <note from="Developer" annotates="general" priority="2">%1 Balance Type %2 No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Check Report - NamedType BAlTypeNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2246567508 - NamedType 2994119132" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank Charge</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Check Report - NamedType BankChargeCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 2246567508 - NamedType 1720056053" size-unit="char" translate="yes" xml:space="preserve">
           <source>Both Bank Accounts must have the same currency.</source>
@@ -1798,6 +1883,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant Role Center VI - Action Voucher Register - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - NamedType 3424203367" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2541129980">
+          <source>The cheque has already been marked stale.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - NamedType ChequeMarkedStaleMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - NamedType 1893870962" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2541129980">
+          <source>Bank Ledger Entry can be marked as stale only after %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Stale Cheque Expiry Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - NamedType StaleChequeExpiryDateErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - NamedType 3428306577" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2541129980">
+          <source>Financially stale check %1 to %2 %3</source>
+          <note from="Developer" annotates="general" priority="2">%1= Cheque No, %2 = Balance Account Type, %3= Balance Account No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - NamedType StaleConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - Action 1643187882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Select this option to  mark a check as stale. This function will update Stale Check, Check Stale Date and Entry Status fields to indicate that the check is void.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Action Stale_Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - Action 1643187882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Stale Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Action Stale_Check - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2541129980 - Control 2807262541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
           <source>Specifies the cheque date on the bank account ledger entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1807,6 +1917,86 @@
           <source>Specifies the cheque number on the bank account ledger entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Control Cheque No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - Control 3764421056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Specifies the cheque stale date on the bank account ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Control Cheque Stale Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - Control 2124105172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Specifies if the cheque has been marked as stale on the bank account ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Control Stale Cheque - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2541129980 - Control 2996934741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Specifies the date before which the cheque cannot be marked as stale cheque on the bank account ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext - Control Stale Cheque Expiry Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3910192470 - Control 1593216058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Specifies after how long the cheque can be marked stale for this bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card Ext - Control Stale Cheque Stipulated Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3910192470 - Control 1593216058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Stale Cheque Stipulated Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card Ext - Control Stale Cheque Stipulated Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - NamedType 2847126115" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 52617824">
+          <source>Void all printed checks?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - NamedType VoidAllCheckLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - NamedType 128632937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 52617824">
+          <source>Void Check %1?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Check No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - NamedType VoidCheckConfirmationLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 1995465164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>&amp;Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action &amp;Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 1160402318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Select this option to preview computer check, if the Bank Payment Type field on the Payment Journal window is set to Computer Check, the checks must be printed before posting the journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action P&amp;review Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 1160402318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>P&amp;review Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action P&amp;review Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 3243840921 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Select this option to Print computer check, if the Bank Payment Type field on the Payment Journal window is set to Computer Check, the checks must be printed before posting the journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Print Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 3243840921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Print Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Print Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 3668851114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Select this option to void all checks which have printed but not posted on the journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Void &amp;All Checks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 3668851114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Void &amp;All Checks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Void &amp;All Checks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 1787783558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Select this option to void one check. Select the line with Computer Check in the Bank Payment Type field on the Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Void Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 52617824 - Action 1787783558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
+          <source>Void Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Payment Voucher - Action Void Check - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 52617824 - Control 2807262541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 52617824">
           <source>Specifies the cheque date of the journal entry.</source>
@@ -1967,6 +2157,36 @@
           <source>Specifies the cheque number of the journal entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Receipt Voucher - Control Cheque No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Action 1417232546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Chec&amp;k</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Action Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Action 1165644947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Select this option to  mark a check as stale. This function will update Stale Check, Check Stale Date and Entry Status fields to indicate that the check is void.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Action Stale Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Action 1165644947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Stale Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Action Stale Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Control 3764421056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Specifies the cheque stale date on the check ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Control Cheque Stale Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Control 2124105172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Specifies if the cheque has been marked as stale on the check ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Control Stale Cheque - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2225167603 - Control 2996934741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 205270603">
+          <source>Specifies the date before which the cheque cannot be marked as stale cheque on the check ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Check Ledg Entry Ext - Control Stale Cheque Expiry Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 156412750 - Action 3603762498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
           <source>Select this option to define voucher no. series for different types of vouchers.</source>
@@ -2418,6 +2638,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Acc Led Entry Ext - Field Cheque No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2694622601 - Field 3764421056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1815808370">
+          <source>Cheque Stale Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Acc Led Entry Ext - Field Cheque Stale Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2694622601 - Field 2124105172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1815808370">
+          <source>Stale Cheque</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Acc Led Entry Ext - Field Stale Cheque - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2694622601 - Field 2996934741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1815808370">
+          <source>Stale Cheque Expiry Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Acc Led Entry Ext - Field Stale Cheque Expiry Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3033648794 - NamedType 3157213660" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3033648794">
+          <source>Stale Cheque Stipulated Period can't be negative.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account Ext - NamedType StipulatedPeriodNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3033648794 - Field 1593216058 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>Stale Cheque Stipulated Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account Ext - Field Stale Cheque Stipulated Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3717382282 - Field 3764421056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 717244561">
+          <source>Cheque Stale Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Check Led Entry Ext - Field Cheque Stale Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3717382282 - Field 2124105172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 717244561">
+          <source>Stale Cheque</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Check Led Entry Ext - Field Stale Cheque - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3717382282 - Field 2996934741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 717244561">
+          <source>Stale Cheque Expiry Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Check Led Entry Ext - Field Stale Cheque Expiry Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2630692215 - Field 2807262541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>Cheque Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2432,6 +2692,11 @@
           <source>Narration Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen.Jnl Line Ext - Field Narration Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2630692215 - Field 2124105172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Stale Cheque</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen.Jnl Line Ext - Field Stale Cheque - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3988382343 - Field 3742309595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
           <source>Activate Cheque No.</source>

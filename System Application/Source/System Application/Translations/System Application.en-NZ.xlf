@@ -3505,6 +3505,7 @@
         </trans-unit>
         <trans-unit id="Page 523480673 - Control 792907206 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bring changes to user information from your Office 365 organization to Business Central. Update license assignments, name changes, email addresses, preferred languages, and user access.</source>
+          <target state="translated">Bring changes to user information from your Office 365 organisation to Business Central. Update licence assignments, name changes, email addresses, preferred languages, and user access.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Azure AD User Update Wizard - Control HeaderText - Property InstructionalText</note>
         </trans-unit>
@@ -3576,6 +3577,7 @@
         </trans-unit>
         <trans-unit id="Page 523480673 - Control 3543816815 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Choose how this license change should be handled</source>
+          <target state="translated">Choose how this licence change should be handled</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Azure AD User Update Wizard - Control PermissionAction - Property ToolTip</note>
         </trans-unit>

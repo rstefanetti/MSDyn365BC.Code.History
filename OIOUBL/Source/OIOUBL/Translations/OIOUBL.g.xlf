@@ -108,6 +108,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveSaveDialogTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 2912267127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic document format %1 does not exist for the document type %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType NonExistingDocumentFormatErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2657778153 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>

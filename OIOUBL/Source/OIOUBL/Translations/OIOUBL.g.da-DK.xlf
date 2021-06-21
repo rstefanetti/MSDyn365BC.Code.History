@@ -51,6 +51,31 @@
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Fin. Chrg - NamedType InvalidGLNErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 1872816390" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 540546217" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL Format (Offentlig Information Online Universal Business Language)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLFormatDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 3990055761" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL Document Sending Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 4164178256" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BILSIM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 2667804976" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Procurement-OrdSimR-BilSim-1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileIDTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3787735282 - NamedType 460728139" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>should be %1 characters long</source>
           <target>skal have en længde på %1 tegn</target>
@@ -63,10 +88,44 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - NamedType NonDanishCustomerErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 1742544578" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType OIOUBLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 650692371" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType InvoiceDocTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 2692645885" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo</source>
+          <target>Kreditnota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType CrMemoDocTypeTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 87117224 - NamedType 1887298019" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>XML File(*.xml)|*.xml</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType XmlFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 358039643" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Zip File (*.zip)|*.zip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 3058423012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export OIOUBL archive</source>
+          <target>Udlæs OIOUBL-Arkiv</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveSaveDialogTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 2912267127" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic document format %1 does not exist for the document type %2.</source>
+          <target>Det elektronisk dokuments format %1 findes ikke for dokumenttypen %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType NonExistingDocumentFormatErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2657778153 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
@@ -2081,6 +2140,13 @@
           <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3313652032</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3294164146 - Field 2042155141 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target>Bruger-id</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4047643595</note>
         </trans-unit>
         <trans-unit id="TableExtension 3541931442 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>

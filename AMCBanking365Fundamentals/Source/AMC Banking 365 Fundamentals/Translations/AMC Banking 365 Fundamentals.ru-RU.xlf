@@ -143,13 +143,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 2084177634" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show a notification informing the user that AMC Banking is working in Demo solution.</source>
-          <target state="translated">Показ уведомления, информирующего пользователя о том, что AMC Banking работает в режиме демонстрационного решения.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationDescTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 2828970756" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Notify user of AMC Banking Demo solution.</source>
-          <target state="translated">Уведомление пользователя о демонстрационном решении AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationNameTok</note>
         </trans-unit>
@@ -161,7 +159,6 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1829946207" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Don't show this again.</source>
-          <target state="translated">Больше не показывать.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DontShowThisAgainMsg</note>
         </trans-unit>
@@ -598,7 +595,6 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 739346273 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select which bank accounts to set up.</source>
-          <target state="translated">Выберите, какие банковские счета требуется настроить.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Group - Property InstructionalText</note>
         </trans-unit>
@@ -609,43 +605,36 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 4248640148 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number used by the bank for the bank account.</source>
-          <target state="translated">Определяет номер, используемый банком для банковского счета.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Bank Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 3838875782 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select bank account to set up with Data Exch. Def. for AMC Banking.</source>
-          <target state="translated">Выберите банковский счет для настройки с использованием определения обмена данными для AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 3838875782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update</source>
-          <target state="translated">Обновить</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the relevant currency code for the bank account.</source>
-          <target state="translated">Определяет код соответствующей валюты для банковского счета.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
-          <target state="translated">Код валюты</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the bank where you have the bank account.</source>
-          <target state="translated">Определяет название банка, в котором у вас открыт банковский счет.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
-          <target state="translated">Определяет номер соответствующей записи или операции в соответствии с указанной серией номеров.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control No. - Property ToolTip</note>
         </trans-unit>
@@ -688,7 +677,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1443400578 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>I understand and accept these terms</source>
-          <target state="translated">Я принимаю эти условия</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AcceptConsent - Property ToolTip</note>
         </trans-unit>
@@ -700,13 +688,11 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 673429932 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking 365 Fundamentals documentation</source>
-          <target state="translated">Документация по AMC Banking 365 Fundamentals</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AMCBankingHelpLink - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3706489003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>By enabling this extension you consent to sharing your data with an external system. Your use of this extension may be subject to additional licensing terms from AMC. To enable the service you must read and accept the terms of use.</source>
-          <target state="translated">Включая это расширение, вы даете согласие на передачу своих данных внешней системе. Использование вами этого расширения может регулироваться дополнительными условиями лицензирования AMC. Для включения службы необходимо прочитать и принять условия использования.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ConsentPart - Property ToolTip</note>
         </trans-unit>
@@ -741,7 +727,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2114002185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking 365 Fundamentals terms of use</source>
-          <target state="translated">Условия использования AMC Banking 365 Fundamentals</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control TermsOfUseLink - Property ToolTip</note>
         </trans-unit>
@@ -757,19 +742,16 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1947706647 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
-          <target state="translated">Обновление списка банков в вашей стране/регионе, которые можно использовать для импорта и экспорта данных банковских счетов с помощью AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankListContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 282001185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Data Exchange Definitions to current version of your system for AMC Banking.</source>
-          <target state="translated">Настройка определений обмена данными в соответствии с текущей версией вашей системы для AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control DataExchContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3071017491 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</source>
-          <target state="translated">Настройка определений обмена данными и номеров сообщений кредитовых переводов для собственного банковского счета.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control OwnBankContent - Property ToolTip</note>
         </trans-unit>
@@ -799,7 +781,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2099105517 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Bank Clearing Standards to be used on vendors bank accounts</source>
-          <target state="translated">Настройте клиринговые стандарты банков для использования с банковскими счетами поставщиков.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearGrp - Property InstructionalText</note>
         </trans-unit>
@@ -834,7 +815,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1107564148 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
-          <target state="translated">Настройка базовых методов оплаты для AMC Banking в соответствии с текущей версией вашей системы.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethGrp - Property InstructionalText</note>
         </trans-unit>
@@ -845,13 +825,11 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2583683381 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
-          <target state="translated">Настройка базовых методов оплаты для AMC Banking в соответствии с текущей версией вашей системы.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2583683381 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods</source>
-          <target state="translated">Настройка базовых методов оплаты</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property Caption</note>
         </trans-unit>
@@ -869,7 +847,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2503791606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change the Service, Support and Sign-up URLs to their default values.</source>
-          <target state="translated">Сброс URL-адресов обслуживания, поддержки и регистрации в значения по умолчанию.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control URLContent - Property ToolTip</note>
         </trans-unit>
@@ -892,25 +869,21 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3984635372 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode. Otherwise leave empty</source>
-          <target state="translated">Выбирать код страны/региона необходимо только в случае, если вы хотите отфильтровать список банков по выбранному коду страны/региона. В противном случае оставьте это поле пустым</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3984635372 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Countrycode</source>
-          <target state="translated">Код страны/региона</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 962401299 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode, otherwise leave empty</source>
-          <target state="translated">Выбирать код страны/региона необходимо только в случае, если вы хотите отфильтровать список банков по выбранному коду страны/региона. В противном случае оставьте это поле пустым</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CountryFilterContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2078930944 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select countrycode to filter banklist.</source>
-          <target state="translated">Выберите код страны/региона, чтобы отфильтровать список банков.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SelctCountryContent - Property ToolTip</note>
         </trans-unit>
@@ -937,7 +910,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2293885176 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applicationversion of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
-          <target state="translated">Версия приложения Business Central, используемая для извлечения соответствующего определения обмена данными из AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVer - Property ToolTip</note>
         </trans-unit>
@@ -949,7 +921,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3545658343 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applicationversion and buildnumber to get Data Exchange Definition for:</source>
-          <target state="translated">Версия приложения и номер сборки, для которых требуется получить определение обмена данными:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVerContent - Property ToolTip</note>
         </trans-unit>
@@ -979,7 +950,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3735344025 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Buildnumber of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
-          <target state="translated">Номер сборки Business Central, используемый для извлечения соответствующего определения обмена данными из AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BuildNo - Property ToolTip</note>
         </trans-unit>
@@ -1020,25 +990,21 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1614652589 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Credit Advice, to be able to import Customer payments from your banks.</source>
-          <target state="translated">Настройка функциональности кредитовых авизо в AMC Banking для импорта платежей от клиентов из банков.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CAContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2334494483 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target state="translated">Настройка функциональности Positive Pay в AMC Banking для создания файлов Positive Pay для печатных платежных документов.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PPContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3917370826 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Credit Transfer, to be able to make outgoing payments</source>
-          <target state="translated">Настройка функциональности кредитовых переводов в AMC Banking для совершения исходящих платежей.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CTContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3445513641 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
-          <target state="translated">Настройка функциональности банковских выписок в AMC Banking для импорта банковских выписок из банков.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control StmtContent - Property ToolTip</note>
         </trans-unit>
@@ -1100,19 +1066,16 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 864163580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup paymentmethods for the selected countrycode.</source>
-          <target state="translated">Настройка методов оплаты для выбранного кода страны/региона.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 864163580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Countrycode</source>
-          <target state="translated">Код страны/региона</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 611897472 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please choose Contrycode for Paymentmethods to setup.</source>
-          <target state="translated">Выберите код страны/региона для настраиваемых методов оплаты.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethContent - Property ToolTip</note>
         </trans-unit>
@@ -1175,7 +1138,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 742034285 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go back to previous step.</source>
-          <target state="translated">Возврат на предыдущий шаг.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Back - Property ToolTip</note>
         </trans-unit>
@@ -1187,19 +1149,16 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 293070022 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Click button to close the assisted setup page</source>
-          <target state="translated">Нажмите кнопку, чтобы закрыть страницу мастера настройки</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 293070022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Close</source>
-          <target state="translated">Закрыть</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 1235620153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to next step.</source>
-          <target state="translated">Переход на следующий шаг.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Next - Property ToolTip</note>
         </trans-unit>
@@ -1211,7 +1170,6 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 462653747 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start update of data.</source>
-          <target state="translated">Запуск обновления данных.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Start update - Property ToolTip</note>
         </trans-unit>
@@ -1509,13 +1467,11 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 3044174282 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calls the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
-          <target state="translated">Открывает страницу входа службы, преобразующей банковские данные в формат, требуемый вашим банком, при экспорте банковских файлов платежей и при импорте файлов банковских выписок. Это веб-страница, на которой вы вводите имя пользователя и пароль вашей компании для входа в службу.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 3044174282 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sign-up here</source>
-          <target state="translated">Регистрация</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property Caption</note>
         </trans-unit>
@@ -1557,13 +1513,11 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 2444778289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calls the web site where the provider of the AMC Banking publishes status and support information about the service.</source>
-          <target state="translated">Открывает веб-сайт, на котором поставщик AMC Banking публикует состояние этой службы и информацию о ее поддержке.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 2444778289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get support</source>
-          <target state="translated">Поддержка</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property Caption</note>
         </trans-unit>
@@ -1594,7 +1548,6 @@
         </trans-unit>
         <trans-unit id="PageExtension 3493802159 - Control 2640682147 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal associated with the Credit Transfer Register</source>
-          <target state="translated">Журнал XTL, связанный с регистром кредитовых переводов</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 294717160</note>
@@ -1636,14 +1589,12 @@
         </trans-unit>
         <trans-unit id="TableExtension 2889429356 - Field 14686028 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal</source>
-          <target state="translated">Журнал XTL</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>
         </trans-unit>
         <trans-unit id="TableExtension 2889429356 - Field 4135611573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Exch. Entry No.</source>
-          <target state="translated">Номер операции обмена данными</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>

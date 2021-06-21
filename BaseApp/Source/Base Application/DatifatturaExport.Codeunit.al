@@ -130,7 +130,7 @@ codeunit 12182 "Datifattura Export"
         CessionarioCommittenteDTECount: Integer;
         CessionarioCommittenteDTELoopCouner: Integer;
         CessionarioCommittenteDTELoop: Integer;
-        PrevDocumentType: Option;
+        PrevDocumentType: Enum "Gen. Journal Document Type";
         PrevDocumentNo: Code[20];
         PrevBillToPayToNo: Code[20];
     begin

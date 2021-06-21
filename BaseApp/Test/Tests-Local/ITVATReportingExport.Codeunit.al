@@ -2139,7 +2139,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
     end;
 
     [HandlerFunctions('MessageHandler')]
-    local procedure ExportTest(DocumentType: Option; Resident: Option; IndividualPerson: Boolean; VATReportType: Option; GenPostingType: Option; ContractPaymentType: Option)
+    local procedure ExportTest(DocumentType: Enum "Gen. Journal Document Type"; Resident: Option; IndividualPerson: Boolean; VATReportType: Option; GenPostingType: Enum "General Posting Type"; ContractPaymentType: Option)
     var
         VATReportHeader: Record "VAT Report Header";
         VATReportLine: Record "VAT Report Line";
@@ -2349,14 +2349,14 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(ApplicationPath + '\..\..\..\');
     end;
 
-    local procedure GenerateReportLine(var VATReportHeader: Record "VAT Report Header"; var VATReportLine: Record "VAT Report Line"; IndividualPerson: Boolean; Resident: Option; DocumentType: Option; GenPostingType: Option; VATReportType: Option; ContractPaymentType: Option)
+    local procedure GenerateReportLine(var VATReportHeader: Record "VAT Report Header"; var VATReportLine: Record "VAT Report Line"; IndividualPerson: Boolean; Resident: Option; DocumentType: Enum "Gen. Journal Document Type"; GenPostingType: Enum "General Posting Type"; VATReportType: Option; ContractPaymentType: Option)
     var
         VATPostingSetup: Record "VAT Posting Setup";
         GenJournalLine: Record "Gen. Journal Line";
         VATReportReleaseReopen: Codeunit "VAT Report Release/Reopen";
         VATReportMediator: Codeunit "VAT Report Mediator";
         VATReportNo: Code[20];
-        AccountType: Option;
+        AccountType: Enum "Gen. Journal Account Type";
     begin
         WorkDate(GetPostingDate());
         SetupThresholdAmount(WorkDate);
@@ -2990,7 +2990,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
     begin
     end;
 
-    local procedure AdjustAmountSign(Amount: Decimal; DocumentType: Option; AccountType: Option): Decimal
+    local procedure AdjustAmountSign(Amount: Decimal; DocumentType: Enum "Gen. Journal Document Type"; AccountType: Enum "Gen. Journal Account Type"): Decimal
     var
         GenJournalLine: Record "Gen. Journal Line";
     begin
@@ -3029,7 +3029,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
             Amount := Base - Delta;
     end;
 
-    local procedure CreatePostGenJnlLine(var GenJournalLine: Record "Gen. Journal Line"; DocumentType: Option; AccountType: Option; GenPostingType: Option; IndividualPerson: Boolean; Resident: Option)
+    local procedure CreatePostGenJnlLine(var GenJournalLine: Record "Gen. Journal Line"; DocumentType: Enum "Gen. Journal Document Type"; AccountType: Enum "Gen. Journal Account Type"; GenPostingType: Enum "General Posting Type"; IndividualPerson: Boolean; Resident: Option)
     var
         AccountNo: Code[20];
         Amount: Decimal;
@@ -3135,11 +3135,11 @@ codeunit 144012 "IT - VAT Reporting - Export"
         Customer.Modify(true);
     end;
 
-    local procedure CreateGenJnlLine(var GenJournalLine: Record "Gen. Journal Line"; DocumentType: Option; GenPostingType: Option; AccountType: Option; AccountNo: Code[20]; Amount: Decimal): Code[20]
+    local procedure CreateGenJnlLine(var GenJournalLine: Record "Gen. Journal Line"; DocumentType: Enum "Gen. Journal Document Type"; GenPostingType: Enum "General Posting Type"; AccountType: Enum "Gen. Journal Account Type"; AccountNo: Code[20]; Amount: Decimal): Code[20]
     var
         BankAccount: Record "Bank Account";
         GenJournalBatch: Record "Gen. Journal Batch";
-        BalAccountType: Option;
+        BalAccountType: Enum "Gen. Journal Account Type";
         BalAccountNo: Code[20];
     begin
         LibraryERM.CreateGenJournalBatch(GenJournalBatch, LibraryERM.SelectGenJnlTemplate);
@@ -3169,7 +3169,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(GenJournalLine."Document No.");
     end;
 
-    local procedure CreateGLAccount(GenPostingType: Option): Code[20]
+    local procedure CreateGLAccount(GenPostingType: Enum "General Posting Type"): Code[20]
     var
         GLAccount: Record "G/L Account";
         GeneralPostingSetup: Record "General Posting Setup";
@@ -3194,28 +3194,28 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(GLAccount."No.");
     end;
 
-    local procedure CreateAndPostPurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
+    local procedure CreateAndPostPurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
     begin
         CreatePurchDocument(PurchHeader, PurchLine, DocumentType, VendorNo, LineAmount, 0);
         UpdatePurchaseHeaderPostingDates(PurchHeader, PostingDate, PostingDate, PostingDate);
         LibraryPurchase.PostPurchaseDocument(PurchHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreateAndPostPurchDocumentWithDates(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; DocumentDate: Date; OperationOccurredDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
+    local procedure CreateAndPostPurchDocumentWithDates(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; DocumentDate: Date; OperationOccurredDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
     begin
         CreatePurchDocument(PurchHeader, PurchLine, DocumentType, VendorNo, LineAmount, 0);
         UpdatePurchaseHeaderPostingDates(PurchHeader, PostingDate, DocumentDate, OperationOccurredDate);
         LibraryPurchase.PostPurchaseDocument(PurchHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreateAndPostPurchDocumentWithVATSetup(var PurchaseHeader: Record "Purchase Header"; var PurchaseLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
+    local procedure CreateAndPostPurchDocumentWithVATSetup(var PurchaseHeader: Record "Purchase Header"; var PurchaseLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
     begin
         CreatePurchDocumentWithVATSetup(PurchaseHeader, PurchaseLine, VATPostingSetup, DocumentType, VendorNo, LineAmount);
         UpdatePurchaseHeaderPostingDates(PurchaseHeader, PostingDate, PostingDate, PostingDate);
         LibraryPurchase.PostPurchaseDocument(PurchaseHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreateAndPostPurchDocumentWithVATSetupEUService(var PurchaseHeader: Record "Purchase Header"; var PurchaseLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
+    local procedure CreateAndPostPurchDocumentWithVATSetupEUService(var PurchaseHeader: Record "Purchase Header"; var PurchaseLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
     begin
         CreatePurchDocumentWithVATSetup(PurchaseHeader, PurchaseLine, VATPostingSetup, DocumentType, VendorNo, LineAmount);
         ModifyPurchDocumentWithVATSetupForEUService(PurchaseHeader, PurchaseLine);
@@ -3223,21 +3223,21 @@ codeunit 144012 "IT - VAT Reporting - Export"
         LibraryPurchase.PostPurchaseDocument(PurchaseHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreateAndPostSalesDocumentWithVATSetup(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Option; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
+    local procedure CreateAndPostSalesDocumentWithVATSetup(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Enum "Sales Document Type"; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean)
     begin
         CreateSalesDocumentWithVATSetup(SalesHeader, SalesLine, VATPostingSetup, DocumentType, CustomerNo, LineAmount);
         UpdateSalesHeaderPostingDates(SalesHeader, PostingDate, PostingDate, PostingDate);
         LibrarySales.PostSalesDocument(SalesHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreateLinkAndPostPurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean; RelatedEntryNo: Integer)
+    local procedure CreateLinkAndPostPurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; PostingDate: Date; ToShipReceive: Boolean; ToInvoice: Boolean; RelatedEntryNo: Integer)
     begin
         CreatePurchDocument(PurchHeader, PurchLine, DocumentType, VendorNo, LineAmount, RelatedEntryNo);
         UpdatePurchaseHeaderPostingDates(PurchHeader, PostingDate, PostingDate, PostingDate);
         LibraryPurchase.PostPurchaseDocument(PurchHeader, ToShipReceive, ToInvoice);
     end;
 
-    local procedure CreatePurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal; RelatedEntryNo: Integer)
+    local procedure CreatePurchDocument(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal; RelatedEntryNo: Integer)
     var
         GLAccount: Record "G/L Account";
     begin
@@ -3253,7 +3253,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         PurchHeader.Modify(true);
     end;
 
-    local procedure CreatePurchDocumentWithVATSetup(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Option; VendorNo: Code[20]; LineAmount: Decimal)
+    local procedure CreatePurchDocumentWithVATSetup(var PurchHeader: Record "Purchase Header"; var PurchLine: Record "Purchase Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20]; LineAmount: Decimal)
     var
         GLAccount: Record "G/L Account";
         Vendor: Record Vendor;
@@ -3290,7 +3290,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         PurchLine.Modify(true);
     end;
 
-    local procedure CreateSalesDocumentWithVATSetup(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Option; CustomerNo: Code[20]; LineAmount: Decimal)
+    local procedure CreateSalesDocumentWithVATSetup(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; VATPostingSetup: Record "VAT Posting Setup"; DocumentType: Enum "Sales Document Type"; CustomerNo: Code[20]; LineAmount: Decimal)
     var
         GLAccount: Record "G/L Account";
         Customer: Record Customer;
@@ -3310,7 +3310,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         CreateSalesLine(SalesHeader, SalesLine, LineAmount, GLAccount."No.");
     end;
 
-    local procedure CreatePurchHeader(var PurchHeader: Record "Purchase Header"; DocumentType: Option; VendorNo: Code[20])
+    local procedure CreatePurchHeader(var PurchHeader: Record "Purchase Header"; DocumentType: Enum "Purchase Document Type"; VendorNo: Code[20])
     var
         VendorInvoiceNo: Code[35];
     begin
@@ -3337,14 +3337,14 @@ codeunit 144012 "IT - VAT Reporting - Export"
         PurchLine.Modify(true);
     end;
 
-    local procedure CreateAndPostSalesDocument(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Option; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; NewShipReceive: Boolean; NewInvoice: Boolean): Code[20]
+    local procedure CreateAndPostSalesDocument(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Enum "Sales Document Type"; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; NewShipReceive: Boolean; NewInvoice: Boolean): Code[20]
     begin
         CreateSalesDocument(SalesHeader, SalesLine, DocumentType, CustomerNo, LineAmount);
         UpdateSalesHeaderPostingDates(SalesHeader, PostingDate, PostingDate, PostingDate);
         exit(LibrarySales.PostSalesDocument(SalesHeader, NewShipReceive, NewInvoice));
     end;
 
-    local procedure CreateAndPostSalesDocumentWithDates(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Option; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; DocumentDate: Date; OperationOccurredDate: Date; NewShipReceive: Boolean; NewInvoice: Boolean): Code[20]
+    local procedure CreateAndPostSalesDocumentWithDates(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Enum "Sales Document Type"; CustomerNo: Code[20]; LineAmount: Decimal; PostingDate: Date; DocumentDate: Date; OperationOccurredDate: Date; NewShipReceive: Boolean; NewInvoice: Boolean): Code[20]
     begin
         CreateSalesDocument(SalesHeader, SalesLine, DocumentType, CustomerNo, LineAmount);
         UpdateSalesHeaderPostingDates(SalesHeader, PostingDate, DocumentDate, OperationOccurredDate);
@@ -3376,7 +3376,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(NoSeries.Code);
     end;
 
-    local procedure CreateSalesDocument(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Option; CustomerNo: Code[20]; LineAmount: Decimal)
+    local procedure CreateSalesDocument(var SalesHeader: Record "Sales Header"; var SalesLine: Record "Sales Line"; DocumentType: Enum "Sales Document Type"; CustomerNo: Code[20]; LineAmount: Decimal)
     var
         GLAccount: Record "G/L Account";
     begin
@@ -3555,7 +3555,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         VATReportSetup.Modify(true);
     end;
 
-    local procedure CreateVATEntry(PostingDate: Date; Type: Option; BillToPayToNo: Code[20]): Integer
+    local procedure CreateVATEntry(PostingDate: Date; Type: Enum "General Posting Type"; BillToPayToNo: Code[20]): Integer
     var
         VATEntry: Record "VAT Entry";
         EntryNo: Integer;
@@ -3580,7 +3580,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(VATEntry."Entry No.");
     end;
 
-    local procedure CreateVATEntryWithDocNoAndType(PostingDate: Date; EntryType: Option; BillToPayToNo: Code[20]; DocumentNo: Code[20]; DocumentType: Option)
+    local procedure CreateVATEntryWithDocNoAndType(PostingDate: Date; EntryType: Enum "General Posting Type"; BillToPayToNo: Code[20]; DocumentNo: Code[20]; DocumentType: Enum "Gen. Journal Document Type")
     var
         VATEntry: Record "VAT Entry";
     begin
@@ -3660,7 +3660,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         exit(CalcDate('<1D>', VATEntry."Posting Date"));
     end;
 
-    local procedure MockGLEntryAndVendorLedgerEntry(DocumentNo: Code[20]; PostingDate: Date; TransactionNo: Integer; VendorNo: Code[20]; DocumentType: Option)
+    local procedure MockGLEntryAndVendorLedgerEntry(DocumentNo: Code[20]; PostingDate: Date; TransactionNo: Integer; VendorNo: Code[20]; DocumentType: Enum "Gen. Journal Document Type")
     var
         GLEntry: Record "G/L Entry";
         VendorLedgerEntry: Record "Vendor Ledger Entry";
@@ -3766,7 +3766,7 @@ codeunit 144012 "IT - VAT Reporting - Export"
         end;
     end;
 
-    local procedure UpdateVATPostingSetup(VATCalculationType: Option; InclInVATTransRep: Boolean)
+    local procedure UpdateVATPostingSetup(VATCalculationType: Enum "Tax Calculation Type"; InclInVATTransRep: Boolean)
     var
         VATPostingSetup: Record "VAT Posting Setup";
     begin

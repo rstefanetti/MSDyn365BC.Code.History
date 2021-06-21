@@ -1,0 +1,1757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hu-HU" original="OIOUBL">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3362259864 - Field 538163542 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table OIOUBL-Profile - Field OIOUBL-Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3362259864 - Field 3737215627 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile</source>
+          <target state="translated">Profile</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table OIOUBL-Profile - Field OIOUBL-Profile ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3362259864 - NamedType 1458864712" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one OIOUBL profile needs to exist.</source>
+          <target state="translated">At least one OIOUBL profile needs to exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table OIOUBL-Profile - NamedType DeleteErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3729083530 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Fin. Charge Memo - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3729083530 - NamedType 1153294786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Finance Charge Memo %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</source>
+          <target state="translated">The Finance Charge Memo %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = No. of the Finance Charege memo</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Fin. Charge Memo - NamedType EmptyDescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3729083530 - NamedType 953587966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Finance Charge Memo %1 contains lines in which either the Document No. or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document./Do you want to continue?</source>
+          <target state="translated">The Finance Charge Memo %1 contains lines in which either the Document No. or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document./Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = No. of the Finance Charege memo</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Fin. Charge Memo - NamedType EmptyFieldsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3729083530 - NamedType 4030921609" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The issuing has been interrupted to respect the warning.</source>
+          <target state="translated">The issuing has been interrupted to respect the warning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Fin. Charge Memo - NamedType WarningsExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3053074927 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Fin. Chrg - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 1872816390" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 540546217" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL Format (Offentlig Information Online Universal Business Language)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLFormatDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 3990055761" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL Document Sending Profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 4164178256" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>BILSIM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2301430057 - NamedType 2667804976" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Procurement-OrdSimR-BilSim-1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Initialize - NamedType OIOUBLProfileIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - NamedType 460728139" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>should be %1 characters long</source>
+          <target state="translated">should be %1 characters long</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name, %1 = a length</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - NamedType InvalidCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - NamedType 959112201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The customer must be Danish.</source>
+          <target state="translated">The customer must be Danish.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - NamedType NonDanishCustomerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 1742544578" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType OIOUBLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 650692371" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType InvoiceDocTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 2692645885" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType CrMemoDocTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 1887298019" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>XML File(*.xml)|*.xml</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType XmlFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 358039643" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Zip File (*.zip)|*.zip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 3058423012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export OIOUBL archive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveSaveDialogTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 2912267127" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic document format %1 does not exist for the document type %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType NonExistingDocumentFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2657778153 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Reminder - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2657778153 - NamedType 1153294786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Reminder %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</source>
+          <target state="translated">The Reminder %1 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = No. of the Reminder</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Reminder - NamedType EmptyDescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2657778153 - NamedType 953587966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Reminder %1 contains lines in which either the Type or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</source>
+          <target state="translated">The Reminder %1 contains lines in which either the Type or the No. is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = No. of the Reminder</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Reminder - NamedType EmptyFieldsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2657778153 - NamedType 4030921609" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The issuing has been interrupted to respect the warning.</source>
+          <target state="translated">The issuing has been interrupted to respect the warning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Reminder - NamedType WarningsExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4014227374 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Reminder - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1932373592 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Cr. Memo - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 2798939796" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"You must specify the External Document No. in Sales Header Document Type='%1', No.='%2'.\\If you are using OIOUBL, this field is mandatory regardless of the value in the Ext. Doc. No. Mandatory field in Sales &amp; Receivables Setup."</source>
+          <target state="translated">"You must specify the External Document No. in Sales Header Document Type='%1', No.='%2'.\\If you are using OIOUBL, this field is mandatory regardless of the value in the Ext. Doc. No. Mandatory field in Sales &amp; Receivables Setup."</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType EmptyExtDocNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 1153294786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</source>
+          <target state="translated">The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType EmptyDescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 953587966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</source>
+          <target state="translated">The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType EmptyFieldsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 1658550504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The posting has been interrupted to respect the warning.</source>
+          <target state="translated">The posting has been interrupted to respect the warning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType WarningExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 3912533089" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Unit of Measure field is empty. This is not permitted for an OIOUBL document that is to be created from the posted document.</source>
+          <target state="translated">The %1 %2 contains lines in which the Unit of Measure field is empty. This is not permitted for an OIOUBL document that is to be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType EmptyUnitOfMeasureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 115538199" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cannot be negative</source>
+          <target state="translated">cannot be negative</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType ValueNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 1306537046" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Amount cannot be negative.</source>
+          <target state="translated">The total Line Amount cannot be negative.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType AmountNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - NamedType 1138880009" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Discount Amount cannot be negative.</source>
+          <target state="translated">The total Line Discount Amount cannot be negative.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType DiscountAmountNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3936791220 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Invoice - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2131230027 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Cr. Memo - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 798499703 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Invoice - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 1153294786" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</source>
+          <target state="translated">The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType EmptyDescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 953587966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Please be aware that such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</source>
+          <target state="translated">The %1 %2 contains lines in which either the Type, the No. or the Description is empty. Please be aware that such lines will not be taken into account when creating an OIOUBL document.\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType EmptyFieldsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 1658550504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The posting has been interrupted to respect the warning.</source>
+          <target state="translated">The posting has been interrupted to respect the warning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType WarningExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 3912533089" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Unit of Measure field is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</source>
+          <target state="translated">The %1 %2 contains lines in which the Unit of Measure field is empty. This is not allowed for an OIOUBL document which might be created from the posted document.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - document type, %2 - document no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType EmptyUnitOfMeasureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 2859471764" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cannot be negative</source>
+          <target state="translated">cannot be negative</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType CannotBeNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 4088936152" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Amount cannot be negative.</source>
+          <target state="translated">The total Line Amount cannot be negative.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType AmountCannotBeNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - NamedType 610579619" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Discount Amount cannot be negative.</source>
+          <target state="translated">The total Line Discount Amount cannot be negative.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - NamedType DiscountAmountCannotBeNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3172652121 - Control 2109083573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account details</source>
+          <target state="translated">Account details</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Company Info. Setup - Control Account Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3172652121 - Control 444048401 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fill in either</source>
+          <target state="translated">Fill in either</target>
+          <note from="Developer" annotates="general" priority="2">Part of: Fill in either &lt;some fields&gt; or &lt;other fields&gt;</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Company Info. Setup - Control Fill in either - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3172652121 - Control 634743559 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>or</source>
+          <target state="translated">or</target>
+          <note from="Developer" annotates="general" priority="2">Part of: Fill in either &lt;some fields&gt; or &lt;other fields&gt;</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Company Info. Setup - Control OR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Elec. Fin. Chrg. Memos</source>
+          <target state="translated">Create Elec. Fin. Chrg. Memos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - Control 18652612 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - Control  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - Control 816368762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target state="translated">Log Interaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - NamedType 478773981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more issued finance charges that match your filter criteria are not electronic finance charges and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more issued finance charges that match your filter criteria are not electronic finance charges and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - NamedType DocumentsWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - NamedType 1121851201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more electronic finance charges that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more electronic finance charges that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - NamedType DocumentAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic finance charges.</source>
+          <target state="translated">Successfully created %1 electronic finance charges.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic finance charges created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2023497663 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Reminders</source>
+          <target state="translated">Create Electronic Reminders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - Control 18652612 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - Control  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - Control 816368762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target state="translated">Log Interaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - NamedType 478773981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more issued reminders that match your filter criteria are not electronic reminders and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more issued reminders that match your filter criteria are not electronic reminders and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - NamedType DocumentsWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - NamedType 1121851201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more electronic reminders that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more electronic reminders that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - NamedType DocumentAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic reminders.</source>
+          <target state="translated">Successfully created %1 electronic reminders.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic reminders</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 3108180649 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Credit Memos</source>
+          <target state="translated">Create Electronic Credit Memos</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - Control 18652612 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - Control  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - Control 816368762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target state="translated">Log Interaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - NamedType 478773981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - NamedType DocumentsWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - NamedType 1121851201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - NamedType DocumentAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic credit memos.</source>
+          <target state="translated">Successfully created %1 electronic credit memos.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic credit memos created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2454303400 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Cr. Memos - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Invoices</source>
+          <target state="translated">Create Electronic Invoices</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - Control 3959405189 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - Control Main - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - Control 816368762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target state="translated">Log Interaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - NamedType 1101420471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - NamedType InvoicesWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - NamedType 3480457110" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more invoices that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more invoices that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - NamedType InvoicesAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 1661391820 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic invoice(s).</source>
+          <target state="translated">Successfully created %1 electronic invoice(s).</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic invoices created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Invoices - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 238714916 - NamedType 478773981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more credit memos that match your filter criteria are not electronic credit memos and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec Srv Cr Memo - NamedType DocumentsWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 238714916 - NamedType 1121851201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec Srv Cr Memo - NamedType DocumentAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 238714916 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic credit memo(s).</source>
+          <target state="translated">Successfully created %1 electronic credit memo(s).</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic credit memos created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec Srv Cr Memo - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 238714916 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec Srv Cr Memo - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 626116848 - NamedType 1101420471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?</source>
+          <target state="translated">One or more invoices that match your filter criteria are not electronic invoices and will be skipped.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Srv. Inv. - NamedType InvoicesWillBeSkippedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 626116848 - NamedType 3480457110" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more invoices that match your filter criteria have been created before.\\Do you want to continue?</source>
+          <target state="translated">One or more invoices that match your filter criteria have been created before.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Srv. Inv. - NamedType InvoicesAlreadyCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Report 626116848 - NamedType 1556380518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Successfully created %1 electronic invoice(s).</source>
+          <target state="translated">Successfully created %1 electronic invoice(s).</target>
+          <note from="Developer" annotates="general" priority="2">%1 = amount of electronic invoices created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Srv. Inv. - NamedType SuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 626116848 - NamedType 3590955825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to create.</source>
+          <target state="translated">There is nothing to create.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Srv. Inv. - NamedType NothingToCreateErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1344584502 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3088327135</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1344584502 - Action 2103005105 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Finance Charge Memo</source>
+          <target state="translated">Create Electronic Finance Charge Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3088327135</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2146471783 - Action 2530658111 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Finance Charge Memo</source>
+          <target state="translated">Create Electronic Finance Charge Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3138431460</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 501980936 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1331685701</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 501980936 - Action 2103005105 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Reminder</source>
+          <target state="translated">Create Electronic Reminder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1331685701</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3793403163 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Credit Memo</source>
+          <target state="translated">Create Electronic Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2716593954</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1880922246 - Action 3491354398 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Sales Credit Memo</source>
+          <target state="translated">Create Electronic Sales Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2557560783</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 341639772 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1708100201</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 341639772 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1708100201</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 341639772 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1708100201</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 341639772 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1708100201</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242705117 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1598289728</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242705117 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1598289728</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242705117 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1598289728</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242705117 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1598289728</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 442323289 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Invoice</source>
+          <target state="translated">Create Electronic Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2420212404</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 21353424 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Invoice</source>
+          <target state="translated">Create Electronic Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3434938165</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3570045267 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1673401186</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3570045267 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1673401186</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3570045267 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1673401186</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3570045267 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1673401186</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2516129578 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4034894651</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2516129578 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4034894651</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2516129578 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4034894651</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2516129578 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4034894651</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 3970487108 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL</source>
+          <target state="translated">OIOUBL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 3857469827 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output Paths</source>
+          <target state="translated">Output Paths</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 940671709 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Path</source>
+          <target state="translated">Invoice Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 152881633 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cr. Memo Path</source>
+          <target state="translated">Cr. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 1389960272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder Path</source>
+          <target state="translated">Reminder Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 4004248617 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fin. Chrg. Memo Path</source>
+          <target state="translated">Fin. Chrg. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55728046 - Control 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2259427799</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55728046 - Control 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2259427799</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55728046 - Control 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2259427799</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55728046 - Control 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2259427799</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4263100351 - Control 3001618318 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's reference.</source>
+          <target state="translated">Specifies the customer's reference.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2832910486</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4263100351 - Control 3095583229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the role of the contact person at the customer.</source>
+          <target state="translated">Specifies the role of the contact person at the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2832910486</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3735423755 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1751478268</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3576717900 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4222048109</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3576717900 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Credit Memo</source>
+          <target state="translated">Create Electronic Credit Memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4222048109</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 638604442 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2649920062</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3249536815 - Control 901033786 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Output paths</source>
+          <target state="translated">OIOUBL Output paths</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 297536702</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3249536815 - Control 4186803522 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice Path</source>
+          <target state="translated">Service Invoice Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 297536702</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3249536815 - Control 4186803522 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the path and name of the folder where you want to store the files for electronic invoices.</source>
+          <target state="translated">Specifies the path and name of the folder where you want to store the files for electronic invoices.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 297536702</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3249536815 - Control 1639690342 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Cr. Memo Path</source>
+          <target state="translated">Service Cr. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 297536702</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3249536815 - Control 1639690342 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the path and name of the folder where you want to store the files for electronic credit memos.</source>
+          <target state="translated">Specifies the path and name of the folder where you want to store the files for electronic credit memos.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 297536702</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3249536815 - Field 4186803522 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice Path</source>
+          <target state="translated">Service Invoice Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3249536815 - Field 1639690342 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Cr. Memo Path</source>
+          <target state="translated">Service Cr. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3249536815 - NamedType 3900895965" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</source>
+          <target state="translated">OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3249536815 - NamedType 1764743520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
+          <target state="translated">OIOUBL path of the OIOMXL file is missing. Please Correct it.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 297536702</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2375302088 - Control 3095583229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the role of the contact person at the customer.</source>
+          <target state="translated">Specifies the role of the contact person at the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2145436509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2375302088 - Control 1470516358 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the GLN location number for the customer.</source>
+          <target state="translated">Specifies the GLN location number for the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2145436509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2375302088 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2145436509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2375302088 - Control 491483755 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the profile that this customer requires for electronic documents.</source>
+          <target state="translated">Specifies the profile that this customer requires for electronic documents.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2145436509</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3504961273 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 997019036</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 255663659 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 754151050</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3155273158 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated">F&amp;unctions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1778940791</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3155273158 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Electronic Invoice</source>
+          <target state="translated">Create Electronic Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1778940791</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 354415291 - Control 698465781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account code of the customer.</source>
+          <target state="translated">Specifies the account code of the customer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1187328241</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3095261412 - Field 538163542 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3197070065</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 3095252104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 2779371529 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 3392906730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2254828034 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4059857058</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2254828034 - NamedType 739368154" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter %1 if %2 is "%3".</source>
+          <target state="translated">You cannot enter %1 if %2 is "%3".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4059857058</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 3633465435 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. Fin. Charge Memo Created</source>
+          <target state="translated">Elec. Fin. Charge Memo Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 3095252104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 2779371529 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 3392906730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coontact E-Mail</source>
+          <target state="translated">Coontact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 9721095 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3313652032</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 9721095 - NamedType 739368154" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter %1 if %2 is "%3".</source>
+          <target state="translated">You cannot enter %1 if %2 is "%3".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3313652032</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3294164146 - Field 2042155141 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4047643595</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 3095252104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 2779371529 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 3392906730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3967370585 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2681651900</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3967370585 - NamedType 739368154" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter %1 if %2 is "%3".</source>
+          <target state="translated">You cannot enter %1 if %2 is "%3".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2681651900</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 2171989557 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Reminder Created</source>
+          <target state="translated">Electronic Reminder Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 3095252104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Phone No.</source>
+          <target state="translated">Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 2779371529 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Fax No.</source>
+          <target state="translated">Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 3392906730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact E-Mail</source>
+          <target state="translated">Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3347141990 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 556460471</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 2728957782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Credit Memo Created</source>
+          <target state="translated">Electronic Credit Memo Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Phone No.</source>
+          <target state="translated">Sell-to Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Fax No.</source>
+          <target state="translated">Sell-to Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact E-Mail</source>
+          <target state="translated">Sell-to Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Role</source>
+          <target state="translated">Sell-to Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1801716184 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3059602325</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 1528802016 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Invoice Created</source>
+          <target state="translated">Electronic Invoice Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Phone No.</source>
+          <target state="translated">Sell-to Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Sell-to Contact Fax No.</source>
+          <target state="translated">OIOUBL-Sell-to Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Sell-to Contact E-Mail</source>
+          <target state="translated">OIOUBL-Sell-to Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Sell-to Contact Role</source>
+          <target state="translated">OIOUBL-Sell-to Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2954038588 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2079186865</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 940671709 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Path</source>
+          <target state="translated">Invoice Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 152881633 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cr. Memo Path</source>
+          <target state="translated">Cr. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 1389960272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder Path</source>
+          <target state="translated">Reminder Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 4004248617 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fin. Chrg. Memo Path</source>
+          <target state="translated">Fin. Chrg. Memo Path</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 3651937062 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Profile Code</source>
+          <target state="translated">Default Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - NamedType 3900895965" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</source>
+          <target state="translated">OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - NamedType 1764743520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL path of the OIOMXL file is missing. Please Correct it.</source>
+          <target state="translated">OIOUBL path of the OIOMXL file is missing. Please Correct it.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Phone No.</source>
+          <target state="translated">Sell-to Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Fax No.</source>
+          <target state="translated">Sell-to Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact E-Mail</source>
+          <target state="translated">Sell-to Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Role</source>
+          <target state="translated">Sell-to Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3955044619 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2574427010</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3955044619 - NamedType 3599942508" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter %1 if %2 is "%3".</source>
+          <target state="translated">You cannot enter %1 if %2 is "%3".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2574427010</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 979903104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Phone No.</source>
+          <target state="translated">Sell-to Contact Phone No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 897539873 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Fax No.</source>
+          <target state="translated">Sell-to Contact Fax No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 2615331202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact E-Mail</source>
+          <target state="translated">Sell-to Contact E-Mail</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Contact Role</source>
+          <target state="translated">Sell-to Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 465752541 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2903552224</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 2728957782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Credit Memo Created</source>
+          <target state="translated">Electronic Credit Memo Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 807753035 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3250149650</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 80978112 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2682833765</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 80978112 - NamedType 739368154" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter %1 if %2 is "%3".</source>
+          <target state="translated">You cannot enter %1 if %2 is "%3".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Value of Account Code Field, %2 = Type Caption, %3 = Type value</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2682833765</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN</source>
+          <target state="translated">GLN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 1528802016 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Invoice Created</source>
+          <target state="translated">Electronic Invoice Created</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Role</source>
+          <target state="translated">Contact Role</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 714642311 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2228141878</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3890267005 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <target state="translated">Account Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3890267005 - Field 491483755 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code</source>
+          <target state="translated">Profile Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3890267005 - Field 4067661428 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profile Code Required</source>
+          <target state="translated">Profile Code Required</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3890267005 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>does not contain a valid, 13-digit GLN</source>
+          <target state="translated">does not contain a valid, 13-digit GLN</target>
+          <note from="Developer" annotates="general" priority="2">starts with some field name</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2870539612 - Field 447982215 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target state="translated">Currency Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3561154705</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 702636924 - Field 1110520839 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Charge Category</source>
+          <target state="translated">Charge Category</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 151375497</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 702636924 - Field 1110520839 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"General Rebate","General Fine","Freight Charge",Duty,Tax</source>
+          <target state="translated">"General Rebate","General Fine","Freight Charge",Duty,Tax</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 151375497</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 8651240 - NamedType 1665574169" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You need to provide information in %1 to support OIOUBL. Do you want to update it now?</source>
+          <target state="translated">You need to provide information in %1 to support OIOUBL. Do you want to update it now?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 8651240 - NamedType 1498947560" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The needed information to support OIOUBL is not provided in %1.</source>
+          <target state="translated">The needed information to support OIOUBL is not provided in %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Company Information caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2471236884 - Field 3952910319 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target state="translated">Country/Region Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4148176377</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

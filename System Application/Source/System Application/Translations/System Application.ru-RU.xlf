@@ -2130,7 +2130,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1225200592 - NamedType 2920143230" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be greater than %2.</source>
-          <target state="translated">%1 должно быть больше %2.</target>
+          <target state="translated">Значение поля %1 должно быть больше %2.</target>
           <note from="Developer" annotates="general" priority="2">%1 Upper threshold %2 Lower threshold</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cues And KPIs Impl. - NamedType WrongThresholdsErr</note>
         </trans-unit>
@@ -5885,7 +5885,7 @@
         </trans-unit>
         <trans-unit id="Page 2927108320 - NamedType 915252812" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>See the Release Plan</source>
-          <target state="translated">См. план выпуска</target>
+          <target state="translated">Смотреть план выпуска</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Upcoming Changes Factbox - NamedType ReleasePlanLbl</note>
         </trans-unit>
@@ -6039,7 +6039,7 @@
         </trans-unit>
         <trans-unit id="Page 4035890834 - Control 3711240756 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the object ID.</source>
-          <target state="translated">Определяет номер объекта.</target>
+          <target state="translated">Определяет идентификатор объекта.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Objects - Control Object ID - Property ToolTip</note>
         </trans-unit>

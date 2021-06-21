@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="OIOUBL Tests">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2585361865 - NamedType 3662356478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discount % cannot be negative in Sales Line Document Type='%1',Document No.='%2',Line No.='%3'.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType NegSalesLineDiscountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 4190642281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Discount % cannot be negative in Service Line Document Type='%1',Document No.='%2',Line No.='%3'.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType NegServiceLineDiscountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 1798068665" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Discount Amount cannot be negative.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType NegativeDiscountAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 4223821622" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total Line Amount cannot be negative.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType NegativeAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 1984530095" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The GLEntry does not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType GLEntryVerifyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2585361865 - NamedType 18626856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>5790000510146</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales and Service - NamedType GLNNoTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 3273540359" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date must have a value in Sales Header: Document Type=Invoice, No.=%1. It cannot be zero or empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType BlankOrderDateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 868040810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Service Cr. Memo Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType CrMemoPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 1458769805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Type and the No. are specified, but the Description is empty.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Field Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType DescriptionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 494607362" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify the External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType ExternalDocumentNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 3145072128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Service Invoice Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType InvoicePathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 1120768177" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code must have a value in Service Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType PaymentTermsCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 2889147007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value in Sales Header: Document Type=Invoice, No.=%2. It cannot be zero or empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType SalesInvoiceFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 1169888859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a value in Service Header: Document Type=Credit Memo, No.=%2. It cannot be zero or empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType ServiceFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 327842246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 contains lines in which the Unit of Measure field is empty.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Field Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType UOMErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 269721577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Reference must have a value in Service Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType YourReferenceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 1498947560" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The needed information to support OIOUBL is not provided in %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType MissingOIOUBMInfoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2738608168 - NamedType 18626856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3974567891234</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType GLNNoTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 962289262" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cac:PayeeFinancialAccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType PayeeFinAccCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3429783621" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cac:FinancialInstitutionBranch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType FinInstitutionBranchCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3350097116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact must have a value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType ContactEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1995504600" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType AccountCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 4011581856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LCY Code must have a value in General Ledger Setup: Primary Key=. It cannot be zero or empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType BlankLCYCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3282451161" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType cbcNameCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1100431173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:Percent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType cbcPercentCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3045405915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:TaxInclusiveAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType cbcAmountInclTaxCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 868040810" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Cr. Memo Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType CrMemoPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 112157198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType CurrencyCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1001511815" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:CustomerReference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType CustomerReferenceCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1427565258" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test line with text value more than 50 characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType DescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 18626856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType GLNNoTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 580168651" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The GLN %1 is not valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType GLNNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3424856200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>5790000510146</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType GLNNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1525963968" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:EndpointID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType EndpointIDCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 879511508" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Fin. Chrg. Memo Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType FinChrgMemoPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 952376623" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DK 12 CPBK 08929965044991</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType IBANNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 1121374649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType IDCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3145072128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Invoice Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType InvoicePathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 2081927886" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LCY Code should be 3 characters long in General Ledger Setup Primary Key=''.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType LCYCodeLenghtErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 2909096273" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType OIOUBLCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3919417522" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:PaymentChannelCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType PaymentChannelCodeCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3785504592" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1:BANK</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType PaymentChannelCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 2681684395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:PaymentMeansCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType PaymentMeansCodeCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 49660789" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL Reminder Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType ReminderPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3954415939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:SalesOrderID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType SalesOrderIDCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4121410283 - NamedType 3800651618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType ValidationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1947391627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2 in %3.</source>
+          <note from="Developer" annotates="general" priority="2">"%1:FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType AmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 3424856200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3974567891234</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType GLNNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1928050031" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType IDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1203431777" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:AccountingCostCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType AccountingCostCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 3659790723" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:TaxExclusiveAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType TaxAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1511827303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement-BilSim-1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType DefaultProfileIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1298703648" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong value of "AllowanceCharge".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType WrongAllowanceChargeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 3927793954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEFAULT</source>
+          <note from="Developer" annotates="general" priority="2">Translate as we translate default term in local languages</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType DefaultCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 1742544578" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType OIOUBLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 725863294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PEPPOL 2.1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType PEPPOLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 2693520614" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong count of "InvoiceLine".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType WrongInvoiceLineCountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 3702624130" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:BaseQuantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType BaseQuantityTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 2912267127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic document format OIOUBL does not exist for the document type %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType NonExistingDocumentFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 3424856200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3974567891234</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType GLNNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 1928050031" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType IDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 3659790723" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:TaxExclusiveAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType TaxAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 1511827303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement-BilSim-1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType DefaultProfileIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 1298703648" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong Count of "AllowanceCharge".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType WrongAllowanceChargeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 2693520614" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong count of "InvoiceLine".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType WrongInvoiceLineCountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3705946935 - NamedType 3702624130" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:BaseQuantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-UT ERM Elec. Doc Sales - NamedType BaseQuantityTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 1121374649" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType IDCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 2067755661" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:TaxExclusiveAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType TaxAmountCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 1511827303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Procurement-BilSim-1.0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType DefaultProfileIDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 707189943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cbc:AccountingCostCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType AccountingCostCodeCapTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 1742544578" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType OIOUBLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 725863294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PEPPOL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType PEPPOLFormatNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 3927793954" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEFAULT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType DefaultCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1358558472 - NamedType 2912267127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic document format OIOUBL does not exist for the document type %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType NonExistingDocumentFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 241682305 - NamedType 3786128065" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code must have a value in Country/Region: Code=%1. It cannot be zero or empty.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Country code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Pmt. Export Validation - NamedType GetPaymentChannelCodeErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

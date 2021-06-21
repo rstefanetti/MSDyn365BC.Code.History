@@ -141,7 +141,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 2575460289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies your company's password to the service that converts bank data to the format required by your bank. The password that you enter in the Password field must be the same as on the service provider's sign-on page.</source>
-          <target>Indique le mot de passe de votre compagnie au service qui convertit les données bancaires au format requis par votre banque. Le mot de passe que vous saisissez dans le champ Mot de passe doit être identique à celui que vous saisissez sur la page de connexion au fournisseur de services.</target>
+          <target>Spécifie le mot de passe de votre compagnie au service qui convertit les données bancaires au format requis par votre banque. Le mot de passe que vous entrez dans le champ Mot de passe doit être identique à celui que vous entrez sur la page de connexion au site du fournisseur de services.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Password - Property ToolTip</note>
         </trans-unit>
@@ -1237,7 +1237,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3504517071 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
-          <target>Spécifie la page de connexion pour le service qui convertit les données bancaires au format requis par votre banque lorsque vous exportez des fichiers bancaires de paiement et importez des fichiers de relevé bancaire. Il s'agit de la page Internet sur laquelle vous saisissez le nom d'utilisateur de votre compagnie ainsi que le mot de passe associé pour vous connecter au service.</target>
+          <target>Spécifie la page de connexion pour le service qui convertit les données bancaires au format requis par votre banque lorsque vous exportez des fichiers bancaires de paiement et importez des fichiers de relevé bancaire. Il s’agit de la page web sur laquelle vous entrez le nom d’utilisateur de votre compagnie ainsi que le mot de passe associé pour vous connecter au service.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SignupURL - Property ToolTip</note>
         </trans-unit>

@@ -13,6 +13,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType InvalidPeriodErr</note>
         </trans-unit>
+        <trans-unit id="Report 2597579300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intrastat Export To Disk</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 2597579300 - NamedType 2292565108" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enter the file name.</source>
           <note from="Developer" annotates="general" priority="2"></note>

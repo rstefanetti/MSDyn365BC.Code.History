@@ -21,6 +21,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Control Payroll Trans. Import Format - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="XmlPort 1985359964 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exch. Imp.- Proløn</source>
+          <target state="translated">Dataudvekslingsimport – Proløn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Data Exch. Imp.- Proløn - Property Caption</note>
+        </trans-unit>
         <trans-unit id="XmlPort 1985359964 - NamedType 3403918908" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The imported file does not match the expected format.</source>
           <target state="translated">Den importerede fil stemmer ikke overens med det forventede format.</target>

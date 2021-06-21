@@ -3,6 +3,12 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="OIOUBL">
     <body>
       <group id="body">
+        <trans-unit id="Table 3362259864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Profile</source>
+          <target state="translated">OIOUBL – Profil</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table OIOUBL-Profile - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3362259864 - NamedType 1458864712" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>At least one OIOUBL profile needs to exist.</source>
           <target state="translated">Mindst én OIOUBL-profil skal findes.</target>
@@ -45,11 +51,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Fin. Charge Memo - NamedType WarningsExistErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3053074927 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Fin. Chrg - Method ReadGLSetup</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3053074927 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Fin. Chrg - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4014227374 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Issued Reminder - Method ReadGLSetup</note>
         </trans-unit>
         <trans-unit id="Codeunit 4014227374 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
@@ -86,6 +102,11 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Cr. Memo - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1465371914 - Method 2543837069" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckOIOUBLProfile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - Method CheckOIOUBLProfile</note>
         </trans-unit>
         <trans-unit id="Codeunit 1465371914 - NamedType 1306537046" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The total Line Amount cannot be negative.</source>
@@ -141,6 +162,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Header - NamedType WarningExistErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3936791220 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Invoice - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3936791220 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Sales Invoice - Method ReadGLSetup</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3936791220 - NamedType 3502196155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
@@ -152,6 +183,11 @@
           <target state="translated">indeholder ikke et gyldigt 13-cifret GLN</target>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Cr. Memo - NamedType InvalidGLNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 445766061 - Method 1799864475" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckOIOUBLProfile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Header - Method CheckOIOUBLProfile</note>
         </trans-unit>
         <trans-unit id="Codeunit 445766061 - NamedType 4088936152" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The total Line Amount cannot be negative.</source>
@@ -207,6 +243,206 @@
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Check Service Invoice - NamedType InvalidGLNErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 1187576390" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertOrderReference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertOrderReference</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 1238634679" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertTaxScheme</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertTaxScheme</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 1482052236" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertPartyTaxScheme</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertPartyTaxScheme</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 1863137711" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertAddress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertAddress</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 365517305" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertAccountingSupplierParty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertAccountingSupplierParty</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 188881932" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertAccountingCustomerParty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertAccountingCustomerParty</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 209791103" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertDelivery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertDelivery</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 3968682489" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertPaymentMeans</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertPaymentMeans</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 2197364722" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertPaymentTerms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertPaymentTerms</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 3081982908" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertAllowanceCharge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertAllowanceCharge</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 757017091" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertTaxSubtotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertTaxSubtotal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 4232604333" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertLineTaxTotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertLineTaxTotal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 2453741100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertLegalMonetaryTotal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertLegalMonetaryTotal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 488754520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertReminderLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertReminderLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 234153083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertItem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertItem</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 3497399315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertPrice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method InsertPrice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 90490113" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetPaymentChannelCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method GetPaymentChannelCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 2688014911" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetInvoiceHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method GetInvoiceHeader</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 3666272486" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetReminderHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method GetReminderHeader</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 3212611171" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCrMemoHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method GetCrMemoHeader</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 98400031" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetTaxCategoryID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method GetTaxCategoryID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3524695352 - Method 2869285836" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>init</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Common Logic - Method init</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 2480002962" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateToText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method DateToText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 109927565" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BooleanToText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method BooleanToText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 1297423409" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DecimalToText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method DecimalToText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 3693961153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IntegerToText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method IntegerToText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 1424744371" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsValidGLN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method IsValidGLN</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 1958460659" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCurrencyCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method CheckCurrencyCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 2537060835" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DecimalToPromille</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method DecimalToPromille</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 492587021" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOIOUBLCountryRegionCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetOIOUBLCountryRegionCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 3042833317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOIOUBLCurrencyCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetOIOUBLCurrencyCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method ReadGLSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 593073717" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsValidCountryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method IsValidCountryCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 639162968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCompanyVATRegNoOld</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetCompanyVATRegNoOld</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 1685387351" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCustomerVATRegNoOld</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetCustomerVATRegNoOld</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 436844260" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCompanyVATRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetCompanyVATRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 1399813396" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCustomerVATRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetCustomerVATRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 4150801068" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCustomerVATRegNoIncCustomerCountryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetCustomerVATRegNoIncCustomerCountryCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3787735282 - Method 2549891094" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUoMCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - Method GetUoMCode</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3787735282 - NamedType 460728139" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>should be %1 characters long</source>
           <target state="translated">skal have en længde på %1 tegn</target>
@@ -218,6 +454,206 @@
           <target state="translated">Kunden skal være dansk.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Document Encode - NamedType NonDanishCustomerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2893085332 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Exp. Issued Fin. Chrg - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2893085332 - Method 2305060753" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ContainsValidLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Exp. Issued Fin. Chrg - Method ContainsValidLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3595284492 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Issued Reminder - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1227564906 - Method 3332453056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportXML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Cr. Memo - Method ExportXML</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1227564906 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Cr. Memo - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1227564906 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Cr. Memo - Method ReadGLSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1227564906 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Cr. Memo - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4025975734 - Method 312878994" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportXML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Invoice - Method ExportXML</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4025975734 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Invoice - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4025975734 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Invoice - Method ReadGLSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4025975734 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Invoice - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4025975734 - Method 3568842653" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExcludeVAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Sales Invoice - Method ExcludeVAT</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942884413 - Method 1036248291" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportXML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Cr.Memo - Method ExportXML</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942884413 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Cr.Memo - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942884413 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Cr.Memo - Method ReadGLSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942884413 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Cr.Memo - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 2311641525" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportXML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method ExportXML</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 878859311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadCompanyInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method ReadCompanyInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 2029090381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReadGLSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method ReadGLSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 90490113" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetPaymentChannelCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method GetPaymentChannelCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 434835494" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateTaxAmtAndTaxableAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method UpdateTaxAmtAndTaxableAmt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2961750937 - Method 3322777749" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExcludeVAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Export Service Invoice - Method ExcludeVAT</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3613149978 - Method 1933374011" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FileCreated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-File Events - Method FileCreated</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3099543538 - Method 2622369263" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnBeforeIssueFinChargeMemoRunCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Fin Charg Memo Iss Sub - Method OnBeforeIssueFinChargeMemoRunCheck</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2372693683 - Method 702771799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterInsertEventAccountCodeAssignment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Fin Charg Memo Line Sub - Method OnAfterInsertEventAccountCodeAssignment</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 3218508673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ClearRecordExportBuffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method ClearRecordExportBuffer</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 1281251317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportXMLFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method ExportXMLFile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 3830213423" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOIOUBLElectronicDocumentFormatCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method GetOIOUBLElectronicDocumentFormatCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 2279468598" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDocumentExportPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method GetDocumentExportPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 4219982472" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDocumentType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method GetDocumentType</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 1891163981" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetExportCodeunitID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method GetExportCodeunitID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 4177967947" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsOIOUBLCheckRequired</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method IsOIOUBLCheckRequired</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 1948727870" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsOIOUBLSendingProfile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method IsOIOUBLSendingProfile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 862771009" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsStandardExportCodeunitID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method IsStandardExportCodeunitID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 2614898571" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsAllowedDocumentType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method IsAllowedDocumentType</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 2906098592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateRecordExportBuffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method UpdateRecordExportBuffer</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 3764274934" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WriteLogSalesInvoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method WriteLogSalesInvoice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 3184485708" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WriteLogSalesCrMemo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method WriteLogSalesCrMemo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 2053498358" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ZipMultipleXMLFilesInServerFolder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method ZipMultipleXMLFilesInServerFolder</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 87117224 - Method 2925644144" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DownloadZipFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - Method DownloadZipFile</note>
         </trans-unit>
         <trans-unit id="Codeunit 87117224 - NamedType 2692645885" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Memo</source>
@@ -248,6 +684,62 @@
           <target state="translated">Udlæs OIOUBL-Arkiv</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveSaveDialogTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3082759208 - Method 1547675861" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnBeforeIssueReminderRunCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Reminder Issue Sub - Method OnBeforeIssueReminderRunCheck</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2432627045 - Method 702771799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterInsertEventAccountCodeAssignment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Reminder Line Sub - Method OnAfterInsertEventAccountCodeAssignment</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3139817814 - Method 2661431402" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterCheckSalesDocCheckOIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Sales Invoice Line Sub. - Method OnAfterCheckSalesDocCheckOIOUBL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3843315235 - Method 3134948919" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterCheckSalesDocCheckOIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Sales Line Suscriber - Method OnAfterCheckSalesDocCheckOIOUBL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4013596884 - Method 2308965880" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterCheckSalesDocCheckOIOUBL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Sales-Post Subscriber - Method OnAfterCheckSalesDocCheckOIOUBL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2958945703 - Method 1782045110" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBLCheckOnBeforePostWithLines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Service-Post Subscriber - Method OIOUBLCheckOnBeforePostWithLines</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - Method 3990091067" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportCustomerDocumentOnBeforeSend</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - Method ExportCustomerDocumentOnBeforeSend</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - Method 1043133294" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FillRecordExportBufferOnBeforeSendCustomerRecords</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - Method FillRecordExportBufferOnBeforeSendCustomerRecords</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - Method 3064971839" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SaveMultipleXMLFilesToZipOnAfterSendCustomerRecords</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - Method SaveMultipleXMLFilesToZipOnAfterSendCustomerRecords</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - Method 2166971874" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CancelDownloadWhenZipOnExportXMLFileOnBeforeDownload</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - Method CancelDownloadWhenZipOnExportXMLFileOnBeforeDownload</note>
+        </trans-unit>
+        <trans-unit id="Page 3172652121 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Company Info. Setup</source>
+          <target state="translated">OIOUBL – Opsætning af virksomhedsoplysninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Company Info. Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3172652121 - Control 2109083573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account details</source>
@@ -327,6 +819,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Company Info. Setup - Control OIOUBL-VAT Registration No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3035100042 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Profile List</source>
+          <target state="translated">OIOUBL – Profilliste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Profile List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3035100042 - Control 538163542 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the Offentlig Information Online UBL (OIOUBL) profile.</source>
           <target state="translated">Angiver koden for Offentlig Information Online UBL (OIOUBL)-profilen.</target>
@@ -338,6 +836,12 @@
           <target state="translated">Angiver de tilgængelige profil-id'er, som kan bruges til elektronisk fakturering af den offentlige sektor i Danmark.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-Profile List - Control OIOUBL-Profile ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 720253252 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-setup</source>
+          <target state="translated">OIOUBL – Opsætning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page OIOUBL-setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 720253252 - Control 152881633 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the path and name of the folder where you want to store the files for electronic credit memos.</source>
@@ -416,6 +920,12 @@
           <target state="translated">Logfør interaktion</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create E-Fin Chrg Memos - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 238714916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Create Elec Srv Cr Memo</source>
+          <target state="translated">OIOUBL – Opret elektrisk server Cr-memo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec Srv Cr Memo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 238714916 - NamedType 1121851201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>One or more credit memos that match your filter criteria have been created before.\\Do you want to continue?</source>
@@ -584,6 +1094,12 @@
           <target state="translated">Logfør interaktion</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Reminders - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 626116848 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OIOUBL-Create Elec. Srv. Inv.</source>
+          <target state="translated">OIOUBL – Opret elektrisk SRV. faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report OIOUBL-Create Elec. Srv. Inv. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 626116848 - NamedType 3480457110" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>One or more invoices that match your filter criteria have been created before.\\Do you want to continue?</source>
@@ -861,6 +1377,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3138431460</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2146471783 - Action 1210060203 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seperator</source>
+          <target state="translated">Separator</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3138431460</note>
+        </trans-unit>
         <trans-unit id="PageExtension 501980936 - Action 1508892236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>F&amp;unctions</source>
           <target state="translated">Funk&amp;tioner</target>
@@ -1046,6 +1569,13 @@
         <trans-unit id="PageExtension 21353424 - Action 1059434536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Electronic Invoice</source>
           <target state="translated">Opret elektronisk faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3434938165</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 21353424 - Action 1210060203 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seperator</source>
+          <target state="translated">Separator</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3434938165</note>
@@ -1284,6 +1814,13 @@
         <trans-unit id="PageExtension 1880922246 - Action 3491354398 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Electronic Sales Credit Memo</source>
           <target state="translated">Opret elektronisk salgskreditnota</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2557560783</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1880922246 - Action 1210060203 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seperator</source>
+          <target state="translated">Separator</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2557560783</note>
@@ -2058,6 +2595,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2766054287 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3952648489</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2766054287 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
           <target state="translated">GLN</target>
@@ -2096,6 +2640,13 @@
         <trans-unit id="TableExtension 2137679277 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Role</source>
           <target state="translated">Kontaktens rolle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137679277 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1929467888</note>
@@ -2170,6 +2721,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
         </trans-unit>
+        <trans-unit id="TableExtension 152500644 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2675224487</note>
+        </trans-unit>
         <trans-unit id="TableExtension 152500644 - Field 3633465435 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Elec. Fin. Charge Memo Created</source>
           <target state="translated">Elektronisk rentenota er oprettet</target>
@@ -2201,6 +2759,13 @@
         <trans-unit id="TableExtension 3095261412 - Field 538163542 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <target state="translated">Kode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3197070065</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3095261412 - Field 538163542 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Contract,Specific</source>
+          <target state="translated"> ,Kontrakt,Specifik</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3197070065</note>
@@ -2250,6 +2815,13 @@
         <trans-unit id="TableExtension 3541931442 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Role</source>
           <target state="translated">Kontaktens rolle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3541931442 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1837124963</note>
@@ -2331,6 +2903,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
         </trans-unit>
+        <trans-unit id="TableExtension 479262143 - Field 2301941973 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1801716184 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
           <target state="translated">Kontokode</target>
@@ -2394,6 +2973,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3274756772 - Field 2301941973 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2435267110 - Field 698465781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Code</source>
           <target state="translated">Kontokode</target>
@@ -2432,6 +3018,13 @@
         <trans-unit id="TableExtension 2435267110 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Contact Role</source>
           <target state="translated">Kundekontaktens rolle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2435267110 - Field 2301941973 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
@@ -2488,6 +3081,13 @@
         <trans-unit id="TableExtension 634830819 - Field 2301941973 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>OIOUBL-Sell-to Contact Role</source>
           <target state="translated">OIOUBL-kundekontaktens rolle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 634830819 - Field 2301941973 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 809936682</note>
@@ -2583,6 +3183,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2522012900 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3471029625</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2522012900 - Field 2728957782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic Credit Memo Created</source>
           <target state="translated">Elektronisk kreditnota er oprettet</target>
@@ -2632,6 +3239,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1014637951 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1014637951 - Field 1470516358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>GLN</source>
           <target state="translated">GLN</target>
@@ -2656,6 +3270,13 @@
         <trans-unit id="TableExtension 3544167776 - Field 3095583229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Role</source>
           <target state="translated">Kontaktens rolle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3544167776 - Field 3095583229 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,,,Purchase Responsible,,,Accountant,,,Budget Responsible,,,Requisitioner</source>
+          <target state="translated"> ,,,Indkøbsansvarlig,,,Bogholder,,,Budgetansvarlig,,,Indkøber</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3117283677</note>

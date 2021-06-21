@@ -18,6 +18,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Control Payroll Trans. Import Format - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="XmlPort 1985359964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exch. Imp.- Proløn</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Data Exch. Imp.- Proløn - Property Caption</note>
+        </trans-unit>
         <trans-unit id="XmlPort 1985359964 - NamedType 3403918908" size-unit="char" translate="yes" xml:space="preserve">
           <source>The imported file does not match the expected format.</source>
           <note from="Developer" annotates="general" priority="2"></note>

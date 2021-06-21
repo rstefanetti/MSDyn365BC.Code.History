@@ -303,6 +303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Accounting Period - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 3376138136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Incoming Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Include Incoming Balance - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3901834970 - NamedType 2715514529" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date cannot be before ending date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -322,6 +327,16 @@
           <source>You cannot select the accounting period that does not have the ending date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType CannotSelectAccPeriodWithoutEndingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Enum 3901834970 - EnumValue 2327360480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Range - EnumValue Accounting Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3901834970 - EnumValue 31514389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Range - EnumValue Date Range - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1270772992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Mapping Source</source>
@@ -488,6 +503,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ExportIsInProgressMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3437776458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more export lines are in progress or completed.\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType LinesInProgressOrCompletedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 547411560" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to cancel all export jobs and restart?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -559,7 +579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTFileGeneratedTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 1661455056" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SAF-T file generated.</source>
+          <source>SAF-T file not generated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTFileNotGeneratedTxt</note>
         </trans-unit>
@@ -589,7 +609,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType MasterDataMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 1241378796" size-unit="char" translate="yes" xml:space="preserve">
-          <source>General ledger entries from %1 to %2</source>
+          <source>General Ledger Entries from %1 to %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType GLEntriesMsg</note>
         </trans-unit>
@@ -620,7 +640,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 2582843447" size-unit="char" translate="yes" xml:space="preserve">
           <source>Schedule a task for line %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1</note>
+          <note from="Developer" annotates="general" priority="2">%1 = number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ScheduleTaskForLineTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2669253661" size-unit="char" translate="no" xml:space="preserve">
@@ -718,35 +738,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AssortedJournalsSourceCodeDescriptionLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1460283503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Ledger Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType GeneralLedgerJournalsSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2765860070" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Receivables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AccountReceivablesSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3192184248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Payables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AccountPayablesSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2249180175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up SAF-T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType SAFTSetupGuideTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 599325382" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Dimension No Series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType SAFTDimLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1223916161 - NamedType 1484253947" size-unit="char" translate="yes" xml:space="preserve">
           <source>DEFAULT</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType DefaultLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 995805155 - NamedType 1460283503" size-unit="char" translate="yes" xml:space="preserve">
-          <source>General Ledger Journals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Installation - NamedType GeneralLedgerJournalsSourceCodeDescriptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 995805155 - NamedType 2765860070" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Account Receivables</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Installation - NamedType AccountReceivablesSourceCodeDescriptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 995805155 - NamedType 3192184248" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Account Payables</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Installation - NamedType AccountPayablesSourceCodeDescriptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 995805155 - NamedType 599325382" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SAF-T Dimension No Series.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Installation - NamedType SAFTDimLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 995805155 - NamedType 2249180175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Set up SAF-T</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Installation - NamedType SAFTSetupGuideTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1324273395 - NamedType 1372292303" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importing source for mapping...</source>
@@ -769,7 +789,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType MappingFileNotLoadedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1324273395 - NamedType 224191084" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Not possible to identify mapping source type %1. Open a SAF-T Mapping Source page and import souce file with such type</source>
+          <source>Not possible to identify mapping source type %1. Open a SAF-T Mapping Source page and import source file with such type</source>
           <note from="Developer" annotates="general" priority="2">%1 = possible values: Two Digit Standard Account, Four Digit Standard Account, Income Statement, Standard Tax Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NoMappingSourceIdentifiedErr</note>
         </trans-unit>
@@ -1094,7 +1114,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Action UpdateGLEntriesExists - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1594291934 - Action 3734234140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mark G/L accounts that have posted G/L entries in the reported period in green.</source>
+          <source>Mark G/L accounts that have posted G/L entries in green. If option Include Incoming Balance enabled then all posted G/L entries are considered for calculation. Otherwise only G/L entries of the reporting period are considered.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Action UpdateGLEntriesExists - Property ToolTip</note>
         </trans-unit>
@@ -1159,7 +1179,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control Mapping Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2441102194 - Control 1833568529 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specified the range type.</source>
+          <source>Specifies the range type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control RangeType - Property ToolTip</note>
         </trans-unit>
@@ -1222,6 +1242,11 @@
           <source>Specifies the ending date of the SAF-T reporting period.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1163052056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the incoming balance of G/L account of type "Balance Account" needs to be considered for mapping instead of the reporting period's net change.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control IncludeIncomingBalance - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2085307926 - Action 972680765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initialize Source for Mapping</source>
@@ -1604,7 +1629,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control IncludesNoSourceCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 351339034 - Control 2374442188 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2170603285">
-          <source>Specified the code that will be exported to the JournalID XML node in the SAF-T file.</source>
+          <source>Specifies the code that will be exported to the JournalID XML node in the SAF-T file.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Source Codes - Control SAFTSourceCode - Property Tooltip</note>
         </trans-unit>
@@ -1623,15 +1648,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control MappingRangeID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 683032088 - Control 2320886912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 683032088 - Control 363376037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Replace Existing Mapping</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control Replace - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 683032088 - Control 2320886912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 683032088 - Control 363376037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies that the existing mapping will be replaced by the mapping range to copy.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control Replace - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3535736462 - Control 3797089627 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
           <source>Specifies the employee of the company whose information will be exported as the contact for the SAF-T file.</source>
@@ -1747,6 +1772,41 @@
           <source>SAF-T Tax Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SAF-T Tax Setup - NamedType SAFTTaxCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 4000850171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Two Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Two Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 3851814869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Four Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Four Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 1491939138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Income Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 538232189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Standard Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 4000850171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Two Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Two Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 3851814869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Four Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Four Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 1491939138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Income Statement - Property Caption</note>
         </trans-unit>
       </group>
     </body>

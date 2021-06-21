@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="GetAddress.io UK Postcodes">
     <body>
       <group id="body">
+        <trans-unit id="Table 1498541521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Postcode GetAddress.io Config</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Postcode GetAddress.io Config - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1498541521 - Field 1951792025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>APIKey</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -77,6 +82,11 @@
           <source>You must choose the getAddress.io service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType WrongServiceErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3695382510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetAddress.io Config</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GetAddress.io Config - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3695382510 - NamedType 1100269425" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must provide an API key.</source>

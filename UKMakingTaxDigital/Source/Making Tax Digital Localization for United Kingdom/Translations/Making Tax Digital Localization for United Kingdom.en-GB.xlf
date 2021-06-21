@@ -3,6 +3,30 @@
   <file datatype="xml" source-language="en-US" target-language="en-GB" original="Making Tax Digital Localization for United Kingdom">
     <body>
       <group id="body">
+        <trans-unit id="Table 1812387501 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Default Fraud Prevention Header</source>
+          <target state="translated">HMRC Default Fraud Prevention Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Default Fraud Prev. Hdr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1812387501 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Default Fraud Prev. Hdr - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1812387501 - Field 907109761 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated">Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Default Fraud Prev. Hdr - Field Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1812387501 - Field 1131619133 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Value</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Default Fraud Prev. Hdr - Field Value - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 127999022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Liability</source>
           <target state="translated">VAT Liability</target>
@@ -44,6 +68,24 @@
           <target state="translated">Type</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127999022 - Field 1878130204 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,VAT Return Debit Charge</source>
+          <target state="translated"> ,VAT Return Debit Charge</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Liability - Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1197682664 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Missing Fraud Prevention Header</source>
+          <target state="translated">HMRC Missing Fraud Prevention Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Missing Fraud Prev. Hdr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1197682664 - Field 907109761 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated">Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Missing Fraud Prev. Hdr - Field Header - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4276328401 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Payment</source>
@@ -165,6 +207,78 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MTD Return Details - Field VAT Reclaimed Curr Period - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 8657434 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Session Fraud Prevention Header</source>
+          <target state="translated">HMRC Session Fraud Prevention Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Session Fraud Prev. Hdr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 8657434 - Field 907109761 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated">Header</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Session Fraud Prev. Hdr - Field Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 8657434 - Field 1131619133 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="translated">Value</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MTD Session Fraud Prev. Hdr - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 2330851020" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_SubmitVATReturn</source>
+          <target state="translated">InvokeRequest_SubmitVATReturn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_SubmitVATReturn</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 3456204479" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_RetrieveVATReturns</source>
+          <target state="translated">InvokeRequest_RetrieveVATReturns</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveVATReturns</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 3922553115" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_RetrieveVATReturnPeriods</source>
+          <target state="translated">InvokeRequest_RetrieveVATReturnPeriods</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveVATReturnPeriods</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 2857014073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_RetrieveLiabilities</source>
+          <target state="translated">InvokeRequest_RetrieveLiabilities</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveLiabilities</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 353824239" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_RetrievePayments</source>
+          <target state="translated">InvokeRequest_RetrievePayments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrievePayments</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 3595525579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvokeRequest_RefreshAccessToken</source>
+          <target state="translated">InvokeRequest_RefreshAccessToken</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RefreshAccessToken</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 3383747664" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOAuthSetupCode</source>
+          <target state="translated">GetOAuthSetupCode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method GetOAuthSetupCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 2838448337" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsError404NotFound</source>
+          <target state="translated">IsError404NotFound</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method IsError404NotFound</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3884121109 - Method 1313397173" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsError408Timeout</source>
+          <target state="translated">IsError408Timeout</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method IsError408Timeout</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3884121109 - NamedType 3921054357" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
           <target state="translated">OAuth setup is not enabled for HMRC Making Tax Digital.</target>
@@ -183,11 +297,227 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType OpenSetupQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - Method 3077029969" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckInitDefaultHeadersList</source>
+          <target state="translated">CheckInitDefaultHeadersList</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckInitDefaultHeadersList</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - Method 692826855" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckForMissingHeadersFromSetup</source>
+          <target state="translated">CheckForMissingHeadersFromSetup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckForMissingHeadersFromSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - Method 593006996" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GenerateSampleValues</source>
+          <target state="translated">GenerateSampleValues</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method GenerateSampleValues</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - Method 331207054" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AddFraudPreventionHeaders</source>
+          <target state="translated">AddFraudPreventionHeaders</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method AddFraudPreventionHeaders</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - Method 3666927709" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckForMissingHeadersAndConfirm</source>
+          <target state="translated">CheckForMissingHeadersAndConfirm</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckForMissingHeadersAndConfirm</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2495299740" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC requires additional information that will be used to uniquely identify your request. The following fraud prevention headers will be sent:\\%1\If you accept that the data in the list is sent, choose the Yes button to continue. If you do not continue, the current HMRC communication will be cancelled, and no data will be sent or received.\Do you want to continue?</source>
+          <target state="translated">HMRC requires additional information that will be used to uniquely identify your request. The following fraud prevention headers will be sent:\\%1\If you accept that the data in the list is sent, choose the Yes button to continue. If you do not continue, the current HMRC communication will be cancelled, and no data will be sent or received.\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2">%1 - a list of missing headers</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType ConfirmHeadersQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 4065395069" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A true or false value describing if the Do Not Track option is enabled on the browser.</source>
+          <target state="translated">A true or false value describing if the Do Not Track option is enabled on the browser.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientBrowserDoNotTrackDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1883732317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JavaScript-reported user agent string from the originating device.</source>
+          <target state="translated">JavaScript-reported user agent string from the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientBrowserJSUserAgentDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3029391316" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A list of browser plugins on the originating device.</source>
+          <target state="translated">A list of browser plugins on the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientBrowserPluginsDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3246757069" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An identifier unique to the originating device.</source>
+          <target state="translated">An identifier unique to the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientDeviceIDDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 83160179" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A list of all local IPv4 and IPv6 addresses available to the originating device.</source>
+          <target state="translated">A list of all local IPv4 and IPv6 addresses available to the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientLocalIPsDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2560313737" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A timestamp to show when Gov-Client-Local-IPs is collected.</source>
+          <target state="translated">A timestamp to show when Gov-Client-Local-IPs is collected.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientLocalIPsTimestampDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1682340515" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The list of MAC addresses available on the originating device.</source>
+          <target state="translated">The list of MAC addresses available on the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientMACAddressesDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 451321606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A list of key-value data structures containing details of the multi-factor authentication (MFA) statuses related to the API call.</source>
+          <target state="translated">A list of key-value data structures containing details of the multi-factor authentication (MFA) statuses related to the API call.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientMultiFactorDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3189163538" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The public IPv4 or IPv6 address from which the originating device makes the request.</source>
+          <target state="translated">The public IPv4 or IPv6 address from which the originating device makes the request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientPublicIPDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 80376516" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A timestamp to show when Gov-Client-Public-IP is collected.</source>
+          <target state="translated">A timestamp to show when Gov-Client-Public-IP is collected.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientPublicIPTimestampDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2878199434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The public TCP port used by the originating device when initiating the request.</source>
+          <target state="translated">The public TCP port used by the originating device when initiating the request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientPublicPortDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1781674051" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Information about the originating device's screens.</source>
+          <target state="translated">Information about the originating device's screens.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientScreensDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1286782599" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The local timezone of the originating device.</source>
+          <target state="translated">The local timezone of the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientTimezoneDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1768670546" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Identifies the operating system and device.</source>
+          <target state="translated">Identifies the operating system and device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientUserAgentDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2345631611" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A key-value data structure containing user identifiers.</source>
+          <target state="translated">A key-value data structure containing user identifiers.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientUserIDsDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1695011641" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The number of pixels of the window on the originating device.</source>
+          <target state="translated">The number of pixels of the window on the originating device.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovClientWindowSizeDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 840096899" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A list that details hops over the internet between services that terminate Transport Layer Security (TLS).</source>
+          <target state="translated">A list that details hops over the internet between services that terminate Transport Layer Security (TLS).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovVendorForwardedDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 1106987653" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The public IP address of the servers the originating device sent their requests to.</source>
+          <target state="translated">The public IP address of the servers the originating device sent their requests to.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType GovVendorPublicIPDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 872010099" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following fraud prevention headers were missing in the latest HMRC request:\\%1</source>
+          <target state="translated">The following fraud prevention headers were missing in the latest HMRC request:\\%1</target>
+          <note from="Developer" annotates="general" priority="2">%1 - a list of the missing headers</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType MissingHeadersMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 2910485357" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All required fraud prevention headers were provided in the latest HMRC request.</source>
+          <target state="translated">All required fraud prevention headers were provided in the latest HMRC request.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType NoMissingHeaderMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777125217 - NamedType 3355038226" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Communication with HMRC without fraud prevention headers is not allowed. Set up the missing headers in the HMRC Fraud Prevention Headers Setup page, and specify a default value for each of them. Choose the Get Current Headers action to see which headers cannot be retrieved automatically.</source>
+          <target state="translated">Communication with HMRC without fraud prevention headers is not allowed. Set up the missing headers in the HMRC Fraud Prevention Headers Setup page, and specify a default value for each of them. Choose the Get Current Headers action to see which headers cannot be retrieved automatically.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - NamedType OpenHeadersSetupMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 753440336 - NamedType 1672992501" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Return Periods</source>
           <target state="translated">VAT Return Periods</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType NoSeriesDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 1334136218" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SubmitVATReturn</source>
+          <target state="translated">SubmitVATReturn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method SubmitVATReturn</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 2822134014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RetrieveVATReturns</source>
+          <target state="translated">RetrieveVATReturns</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveVATReturns</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 1353226107" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RetrieveVATReturnPeriods</source>
+          <target state="translated">RetrieveVATReturnPeriods</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveVATReturnPeriods</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 303806306" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RetrieveLiabilities</source>
+          <target state="translated">RetrieveLiabilities</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveLiabilities</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 1726792163" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RetrievePayments</source>
+          <target state="translated">RetrievePayments</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrievePayments</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 2030171402" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ArchiveResponseMessage</source>
+          <target state="translated">ArchiveResponseMessage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method ArchiveResponseMessage</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 3352156151" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckReturnPeriodLink</source>
+          <target state="translated">CheckReturnPeriodLink</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method CheckReturnPeriodLink</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 1598705645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATReportSetupUpgradeTag</source>
+          <target state="translated">GetVATReportSetupUpgradeTag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method GetVATReportSetupUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 594482495 - Method 3267912680" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDailyLimitUpgradeTag</source>
+          <target state="translated">GetDailyLimitUpgradeTag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method GetDailyLimitUpgradeTag</note>
         </trans-unit>
         <trans-unit id="Codeunit 594482495 - NamedType 1253545892" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>including %1 new and %2 modified records.</source>
@@ -291,6 +621,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType SubmitReturnErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - Method 4142254073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOAuthPRODSetupCode</source>
+          <target state="translated">GetOAuthPRODSetupCode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method GetOAuthPRODSetupCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - Method 2932848370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOAuthSandboxSetupCode</source>
+          <target state="translated">GetOAuthSandboxSetupCode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method GetOAuthSandboxSetupCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - Method 2965794300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitOAuthSetup</source>
+          <target state="translated">InitOAuthSetup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method InitOAuthSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - Method 87705887" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetToken</source>
+          <target state="translated">SetToken</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method SetToken</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3066295172 - Method 1586635988" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsMTDOAuthSetup</source>
+          <target state="translated">IsMTDOAuthSetup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method IsMTDOAuthSetup</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3066295172 - NamedType 1481040075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
           <target state="translated">Authorisation successful.\Do you want to open the Company Information setup to verify the VAT registration number?</target>
@@ -326,6 +686,84 @@
           <target state="translated">When you submit this VAT information you are making a legal declaration that the information is true and complete. A false declaration can result in prosecution. Do you want to continue?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Submit Return - NamedType ConfirmSubmitQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Property 1064389655" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About Fraud Prevention Headers</source>
+          <target state="translated">About Fraud Prevention Headers</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Property 247559172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC requires that all communication with their APIs contain fraud prevention headers. These headers provide information about the systems that communicate with their APIs. Business Central tries to get necessary information at the time when communication takes place, but to ensure headers are always provided, you must set up default values on this page.</source>
+          <target state="translated">HMRC requires that all communication with their APIs contain fraud prevention headers. These headers provide information about the systems that communicate with their APIs. Business Central tries to get necessary information at the time when communication takes place, but to ensure headers are always provided, you must set up default values on this page.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HMRC Fraud Prevention Headers Setup</source>
+          <target state="translated">HMRC Fraud Prevention Headers Setup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 1593446156 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a default value for the header. The default value is used as a fallback value if the latest information cannot be retrieved at the time of reporting.</source>
+          <target state="translated">Specifies a default value for the header. The default value is used as a fallback value if the latest information cannot be retrieved at the time of reporting.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control DefaultValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 1593446156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Value</source>
+          <target state="translated">Default Value</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control DefaultValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the fraud prevention header. You can change the description, which is not submitted to HMRC.</source>
+          <target state="translated">Specifies a description of the fraud prevention header. You can change the description, which is not submitted to HMRC.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 907109761 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of a fraud prevention header as defined by HMRC.</source>
+          <target state="translated">Specifies the name of a fraud prevention header as defined by HMRC.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control Header - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 2583943351 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies current values for the headers when you chose the Get Current Headers action. Note that some values are user-specific. If you are not the user who will submit the fraud prevention data to HMRC, the data that you see can be misleading.</source>
+          <target state="translated">Specifies current values for the headers when you chose the Get Current Headers action. Note that some values are user-specific. If you are not the user who will submit the fraud prevention data to HMRC, the data that you see can be misleading.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control SampleValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Control 2583943351 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sample Value</source>
+          <target state="translated">Sample Value</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Control SampleValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Action 2714932516 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fetch the latest HMRC request for missing headers.</source>
+          <target state="translated">Fetch the latest HMRC request for missing headers.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Action Check Latest HMRC Request - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Action 2714932516 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Latest HMRC Request</source>
+          <target state="translated">cheque Latest HMRC Request</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Action Check Latest HMRC Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Action 3050331453 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieves data for the headers in the context of the current user. Note that these values are temporary,  and you can use the data for troubleshooting purposes.</source>
+          <target state="translated">Retrieves data for the headers in the context of the current user. Note that these values are temporary,  and you can use the data for troubleshooting purposes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Action Get Current Headers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1334619501 - Action 3050331453 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Current Headers</source>
+          <target state="translated">Get Current Headers</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Action Get Current Headers - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3844370208 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Liabilities</source>
@@ -482,6 +920,12 @@
           <target state="translated">Specifies the VAT reclaimed on purchases and other inputs (including acquisitions from the EC). This corresponds to box 4 on the VAT Return form.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MTD Return Details - Control VAT Reclaimed Curr Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 884176103 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get MTD Records</source>
+          <target state="translated">Get MTD Records</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Get MTD Records - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 884176103 - NamedType 94923679" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get VAT Liabilities</source>
@@ -661,6 +1105,13 @@
         <trans-unit id="TableExtension 2246652568 - Field 3935026298 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>MTD OAuth Setup Option</source>
           <target state="translated">MTD OAuth Setup Option</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2246652568 - Field 3935026298 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production,Sandbox</source>
+          <target state="translated">Production,Sandbox</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 456029390</note>

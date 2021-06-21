@@ -18,16 +18,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Postcode GetAddress.io Config - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1779888028 - NamedType 3316849961" size-unit="char" translate="no" xml:space="preserve">
-          <source>GetAddress.io</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceIdentifierMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1779888028 - NamedType 4014727197" size-unit="char" translate="no" xml:space="preserve">
-          <source>GetAddress.io</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceNameMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1779888028 - NamedType 3782767637" size-unit="char" translate="yes" xml:space="preserve">
           <source>UKPostCodeTelemetryCategoryTok</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -52,11 +42,6 @@
           <source>The getAddress.io service is not available right now. Try again later.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceUnavailableErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1779888028 - NamedType 1406744921" size-unit="char" translate="no" xml:space="preserve">
-          <source>expired</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ExpiredTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 1779888028 - NamedType 1559042574" size-unit="char" translate="yes" xml:space="preserve">
           <source>Your account with getAddress.io has expired.</source>
@@ -98,11 +83,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page GetAddress.io Config - NamedType EmptyAPIKeyErr</note>
         </trans-unit>
-        <trans-unit id="Page 3695382510 - NamedType 146149896" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://getaddress.io/#pricing-table</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page GetAddress.io Config - NamedType APIKeyUrlTok</note>
-        </trans-unit>
         <trans-unit id="Page 3695382510 - NamedType 3215210189" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get API Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -112,11 +92,6 @@
           <source>Terms and conditions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page GetAddress.io Config - NamedType TermsAndCondsLbl</note>
-        </trans-unit>
-        <trans-unit id="Page 3695382510 - NamedType 1743387476" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://go.microsoft.com/fwlink/?linkid=842141</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page GetAddress.io Config - NamedType TermsAndCondsUrlTok</note>
         </trans-unit>
         <trans-unit id="Page 3695382510 - NamedType 1234289210" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are accessing a third-party website and service. You should review the third-party's terms and privacy policy.</source>

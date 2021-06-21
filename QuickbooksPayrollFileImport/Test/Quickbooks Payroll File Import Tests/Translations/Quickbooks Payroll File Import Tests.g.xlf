@@ -18,26 +18,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType NonGJTransactionsDetectedMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 770358666 - NamedType 897505829" size-unit="char" translate="no" xml:space="preserve">
-          <source>!TRNS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType TransactionHeaderTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 770358666 - NamedType 3107480320" size-unit="char" translate="no" xml:space="preserve">
-          <source>TRNSTYPE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType TransactionTypeTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 770358666 - NamedType 512003858" size-unit="char" translate="no" xml:space="preserve">
-          <source>ACCNT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType AccountNameTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 770358666 - NamedType 2128180456" size-unit="char" translate="no" xml:space="preserve">
-          <source>AMOUNT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - QB Payroll Import Test - NamedType AmountTok</note>
-        </trans-unit>
       </group>
     </body>
   </file>

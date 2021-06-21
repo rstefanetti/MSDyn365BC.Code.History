@@ -23,6 +23,36 @@
           <note from="Developer" annotates="general" priority="2">%1,%2 - key values</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType HeaderNotFoundErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 2234015743" size-unit="char" translate="no" xml:space="preserve">
+          <source>DigipoortTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType DigipoortTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 272165483" size-unit="char" translate="no" xml:space="preserve">
+          <source>Processing response message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ProcessingResponseMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 204327317" size-unit="char" translate="no" xml:space="preserve">
+          <source>Response message succesfully processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ResponseProcessedSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 284387308" size-unit="char" translate="no" xml:space="preserve">
+          <source>Error while processing response: Cannot find VAT report header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType HeaderNotFoundErrMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 241092500" size-unit="char" translate="no" xml:space="preserve">
+          <source>Error while processing response, status code %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType ErrorStatusCodeMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3421905931 - NamedType 2120035683" size-unit="char" translate="no" xml:space="preserve">
+          <source>Successful response, status code: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Digital Tax. Decl. Mgt. - NamedType AcceptedStatusCodeMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2140808972 - NamedType 837239636" size-unit="char" translate="yes" xml:space="preserve">
           <source>A content for submission is not available. Make sure you specified the correct value in the Content Codeunit ID field on the VAT Reports Configuration page.</source>
           <note from="Developer" annotates="general" priority="2"></note>

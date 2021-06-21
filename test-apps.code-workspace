@@ -9,6 +9,9 @@
                  },
     "folders":  [
                     {
+                        "path":  ".\\AdvancedLocalizationPackForCzech\\Test\\Advanced Localization Pack for Czech Tests"
+                    },
+                    {
                         "path":  ".\\AMCBanking365Fundamentals\\Test\\AMC Banking 365 Fundamentals Test Automations"
                     },
                     {
@@ -123,6 +126,12 @@
                         "path":  ".\\CashDeskLocalizationForCzech\\Test\\Cash Desk Localization for Czech Tests"
                     },
                     {
+                        "path":  ".\\CompanyHub\\Test\\Company Hub Tests"
+                    },
+                    {
+                        "path":  ".\\CompensationLocalizationForCzech\\Test\\Compensation Localization for Czech Tests"
+                    },
+                    {
                         "path":  ".\\CoreLocalizationPackForCzech\\Test\\Core Localization Pack for Czech Tests"
                     },
                     {
@@ -141,7 +150,13 @@
                         "path":  ".\\EssentialBusinessHeadlines\\Test\\Essential Business Headlines Test"
                     },
                     {
+                        "path":  ".\\FixedAssetLocalizationForCzech\\Test\\Fixed Asset Localization for Czech Tests"
+                    },
+                    {
                         "path":  ".\\LatePaymentPredictor\\Test\\Late Payment Prediction Tests"
+                    },
+                    {
+                        "path":  ".\\Onprem Permissions\\Test\\OnPrem Permissions Tests"
                     },
                     {
                         "path":  ".\\PayPalPaymentsStandard\\Test\\PayPal Payments Standard Tests"
@@ -163,6 +178,12 @@
                     },
                     {
                         "path":  ".\\testframework\\TestLibraries"
+                    },
+                    {
+                        "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests"
+                    },
+                    {
+                        "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests\\src\\Mock Tests"
                     },
                     {
                         "path":  ".\\testframework\\TestRunner\\Test Runner"

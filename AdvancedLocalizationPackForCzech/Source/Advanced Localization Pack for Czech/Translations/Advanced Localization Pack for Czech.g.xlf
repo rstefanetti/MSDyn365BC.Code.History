@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Advanced Localization Pack for Czech">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 3704903574 - Method 4282663470 - NamedType 3274276298" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. Serie was not selected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nonstock Item Handler CZA - Method ItemNoFromItemSeriesOnBeforeGetNewItemNo - NamedType AssistEditErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2996679564 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1662713252">
+          <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Assembly Order CZA - Control Gen. Bus. Posting Group CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2117828006 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1514464622">
+          <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Assembly Order Subform CZA - Control Gen. Bus. Posting Group CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 948656467 - Control 423181706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1720227611">
+          <source>Specifies the default general bussines posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Assembly Setup CZA - Control Default Gen.Bus.Post. Grp. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 339927671 - Control 1167146520 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies skiping Update SKU on Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Inventory Setup CZA - Control Skip Update SKU on Posting CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 339927671 - Control 3207313148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies whether the General Product Posting Group from the Stock keeping Unit is transferred to the documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Inventory Setup CZA - Control Use GPPG from SKU CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3187947203 - Control 2261959332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2405093420">
+          <source>Specifies where the entry originated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Ledger Entr. Preview CZA - Control Delivery-to Source No. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3187947203 - Control 1258762823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2405093420">
+          <source>Specifies where the entry originated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Ledger Entr. Preview CZA - Control Invoice-to Source No. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1190526150 - Control 2261959332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3595318222">
+          <source>Specifies where the entry originated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Ledger Entries CZA - Control Delivery-to Source No. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1190526150 - Control 1258762823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3595318222">
+          <source>Specifies where the entry originated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Item Ledger Entries CZA - Control Invoice-to Source No. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1461960929 - Control 423181706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379888169">
+          <source>Specifies the default general bussines posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Manufacturing Setup CZA - Control Default Gen.Bus.Post. Grp. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2993701579 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 351244515">
+          <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Assembly Order CZA - Control Gen. Bus. Posting Group CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2990795285 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4213585053">
+          <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Assembly Order Subf CZA - Control Gen. Bus. Posting Group CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1716206927 - Control 617672214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>Specifies general bussiness posting group for items receive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Order CZA - Control Gen.Bus.Post.Group Receive CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1716206927 - Control 1461697477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>Specifies general bussiness posting group for items ship.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Order CZA - Control Gen.Bus.Post.Group Ship CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 884967737 - Control 617672214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225830225">
+          <source>Specifies general bussiness posting group for items receive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Order Subform CZA - Control Gen.Bus.Post.Group Receive CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 884967737 - Control 1461697477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225830225">
+          <source>Specifies general bussiness posting group for items ship.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Order Subform CZA - Control Gen.Bus.Post.Group Ship CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3332016003 - Control 617672214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4290153">
+          <source>Specifies general bussiness posting group for itemsreceive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Route Spec. CZA - Control Gen.Bus.Post.Group Receive CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3332016003 - Control 1461697477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4290153">
+          <source>Specifies general bussiness posting group for items ship.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Transfer Route Spec. CZA - Control Gen.Bus.Post.Group Ship CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 58108147 - Field 1447799953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2091775483">
+          <source>Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Assembly Header CZA - Field Gen. Bus. Posting Group CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 58108147 - Field 1447799953 - Method 2126772001 - NamedType 3539965614" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 58108147">
+          <source>Do you want change %1 from %2 to %3 in all lines?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Gen. Bus. Posting Group CZA FieldCaption, %2 = xRec Gen. Bus. Posting Group CZA, %3 = Gen. Bus. Posting Group CZA</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Assembly Header CZA - Field Gen. Bus. Posting Group CZA - Method OnValidate - NamedType ChangeFieldQst</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1291892732 - Field 1447799953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3568381428">
+          <source>Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Assembly Line CZA - Field Gen. Bus. Posting Group CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 948656467 - Field 423181706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1720227611">
+          <source>Default Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Assembly Setup CZA - Field Default Gen.Bus.Post. Grp. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2545551447 - Field 455172872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3622167055">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Capacity Ledger Entry CZA - Field User ID CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 339927671 - Field 1167146520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Skip Update SKU on Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Inventory Setup CZA - Field Skip Update SKU on Posting CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 339927671 - Field 3207313148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Use Gen. Prod. Posting Group from Stockkeeping Unit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Inventory Setup CZA - Field Use GPPG from SKU CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817588302 - Field 1844538358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Journal Line CZA - Field Currency Code CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817588302 - Field 1756241870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Currency Factor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Journal Line CZA - Field Currency Factor CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3817588302 - Field 2261959332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Delivery-to Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Journal Line CZA - Field Delivery-to Source No. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 1844538358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Currency Code CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 1756241870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Currency Factor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Currency Factor CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 2261959332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Delivery-to Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Delivery-to Source No. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 1258762823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Invoice-to Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Invoice-to Source No. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 3773763163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Reason Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Reason Code CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2328263544 - Field 751290780 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4089294192">
+          <source>Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item Ledger Entry CZA - Field Source Code CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1461960929 - Field 423181706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>Default Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup CZA - Field Default Gen.Bus.Post. Grp. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1913808028 - Field 1447799953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 12946132">
+          <source>Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Posted Assembly Header CZA - Field Gen. Bus. Posting Group CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1523970195 - Field 1447799953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2916177371">
+          <source>Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Posted Assembly Line CZA - Field Gen. Bus. Posting Group CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2570785984 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 151805736">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Header CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2570785984 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 151805736">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Header CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 221196887 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Line CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 221196887 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 558353423">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Line CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3489247644 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3550754772">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Receipt Header CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3489247644 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3550754772">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Receipt Header CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3828510099 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1903112923">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Receipt Line CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3828510099 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1903112923">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Receipt Line CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3768564670 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3520647894">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Route CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3768564670 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3520647894">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Route CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2631964760 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1340367376">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Shipment Header CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2631964760 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1340367376">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Shipment Header CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 859326863 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1496656855">
+          <source>Gen. Bus. Post. Group Receive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Shipment Line CZA - Field Gen.Bus.Post.Group Receive CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 859326863 - Field 1461697477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1496656855">
+          <source>Gen. Bus. Post. Group Ship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Transfer Shipment Line CZA - Field Gen.Bus.Post.Group Ship CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2562894161 - Field 1844538358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 467645625">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Value Entry CZA - Field Currency Code CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2562894161 - Field 1756241870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 467645625">
+          <source>Currency Factor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Value Entry CZA - Field Currency Factor CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2562894161 - Field 2261959332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 467645625">
+          <source>Delivery-to Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Value Entry CZA - Field Delivery-to Source No. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2562894161 - Field 1258762823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 467645625">
+          <source>Invoice-to Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Value Entry CZA - Field Invoice-to Source No. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3335123714 - EnumValue 1909666947 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1033703050">
+          <source>Item No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nonstock Item No. Format CZA - EnumValue Item No. Series CZA - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

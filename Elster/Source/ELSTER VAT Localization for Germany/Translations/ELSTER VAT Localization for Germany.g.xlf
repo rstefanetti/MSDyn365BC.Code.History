@@ -359,7 +359,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 3633506597 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
+          <source>Prepares information which are to be included in the xml file when the data will be exported using the Export action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property ToolTip</note>
         </trans-unit>
@@ -369,7 +369,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 4208453226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
+          <source>Deletes the file information which have been stored inside BC when the file got created. The xml file will not get deleted from the file location where it has been saved before.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property ToolTip</note>
         </trans-unit>

@@ -358,20 +358,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1934416626 - Action 3633506597 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 1934416626 - Action 4208453226 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Delete XML-File</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1934416626 - Action 4208453226 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 1006698272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>P&amp;review</source>

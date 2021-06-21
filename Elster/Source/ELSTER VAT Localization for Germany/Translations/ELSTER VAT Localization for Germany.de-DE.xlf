@@ -430,8 +430,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 3633506597 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <target state="translated">Die XML-Datei erstellen, die an die Steuerbehörde gesendet wird.</target>
+          <source>Prepares information which are to be included in the xml file when the data will be exported using the Export action.</source>
+          <target state="translated">Bereitet Informationen vor, die in die XML-Datei einbezogen werden sollen, wenn die Daten mithilfe der Aktion „Exportieren“ exportiert werden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action CreateXMLFile - Property ToolTip</note>
         </trans-unit>
@@ -442,8 +442,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1934416626 - Action 4208453226 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create the XML file to be sent to the tax authorities.</source>
-          <target state="translated">Die XML-Datei erstellen, die an die Steuerbehörde gesendet wird.</target>
+          <source>Deletes the file information which have been stored inside BC when the file got created. The xml file will not get deleted from the file location where it has been saved before.</source>
+          <target state="translated">Löscht die Dateiinformationen, die innerhalb von BC gespeichert wurden, als die Datei erstellt wurde. Die XML-Datei wird nicht vom Dateispeicherort gelöscht, an dem sie zuvor gespeichert wurde.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action DeleteXMLFile - Property ToolTip</note>
         </trans-unit>

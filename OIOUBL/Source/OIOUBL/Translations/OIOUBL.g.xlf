@@ -113,6 +113,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType NonExistingDocumentFormatErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 87117224 - NamedType 267233681" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Wrong file name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType WrongFileNameErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2657778153 - NamedType 3502196155" size-unit="char" translate="yes" xml:space="preserve">
           <source>does not contain a valid, 13-digit GLN</source>
           <note from="Developer" annotates="general" priority="2">starts with some field name</note>

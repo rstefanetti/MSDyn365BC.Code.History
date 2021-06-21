@@ -467,6 +467,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - PayPal Standard Mgt. - NamedType TermsOfServiceURLTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1926784871 - NamedType 396223260" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://cdn-bc.dynamics.com/common/images/extensionslogos/paypal_colour_v1.png</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - PayPal Standard Mgt. - NamedType LogoURLTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1926784871 - NamedType 3161292269" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>https://www.paypal.com/us/cgi-bin/webscr?cmd=_xclick&amp;charset=UTF-8&amp;page_style=primary</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -913,7 +918,7 @@
         </trans-unit>
         <trans-unit id="Page 4268182158 - NamedType 3035575630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is not enabled. Are you sure you want to exit?</source>
-          <target state="translated">Le %1 n'est pas activé. Voulez-vous vraiment quitter ?</target>
+          <target state="translated">Le %1 n’est pas activé. Voulez-vous vraiment quitter ?</target>
           <note from="Developer" annotates="general" priority="2">%1 = pagecaption (OCR Service Setup)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - PayPal Standard Setup - NamedType EnableServiceQst</note>
         </trans-unit>

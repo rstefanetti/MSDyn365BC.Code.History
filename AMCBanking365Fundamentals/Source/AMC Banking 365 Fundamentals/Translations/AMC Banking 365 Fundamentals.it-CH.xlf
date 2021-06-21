@@ -1140,7 +1140,7 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the relevant currency code for the bank account.</source>
-          <target state="translated">Specifica il codice valuta appropriato per il C/C bancario.</target>
+          <target state="translated">Specifica il codice valuta appropriato per il conto corrente bancario.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
@@ -1760,7 +1760,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Control 284764054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the country/region of the address.</source>
-          <target state="translated">Specifica il paese dell'indirizzo.</target>
+          <target state="translated">Specifica il paese/area geografica dell'indirizzo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Country/Region Code - Property ToolTip</note>
         </trans-unit>
@@ -1808,7 +1808,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Control 2951585809 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the context in which the activity occurred.</source>
-          <target state="translated">Specifica il contesto in cui è stata eseguita l'attività.</target>
+          <target state="translated">Specifica il contesto in cui si è verificata l'attività.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Control Context - Property ToolTip</note>
         </trans-unit>
@@ -1886,7 +1886,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Action 377844979 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete Entries Older Than 7 Days</source>
-          <target state="translated">Elimina movimenti risalenti a più di 7 giorni precedenti</target>
+          <target state="translated">Elimina movimenti risalenti a più di 7 giorni prima</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Action Delete7days - Property Caption</note>
         </trans-unit>

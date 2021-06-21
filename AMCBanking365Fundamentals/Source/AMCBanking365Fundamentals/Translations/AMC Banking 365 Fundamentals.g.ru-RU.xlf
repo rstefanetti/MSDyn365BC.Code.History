@@ -809,7 +809,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hong Kong branch number</source>
-          <target>Гонконгский код филиала</target>
+          <target>Код филиала в Гонконге</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
         </trans-unit>

@@ -585,7 +585,7 @@
         </trans-unit>
         <trans-unit id="Page 259547023 - NamedType 3035575630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is not enabled. Are you sure you want to exit?</source>
-          <target>Le %1 n'est pas activé. Êtes-vous sûr de vouloir quitter ?</target>
+          <target>Le %1 n’est pas activé. Voulez-vous vraiment quitter ?</target>
           <note from="Developer" annotates="general" priority="2">%1 = pagecaption (WorldPay Payments Standard Setup)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Standard Setup - NamedType EnableServiceQst</note>
         </trans-unit>

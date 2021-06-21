@@ -27,7 +27,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3759341074 - NamedType 2359240154" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The table does not exist in the local instance.</source>
-          <target>De tabel bestaat niet in de locale instantie.</target>
+          <target>De tabel bestaat niet in de lokale instantie.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Hybrid BC Management - NamedType TableNotExistsErr</note>
         </trans-unit>

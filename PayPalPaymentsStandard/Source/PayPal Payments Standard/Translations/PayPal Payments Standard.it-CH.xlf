@@ -467,6 +467,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - PayPal Standard Mgt. - NamedType TermsOfServiceURLTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1926784871 - NamedType 396223260" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://cdn-bc.dynamics.com/common/images/extensionslogos/paypal_colour_v1.png</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - PayPal Standard Mgt. - NamedType LogoURLTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1926784871 - NamedType 3161292269" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>https://www.paypal.com/us/cgi-bin/webscr?cmd=_xclick&amp;charset=UTF-8&amp;page_style=primary</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -883,7 +888,7 @@
         </trans-unit>
         <trans-unit id="Page 4268182158 - Control 161526099 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies PayPal terms of service.</source>
-          <target state="translated">Specifica le condizioni d'uso PayPal.</target>
+          <target state="translated">Specifica le condizioni d'uso di PayPal.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - PayPal Standard Setup - Control Terms of Service - Property ToolTip</note>
         </trans-unit>

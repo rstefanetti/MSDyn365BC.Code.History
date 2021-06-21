@@ -48,6 +48,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CustvendBankAccountMissedFieldListTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4032324508 - NamedType 3625992881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Since you did not schedule the SAF-T file generation, it will be generated immediately which can take a while. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Dimension Tests - NamedType GenerateSAFTFileImmediatelyQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1529448322 - NamedType 1908741162" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Earliest Start Date/Time field is not filled in. Do you want to proceed and start the export immediately?</source>
           <note from="Developer" annotates="general" priority="2"></note>

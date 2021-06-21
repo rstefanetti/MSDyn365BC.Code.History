@@ -765,6 +765,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType SkatteetatenMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 3369811046" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blank</source>
+          <target state="translated">Tom</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType BlankTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2299721209 - NamedType 1936075235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not specified</source>
           <target state="translated">%1 er ikke angitt</target>

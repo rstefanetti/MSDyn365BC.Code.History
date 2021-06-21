@@ -384,7 +384,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
-          <target state="translated">Conéctese a un servicio bancario en línea que pueda convertir datos bancarios de Business Central a los formatos de su banco, para que resulte más sencillo y preciso enviar datos a sus bancos.</target>
+          <target state="translated">Conéctese a un servicio bancario en línea que pueda convertir datos bancarios de Business Central a los formatos de su banco para que resulte más sencillo y preciso enviar datos a sus bancos.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupDescriptionTxt</note>
         </trans-unit>
@@ -1929,7 +1929,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3493802159 - Control 2640682147 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal associated with the Credit Transfer Register</source>
-          <target state="translated">Diario XTL asociado con el registro de transferencia de crédito</target>
+          <target state="translated">Diario XTL asociado al registro de transferencia de crédito</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 294717160</note>

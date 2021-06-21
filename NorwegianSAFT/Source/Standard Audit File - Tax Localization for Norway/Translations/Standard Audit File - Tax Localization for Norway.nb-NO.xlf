@@ -3,6 +3,42 @@
   <file datatype="xml" source-language="en-US" target-language="nb-NO" original="Standard Audit File - Tax Localization for Norway">
     <body>
       <group id="body">
+        <trans-unit id="Table 2980707877 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Missing Field</source>
+          <target state="translated">SAF-T mangler felt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2980707877 - Field 3017471043 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
+          <target state="translated">Tabellnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Table No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2980707877 - Field 3531868071 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <target state="translated">Feltnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2980707877 - Field 2897660500 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record ID</source>
+          <target state="translated">Post-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Record ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2980707877 - Field 1787409580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Group No.</source>
+          <target state="translated">Gruppenr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Group No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2980707877 - Field 823559016 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Caption</source>
+          <target state="translated">Felttekst</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Field Caption - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2386421154 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Header</source>
           <target state="translated">SAF-T-eksporthode</target>
@@ -98,6 +134,18 @@
           <target state="translated">SAF-T-fil</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field SAF-T File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 2172196565 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Latest Data Check Date/Time</source>
+          <target state="translated">Siste dato/klokkeslett for datakontroll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Latest Data Check Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 898403966 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data check status</source>
+          <target state="translated">Status for datakontroll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Data check status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 909457577 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Line</source>
@@ -369,6 +417,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Include Incoming Balance - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 1239567501 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Category No.</source>
+          <target state="translated">Tilordning av kategorinr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Mapping Category No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 4199324085 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping No.</source>
+          <target state="translated">Tilordningsnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Mapping No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3901834970 - NamedType 2715514529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting date cannot be before ending date.</source>
           <target state="translated">Startdatoen kan ikke være før sluttdatoen.</target>
@@ -392,6 +452,12 @@
           <target state="translated">Du kan ikke velge regnskapsperioden som ikke har sluttdatoen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType CannotSelectAccPeriodWithoutEndingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - NamedType 1954114571" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to change the already defined G/L account mapping to the new mapping?</source>
+          <target state="translated">Vil du endre den allerede definerte finanskontotilordningen til den nye tilordningen?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType OverwriteMappingQst</note>
         </trans-unit>
         <trans-unit id="Enum 3901834970 - EnumValue 2327360480 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accounting Period</source>
@@ -501,6 +567,72 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Dimension No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 3187525439 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Company Information</source>
+          <target state="translated">Kontroller selskapsopplysninger</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Company Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1533897310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Customer</source>
+          <target state="translated">Kontroller kunde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 4166757670 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Vendor</source>
+          <target state="translated">Kontroller leverandør</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Vendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 38781331 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Bank Account</source>
+          <target state="translated">Kontroller bankkonto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Setup</source>
+          <target state="translated">SAF-T-oppsett</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 2704216983 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T in the Company Information page.</source>
+          <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T på siden Selskapsopplysninger.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckCompanyInformation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 147873798 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T for specific customers.</source>
+          <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T for bestemte kunder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1608686094 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T for specific vendors</source>
+          <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T for bestemte leverandører</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckVendor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 3829821075 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T on specific bank accounts.</source>
+          <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T på bestemte bankkontoer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - NamedType 3820759387" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Something is not set up correctly for SAF-T. Do you want to open the SAF-T assisted setup guide?</source>
+          <target state="translated">Noe er ikke riktig konfigurert for SAF-T. Vil du åpne veiledningen for assistert oppsett for SAF-T?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - NamedType OpenWizardQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - NamedType 1354362834" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must continue the SAF-T assisted setup guide first.</source>
+          <target state="translated">Du må først fortsette veiledningen for assistert oppsett for SAF-T.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - NamedType InitializationFailedErr</note>
+        </trans-unit>
         <trans-unit id="Table 295034767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Source Code</source>
           <target state="translated">SAF-T-kildekode</target>
@@ -537,6 +669,54 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2720485332</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1613560309 - NamedType 4100968325" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A field value missed</source>
+          <target state="translated">En feltverdi mangler</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check - NamedType MissedValueErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1613560309 - NamedType 352177340" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one of the following values must not be blank: %1</source>
+          <target state="translated">Minst én av følgende verdier kan ikke være tom: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = list of field captions</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check - NamedType MultipleValuesMissedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1613560309 - NamedType 3737374975" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> or </source>
+          <target state="translated"> eller </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check - NamedType OrTok</note>
+        </trans-unit>
+        <trans-unit id="Page 1613560309 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following fields are not set up correctly for SAF-T. Do you want to fill them in now?</source>
+          <target state="translated">Følgende felt er ikke riktig konfigurert for SAF-T. Vil du fylle dem ut nå?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Data Check - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1613560309 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Data Check</source>
+          <target state="translated">Datakontroll for SAF-T</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Data Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1613560309 - Control 3891180100 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missed values</source>
+          <target state="translated">Manglende verdier</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Data Check - Control MissedValuesListControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1613560309 - Control 3891180100 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the values you missed you specify.</source>
+          <target state="translated">Angir verdiene du ikke har angitt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Data Check - Control MissedValuesListControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1613560309 - NamedType 2104704394" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can turn-off this notification in the SAF-T Setup page.</source>
+          <target state="translated">Du kan deaktivere denne varslingen på siden SAF-T-oppsett.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Data Check - NamedType TurnOffNotificationMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1071012676 - NamedType 638935147" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Generating header...</source>
@@ -1116,6 +1296,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExecutionEndDateTime - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 4292961824 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the most recent data check was run.</source>
+          <target state="translated">Angir når den siste datakontrollen ble kjørt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control LatestDataCheckDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 3080159262 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the most recent data check.</source>
+          <target state="translated">Angir statusen for den siste datakontrollen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control DataCheckStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 2056370978 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data check</source>
+          <target state="translated">Datakontroll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action DataCheck - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 2056370978 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check that data is ready to be exported to the SAF-T file.</source>
+          <target state="translated">Kontroller at dataene er klare for eksport til SAF-T-filen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action DataCheck - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4159376791 - Action 620325036 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start</source>
           <target state="translated">Start</target>
@@ -1487,6 +1691,18 @@
           <target state="translated">Angir sluttdatoen for SAF-T-rapporteringsperioden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1349550047 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the SAF-T standard account or grouping code that is used for mapping.</source>
+          <target state="translated">Angir kategorien for SAF-T-standardkonto eller -grupperingskode som brukes til tilordning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control MappingCategoryNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 3668860607 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the SAF-T standard account or grouping code that is used for mapping.</source>
+          <target state="translated">Angir koden for SAF-T-standardkonto eller -grupperingskode som brukes for tilordning.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control MappingNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2085307926 - Control 1163052056 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the incoming balance of G/L account of type "Balance Account" needs to be considered for mapping instead of the reporting period's net change.</source>
@@ -2143,6 +2359,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="Enum 1610557497 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Data Check status - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1610557497 - EnumValue 3826689261 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed</source>
+          <target state="translated">Mislyktes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Data Check status - EnumValue Failed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1610557497 - EnumValue 1353916356 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Passed</source>
+          <target state="translated">Bestått</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Data Check status - EnumValue Passed - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 733575408 - EnumValue 4000850171 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Two Digit Standard Account</source>

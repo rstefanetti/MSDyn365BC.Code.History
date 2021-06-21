@@ -5826,6 +5826,7 @@
         </trans-unit>
         <trans-unit id="Page 4061016505 - NamedType 2845400600" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This feature has been enabled for new sessions in your browser. When you are done, sign out or close the browser.</source>
+          <target state="translated">This feature has been enabled for new sessions in your browser. When you are done, sign out or close the browser.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Feature Management - NamedType TryItOutStartedMsg</note>
         </trans-unit>

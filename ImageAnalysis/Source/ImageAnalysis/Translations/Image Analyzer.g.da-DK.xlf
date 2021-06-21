@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="Image Analyzer">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2062634445 - Field 124749925 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detected On Item No</source>
+          <target>Registreret på vare nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Detected On Item No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 3230376938 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confidence Score (%)</source>
+          <target>Tillidsscore (%)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Tag Confidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 2807378183 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detected Attribute Name</source>
+          <target>Registreret attributnavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Tag Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 1037119892 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Varekategorikode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 2590381267 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Newly Created Item Category Code</source>
+          <target>Nyoprettet varekategorikode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Newly Created Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 512056945 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Attribute Value Id</source>
+          <target>Id for vareattributværdi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Item Attribute Value Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 1390308272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action to Perform</source>
+          <target>Handling til udførsel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Action To Perform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 1390308272 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ignore,Use as category,Use as attribute,Add to blacklist</source>
+          <target>Ignorer,Brug som kategori,Brug som attribut,Føj til blacklist</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Action To Perform - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 3133425969 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target>Detaljer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Details Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 1892013013 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Attribute Name Id</source>
+          <target>Id for vareattributnavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Item Attribute Name Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 558890210 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Attribute Name</source>
+          <target>Id for attributnavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Item Attribute Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - Field 224590807 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Attribute Value Name</source>
+          <target>Navn på vareattributværdi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Item Attribute Value Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - NamedType 2883311424" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose item attribute</source>
+          <target>Vælg vareattribut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType ChooseItemAttributeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - NamedType 2581640382" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can choose only one attribute as the item category.</source>
+          <target>Du kan kun vælge én attribut som varekategori.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType SetOnlyOneTagAsItemCategoryErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - NamedType 4279895527" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item attribute: '%1' = '%2'</source>
+          <target>Vareattribut: '%1' = '%2'</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the item attribute name (ex 'Color'), %2 is the item attribute value (ex 'Blue')</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType DetailsTextForItemAttributeTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - NamedType 4157130179" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category: '%1'</source>
+          <target>Kategori: '%1'</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the item attribute category code (ex 'FURNITURE')</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType DetailsTextForItemCategoryTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2062634445 - NamedType 686825585" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attribute '%1' is already set.</source>
+          <target>Attributten '%1' er allerede angivet.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the attribute name (ex 'Color')</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - NamedType AttributeAlreadyAssignedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 934628271 - Field 1716525935 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tag Name</source>
+          <target>Kodenavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Img. Analyzer Blacklist - Field TagName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1247484900 - NamedType 2789778645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorry, we didn't spot any attributes in the image. This happens occasionally. For example, sometimes we need more contrast between the item and the background. If you want, try another image.</source>
+          <target>Desværre fandt vi ingen attributter i billedet. Det sker af og til. Nogle gange kræves der f.eks. mere kontrast mellem varen og baggrunden. Hvis du vil, kan du prøve med et andet billede.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Attr Populate - NamedType NoAttributesIdentifiedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 3939425112" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image analysis usage limit already reached</source>
+          <target>Billedanalysens forbrugsgrænse er allerede nået</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsNotificationErrorNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 330083034" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image analysis usage limit reached</source>
+          <target>Billedanalysens forbrugsgrænse er nået</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsNotificationWarningNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1289747415" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify me that the maximum number of image analyses allowed in the period is already reached.</source>
+          <target>Giv mig besked, når det maksimale antal tilladte billedanalyser for perioden allerede er nået.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsErrorNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 209266697" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify me when I reach the maximum number of image analyses allowed in the period.</source>
+          <target>Giv mig besked, når jeg har nået det maksimale antal tilladte billedanalyser for perioden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsWarningNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 2252684351" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You just reached the limit of analyzed images. You can analyze %1 images per %2. You'll have to wait until the beginning of the next %2 to analyze more images.</source>
+          <target>Du har netop nået grænsen for analyserede billeder. Du kan analysere %1 billeder pr. %2. Du skal vente til starten af næste %2 for at analysere flere billeder.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the number of calls per time unit allowed, %2 is the time unit duration (year, month, day, or hour)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsWarningMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 3777354085" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If you want, we can assign attributes based on the images you import for items and contacts.</source>
+          <target>Hvis du vil, kan vi tildele attributter, der er baseret på de billeder, du importerer for varer og kontakter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType SetupNotificationMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 3519161399" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer setup</source>
+          <target>Opsætning af billedanalysatoren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType SetupNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 2403516424" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify me that the Image Analyzer extension can suggest attributes detected in imported images.</source>
+          <target>Giv mig besked, når billedanalysatorudvidelsen kan foreslå attributter, der er registreret i importerede billeder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType SetupNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1593074454" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer profile questionnaire completed</source>
+          <target>Spørgeskemaet for billedanalysatorprofilen er udfyldt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ContactQuestionnairePopulatedNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 2867214218" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify me when Image Analyzer has been used in profile questionnaire to analyze a picture of a contact.</source>
+          <target>Giv mig besked, når billedanalysatoren er blevet brugt i profilspørgeskemaet til at analysere et billede af en kontakt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ContactQuestionnairePopulatedNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 861756657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Looks like the Image Analyzer extension is disabled. Do you want to learn more and enable it?</source>
+          <target>Det ser ud som om, billedanalysatorudvidelsen er deaktiveret. Vil du vide mere om billedanalysatorudvidelsen og aktivere den?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType AnalyzerDisabledMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1478212858" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Don't ask again</source>
+          <target>Spørg mig ikke igen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType DeactivateActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1781593251" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable</source>
+          <target>Aktivér</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType SetupActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 844885115" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Got it</source>
+          <target>Forstået</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType GotItTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1830429907" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Don't tell me again</source>
+          <target>Fortæl mig det ikke igen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType NeverShowAgainTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 64333105" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Image Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisCategoryLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 890164766" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Image Analysis enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisEnabledLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1190126406" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Enable notification sent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType EnableNotificationSentLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 4071319644" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Image successfully analyzed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisSuccesfulLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 1506353678" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Category was assigned.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType CategoryAssignedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 3947491962" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Attribute was assigned.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType AttributeAssignedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3175899218 - NamedType 648729261" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open setup</source>
+          <target>Åbn opsætning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType OpenSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 73413020" maxwidth="50" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attributes detected by Image Analyzer.</source>
+          <target>Attributter, der er fundet af billedanalysatoren.</target>
+          <note from="Developer" annotates="general" priority="2">Should be less than or equal to 50 characters.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType ImageAnalyzerContactQuestionnaireDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 2188766998" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detected gender</source>
+          <target>Registreret køn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType GenderProfileQuestionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 683328826" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detected age</source>
+          <target>Registreret alder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType AgeProfileQuestionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 369005591" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Male</source>
+          <target>Mand</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType MaleTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 3150432074" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Female</source>
+          <target>Kvinde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType FemaleTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 913096805" maxwidth="20" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IMAGE ANALYZER</source>
+          <target>BILLEDANALYSATOR</target>
+          <note from="Developer" annotates="general" priority="2">Should be less than or equal to 20 characters.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType ImageAnalyzerQuestionnaireCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1854769596 - NamedType 983399426" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good work! You can view the results of the image analysis on the Profile Questionnaire FastTab.</source>
+          <target>Godt klaret! Du kan få vist resultaterne af billedanalysen i oversigtspanelet Profilspørgeskema.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType ProfileQuestionnairePopulatedTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer Attributes</source>
+          <target>Attributter for billedanalysator</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Confidence Score,Blacklist</source>
+          <target>Ny,Proces,Rapport,Tillidsscore,Blacklist</target>
+          <note from="Developer" annotates="general" priority="2">Blacklist is used to prevent the selected attributes from being suggested in the future.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Control 1301349253 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add to the Item Description</source>
+          <target>Føj til varebeskrivelsen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Control AppendToDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Control 4214913808 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target>Varebeskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Control ItemDescriptionGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Action 1032175268 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confidence Score</source>
+          <target>Tillidsscore</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action FilterAttributesGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Action 3024099986 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View All Attributes</source>
+          <target>Vis alle attributter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action RemoveFilterLowConfidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Action 2697588780 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide Low Confidence Attributes</source>
+          <target>Skjul lave tillidsattributter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action FilterLowConfidence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Action 2630983774 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blacklist</source>
+          <target>Blacklist</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action BlacklistGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Blacklisted Attributes</source>
+          <target>Vis blacklistede attributter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action ViewBlacklistedTags - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4132159392 - NamedType 1720518960" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add to the item description</source>
+          <target>Føj til varebeskrivelsen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - NamedType AppendTagTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 2516211404 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer Blacklisted Attributes</source>
+          <target>Blacklistede attributter for billedanalysatoren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Blacklist - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer assisted setup guide</source>
+          <target>Den assisterede opsætningsvejledning for billedanalysatoren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2332231641 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control MediaStandard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 1966572419 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control FirstPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 1971151373 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome</source>
+          <target>Velkommen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control Welcome to the Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 170988037 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control TourGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 170988037 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer uses the Computer Vision API from Microsoft Cognitive Services to detect attributes in the images you upload for items and contact persons, so it's easy for you to assign them. For items, Image Analyzer finds attributes like type and color. For contact persons, it detects age and gender.</source>
+          <target>Billedanalysatoren anvender Computer Vision API fra Microsoft Cognitive Services til at registrere attributter i de billeder, du overfører for varer og kontakter, så det er let at tildele dem. Billedanalysatoren finder vareattributter som f.eks. type og farve. For kontakter registreres alder og køn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control TourGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 1413849962 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control LearnMoreLinkGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 3276474741 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control SecondPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2471219329 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Terms of Use</source>
+          <target>Vilkår for anvendelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control Terms of use - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2762510287 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I understand and accept these terms</source>
+          <target>Jeg forstår og accepterer disse vilkår</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control EnableFeature - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 368964769 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control FinalPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 1546979963 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>That's it!</source>
+          <target>Det var det!</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control That's it! - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 3531363291 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control ChooseFinishGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2619721864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control HowToGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2802945156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control AnalyzePicture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Control 2770563878 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze current picture</source>
+          <target>Analysér aktuelt billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Control AnalyzePictureOnFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Action 2438272767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target>Tilbage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Action 914282563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target>Næste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - Action 1068401105 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target>Udfør</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - Action ActionFinishAndEnable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 188344288" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Computer Vision API documentation</source>
+          <target>Dokumentation for Computer Vision-API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType LearnMoreStatementLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1260496939" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?linkid=848400</source>
+          <target>https://go.microsoft.com/fwlink/?linkid=848400</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType LearnMoreLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 4063651778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To learn more about Cognitive Services and the Computer Vision API, see the documentation.</source>
+          <target>Hvis du vil vide mere om Cognitive Services og Computer Vision-API, skal du se dokumentationen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType YouCanLearnMoreTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 617850082" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By enabling the Image Analyzer extension you consent to sharing your data with an external system. For more information, see the documentation.</source>
+          <target>Ved at aktivere udvidelsen Image Analyzer accepterer du dele dine data med et eksternt system. Du kan finde flere oplysninger i dokumentationen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType ConsentTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1557995245" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer technical documentation</source>
+          <target>Teknisk dokumentation til Image Analyzer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType ImageAnalyzerDocumentationTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1806248541" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?linkid=850308</source>
+          <target>https://go.microsoft.com/fwlink/?linkid=850308</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType ImageAnalyzerDocumentationLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1881189978" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose 'Finish' to enable Image Analyzer.</source>
+          <target>Vælg "Udfør" for at aktivere billedanalysatoren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType ChooseFinishTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1836435487" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Image Analyzer automatically detects attributes when you add an image to an item or contact person.</source>
+          <target>Billedanalysatoren registrerer automatisk attributter, når du føjer et billede til en vare eller kontaktperson.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType HowToPart1Txt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1241924258" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To analyze images you've already uploaded, go to the item or contact person card, and choose the 'Analyze Picture' action.</source>
+          <target>For at analysere de billeder, du allerede har overført, skal du gå til vare- eller kontaktpersonkortet og vælge handlingen "Analysér billede".</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType HowToPart2Txt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1591904854" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your use of the Image Analyzer may be subject to the additional licensing terms in the Microsoft Cognitive Services section of the Online Services Terms.</source>
+          <target>Brugen af billedanalysatoren kan være omfattet af de ekstra licensvilkår i afsnittet Microsoft Cognitive Services i vilkårene for onlinetjenester.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType TermsPartTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 3546102265" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType OnlineServicesTermLinkLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 3413784201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Online Services Terms (OST)</source>
+          <target>Vilkår for onlinetjenester (OST)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType OnlineServicesTermLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1258281696" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>http://go.microsoft.com/fwlink/?LinkID=829046</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType CognitiveServicesLinkLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1781401520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services</source>
+          <target>Microsoft Cognitive Services</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType CognitiveServicesLinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 872216054 - NamedType 1724171003" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An image has been added to the chosen item or contact. Want to analyze the image, right after you enable Image Analyzer?</source>
+          <target>Der er tilføjet et billede til den valgte vare eller kontakt. Vil du analysere billedet, så snart du har aktiveret billedanalysatoren?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType WantToAnalyzeTheCurrentPictureQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3849677789 - Control 3183907675 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to use the Image Analyzer extension to suggest attributes that it detects in images of items and contact persons.</source>
+          <target>Angiver, om du vil bruge billedanalysatorudvidelsen til at foreslå attributter, der registreres i billeder af varer og kontakter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3849677789 - Control 2957770053 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the confidence score threshold for results from Microsoft Cognitive Services. Results with confidence below the threshold are considered inaccurate, and are not used. A typical threshold is 80%.</source>
+          <target>Angiver tillidsscoregrænsen for resultater fra Microsoft Cognitive Services. Resultater med tillidsscore under grænsen anses for at være upræcise og anvendes ikke. En typisk grænse er 80 %.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3849677789 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Blacklisted Attributes</source>
+          <target>Vis blacklistede attributter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3849677789 - Action 3727368580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View attributes that are currently blocked.</source>
+          <target>Vis attributter, der er blokeret.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2739748394 - Action 2802945156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze Picture</source>
+          <target>Analysér billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1434786627</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2739748394 - Action 2802945156 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze the picture attached to the item to identify attributes and item category, and assign them to the item.</source>
+          <target>Analysér det billede, der er knyttet til varen, for at identificere attributter og varekategori og tildele dem til varen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1434786627</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1450496495 - Action 2802945156 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze Picture</source>
+          <target>Analysér billede</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3542408424</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1450496495 - Action 2802945156 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyze the picture attached to the contact to identify gender and age, and assign them to the contact.</source>
+          <target>Analysér det billede, der er knyttet til kontakten, for at identificere køn og alder og tildele dem til kontakten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3542408424</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1450496495 - NamedType 1830228471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The contact you're analyzing a picture of is a company, not a person. The contact must be a person.</source>
+          <target>Den kontakt, du analyserer et billede for, er en virksomhed, ikke er en person. Kontakten skal være en person.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3542408424</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 214061687 - Field 2508927063 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Image Analyzer</source>
+          <target>Aktivér billedanalysator</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 133985070</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 214061687 - Field 2957770053 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confidence Score Threshold %</source>
+          <target>Tillidsscoregrænseprocent</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 133985070</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 214061687 - NamedType 1644091217" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To enable image analysis, you must be an administrator. Ensure that you are assigned the 'SUPER' user permission set.</source>
+          <target>Du skal være administrator for at aktivere billedanalyse. Kontroller, at du har fået tildelt brugerrettighedssættet 'SUPER'.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 133985070</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

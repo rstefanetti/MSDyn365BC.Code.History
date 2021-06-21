@@ -1,0 +1,1489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-CA" original="Envestnet Yodlee Bank Feeds">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1268761635 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Clé primaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 2575991450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service URL</source>
+          <target>URL service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Service URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1534934302 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Acc. Linking URL</source>
+          <target>URL de liaison cptes bancaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Bank Acc. Linking URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1468013839 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Environment Name</source>
+          <target>Nom de l’environnement de co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Environment Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 2296034860 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Name</source>
+          <target>Nom de co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 3543676540 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Password</source>
+          <target>Mot de passe co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1674563275 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Name</source>
+          <target>Nom consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Consumer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 2313254907 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Password</source>
+          <target>Mot de passe consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Consumer Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 2891538263 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Activé</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1496594050 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Web Requests</source>
+          <target>Consigner les demandes web</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Log Web Requests - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 25011542 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Feed Import Format</source>
+          <target>Format importation flux bancaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Bank Feed Import Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 3447211134 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Session Token</source>
+          <target>Jeton session co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cobrand Session Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 807152436 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cob. Token Last Date Updated</source>
+          <target>Jeton co-marketing - Date de la dernière mise à jour</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cob. Token Last Date Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1447929701 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Session Token</source>
+          <target>Jeton session consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Consumer Session Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1473726113 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cons. Token Last Date Updated</source>
+          <target>Jeton consommateur - Date de la dernière mise à jour</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Cons. Token Last Date Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 3147377785 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accept Terms of Use</source>
+          <target>Accepter les conditions d'utilisation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field Accept Terms of Use - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Field 1316892428 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Profile Email Address</source>
+          <target>Profil utilisateur - Adresse de courriel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field User Profile Email Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - NamedType 3203292152" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By modifying the Service URL you must specify your own Cobrand credentials.</source>
+          <target>Si vous modifiez l'URL du service, vous devez spécifier vos informations d'identification de co-marketing personnelles.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - NamedType CobrandMustBeSpecifiedMsg</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - NamedType 3838141333" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
+          <target>Le chiffrement des données n'est pas activé. Nous vous recommandons de chiffrer les données. \Voulez-vous ouvrir la fenêtre Gestion du chiffrement des données?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - NamedType EncryptionIsNotActivatedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Envestnet Yodlee Bank Feeds Service Setup</source>
+          <target>Configuration du service de flux bancaires Envestnet Yodlee</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Page,Encryption,Bank</source>
+          <target>Nouveau,Traitement,Rapport,Page,Chiffrement,Banque</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2445482498 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Général</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2208647033 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand</source>
+          <target>Co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Cobrand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 378604519 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Name</source>
+          <target>Nom de co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandEnvironmentName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 378604519 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cobrand name.</source>
+          <target>Spécifie le nom de co-marketing.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandEnvironmentName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2399877052 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Login</source>
+          <target>Ouverture de session de co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2399877052 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cobrand username.</source>
+          <target>Spécifie le nom d'utilisateur de co-marketing.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 411724248 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Password</source>
+          <target>Mot de passe co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandPwd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 411724248 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cobrand password.</source>
+          <target>Spécifie le mot de passe co-marketing.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control CobrandPwd - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 882679389 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pre-configured Credentials</source>
+          <target>Informations d'identification préconfigurées</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control DefaultCredentials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 882679389 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the cobrand username and password are preconfigured by an administrator.</source>
+          <target>Spécifie si le mot de passe et le nom d'utilisateur de co-marketing sont préconfigurés par un administrateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control DefaultCredentials - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 388054450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer</source>
+          <target>Consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Consumer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 1674563275 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the consumer username. If you leave the field blank, a username is created automatically.</source>
+          <target>Spécifie le nom d'utilisateur du consommateur. Si vous laissez le champ vide, un nom d'utilisateur est créé automatiquement.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Consumer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2551247975 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Password</source>
+          <target>Mot de passe consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control ConsumerPwd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2551247975 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the consumer password.</source>
+          <target>Spécifie le mot de passe consommateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control ConsumerPwd - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 1316892428 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Email Address</source>
+          <target>Adresse de courriel du consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control User Profile Email Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 1316892428 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the email address that will be associated with the created consumer.</source>
+          <target>Spécifie l'adresse de courriel qui sera associée au consommateur créé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control User Profile Email Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 1496594050 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if web requests should be logged. This is normally only required for troubleshooting.</source>
+          <target>Spécifie si les demandes web doivent être consignées. Normalement, cette consignation n'est requise qu'à des fins de dépannage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Log Web Requests - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 3147377785 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you accept the terms of use for the Envestnet Yodlee Bank Feeds service.</source>
+          <target>Spécifie si vous acceptez les conditions d'utilisation du service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Accept Terms of Use - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2891538263 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the service should be enabled.</source>
+          <target>Spécifie si le service doit être activé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 3560784556 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the service must be disabled to make changes.</source>
+          <target>Spécifie que le service doit être désactivé pour que des modifications puissent être apportées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control ShowEnableWarning - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2187938695 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <target>Service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 2575991450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL of the Envestnet Yodlee Bank Feeds service.</source>
+          <target>Spécifie l'URL du service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Service URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 1534934302 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL of the Envestnet Yodlee Bank Account Linking page.</source>
+          <target>Spécifie l'URL de la page Liaison de comptes bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Bank Acc. Linking URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Control 25011542 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the format that Envestnet Yodlee bank feeds are imported in.</source>
+          <target>Spécifie le format dans lequel les flux bancaires Envestnet Yodlee sont importés.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Bank Feed Import Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2179034502 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Defaults</source>
+          <target>Définir les valeurs par défaut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action SetDefaults - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2179034502 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set the default values for the Envestnet Yodlee Bank Feeds service.</source>
+          <target>Définissez les valeurs par défaut pour le service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action SetDefaults - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 1234629787 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Setup</source>
+          <target>Tester la configuration</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action TestSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 1234629787 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verify that the Envestnet Yodlee service has been configured correctly. A consumer account is automatically created when the service is enabled.</source>
+          <target>Vérifiez que le service Envestnet Yodlee a été configuré correctement. Un compte consommateur est automatiquement créé lorsque le service est activé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action TestSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4203151439 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Tokens</source>
+          <target>Réinitialiser les jetons</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetTokens - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4203151439 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset any active session tokens.</source>
+          <target>Réinitialisez les jetons de la session active.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetTokens - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2744013044 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Advanced Settings</source>
+          <target>Afficher les paramètres avancés</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ShowAdvancedSettings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2744013044 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show all of the setup fields for the Envestnet Yodlee service.</source>
+          <target>Affichez tous les champs configurés pour le service Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ShowAdvancedSettings - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 841712208 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encryption Management</source>
+          <target>Gestion du chiffrement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action EncryptionManagement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 841712208 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configure encryption settings.</source>
+          <target>Configurez les paramètres de chiffrement.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action EncryptionManagement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2678035379 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <target>Journal des activités</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ActivityLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2678035379 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Envestnet Yodlee activities.</source>
+          <target>Affichez les activités Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ActivityLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 1459325709 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange</source>
+          <target>Échange de données</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action Data Exchange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2068142190 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Default Data Exchange Definition</source>
+          <target>Exporter la définition d'échange de données par défaut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ExportDataExchangeDefinition - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 2068142190 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export the data exchange definition that is used to import Envestnet Yodlee bank feeds.</source>
+          <target>Exportez la définition d'échange de données qui est utilisée pour importer des flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ExportDataExchangeDefinition - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4099280509 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Data Exchange Definition to Default</source>
+          <target>Rétablir la définition d'échange de données par défaut</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetDataExchangeDefinitionToDefault - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4099280509 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use the default data exchange definition for the Envestnet Yodlee Bank Feeds service.</source>
+          <target>Utilisez la définition d'échange de données par défaut pour le service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetDataExchangeDefinitionToDefault - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 1732083938 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank</source>
+          <target>Banque</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action Bank - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4020075288 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Accounts</source>
+          <target>Comptes bancaires</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action BankAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4020075288 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the bank accounts.</source>
+          <target>Affichez les comptes bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action BankAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - NamedType 1791671425" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must disable the service before you can make changes.</source>
+          <target>Vous devez désactiver le service avant de pouvoir apporter des modifications.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - NamedType EnabledWarningTok</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - NamedType 298733869" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to disable the bank feed service?</source>
+          <target>Souhaitez-vous désactiver le service de flux bancaire?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - NamedType DisableEnableQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - NamedType 819669893" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disabling the service will unlink all online bank accounts.\\Do you want to continue?</source>
+          <target>La désactivation du service va détacher tous les comptes bancaires en ligne.\\Voulez-vous continuer?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - NamedType RemoveConsumerOnDisableQst</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>N°</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 2817387967 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Online Bank Account ID</source>
+          <target>Code compte bancaire en ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Online Bank Account ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 3409266944 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Online Bank ID</source>
+          <target>Code banque en ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Online Bank ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 4006719383 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic Logon Possible</source>
+          <target>Connexion automatique possible</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Automatic Logon Possible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 2961552353 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Nom</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 4198939294 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Code devise</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 3993128796 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target>Contact</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Contact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 4248640148 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account No.</source>
+          <target>N° de compte bancaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4046891712 - Field 495069351 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Temp Linked Bank Account No.</source>
+          <target>N° compte bancaire associé temp.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Temp Linked Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 279003835 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Clé primaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Data Exchange Def - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 279003835 - Field 2859717442 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange Code</source>
+          <target>Code échange données</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Data Exchange Def - Field Data Exchange Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 279003835 - Field 1813216360 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data Exchange Def</source>
+          <target>Déf. échange données</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Data Exchange Def - Field Data Exchange Def - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 279003835 - Field 4226733695 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing Codeunit ID</source>
+          <target>Code Codeunit traitement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Data Exchange Def - Field Processing Codeunit ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1535225911 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Clé primaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1535225911 - Field 3447211134 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cobrand Session Token</source>
+          <target>Jeton session co-marketing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Cobrand Session Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1535225911 - Field 807152436 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cob. Token Last Date Updated</source>
+          <target>Jeton co-marketing - Date de la dernière mise à jour</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Cob. Token Last Date Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1535225911 - Field 1447929701 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer Session Token</source>
+          <target>Jeton session consommateur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Consumer Session Token - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1535225911 - Field 1473726113 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cons. Token Last Date Updated</source>
+          <target>Jeton consommateur - Date de la dernière mise à jour</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Cons. Token Last Date Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3307305099 - NamedType 699986343" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The password must contain at least 8 characters.</source>
+          <target>Le mot de passe doit être constitué d'au moins 8 caractères.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Password Helper - NamedType InsufficientPassLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2816046543" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The setup test was successful. The settings are valid.</source>
+          <target>Le test de configuration a réussi. Les paramètres sont valides.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SetupSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2715195543" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank feed service is not enabled.\\In the Envestnet Yodlee Bank Feeds Service Setup window, select the Enabled check box.</source>
+          <target>Le service de flux bancaire n'est pas activé.\\Dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee, cochez la case Activé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType NotEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 763721582" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get the Cobrand token.</source>
+          <target>Obtenez le jeton co-marketing.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetCobrandTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2724199173" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"Get the Consumer token. "</source>
+          <target>« Obtenez le jeton consommateur. »</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetConsumerTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 862556855" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get the FastLink token.</source>
+          <target>Obtenez le jeton FastLink.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetFastlinkTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1580277579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get bank sites.</source>
+          <target>Obtenez les sites bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetBankSiteListTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2367377501" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get bank accounts from site.</source>
+          <target>Obtenez les comptes bancaires à partir du site.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetBankAccListTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3332417267" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get bank account.</source>
+          <target>Obtenez le compte bancaire.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetBankAccTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 285270376" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get bank transactions.</source>
+          <target>Obtenez les transactions bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetBankTxTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2338509648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlink account.</source>
+          <target>Détachez le compte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetUnlinkAccountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 131049113" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account %1 linked to an online bank account.</source>
+          <target>Le compte bancaire %1 est lié à un compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Bank account number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType LinkBankAccountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3532883312" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account %1 unlinked from an online bank account.</source>
+          <target>Le compte bancaire %1 est détaché d'un compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Bank account number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnlinkBankAccountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1370411756" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove consumer.</source>
+          <target>Supprimez le consommateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RemoveConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3688584481" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register consumer.</source>
+          <target>Enregistrez le consommateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RegisterConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1804319861" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Latest Bank Feed.</source>
+          <target>Obtenez le dernier flux bancaire.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankRefreshTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 107391253" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get the authentication tokens.</source>
+          <target>Obtenez les jetons d'authentification.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AuthenticationTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2455544330" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Feed Service</source>
+          <target>Service de flux bancaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType LoggingConstTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 232778209" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The response was not valid.</source>
+          <target>La réponse n'était pas valide.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType InvalidResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1668614503" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An unknown error has occurred.</source>
+          <target>Une erreur inconnue s'est produite.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnknownErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4018747091" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The updated list of linked bank accounts could not be shown.\\Choose the Update Bank Account Linking action to try again.</source>
+          <target>Impossible d'afficher la liste mise à jour des comptes bancaires liés.\\Choisissez l'action Mettre à jour les comptes bancaires liés et réessayez.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CannotGetLinkedAccountsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1451326897" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 bank accounts have been linked.</source>
+          <target>%1 comptes bancaires ont été liés.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of accounts whose linking has just been created (e.g. 2)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AccountsLinkingSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1352695136" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 has been linked.</source>
+          <target>Le compte bancaire %1 a été lié.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is bank account name e.g. GIRO</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AccountLinkingSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1227166993" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 bank accounts have been unlinked.</source>
+          <target>%1 comptes bancaires ont été détachés.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of accounts whose linking has been removed (e.g. 5)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AccountUnLinkingSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3737451022" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All bank account links are up to date, or no online bank accounts exist.</source>
+          <target>Tous les liens de compte bancaire sont à jour ou il n'existe pas de compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountsAreLinkedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2055255116" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No new bank account is created or linked because all online bank accounts are already linked.</source>
+          <target>Aucun nouveau compte bancaire n'est créé ou lié car tous les comptes bancaires en ligne sont déjà liés.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType NoNewBankAccountsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1977805956" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2</source>
+          <target>%1 %2</target>
+          <note from="Developer" annotates="general" priority="2">Used to concat AccountLinkingSummaryMsg and AccountUnLinkingSummaryMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ConcatAccountSummaryMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1732316127" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank account has been unlinked from the online bank account.\\Do you want to clear the online bank login details?</source>
+          <target>Le compte bancaire a été détaché du compte bancaire en ligne.\\Voulez-vous effacer les détails d'ouverture de session pour le compte bancaire en ligne?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnlinkQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3639037429" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No online bank accounts are connected to Envestnet Yodlee.\\Do you want to clear the online bank login details?</source>
+          <target>Aucun compte bancaire en ligne n'est connecté à Envestnet Yodlee.\\Voulez-vous effacer les détails d'ouverture de session pour le compte bancaire en ligne?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType PromptConsumerRemoveNoLinkingQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3937011365" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request succeeded.</source>
+          <target>La demande a abouti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 792193704" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Found accounts for bank %1.</source>
+          <target>Comptes trouvés pour la banque %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = online bank id (e.g. 1052352)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessToFindAccountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1050545923" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account was unlinked.</source>
+          <target>Le compte bancaire a été détaché.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessAccountUnlinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2087079493" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transactions for bank account %1 have been downloaded.</source>
+          <target>Les transactions pour le compte bancaire %1 ont été téléchargées.</target>
+          <note from="Developer" annotates="general" priority="2">%1=bank account no</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessGetTxForAccTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2487255997" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer has been removed.</source>
+          <target>Le consommateur a été supprimé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessRemoveConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 791501264" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumer has been registered.</source>
+          <target>Le consommateur a été enregistré.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SuccessRegisterConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1144343272" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The process to get the latest bank feed has timed out.</source>
+          <target>Le processus d'obtention du dernier flux bancaire a expiré.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankRefreshTimedOutTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 833699045" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request was unsuccessful.</source>
+          <target>La demande n'a pas abouti.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType FailedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2669277032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not get the list of accounts for bank %1.</source>
+          <target>Impossible d'obtenir la liste des comptes pour la banque %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = online bank id (e.g. 1052352)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType FailedToFindAccountTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2647720643" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account %1 could not be unlinked.</source>
+          <target>Le compte bancaire %1 n'a pas pu être détaché.</target>
+          <note from="Developer" annotates="general" priority="2">%1=Bank account number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType FailedAccountUnlinkTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3219963998" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to remove the consumer.</source>
+          <target>Échec de la suppression du consommateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType FailedRemoveConsumerMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2548154640" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to register the consumer.</source>
+          <target>Échec de l'enregistrement du consommateur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType FailedRegisterConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 691323612" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The cobrand credentials or the Service URL are not valid.</source>
+          <target>Les informations d'identification de co-marketing ou l'URL du service ne sont pas valides.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BadCobrandTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2416774067" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The consumer credentials are not valid.</source>
+          <target>Les informations d'identification du consommateur ne sont pas valides.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BadConsumerTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1659853024" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There was an error trying to get the latest bank feed.\\Do you want to continue anyway?</source>
+          <target>Une erreur s'est produite lors de la tentative d'obtention du dernier flux bancaire.\\Voulez-vous continuer malgré tout?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshErrorMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4294338604" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1.%2\\For more information, see https://go.microsoft.com/fwlink/?LinkID=733548&amp;clcid=0x409.</source>
+          <target>Code d'erreur :%1.%2\\Pour plus d'informations, consultez la page https://go.microsoft.com/fwlink/?LinkID=733548&amp;clcid=0x409.</target>
+          <note from="Developer" annotates="general" priority="2">%1 Specific error code, %2 Extra comment</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ErrorCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1218466408" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error code: %1.%2\\For more information, see https://developer.yodlee.com/Yodlee_API/docs/v1_1/Data_Model/Resource_Account#Dataset_Additional_Statuses.</source>
+          <target>Code d'erreur :%1.%2\\Pour plus d'informations, consultez la page https://developer.yodlee.com/Yodlee_API/docs/v1_1/Data_Model/Resource_Account#Dataset_Additional_Statuses.</target>
+          <note from="Developer" annotates="general" priority="2">%1 Specific error code, %2 Extra comment</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 44359669" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee is unable to retrieve the newest bank feeds without user assistance. To perform this activity manually, you must open the corresponding bank account card, and choose action Refresh Online Bank Account.</source>
+          <target>Yodlee ne peut pas récupérer les flux bancaires les plus récents sans l'intervention de l'utilisateur. Pour exécuter cette activité manuellement, vous devez ouvrir la fiche du compte bancaire correspondante et choisir l'action Actualiser le compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CredentialsCommentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3594519002" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The currency your bank account is using (%1) does not match the currency for your online bank account (%2).</source>
+          <target>La devise utilisée par votre compte bancaire (%1) ne correspond pas à celle de votre compte bancaire en ligne (%2).</target>
+          <note from="Developer" annotates="general" priority="2">%1 and %2 are company and Yodlee currency codes.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 757644816" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the To Date field is later than the date of the current bank feed. The latest bank feed is from %1.</source>
+          <target>La valeur du champ Date fin est postérieure à la date du flux bancaire actuel. Le dernier flux bancaire débute à partir de %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = the date the bank feed was last updated</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2175593264" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>MFA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType MultiFactorAuthenticationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1348728889" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>801</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshNeverDoneTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3000366737" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Invalid User Credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankStmtServiceInvalidConsumerErrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4284372206" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Stale conversation credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankStmtServiceStaleConversationCredentialsErrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4025417004" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>StaleConversationCredentialsException</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankStmtServiceStaleConversationCredentialsExceptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2353935861" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>IllegalArgumentValueException</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankStmtServiceStaleIllegalArgumentValueExceptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1487601093" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registering a consumer account failed because of an invalid argument value. Open General Ledger Setup window and verify that the field LCY Code contains the ISO standard code for your local currency.</source>
+          <target>L'enregistrement d'un compte consommateur a échoué en raison d'une valeur d'argument non valide. Ouvrez la fenêtre Configuration du grand livre et vérifiez que le champ Code $ contient le code standard ISO de votre devise locale.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RegisterConsumerVerifyLCYCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2370318278" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your session has expired. Please try the operation again.</source>
+          <target>Votre session a expiré. Recommencez l'opération.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType StaleCredentialsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2877570477" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
+          <target>Yodlee n'a pas pu mettre à jour votre compte, car vos nom d'utilisateur et/ou mot de passe ont été signalés comme incorrects. Vous devez ouvrir la fiche du compte bancaire correspondante et choisir l'action Actualiser le compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshInvalidCredentialsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1916303894" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We are sorry, Yodlee encountered a technical problem while updating your account. Please try again later.</source>
+          <target>Nous sommes désolés, Yodlee a rencontré un problème technique lors de la mise à jour de votre compte. Réessayez plus tard.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshUnknownErrorTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2906420131" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee could not update your account because it appears to be locked by your bank. This usually results from too many unsuccessful login attempts in a short period of time. Please visit the bank or contact its customer support to resolve this issue. Once done, please update your account credentials in case they are changed.</source>
+          <target>Yodlee n'a pas pu mettre à jour votre compte, car il est verrouillé par votre banque. La cause est généralement un nombre trop élevé de tentatives d'ouverture de session infructueuses durant une période brève. Allez à la banque ou contactez son service d'assistance à la clientèle pour résoudre ce problème. Une fois terminé, mettez à jour les informations d'identification de votre compte si elles ont été modifiées.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAccountLockedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2681169034" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee was unable to update your account as the online bank is experiencing technical difficulties. We apologize for the inconvenience. Please try again later.</source>
+          <target>Yodlee n'a pas pu mettre à jour votre compte, car la banque en ligne rencontre des difficultés techniques. Veuillez nous excuser pour le désagrément occasionné. Réessayez plus tard.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshBankDownTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3806022380" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee was unable to update your account as the online bank is temporarily down for maintenance. We apologize for the inconvenience. This problem is typically resolved in a few hours. Please try again later.</source>
+          <target>Yodlee n'a pas pu mettre à jour votre compte, car la banque en ligne est temporairement indisponible pour raison de maintenance. Veuillez nous excuser pour le désagrément occasionné. Ce problème est généralement résolu en quelques heures. Réessayez plus tard.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshBankDownForMaintenanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2270161872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee was unable to update your account because it has started providing data updates for this online bank, and it may take a few days to be successful. Please try again later.</source>
+          <target>Yodlee n'a pas pu mettre à jour votre compte, car il a commencé à fournir des données mises à jour pour cette banque en ligne, et il faut parfois quelques jours pour que cette opération soit effective. Réessayez ultérieurement.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshBankInBetaMaintenanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3364155623" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your request timed out due to technical reasons. Please try again.</source>
+          <target>Votre demande a expiré pour des raisons techniques. Réessayez.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshTimedOutTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3294252954" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
+          <target>Des informations d'authentification supplémentaires sont requises. Ouvrez la fiche du compte bancaire correspondante et choisissez l'action Actualiser le compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAdditionalAuthInfoNeededTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 939885327" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>YODLEE_FASTLINKURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeFastlinkUrlTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3104790385" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This failure has been ignored.</source>
+          <target>Cet échec a été ignoré.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ErrorsIgnoredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3737265623" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This failure has been ignored. User has wished to continue.</source>
+          <target>Cet échec a été ignoré. L'utilisateur a souhaité continuer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ErrorsIgnoredByUserTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1275748075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Envestnet Yodlee Bank Feeds Service has not been enabled. Do you want to enable it?</source>
+          <target>Le service de flux bancaires Envestnet Yodlee n'a pas été activé. Souhaitez-vous l'activer?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType EnableYodleeQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2265952738" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must accept the Envestnet Yodlee terms of use before you can use the service.</source>
+          <target>Vous devez accepter les conditions d'utilisation d'Envestnet Yodlee avant de pouvoir utiliser le service.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType TermsOfUseNotAcceptedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1528931885" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>navsvc@microsoft.com</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SaaSModeUserProfileEmailAddressTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2742505018" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://rest.developer.yodlee.com/services/srest/restserver/v1.0/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ServiceUrlTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3322346408" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://node.developer.yodlee.com/authenticate/restserver/</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccLinkingUrlTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1345849937" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use the Envestnet Yodlee Bank Feeds Service on the demonstration company. Open another company and try again.</source>
+          <target>Vous ne pouvez pas utiliser le service de flux bancaires Envestnet Yodlee dans la compagnie de démonstration. Ouvrez une autre compagnie et réessayez.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType DemoCompanyWithDefaultCredentialMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3814923612" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank account is not linked to an online bank account.</source>
+          <target>Le compte bancaire n'est pas lié à un compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType NoAccountLinkedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2771342511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>YodleeCobrandEnvironmentName</source>
+          <target>YodleeCobrandEnvironmentName</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeCobrandSecretEnvironmentNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3626404892" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>YodleeCobrandName</source>
+          <target>YodleeCobrandName</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeCobrandSecretNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1419457009" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>YodleeCobrandPassword</source>
+          <target>YodleeCobrandPassword</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeCobrandPasswordSecretNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 650497523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>YodleeServiceUri</source>
+          <target>YodleeServiceUri</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeServiceUrlSecretNameTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 37749855" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>YodleeFastlinkUrl</source>
+          <target>YodleeFastlinkUrl</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeFastlinkUrlTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4126624579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up and enable the Envestnet Yodlee Bank Feeds service.</source>
+          <target>Configurez et activez le service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeBusinessSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2809413759" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance,Bank Feeds,Yodlee,Payment</source>
+          <target>Finances,Flux bancaires,Yodlee,Paiement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeBusinessSetupKeywordsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1483100467" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>AL Yodlee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeTelemetryCategoryTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1333581227" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Successful Activity "%1", Message "%2".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType TelemetryActivitySuccessTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 738768686" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Failed Activity "%1", Message "%2".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType TelemetryActivityFailureTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 928771269" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Cached cobrand token has expired.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CobrandTokenExpiredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 976025190" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Cached consumer token has expired.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ConsumerTokenExpiredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 602380082" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Consumer is not initialized.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ConsumerUnitializedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3019894490" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please wait while the server is processing your request.\This may take several minutes.</source>
+          <target>Veuillez patienter pendant que le serveur traite votre demande.\Cette opération peut prendre plusieurs minutes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ProcessingWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 254582296" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The remote server returned an error: (%1) %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RemoteServerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3142536881" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The online bank account %1 has two mismatching currency codes: %2 and %3.</source>
+          <target>Le compte bancaire en ligne %1 a deux codes devise qui ne correspondent pas : %2 et %3.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - bank account name, %2 - currency code, %3 - currency code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchOnOnlineBankAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 270699644" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The online bank account has two mismatching currency codes: %1 and %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchOnOnlineBankAccountTelemetryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1127260640" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The online bank account %1 has no currency code.\Do you want to link it to your bank account?</source>
+          <target>Le compte bancaire en ligne %1 n'a pas de code devise.\Voulez-vous le lier à votre compte bancaire?</target>
+          <note from="Developer" annotates="general" priority="2">%1 - bank account name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType LinkingToAccountWithEmptyCurrencyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2518286840" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The online bank account has no currency code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType EmptyCurrencyOnOnlineAccountMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2817076943" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Transactions downloaded for 1 of %1 linked bank account(s).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType TransactionsDownloadedTelemetryTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2132532151" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Refreshing transaction data for online bank account %1 with refresh mode %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshingBankAccountTelemetryTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1936154084" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can use the Envestnet Yodlee Bank Feeds extension to link your bank accounts to online bank accounts.</source>
+          <target>Vous pouvez utiliser l'extension Flux bancaires Envestnet Yodlee pour lier vos comptes bancaires aux comptes bancaires en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3453973001" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify the user of Envestnet Yodlee Bank Feeds extension capabilities.</source>
+          <target>Informez l'utilisateur des fonctionnalités de l'extension Flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1750935242" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turns the user's attention to the capabilities of Envestnet Yodlee Bank Feeds extension.</source>
+          <target>Attire l'attention de l'utilisateur sur les fonctionnalités de l'extension Flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3642679899" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can use the Payment Reconciliation Journals window to import bank transactions.</source>
+          <target>Vous pouvez utiliser la fenêtre Journaux rapprochement paiement pour importer des transactions bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType PaymentReconAwarenessNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1599246418" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify the user of payment reconciliation journals.</source>
+          <target>Informez l'utilisateur des journaux de rapprochement de paiement.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType PaymentReconAwarenessNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 996697849" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turns the user's attention to the capabilities of payment reconciliation journals.</source>
+          <target>Attire l'attention de l'utilisateur sur les fonctionnalités des journaux de rapprochement de paiement.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType PaymentReconAwarenessNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1738767873" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can set up automatic bank statement import for this bank account.</source>
+          <target>Vous pouvez configurer l'importation automatique de relevés bancaires pour ce compte bancaire.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AutoBankStmtImportNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 425253564" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notify the user of the capabilities of automatic bank statement import.</source>
+          <target>Informez l'utilisateur des fonctionnalités d'importation automatique de relevés bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AutoBankStmtImportNotificationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1340760275" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turns the user's attention to the capabilities of automatic bank statement import.</source>
+          <target>Attire l'attention de l'utilisateur sur les fonctionnalités d'importation automatique de relevés bancaires.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType AutoBankStmtImportNotificationDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1658257400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set it up here.</source>
+          <target>Procédez à la configuration ici.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType SetUpNotificationActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1801224090" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Try it out here.</source>
+          <target>Essayez-la ici.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UsageNotificationActionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 245488723" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable this notification.</source>
+          <target>Désactivez cette notification.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType DisableNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2487317649" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The user opened automatic bank statement import setup via a notification.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UserOpenedAutoBankStmtSetupViaNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1399535340" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The user started linking new bank account via via a notification.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UserStartedLinkingNewBankAccountViaNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3588995279" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The user started linking new bank account via a notification.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UserOpenedYodleeSetupPageViaNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1811842006" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The user opened payment reconciliation journals via a notification.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UserOpenedPaymentReconJournalsViaNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2743086904" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>The user disabled notification %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UserDisabledNotificationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3938776048" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Envestnet Yodlee Bank Feeds Service</source>
+          <target>Service de flux bancaires Envestnet Yodlee</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeServiceNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2106841476" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Yodlee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeServiceIdentifierTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3164795350" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The password is missing in the Envestnet Yodlee Bank Feeds Service Setup window.\\Do you want to open the Envestnet Yodlee Bank Feeds Service Setup window?</source>
+          <target>Il manque le mot de passe dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee.\\Voulez-vous ouvrir la fenêtre Configuration du service de flux bancaires Envestnet Yodlee?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType MissingCredentialsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2591510851" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The password is missing in the Envestnet Yodlee Bank Feeds Service Setup window.</source>
+          <target>Il manque le mot de passe dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType MissingCredentialsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waiting for Envestnet Yodlee to complete the bank account refresh #1</source>
+          <target>Attend que Envestnet Yodlee termine l'actualisation du compte bancaire #1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ProgressWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 29832492" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 seconds</source>
+          <target>%1 secondes</target>
+          <note from="Developer" annotates="general" priority="2">%1 - an integer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ProgressWindowUpdateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2530820335" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refreshing the bank account on Envestnet Yodlee is taking longer than expected.\\You can import transactions up to the last successful refresh date while the refresh is running.</source>
+          <target>L'actualisation du compte bancaire par Envestnet Yodlee prend plus de temps que prévu.\\Vous pouvez importer des transactions jusqu'à la dernière date d'actualisation réussie pendant que l'actualisation est en cours.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshTakingTooLongTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 1319137740" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Refreshing bank accounts data for bank %1 is taking more than 90 seconds.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshingBankAccountsTooLongTelemetryTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 4220031043" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The name of the key is too long. The maximum length is 50 characters.</source>
+          <target>Le nom de la clé est trop long. La longueur maximale est de 50 caractères.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ServiceKeyTooLongErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 248097893" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The name of the key is not valid.</source>
+          <target>Le nom de la clé n'est pas valide.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType InvalidKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2317527232" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>%1_%2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType NamespaceKeyTemplateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 2147530522" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up bank integration</source>
+          <target>Configurer intégration bancaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType VideoBankintegrationNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 622803075" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?linkid=828679</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType VideoBankintegrationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3188421733" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The request failed due to an underlying issue such as network connectivity, DNS failure, server certificate validation or timeout.</source>
+          <target>Échec de la demande en raison d'un problème sous-jacent, tel que la connectivité réseau, un échec DNS, la validation du certificat serveur ou une expiration de délai.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RequestUnsuccessfulErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3961776094" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>(401)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType UnauthorizedResponseCodeTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 1033613857" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/searchResult/transactions/account/itemAccountId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccountIDPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 2162809841" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/searchResult/transactions/account/accountBalance/amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceAmountPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank feed that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
+          <target>Le flux bancaire que vous importez contient des transactions dans des devises différentes du code devise %1 %2 du compte bancaire %3.</target>
+          <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 = Bank Account No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccCurrErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 764346065" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The bank feed that you are importing contains transactions for a different bank account.</source>
+          <target>Le flux bancaire que vous importez contient des transactions pour un autre compte bancaire.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccIDErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 3087634514" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This bank account is not linked to an online bank account.</source>
+          <target>Ce compte bancaire n'est pas lié à un compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BankAccNotLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 3588725952" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/searchResult/transactions/account/accountBalance/currencyCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType BalanceCurrencyPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 839769576 - NamedType 686796650" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>/root/root/searchResult/transactions/amount/currencyCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Import Bank Feed - NamedType TransactionCurrencyPathTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3194416848 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Account Linking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3194416848 - Control 3064886161 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Account Linking - Control BankAccountLink - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3194416848 - Control 3064886161 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NOTE: You are accessing a third-party's website and service. You should review the third-party's terms and privacy policy before acquiring or using its website or service.</source>
+          <target>REMARQUE : vous accédez à un service et à un site web tiers. Vous êtes invité à consulter les conditions d'utilisation et la politique de confidentialité de la partie tierce avant d'acheter ou d'utiliser ses services ou de consulter son site web.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Account Linking - Control BankAccountLink - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 2665008762 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Get Latest Stmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2665008762 - Control 4128929233 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Get Latest Stmt - Control BankAccountLinking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2665008762 - Control 4128929233 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NOTE: You are accessing a third-party website and service. You should review the third-parties terms and privacy policy before acquiring or using its website or service.</source>
+          <target>REMARQUE : vous accédez à un service et à un site web tiers. Vous êtes invité à consulter les conditions d'utilisation et la politique de confidentialité des parties tierces avant d'acheter ou d'utiliser leurs services ou de consulter leur site web.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Get Latest Stmt - Control BankAccountLinking - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Linked Bank Accounts</source>
+          <target>Comptes bancaires non liés</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the online bank account.</source>
+          <target>Spécifie le nom du compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 2699207021 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Branch No.</source>
+          <target>N° établissement</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control BankBranchNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 2699207021 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the branch number of the online bank account.</source>
+          <target>Spécifie le numéro de l'établissement du compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control BankBranchNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 4248640148 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account number of the online bank account.</source>
+          <target>Spécifie le numéro de compte du compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 4198939294 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currency that is primarily used in the online bank account. This must match the bank account that it is linked to.</source>
+          <target>Spécifie la devise principalement utilisée dans le compte bancaire en ligne. Elle doit correspondre au compte bancaire auquel elle est liée.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 46199418 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linked Bank Account</source>
+          <target>Compte bancaire lié</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control LinkedBankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Control 46199418 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bank account that the online bank account is linked to.</source>
+          <target>Spécifie le compte bancaire auquel le compte bancaire en ligne est lié.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Control LinkedBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 2680358940 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link to New Bank Account</source>
+          <target>Lier à un nouveau compte bancaire</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action LinkToNewBankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 2680358940 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new bank account with information from the non-linked bank account and link it to the related online bank account.</source>
+          <target>Créez un nouveau compte bancaire avec des informations du compte bancaire non lié et liez-le au compte bancaire en ligne associé.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action LinkToNewBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 1000833305 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link to Existing Bank Account</source>
+          <target>Lier à un compte bancaire existant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action LinkToExistingBankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 1000833305 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link the non-linked bank account to an online bank account.</source>
+          <target>Liez le compte bancaire non lié à un compte bancaire en ligne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action LinkToExistingBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 2644444661 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Online Bank Account</source>
+          <target>Supprimer le compte bancaire en ligne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action UnlinkOnlineBankAccount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - Action 2644444661 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the non-linked online bank account.</source>
+          <target>Supprimez le compte bancaire en ligne non lié.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - Action UnlinkOnlineBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - NamedType 3224092795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is already linked. Please select another account.</source>
+          <target>%1 est déjà lié. Sélectionnez un autre compte.</target>
+          <note from="Developer" annotates="general" priority="2">%1 is the bank account name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - NamedType AccountIsAlreadyLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1042039547 - NamedType 4224725409" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All non-linked bank accounts have been removed. This page will now close.</source>
+          <target>Tous les comptes bancaires non liés ont été supprimés. Cette page va à présent se fermer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee NonLinked Accounts - NamedType NoMoreAccountsMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Envestnet Yodlee Bank Feeds - Terms of use</source>
+          <target>Flux bancaires Envestnet Yodlee - Conditions d'utilisation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Control 2495031051 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. This enables efficient payment processing and bank reconciliation. To enable the service, you must read and agree to the terms of use from Envestnet Yodlee.</source>
+          <target>Le service tiers de flux bancaires Envestnet Yodlee vous permet de lier vos comptes bancaires dans Dynamics 365 Business Central à vos comptes bancaires en ligne pour obtenir des flux bancaires électroniques. Cela garantit un traitement efficace des paiements et rapprochements bancaires. Pour activer le service, vous devez lire et accepter les conditions d'utilisation d'Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control TermsOfUseViewAndAccept - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Control 2038165031 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a link to the terms of use for Envestnet Yodlee.</source>
+          <target>Spécifie un lien vers les conditions d'utilisation d'Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control TermsOfUseLbl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Control 3147377785 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you accept the terms of use for Envestnet Yodlee.</source>
+          <target>Spécifie si vous acceptez les conditions d'utilisation d'Envestnet Yodlee.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control Accept Terms of Use - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Action 2674503554 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target>Fermer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Action Close - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - NamedType 2038165031" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Envestnet Yodlee Terms of Use</source>
+          <target>Conditions d'utilisation Envestnet Yodlee</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - NamedType TermsOfUseLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - NamedType 3746871464" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>https://go.microsoft.com/fwlink/?LinkId=746179</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - NamedType TermsOfUseUrlTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 377249609 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Access Consent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 377249609 - Control 2029839919 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Access Consent - Control BankAccountAccessConsent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 377249609 - Control 2029839919 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NOTE: You are accessing a third-party website and service. You should review the third-parties terms and privacy policy before acquiring or using its website or service.</source>
+          <target>REMARQUE : vous accédez à un service et à un site web tiers. Vous êtes invité à consulter les conditions d'utilisation et la politique de confidentialité des parties tierces avant d'acheter ou d'utiliser leurs services ou de consulter leur site web.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Access Consent - Control BankAccountAccessConsent - Property InstructionalText</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

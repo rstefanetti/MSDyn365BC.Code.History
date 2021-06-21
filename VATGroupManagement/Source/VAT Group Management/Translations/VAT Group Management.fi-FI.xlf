@@ -652,14 +652,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATDueBoxNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 851437658 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Group Settlement Document Nos.</source>
-          <target state="translated">Ryhmän maksuasiakirjojen nrot</target>
+          <source>Group Settlement General Journal Template</source>
+          <target state="translated">Ryhmän laskelman yleisen päiväkirjan malli</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupSettlementGenJnlTempl - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 851437658 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number series used for the document to post the Group VAT to the settlement account.</source>
-          <target state="translated">Määrittää asiakirjassa käytettävän numerosarjan, kun ryhmän ALV kirjataan maksutilille.</target>
+          <source>Specifies the general journal template used for the document to post the Group VAT to the settlement account.</source>
+          <target state="translated">Määrittää asiakirjassa käytettävän yleisen päiväkirjan mallin, kun ryhmän ALV kirjataan maksutilille.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupSettlementGenJnlTempl - Property ToolTip</note>
         </trans-unit>
@@ -1551,8 +1551,8 @@
           <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
         </trans-unit>
         <trans-unit id="PageExtension 4146260181 - Control 851437658 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number series used for the document to post VAT for the VAT group to the settlement account.</source>
-          <target state="translated">Määrittää asiakirjassa käytettävän numerosarjan, kun ALV-ryhmän ALV kirjataan maksutilille.</target>
+          <source>Specifies the general journal template used for the document to post VAT for the VAT group to the settlement account.</source>
+          <target state="translated">Määrittää asiakirjassa käytettävän yleisen päiväkirjan mallin, kun ALV-ryhmän ALV kirjataan maksutilille.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 456029390</note>
@@ -1817,6 +1817,7 @@
         </trans-unit>
         <trans-unit id="Enum 3583765724 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Group Role - EnumValue   - Property Caption</note>
         </trans-unit>

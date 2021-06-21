@@ -119,7 +119,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Envestnet Yodlee Bank Feeds Service Setup</source>
-          <target>Configuration du service de flux bancaires Envestnet Yodlee</target>
+          <target>Configuration du service Envestnet Yodlee Bank Feeds</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Property Caption</note>
         </trans-unit>
@@ -233,7 +233,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Control 3147377785 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if you accept the terms of use for the Envestnet Yodlee Bank Feeds service.</source>
-          <target>Spécifie si vous acceptez les conditions d'utilisation du service de flux bancaires Envestnet Yodlee.</target>
+          <target>Spécifie si vous acceptez les conditions d'utilisation du service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Accept Terms of Use - Property ToolTip</note>
         </trans-unit>
@@ -257,7 +257,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Control 2575991450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the URL of the Envestnet Yodlee Bank Feeds service.</source>
-          <target>Spécifie l'URL du service de flux bancaires Envestnet Yodlee.</target>
+          <target>Spécifie l'URL du service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Service URL - Property ToolTip</note>
         </trans-unit>
@@ -269,7 +269,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Control 25011542 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the format that Envestnet Yodlee bank feeds are imported in.</source>
-          <target>Spécifie le format dans lequel les flux bancaires Envestnet Yodlee sont importés.</target>
+          <target>Spécifie le format dans lequel les flux Envestnet Yodlee Bank Feeds sont importés.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Bank Feed Import Format - Property ToolTip</note>
         </trans-unit>
@@ -281,7 +281,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Action 2179034502 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set the default values for the Envestnet Yodlee Bank Feeds service.</source>
-          <target>Définissez les valeurs par défaut pour le service de flux bancaires Envestnet Yodlee.</target>
+          <target>Définissez les valeurs par défaut pour le service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action SetDefaults - Property ToolTip</note>
         </trans-unit>
@@ -359,7 +359,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Action 2068142190 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export the data exchange definition that is used to import Envestnet Yodlee bank feeds.</source>
-          <target>Exportez la définition d'échange de données qui est utilisée pour importer des flux bancaires Envestnet Yodlee.</target>
+          <target>Exportez la définition d'échange de données qui est utilisée pour importer des flux Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ExportDataExchangeDefinition - Property ToolTip</note>
         </trans-unit>
@@ -371,7 +371,7 @@
         </trans-unit>
         <trans-unit id="Page 1268761635 - Action 4099280509 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use the default data exchange definition for the Envestnet Yodlee Bank Feeds service.</source>
-          <target>Utilisez la définition d'échange de données par défaut pour le service de flux bancaires Envestnet Yodlee.</target>
+          <target>Utilisez la définition d'échange de données par défaut pour le service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetDataExchangeDefinitionToDefault - Property ToolTip</note>
         </trans-unit>
@@ -533,7 +533,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 2715195543" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank feed service is not enabled.\\In the Envestnet Yodlee Bank Feeds Service Setup window, select the Enabled check box.</source>
-          <target>Le service de flux bancaire n'est pas activé.\\Dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee, cochez la case Activé.</target>
+          <target>Le service de flux bancaire n'est pas activé.\\Dans la fenêtre Configuration du service Envestnet Yodlee Bank Feeds, cochez la case Activé.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType NotEnabledErr</note>
         </trans-unit>
@@ -922,7 +922,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1275748075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Envestnet Yodlee Bank Feeds Service has not been enabled. Do you want to enable it?</source>
-          <target>Le service de flux bancaires Envestnet Yodlee n'a pas été activé. Souhaitez-vous l'activer?</target>
+          <target>Le service Envestnet Yodlee Bank Feeds n'a pas été activé. Souhaitez-vous l'activer?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType EnableYodleeQst</note>
         </trans-unit>
@@ -949,7 +949,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1345849937" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot use the Envestnet Yodlee Bank Feeds Service on the demonstration company. Open another company and try again.</source>
-          <target>Vous ne pouvez pas utiliser le service de flux bancaires Envestnet Yodlee dans la compagnie de démonstration. Ouvrez une autre compagnie et réessayez.</target>
+          <target>Vous ne pouvez pas utiliser le service Envestnet Yodlee Bank Feeds dans la compagnie de démonstration. Ouvrez une autre compagnie et réessayez.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType DemoCompanyWithDefaultCredentialMsg</note>
         </trans-unit>
@@ -991,7 +991,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 4126624579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up and enable the Envestnet Yodlee Bank Feeds service.</source>
-          <target>Configurez et activez le service de flux bancaires Envestnet Yodlee.</target>
+          <target>Configurez et activez le service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeBusinessSetupDescriptionTxt</note>
         </trans-unit>
@@ -1076,19 +1076,19 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1936154084" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can use the Envestnet Yodlee Bank Feeds extension to link your bank accounts to online bank accounts.</source>
-          <target>Vous pouvez utiliser l'extension Flux bancaires Envestnet Yodlee pour lier vos comptes bancaires aux comptes bancaires en ligne.</target>
+          <target>Vous pouvez utiliser l'extension Envestnet Yodlee Bank Feeds pour lier vos comptes bancaires aux comptes bancaires en ligne.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3453973001" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Notify the user of Envestnet Yodlee Bank Feeds extension capabilities.</source>
-          <target>Informez l'utilisateur des fonctionnalités de l'extension Flux bancaires Envestnet Yodlee.</target>
+          <target>Informez l'utilisateur des fonctionnalités de l'extension Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationNameTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1750935242" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Turns the user's attention to the capabilities of Envestnet Yodlee Bank Feeds extension.</source>
-          <target>Attire l'attention de l'utilisateur sur les fonctionnalités de l'extension Flux bancaires Envestnet Yodlee.</target>
+          <target>Attire l'attention de l'utilisateur sur les fonctionnalités de l'extension Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeAwarenessNotificationDescriptionTxt</note>
         </trans-unit>
@@ -1173,7 +1173,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3938776048" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Envestnet Yodlee Bank Feeds Service</source>
-          <target>Service de flux bancaires Envestnet Yodlee</target>
+          <target>Service Envestnet Yodlee Bank Feeds</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeServiceNameTxt</note>
         </trans-unit>
@@ -1184,13 +1184,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3164795350" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The password is missing in the Envestnet Yodlee Bank Feeds Service Setup window.\\Do you want to open the Envestnet Yodlee Bank Feeds Service Setup window?</source>
-          <target>Il manque le mot de passe dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee.\\Voulez-vous ouvrir la fenêtre Configuration du service de flux bancaires Envestnet Yodlee?</target>
+          <target>Il manque le mot de passe dans la fenêtre Configuration du service Envestnet Yodlee Bank Feeds.\\Voulez-vous ouvrir la fenêtre Configuration du service Envestnet Yodlee Bank Feeds?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType MissingCredentialsQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 2591510851" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The password is missing in the Envestnet Yodlee Bank Feeds Service Setup window.</source>
-          <target>Il manque le mot de passe dans la fenêtre Configuration du service de flux bancaires Envestnet Yodlee.</target>
+          <target>Il manque le mot de passe dans la fenêtre Configuration du service Envestnet Yodlee Bank Feeds.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType MissingCredentialsErr</note>
         </trans-unit>
@@ -1428,13 +1428,13 @@
         </trans-unit>
         <trans-unit id="Page 1126992302 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Envestnet Yodlee Bank Feeds - Terms of use</source>
-          <target>Flux bancaires Envestnet Yodlee - Conditions d'utilisation</target>
+          <target>Envestnet Yodlee Bank Feeds - Conditions d'utilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1126992302 - Control 2495031051 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. This enables efficient payment processing and bank reconciliation. To enable the service, you must read and agree to the terms of use from Envestnet Yodlee.</source>
-          <target>Le service tiers de flux bancaires Envestnet Yodlee vous permet de lier vos comptes bancaires dans Dynamics 365 Business Central à vos comptes bancaires en ligne pour obtenir des flux bancaires électroniques. Cela garantit un traitement efficace des paiements et rapprochements bancaires. Pour activer le service, vous devez lire et accepter les conditions d'utilisation d'Envestnet Yodlee.</target>
+          <target>Le service tiers Envestnet Yodlee Bank Feeds vous permet de lier vos comptes bancaires dans Dynamics 365 Business Central à vos comptes bancaires en ligne pour obtenir des flux bancaires électroniques. Cela garantit un traitement efficace des paiements et rapprochements bancaires. Pour activer le service, vous devez lire et accepter les conditions d'utilisation d'Envestnet Yodlee.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control TermsOfUseViewAndAccept - Property InstructionalText</note>
         </trans-unit>

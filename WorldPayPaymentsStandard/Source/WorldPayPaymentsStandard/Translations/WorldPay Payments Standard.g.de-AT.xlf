@@ -203,7 +203,7 @@
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 1516166834 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the frequency with which the logo is updated.</source>
-          <target>Gibt die Häufigkeit an, in der das Logo aktualisiert wird.</target>
+          <target>Gibt die Häufigkeit an, mit der das Logo aktualisiert wird.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Logo Update Frequency - Property ToolTip</note>
         </trans-unit>

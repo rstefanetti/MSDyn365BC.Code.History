@@ -1155,7 +1155,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Konfigurer datautvekslingsdefinisjoner</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
         </trans-unit>
@@ -1279,7 +1279,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1973572167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Konfigurer grunnleggende betalingsmåter</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdatePayMeth - Property Caption</note>
         </trans-unit>

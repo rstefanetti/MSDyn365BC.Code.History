@@ -119,7 +119,7 @@
         </trans-unit>
         <trans-unit id="Table 4133982816 - Field 1402567763 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Logo Last Update DateTime</source>
-          <target state="translated">Kennimerki síðast uppfært DateTime</target>
+          <target state="translated">Síðasta uppfærsla lógós DateTime</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - WorldPay Std. Template - Field Logo Last Update DateTime - Property Caption</note>
         </trans-unit>
@@ -197,13 +197,13 @@
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 2228795340 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the URL from which the logo will be refreshed regularly.</source>
-          <target state="translated">Tilgreinir vefslóðina sem verður notuð til að uppfæra kennimerkið reglulega.</target>
+          <target state="translated">Tilgreinir vefslóðina sem verður notuð til að uppfæra lógóið reglulega.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control LogoURL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4133982816 - Control 1516166834 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the frequency with which the logo is updated.</source>
-          <target state="translated">Tilgreinir tíðni á uppfærslu kennimerkis.</target>
+          <target state="translated">Tilgreinir uppfærslutíðni lógós.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Template - Control Logo Update Frequency - Property ToolTip</note>
         </trans-unit>

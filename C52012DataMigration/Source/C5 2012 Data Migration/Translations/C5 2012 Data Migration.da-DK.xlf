@@ -2731,7 +2731,7 @@
         </trans-unit>
         <trans-unit id="Table 3306450511 - Field 4259830144 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
-          <target state="translated">Åbn</target>
+          <target state="translated">Åben</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 CustTrans - Field Open - Property Caption</note>
         </trans-unit>
@@ -3646,7 +3646,7 @@
         </trans-unit>
         <trans-unit id="Table 3319706570 - Field 4259830144 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
-          <target state="translated">Åbn</target>
+          <target state="translated">Åben</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenTrans - Field Open - Property Caption</note>
         </trans-unit>
@@ -4161,7 +4161,7 @@
         </trans-unit>
         <trans-unit id="Table 1668449495 - Field 4259830144 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
-          <target state="translated">Åbn</target>
+          <target state="translated">Åben</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 VendTrans - Field Open - Property Caption</note>
         </trans-unit>

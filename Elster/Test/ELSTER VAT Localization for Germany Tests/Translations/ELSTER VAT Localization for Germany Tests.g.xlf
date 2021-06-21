@@ -8,6 +8,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Tables UT - NamedType SameValueMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 543560743 - NamedType 1904452951" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Places of %1 in area %2 must be %3.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Tables UT - NamedType WrongPlaceErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3541477653 - NamedType 2111744261" size-unit="char" translate="yes" xml:space="preserve">
           <source>ENU=Converted Germanic umlaut text expected.</source>
           <note from="Developer" annotates="general" priority="2"></note>

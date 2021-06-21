@@ -471,16 +471,19 @@
         </trans-unit>
         <trans-unit id="Table 2364229666 - NamedType 1272031509" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensions from the specified publisher (%1) are not enabled for custom table mapping.</source>
+          <target>Rozšíření od určeného vydavatele (%1) nejsou povolena pro vlastní mapování tabulek.</target>
           <note from="Developer" annotates="general" priority="2">%1 - The publisher of the extension they tried to select.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Migration Table Mapping - NamedType InvalidExtensionPublisherErr</note>
         </trans-unit>
         <trans-unit id="Table 2364229666 - NamedType 4224791215" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This table does not exist in the specified extension.</source>
+          <target>Tato tabulka neexistuje v zadaném rozšíření.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Migration Table Mapping - NamedType InvalidTableNameErr</note>
         </trans-unit>
         <trans-unit id="Table 2364229666 - NamedType 1538903795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>To choose %1, you must install it first.</source>
+          <target>Chcete-li zvolit %1, musíte jej nejprve nainstalovat.</target>
           <note from="Developer" annotates="general" priority="2">%1 - The name of the extension they tried to select.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Migration Table Mapping - NamedType ExtensionNotInstalledErr</note>
         </trans-unit>
@@ -527,21 +530,25 @@
         </trans-unit>
         <trans-unit id="Page 2364229666 - Action 2108379467 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Populate From Extension</source>
+          <target>Naplnit z rozšíření</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Migration Table Mapping - Action PopulateFromExtension - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2364229666 - Action 2108379467 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Populate the list with all tables from an existing extension.</source>
+          <target>Naplnění seznamu všemi tabulkami z existujícího rozšíření.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Migration Table Mapping - Action PopulateFromExtension - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2364229666 - Action 1532468774 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete All For Extension</source>
+          <target>Odstranit vše pro rozšíření</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Migration Table Mapping - Action DeleteAllForExtension - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2364229666 - Action 1532468774 - Property 2001309823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deletes all records belonging to this extension.</source>
+          <target>Odstraní všechny záznamy, které patří do tohoto rozšíření.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Migration Table Mapping - Action DeleteAllForExtension - Property Tooltip</note>
         </trans-unit>
@@ -695,7 +702,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1237167013 - NamedType 1388435422" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 of your customers are late with their payments to you</source>
-          <target>% 1 vašich zákazníků se opozdilo s platbou</target>
+          <target>%1 vašich zákazníků se opozdilo s platbou</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CalculateAmounts - NamedType OverDueSalesTxt</note>
         </trans-unit>
@@ -1430,11 +1437,13 @@
         </trans-unit>
         <trans-unit id="Page 1208606375 - Action 2819242017 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Manage Custom Tables</source>
+          <target>Správa vlastních tabulek</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Management - Action ManageCustomTables - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1208606375 - Action 2819242017 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Manage custom table mappings for the migration.</source>
+          <target>Spravujte vlastní mapování tabulek pro migraci.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Management - Action ManageCustomTables - Property ToolTip</note>
         </trans-unit>

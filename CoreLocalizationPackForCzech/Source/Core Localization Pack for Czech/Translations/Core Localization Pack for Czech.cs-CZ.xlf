@@ -3195,6 +3195,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table VIES Declaration Line CZL - Field VIES Declaration No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 30144176 - Method 2970441645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcCorrectionCell</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Schedule Management CZL - Method CalcCorrectionCell</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 30144176 - Method 3947946078" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EmptyLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Schedule Management CZL - Method EmptyLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1670026304 - Method 3431317401" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateVariableSymbol</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method CreateVariableSymbol</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1670026304 - Method 817026335" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCzBankAccountNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method CheckCzBankAccountNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1670026304 - Method 4067531460" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateBankAccountFormatCheckNotification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method CreateBankAccountFormatCheckNotification</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1670026304 - Method 2949855023" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EnableBankAccountFormatCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method EnableBankAccountFormatCheck</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1670026304 - Method 262018909" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetValidCharactersForBankAccountNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method GetValidCharactersForBankAccountNo</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1670026304 - NamedType 950880847" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account no. is too long.</source>
           <target state="translated">Číslo bankovního účtu je příliš dlouhé.</target>
@@ -3285,6 +3320,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Bank Operations Functions CZL - Method CreateBankAccountFormatCheckNotification - NamedType EnableLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2656224564 - Method 3535310017" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetupCNBDataExchange</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CNB Curr. Exch. Rate Mgt. CZL - Method SetupCNBDataExchange</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2656224564 - Method 233166553" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCNB_URI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CNB Curr. Exch. Rate Mgt. CZL - Method GetCNB_URI</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2656224564 - NamedType 2533849909" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Czech National Bank</source>
           <target state="translated">Česká Národní Banka</target>
@@ -3297,11 +3342,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CNB Curr. Exch. Rate Mgt. CZL - NamedType CNB_EXCH_RATESDescTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 669116476 - Method 4071769505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetCorrectionIfNegQty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Corrections Posting Mgt. CZL - Method SetCorrectionIfNegQty</note>
+        </trans-unit>
         <trans-unit id="Codeunit 669116476 - NamedType 525990738" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be 0 at posting on %2 %3.</source>
           <target state="translated">%1 musí být 0 při účtování %2 %3</target>
           <note from="Developer" annotates="general" priority="2">%1 = Debit/Credit Amount, %2 = G/L Account No. Caption, %3 = G/L Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Corrections Posting Mgt. CZL - NamedType DebitCreditPostingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 896770773 - Method 623082610" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FillCustomerVendorBuffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Vendor Balance CZL - Method FillCustomerVendorBuffer</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 896770773 - Method 612210238" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcCustomerVendorBalance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Vendor Balance CZL - Method CalcCustomerVendorBalance</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4087749055 - Method 4080685496" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ApplyEvaluationClassificationsForPrivacy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Class. Eval. Handler CZL - Method ApplyEvaluationClassificationsForPrivacy</note>
         </trans-unit>
         <trans-unit id="Codeunit 2299078343 - NamedType 1242649666" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 must match the filter %3.</source>
@@ -3315,6 +3380,21 @@
           <note from="Developer" annotates="general" priority="2">%1 = dimension code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimension Mgt. Handler CZL - NamedType EnterDimErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2987212430 - Method 397618509" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCashRegisterName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Cash Register Default CZL - Method GetCashRegisterName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2987212430 - Method 2504473870" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookupCashRegisterNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Cash Register Default CZL - Method LookupCashRegisterNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2987212430 - Method 1084836081" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShowDocument</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Cash Register Default CZL - Method ShowDocument</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2987212430 - Method 2440336715 - NamedType 3718527504" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default cash register for simple registration</source>
           <target state="translated">Výchozí pokladna pro jednoduchou registraci</target>
@@ -3327,11 +3407,121 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Cash Register Default CZL - Method ShowDocument - NamedType NotSupportedErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1228592804 - Method 804774961" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GenerateSignatureCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Control Codes Mgt. CZL - Method GenerateSignatureCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1228592804 - Method 3352479075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GenerateSecurityCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Control Codes Mgt. CZL - Method GenerateSecurityCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 459165084" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsEETEnabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method IsEETEnabled</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 156261537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TrySendEntryToService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method TrySendEntryToService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 1071792357" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TrySendEntryToService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method TrySendEntryToService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 1962184764" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SendEntryToService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method SendEntryToService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 3832440112" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateUUID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method CreateUUID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 2508360656" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateCancelEETEntry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method CreateCancelEETEntry</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 724200390 - Method 1314496462" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateSimpleEETEntry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - Method CreateSimpleEETEntry</note>
+        </trans-unit>
         <trans-unit id="Codeunit 724200390 - NamedType 3427207347" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Warnings...</source>
           <target state="translated">Upozornění...</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZL - NamedType WarningsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 427002451" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method Send</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 101858945" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FormatDecimal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method FormatDecimal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 3170032305" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FormatBoolean</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method FormatBoolean</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 2570117177" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FormatDateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method FormatDateTime</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 1049913076" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasErrors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method HasErrors</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 2006614073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasWarnings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method HasWarnings</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 2165774780" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetWebServiceURLTxt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method GetWebServiceURLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 733825192" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetWebServicePlayGroundURLTxt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method GetWebServicePlayGroundURLTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 155980280" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetFIKControlCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method GetFIKControlCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 3298513860" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method GetResponseText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 4172533905" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetVerificationMode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method SetVerificationMode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 465638060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetURLToDefault</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method SetURLToDefault</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471425673 - Method 1305639030" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CopyErrorMessageToTemp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method CopyErrorMessageToTemp</note>
         </trans-unit>
         <trans-unit id="Codeunit 1471425673 - NamedType 3665565679" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Message UUID received in response doesn't match to Message UUID in EET Entry.</source>
@@ -3405,11 +3595,101 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Service Management CZL - Method ProcessResponseContent - NamedType XMLFormatErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3433541476 - Method 598467860" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSignature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Text Sign. Provider CZL - Method GetSignature</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3966046768 - Method 598467860" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSignature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Xml Sign. Provider CZL - Method GetSignature</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3966046768 - Method 1049905855" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetSoapBodyId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Xml Sign. Provider CZL - Method SetSoapBodyId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3966046768 - Method 1555240505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetBinarySecurityTokenId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Xml Sign. Provider CZL - Method SetBinarySecurityTokenId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2128110587 - Method 1300013517" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDocumentFooterText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Format Document Mgt. CZL - Method GetDocumentFooterText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2128110587 - Method 2844157824" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetPaymentSymbols</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Format Document Mgt. CZL - Method SetPaymentSymbols</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1910489068 - Method 4018797222" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetReceivablesAccNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Journal Line Handler CZL - Method GetReceivablesAccNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1910489068 - Method 1338758122" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetPayablesAccNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Journal Line Handler CZL - Method GetPayablesAccNo</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1910489068 - Method 4165614636 - NamedType 3975508567" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>must be less or equal to %1</source>
           <target state="translated">musí být menší nebo rovno %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of VAT Date CZL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Journal Line Handler CZL - Method CheckVatDateOnAfterCheckGenJnlLine - NamedType MustBeLessOrEqualErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1293767784 - Method 1340315372" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateCheckAmounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen.Jnl. - Post Acc. Group CZL - Method UpdateCheckAmounts</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1293767784 - Method 3612775839" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsAcountGroupTransactionConsistent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen.Jnl. - Post Acc. Group CZL - Method IsAcountGroupTransactionConsistent</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 563756233" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DrillDownConsumptionCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method DrillDownConsumptionCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 1269357369" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DrillDownChInvWipCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method DrillDownChInvWipCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 957007268" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DrillDownChInvProdCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method DrillDownChInvProdCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 867482718" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DrillDownInvAdjmtRndCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method DrillDownInvAdjmtRndCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 3070374093" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcInvRndAdjmtCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method CalcInvRndAdjmtCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 103484166" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcConsumptionCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method CalcConsumptionCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 638152066" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcChInvWIPCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method CalcChInvWIPCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2407394958 - Method 343463368" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CalcChInvProductCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Get Inv. Report Handler CZL - Method CalcChInvProductCZL</note>
         </trans-unit>
         <trans-unit id="Codeunit 1488617410 - Method 1984926103 - NamedType 1005649326" maxwidth="10" size-unit="char" translate="yes" xml:space="preserve">
           <source>SKU0000000</source>
@@ -3578,6 +3858,16 @@
           <target state="translated">Tuzemské nákupy pod 10 tisíc</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Install Application CZL - Method InitVATCtrlReportSections - NamedType XDomesticPurchaseBelow10ThousandTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4156100231 - Method 1626265385" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShowVATLCYCorrectionConfirmationMessageCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Instruction Mgt. CZL - Method ShowVATLCYCorrectionConfirmationMessageCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4156100231 - Method 900190594" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetOpeningVATLCYCorrectionNotificationId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Instruction Mgt. CZL - Method GetOpeningVATLCYCorrectionNotificationId</note>
         </trans-unit>
         <trans-unit id="Codeunit 4156100231 - NamedType 578053703" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show warning to check the VAT amount in local currency if the purchase document (invoice, credit memo) has been posted in a foreign currency.</source>
@@ -3939,11 +4229,111 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Manual Setup Handler CZL - Method RegisterVATPeriods - NamedType VATPeriodsKeywordsTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 32026982 - Method 277826523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteAll</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post. Prev. Table Handler CZL - Method DeleteAll</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 32026982 - Method 1775858371" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetTempEETEntryCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post. Prev. Table Handler CZL - Method GetTempEETEntryCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 32026982 - Method 2538527406" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetTempEETEntryStatusLogCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post. Prev. Table Handler CZL - Method GetTempEETEntryStatusLogCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 32026982 - Method 76200747" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetTempErrorMessage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post. Prev. Table Handler CZL - Method GetTempErrorMessage</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 222511581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckPostingGroupChange</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckPostingGroupChange</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 2076923390" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCustomerPostingGroupChange</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckCustomerPostingGroupChange</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 2767154284" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVendorPostingGroupChange</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckVendorPostingGroupChange</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 898300772" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCustomerPostingGroupChangeAndCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckCustomerPostingGroupChangeAndCustomer</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 3842532652" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCustomerPostingGroupChangeAndCustomerInService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckCustomerPostingGroupChangeAndCustomerInService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 2982453103" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVendorPostingGroupChangeAndVendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckVendorPostingGroupChangeAndVendor</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 3547952513" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCustomerPostingGroupSubstSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckCustomerPostingGroupSubstSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 2470036194" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVendorPostingGroupSubstSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckVendorPostingGroupSubstSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 1232859484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckAllowChangeSalesSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckAllowChangeSalesSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 1811121277" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckAllowChangeServiceSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckAllowChangeServiceSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 1257862096" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckAllowChangePurchaseSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method CheckAllowChangePurchaseSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 3666666257" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasCustomerSamePostingGroup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method HasCustomerSamePostingGroup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1441155179 - Method 49235316" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasVendorSamePostingGroup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - Method HasVendorSamePostingGroup</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1441155179 - NamedType 3729700991" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the value %1 to %2 because %3 has not been filled in.</source>
           <target state="translated">Nemůžete změnit hodnotu %1 na %2, protože %3 nebyla vyplněna.</target>
           <note from="Developer" annotates="general" priority="2">%1 = old posting group; %2 = new posting group; %3 = tablecaption of Subst. Vendor/Customer Posting Group</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Posting Group Management CZL - NamedType CannotChangePostingGroupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1553469770 - Method 1002523848" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LookupRegistrationFromService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reg. Lookup Ext. Data CZL - Method LookupRegistrationFromService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1553469770 - Method 1260990080" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetRegistrationNoValidationWebServiceURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reg. Lookup Ext. Data CZL - Method GetRegistrationNoValidationWebServiceURL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1553469770 - Method 3927053726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetRegistrationLog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reg. Lookup Ext. Data CZL - Method SetRegistrationLog</note>
         </trans-unit>
         <trans-unit id="Codeunit 1553469770 - Method 3212637975 - NamedType 2466045198" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web service call failed.</source>
@@ -3956,6 +4346,91 @@
           <target state="translated">Webová služba vrátila chybovou zprávu.\\Stavový kód: %1\Popis: %2</target>
           <note from="Developer" annotates="general" priority="2">%1 = HTTP error status, %2 = HTTP error description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reg. Lookup Ext. Data CZL - Method SendRequest - NamedType ServiceStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 4237826445" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogCustomer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method LogCustomer</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 1517366176" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogVendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method LogVendor</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 2931993582" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogContact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method LogContact</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 3032446924" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogVerification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method LogVerification</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 3470935917" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteCustomerLog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method DeleteCustomerLog</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 4100863658" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteVendorLog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method DeleteVendorLog</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 2001652191" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteContactLog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method DeleteContactLog</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 3286758412" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AssistEditCustomerRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method AssistEditCustomerRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 753164955" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AssistEditVendorRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method AssistEditVendorRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 2653395066" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AssistEditContactRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method AssistEditContactRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 2762776566" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitServiceSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method InitServiceSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 3365809991" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetupService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method SetupService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 1168383262" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckARESForRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method CheckARESForRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 838257019" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateRecordFromRegLog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method UpdateRecordFromRegLog</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 985782935" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RunARESUpdate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method RunARESUpdate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 1494372580" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ValidateRegNoWithARES</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method ValidateRegNoWithARES</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1202452556 - Method 2084295922" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetServiceConditionsURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - Method GetServiceConditionsURL</note>
         </trans-unit>
         <trans-unit id="Codeunit 1202452556 - NamedType 3569966352" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration No. Validation Service Setup</source>
@@ -3981,6 +4456,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration Log Mgt. CZL - NamedType ValidRegNoQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 907123413 - Method 1074923635" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckRegistrationNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration No. Mgt. CZL - Method CheckRegistrationNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 907123413 - Method 2262164516" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckTaxRegistrationNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration No. Mgt. CZL - Method CheckTaxRegistrationNo</note>
+        </trans-unit>
         <trans-unit id="Codeunit 907123413 - NamedType 3479407729" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This %1 has already been entered for the following contacts:\ %2.</source>
           <target state="translated">%1 již bylo zadáno pro následující kontakty:\ %2.</target>
@@ -3998,6 +4483,11 @@
           <target state="translated">%1 již bylo zadáno pro následující dodavatele:\ %2.</target>
           <note from="Developer" annotates="general" priority="2">%1=fieldcaption, %2=vendor number list</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Registration No. Mgt. CZL - NamedType RegNoEnteredVendMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2396487535 - Method 883404678" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reopen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release VIES Declaration CZL - Method Reopen</note>
         </trans-unit>
         <trans-unit id="Codeunit 2396487535 - NamedType 3290120446" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to release for VIES declaration %1.</source>
@@ -4029,6 +4519,101 @@
           <note from="Developer" annotates="general" priority="2">%1 = Commodity Code, %2 = Commodity Limit Amount LCY, %3 = VAT Calculation Type, %4 = List of Item No., %5 = AmountToCheckLimit</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Sales Posting Handler CZL - Method CheckTariffNo - NamedType VATPostingSetupPostMismashQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1958937452 - Method 1944329340" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckTariffNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Service Posting Handler CZL - Method CheckTariffNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 4167704219" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SendRequestToWebService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SendRequestToWebService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3928791909" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SendRequestToWebService</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SendRequestToWebService</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 4092659220" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseAsText</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseAsText</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3116082063" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseContent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseContent</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 371581674" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseContent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseContent</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3601483917" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseContent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseContent</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3223829460" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseResultValue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseResultValue</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 702713391" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetHttpStatusCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetHttpStatusCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 754901666" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasResponseContentFault</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method HasResponseContentFault</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 2949345674" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasResponseFaultResult</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method HasResponseFaultResult</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 2952255054" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProcessFaultResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method ProcessFaultResponse</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 2023386795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseContentFault</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method GetResponseContentFault</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 1449431333" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetBasicCredentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SetBasicCredentials</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 2847988307" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetAction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SetAction</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3393857231" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetStreamEncoding</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SetStreamEncoding</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 3214450469" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetTimeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SetTimeout</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 1048090034" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetContentType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method SetContentType</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3670487610 - Method 1856057027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DisableHttpsCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SOAP WS Request Management CZL - Method DisableHttpsCheck</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3670487610 - Method 1906110270 - NamedType 229413448" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Web service returned error message.\\Status Code: %1\Description: %2</source>
           <target state="translated">Webová služba vrátila chybovou zprávu.\\Stavový kód: %1\Popis: %2</target>
@@ -4059,6 +4644,21 @@
           <note from="Developer" annotates="general" priority="2">%1 = NewReportId</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Substitute Report Handler CZL - Method OnSubstituteGeneralReport - NamedType UsedStandardReportMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3526969792 - Method 2329896252" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckTariffNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tariff No. Handler CZL - Method CheckTariffNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3526969792 - Method 2116852579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckTariffNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tariff No. Handler CZL - Method CheckTariffNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3526969792 - Method 1944329340" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckTariffNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tariff No. Handler CZL - Method CheckTariffNo</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3526969792 - Method 3136274771 - NamedType 3365690235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unit of Measure %1 not exist for Item No. %2.</source>
           <target state="translated">Měrná jednotka %1 není zadáno pro zboží %2.</target>
@@ -4082,6 +4682,21 @@
           <target state="translated">Částka k fakturaci nedosahuje limitu pro vratnou DPH (%5).\\Seznam čísel:\%4\\Chcete skutečně účtovat DPH s typem %3 pro kód plnění %1 a limit %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Commodity Code, %2 = Commodity Limit Amount LCY, %3 = VAT Calculation Type, %4 = List of Item No., %5 = AmountToCheckLimit</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tariff No. Handler CZL - Method CheckTariffNo - NamedType VATPostingSetupPostMismashQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3714512334 - Method 1512155415" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCZDateFormatCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - Method GetCZDateFormatCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3714512334 - Method 3816713505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCZDateTimeFormatCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - Method GetCZDateTimeFormatCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3714512334 - Method 3213706780" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetCzechDecimalFormatCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - Method GetCzechDecimalFormatCode</note>
         </trans-unit>
         <trans-unit id="Codeunit 3714512334 - NamedType 3194708097" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Czech Date Format</source>
@@ -4118,6 +4733,76 @@
           <target state="translated">CZ_DECIMAL_FORMAT</target>
           <note from="Developer" annotates="general" priority="2">Assigned to Transformation.Code field for getting decimal formatting rule for Czech numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - NamedType CZNUMBERFORMATTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 361761450" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUnreliablePayerServiceURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method GetUnreliablePayerServiceURL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 1274217505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportUnrPayerStatus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatus</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 3691713188" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportUnrPayerStatusForVendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 3998624118" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportUnrPayerList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerList</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 1990948505" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AddVATRegNoToList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method AddVATRegNoToList</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 918124205" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATRegNoCount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method GetVATRegNoCount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 481057003" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsVATRegNoExportPossible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method IsVATRegNoExportPossible</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 864158080" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetLongVATRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method GetLongVATRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 2887755889" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVendFromVATRegNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method GetVendFromVATRegNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 3633210385" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsPublicBankAccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method IsPublicBankAccount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 606532608" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PublicBankAccountCheckPossible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method PublicBankAccountCheckPossible</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 302200819" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ForeignBankAccountCheckPossible</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ForeignBankAccountCheckPossible</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 1352395119" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateUnrelPayerServiceNotSetNotification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method CreateUnrelPayerServiceNotSetNotification</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 4138417419" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OpenUnrelPayerServiceSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method OpenUnrelPayerServiceSetup</note>
         </trans-unit>
         <trans-unit id="Codeunit 2002661171 - NamedType 1164080654" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is no bank account code in the document.\\Do you want to continue?</source>
@@ -4169,7 +4854,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 3695914689" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check is disabled for vendor %1.</source>
-          <target state="translated">Kontrola je není povolena pro dodavatele %1.</target>
+          <target state="translated">Pro dodavatele %1 není kontrola povolena.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType CheckDisabledMsg</note>
         </trans-unit>
@@ -4179,11 +4864,181 @@
           <note from="Developer" annotates="general" priority="2">%1 = VAT Registration No. FieldCaption, %2 =  Country/Region CodeFieldCaption, %3 = CompanyInfromation TabeCaption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType VatRegNoEmptyMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2334311711 - Method 353829756" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetStatus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method GetStatus</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2334311711 - Method 2304536598" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetStatusExtended</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method GetStatusExtended</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2334311711 - Method 573005220" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetList</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method GetList</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2334311711 - Method 2027131604" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetInputRecordLimit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method GetInputRecordLimit</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2334311711 - Method 1737762590" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDefaultInputRecordLimit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method GetDefaultInputRecordLimit</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2334311711 - Method 2377581700 - NamedType 3081249927" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is 100 and %1 were sent. The service returns a response for only the first top 100 VAT Registration No.</source>
-          <target state="translated">Počet DIČ byl překročen. Maximální počet DIČ je 100 a %1 jich bylo odesláno. Služba vrátí odpovědi pouze pro prvních 100 registračních čísel.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
+          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is %1 and %2 were sent. The service returns a response for only the first top %1 VAT Registration No.</source>
+          <target state="translated">Počet DIČ byl překročen. Maximální počet DIČ je %1 a %2 jich bylo odesláno. Služba vrátí odpovědi pouze pro prvních %1 DIČ.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = input record limit; %2 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2666486299 - Method 3862754673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataVersion174PerDatabaseUpgradeTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZL - Method GetDataVersion174PerDatabaseUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2666486299 - Method 3351383006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataVersion180PerDatabaseUpgradeTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZL - Method GetDataVersion180PerDatabaseUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2666486299 - Method 4101999483" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataVersion174PerCompanyUpgradeTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZL - Method GetDataVersion174PerCompanyUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2666486299 - Method 1614032639" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataVersion180PerCompanyUpgradeTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZL - Method GetDataVersion180PerCompanyUpgradeTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2179650501" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckJournalTemplate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckJournalTemplate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2889248566" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckGeneralJournalLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckGeneralJournalLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 1360176081" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckItemJournalLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckItemJournalLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 894012546" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckJobJournalLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckJobJournalLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 33620529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckResJournalLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckResJournalLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 1815242074" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckInsuranceJournalLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckInsuranceJournalLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 4115781714" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckWorkDocDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckWorkDocDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2676671193" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckSysDocDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckSysDocDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 1311879652" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckWorkPostingDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckWorkPostingDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2903895576" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckSysPostingDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckSysPostingDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2507887315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckLocQuantityIncrease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckLocQuantityIncrease</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 147265924" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckLocQuantityDecrease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckLocQuantityDecrease</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 110240739" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckBankAccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckBankAccount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2445983343" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckFiscalYear</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckFiscalYear</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 3043091003" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckItemUnapply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckItemUnapply</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2084829551" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SelectDimensionsToCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method SelectDimensionsToCheck</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2954708561" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUserSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method GetUserSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 1331393490" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUserID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method GetUserID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 598152166" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckBankAccountNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckBankAccountNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 916161963" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckWhseNetChangeTemplate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckWhseNetChangeTemplate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 222302032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckReleasLocQuantityIncrease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckReleasLocQuantityIncrease</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 804376216" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckReleasLocQuantityDecrease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckReleasLocQuantityDecrease</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 2121205562" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsCheckAllowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method IsCheckAllowed</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 471779757" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetItem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method SetItem</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826843495 - Method 1072745353" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCompleteJob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - Method CheckCompleteJob</note>
         </trans-unit>
         <trans-unit id="Codeunit 826843495 - NamedType 3667203766" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Access to bank statements of bank account %1 is not allowed in extended user check.</source>
@@ -4215,6 +5070,41 @@
           <note from="Developer" annotates="general" priority="2">%1 = journal template code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Adv. Management CZL - NamedType VATStmtPermErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2602418421 - Method 2954708561" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUserSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Handler CZL - Method GetUserSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2602418421 - Method 1331393490" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetUserID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Setup Handler CZL - Method GetUserID</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4170409537 - Method 1161357592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATStatementTemplateSelection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Attribute Code Mgt. CZL - Method VATStatementTemplateSelection</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4170409537 - Method 3144548108" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitVATAttributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Attribute Code Mgt. CZL - Method InitVATAttributes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4170409537 - Method 3637872005" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeleteVATAttributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Attribute Code Mgt. CZL - Method DeleteVATAttributes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2533767483 - Method 497649325" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Control Report DPHKH1 CZL - Method ExportToXMLFile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2533767483 - Method 2085884791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLBlob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Control Report DPHKH1 CZL - Method ExportToXMLBlob</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2533767483 - Method 1623353540 - NamedType 225647726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Control Report %1.xml</source>
           <target state="translated">Kontrolní hlášení DPH %1.xml</target>
@@ -4232,6 +5122,56 @@
           <target state="translated">Faktura byla zaúčtována v cizí měně, zkontrolujte převod částky DPH na lokání měnu.\\Chcete otevřít účtovanou fakturu %1 a zkontrolovat nyní?</target>
           <note from="Developer" annotates="general" priority="2">%1 = posted document number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Corr. Notif. Handler CZL - Method ShowVATLCYCorrectionAfterPostingPurchaseInvoice - NamedType OpenVATLCYCorrectionQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2246452901 - Method 2085884791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLBlob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Rep. Exp. Runner CZL - Method ExportToXMLBlob</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 1655823596" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATCtrlReportLines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method GetVATCtrlReportLines</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 3008396933" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateBufferForStatistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CreateBufferForStatistics</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 1334306654" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateBufferForExport</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CreateBufferForExport</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 3097235571" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RoundVATCtrlReportBufferAmounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method RoundVATCtrlReportBufferAmounts</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 3828173400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckMandatoryField</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CheckMandatoryField</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 2763551547" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CloseVATCtrlReportLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CloseVATCtrlReportLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 1512809957" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportInternalDocCheckToExcel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method ExportInternalDocCheckToExcel</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 278050275" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CopyBufferToLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CopyBufferToLine</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1880880969 - Method 77470956" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CopyLineToBuffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - Method CopyLineToBuffer</note>
         </trans-unit>
         <trans-unit id="Codeunit 1880880969 - NamedType 1281019208" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
@@ -4275,11 +5215,51 @@
           <note from="Developer" annotates="general" priority="2">%1 = Statement Template Name; %2 = Statement Name; %3 = Line No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Mgt. CZL - NamedType ProgressDialogMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 924582370 - Method 1981985361" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reopen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Release CZL - Method Reopen</note>
+        </trans-unit>
         <trans-unit id="Codeunit 924582370 - NamedType 2567991466" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to release for VAT Control Report No. %1.</source>
           <target state="translated">Není co vydat pro kontrolní hlášení DPH č. %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Control Report No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Ctrl. Report Release CZL - NamedType LinesNotExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 1200013657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATDateNotAllowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method VATDateNotAllowed</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 2747991529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATPeriodCZLCheck</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method VATPeriodCZLCheck</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 943677614" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsVATDateCZLNotAllowed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method IsVATDateCZLNotAllowed</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 509437499" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVATDateCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 2227749891" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVATDateCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 3503143125" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVATDateCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3798393182 - Method 1665088987" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckVATDateCZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL</note>
         </trans-unit>
         <trans-unit id="Codeunit 3798393182 - NamedType 4119258297" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 is not within your range of allowed dates.</source>
@@ -4305,11 +5285,26 @@
           <note from="Developer" annotates="general" priority="2">%1 = VAT Period TableCaption, %2 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method VATPeriodCZLCheck - NamedType VATPeriodNotExistErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1193736441 - Method 4144689680" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT LCY Corr.-Post(Yes/No</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1193736441 - NamedType 1306755128" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to post VAT correction in LCY for %1 %2?</source>
           <target state="translated">Chcete zaúčtovat opravu DPH v LM pro %1 %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT LCY Corr.-Post(Yes/No</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2806165397 - Method 399778362" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT LCY Correction-Post CZL - Method Post</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2806165397 - Method 3352666645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetPreviewMode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT LCY Correction-Post CZL - Method SetPreviewMode</note>
         </trans-unit>
         <trans-unit id="Codeunit 2806165397 - NamedType 3606899323" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting VAT correction lines #1######\</source>
@@ -4346,6 +5341,21 @@
           <target state="translated">%1 není v rozmezí povolených dat DPH.</target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT LCY Correction-Post CZL - NamedType VATRangeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2145211580 - Method 3228459696" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method ExportToXMLFile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2145211580 - Method 431759476" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLBlob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method ExportToXMLBlob</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2145211580 - Method 781305702" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitVATAttributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method InitVATAttributes</note>
         </trans-unit>
         <trans-unit id="Codeunit 2145211580 - Method 1623353540 - NamedType 225647726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Statement %1 %2.xml</source>
@@ -4449,6 +5459,136 @@
           <note from="Developer" annotates="general" priority="2">%1 = line number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method InitVATAttributes - NamedType XTaxTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3557976167" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetParametersXmlDoc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetParametersXmlDoc</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 719949330" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetRequestPageOptionXmlElement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetRequestPageOptionXmlElement</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1036899336" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetRequestPageOptionValue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetRequestPageOptionValue</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2277938162" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetRequestPageOptionValue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method SetRequestPageOptionValue</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2351294577" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FindNodes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method FindNodes</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1496904150" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetReportRequestPageParameters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetReportRequestPageParameters</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2433579698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateParamsVATStatementName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method UpdateParamsVATStatementName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2351364925" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SaveReportRequestPageParameters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method SaveReportRequestPageParameters</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 735038165" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATStatementName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetVATStatementName</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2237122874" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetPeriod</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetPeriod</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3853380780" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSelection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetSelection</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1780420580" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetRounding</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetRounding</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3286167553" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDeclarationAndFilledBy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetDeclarationAndFilledBy</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3186743527" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetAdditionalParams</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetAdditionalParams</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 2624191057" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EncodeAttachmentsToXML</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method EncodeAttachmentsToXML</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3519786311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertToFormType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method ConvertToFormType</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 336838675" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertToSectionCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method ConvertToSectionCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 109881467" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertTaxPayerStatus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method ConvertTaxPayerStatus</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1167717203" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertBoolean</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method ConvertBoolean</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3761801729" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertSubjectType</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method ConvertSubjectType</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1026753358" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpdateParamsVATCtrlReportHeader</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method UpdateParamsVATCtrlReportHeader</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3703808599" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATCtrlReportNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetVATCtrlReportNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 3688938960" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSelection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetSelection</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 4224820448" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetRounding</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetRounding</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1892102277" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDeclarationAndFilledBy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetDeclarationAndFilledBy</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2661049333 - Method 1183763472" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVATControlReportAddParams</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - Method GetVATControlReportAddParams</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2661049333 - NamedType 3488174328" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invalid Xml Parameter.</source>
           <target state="translated">Neplatný parametr XML.</target>
@@ -4472,6 +5612,11 @@
           <target state="translated">Uzly XML k %1 nemohly být nalezeny v  dokumentu XML  %2.</target>
           <note from="Developer" annotates="general" priority="2">%1=NodePath, %2=XMLDocRoot.InnerXml</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - NamedType XmlNodesNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2671669247 - Method 431759476" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExportToXMLBlob</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Runner CZL - Method ExportToXMLBlob</note>
         </trans-unit>
         <trans-unit id="Page 2680770863 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accounting Schedule File Mapping</source>
@@ -8081,7 +9226,7 @@
         </trans-unit>
         <trans-unit id="Page 99819693 - Control 3718789915 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VIES</source>
-          <target state="translated">SH</target>
+          <target state="translated">Souhrnné hlášení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Statutory Reporting Setup CZL - Control VIES - Property Caption</note>
         </trans-unit>
@@ -8914,7 +10059,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Lines CZL - Control Closed by Document No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2183057582 - Control 3184896434 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the document date whitch the document was closed.</source>
+          <source>Specifies the document date of the document that was closed.</source>
           <target state="translated">Určuje datum dokladu, kdy byl doklad uzavřen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Lines CZL - Control Closed Date - Property ToolTip</note>
@@ -9453,6 +10598,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Control Closed by Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1461519631 - Control 3184896434 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document date of the document that was closed.</source>
+          <target state="translated">Určuje datum dokladu, kdy byl doklad uzavřen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Control Closed Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1461519631 - Control 1842764842 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Commodity Code.</source>
           <target state="translated">Určuje kód komodity.</target>
@@ -9586,8 +10737,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1461519631 - Action 1405007275 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
-          <target state="translated">Navi&amp;govat</target>
+          <source>Find Entries</source>
+          <target state="translated">Najít položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
@@ -22808,6 +23959,18 @@
           <target state="translated">Hodnota prodeje služeb</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report VIES Declaration CZL - ReportLabel TotalValueServiceSalSuppliesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Query 2178426919 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.Acr. Cust.Post.Groups CZL</source>
+          <target state="translated">Vyrovnání mezi účto sk zák CZL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Appl.Acr. Cust.Post.Groups CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2793809055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.Acr. Vend.Post.Groups CZL</source>
+          <target state="translated">Vyrovnání mezi účto sk dod CZL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Appl.Acr. Vend.Post.Groups CZL - Property Caption</note>
         </trans-unit>
         <trans-unit id="XmlPort 2024861458 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Tariff Numbers</source>

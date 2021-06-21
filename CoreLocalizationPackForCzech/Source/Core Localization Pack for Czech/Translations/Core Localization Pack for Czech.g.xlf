@@ -3484,8 +3484,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType VatRegNoEmptyMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2334311711 - Method 2377581700 - NamedType 3081249927" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is 100 and %1 were sent. The service returns a response for only the first top 100 VAT Registration No.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
+          <source>The number of VAT Registration No. has been exceeded. The maximum number of VAT Registration No. is %1 and %2 were sent. The service returns a response for only the first top %1 VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = input record limit; %2 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 826843495 - NamedType 3667203766" size-unit="char" translate="yes" xml:space="preserve">
@@ -7429,7 +7429,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Lines CZL - Control Closed by Document No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2183057582 - Control 3184896434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the document date whitch the document was closed.</source>
+          <source>Specifies the document date of the document that was closed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Lines CZL - Control Closed Date - Property ToolTip</note>
         </trans-unit>
@@ -7878,6 +7878,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Control Closed by Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1461519631 - Control 3184896434 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document date of the document that was closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Control Closed Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1461519631 - Control 1842764842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Commodity Code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7989,7 +7994,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1461519631 - Action 1405007275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>&amp;Navigate</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Ctrl. Report Subform CZL - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
@@ -19007,6 +19012,16 @@
           <source>Value of Service Sale</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report VIES Declaration CZL - ReportLabel TotalValueServiceSalSuppliesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Query 2178426919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.Acr. Cust.Post.Groups CZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Appl.Acr. Cust.Post.Groups CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2793809055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appl.Acr. Vend.Post.Groups CZL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query Appl.Acr. Vend.Post.Groups CZL - Property Caption</note>
         </trans-unit>
         <trans-unit id="XmlPort 2024861458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Tariff Numbers</source>

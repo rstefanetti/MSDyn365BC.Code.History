@@ -3,10 +3,935 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Advanced Localization Pack for Czech">
     <body>
       <group id="body">
+        <trans-unit id="Table 3427427172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detailed G/L Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 4110727982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied G/L Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Applied G/L Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 3852983238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field G/L Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 1411740825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field G/L Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Posting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 3319631365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Transaction No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 1277570778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Unapplied - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 1841447818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapplied by Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Unapplied by Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427427172 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 3918827133" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 No. %2 does not have an application entry.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType ApplicationEntryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 4168818213" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more of the entries that you selected is closed.\You cannot apply closed entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType ClosedEntryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 1185054713" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType NothingToApplyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 3215995947" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting application...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType PostingMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 2653737775" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An entered %1 must not precede the %1 of application.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Posting Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType PrecedeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 1375037186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The entered %1 must not precede the latest %1 on %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCatpion Postig Date, %2 = TableCaption G/L Entry</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType PrecedeLatestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 3010883589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sign amounts of entries must be different.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType SignAmtMustBediffErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 3865415787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The application has been successfully posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType SuccessfullyPostedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 2821321058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The entries have been successfully unapplied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType SuccessfullyUnappliedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 805371421" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To unapply these entries, the program will post correcting entries. Do you want to unapply the entries?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType UnapplyEntriesQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 884737566 - NamedType 919431862" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To unapply this entry, you must first unapply all application entries in %1 No. %2 that were posted after this entry.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType UnapplyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 151968679 - Method 3980220125 - NamedType 1731395011" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify %1 or %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Document No., %2 = FieldCaption Applies-to ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Jnl.-Apply Handler CZA - Method ApplyGLEntryCZA - NamedType MustSpecifyErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3704903574 - Method 4282663470 - NamedType 3274276298" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No. Serie was not selected.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nonstock Item Handler CZA - Method ItemNoFromItemSeriesOnBeforeGetNewItemNo - NamedType AssistEditErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2147647392 - Method 4217993601 - NamedType 2033887935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot reverse %1 No %2 because the entry was either applied to another entry or has been changed by a batch job.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reversal Entry Handler CZA - Method GLEntryPostApplicationOnCheckGLAccOnBeforeTestFields - NamedType ReverseErr</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied General Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Amount of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 1249737115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of the amounts in the Amount to Apply field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Applied Amount CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original document type which will be applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number that is assigned to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 3852983238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account that the entry has been posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control G/L Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the posting of the apply general ledger entries was posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Action 3538210097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Action Navigate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 756275509 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Action Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply General Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - NamedType 3082936142" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select an applying entry before posting the application.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - NamedType AppEntryNeedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - NamedType 1307832794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must post the application from the window where you entered the applying entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - NamedType AppFromWindowErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1503300362 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to Apply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AmmountToApply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 996175566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the apply amount for the general ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control ApplyingAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 996175566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to Apply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control ApplyingAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 307810079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AvailableAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3382765449 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of the journal entry that you have selected as the applying entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AvailableAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3382765449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AvailableAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2922851727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the entry to be applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AvailableAmountPlusApplyingAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2922851727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control AvailableAmountPlusApplyingAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1856123818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the remaining amount of general ledger entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control ApplyingRemainingAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1856123818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control ApplyingRemainingAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 4263593403 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount to apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 4263593403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1274028741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDescriptionField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1274028741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDescriptionField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2893556557 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDocumentNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2893556557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDocumentNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 4291571078 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original document type which will be applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDocumentTypeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 4291571078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryDocumentTypeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 398399866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account that the entry has been posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryGLAccountNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 398399866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryGLAccountNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 952834611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Posting Date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryPostingDateField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 952834611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control TempApplyingGLEntryPostingDateField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 184448389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount to apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Amount to Apply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3604283091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the applied amount for the general ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Applied Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3093642907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID to apply to the general ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Applies-to ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2686297204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the general ledger entry is an applying entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Applying Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the entry to be applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the original document type which will be applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3852983238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account that the entry has been posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control G/L Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the Gen. Bus. Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2139693550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the Gen. Prod. Posting Group that applies to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Gen. Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the posting of the apply general ledger entries will be recorded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2838824574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the remaining amount of general ledger entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control RemainingAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 2838824574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control RemainingAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 1844012642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a VAT business posting group code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Control 236064653 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a VAT product posting group code for the VAT Statement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Control VAT Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 4181767958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Application</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Application - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1533487230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This batch job posts G/L entries application.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Post Application - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1533487230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Application</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Post Application - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1547460674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Removes applying entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Remove Applying Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1547460674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Applying Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Remove Applying Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1420004405 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets applies to id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Set Applies-to ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1420004405 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Applies-to ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Set Applies-to ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1572623534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sets applying entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Set Applying Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 1572623534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Applying Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Set Applying Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 853748383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the selected ledger entries that will be applied to the specified record. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Show Only Selected Entries to Be Applied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 853748383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Only Selected Entries to Be Applied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Show Only Selected Entries to Be Applied - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 3475288728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 3978580347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the apllied entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Applied E&amp;ntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 3978580347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied E&amp;ntries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Applied E&amp;ntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 411585651 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the detailed ledger entries of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Detailed &amp;Ledger Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 411585651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detailed &amp;Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Detailed &amp;Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the dimension sets that are set up for the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Dimensions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 2173385693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Dimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 3538210097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Navigate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1714971046 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Detailed G/L Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of G/L entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 4110727982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of applied G/L entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Applied G/L Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number that is assigned to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 3852983238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the G/L account number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control G/L Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 1411740825 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of G/L entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control G/L Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date for the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 3319631365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Transaction No. assigned to all the entries involved in the same transaction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Transaction No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 1277570778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the line was unapplied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Unapplied - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 1841447818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the apply was canceled by entries No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control Unapplied by Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Action 3538210097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Action Navigate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2110698122 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Action Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unapply General Ledger Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - NamedType 1450815584" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to unapply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - NamedType NothingToUnapplyErr</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 2619992416 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document's number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control DocuNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 2619992416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control DocuNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 3437453232 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Posting Date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control PostDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 3437453232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control PostDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount of G/L entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 4110727982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of applied G/L entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control Applied G/L Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry number that is assigned to the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 3852983238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account that the entry has been posted to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control G/L Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 1411740825 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of G/L entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control G/L Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the posting of the unapply general ledger entries will be recorded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Action 1538659129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unselect one or more ledger entries that you want to unapply this record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Action Unapply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 168364323 - Action 1538659129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Unapply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Action Unapply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Entry Applying</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - ReportLabel 3287569589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - ReportLabel AppliedAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - ReportLabel 455449627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Entry Applying</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - ReportLabel GLEntryApplyingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2455285842 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be free or unicate applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ApplyingField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2455285842 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Applying,Unicate Applying</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ApplyingField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 1321980503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Close by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control Close by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 1167907775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the amount applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByAmountField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 1167907775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByAmountField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2634357637 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the business unit code applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByBusUnitField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2634357637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Unit Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByBusUnitField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 3208706316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the document number applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByDocNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 3208706316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByDocNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 109314875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the external document number applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByExtDocNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 109314875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByExtDocNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2322324535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the posting date applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByPostingDateField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 2322324535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ByPostingDateField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 1465000000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L entries have to be according to the dimensions applied.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ColumnDimField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 541621504 - Control 1465000000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report G/L Entry Applying CZA - Control ColumnDimField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Account to Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - NamedType 3088120073" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Date: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = To Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - NamedType ToDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 3847460886" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel DescritpionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 2833281111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel DocNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 82581272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel DocTypeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 848210651" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel EntryNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 2254474097" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel GLAccDescCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 1496693689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel GLAccNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 650077689" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel PageCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 443421780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel PostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 3098883598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel RemAmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - ReportLabel 3337055126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Account to the date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - ReportLabel ReportCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 3214291206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want each G/L account to be printed on a separate page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewPageperGLAcc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 3214291206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per G/L Acc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewPageperGLAcc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 3814107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the apllied entries is to be show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 3814107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Apllied Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 50186443 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the entries with zero remainig amt. is to be show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 166047328 - Control 50186443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Entries with zero Remainig Amt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open G/L Entries To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 1947827686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel AccountNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 2644353523" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel AccountTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 22978517" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance To Date:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel BalanceToDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 499154677" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel CreditAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 775175188" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel DebitAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 3571515244" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open G/L Entries To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel OpenGLEntriesToDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 3949032127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel Open_AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 4231693433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel OriginalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Control 3240616093 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the last date in the period for open general ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control BalanceToDateField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Control 3240616093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Balance to Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control BalanceToDateField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Control 1738519444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when entry details are to be skip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control SkipEntriesDetailField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1581848143 - Control 1738519444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Entry Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control SkipEntriesDetailField - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2996679564 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1662713252">
           <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
@@ -22,6 +947,126 @@
           <source>Specifies the default general bussines posting group.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Assembly Setup CZA - Control Default Gen.Bus.Post. Grp. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 166047328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>View the inventory account to specific date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action Inventory Account To Date CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 166047328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>Inventory Account to the date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action Inventory Account To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 1581848143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>View the list of open G/L entries to specific date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action Open G/L Entries To Date CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 1581848143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>Open G/L Entries To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action Open G/L Entries To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 541621504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>Apply the G/L Entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action G/L Entry Applying CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1540452705 - Action 541621504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>G/L Entry Applying</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action G/L Entry Applying CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 541621504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>Apply the G/L Entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action G/L Entry Applying CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 541621504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>G/L Entry Applying</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action G/L Entry Applying CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 166047328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View the inventory account to specific date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action Inventory Account To Date CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 166047328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>Inventory Account to the date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action Inventory Account To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 1581848143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View the list of open G/L entries to specific date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action Open G/L Entries To Date CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1765747566 - Action 1581848143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>Open G/L Entries To Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZA - Action Open G/L Entries To Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4172369888 - Control 782758102 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 909755016">
+          <source>Specifies that the entry is closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Entries Preview CZA - Control Closed CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 3335676794 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>The function allows you to apply general ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Apply Entries CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 3335676794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Apply Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Apply Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 3983903831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>The function allows you to cancel applied general ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Unapply Entries CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 3983903831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Unapply Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Unapply Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 594175753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Open the page with applied G/L entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Applied Entries CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Action 594175753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Applied Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Action Applied Entries CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Control 1249737115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Specifies the applied amount for the general ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Control Applied Amount CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Control 782758102 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Specifies to indicate that the general ledger entry is closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Control Closed CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Control 3004801054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Specifies the remaining amount of general ledger entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Control RemainingAmountCZAField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3121100931 - Control 3004801054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZA - Control RemainingAmountCZAField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 339927671 - Control 4138656314 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies that a storno transaction cannot be posted unless the Applies-from Entry field on the item journal line specifies an entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Inventory Setup CZA - Control Exact Cost Revers. Mandat. CZA - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 339927671 - Control 1167146520 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
           <source>Specifies skiping Update SKU on Posting</source>
@@ -57,6 +1102,11 @@
           <source>Specifies the default general bussines posting group.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Manufacturing Setup CZA - Control Default Gen.Bus.Post. Grp. CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1461960929 - Control 2437515332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379888169">
+          <source>Specifies that a storno transaction cannot be posted unless the Applies-from Entry field on the item journal line specifies an entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Manufacturing Setup CZA - Control Exact Cost Rev.Mand. Cons. CZA - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2993701579 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 351244515">
           <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
@@ -123,6 +1173,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Capacity Ledger Entry CZA - Field User ID CZA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 1040549453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Amount to Apply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Amount to Apply CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 1040549453 - Method 2126772001 - NamedType 1873694584" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3309469980">
+          <source>%1 must have the same sign as %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Amount to Apply, %2 = FieldCaption Amount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Amount to Apply CZA - Method OnValidate - NamedType SameSignErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 1040549453 - Method 2126772001 - NamedType 3598013502" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3309469980">
+          <source>%1 must not be larger than difference between %2 and %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Amount to Apply, %2 = FieldCaption Amount, %3 = FieldCaption Applied Amount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Amount to Apply CZA - Method OnValidate - NamedType DifferenceErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 1249737115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Applied Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Applied Amount CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 2678419667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Applies-to ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Applies-to ID CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 745897596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Applying Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Applying Entry CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 3991734557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Closed at Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Closed at Date CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 782758102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Closed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Closed CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3309469980 - Field 4146916728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry CZA - Field Date Filter CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 339927671 - Field 4138656314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Exact Cost Reversing Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Inventory Setup CZA - Field Exact Cost Revers. Mandat. CZA - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 339927671 - Field 1167146520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
           <source>Skip Update SKU on Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -182,6 +1282,11 @@
           <source>Default Gen. Bus. Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup CZA - Field Default Gen.Bus.Post. Grp. CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1461960929 - Field 2437515332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1379888169">
+          <source>Exact Cost Rev.Manda. (Cons.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Manufacturing Setup CZA - Field Exact Cost Rev.Mand. Cons. CZA - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1913808028 - Field 1447799953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 12946132">
           <source>Gen. Bus. Posting Group</source>
@@ -287,6 +1392,16 @@
           <source>Item No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nonstock Item No. Format CZA - EnumValue Item No. Series CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 4062700957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Advance Pack - Edit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Edit CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2801731927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Advance Pack - Read</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Read CZA - Property Caption</note>
         </trans-unit>
       </group>
     </body>

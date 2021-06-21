@@ -95,7 +95,7 @@
         </trans-unit>
         <trans-unit id="Table 2256356524 - Field 3345031184 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Maintenance Expense Account</source>
-          <target state="translated">Protiúčet údržby</target>
+          <target state="translated">Účet nákladů údržby</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table FA Extended Posting Group CZF - Field Maintenance Expense Account - Property Caption</note>
         </trans-unit>

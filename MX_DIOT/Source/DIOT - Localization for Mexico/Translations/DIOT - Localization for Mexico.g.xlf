@@ -98,6 +98,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Field Nationality - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3340763564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Report Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3340763564 - Field 3253010691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DIOT Concept No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -123,6 +128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Vendor No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3444493240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Report Vendor Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3444493240 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country/Region Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -147,6 +157,11 @@
           <source>Type of Operation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 3440505640 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prof. Services,Lease and Rent,Others</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3444493240 - Field 815981027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type of Operation Text</source>
@@ -418,6 +433,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Action Setup Links - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2287590843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Country/Region Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2287590843 - Control 1167855317 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Business Central country/region code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -542,6 +562,11 @@
           <source>Open Vendor List</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action OpenVendorDIOTTypeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Vendor DIOT Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1713992279 - Control 1452465310 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the DIOT operation type to be used for all documents and entries for this vendor.</source>

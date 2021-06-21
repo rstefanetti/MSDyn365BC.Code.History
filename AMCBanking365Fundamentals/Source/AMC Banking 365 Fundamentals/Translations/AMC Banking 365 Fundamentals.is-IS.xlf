@@ -111,6 +111,116 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field User Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 3710534362" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetApplVersion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetApplVersion</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 551547235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetBuildNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetBuildNumber</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 203918218" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RunBasisSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method RunBasisSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 4214035966" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RunBasisSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method RunBasisSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 3769398747" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RunBasisSetupV162</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method RunBasisSetupV162</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2435169106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDefsFromWebservice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetDataExchDefsFromWebservice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2242299687" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDefsFromWebservice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetDataExchDefsFromWebservice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 1710324252" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetModuleInfoFromWebservice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetModuleInfoFromWebservice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 118177173" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetModuleInfoFromWebservice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetModuleInfoFromWebservice</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 3306534096" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnPrepareSOAPRequestBodyModuleCreate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnPrepareSOAPRequestBodyModuleCreate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 3964904025" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnGetApplVersion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnGetApplVersion</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2937330899" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnGetBuildNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnGetBuildNumber</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 1302586074" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnOpenAssistedSetupPage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnOpenAssistedSetupPage</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 1023757605" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterRunBasisSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnAfterRunBasisSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 3718334097" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterRunBasisSetupV16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method OnAfterRunBasisSetupV16</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2358267802" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DisplayAssistedSetupWizard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method DisplayAssistedSetupWizard</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 1366211210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DisplayAMCBankSetup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method DisplayAMCBankSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 926534582" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UpgradeNotificationIsNeeded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method UpgradeNotificationIsNeeded</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2319069439" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetBankExportNotificationId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method GetBankExportNotificationId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 2554250466" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsDemoSolutionNotificationEnabled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method IsDemoSolutionNotificationEnabled</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 131628752" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EnableDemoSolutionNotification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method EnableDemoSolutionNotification</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3725545329 - Method 216242939" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DisableDemoSolutionNotification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - Method DisableDemoSolutionNotification</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
           <target state="translated">Tengja netbankaþjónustu sem getur breytt bankagögnum úr Business Central yfir á snið bankans, til að auðvelda gagnasendingar til bankans og gera þær nákvæmari.</target>
@@ -143,11 +253,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 2084177634" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show a notification informing the user that AMC Banking is working in Demo solution.</source>
+          <target state="translated">Sýna tilkynningu sem lætur notanda vita að AMC Banking vinni í sýniútgáfu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationDescTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 2828970756" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Notify user of AMC Banking Demo solution.</source>
+          <target state="translated">Tilkynna notanda um sýniútgáfu AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DemoSolutionNotificationNameTok</note>
         </trans-unit>
@@ -159,6 +271,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1829946207" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Don't show this again.</source>
+          <target state="translated">Ekki sýna þetta aftur.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DontShowThisAgainMsg</note>
         </trans-unit>
@@ -192,11 +305,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType YouHave2OptionsLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2319047537 - Method 4061168706" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ImportBankStatement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - Method ImportBankStatement</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2319047537 - Method 3412700922" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateBankAccRecLineTemplate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - Method CreateBankAccRecLineTemplate</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2319047537 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please wait while the operation is being completed.</source>
           <target state="translated">Bíðið þar til aðgerðinni hefur verið lokið.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - NamedType ProgressWindowMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1612795224 - Method 3868799129" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetExportFlagOnGenJnlLine</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Feedback - Method SetExportFlagOnGenJnlLine</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For more information, go to %1.</source>
@@ -257,6 +385,11 @@
           <target state="translated">Vinnur línu nr. #1######.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Mapping - NamedType ProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1051898237 - Method 3240851099" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OnAfterMakeBankSpecTrans</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Pre-Map - Method OnAfterMakeBankSpecTrans</note>
         </trans-unit>
         <trans-unit id="Codeunit 1051898237 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pre-processing line no. #1######.</source>
@@ -324,6 +457,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Import Bank STMT - NamedType ProgressMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 1592749519" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PostProcessStatementDate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method PostProcessStatementDate</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 1141935043" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PostProcessStatementEndingBalance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method PostProcessStatementEndingBalance</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 1896844513" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PreProcessBankAccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method PreProcessBankAccount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 4155874005" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PreProcessGLAccount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method PreProcessGLAccount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 365831883" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PreProcessFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method PreProcessFile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1873957797 - Method 2280935770" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasDataExchFieldValue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - Method HasDataExchFieldValue</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
           <target state="translated">Bankayfirlitið sem verið að flytja inn inniheldur færslur í gjaldmiðlum sem eru aðrir en %1 %2 í bankareikningi %3.</target>
@@ -372,6 +535,151 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MultipleStmtErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2522736627" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CreateEnvelope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method CreateEnvelope</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 1555255320" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AddElement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method AddElement</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3214450469" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetTimeout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method SetTimeout</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 4006109609" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DisableProgressDialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method DisableProgressDialog</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 4263149359" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitializeHttp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method InitializeHttp</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3175009919" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetHttpContentsDefaults</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method SetHttpContentsDefaults</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 476109377" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ExecuteWebServiceRequest</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method ExecuteWebServiceRequest</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 838041500" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckHttpCallStatus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method CheckHttpCallStatus</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2507390411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetWebServiceResponse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetWebServiceResponse</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 1730899096" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RemoveUTF16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method RemoveUTF16</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 434349374" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LogHttpActivity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method LogHttpActivity</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2525057095" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HasResponseErrors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method HasResponseErrors</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 4074388766" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShowResponseError</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method ShowResponseError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3344487441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>getNodeValue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method getNodeValue</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3366536480" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetUsedXTLJournal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method SetUsedXTLJournal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 4224522523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetGlobalFromActivityId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetGlobalFromActivityId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2248990977" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetGlobalToActivityId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetGlobalToActivityId</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3874913547" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetFinstaXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetFinstaXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2085115443" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSysErrXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetSysErrXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 148689495" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetConvErrXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetConvErrXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3916185111" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetDataXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 1238036950" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetBankXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetBankXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 2403674569" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetJournalNoPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetJournalNoPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 1651393826" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetHeaderXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetHeaderXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3167797106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSyslogXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetSyslogXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 93043293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetResponseTag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetResponseTag</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 405721997" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetConvertlogXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetConvertlogXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 3134613741" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSyslogTextXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetSyslogTextXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4228874151 - Method 490617021" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSyslogHintTextXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - Method GetSyslogHintTextXPath</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4228874151 - NamedType 3754422060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The expected data was not received from the web service.</source>
           <target state="translated">Gögn sem búist var við bárust ekki frá vefþjónustunni.</target>
@@ -401,6 +709,136 @@
           <target state="translated">Viðbótin AMC Banking 365 Fundamentals var uppfærð.\\Nauðsynlegt er að veita upplýsingar áður en hægt er að nota viðbótina. Farðu á uppsetningarsíðu AMC Banking og keyrðu aðgerðina „Uppsetning með hjálp“.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Upg. Notification - NamedType UpgNotificationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2631354264" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InitDefaultURLs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitDefaultURLs</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1391311771" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetURLsToDefault</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method SetURLsToDefault</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3656998969" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetNamespace</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetNamespace</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 845307452" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetSupportURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetSupportURL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3020556955" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CheckCredentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method CheckCredentials</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1008706458" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetErrorXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetErrorXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3874913547" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetFinstaXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetFinstaXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2303751233" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetHeaderErrXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetHeaderErrXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 148689495" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetConvErrXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetConvErrXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3916185111" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataXPath</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDataXPath</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1398875748" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HandleBankDataConvRegisterServiceConnection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method HandleBankDataConvRegisterServiceConnection</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2316539515" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ApiVersion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method ApiVersion</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1205830080" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AMCBankInitializeBaseData</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method AMCBankInitializeBaseData</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2255688455" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDefaultCreditTransferMsgNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDefaultCreditTransferMsgNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1335582946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetAMCClientCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetAMCClientCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 2565511864" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetLicenseNumber</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetLicenseNumber</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 878470323" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDemoSolutionCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDemoSolutionCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1469744165" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetLicenseXmlApi</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetLicenseXmlApi</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1676400488" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetModuleInfoWebCall</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetModuleInfoWebCall</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3660785678" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetServiceURL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetServiceURL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1095716461" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDef_CT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDataExchDef_CT</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3662826326" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDef_STMT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDataExchDef_STMT</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1623196636" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDef_PP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDataExchDef_PP</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1876512729" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDataExchDef_CREM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetDataExchDef_CREM</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 3736738453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ShowDetailedLogInfo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method ShowDetailedLogInfo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2568490811 - Method 1284922894" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetAppCaller</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method GetAppCaller</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1549064060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (standard)</source>
@@ -595,6 +1033,7 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 739346273 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select which bank accounts to set up.</source>
+          <target state="translated">Velja hvaða bankareikninga á að setja upp.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Group - Property InstructionalText</note>
         </trans-unit>
@@ -605,36 +1044,43 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 4248640148 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number used by the bank for the bank account.</source>
+          <target state="translated">Tilgreinir númerið sem bankinn notar á bankareikninginn.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Bank Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 3838875782 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select bank account to set up with Data Exch. Def. for AMC Banking.</source>
+          <target state="translated">Velja bankareikning til að setja upp með skilgreiningu gagnaskipta fyrir AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 3838875782 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update</source>
+          <target state="translated">Uppfæra</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Chose - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the relevant currency code for the bank account.</source>
+          <target state="translated">Tilgreinir viðkomandi gjaldmiðilskóða bankareikningsins.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
+          <target state="translated">Gjaldmiðilskóði</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the bank where you have the bank account.</source>
+          <target state="translated">Tilgreinir nafn bankans þar sem þú átt bankareikning.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target state="translated">Tilgreinir númer færslunnar eða skráningarinnar sem við á í samræmi við tilgreindar númeraraðir.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control No. - Property ToolTip</note>
         </trans-unit>
@@ -677,6 +1123,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1443400578 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>I understand and accept these terms</source>
+          <target state="translated">Ég skil og samþykki þessa skilmála</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AcceptConsent - Property ToolTip</note>
         </trans-unit>
@@ -688,11 +1135,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 673429932 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking 365 Fundamentals documentation</source>
+          <target state="translated">Fylgiskjöl AMC Banking 365 Fundamentals</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control AMCBankingHelpLink - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3706489003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>By enabling this extension you consent to sharing your data with an external system. Your use of this extension may be subject to additional licensing terms from AMC. To enable the service you must read and accept the terms of use.</source>
+          <target state="translated">Með því að virkja þessa viðbót er samþykki veitt fyrir því að deila gögnum með ytra kerfi. Notkun þessarar viðbótar kann að heyra undir viðbótarleyfisskilmála frá AMC. Til að virkja þjónusta þarf að lesa og samþykkja notkunarskilmálana.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ConsentPart - Property ToolTip</note>
         </trans-unit>
@@ -727,6 +1176,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2114002185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking 365 Fundamentals terms of use</source>
+          <target state="translated">Notkunarskilmálar AMC Banking 365 Fundamentals</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control TermsOfUseLink - Property ToolTip</note>
         </trans-unit>
@@ -742,16 +1192,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1947706647 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the list of banks in your country/region that you can use to import or export bank account data using the AMC Banking.</source>
+          <target state="translated">Uppfæra lista yfir banka í landinu/svæðinu sem hægt er að nota til að flytja bankagögn inn eða út með AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankListContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 282001185 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Data Exchange Definitions to current version of your system for AMC Banking.</source>
+          <target state="translated">Setja upp skilgreiningu gagnaskipta fyrir núverandi útgáfu kerfisins fyrir AMC Banking.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control DataExchContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3071017491 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup own Bank Account with DataExchangeDef. and Credit Msg. No.</source>
+          <target state="translated">Setja upp eigin bankareikning með gagnaskiptaskilgreiningu og númeri kreditskilaboða.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control OwnBankContent - Property ToolTip</note>
         </trans-unit>
@@ -781,6 +1234,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2099105517 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Bank Clearing Standards to be used on vendors bank accounts</source>
+          <target state="translated">Setja upp greiðslumiðlunarstaðla banka sem nota skal á bankareikninga lánardrottna</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankClearGrp - Property InstructionalText</note>
         </trans-unit>
@@ -815,6 +1269,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1107564148 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
+          <target state="translated">Setja upp grunngreiðslumáta fyrir AMC Banking fyrir núverandi útgáfu kerfisins.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethGrp - Property InstructionalText</note>
         </trans-unit>
@@ -825,11 +1280,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2583683381 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods for AMC Banking to current version of your system.</source>
+          <target state="translated">Setja upp grunngreiðslumáta fyrir AMC Banking fyrir núverandi útgáfu kerfisins.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2583683381 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup basic paymentmethods</source>
+          <target state="translated">Setja upp grunngreiðslumáta</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethFld - Property Caption</note>
         </trans-unit>
@@ -847,6 +1304,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2503791606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change the Service, Support and Sign-up URLs to their default values.</source>
+          <target state="translated">Breyta vefslóðum fyrir þjónustu, stuðning og nýskráningu aftur í sjálfgildi sín.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control URLContent - Property ToolTip</note>
         </trans-unit>
@@ -869,21 +1327,25 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3984635372 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode. Otherwise leave empty</source>
+          <target state="translated">Aðeins skal velja landskóða ef sía á listann yfir banka fyrir valinn landskóða. Að öðrum kosti skal hafa þetta autt</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3984635372 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Countrycode</source>
+          <target state="translated">Landskóði</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BankCountryCodeCodeFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 962401299 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only select a countrycode, if you want to filter the banklist for the selected countrycode, otherwise leave empty</source>
+          <target state="translated">Aðeins skal velja landskóða ef sía á listann yfir banka fyrir valinn landskóða, að öðrum kosti skal hafa þetta autt</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CountryFilterContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2078930944 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select countrycode to filter banklist.</source>
+          <target state="translated">Velja landskóða til að sía lista yfir banka.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SelctCountryContent - Property ToolTip</note>
         </trans-unit>
@@ -910,6 +1372,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2293885176 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applicationversion of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
+          <target state="translated">Útgáfa Business Central-forrits, notuð til að sækja samsvarandi skilgreiningu gagnaskipta úr AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVer - Property ToolTip</note>
         </trans-unit>
@@ -921,6 +1384,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3545658343 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applicationversion and buildnumber to get Data Exchange Definition for:</source>
+          <target state="translated">Útgáfa forrits og smíðarnúmer til að ná í skilgreiningu gagnaskipta fyrir:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVerContent - Property ToolTip</note>
         </trans-unit>
@@ -950,6 +1414,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3735344025 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Buildnumber of your Business Central, used for fetching the correspondent Data Exchange def. from AMC Banking</source>
+          <target state="translated">Smíðarnúmer Business Central, notað til að sækja samsvarandi skilgreiningu gagnaskipta úr AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BuildNo - Property ToolTip</note>
         </trans-unit>
@@ -990,21 +1455,25 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1614652589 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Credit Advice, to be able to import Customer payments from your banks.</source>
+          <target state="translated">Setja upp AMC Banking - kredittilkynningu, til að geta flutt inn greiðslur viðskiptamanna frá bönkunum þínum.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CAContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2334494483 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
+          <target state="translated">Setja upp AMC Banking - Positive Pay, til að geta búið til Positive Pay-skrá fyrir prentaða tékka.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PPContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3917370826 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Credit Transfer, to be able to make outgoing payments</source>
+          <target state="translated">Setja upp AMC Banking - kreditfærslu, til að geta framkvæmt greiðslur á útleið</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control CTContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3445513641 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
+          <target state="translated">Setja upp AMC Banking - bankayfirlit, til að geta flutt inn bankayfirlit frá bönkunum þínum.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control StmtContent - Property ToolTip</note>
         </trans-unit>
@@ -1066,16 +1535,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 864163580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup paymentmethods for the selected countrycode.</source>
+          <target state="translated">Setja upp greiðslumáta fyrir valinn landskóða.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 864163580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Countrycode</source>
+          <target state="translated">Landskóði</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PaymCountryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 611897472 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please choose Contrycode for Paymentmethods to setup.</source>
+          <target state="translated">Veldu landskóða fyrir greiðslumáta sem á að setja upp.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdPayMethContent - Property ToolTip</note>
         </trans-unit>
@@ -1138,6 +1610,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 742034285 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go back to previous step.</source>
+          <target state="translated">Fara til baka í fyrra skref.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Back - Property ToolTip</note>
         </trans-unit>
@@ -1149,16 +1622,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 293070022 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Click button to close the assisted setup page</source>
+          <target state="translated">Smella á hnappinn til að loka síðunni „Uppsetning með hjálp“</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 293070022 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Close</source>
+          <target state="translated">Loka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Finished - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 1235620153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to next step.</source>
+          <target state="translated">Fara í næsta skref.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Next - Property ToolTip</note>
         </trans-unit>
@@ -1170,6 +1646,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 462653747 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start update of data.</source>
+          <target state="translated">Hefja uppfærslu gagna.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Start update - Property ToolTip</note>
         </trans-unit>
@@ -1467,11 +1944,13 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 3044174282 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calls the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
+          <target state="translated">Hefur samband við skráningarsíðu þjónustunnar sem breytir bankagögnum á það snið sem krafist er af bankanum þínum þegar greiðslubankaskrár eru fluttar út og bankayfirlitsskrár fluttar inn. Þetta er vefsíðan þar sem notandanafn og aðgangsorð fyrirtækisins eru slegin inn til að skrá sig fyrir þjónustunni.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 3044174282 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sign-up here</source>
+          <target state="translated">Skráning hér</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action SignUp - Property Caption</note>
         </trans-unit>
@@ -1513,11 +1992,13 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 2444778289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calls the web site where the provider of the AMC Banking publishes status and support information about the service.</source>
+          <target state="translated">Hefur samband við vefsvæðið þar sem veitandi AMC Banking birtir stöðu og stuðningsupplýsingar um þjónustuna.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 2444778289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get support</source>
+          <target state="translated">Fá aðstoð</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action Support - Property Caption</note>
         </trans-unit>
@@ -1548,6 +2029,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3493802159 - Control 2640682147 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal associated with the Credit Transfer Register</source>
+          <target state="translated">XTL-færslubók sem tengist skráningu á kreditfærslu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 294717160</note>
@@ -1589,12 +2071,14 @@
         </trans-unit>
         <trans-unit id="TableExtension 2889429356 - Field 14686028 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal</source>
+          <target state="translated">XTL-færslubók</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>
         </trans-unit>
         <trans-unit id="TableExtension 2889429356 - Field 4135611573 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Exch. Entry No.</source>
+          <target state="translated">Færslunr. gagnaskipta</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2452330737</note>

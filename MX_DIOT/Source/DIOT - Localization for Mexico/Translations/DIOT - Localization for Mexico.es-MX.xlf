@@ -117,6 +117,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Country/Region Data - Field Nationality - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3340763564 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Report Buffer</source>
+          <target state="translated">Búfer de reporte de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3340763564 - Field 3253010691 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>DIOT Concept No.</source>
           <target state="translated">N.º de concepto DIOT</target>
@@ -146,6 +152,12 @@
           <target state="translated">N.º de proveedor</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444493240 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Report Vendor Buffer</source>
+          <target state="translated">Búfer de reporte de DIOT del proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3444493240 - Field 284764054 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country/Region Code</source>
@@ -177,6 +189,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3444493240 - Field 3440505640 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prof. Services,Lease and Rent,Others</source>
+          <target state="translated">Servicios prof.,Arrendamiento y alquiler,Otros</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Type of Operation - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3444493240 - Field 815981027 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Type of Operation Text</source>
           <target state="translated">Tipo de texto de operación</target>
@@ -200,6 +218,91 @@
           <target state="translated">N.º de proveedor</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Vendor Buffer - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1714044754" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetTypeOfOperationCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetTypeOfOperationCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1430717737" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InsertDefaultDIOTConcepts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method InsertDefaultDIOTConcepts</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 804775677" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetDIOTSetupGuideTxt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetDIOTSetupGuideTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 3245350836" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetWHTConceptNo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetWHTConceptNo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 2027332337" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetConceptCount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetConceptCount</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 2222043293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetVendorNameLength</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetVendorNameLength</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 349889708" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetNationalityLength</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetNationalityLength</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 163587031" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetMXCountryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetMXCountryCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1857322091" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IsCountryCodeMXorBlank</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method IsCountryCodeMXorBlank</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1304482684" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RemoveUnwantedCharacters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method RemoveUnwantedCharacters</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 480730177" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ConvertToDIOTCountryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method ConvertToDIOTCountryCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 941404754" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CollectDIOTDataSet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method CollectDIOTDataSet</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1340794741" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetAssistedSetupComplete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetAssistedSetupComplete</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 39599552" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SetAssistedSetupComplete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method SetAssistedSetupComplete</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 648791097" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GetNationalyForCountryCode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GetNationalyForCountryCode</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 3503321247" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GenerateDIOTFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method GenerateDIOTFile</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1712460711 - Method 1928216581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WriteDIOTFile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - Method WriteDIOTFile</note>
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 2000378165" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operations reported in DIOT must have a non-blank Type of Operation or Vendor must have a Type of Operation.</source>
@@ -501,6 +604,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concepts - Action Setup Links - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2287590843 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Country/Region Data</source>
+          <target state="translated">Datos de país o región de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Country/Region Data - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2287590843 - Control 1167855317 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Business Central country/region code.</source>
           <target state="translated">Especifica el código de país o región de Business Central.</target>
@@ -650,6 +759,12 @@
           <target state="translated">Lista de proveedores abiertos</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Setup Wizard - Action OpenVendorDIOTTypeList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1713992279 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Vendor DIOT Type</source>
+          <target state="translated">Configurar tipo de DIOT del proveedor</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1713992279 - Control 1452465310 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the DIOT operation type to be used for all documents and entries for this vendor.</source>

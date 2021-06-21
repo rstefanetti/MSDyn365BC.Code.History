@@ -1783,7 +1783,7 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Control 284764054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the country/region of the address.</source>
-          <target>Specifica il paese dell'indirizzo.</target>
+          <target>Specifica il paese/area geografica dell'indirizzo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Country/Region Code - Property ToolTip</note>
         </trans-unit>

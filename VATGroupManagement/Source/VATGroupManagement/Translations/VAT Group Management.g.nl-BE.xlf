@@ -482,7 +482,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3303680355 - NamedType 3527398778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The VAT report setup was not found. You can create one on the VAT Report Setup page.</source>
-          <target>De instelling van het btw-rapport is niet gevonden. U kunt er een maken op de pagina btw-rapportinstellingen.</target>
+          <target>De instelling van het btw-rapport is niet gevonden. U kunt er een maken op de pagina Btw-rapportinstellingen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Group Submit To Represent. - NamedType NoVATReportSetupErr</note>
         </trans-unit>
@@ -1223,7 +1223,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Action 2438272767 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to previous page</source>
-          <target>Naar vorige pagina gaan</target>
+          <target>Ga naar vorige pagina</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionBack - Property ToolTip</note>
         </trans-unit>
@@ -1235,7 +1235,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Action 914282563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go to next page</source>
-          <target>Naar volgende pagina gaan</target>
+          <target>Ga naar volgende pagina</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Action ActionNext - Property ToolTip</note>
         </trans-unit>

@@ -507,6 +507,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Desk Event CZP - Field Gen. Posting Type - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 3330568767 - Field 1389243188 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Transaction</source>
+          <target state="translated">Transakce EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Desk Event CZP - Field EET Transaction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3330568767 - Field 1844012642 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Bus. Posting Group</source>
           <target state="translated">DPH obchodní účto skupina</target>
@@ -584,6 +590,12 @@
           <target state="translated">Účtovat</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Desk User CZP - Field Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2752856172 - Field 3242230412 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post EET Only</source>
+          <target state="translated">Účtovat pouze EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Desk User CZP - Field Post EET Only - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2752856172 - Field 1581469095 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>User Full Name</source>
@@ -860,6 +872,18 @@
           <target state="translated">Stornovaný doklad</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Header CZP - Field Canceled Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2000055132 - Field 1105117216 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Cash Register</source>
+          <target state="translated">Pokladna EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Header CZP - Field EET Cash Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2000055132 - Field 1389243188 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Transaction</source>
+          <target state="translated">Transakce EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Header CZP - Field EET Transaction - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2000055132 - Field 3322554545 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -1209,11 +1233,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field Responsibility Center - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2453418483 - Field 1389243188 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Transaction</source>
+          <target state="translated">Transakce EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field EET Transaction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2453418483 - Field 3322554545 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dimension Set ID</source>
           <target state="translated">ID sady dimenzí</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field Dimension Set ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2453418483 - Field 3770308547 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter Link Code</source>
+          <target state="translated">Kód propojení zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Cash Document Line CZP - Field Advance Letter Link Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2453418483 - NamedType 430254759" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -1533,6 +1569,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Cash Document Hdr. CZP - Field Canceled Document - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3461936842 - Field 1049854345 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Entry No.</source>
+          <target state="translated">Číslo položky EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Cash Document Hdr. CZP - Field EET Entry No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3461936842 - Field 3322554545 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dimension Set ID</source>
           <target state="translated">ID sady dimenzí</target>
@@ -1790,6 +1832,12 @@
           <target state="translated">Centrum odpovědnosti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Cash Document Line CZP - Field Responsibility Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4056922900 - Field 1389243188 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EET Transaction</source>
+          <target state="translated">Transakce EET</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Cash Document Line CZP - Field EET Transaction - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4056922900 - Field 3322554545 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -2265,6 +2313,24 @@
           <note from="Developer" annotates="general" priority="2">%1 = Cash Desk No., %2 = Cash Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Copy Cash Document Mgt. CZP - Method CheckCashdDocItselfCopy - NamedType CopyItselfErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3274986858 - NamedType 3436153826" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash document %1 %2 cannot contain more then one EET line.</source>
+          <target state="translated">Pokladní doklad %1 %2 nesmí obsahovat více než jeden řádek EET.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Cash Document Type;%2 = Cash Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZP - NamedType MoreEETLinesDeniedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3274986858 - NamedType 1924705014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2</source>
+          <target state="translated">%1 %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Applied Document Type;%2 = Applied Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZP - NamedType EntryDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3274986858 - Method 3101050026 - NamedType 2379594201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash desk %1 is set up as EET cash register. Cash documents for this EET cash register is not possible release only.\Cash document action must not be set up to value "Release" or "Release and Print".</source>
+          <target state="translated">Pokladna %1 je nastavena jako pokladna EET. Pokladní doklady pro tuto pokladnu EET nelze pouze vydat.\Akce pokladního dokladu nesmí být "Vydat" nebo "Vydat a Tisk".</target>
+          <note from="Developer" annotates="general" priority="2">%1 = cash desk code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EET Management CZP - Method CheckCashDocumentAction - NamedType EETDocReleaseDeniedErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 551042222 - Method 626513958 - NamedType 2840716348" maxwidth="10" size-unit="char" translate="yes" xml:space="preserve">
           <source>CASHDESK</source>
           <target state="translated">POKLADNA</target>
@@ -2349,17 +2415,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Manual Setup Handler CZP - Method RegisterPaymentMethod - NamedType CurrencyPaymentMethodKeywordsTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 448781786 - Method 59631931 - NamedType 119899865" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 448781786 - Method 2456317816 - NamedType 119899865" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Cash Document</source>
           <target state="translated">Účtovaný pokladní doklad</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method OnAfterNavigateFindRecords - NamedType PostedCashDocumentTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method FindPostedCashDocumentHdr - NamedType PostedCashDocumentTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 448781786 - Method 59631931 - NamedType 400615531" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 448781786 - Method 245105598 - NamedType 400615531" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Desk Ledger Entry</source>
           <target state="translated">Položka pokladny</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method OnAfterNavigateFindRecords - NamedType CashDeskLedgerEntryTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method FindCashDeskLedgerEntries - NamedType CashDeskLedgerEntryTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2944632038 - NamedType 2380421072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Approval of a cash document is requested.</source>
@@ -2919,6 +2985,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Events CZP - Control Gen. Document Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3528064754 - Control 1389243188 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether rows that meet conditions for a recorded sale will be automatically populated.</source>
+          <target state="translated">Určuje, zda budou řádky, které splňují podmínky pro evidenci tržeb, automaticky naplněny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Events CZP - Control EET Transaction - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 173257307 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Desk Events Setup</source>
           <target state="translated">Nastavení pokladních případů</target>
@@ -2996,6 +3068,12 @@
           <target state="translated">Určuje kód hodnoty dimenze spojené s pokladním dokladem.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Events Setup CZP - Control Global Dimension 2 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 173257307 - Control 1389243188 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether rows that meet conditions for a recorded sale will be automatically populated.</source>
+          <target state="translated">Určuje, zda budou řádky, které splňují podmínky pro evidenci tržeb, automaticky naplněny.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Events Setup CZP - Control EET Transaction - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 173257307 - Action 3947932827 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Cash Desk Events</source>
@@ -3555,6 +3633,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Users CZP - Control Post - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1983586965 - Control 3242230412 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the user has the right to post only the documents that meet conditions for a recorded sale.</source>
+          <target state="translated">Určuje, že uživatel má právo zaúčtovat pouze doklady, které splňují podmínky pro evidenci tržeb.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Users CZP - Control Post EET Only - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1970646769 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Document</source>
           <target state="translated">Pokladní doklad</target>
@@ -3668,6 +3752,12 @@
           <target state="translated">Určuje, zda bude jednotková cena na řádku  zobrazena včetně nebo bez DPH.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Control Amount Including VAT (LCY</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Control 1105117216 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the cash register works with EET.</source>
+          <target state="translated">Určuje, zda pokladna funguje v režimu EET.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Control EET Cash Register - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1970646769 - Control 2808404044 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting</source>
@@ -3872,6 +3962,42 @@
           <target state="translated">Určuje zaokrouhlení pokladního dokladu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Cash Document Rounding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 781841601 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Advance Letters</source>
+          <target state="translated">Propojit zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Advance Letters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 781841601 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow to link partial payment of advance letters.</source>
+          <target state="translated">Umožňuje propojit dílčí platby zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Advance Letters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 1336921863 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Link Whole Advance Letter</source>
+          <target state="translated">Propojit celou zálohu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Whole Advance Letter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 1336921863 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow to link whole advance letters.</source>
+          <target state="translated">Umožňuje propojit celé zálohové faktury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action Link Whole Advance Letter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 217464279 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UnLink Linked Advance Letters</source>
+          <target state="translated">Odpojit propojené zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action UnLink Linked Advance Letters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1970646769 - Action 217464279 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unlinks linked advance letters</source>
+          <target state="translated">Zruší propojení připojené zálohové faktury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Action UnLink Linked Advance Letters - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1970646769 - Action 1359316502 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Copy Document</source>
@@ -4641,6 +4767,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control Applies-to ID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 548777415 - Control 1389243188 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether row meet conditions for a recorded sale.</source>
+          <target state="translated">Určuje, zda řádek splňuje podmínky pro evidenci tržeb.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control EET Transaction - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 548777415 - Control 2223214263 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the depreciation book to which the line will be posted if you have selected Fixed Asset in the Type field for this line.</source>
           <target state="translated">Určuje kód knihy odpisů, do které bude zaúčtován řádek, pokud jste v poli Typ na řádku zvolili Dlouhodobý majetek.</target>
@@ -4940,6 +5072,12 @@
           <target state="translated">Určuje číslo, které dodavatel používá na faktuře, které Vám zaslal nebo číslo příjemky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document CZP - Control External Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1242474714 - Control 1049854345 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the EET entry number.</source>
+          <target state="translated">Určuje číslo položky EET.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Cash Document CZP - Control EET Entry No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1242474714 - Control 3148931863 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies employee ID of creating cash desk document.</source>
@@ -6831,6 +6969,48 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel PostedLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 1350873910" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Premises:</source>
+          <target state="translated">Provozovna:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel BusinessPremisesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 2149909014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Register:</source>
+          <target state="translated">Pokladna:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel CashRegisterLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 1894740313" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Serial No.:</source>
+          <target state="translated">Pořadové číslo účtenky:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel ReceiptSerialNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 2654418150" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Datetime:</source>
+          <target state="translated">Datum a čas vydání:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel IssueDatetimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 2542038149" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BKP:</source>
+          <target state="translated">BKP:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel BKPLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 2379074762" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK:</source>
+          <target state="translated">FIK:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel FIKLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3454630479 - ReportLabel 1943837875" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKP:</source>
+          <target state="translated">PKP:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Rcpt. Cash Document CZP - ReportLabel PKPLbl</note>
+        </trans-unit>
         <trans-unit id="Report 3454630479 - ReportLabel 3701423681" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Copy</source>
           <target state="translated">Kopírovat</target>
@@ -6950,6 +7130,48 @@
           <target state="translated">Vytvořil</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel PostedLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 1350873910" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Premises:</source>
+          <target state="translated">Provozovna:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel BusinessPremisesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 2149909014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Register:</source>
+          <target state="translated">Pokladna:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel CashRegisterLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 1894740313" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Serial No.:</source>
+          <target state="translated">Pořadové číslo účtenky:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel ReceiptSerialNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 2542038149" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BKP:</source>
+          <target state="translated">BKP:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel BKPLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 2379074762" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FIK:</source>
+          <target state="translated">FIK:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel FIKLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 1943837875" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKP:</source>
+          <target state="translated">PKP:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel PKPLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1923483119 - ReportLabel 2654418150" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Datetime:</source>
+          <target state="translated">Datum a čas vydání:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Wdrl. Cash Document CZP - ReportLabel IssueDatetimeLbl</note>
         </trans-unit>
         <trans-unit id="Report 1923483119 - ReportLabel 3701423681" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Copy</source>
@@ -7814,6 +8036,20 @@
           <target state="translated">Výdej</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Cash Document Type CZP - EnumValue Withdrawal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3461835089 - EnumValue 1587433127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment</source>
+          <target state="translated">Záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1170745677</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2382115807 - EnumValue 1452136572 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Desk</source>
+          <target state="translated">Pokladna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3057751899</note>
         </trans-unit>
       </group>
     </body>

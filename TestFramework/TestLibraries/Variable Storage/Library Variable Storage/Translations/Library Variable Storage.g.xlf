@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Library Variable Storage">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1656420359 - NamedType 3432970454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Queue is not empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType AssertEmptyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1656420359 - NamedType 2424307856" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Queue is empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType AssertFullErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1656420359 - NamedType 561567251" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Queue overflow.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType OverflowErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1656420359 - NamedType 3608395537" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Queue underflow.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType UnderflowErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1656420359 - NamedType 1475155589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Index out of bounds.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Variable Storage - NamedType OutOfBoundsErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

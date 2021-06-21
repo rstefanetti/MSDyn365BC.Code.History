@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Performance Toolkit">
     <body>
       <group id="body">
+        <trans-unit id="Table 2568936622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BCPT Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Header - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2568936622 - NamedType 94476654" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base Version must be less than or equal to Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -82,6 +87,11 @@
           <source>Work date starts at</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Header - Field Work date starts at - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1790936437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BCPT Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1790936437 - NamedType 2843255911" size-unit="char" translate="yes" xml:space="preserve">
           <source>Codeunit %1 can not be used for benchmark testing.</source>
@@ -198,6 +208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Line - Field Sequence - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1790936437 - Field 4154341761 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initialization,Scenario,Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Line - Field Sequence - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1790936437 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -217,6 +232,11 @@
           <source>Version Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Line - Field Version Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1941709903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BCPT Log Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Log Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1941709903 - Field 2935858756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BCPT Code</source>
@@ -283,6 +303,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Log Entry - Field Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1941709903 - Field 513339096 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Success,Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Log Entry - Field Status - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1941709903 - Field 2801749846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tag</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -292,6 +317,11 @@
           <source>Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Log Entry - Field Version - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1512769886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BCPT Parameter Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BCPT Parameter Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1512769886 - NamedType 867925466" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commas are not allowed in parameter names or values.</source>
@@ -1002,6 +1032,11 @@
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BCPT Setup List - Control Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 494180900 - Action 1425006930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import/Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BCPT Setup List - Action Import/Export - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 494180900 - Action 3732426211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exports a file with BCPT Suite details.</source>

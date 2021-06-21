@@ -4439,7 +4439,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3714512334 - NamedType 171201099" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ_DECIMAL_FORMAT</source>
-          <target state="translated">CZ_DESETINNÝ_FORMÁT</target>
+          <target state="translated">CZ_DECIMAL_FORMAT</target>
           <note from="Developer" annotates="general" priority="2">Assigned to Transformation.Code field for getting decimal formatting rule for Czech numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - NamedType CZNUMBERFORMATTxt</note>
         </trans-unit>
@@ -14852,8 +14852,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[1]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 3649074882 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky zákazníka.</target>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek zákazníka. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[1]5D; - Property ToolTip</note>
         </trans-unit>
@@ -14864,8 +14864,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[2]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 2641815919 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky zákazníka.</target>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek zákazníka. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[2]5D; - Property ToolTip</note>
         </trans-unit>
@@ -14876,8 +14876,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[3]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 4164555072 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky zákazníka.</target>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek zákazníka. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[3]5D; - Property ToolTip</note>
         </trans-unit>
@@ -14888,8 +14888,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[4]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 1806023925 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky zákazníka.</target>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek zákazníka. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[4]5D; - Property ToolTip</note>
         </trans-unit>
@@ -14900,8 +14900,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[5]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 3349551430 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky zákazníka.</target>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek zákazníka. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[5]5D; - Property ToolTip</note>
         </trans-unit>
@@ -15110,8 +15110,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[1]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 3649074882 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky dodavatele.</target>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek dodavatele. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[1]5D; - Property ToolTip</note>
         </trans-unit>
@@ -15122,8 +15122,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[2]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 2641815919 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky dodavatele.</target>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek dodavatele. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[2]5D; - Property ToolTip</note>
         </trans-unit>
@@ -15134,8 +15134,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[3]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 4164555072 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky dodavatele.</target>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek dodavatele. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[3]5D; - Property ToolTip</note>
         </trans-unit>
@@ -15146,8 +15146,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[4]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 1806023925 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky dodavatele.</target>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek dodavatele. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[4]5D; - Property ToolTip</note>
         </trans-unit>
@@ -15158,8 +15158,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[5]5D; - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 3349551430 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
-          <target state="translated">Určuje počet dní splatnosti pro výpočet položky dodavatele.</target>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
+          <target state="translated">Určuje číslo pro výpočet data splatnosti položek dodavatele. Zadejte hodnotu ve formátu 30D, 60D nebo 1M.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[5]5D; - Property ToolTip</note>
         </trans-unit>
@@ -25093,7 +25093,7 @@
         </trans-unit>
         <trans-unit id="Enum 68159680 - EnumValue 2587701375 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base</source>
-          <target state="translated">Základ</target>
+          <target state="translated">Základní</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Rate CZL - EnumValue Base - Property Caption</note>
         </trans-unit>

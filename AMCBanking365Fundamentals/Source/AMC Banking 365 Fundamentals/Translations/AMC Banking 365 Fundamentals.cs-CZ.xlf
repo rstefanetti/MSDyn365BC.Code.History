@@ -105,7 +105,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 129688762 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the user name that represents your company's sign-up for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files.</source>
-          <target>Určuje jméno uživatele, který reprezentuje přihlášení společnosti do služby, který konvertuje bankovní data do formátu požadovaného vaší bankou, když exportujete bankovní platební soubory a importujete soubory bankovních výpisů.</target>
+          <target state="translated">Určuje jméno uživatele, který reprezentuje přihlášení společnosti do služby, který konvertuje bankovní data do formátu požadovaného vaší bankou, když exportujete bankovní platební soubory a importujete soubory bankovních výpisů.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control User Name - Property ToolTip</note>
         </trans-unit>
@@ -116,7 +116,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 2575460289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies your company's password to the service that converts bank data to the format required by your bank. The password that you enter in the Password field must be the same as on the service provider's sign-on page.</source>
-          <target>Určuje heslo vaší společnosti ke službě, která přeměňuje bankovní data do formátu požadovaného vaší bankou. Heslo zadané do pole Heslo musí být identické jako pro přihlašovací stránku na straně poskytovatele.</target>
+          <target state="translated">Určuje heslo vaší společnosti ke službě, která přeměňuje bankovní data do formátu požadovaného vaší bankou. Heslo zadané do pole Heslo musí být identické jako pro přihlašovací stránku na straně poskytovatele.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Password - Property ToolTip</note>
         </trans-unit>
@@ -157,7 +157,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 2575991450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
-          <target>Určuje adresu služby, která převádí bankovní data do formátu vyžadovaného Vaší bankou, když exportujete soubory bankovních plateb a importujete soubory výpisů. Služba určená v poli URL služby je volána, když uživatelé exportují nebo importují bankovní soubory.</target>
+          <target state="translated">Určuje adresu služby, která převádí bankovní data do formátu vyžadovaného Vaší bankou, když exportujete soubory bankovních plateb a importujete soubory výpisů. Služba určená v poli URL služby je volána, když uživatelé exportují nebo importují bankovní soubory.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Service URL - Property ToolTip</note>
         </trans-unit>
@@ -168,7 +168,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 4124192386 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assisted Setup</source>
-          <target>Asistované nastavení</target>
+          <target state="translated">Asistované nastavení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action AMCAssistedSetup - Property Caption</note>
         </trans-unit>
@@ -194,13 +194,13 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Action 841712208 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable or disable data encryption. Data encryption helps make sure that unauthorized users cannot read business data.</source>
-          <target>Povolit nebo zakázat šifrování. Šifrování dat pomáhá zajistit, že neoprávnění uživatelé nebudou moci přečíst obchodní data.</target>
+          <target state="translated">Povolit nebo zakázat šifrování. Šifrování dat pomáhá zajistit, že neoprávnění uživatelé nebudou moci přečíst obchodní data.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Action EncryptionManagement - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3704095706 - NamedType 3838141333" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management page?</source>
-          <target>Šifrování dat není aktivováno. Doporučujeme šifrovat data. \Chcete otevřít okno Správa šifrování dat?</target>
+          <target state="translated">Šifrování dat není aktivováno. Doporučujeme šifrovat data. \Chcete otevřít okno Správa šifrování dat?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - NamedType EncryptionIsNotActivatedQst</note>
         </trans-unit>
@@ -221,31 +221,31 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For more information, go to %1.</source>
-          <target>Pro více informací jděte na %1.</target>
+          <target state="translated">Pro více informací jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AddnlInfoTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 82900180" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Web Service Setup User Name (%1) does not match the License number (%2) or the (%3)</source>
-          <target>Uživatelské jméno pro nastavení webové služby (%1) neodpovídá číslo licence (%2) nebo (%3)</target>
+          <target state="translated">Uživatelské jméno pro nastavení webové služby (%1) neodpovídá číslo licence (%2) nebo (%3)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType NotCorrectUserLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1828158795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have two option to change this:</source>
-          <target>Máte dvě možnosti, jak to změnit:</target>
+          <target state="translated">Máte dvě možnosti, jak to změnit:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType YouHave2OptionsLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 319023829" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>1. Please register the User Name (%1) using the Sign-up URL %2</source>
-          <target>1. Zaregistrujte uživatelské jméno (%1) pomocí adresy URL poskytovateli %2</target>
+          <target state="translated">1. Zaregistrujte uživatelské jméno (%1) pomocí adresy URL poskytovateli %2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType UseBCLicenseLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 3074365349" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>2. Delete the Web Service setup record using the Trash can symbol and reopen the page to use (%1)</source>
-          <target>2. Odstraňte záznam nastavení webové služby s použitím znaku koše a znovu otevřete stránku, kterou chcete použít (%1)</target>
+          <target state="translated">2. Odstraňte záznam nastavení webové služby s použitím znaku koše a znovu otevřete stránku, kterou chcete použít (%1)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType UseDemoUserLbl</note>
         </trans-unit>
@@ -256,13 +256,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1098773093" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The web service returned an error message:\</source>
-          <target>Webová služba vrátila chybovou zprávu:\</target>
+          <target state="translated">Webová služba vrátila chybovou zprávu:\</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType TryLoadErrorLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 4203108968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status code: %1</source>
-          <target>Stavový kód: %1</target>
+          <target state="translated">Stavový kód: %1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType WebLoadErrorLbl</note>
         </trans-unit>
@@ -293,37 +293,37 @@
         </trans-unit>
         <trans-unit id="Codeunit 2319047537 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please wait while the operation is being completed.</source>
-          <target>Prosím počkejte na dokončení operace.</target>
+          <target state="translated">Prosím počkejte na dokončení operace.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Bank Acc. Rec Lin - NamedType ProgressWindowMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 4285678296" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 XML tag was not found, or was found more than once in the body content of the SOAP request.</source>
-          <target>%1 XML tagů nebylo nalezeno, nebo byl nalezen více jak jeden obsah ze SOAP požadavku.</target>
+          <target state="translated">%1 XML tagů nebylo nalezeno, nebo byl nalezen více jak jeden obsah ze SOAP požadavku.</target>
           <note from="Developer" annotates="general" priority="2">%1=XmlTag</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType BodyContentErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 3314864117" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file has not been saved.</source>
-          <target>Soubor nebude uložen.</target>
+          <target state="translated">Soubor nebude uložen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType DownloadFromStreamErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 1810949511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The request body is not set.</source>
-          <target>Tělo žádosti není zadáno.</target>
+          <target state="translated">Tělo žádosti není zadáno.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType NoRequestBodyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 842108793" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to export.</source>
-          <target>Není co exportovat.</target>
+          <target state="translated">Není co exportovat.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType NothingToExportErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 3826889551" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has not returned any payment data.\\For more information, go to %1.</source>
-          <target>Služba AMC Banking nevrátila žádná data plateb.\\Pro více informací, jděte na %1.</target>
+          <target state="translated">Služba AMC Banking nevrátila žádná data plateb.\\Pro více informací, jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType PaymentDataNotCollectedErr</note>
         </trans-unit>
@@ -334,49 +334,49 @@
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has found one or more errors.\\For each line to be exported, resolve the errors that are displayed in the FactBox.\\Choose an error to see more information.</source>
-          <target>Služba AMC Banking nalezla jednu nebo více chyb.\\Pro každý řádek, který má být exportován, vyřešte problém, který je zobrazen ve FactBoxu.\\Pro zobrazení více informací vyberte danou chybu.</target>
+          <target state="translated">Služba AMC Banking nalezla jednu nebo více chyb.\\Pro každý řádek, který má být exportován, vyřešte problém, který je zobrazen ve FactBoxu.\\Pro zobrazení více informací vyberte danou chybu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType HasErrorsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 1219964534" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is an incorrect file conversion error element in the response. Reference: %1, error text: %2.</source>
-          <target>Nesprávný soubor konverze, je chyba elementu v reakci. Odkaz: %1, text chyby: %2.</target>
+          <target state="translated">Nesprávný soubor konverze, je chyba elementu v reakci. Odkaz: %1, text chyby: %2.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType IncorrectElementErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 531377784" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has returned the following error message:</source>
-          <target>AMC banking vrátilo následující chybovou zprávu:</target>
+          <target state="translated">AMC banking vrátilo následující chybovou zprávu:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType BankDataConvServSysErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For more information, go to %1.</source>
-          <target>Pro více informací, jděte na %1.</target>
+          <target state="translated">Pro více informací, jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2413088747 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processing line no. #1######.</source>
-          <target>Zpracování řádku č. #1######.</target>
+          <target state="translated">Zpracování řádku č. #1######.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Mapping - NamedType ProgressMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1051898237 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pre-processing line no. #1######.</source>
-          <target>Předzpracování řádku č. #1######.</target>
+          <target state="translated">Předzpracování řádku č. #1######.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Pre-Map - NamedType ProgressMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3605141263 - NamedType 4134082808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file export has one or more errors.\\For each line to be exported, resolve the errors displayed to the right and then try to export again.</source>
-          <target>Exportovaný soubor obsahuje jednu nebo více chyb.\\Pro každý řádek, který má být exportován, musíte odstranit všechny chyby, které jsou zobrazeny a potom zkuste export znovu.</target>
+          <target state="translated">Exportovaný soubor obsahuje jednu nebo více chyb.\\Pro každý řádek, který má být exportován, musíte odstranit všechny chyby, které jsou zobrazeny a potom zkuste export znovu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Valid. - NamedType HasErrorsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3927356675 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For more information, go to %1.</source>
-          <target>Pro více informací, jděte na %1.</target>
+          <target state="translated">Pro více informací, jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
@@ -387,13 +387,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 3927356675 - NamedType 4096535761" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has returned the following error message:</source>
-          <target>AMC banking vrátilo následující chybovou zprávu:</target>
+          <target state="translated">AMC banking vrátilo následující chybovou zprávu:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType AMCBankServSysErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3857426880 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Preparing line number #1#######</source>
-          <target>Připravuji číslo řádku #1#######</target>
+          <target state="translated">Připravuji číslo řádku #1#######</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Import Bank STMT - NamedType ProgressMsg</note>
         </trans-unit>
@@ -424,13 +424,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 1810949511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The request body is not set.</source>
-          <target>Tělo žádosti není zadáno.</target>
+          <target state="translated">Tělo žádosti není zadáno.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType NoRequestBodyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 3014721114" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Files(*.*)|*.*|XML Files(*.xml)|*.xml|Text Files(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</source>
-          <target>Všechny soubory(*.*)|*.*|XML Files(*.xml)|*.xml|Textové soubory(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</target>
+          <target state="translated">Všechny soubory(*.*)|*.*|XML Files(*.xml)|*.xml|Textové soubory(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FileFilterTxt</note>
         </trans-unit>
@@ -441,7 +441,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 1051517620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has not returned any statement transactions.\\For more information, go to %1.</source>
-          <target>AMC Banking nevrátilo žádný výpis transakcí.\\Pro více informací, jděte na %1.</target>
+          <target state="translated">AMC Banking nevrátilo žádný výpis transakcí.\\Pro více informací, jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FinstaNotCollectedErr</note>
         </trans-unit>
@@ -452,31 +452,31 @@
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 2711926903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Select a file to import.</source>
-          <target>Vyberte soubor k importu.</target>
+          <target state="translated">Vyberte soubor k importu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType ImportBankStmtTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 531377784" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has returned the following error message:</source>
-          <target>AMC banking vrátilo následující chybovou zprávu:</target>
+          <target state="translated">AMC banking vrátilo následující chybovou zprávu:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType BankDataConvServSysErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 2474376791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For more information, go to %1.</source>
-          <target>Pro více informací, jděte na %1.</target>
+          <target state="translated">Pro více informací, jděte na %1.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 3164795350" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is missing the user name or password. Do you want to open the %2 page?</source>
-          <target>%1 chybí jméno uživatele nebo heslo. Chcete otevřít stránku %2?</target>
+          <target state="translated">%1 chybí jméno uživatele nebo heslo. Chcete otevřít stránku %2?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType MissingCredentialsQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2591510851" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The user name and password must be filled in %1 page.</source>
-          <target>Na stránce %1 musí být vyplněno jméno uživatele a heslo.</target>
+          <target state="translated">Na stránce %1 musí být vyplněno jméno uživatele a heslo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType MissingCredentialsErr</note>
         </trans-unit>
@@ -557,7 +557,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2654677523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Transfer Msg. ID</source>
-          <target>ID zprávy převodu hotovosti</target>
+          <target state="translated">ID zprávy převodu hotovosti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNameTxt</note>
         </trans-unit>
@@ -568,7 +568,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1549064060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (standard)</source>
-          <target>Převod z mezinárodního účtu na účet (standard)</target>
+          <target state="translated">Převod z mezinárodního účtu na účet (standard)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc1Txt</note>
         </trans-unit>
@@ -579,7 +579,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 4065590717" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (express)</source>
-          <target>Převod z mezinárodního účtu na účet (expres)</target>
+          <target state="translated">Převod z mezinárodního účtu na účet (expres)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc2Txt</note>
         </trans-unit>
@@ -590,7 +590,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2681215102" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer</source>
-          <target>Převod z mezinárodního účtu na účet</target>
+          <target state="translated">Převod z mezinárodního účtu na účet</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc3Txt</note>
         </trans-unit>
@@ -601,7 +601,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1079285239" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (high value)</source>
-          <target>Převod z mezinárodního účtu na účet (vysoká hodnota)</target>
+          <target state="translated">Převod z mezinárodního účtu na účet (vysoká hodnota)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc4Txt</note>
         </trans-unit>
@@ -612,7 +612,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 416066872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (inter company)</source>
-          <target>Převod z mezinárodního účtu na účet (mezipodnikový)</target>
+          <target state="translated">Převod z mezinárodního účtu na účet (mezipodnikový)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc5Txt</note>
         </trans-unit>
@@ -623,7 +623,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2253012985" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer</source>
-          <target>Převod z tuzemského účtu na účet</target>
+          <target state="translated">Převod z tuzemského účtu na účet</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc6Txt</note>
         </trans-unit>
@@ -634,7 +634,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1548217914" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer (high value)</source>
-          <target>Převod z tuzemského účtu na účet (vysoká hodnota)</target>
+          <target state="translated">Převod z tuzemského účtu na účet (vysoká hodnota)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc7Txt</note>
         </trans-unit>
@@ -645,7 +645,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1793495987" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer (inter company)</source>
-          <target>Převod z tuzemského účtu na účet (mezipodnikový)</target>
+          <target state="translated">Převod z tuzemského účtu na účet (mezipodnikový)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc8Txt</note>
         </trans-unit>
@@ -656,7 +656,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 3630442100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SEPA credit transfer</source>
-          <target>SEPA úvěrový převod</target>
+          <target state="translated">SEPA úvěrový převod</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc9Txt</note>
         </trans-unit>
@@ -677,7 +677,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2491202904" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Austrian BLZ number</source>
-          <target>Rakouský BLZ kód</target>
+          <target state="translated">Rakouský BLZ kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc1Txt</note>
         </trans-unit>
@@ -688,7 +688,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 712762265" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Canadian ARN number</source>
-          <target>Kanadský ARN kód</target>
+          <target state="translated">Kanadský ARN kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc2Txt</note>
         </trans-unit>
@@ -699,7 +699,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3623353946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS number</source>
-          <target>Americký CHIPS kód</target>
+          <target state="translated">Americký CHIPS kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc3Txt</note>
         </trans-unit>
@@ -710,7 +710,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3566261211" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS universal number</source>
-          <target>Americký univerzální CHIPS kód</target>
+          <target state="translated">Americký univerzální CHIPS kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc4Txt</note>
         </trans-unit>
@@ -721,7 +721,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2861466140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensive branch network number</source>
-          <target>Rozsáhlý kód pobočkové sítě</target>
+          <target state="translated">Rozsáhlý kód pobočkové sítě</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc5Txt</note>
         </trans-unit>
@@ -732,7 +732,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1845759453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American Fedwire/ABA routing number</source>
-          <target>Americký Fedwire/ABA kód směrování</target>
+          <target state="translated">Americký Fedwire/ABA kód směrování</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc6Txt</note>
         </trans-unit>
@@ -743,7 +743,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1182541086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>German BLZ number</source>
-          <target>Německý BLZ kód</target>
+          <target state="translated">Německý BLZ kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc7Txt</note>
         </trans-unit>
@@ -754,7 +754,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hong Kong branch number</source>
-          <target>Číslo pobočky Hong Kongu</target>
+          <target state="translated">Číslo pobočky Hong Kongu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
         </trans-unit>
@@ -765,7 +765,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 277613648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Irish NSC number</source>
-          <target>Irský NSC kód</target>
+          <target state="translated">Irský NSC kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc9Txt</note>
         </trans-unit>
@@ -776,7 +776,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1424949952" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Italian domestic code</source>
-          <target>Italský vnitrostátní kód</target>
+          <target state="translated">Italský vnitrostátní kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc10Txt</note>
         </trans-unit>
@@ -787,7 +787,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2450858303" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Zealand NCC number</source>
-          <target>NCC kód Nového Zélandu</target>
+          <target state="translated">NCC kód Nového Zélandu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc11Txt</note>
         </trans-unit>
@@ -798,7 +798,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4040992194" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portuguese NCC number</source>
-          <target>Portugalský NCC kód</target>
+          <target state="translated">Portugalský NCC kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc12Txt</note>
         </trans-unit>
@@ -809,7 +809,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1482888833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Russian CBI code</source>
-          <target>Ruský CBI kód</target>
+          <target state="translated">Ruský CBI kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc13Txt</note>
         </trans-unit>
@@ -820,7 +820,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2557947140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>South African NCC number</source>
-          <target>Jihoafrický NCC kód</target>
+          <target state="translated">Jihoafrický NCC kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc14Txt</note>
         </trans-unit>
@@ -831,7 +831,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3583855491" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Spanish domestic interbanking number</source>
-          <target>Španělský vnitrostátní mezibankovní kód</target>
+          <target state="translated">Španělský vnitrostátní mezibankovní kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc15Txt</note>
         </trans-unit>
@@ -842,7 +842,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 879022086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss BC number</source>
-          <target>Švýcarský BC kód</target>
+          <target state="translated">Švýcarský BC kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc16Txt</note>
         </trans-unit>
@@ -853,7 +853,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1894728773" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss SIC number</source>
-          <target>Švýcarský SIC kód</target>
+          <target state="translated">Švýcarský SIC kód</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc17Txt</note>
         </trans-unit>
@@ -864,61 +864,61 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2164849672" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>British sorting code</source>
-          <target>Britský kód třídění</target>
+          <target state="translated">Britský kód třídění</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc18Txt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 3179812607" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in %1 %2. This conflicts with the %3 %4.\\Do you want to continue?</source>
-          <target>Bankovní výpis, který importujete obsahuje transakce v %1 %2. To je v rozporu s %3 %4.\Chcete pokračovat?</target>
+          <target state="translated">Bankovní výpis, který importujete obsahuje transakce v %1 %2. To je v rozporu s %3 %4.\Chcete pokračovat?</target>
           <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 %4 = LCY Code DKK.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType DiffCurrQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1106260476" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The statement date was not found in the data to be imported.</source>
-          <target>Datum bankovního výpisu nebyl nalezen v datech k importu.</target>
+          <target state="translated">Datum bankovního výpisu nebyl nalezen v datech k importu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingStmtDateInDataMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 742056434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The closing balance was not found in the data to be imported.</source>
-          <target>Konečné saldo nebylo nalezeno v datech k importu.</target>
+          <target state="translated">Konečné saldo nebylo nalezeno v datech k importu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingClosingBalInDataMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 4082076936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account %1 does not have a bank account number.\\Do you want to continue?</source>
-          <target>Bankovní účet %1 nemá číslo bankovní účtu.\\Chcete pokračovat?</target>
+          <target state="translated">Bankovní účet %1 nemá číslo bankovní účtu.\\Chcete pokračovat?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
-          <target>Bankovní výpis, který importujete obsahuje transakce v měnách jiných, než %1 %2 bankovního účtu %3.</target>
+          <target state="translated">Bankovní výpis, který importujete obsahuje transakce v měnách jiných, než %1 %2 bankovního účtu %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 = Bank Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccCurrErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2692357613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file that you are trying to import contains more than one bank statement.</source>
-          <target>Soubor, který se pokoušíte importovat, obsahuje více než jeden bankovní výpis. </target>
+          <target state="translated">Soubor, který se pokoušíte importovat, obsahuje více než jeden bankovní výpis. </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MultipleStmtErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2242781076" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank account number was not found in the data to be imported.</source>
-          <target>Číslo bankovního účtu nebylo v datech k importu nalezeno. </target>
+          <target state="translated">Číslo bankovního účtu nebylo v datech k importu nalezeno. </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoInDataErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1975081983" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account %1 does not have the bank account number %2, as specified in the bank statement file.\\Do you want to continue?</source>
-          <target>Bankovní účet %1 nemá číslo bankovního účtu %2, které je obsaženo v souboru s bankovním výpisem.\\Chcete pokračovat?</target>
+          <target state="translated">Bankovní účet %1 nemá číslo bankovního účtu %2, které je obsaženo v souboru s bankovním výpisem.\\Chcete pokračovat?</target>
           <note from="Developer" annotates="general" priority="2">%1=Value; %2 = Bank account no.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccMismatchQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 33113820 - NamedType 930138903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We have updated the AMC Banking 365 Foundation extension.\\Before you can use the extension you must provide some information. Go to the AMC Banking Setup page and run the Assisted Setup action.</source>
-          <target>Aktualizovali jsme rozšíření AMC Banking 365 Foundation.\\Před použitím tohoto rozšíření je nutné zadat některé informace. Přejděte na stránku Nastavení AMC Banking a spusťte akci instalace s asistencí.</target>
+          <target state="translated">Aktualizovali jsme rozšíření AMC Banking 365 Foundation.\\Před použitím tohoto rozšíření je nutné zadat některé informace. Přejděte na stránku Nastavení AMC Banking a spusťte akci instalace s asistencí.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Upg. Notification - NamedType UpgNotificationLbl</note>
         </trans-unit>
@@ -944,7 +944,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3724241072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Welcome</source>
-          <target>Vítejte</target>
+          <target state="translated">Vítejte</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1 - Property Caption</note>
         </trans-unit>
@@ -965,7 +965,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3679005452 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Let's get started</source>
-          <target>Začněme</target>
+          <target state="translated">Začněme</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control Para1.1.2 - Property Caption</note>
         </trans-unit>
@@ -996,7 +996,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2227844388 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Data Exchange Definitions</source>
-          <target>Definice výměny dat</target>
+          <target state="translated">Definice výměny dat</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdDataExchDef - Property Caption</note>
         </trans-unit>
@@ -1007,7 +1007,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2148337815 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Bank Accounts</source>
-          <target>Nastavení bankovních účtů</target>
+          <target state="translated">Nastavení bankovních účtů</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdBankAccounts - Property Caption</note>
         </trans-unit>
@@ -1053,19 +1053,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3504517071 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
-          <target>Určuje přihlašovací stránku pro službu pro konverzi dat do formátu požadovaného vaší bankou pro export bankovních dat a import výpisů.. Toto je webová stránka, kde zadáte vaše uživatelské jméno a heslo k přihlášení se do služby.</target>
+          <target state="translated">Určuje přihlašovací stránku pro službu pro konverzi dat do formátu požadovaného vaší bankou pro export bankovních dat a import výpisů.. Toto je webová stránka, kde zadáte vaše uživatelské jméno a heslo k přihlášení se do služby.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SignupURL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2456674618 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service URL</source>
-          <target>Služba URL</target>
+          <target state="translated">Služba URL</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ServiceURL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2456674618 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
-          <target>Určuje adresu služby, která převádí bankovní data do formátu vyžadovaného Vaší bankou, když exportujete soubory bankovních plateb a importujete soubory výpisů. Služba určená v poli URL služby je volána, když uživatelé exportují nebo importují bankovní soubory.</target>
+          <target state="translated">Určuje adresu služby, která převádí bankovní data do formátu vyžadovaného Vaší bankou, když exportujete soubory bankovních plateb a importujete soubory výpisů. Služba určená v poli URL služby je volána, když uživatelé exportují nebo importují bankovní soubory.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ServiceURL - Property ToolTip</note>
         </trans-unit>
@@ -1091,13 +1091,13 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2293885176 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applicationversion</source>
-          <target>VerzeAplikace</target>
+          <target state="translated">VerzeAplikace</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ApplVer - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3735344025 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Buildnumber</source>
-          <target>Verze</target>
+          <target state="translated">Verze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BuildNo - Property Caption</note>
         </trans-unit>
@@ -1188,19 +1188,19 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 742034285 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Back</source>
-          <target>Zpět</target>
+          <target state="translated">Zpět</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Back - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 1235620153 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Next</source>
-          <target>Další</target>
+          <target state="translated">Další</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Next - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1294546084 - Action 462653747 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start update</source>
-          <target>Spustit aktualizaci</target>
+          <target state="translated">Spustit aktualizaci</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Action Start update - Property Caption</note>
         </trans-unit>
@@ -1231,19 +1231,19 @@
         </trans-unit>
         <trans-unit id="Page 3327916022 - Control 2501792105 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the last time the list of supported banks was updated.</source>
-          <target>Určuje čas kdy byl seznam podporovaných bank naposledy aktualizován.</target>
+          <target state="translated">Určuje čas kdy byl seznam podporovaných bank naposledy aktualizován.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Control Last Update Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3327916022 - Action 1520941751 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update Bank Name List</source>
-          <target>Přehled aktualizací názvu banky</target>
+          <target state="translated">Přehled aktualizací názvu banky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Action UpdateBankList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3327916022 - Action 1520941751 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update the bank list with any new banks in your country/region.</source>
-          <target>Aktualizovat seznam bank s jakýmikoli novými bankami ve vaší zemi/regionu.</target>
+          <target state="translated">Aktualizovat seznam bank s jakýmikoli novými bankami ve vaší zemi/regionu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Bank Name List - Action UpdateBankList - Property ToolTip</note>
         </trans-unit>

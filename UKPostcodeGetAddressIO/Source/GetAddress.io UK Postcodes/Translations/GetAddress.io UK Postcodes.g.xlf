@@ -28,15 +28,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceNameMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1779888028 - NamedType 3782767637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UKPostCodeTelemetryCategoryTok</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType UKPostCodeTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779888028 - NamedType 2342509135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The list of addresses has been created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType AddressListCreatedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1779888028 - NamedType 74248546" size-unit="char" translate="yes" xml:space="preserve">
           <source>A technical error occurred while trying to reach the service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType TechnicalErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1779888028 - NamedType 1182152394" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The getAddress.io service is currently unavailable.</source>
+        <trans-unit id="Codeunit 1779888028 - NamedType 947487269" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must choose the getAddress.io service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceUnavaiableErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType WrongServiceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779888028 - NamedType 1628434534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The getAddress.io service is not available right now. Try again later.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType ServiceUnavailableErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1779888028 - NamedType 1406744921" size-unit="char" translate="no" xml:space="preserve">
           <source>expired</source>
@@ -67,6 +82,16 @@
           <source>You have made more requests than your allowed limit.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType TooManyRequestsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779888028 - NamedType 2853925629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Something went wrong when connecting to the getAddress.io service. Try again later.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType GeneralHttpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1779888028 - NamedType 1739944124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The json response from getAddress.io contains errors.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Postcode Service GetAddress.io - NamedType JsonParseErr</note>
         </trans-unit>
         <trans-unit id="Page 3695382510 - NamedType 1100269425" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must provide an API key.</source>

@@ -4373,7 +4373,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1472389555 - Method 2466300533 - NamedType 482686293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Used standard report (ID %1) instead of Core Localization Pack for Czech report.</source>
-          <target state="translated">Používá se standardní sestava (ID %1) místo sestavy Core Localization Pack.</target>
+          <target state="translated">Používá se standardní sestava (ID %1) místo sestavy Core Localization Pack for Czech.</target>
           <note from="Developer" annotates="general" priority="2">%1 = NewReportId</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Substitute Report Handler CZL - Method OnSubstituteGeneralReport - NamedType UsedStandardReportMsg</note>
         </trans-unit>
@@ -4415,7 +4415,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3714512334 - NamedType 2420985082" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ_DATE_FORMAT</source>
-          <target state="translated">CZ_DATA_FORMÁT</target>
+          <target state="translated">CZ_DATE_FORMAT</target>
           <note from="Developer" annotates="general" priority="2">Assigned to Transformation.Code field for getting date formatting rule from Czech dates</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Transformation Rule Mgt. CZL - NamedType CZDATEFORMATTxt</note>
         </trans-unit>
@@ -4509,6 +4509,12 @@
           <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2533767483 - Method 1623353540 - NamedType 225647726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Control Report %1.xml</source>
+          <target state="translated">Kontrolní hlášení DPH %1.xml</target>
+          <note from="Developer" annotates="general" priority="2">%1 = VAT Control Report number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Control Report DPHKH1 CZL - Method ExportToXMLFile - NamedType ClientFileNameLbl</note>
+        </trans-unit>
         <trans-unit id="XmlPort 2533767483 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Control Report</source>
           <target state="translated">Kontrolní hlášení DPH</target>
@@ -4592,6 +4598,12 @@
           <target state="translated">musí být menší nebo rovno %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of VAT Date CZL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL - NamedType MustBeLessOrEqualErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2145211580 - Method 1623353540 - NamedType 225647726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement %1 %2.xml</source>
+          <target state="translated">Výkaz DPH %1 %2.xml</target>
+          <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Template Nam, %2 = VAT Statement Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method ExportToXMLFile - NamedType ClientFileNameLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2145211580 - Method 388412786 - NamedType 3846812526" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>l. %1 - Output tax</source>
@@ -7949,7 +7961,7 @@
         </trans-unit>
         <trans-unit id="Page 2178897139 - Control 2116037311 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Period End Date</source>
-          <target state="translated">Konečný datum období DPH</target>
+          <target state="translated">Koncové datum období DPH</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Statement Preview CZL - Control VATPeriodEndDate - Property Caption</note>
         </trans-unit>
@@ -21051,21 +21063,21 @@
           <target state="translated">Zaškrtnete-li políčko %1, umožníte tím systému účtovat s použitím jiné hodnoty %2 než %3. Pole %2 bude ve všech tabulkách inicializováno pomocí pole %3. Tato operace může trvat delší dobu a po zaúčtování položek nebude možné vrátit změnu zpět. Skutečně chcete pokračovat?</target>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Use VAT Date; %2 = fieldcaption of VAT Date; %3 = fieldcaption of Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2910014531</note>
         </trans-unit>
         <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 3035674716" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the contents of the %1 field because there are posted ledger entries.</source>
           <target state="translated">Nemůžete měnit obsah pole %1, protože existují zaúčtované položky.</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2910014531</note>
         </trans-unit>
         <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 2005473175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Are you sure you want to disable VAT Date functionality?</source>
           <target state="translated">Skutečně chcete vypnout funkci data DPH?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4050813720</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2910014531</note>
         </trans-unit>
         <trans-unit id="TableExtension 2910014531 - Field 161595730 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do Not Check Dimensions</source>
@@ -21088,6 +21100,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 4132954204 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Amount ACY (VAT Date)</source>
+          <target state="translated">Částka MD PMN (datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 4132954204 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the debit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje obrat MD během časového období zadaného ve Filtr data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1102982301 - Control 2992024150 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Amount (VAT Date)</source>
           <target state="translated">Částka Dal (datum DPH)</target>
@@ -21102,6 +21128,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 3344060229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Amount ACY (VAT Date)</source>
+          <target state="translated">Částka Dal PMN (datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 3344060229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje obrat Dal během časového období zadaného ve Filtr data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1102982301 - Control 3604391390 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net Change (VAT Date)</source>
           <target state="translated">Pohyb (Datum DPH)</target>
@@ -21112,6 +21152,20 @@
         <trans-unit id="PageExtension 1102982301 - Control 3604391390 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date.</source>
           <target state="translated">Určuje pohyb účtu za období definované ve filtru data filtrováno dle data DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 812009995 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change ACY (VAT Date)</source>
+          <target state="translated">Pohyb PMN (Datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 812009995 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje pohyb účtu rozvahy během období zadaného ve Fitru data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3628244210</note>
@@ -21200,6 +21254,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 4132954204 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the debit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje obrat MD během časového období zadaného ve Filtr data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3846542609 - Control 2992024150 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date</source>
           <target state="translated">Určuje obrat Dal během časového období zadaného ve Filtr data pro Datum DPH</target>
@@ -21207,9 +21268,23 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 3344060229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje obrat Dal během časového období zadaného ve Filtr data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3846542609 - Control 3604391390 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date.</source>
           <target state="translated">Určuje pohyb účtu rozvahy během období zadaného ve Fitru data pro Datum DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 812009995 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <target state="translated">Určuje pohyb účtu rozvahy během období zadaného ve Fitru data pro Datum DPH. Tato částka je v přídavné měně pro hlášení.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 65409710</note>
@@ -21478,14 +21553,14 @@
           <target state="translated">Vytvořit nový prázdný řádek z aktuálního řádku?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2187133665</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 8677550</note>
         </trans-unit>
         <trans-unit id="PageExtension 8677550 - Action 2077635842 - Method 1377591017 - NamedType 1140120722" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Line No. can not be calculated.</source>
           <target state="translated">Nové číslo řádku nemůže být vypočítáno.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2187133665</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 8677550</note>
         </trans-unit>
         <trans-unit id="PageExtension 3724999535 - Action 3632438814 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Counting Document</source>
@@ -23214,7 +23289,7 @@
           <target state="translated">1,6,,Filtr dimenze %1</target>
           <note from="Developer" annotates="general" priority="2">%1 = Dimension No.</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2416796065</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2614175214</note>
         </trans-unit>
         <trans-unit id="TableExtension 2209824319 - Field 2153225461 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration No.</source>
@@ -23256,7 +23331,7 @@
           <target state="translated"> nelze změnit</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1994964448</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3767416395</note>
         </trans-unit>
         <trans-unit id="TableExtension 963562806 - Field 2153225461 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration No.</source>
@@ -23377,6 +23452,27 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 4274826855</note>
         </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 812009995 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change ACY (VAT Date)</source>
+          <target state="translated">Pohyb PMN (Datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4274826855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 4132954204 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Amount ACY (VAT Date)</source>
+          <target state="translated">Částka MD PMN (datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4274826855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 3344060229 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Amount ACY (VAT Date)</source>
+          <target state="translated">Částka Dal PMN (datum DPH)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4274826855</note>
+        </trans-unit>
         <trans-unit id="TableExtension 927592535 - Field 3753419350 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Date</source>
           <target state="translated">Datum DPH</target>
@@ -23445,7 +23541,7 @@
           <target state="translated"> nelze změnit</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3276313895</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2463014548</note>
         </trans-unit>
         <trans-unit id="TableExtension 1435710857 - Field 3056514551 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inventory Movement Template</source>
@@ -23557,21 +23653,21 @@
           <target state="translated">%1neexistuje pro měnu %2 a datum %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
         </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Method 3527872399 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
         </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Method 1928147838 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
         </trans-unit>
         <trans-unit id="TableExtension 1713585541 - Field 2765836968 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Currency Factor</source>
@@ -23914,21 +24010,21 @@
           <target state="translated">Opravdu chcete změnit datum DPH?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2683902833</note>
         </trans-unit>
         <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 3883957340" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Entry is already closed and the date cannot be modified. VAT Date = %1.</source>
           <target state="translated">Položka DPH je již uzavřena a datum nelze změnit. Datum DPH = %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2683902833</note>
         </trans-unit>
         <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 2396233538" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Selected document is not Credit Memo. Field VAT Date cannot be changed.</source>
           <target state="translated">Vybraný doklad není dobropis. Pole Datum DPH nelze změnit.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2683902833</note>
         </trans-unit>
         <trans-unit id="TableExtension 2683902833 - Field 2153225461 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration No.</source>
@@ -23963,7 +24059,7 @@
           <target state="translated">Datum DPH %1 není v rozmezí povolených dat DPH.\Opravte datum nebo změňte období účtování  DPH.  </target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 552782286</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2683902833</note>
         </trans-unit>
         <trans-unit id="TableExtension 2448583290 - Field 3805707464 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tariff No.</source>
@@ -24040,21 +24136,21 @@
           <target state="translated">%1neexistuje pro měnu %2 a datum %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
         </trans-unit>
         <trans-unit id="TableExtension 4002280534 - Method 3527872399 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
         </trans-unit>
         <trans-unit id="TableExtension 4002280534 - Method 1928147838 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1192395785</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
         </trans-unit>
         <trans-unit id="TableExtension 1206902212 - Field 2765836968 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Currency Factor</source>
@@ -24320,21 +24416,21 @@
           <target state="translated">%1neexistuje pro měnu %2 a datum %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 26925697</note>
         </trans-unit>
         <trans-unit id="TableExtension 26925697 - Method 1928147838 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 26925697</note>
         </trans-unit>
         <trans-unit id="TableExtension 26925697 - Method 3527872399 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed %1. Do you want to update %2?</source>
           <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3610197182</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 26925697</note>
         </trans-unit>
         <trans-unit id="TableExtension 230145858 - Field 2765836968 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Currency Factor</source>
@@ -24544,14 +24640,14 @@
           <target state="translated">Výběr období sestavy výkazu DPH %1 není podporován.</target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Report Period Selection</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2941967353</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 481648486</note>
         </trans-unit>
         <trans-unit id="TableExtension 481648486 - NamedType 3893568735" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT statement report selection %1 is not supported.</source>
           <target state="translated">Výběr sestavy výkazu DPH %1 není podporován.</target>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Report Selection</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 2941967353</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 481648486</note>
         </trans-unit>
         <trans-unit id="TableExtension 1589562943 - Field 3473593592 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attribute Code</source>
@@ -24677,14 +24773,14 @@
           <target state="translated">Tato akce odstraní všechny poznámky/přílohy související s: %1 %2. Chcete pokračovat?</target>
           <note from="Developer" annotates="general" priority="2">%1=tablecaption, %2=VAT statement template name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4038941498</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3194637253</note>
         </trans-unit>
         <trans-unit id="TableExtension 3194637253 - NamedType 60293471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have changed XML format.\\Do you want to initialize %1: "%2" default VAT attributes for %3 %4?</source>
           <target state="translated">Změnili jste formát XML.\\Chcete inicializovat %1: výchozí atributy DPH "%2" pro %3 %4?</target>
           <note from="Developer" annotates="general" priority="2">%1=fieldcaption, %2=VAT statement XML format, %3=tablecaption, %4=VAT statement template name</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4038941498</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3194637253</note>
         </trans-unit>
         <trans-unit id="TableExtension 2923598995 - Field 2153225461 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration No.</source>
@@ -24733,7 +24829,7 @@
           <target state="translated"> nelze změnit</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2923598995</note>
         </trans-unit>
         <trans-unit id="TableExtension 231381010 - Field 1892610401 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Third Party Bank Account</source>

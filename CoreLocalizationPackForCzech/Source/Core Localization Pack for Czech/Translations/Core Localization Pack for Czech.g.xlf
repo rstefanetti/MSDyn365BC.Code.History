@@ -3758,6 +3758,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = actual number of sending VAT registration numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer WS CZL - Method CheckInputRecordLimit - NamedType VATRegNoLimitExceededMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2533767483 - Method 1623353540 - NamedType 225647726" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Control Report %1.xml</source>
+          <note from="Developer" annotates="general" priority="2">%1 = VAT Control Report number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Control Report DPHKH1 CZL - Method ExportToXMLFile - NamedType ClientFileNameLbl</note>
+        </trans-unit>
         <trans-unit id="XmlPort 2533767483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Control Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3827,6 +3832,11 @@
           <source>must be less or equal to %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of VAT Date CZL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Date Handler CZL - Method CheckVATDateCZL - NamedType MustBeLessOrEqualErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2145211580 - Method 1623353540 - NamedType 225647726" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement %1 %2.xml</source>
+          <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Template Nam, %2 = VAT Statement Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Statement DPHDP3 CZL - Method ExportToXMLFile - NamedType ClientFileNameLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2145211580 - Method 388412786 - NamedType 3846812526" size-unit="char" translate="yes" xml:space="preserve">
           <source>l. %1 - Output tax</source>
@@ -12364,7 +12374,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[1] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 3649074882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[1] - Property ToolTip</note>
         </trans-unit>
@@ -12374,7 +12384,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[2] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 2641815919 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[2] - Property ToolTip</note>
         </trans-unit>
@@ -12384,7 +12394,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[3] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 4164555072 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[3] - Property ToolTip</note>
         </trans-unit>
@@ -12394,7 +12404,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[4] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 1806023925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[4] - Property ToolTip</note>
         </trans-unit>
@@ -12404,7 +12414,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[5] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3097259909 - Control 3349551430 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for customer's entries calculation.</source>
+          <source>Specifies the number of due date for customer's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Cust. Entries to Date CZL - Control LimitDate[5] - Property ToolTip</note>
         </trans-unit>
@@ -12579,7 +12589,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[1] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 3649074882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[1] - Property ToolTip</note>
         </trans-unit>
@@ -12589,7 +12599,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[2] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 2641815919 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[2] - Property ToolTip</note>
         </trans-unit>
@@ -12599,7 +12609,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[3] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 4164555072 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[3] - Property ToolTip</note>
         </trans-unit>
@@ -12609,7 +12619,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[4] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 1806023925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[4] - Property ToolTip</note>
         </trans-unit>
@@ -12619,7 +12629,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[5] - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3573120205 - Control 3349551430 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number of due date for vendor's entries calculation.</source>
+          <source>Specifies the number of due date for vendor's entries calculation. Enter the value in format 30D, 60D or 1M.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open Vend. Entries to Date CZL - Control LimitDate[5] - Property ToolTip</note>
         </trans-unit>
@@ -17378,17 +17388,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Use VAT Date CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 11770877" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 11770877" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2910014531">
           <source>If you check field %1 you will let system post using %2 different from %3. Field %2 will be initialized from field %3 in all tables. It may take some time and you will not be able to undo this change after posting entries. Do you really want to continue?</source>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Use VAT Date; %2 = fieldcaption of VAT Date; %3 = fieldcaption of Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Use VAT Date CZL - Method OnValidate - NamedType InitVATDateQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 3035674716" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 3035674716" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2910014531">
           <source>You cannot change the contents of the %1 field because there are posted ledger entries.</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Use VAT Date CZL - Method OnValidate - NamedType CannotChangeFieldErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 2005473175" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+        <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Method 2126772001 - NamedType 2005473175" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2910014531">
           <source>Are you sure you want to disable VAT Date functionality?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Use VAT Date CZL - Method OnValidate - NamedType DisableVATDateQst</note>
@@ -17408,6 +17418,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Debit Amount (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 4132954204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Debit Amount ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Debit Amt. ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 4132954204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Specifies the debit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Debit Amt. ACY (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1102982301 - Control 2992024150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
           <source>Credit Amount (VAT Date)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17418,6 +17438,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Credit Amount (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 3344060229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Credit Amount ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Credit Amt. ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 3344060229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Credit Amt. ACY (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1102982301 - Control 3604391390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
           <source>Net Change (VAT Date)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17427,6 +17457,16 @@
           <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Net Change (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 812009995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Net Change ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Net Change ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1102982301 - Control 812009995 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3628244210">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Account Balance Lines CZL - Control Net Change ACY (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3270158888 - Control 488479161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4219821699">
           <source>Defines the type of G/L account group for internal accounting areas.</source>
@@ -17488,15 +17528,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Debit Amount (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 4132954204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 65409710">
+          <source>Specifies the debit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Debit Amt. ACY (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3846542609 - Control 2992024150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 65409710">
           <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Credit Amount (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 3344060229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 65409710">
+          <source>Specifies the credit in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Credit Amt. ACY (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3846542609 - Control 3604391390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 65409710">
           <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Net Change (VAT Date) CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3846542609 - Control 812009995 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 65409710">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field posted by VAT date. This amount is in additional reporting currency.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension G/L Balance CZL - Control Net Change ACY (VAT Date) CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 983886803 - Control 3753419350 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 909755016">
           <source>Specifies the entry's VAT Date.</source>
@@ -17683,12 +17738,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Phys. Inventory Journal CZL - Action CreateNewEmptyLineCZL - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 8677550 - Action 2077635842 - Method 1377591017 - NamedType 290291136" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+        <trans-unit id="PageExtension 8677550 - Action 2077635842 - Method 1377591017 - NamedType 290291136" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 8677550">
           <source>Create new empty line from actual line?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Phys. Inventory Journal CZL - Action CreateNewEmptyLineCZL - Method OnAction - NamedType NewLineQst</note>
         </trans-unit>
-        <trans-unit id="PageExtension 8677550 - Action 2077635842 - Method 1377591017 - NamedType 1140120722" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+        <trans-unit id="PageExtension 8677550 - Action 2077635842 - Method 1377591017 - NamedType 1140120722" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 8677550">
           <source>New Line No. can not be calculated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Phys. Inventory Journal CZL - Action CreateNewEmptyLineCZL - Method OnAction - NamedType NewLineNoErr</note>
@@ -18923,7 +18978,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Acc. Schedule Name CZL - Field Acc. Schedule Type CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2614175214 - Method 1542411357 - NamedType 161975180" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2416796065">
+        <trans-unit id="TableExtension 2614175214 - Method 1542411357 - NamedType 161975180" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2614175214">
           <source>1,6,,Dimension %1 Filter</source>
           <note from="Developer" annotates="general" priority="2">%1 = Dimension No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Analysis View CZL - Method GetCaptionClassCZL - NamedType DimFilterTxt</note>
@@ -18953,7 +19008,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer CZL - Field Tax Registration No. CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3767416395 - Method 1475244952 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+        <trans-unit id="TableExtension 3767416395 - Method 1475244952 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3767416395">
           <source> cannot be changed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer CZL - Method CheckOpenCustomerLedgerEntriesCZL - NamedType ChangeErr</note>
@@ -19043,6 +19098,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Account CZL - Field Credit Amount (VAT Date) CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 812009995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
+          <source>Net Change ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Account CZL - Field Net Change ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 4132954204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
+          <source>Debit Amount ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Account CZL - Field Debit Amt. ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 689168212 - Field 3344060229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
+          <source>Credit Amount ACY (VAT Date)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Account CZL - Field Credit Amt. ACY (VAT Date) CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 927592535 - Field 3753419350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
           <source>VAT Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -19088,7 +19158,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item CZL - Field Statistic Indication CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2463014548 - Method 2923206511 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+        <trans-unit id="TableExtension 2463014548 - Method 2923206511 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2463014548">
           <source> cannot be changed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Item CZL - Method CheckOpenItemLedgerEntriesCZL - NamedType ChangeErr</note>
@@ -19168,17 +19238,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Field Original Doc. VAT Date CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+        <trans-unit id="TableExtension 3087185091 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method CheckCurrencyExchangeRateCZL - NamedType CurrExchRateNotExistsErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+        <trans-unit id="TableExtension 3087185091 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method UpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+        <trans-unit id="TableExtension 3087185091 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method VATDateUpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
@@ -19423,17 +19493,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Field VAT Date CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 3954503403" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 3954503403" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2683902833">
           <source>Do you really want to modify VAT Date?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Field VAT Date CZL - Method OnValidate - NamedType VATDateModifyQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 3883957340" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 3883957340" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2683902833">
           <source>VAT Entry is already closed and the date cannot be modified. VAT Date = %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Field VAT Date CZL - Method OnValidate - NamedType VATEntryClosedErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 2396233538" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+        <trans-unit id="TableExtension 2683902833 - Field 3753419350 - Method 2126772001 - NamedType 2396233538" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2683902833">
           <source>Selected document is not Credit Memo. Field VAT Date cannot be changed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Field VAT Date CZL - Method OnValidate - NamedType VATDateCannotBeChangedErr</note>
@@ -19458,7 +19528,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Field EU 3-Party Intermed. Role CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2683902833 - Method 1897535728 - NamedType 58870279" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+        <trans-unit id="TableExtension 2683902833 - Method 1897535728 - NamedType 58870279" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2683902833">
           <source>VAT Date %1 is not within your range of allowed VAT dates.\Correct the date or change VAT posting period.</source>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header CZL - Method CheckVATDateCZL - NamedType VATDateRangeErr</note>
@@ -19513,17 +19583,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Field Original Doc. VAT Date CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+        <trans-unit id="TableExtension 4002280534 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method CheckCurrencyExchangeRateCZL - NamedType CurrExchRateNotExistsErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+        <trans-unit id="TableExtension 4002280534 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method UpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+        <trans-unit id="TableExtension 4002280534 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method VATDateUpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
@@ -19713,17 +19783,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Service Header CZL - Field EU 3-Party Intermed. Role CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 26925697 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3610197182">
+        <trans-unit id="TableExtension 26925697 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 26925697">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Service Header CZL - Method CheckCurrencyExchangeRateCZL - NamedType CurrExchRateNotExistsErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 26925697 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3610197182">
+        <trans-unit id="TableExtension 26925697 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 26925697">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Service Header CZL - Method VATDateUpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 26925697 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3610197182">
+        <trans-unit id="TableExtension 26925697 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 26925697">
           <source>You have changed %1. Do you want to update %2?</source>
           <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Service Header CZL - Method UpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
@@ -19873,12 +19943,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Entry CZL - Field Original Doc. VAT Date CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 481648486 - NamedType 3527871242" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+        <trans-unit id="TableExtension 481648486 - NamedType 3527871242" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 481648486">
           <source>VAT statement report period selection %1 is not supported.</source>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Report Period Selection</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Entry CZL - NamedType VATStmtPeriodSelectionNotSupportedErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 481648486 - NamedType 3893568735" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2941967353">
+        <trans-unit id="TableExtension 481648486 - NamedType 3893568735" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 481648486">
           <source>VAT statement report selection %1 is not supported.</source>
           <note from="Developer" annotates="general" priority="2">%1 = VAT Statement Report Selection</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Entry CZL - NamedType VATStmtReportSelectionNotSupportedErr</note>
@@ -19968,12 +20038,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Statement Template CZL - Field Allow Comments/Attachments CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3194637253 - NamedType 1714117020" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4038941498">
+        <trans-unit id="TableExtension 3194637253 - NamedType 1714117020" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3194637253">
           <source>This will delete all Comments/Attachments related to %1 %2. Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2">%1=tablecaption, %2=VAT statement template name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Statement Template CZL - NamedType DeleteCommAttachQst</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3194637253 - NamedType 60293471" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4038941498">
+        <trans-unit id="TableExtension 3194637253 - NamedType 60293471" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3194637253">
           <source>You have changed XML format.\\Do you want to initialize %1: "%2" default VAT attributes for %3 %4?</source>
           <note from="Developer" annotates="general" priority="2">%1=fieldcaption, %2=VAT statement XML format, %3=tablecaption, %4=VAT statement template name</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension VAT Statement Template CZL - NamedType YouChangedXMLFormatQst</note>
@@ -20008,7 +20078,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor CZL - Field Disable Unreliab. Check CZL - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2923598995 - Method 3258304288 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1936001480">
+        <trans-unit id="TableExtension 2923598995 - Method 3258304288 - NamedType 2498812861" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2923598995">
           <source> cannot be changed</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor CZL - Method CheckVendorLedgerOpenEntriesCZL - NamedType ChangeErr</note>

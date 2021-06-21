@@ -7365,19 +7365,33 @@
           <note from="Developer" annotates="general" priority="2">%1 = Calculated Exchange Rate Amount; %2 = LCY Code; %3 = Exchange Rate Amount; %4 = Currency Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Withdrawal Cash Document CZP - NamedType ExchangeRateTxt</note>
         </trans-unit>
+        <trans-unit id="PageExtension 476172852 - Control 103589202 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies approval limit for approving cash desk document</source>
+          <target state="translated">Určuje limit pro schvalování pokladního dokladu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4261702675</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 476172852 - Control 2748653349 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the user on this line is allowed to approve cash desk documents with no maximum amount.</source>
+          <target state="translated">Určuje, že uživateli na tomto řádku je povoleno ke schválení pokladních dokladů v libovolné výši.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4261702675</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2418365316 - Method 716454850 - NamedType 4194480778" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Desk Balance</source>
           <target state="translated">Zůstatek pokladny</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2348582947</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2418365316</note>
         </trans-unit>
         <trans-unit id="PageExtension 3837279188 - Method 716454850 - NamedType 3875667233" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Desk Ledger Entries</source>
           <target state="translated">Položky pokladny</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 2591587468</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 3837279188</note>
         </trans-unit>
         <trans-unit id="PageExtension 3918083335 - Action 3038654371 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Desk</source>
@@ -7672,6 +7686,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 337631938</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 965596945 - Field 25779809 - Method 2126772001 - NamedType 3967160867" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot have both a %1 and %2.</source>
+          <target state="translated">Nelze mít %1 i %2. </target>
+          <note from="Developer" annotates="general" priority="2">%1 = Approval Limit FieldCaption, %2 = Unlimited Approval FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 965596945</note>
         </trans-unit>
         <trans-unit id="TableExtension 965596945 - Field 2748653349 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unlimited Cash Desk Approval</source>
@@ -8003,13 +8024,13 @@
         </trans-unit>
         <trans-unit id="Enum 1552713221 - EnumValue 4259830144 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
-          <target state="translated">Otevřít</target>
+          <target state="translated">Otevřený</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Cash Document Status CZP - EnumValue Open - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1552713221 - EnumValue 4020758431 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Released</source>
-          <target state="translated">Vydaná</target>
+          <target state="translated">Vydaný</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Cash Document Status CZP - EnumValue Released - Property Caption</note>
         </trans-unit>

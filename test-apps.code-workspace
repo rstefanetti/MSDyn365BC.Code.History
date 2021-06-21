@@ -123,6 +123,9 @@
                         "path":  ".\\ImageAnalysis\\Test\\ImageAnalysisTest"
                     },
                     {
+                        "path":  ".\\MX_DIOT\\Test\\MX_DIOTTest"
+                    },
+                    {
                         "path":  ".\\PayPalPaymentsStandard\\Test\\PayPalPaymentsStandardTest"
                     },
                     {

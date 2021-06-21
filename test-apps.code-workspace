@@ -177,6 +177,9 @@
                         "path":  ".\\UKSendRemittanceAdvice\\Test\\Send remittance advice by email Tests"
                     },
                     {
+                        "path":  ".\\VATGroupManagement\\Test\\VAT Group Management Tests"
+                    },
+                    {
                         "path":  ".\\WorldPayPaymentsStandard\\Test\\WorldPay Payments Standard Tests"
                     }
                 ]

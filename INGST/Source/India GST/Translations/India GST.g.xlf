@@ -9373,60 +9373,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Transfer Buffer - Field Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 158459765 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Tax Type Data - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 158459765 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Tax Type Data - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 158459765 - NamedType 3988553195" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cess Tax Type place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Tax Type Data - NamedType CessTaxTypeLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 344750931 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Use Case Data - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 344750931 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Use Case Data - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 344750931 - NamedType 4050930333" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cess Use Cases place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Use Case Data - NamedType CessUseCaseLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2445053675 - Method 2054058414" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetSalesInvHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - Method SetSalesInvHeader</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2445053675 - Method 3876466346" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetCrMemoHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - Method SetCrMemoHeader</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2445053675 - Method 64993518" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenerateCanceledInvoice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - Method GenerateCanceledInvoice</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2445053675 - Method 2277259341" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetEInvoiceResponse</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - Method GetEInvoiceResponse</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2445053675 - Method 2029651403" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenerateIRN</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - Method GenerateIRN</note>
         </trans-unit>
         <trans-unit id="Codeunit 2445053675 - NamedType 3296489515" size-unit="char" translate="yes" xml:space="preserve">
           <source>E-Invoicing is not supported if document number is blank in the current document.</source>
@@ -9448,25 +9403,10 @@
           <note from="Developer" annotates="general" priority="2">%1 = Sales Lines count</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType SalesLinesMaxCountLimitErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 209614294 - Method 3248470941" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenerateIRN</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Management - Method GenerateIRN</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 209614294 - Method 2754141928" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsGSTApplicable</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Management - Method IsGSTApplicable</note>
-        </trans-unit>
         <trans-unit id="Codeunit 209614294 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Accounting Period does not exist for the given Date %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Management - NamedType AccountingPeriodErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4154143677 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fin Ch. Memo UseCase Dataset - Method GetText</note>
         </trans-unit>
         <trans-unit id="Codeunit 4154143677 - NamedType 2939576801" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Finance Charge Memo Use Cases</source>
@@ -9482,171 +9422,6 @@
           <source>Unapplication is not allowed as Credit Adjustment is posted against this transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Handler - NamedType UnApplicationErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2256395243" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillAppBufferInvoiceOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method FillAppBufferInvoiceOffline</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3428108277" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillGSTAppBufferHSNComponentPayment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method FillGSTAppBufferHSNComponentPayment</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 949855919" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillAppBufferInvoice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method FillAppBufferInvoice</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3446943461" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AllocateGSTWithNormalPayment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method AllocateGSTWithNormalPayment</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2225572733" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeleteInvoiceApplicationBufferOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method DeleteInvoiceApplicationBufferOffline</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3204724951" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeletePaymentAplicationBuffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method DeletePaymentAplicationBuffer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 4263100880" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationRemainingAmountLCYForSales</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationRemainingAmountLCYForSales</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2143790558" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationRemainingAmountLCYForPurchase</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationRemainingAmountLCYForPurchase</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3450469079" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckEarlierPostingDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method CheckEarlierPostingDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3592733415" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationRemainingAmountForSales</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationRemainingAmountForSales</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 1205846254" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationRemainingAmountForPurchase</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationRemainingAmountForPurchase</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 784936087" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGroupAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method CheckGroupAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2756460161" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGroupAmountJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method CheckGroupAmountJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 1829549750" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAppliedAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetAppliedAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3339848793" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ApplyCurrencyFactorInvoice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method ApplyCurrencyFactorInvoice</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 889544586" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTLedgerTransactionTypeFromDetailLedgerTransactioType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetGSTLedgerTransactionTypeFromDetailLedgerTransactioType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2816645824" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurchGroupTypeFromGSTGroupType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetPurchGroupTypeFromGSTGroupType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 834671019" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDetailedGSTDocumentTypeFromGSTDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetDetailedGSTDocumentTypeFromGSTDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2544490934" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationDocTypeFromGSTDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationDocTypeFromGSTDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3811784506" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationDocTypeFromGenJournalDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetApplicationDocTypeFromGenJournalDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 462153592" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTDocumentTypeFromGenJournalDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetGSTDocumentTypeFromGenJournalDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2962955216" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOriginalDocTypeFromGenJournalDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetOriginalDocTypeFromGenJournalDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2393309960" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPartialRoundingAmt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetPartialRoundingAmt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 4095539211" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTAccountingPeriod</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method CheckGSTAccountingPeriod</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2311492726" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTGLAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetGSTGLAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2189193283" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DoesGSTExist</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method DoesGSTExist</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3013747687" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTotalTCSInclSHECessAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetTotalTCSInclSHECessAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 1829721104" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNextGSTLedgerEntryNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetNextGSTLedgerEntryNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 1081543275" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenJnlDocumentType2OriginalDocumentTypeEnum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GenJnlDocumentType2OriginalDocumentTypeEnum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 3963350658" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenJnlDocumentType2CurrentDocumentTypeEnum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GenJnlDocumentType2CurrentDocumentTypeEnum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 2277785589" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OriginalDocumentType2CurrentDocumentTypeEnum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method OriginalDocumentType2CurrentDocumentTypeEnum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 64752240" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CurrentDocumentType2OriginalDocumentTypeEnum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method CurrentDocumentType2OriginalDocumentTypeEnum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3630142159 - Method 465896039" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDetailedGSTLedgerEntryInfo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method GetDetailedGSTLedgerEntryInfo</note>
         </trans-unit>
         <trans-unit id="Codeunit 3630142159 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Accounting Period does not exist for the given Date %1.</source>
@@ -9712,196 +9487,6 @@
           <source>Document Type %1 is not a valid option.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Original Document Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Library - Method OriginalDocumentType2CurrentDocumentTypeEnum - NamedType ConversionErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 1189863500" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTApplicationSourcePurch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetGSTApplicationSourcePurch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 3243862033" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTApplicationSourcePurch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetGSTApplicationSourcePurch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 1212814225" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTApplicationSourceSales</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetGSTApplicationSourceSales</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 2410109088" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTApplicationSourceSales</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetGSTApplicationSourceSales</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 892898097" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTTransactionType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetGSTTransactionType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 1975675169" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTApplicationAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetGSTApplicationAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 452777996" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTApplicationAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetGSTApplicationAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 3290520002" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetOnlineCustLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetOnlineCustLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 3956043262" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOnlineCustLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetOnlineCustLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 2463739432" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetOnlineVendLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetOnlineVendLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 464895997" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOnlineVendLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetOnlineVendLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 3985989118" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateApplicationGenJournallLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method CreateApplicationGenJournallLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 4126583750" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostApplicationGenJournalLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method PostApplicationGenJournalLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 3401200361" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ClearApplicationGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method ClearApplicationGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 1303054906" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ClearAllSessionVariables</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method ClearAllSessionVariables</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 755229778" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTotalTDSInclSHECessAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetTotalTDSInclSHECessAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 1922415157" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTotalTCSInclSHECessAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetTotalTCSInclSHECessAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 2260895519" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTAmountLoaded</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method SetGSTAmountLoaded</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2197679288 - Method 598252884" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTAmountLoaded</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Application Session Mgt. - Method GetGSTAmountLoaded</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 3101021373" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetTransactionNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method SetTransactionNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 2709006153" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetNextEntryNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method SetNextEntryNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 442905875" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTranxactionNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method GetTranxactionNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 1526032502" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GETEntryNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method GETEntryNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 1499394443" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetBankChargeAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method SetBankChargeAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 1827729124" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetBankChargeAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method GetBankChargeAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 3369320845" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateGSTBankChargesGenJournallLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method CreateGSTBankChargesGenJournallLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 655089223" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGSTBakChargesGenJournalLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method PostGSTBakChargesGenJournalLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4291607926 - Method 3724503067" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ClearTempGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Bank Charge Session Mgt. - Method ClearTempGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 3118911980" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTRegistrationNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method CheckGSTRegistrationNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 4291007603" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VerifyPOSOutOfIndia</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method VerifyPOSOutOfIndia</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 2034383535" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenGSTEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method OpenGSTEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 4193100194" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenDetailedGSTEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method OpenDetailedGSTEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 4095539211" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTAccountingPeriod</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method CheckGSTAccountingPeriod</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 1697391739" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundGSTPrecision</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method RoundGSTPrecision</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 415011513" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSignTransfer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method GetSignTransfer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 2213141666" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundGSTInvoicePrecision</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method RoundGSTInvoicePrecision</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 2276118971" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenLedInvRoundingType2GSTInvRoundingTypeEnum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method GenLedInvRoundingType2GSTInvRoundingTypeEnum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2293320866 - Method 37843323" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CallTaxEngineOnPurchHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method CallTaxEngineOnPurchHeader</note>
         </trans-unit>
         <trans-unit id="Codeunit 2293320866 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Accounting Period does not exist for the given Date %1.</source>
@@ -10033,21 +9618,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = GST Ledger Transaction Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method TaxComponentDirections2DetailedGSTLedgerDirection - NamedType ConversionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4218731206 - Method 4074590559" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGSTDistribution</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution - Method PostGSTDistribution</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4218731206 - Method 192385597" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeleteGSTDistributionLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution - Method DeleteGSTDistributionLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4218731206 - Method 475047016" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InsertDistComponentAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution - Method InsertDistComponentAmount</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4218731206 - NamedType 2199114054" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot post Reversal before Reversal Invoice No. %1 Posting Date: %2. Current Posting Date is: %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Reversal Invoice No , %2 = Posting Date , %3 = Posting Date</note>
@@ -10093,11 +9663,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Distribution % , %2 =From Location Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution - NamedType ZeroDistPercentErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1440238997 - Method 3391633567" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDistributionNoSeriesCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution Subcsribers - Method GetDistributionNoSeriesCode</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1440238997 - NamedType 1020839419" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is already true for GST Component Code: %2 Distribution Component Code: %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Intrastate Distribution , %2 = GST Component Code , %3 = Distribution Component Code</note>
@@ -10123,11 +9688,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Distribution Subcsribers - NamedType ZeroPriorityErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 435712550 - Method 741873816" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CallTaxEngineOnFinanceChargeMemoHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Fin Charge Memo Validation - Method CallTaxEngineOnFinanceChargeMemoHeader</note>
-        </trans-unit>
         <trans-unit id="Codeunit 435712550 - NamedType 4028750564" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Group Code %1 with Reverse Charge cannot be selected for Finance Charge Memo transactions.</source>
           <note from="Developer" annotates="general" priority="2">%1 = GST Group Code</note>
@@ -10152,161 +9712,6 @@
           <source>Either GST Registration No. or ARN No. should have a value in Ship To Code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Fin Charge Memo Validation - NamedType ShiptoGSTARNErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 1416476393" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTPayableAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTPayableAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 2754254704" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTReceivableDistAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTReceivableDistAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 2395494627" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTReceivableAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTReceivableAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 4064383748" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTExpenseAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTExpenseAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 3431553502" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTMismatchAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTMismatchAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 259621713" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTRcvblInterimAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTRcvblInterimAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 259549071 - Method 2913512051" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTPayableInterimAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Helpers - Method GetGSTPayableInterimAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1893084091" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnValidateGSTTDSTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method OnValidateGSTTDSTCS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1660131984" size-unit="char" translate="yes" xml:space="preserve">
-          <source>POSOutOfIndia</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method POSOutOfIndia</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 3031648818" size-unit="char" translate="yes" xml:space="preserve">
-          <source>POSasVendorState</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method POSasVendorState</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 3157726970" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTAssessableValue</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method GSTAssessableValue</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 2993677305" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CustomDutyAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method CustomDutyAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1174304337" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SalesInvoiceType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method SalesInvoiceType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1189852167" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTonAdvancePayment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method GSTonAdvancePayment</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 2788398069" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTPlaceofsuppply</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method GSTPlaceofsuppply</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 415782938" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTGroupCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method GSTGroupCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 3079819975" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PartyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method PartyCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1104212114" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LocationCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method LocationCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1915671057" size-unit="char" translate="yes" xml:space="preserve">
-          <source>amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method amount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 501408604" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CurrencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method CurrencyCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1453211519" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BalVendNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method BalVendNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 2360748947" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BalCustNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method BalCustNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 527644170" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BalGLAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method BalGLAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1954804860" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method DocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 2904956502" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BalAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method BalAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 2891059133" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FAAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method FAAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 3146957348" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VendAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method VendAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 3544300167" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CustAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method CustAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 1824933891" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BeforeValidateAccountNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method BeforeValidateAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 633455893" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AccountType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method AccountType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1072956185 - Method 609479452" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PopulateGSTInvoiceCrMemo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - Method PopulateGSTInvoiceCrMemo</note>
         </trans-unit>
         <trans-unit id="Codeunit 1072956185 - NamedType 3562075389" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must select Ship-to Code as "GST Place of Supply" is "Ship-to Address" on GST Group.</source>
@@ -10438,70 +9843,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - NamedType VendGSTTypeErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 438401495" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenGSTJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method OpenGSTJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 3019382541" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenGSTJnlBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method OpenGSTJnlBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 1596998295" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTTemplateSelection</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method GSTTemplateSelection</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 2762052463" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTTemplateName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method CheckGSTTemplateName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 2969689550" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TemplateSelectionFromGSTBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method TemplateSelectionFromGSTBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 1947815654" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetNameGST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method SetNameGST</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 2466718037" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckNameGST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method CheckNameGST</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 1186299552" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LookupNameGST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method LookupNameGST</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3633707182 - Method 3752291165" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAccountsGST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - Method GetAccountsGST</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3633707182 - NamedType 4290081511" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 journal</source>
           <note from="Developer" annotates="general" priority="2">%1 = Journal Template Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Management - NamedType GSTJournalTemplateDescriptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1201625163 - Method 473937111" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGSTJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Post - Method PostGSTJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1201625163 - Method 1441840542" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CallItemTracking</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Post - Method CallItemTracking</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1201625163 - Method 2281095810" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AdjustDetailedGSTEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Post - Method AdjustDetailedGSTEntry</note>
         </trans-unit>
         <trans-unit id="Codeunit 1201625163 - NamedType 1008230547" size-unit="char" translate="yes" xml:space="preserve">
           <source>Checking lines        #1######\</source>
@@ -10548,66 +9893,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Adjusted Quantity, %2 = Remaining Quantity, %3 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Post - NamedType RemQtyErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 1562434469" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GSTGroupCodeBankCharge</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method GSTGroupCodeBankCharge</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 3964352295" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LowerLimit</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method LowerLimit</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 4179715476" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Upperlimit</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method Upperlimit</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 3095507966" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BankChargeDeemedDelete</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method BankChargeDeemedDelete</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 2497840794" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeleteBankValueDeemedSetup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method DeleteBankValueDeemedSetup</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 117308218" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpperLimitCheckOnDelete</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method UpperLimitCheckOnDelete</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 3967453160" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JnlBankCharge</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method JnlBankCharge</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 2202083227" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JnlBankChargeGSTGroupCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method JnlBankChargeGSTGroupCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 1759177833" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JnlBankChargeAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method JnlBankChargeAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 2502959071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JnlBankChargeGSTDocumentType</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method JnlBankChargeGSTDocumentType</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 3956669351" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Clearfields</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method Clearfields</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296313779 - Method 1043533275" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method GetGenJnlLine</note>
-        </trans-unit>
         <trans-unit id="Codeunit 296313779 - NamedType 1458864712" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is Record having Higher Lower Limit than %1 of Bank Charge</source>
           <note from="Developer" annotates="general" priority="2">%1 =Upper Limit</note>
@@ -10638,115 +9923,15 @@
           <note from="Developer" annotates="general" priority="2">%1 = Bank Charge Code , %2 = Upper Limit</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - NamedType UpperLimitSmallModifyErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 2031907841" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetQtyToBeInvoiced</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method SetQtyToBeInvoiced</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 3535993623" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetQtyToBeInvoiced</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method GetQtyToBeInvoiced</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 1669635195" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTAmountToBeLoaded</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method SetGSTAmountToBeLoaded</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 4140763995" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTAmountToBeLoaded</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method GetGSTAmountToBeLoaded</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 871944345" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetCustomDutyAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method SetCustomDutyAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 163277298 - Method 1781909728" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCustomDutyAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Non Availment Session Mgt - Method GetCustomDutyAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3910298368 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Payments UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3910298368 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Payments UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3910298368 - NamedType 3301309831" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Payment Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Payments UseCase Dataset - NamedType GSTOnPaymentUseCasesLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 1652856051" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetUseCaseID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method GetUseCaseID</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 3665782219" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetRecord</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method SetRecord</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 2836916337" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetRecord</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method GetRecord</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 831563750" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTAmountFCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method SetGSTAmountFCY</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 3447761701" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTAmountFCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method GetGSTAmountFCY</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 2510067654" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTBaseAmountFCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method SetGSTBaseAmountFCY</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 1787555959" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTBaseAmountFCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method GetGSTBaseAmountFCY</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 4271852285" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetGSTTrackingEntryNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method SetGSTTrackingEntryNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2692890333 - Method 410029842" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGSTTrackingEntryNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - Method GetGSTTrackingEntryNo</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2692890333 - NamedType 3113263947" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table %1 not handled</source>
           <note from="Developer" annotates="general" priority="2">%1 = Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Posting Management - NamedType RecordIDNotAvailableErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3084315550 - Method 1557533137" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateTempDetailedGSTLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Preview Handler - Method UpdateTempDetailedGSTLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3186705651 - Method 2741717714" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurchaseInvoiceAmountOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Application Mgt. - Method GetPurchaseInvoiceAmountOffline</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3186705651 - Method 1385286352" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurchaseInvoiceAmountWithPaymentOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Application Mgt. - Method GetPurchaseInvoiceAmountWithPaymentOffline</note>
         </trans-unit>
         <trans-unit id="Codeunit 3186705651 - NamedType 1399750461" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Group Code &amp; GST % must be same in Advance Payment Entry No. %1 and Document Type %2, Document No %3.</source>
@@ -10772,11 +9957,6 @@
           <source>Please Update GST Registration No. for Document No. %1 through batch first, then proceed for application.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Document No</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Application Mgt. - NamedType UpdateGSTNosErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1144938271 - Method 1113405144" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundTaxAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Non Availment - Method RoundTaxAmount</note>
         </trans-unit>
         <trans-unit id="Codeunit 3536484230 - NamedType 2603307537" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can change Aggregate Turnover only for Unregistered Vendor.</source>
@@ -10918,65 +10098,10 @@
           <note from="Developer" annotates="general" priority="2">%1 = Purchase Header Document Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - Method PurchaseHeaderDocumentType2DocumentTypeEnum - NamedType ConversionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2586652170 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2586652170 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2586652170 - NamedType 4115993232" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Purchase Use Cases.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase UseCase Dataset - NamedType GSTOnPurchaseUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 242707521" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CalculateMonth</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method CalculateMonth</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 4236696581" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckMandatoryFields</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method CheckMandatoryFields</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 3056714133" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckPostedGSTReconiliation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method CheckPostedGSTReconiliation</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 1478202540" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReconcileWithGSTR2AData</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method ReconcileWithGSTR2AData</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 2874820505" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateGSTReconcilationLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method UpdateGSTReconcilationLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 221483341" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PreparePostGSTReconcilation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method PreparePostGSTReconcilation</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 3377686316" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateDetailedGSTLedgerEntryAfterRecon</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method UpdateDetailedGSTLedgerEntryAfterRecon</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 1667384384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckSettlement</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method CheckSettlement</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2866848575 - Method 3721540678" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ValidateCompAmtWithPeriodicData</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reconcilation Match - Method ValidateCompAmtWithPeriodicData</note>
         </trans-unit>
         <trans-unit id="Codeunit 2866848575 - NamedType 2455213373" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filter Criteria is not matching with Detailed GST Ledger Entry.</source>
@@ -11043,31 +10168,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reverse Trans. Handler - NamedType ReverseDGSTErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 581158944 - Method 1487522727" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetReversalEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reverse Trans. Session Mgt - Method SetReversalEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 581158944 - Method 3746428970" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetReversalNextTransactionNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reverse Trans. Session Mgt - Method SetReversalNextTransactionNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 581158944 - Method 30752259" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetReversalEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Reverse Trans. Session Mgt - Method GetReversalEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2012467334 - Method 3031128951" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSalesInvoiceAmountOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Application Mgt. - Method GetSalesInvoiceAmountOffline</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2012467334 - Method 3629381537" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSalesInvoiceAmountWithPaymentOffline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Application Mgt. - Method GetSalesInvoiceAmountWithPaymentOffline</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2012467334 - NamedType 2065184843" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Type must not be Blank or Exempted in Document %1 and Entry No %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Document No., %2 = Entry No.</note>
@@ -11083,30 +10183,10 @@
           <note from="Developer" annotates="general" priority="2">%1 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Application Mgt. - NamedType NoGSTEntryErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2804921615 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2804921615 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2804921615 - NamedType 192727161" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Sales Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales UseCase Dataset - NamedType GSTOnSalesUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 378964061 - Method 3438225375" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPostInvoiceNoSeries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - Method GetPostInvoiceNoSeries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 378964061 - Method 4150685328" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CallTaxEngineOnSalesHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - Method CallTaxEngineOnSalesHeader</note>
         </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 1100902648" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must remove Applies-to Doc No. before modifying Exempted value</source>
@@ -11213,30 +10293,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType ShipToGSTARNErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1469762492 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1469762492 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1469762492 - NamedType 465907211" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Service Transfer Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service UseCase Dataset - NamedType GSTOnServiceTransferUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 972043095 - Method 3328270873" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReferenceInvoiceNoValidation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Validations - Method ReferenceInvoiceNoValidation</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 972043095 - Method 667150789" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CallTaxEngineOnServiceHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Validations - Method CallTaxEngineOnServiceHeader</note>
         </trans-unit>
         <trans-unit id="Codeunit 972043095 - NamedType 12013015" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type %1 is not a valid option.</source>
@@ -11258,90 +10318,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Validations - NamedType ShiptoGSTARNErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2992217173 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Services UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2992217173 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Services UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2992217173 - NamedType 2867915427" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Services Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Services UseCase Dataset - NamedType GSTOnServicesUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 2266401072" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillAdjustmentJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method FillAdjustmentJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 1646130234" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostCreditAdjustmentJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method PostCreditAdjustmentJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 1675370368" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNoSeriesCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method GetNoSeriesCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 2712184417" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillGSTLiabilityAdjustmentJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method FillGSTLiabilityAdjustmentJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 2721578942" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillAppBufferInvoice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method FillAppBufferInvoice</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 3536826307" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostLiabilityAdjustmentJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method PostLiabilityAdjustmentJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 1887853193" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ApplyGSTSettlement</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method ApplyGSTSettlement</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 2394907237" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsDuplicateDocumentNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method IsDuplicateDocumentNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 2530764220" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateCreditAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method UpdateCreditAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 3831170435" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPeriodendDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method GetPeriodendDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 872536602" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGSTPayment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method PostGSTPayment</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 3563693303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsGSTPaymentApplicable</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method IsGSTPaymentApplicable</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 3292711352" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateAdjRemAmt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method UpdateAdjRemAmt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 410647079 - Method 185787016" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ValidateCreditUtilizedAmt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method ValidateCreditUtilizedAmt</note>
         </trans-unit>
         <trans-unit id="Codeunit 410647079 - NamedType 2885789378" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No. %1 already has been adjusted on %2. Please change the date and try again.</source>
@@ -11483,56 +10463,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = GST Settlement Account Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method GSTSettlementAccTypeEnum2GenJnlAccType - NamedType ConversionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 2274952477" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurchaseStatisticsAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetPurchaseStatisticsAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 4087117298" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedPurchInvAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetStatisticsPostedPurchInvAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 2470258104" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedPurchCrMemoAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetStatisticsPostedPurchCrMemoAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 2568384396" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSalesStatisticsAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetSalesStatisticsAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 4101912327" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedSalesInvAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetStatisticsPostedSalesInvAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 768423919 - Method 2958324332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedSalesCrMemoAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Statistics - Method GetStatisticsPostedSalesCrMemoAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1318608991 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Stock UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1318608991 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Stock UseCase Dataset - Method GetText</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1318608991 - Method 1825922981" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTreeJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Stock UseCase Dataset - Method GetTreeJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1318608991 - Method 360559567" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTreeText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Stock UseCase Dataset - Method GetTreeText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1318608991 - NamedType 1270164120" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Stock Transfer Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11543,60 +10473,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Stock UseCase Dataset - NamedType UseCaseTreeLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 438043973 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Subcon UseCase Dataset - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 438043973 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Subcon UseCase Dataset - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 438043973 - NamedType 3268069939" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Subcon Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Subcon UseCase Dataset - NamedType GSTOnSubconUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2850757839 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Tax Type Data - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2850757839 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Tax Type Data - Method GetText</note>
         </trans-unit>
         <trans-unit id="Codeunit 2850757839 - NamedType 412811977" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Tax Type place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Tax Type Data - NamedType GSTTaxTypeLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1001384150 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Tax Type Data - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1001384150 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Tax Type Data - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1001384150 - NamedType 1017353652" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST TDS TCS Tax Type place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Tax Type Data - NamedType GSTTDSTCSTaxTypeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3484715364 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Use Case Data - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3484715364 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Use Case Data - Method GetText</note>
         </trans-unit>
         <trans-unit id="Codeunit 3484715364 - NamedType 863196710" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST TDS TCS Use Cases place holder</source>
@@ -11623,26 +10513,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Transfer Receipt No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Order Receipt - NamedType TransferReceiptNoLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2055662599 - Method 155553282" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateGSTTrackingEntryFromTransferOrder</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Order Shipment - Method UpdateGSTTrackingEntryFromTransferOrder</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2055662599 - Method 705651111" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LoopPostingNoSeries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Order Shipment - Method LoopPostingNoSeries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2055662599 - Method 136040230" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InsertGSTLedgerEntryTransfer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Order Shipment - Method InsertGSTLedgerEntryTransfer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2055662599 - Method 1336636994" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InsertDetailedGSTLedgEntryTransfer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Order Shipment - Method InsertDetailedGSTLedgEntryTransfer</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2055662599 - NamedType 1685329841" size-unit="char" translate="yes" xml:space="preserve">
           <source>You canNot select GST Group Type Service for transfer.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11667,101 +10537,6 @@
           <source>Custom Duty Amount must be 0 if GST Group Type is Service while transferring from Bonded Warehouse location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Subscribers - NamedType GSTCustomDutyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1199211827" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VerifyReferenceNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method VerifyReferenceNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 650040438" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforVendor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforVendor</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 2365976399" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforCustomer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforCustomer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 608689198" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforCustomerSales</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforCustomerSales</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1219355930" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforCustomerService</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforCustomerService</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1982182368" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceforCustomerLedgerEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceforCustomerLedgerEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 596330176" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VerifyReferenceNoJournals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method VerifyReferenceNoJournals</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 2706801070" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforPurchJournals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforPurchJournals</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 2468668226" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoforSalesJournals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoforSalesJournals</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1754263133" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTPurchCrMemoValidationReference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckGSTPurchCrMemoValidationReference</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 3759004684" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTPurchCrMemoValidationInJournals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckGSTPurchCrMemoValidationInJournals</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 4290778583" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTSalesCrMemoValidationReference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckGSTSalesCrMemoValidationReference</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1467017431" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGSTSalesCrMemoValidationInJournals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckGSTSalesCrMemoValidationInJournals</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1456769973" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckRCMExemptDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckRCMExemptDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1593957094" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckRCMExemptDateJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method CheckRCMExemptDateJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 3967115407" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoPurchHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoPurchHeader</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 2280384152" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoSalesHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoSalesHeader</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 3829438944" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoGenJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoGenJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2680351807 - Method 1595755458" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateReferenceInvoiceNoServiceHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reference Invoice No. Mgt. - Method UpdateReferenceInvoiceNoServiceHeader</note>
         </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
@@ -12033,156 +10808,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Service Transfer Post - NamedType ShipReceiveQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3538722694" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostPurchOrder</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostPurchOrder</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3872525542" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostSubcon</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostSubcon</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 237550651" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateDeliveryChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CreateDeliveryChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1128879167" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostSubconComp</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostSubconComp</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 2591057476" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RecieveBackCompRW</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method RecieveBackCompRW</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 4207990534" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostScrapAtVE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostScrapAtVE</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 2851123473" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SendAgain</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method SendAgain</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3853368111" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReInitializeSubConQtys</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method ReInitializeSubConQtys</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 2417973538" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RecieveBackComp</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method RecieveBackComp</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1071448153" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostSubconCompCE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostSubconCompCE</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3083283948" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetApplicationLines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method GetApplicationLines</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 2261517730" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreatePostedReceipt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CreatePostedReceipt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 349240198" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SendFromDC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method SendFromDC</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3614673091" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostDCLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostDCLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3079017361" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreatePostedDeliveryChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CreatePostedDeliveryChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1089629710" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckAppDelChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CheckAppDelChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 325096098" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckIfAppDelChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CheckIfAppDelChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 4092676396" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DelAppDelChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method DelAppDelChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1996975614" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTrackingQuantities</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method GetTrackingQuantities</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 119039434" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FilterReservFor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method FilterReservFor</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 2439519745" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FindReservEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method FindReservEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1304089126" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TransferTrackingToItemJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method TransferTrackingToItemJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 925251507" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TransferTrackingToItemJnlLineV</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method TransferTrackingToItemJnlLineV</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 310460707" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FindReservEntryVend</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method FindReservEntryVend</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 319874183" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FilterReservForVend</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method FilterReservForVend</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 112359166" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FindReservEntryVendBef</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method FindReservEntryVendBef</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 408201186" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckItemTracking</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method CheckItemTracking</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 3764022541" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetReceiptNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method GetReceiptNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 4229014800" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostAppliedDeliveryChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method PostAppliedDeliveryChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4004495554 - Method 1433087734" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ItemJournalLineEntryTypeEnum2EntryTypeOption</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method ItemJournalLineEntryTypeEnum2EntryTypeOption</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4004495554 - NamedType 4035734291" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 applied against delivery challan line must be equal to %2 in Document No.=%3, Document Line No.=%4, Parent Item No.=%5, Line No.=%6.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Qyantity, %3 = Document No, %4 = Document Line No, %5 = Parent Item No, %6 = Line No</note>
@@ -12278,46 +10903,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Item Journal Entry Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post - Method ItemJournalLineEntryTypeEnum2EntryTypeOption - NamedType ConversionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 3010188973" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillSendCompItemJnlLineAndPost</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method FillSendCompItemJnlLineAndPost</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 2791810188" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostPurchOrder</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method PostPurchOrder</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 237550651" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateDeliveryChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method CreateDeliveryChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 2591057476" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RecieveBackCompRW</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method RecieveBackCompRW</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 2851123473" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SendAgain</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method SendAgain</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 2650084749" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateExciseInChallan</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method UpdateExciseInChallan</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 1392912020" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateDeliveryChallanHeader</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method CreateDeliveryChallanHeader</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3723503902 - Method 567525720" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckQuantitytoSendReceive</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - Method CheckQuantitytoSendReceive</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3723503902 - NamedType 1558265872" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not Enough Inventory Available at Vendor Location for this order</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12363,56 +10948,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Delivery Challan Item No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post Batch - NamedType UnitCostErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 999894922 - Method 648767554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGSTLiability</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Post GST Liab. - Method PostGSTLiability</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 2302920658" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateSubConOrderLines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method UpdateSubConOrderLines</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 1463200322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ValidateQuantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method ValidateQuantity</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 1973316322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateIssueDetails</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method UpdateIssueDetails</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 3725726032" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetSubconAppliestoID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method SetSubconAppliestoID</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 2083154509" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MultipleDeliveryChallanList</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method MultipleDeliveryChallanList</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 276006249" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ShowSubOrderDetailsForm</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method ShowSubOrderDetailsForm</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 2918888311" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ShowSubOrderRcptForm</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method ShowSubOrderRcptForm</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 1891906443" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetProdOrderCompUnitCost</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method GetProdOrderCompUnitCost</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 628480002 - Method 1182223700" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTotalGSTAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method GetTotalGSTAmount</note>
-        </trans-unit>
         <trans-unit id="Codeunit 628480002 - NamedType 954518901" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Transaction allowed; Status is Closed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12432,16 +10967,6 @@
           <source>Reopening is not allowed Production Order %1 has already been reported as Finished.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Production Order No</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method OnAfterValidateEventdeSubconStatus - NamedType ReopenErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3139384151 - Method 3985026323" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InsertSubComponentsDetails</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Update Subcontract Details - Method InsertSubComponentsDetails</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3139384151 - Method 1462770742" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateProdOrderline</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Update Subcontract Details - Method UpdateProdOrderline</note>
         </trans-unit>
         <trans-unit id="Codeunit 1336800903 - NamedType 2388775229" size-unit="char" translate="yes" xml:space="preserve">
           <source>All bank charge lines must have same sign Amount.</source>

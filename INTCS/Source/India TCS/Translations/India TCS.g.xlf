@@ -1233,40 +1233,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TCS Setup - Field Tax Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1372994491 - Method 4098858601" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PayTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pay-TCS - Method PayTCS</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1372994491 - Method 3247552712 - NamedType 2383727157" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are no TCS entries for Account No. %1.</source>
           <note from="Developer" annotates="general" priority="2">%1=Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pay-TCS - Method PayTCS - NamedType TCSEntriesErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4034345931 - Method 4060470770" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostTCSJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - Method PostTCSJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4034345931 - Method 2549550963" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckLines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - Method CheckLines</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4034345931 - Method 886179026" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - Method PostGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4034345931 - Method 3361387174" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InitGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - Method InitGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4034345931 - Method 751597014" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckDocumentNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - Method CheckDocumentNo</note>
         </trans-unit>
         <trans-unit id="Codeunit 4034345931 - NamedType 3482362582" size-unit="char" translate="yes" xml:space="preserve">
           <source>Checking lines        #1######\</source>
@@ -1298,51 +1268,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post-TCS Jnl. Line - NamedType PostTCSAdjQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 660863354" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TCSTemplateSelection</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method TCSTemplateSelection</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 3321946685" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TemplateSelectionFromTCSBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method TemplateSelectionFromTCSBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 3891515396" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTCSJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method OpenTCSJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 2009652469" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTCSJnlBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method OpenTCSJnlBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 1009615512" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTCSTemplateName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method CheckTCSTemplateName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 229498720" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetNameTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method SetNameTCS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 1715046284" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckNameTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method CheckNameTCS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 592662383" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LookupNameTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method LookupNameTCS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1213532165 - Method 366328852" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAccountsTCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - Method GetAccountsTCS</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1213532165 - NamedType 4168043283" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Journal</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1362,21 +1287,6 @@
           <source>TCS Adjustment</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Adjustment - NamedType TCSTemplateNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2931178009 - Method 1998538109" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTCSEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Management - Method OpenTCSEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2931178009 - Method 518213611" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ConvertTCSAmountToLCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Management - Method ConvertTCSAmountToLCY</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2931178009 - Method 4036271836" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundTCSAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Management - Method RoundTCSAmount</note>
         </trans-unit>
         <trans-unit id="Codeunit 2931178009 - NamedType 4130069058" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 cannot be entered for %2 %3.</source>
@@ -1413,60 +1323,15 @@
           <note from="Developer" annotates="general" priority="2">%1 = TCS Nature of Collection</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Receipt Of Pmt. Handler - NamedType TCSPostingSetupErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4193277191 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Receipt Use Cases - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4193277191 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Receipt Use Cases - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4193277191 - NamedType 1982436281" size-unit="char" translate="yes" xml:space="preserve">
           <source>TCS on Receipt Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Receipt Use Cases - NamedType TCSOnReceiptUseCasesLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1992917451 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Sales Use Cases - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1992917451 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Sales Use Cases - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1992917451 - NamedType 1981509245" size-unit="char" translate="yes" xml:space="preserve">
           <source>TCS on Sales Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS On Sales Use Cases - NamedType TCSOnSalesUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3195664353 - Method 2694788030" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateTaxAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Management - Method UpdateTaxAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3195664353 - Method 2274950889" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateTaxAmountOnSalesLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Management - Method UpdateTaxAmountOnSalesLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3195664353 - Method 2864184833" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Management - Method GetStatisticsAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3195664353 - Method 414847554" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsAmountPostedInvoice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Management - Method GetStatisticsAmountPostedInvoice</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3195664353 - Method 2168745843" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsAmountPostedCreditMemo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Management - Method GetStatisticsAmountPostedCreditMemo</note>
         </trans-unit>
         <trans-unit id="Codeunit 827681671 - NamedType 1083602941" size-unit="char" translate="yes" xml:space="preserve">
           <source>TCS Nature of Collection %1 is not defined for Customer no. %2.</source>
@@ -1477,16 +1342,6 @@
           <source>%1 does not exist in table %2.</source>
           <note from="Developer" annotates="general" priority="2">%1=TCS Nature of Collection., %2=The Table Name.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Sales Subscribers - NamedType NOCTypeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3162279667 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Tax Type - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3162279667 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Tax Type - Method GetText</note>
         </trans-unit>
         <trans-unit id="Codeunit 3162279667 - NamedType 594677709" size-unit="char" translate="yes" xml:space="preserve">
           <source>TCS Tax Type place holder</source>

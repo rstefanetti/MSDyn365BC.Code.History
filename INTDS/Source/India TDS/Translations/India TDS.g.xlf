@@ -1578,16 +1578,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TDS Setup - Field TDS Nil Challan Nos. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2338859356 - Method 2687283833" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReverseProvisionalEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Provisional Entry Handler - Method ReverseProvisionalEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2338859356 - Method 2734381808" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetHideDialog</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Provisional Entry Handler - Method SetHideDialog</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2338859356 - NamedType 2111648834" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount must be negative.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1623,41 +1613,6 @@
           <note from="Developer" annotates="general" priority="2">%1= Purchase Invoice No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Provisional Entry Handler - Method CheckProvisionalEntryIfApplied - NamedType ProvisionalEntryAlreadyAppliedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 708107066 - Method 1098070027" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetReverseProvEntWithoutTDS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Provisional Entry Reversal Mgt - Method SetReverseProvEntWithoutTDS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 708107066 - Method 3883292945" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetReverseProvEntWithoutTDS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Provisional Entry Reversal Mgt - Method GetReverseProvEntWithoutTDS</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3577076256 - Method 360583373" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostTaxJournal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - Method PostTaxJournal</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3577076256 - Method 602975098" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - Method CheckLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3577076256 - Method 1327709142" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - Method PostGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3577076256 - Method 2127719729" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InitGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - Method InitGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3577076256 - Method 2035076829" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckDocumentNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - Method CheckDocumentNo</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3577076256 - NamedType 3482362582" size-unit="char" translate="yes" xml:space="preserve">
           <source>Checking lines        #1######\</source>
           <note from="Developer" annotates="general" priority="2">#1=Line check</note>
@@ -1688,36 +1643,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Adjustment Post - NamedType PostTDSAdjQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 1115636451" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AddTDSSubSection</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method AddTDSSubSection</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 3097714200" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDetailTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method GetDetailTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 1555302236" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetDetailTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method SetDetailTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 3282444963" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTDSEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method OpenTDSEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 2806883878" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundTDSAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method RoundTDSAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3517100389 - Method 1288938157" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ConvertTDSAmountToLCY</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method ConvertTDSAmountToLCY</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3517100389 - Method 3773665657 - NamedType 2200210739" size-unit="char" translate="yes" xml:space="preserve">
           <source>Click here to enter Section Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1728,100 +1653,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entity Management - Method SetTotalTDSInclSHECessAmount - NamedType ComponenetNameLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1408768802 - Method 2129681976" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetTDSEntryForUpdate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entry Update Mgt. - Method SetTDSEntryForUpdate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1408768802 - Method 3815993910" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsTDSEntryUpdateStarted</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entry Update Mgt. - Method IsTDSEntryUpdateStarted</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1408768802 - Method 2159309305" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTDSEntryToUpdateInitialInvoiceAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entry Update Mgt. - Method GetTDSEntryToUpdateInitialInvoiceAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1408768802 - Method 3021051766" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTempTDSEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entry Update Mgt. - Method GetTempTDSEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1408768802 - Method 1906950969" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ResetTempTDSEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Entry Update Mgt. - Method ResetTempTDSEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2090269119 - Method 3971095599" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TDSSectionCodeLookupGenLineForCustomer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS For Customer Subscribers - Method TDSSectionCodeLookupGenLineForCustomer</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2090269119 - NamedType 2643940028" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS Section Code %1 is not attached with Customer No. %2, Do you want to assign to Customer &amp; Continue ?</source>
           <note from="Developer" annotates="general" priority="2">%1 = TDS Section Code,%2 = Customer No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS For Customer Subscribers - NamedType ConfirmMessageMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3004141420 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS For Customer Use Cases - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3004141420 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS For Customer Use Cases - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3004141420 - NamedType 2645035990" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS For Customer Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS For Customer Use Cases - NamedType TDSForCustomerUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 482162162" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TaxTemplateSelection</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method TaxTemplateSelection</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 1388018870" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TemplateSelectionFromTaxBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method TemplateSelectionFromTaxBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 2994011524" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTaxJnl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method OpenTaxJnl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 751161867" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenTaxJnlBatch</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method OpenTaxJnlBatch</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 3443509460" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTaxTemplateName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method CheckTaxTemplateName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 2846587879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetNameTax</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method SetNameTax</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 520136218" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckNameTax</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method CheckNameTax</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 1163422273" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LookupNameTax</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method LookupNameTax</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 296171980 - Method 2510171327" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAccountsTax</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Jnl Management - Method GetAccountsTax</note>
         </trans-unit>
         <trans-unit id="Codeunit 296171980 - NamedType 2747626388" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Journal</source>
@@ -1853,40 +1693,15 @@
           <note from="Developer" annotates="general" priority="2">%1= Work Tax Nature of Deduction,%2= TDS Section Table Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Journals Subscribers - NamedType WorkTaxNatureofDeductionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1267401744 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Payment Use Cases - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1267401744 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Payment Use Cases - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1267401744 - NamedType 573604143" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS on Payment Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Payment Use Cases - NamedType TDSOnPaymentsUseCasesLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 422126519 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Purchase Use Cases - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 422126519 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Purchase Use Cases - Method GetText</note>
-        </trans-unit>
         <trans-unit id="Codeunit 422126519 - NamedType 680240489" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS On Purchase Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS On Purchase Use Cases - NamedType TDSOnPurchaseUseCasesLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 98111365 - Method 3150535431" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PayTDS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Pay - Method PayTDS</note>
         </trans-unit>
         <trans-unit id="Codeunit 98111365 - Method 4270700670 - NamedType 2932411483" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot reverse %1 No. %2 because the posting date is not within the allowed posting period.</source>
@@ -1913,26 +1728,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Pay - Method ReverseTDS - NamedType CannotReverseErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1896673003 - Method 3733279145" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateInvoiceAmountOnTempTDSEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Preview Handler - Method UpdateInvoiceAmountOnTempTDSEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3087909194 - Method 1212026045" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Statistics - Method GetStatisticsAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3087909194 - Method 966819137" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Statistics - Method GetStatisticsPostedAmount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3087909194 - Method 2470258104" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetStatisticsPostedPurchCrMemoAmount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Statistics - Method GetStatisticsPostedPurchCrMemoAmount</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1871534390 - NamedType 1036927670" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer P.A.N. is invalid.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1947,16 +1742,6 @@
           <source>Vendor P.A.N. is invalid.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Subscribers - Method CheckPANDetails - NamedType PANNoErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1943516711 - Method 3137990175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetJObject</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Types - Method GetJObject</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1943516711 - Method 4279486595" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Types - Method GetText</note>
         </trans-unit>
         <trans-unit id="Codeunit 1943516711 - NamedType 3257280872" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS Tax Type Place Holder</source>

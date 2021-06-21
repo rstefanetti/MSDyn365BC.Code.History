@@ -93,6 +93,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Concatenate Line - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2549196049 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Concatenate Line - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1118808027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action Container</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -153,6 +158,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Convert Case - Field Convert To Case - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 218507463 - Field 584040020 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upper Case,Lower Case</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Convert Case - Field Convert To Case - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 218507463 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -178,6 +188,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Convert Case - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 218507463 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Convert Case - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 218507463 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -192,6 +207,11 @@
           <source>Arithmetic operators</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Arithmetic operators - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3950455885 - Field 1307367117 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>plus,minus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Arithmetic operators - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3950455885 - Field 3856001763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Case ID</source>
@@ -213,10 +233,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Date Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3950455885 - Field 2454188937 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Date Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3950455885 - Field 1637095154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duration</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3950455885 - Field 1637095154 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Days,Weeks,Months,Years</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Duration - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3950455885 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
@@ -237,6 +267,11 @@
           <source>Number Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Number Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3950455885 - Field 3098391484 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date Calculation - Field Number Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3950455885 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -273,6 +308,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date To DateTime - Field Date Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3374745020 - Field 2454188937 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date To DateTime - Field Date Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3374745020 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -297,6 +337,11 @@
           <source>Time Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Date To DateTime - Field Time Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3374745020 - Field 1699867330 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Date To DateTime - Field Time Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3374745020 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -333,6 +378,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field Index Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 37384962 - Field 3951769551 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field Index Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 37384962 - Field 4105664997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Length Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -347,6 +397,11 @@
           <source>Length Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field Length Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 37384962 - Field 3861807473 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field Length Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 37384962 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -367,6 +422,11 @@
           <source>String Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field String Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 37384962 - Field 215781506 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Index - Field String Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 37384962 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -403,10 +463,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field Length Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3279944838 - Field 3861807473 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field Length Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3279944838 - Field 56735747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Position</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field Position - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3279944838 - Field 56735747 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>start,end</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field Position - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3279944838 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -428,6 +498,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field String Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3279944838 - Field 215781506 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Ext. Substr. From Pos. - Field String Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3279944838 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -447,6 +522,11 @@
           <source>Date Part</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract Date Part - Field Date Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3571271340 - Field 1409030693 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year,Month,Day</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract Date Part - Field Date Part - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3571271340 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
@@ -472,6 +552,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract Date Part - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3571271340 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract Date Part - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3571271340 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -503,6 +588,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract DateTime Part - Field Part Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 32248559 - Field 1397992801 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date,Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract DateTime Part - Field Part Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 32248559 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -517,6 +607,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract DateTime Part - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 32248559 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Extract DateTime Part - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 32248559 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -548,6 +643,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Date1 Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1990838028 - Field 556827794 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Date1 Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1990838028 - Field 1875246851 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date2 Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -563,6 +663,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Date2 Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1990838028 - Field 1724882559 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Date2 Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1990838028 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -572,6 +677,11 @@
           <source>Interval</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Inverval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1990838028 - Field 3823311263 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Days,Hours,Minutes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Date Interval - Field Inverval - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1990838028 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -618,6 +728,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Substring - Field String Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2076885334 - Field 215781506 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Substring - Field String Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2076885334 - Field 2531100714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Substring Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -632,6 +747,11 @@
           <source>Substring Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Substring - Field Substring Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2076885334 - Field 1134202742 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Find Substring - Field Substring Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 2076885334 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -708,6 +828,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Length Of String - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3806758090 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Length Of String - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3806758090 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -752,6 +877,16 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Loop N Times - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4080878030 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Loop N Times - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408993419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Loop Through Rec. Field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Loop Through Rec. Field - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3408993419 - Field 1301354321 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Sum</source>
@@ -822,6 +957,11 @@
           <source>Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Loop Through Records - Field Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 739669673 - Field 146219450 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ascending,Descending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Loop Through Records - Field Order - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 739669673 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -908,6 +1048,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Message - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3191900959 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Message - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2651560976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action Number Calculation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -938,6 +1083,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Calculation - Field LHS Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2651560976 - Field 2342287225 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Calculation - Field LHS Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2651560976 - Field 3403176512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LHS Value</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -952,6 +1102,11 @@
           <source>RHS Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Calculation - Field RHS Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2651560976 - Field 4139136547 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Calculation - Field RHS Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 2651560976 - Field 233628926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>RHS Value</source>
@@ -1007,6 +1162,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Expr. Token - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 808756065 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Number Expr. Token - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1679320825 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action Number Expression</source>
@@ -1068,6 +1228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field New String Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1318174157 - Field 256571382 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field New String Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1318174157 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1088,6 +1253,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field String Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1318174157 - Field 215781506 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field String Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1318174157 - Field 2531100714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Substring Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1102,6 +1272,11 @@
           <source>Substring Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field Substring Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1318174157 - Field 1134202742 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Replace Substring - Field Substring Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1318174157 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vairiable ID</source>
@@ -1123,6 +1298,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Direction - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1709895361 - Field 39585143 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nearest,Up,Down</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Direction - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1709895361 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1143,6 +1323,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Number Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1709895361 - Field 3098391484 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Number Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1709895361 - Field 2966117307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Precision Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1157,6 +1342,11 @@
           <source>Precision Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Precision Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1709895361 - Field 1096198247 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Round Number - Field Precision Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1709895361 - Field 1248204326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script ID</source>
@@ -1202,6 +1392,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action Set Variable - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1180523094 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action Set Variable - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1180523094 - Field 3353841245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable ID</source>
@@ -1252,6 +1447,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Action String Expr. Token - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3066404523 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Action String Expr. Token - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 216982467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action String Expression</source>
@@ -1377,6 +1577,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Lookup Field Filter - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1500584572 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Lookup Field Filter - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 3523761438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lookup Field Sorting</source>
@@ -1663,6 +1868,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3172292867 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal,Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 4049407733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script Symbol Lookup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1707,6 +1917,11 @@
           <source>Table Method</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Lookup - Field Table Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4049407733 - Field 3766640835 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,First,Last,Sum,Average,Min,Max,Count,Exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Lookup - Field Table Method - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 4049407733 - Field 1277474667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table Sorting ID</source>
@@ -1777,6 +1992,11 @@
           <source>String Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Member Value - Field String Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1011579950 - Field 215781506 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text,BLOB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Member Value - Field String Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1011579950 - Field 3278899661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Symbol ID</source>
@@ -1857,6 +2077,11 @@
           <source>Text Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Value - Field Text Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2417262502 - Field 3638493010 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text,BLOB</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Script Symbol Value - Field Text Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 2417262502 - Field 4231815170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time Value</source>
@@ -2143,6 +2368,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component - Field Component Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3332687614 - Field 3528479657 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal,Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component - Field Component Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 3332687614 - Field 39585143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Direction</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2233,6 +2463,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Expr. Token - Field Value Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1639764388 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Expr. Token - Field Value Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 679232324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Component Expression</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2257,6 +2492,11 @@
           <source>ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Expression - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2053261952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Component Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Formula - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2053261952 - Field 1028767326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Component ID</source>
@@ -2312,6 +2552,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Formula Token - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3608122625 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Component</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Formula Token - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 2887358834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Component Summary</source>
@@ -2423,6 +2668,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Insert Record - Field Sub Ledger Group By - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2421668345 - Field 806294287 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component,Line / Component</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Insert Record - Field Sub Ledger Group By - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2421668345 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2497,6 +2747,11 @@
           <source>Value Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Insert Record Field - Field Value Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751760799 - Field 401773189 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Insert Record Field - Field Value Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 4188485291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Posting Keys Buffer</source>
@@ -2632,6 +2887,36 @@
           <source>Tax Rate Column Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 3407512713" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Type:              #1######\</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Tax Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType TaxTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 4254465189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfering Records to temporary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType TransferingRecordToTempLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 2830556454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating keys on Tax Rates\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType UpdatingKeysLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 3162272771" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updating keys</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType UpdatingKeysValueLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 3430551794" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validating keys</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType ValidatingKeysValueLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 3427699882 - NamedType 2442600875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stage:              #2######</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Key Generation stage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - NamedType ValueLbl</note>
         </trans-unit>
         <trans-unit id="Table 3427699882 - Field 1559054909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allow Blank</source>
@@ -2843,6 +3128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Test Condition Item - Field Logical Operator - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 5251775 - Field 3456015021 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,and,or</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Test Condition Item - Field Logical Operator - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 5251775 - Field 1382467218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>RHS Lookup ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2852,6 +3142,11 @@
           <source>RHS Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Test Condition Item - Field RHS Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 5251775 - Field 4139136547 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Constant,Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Test Condition Item - Field RHS Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 5251775 - Field 233628926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>RHS Value</source>
@@ -3223,6 +3518,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Transaction Posting Buffer - Field Tax Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 97605143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Archival Log Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Use Case Archival Log Entry - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 97605143 - Field 316068610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Active Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3362,6 +3662,11 @@
           <source>Switch Statement ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Use Case Rate Column Relation - Field Switch Statement ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2409062275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Tree Node</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Use Case Tree Node - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2409062275 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blocked</source>
@@ -3913,11 +4218,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Column Name,%2 = Tax Type, %3 = use case name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Deserialization - NamedType ColumnNameNotFoundErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4246769398 - NamedType 1800695930" size-unit="char" translate="yes" xml:space="preserve">
-          <source>An higher version of use case: %1 is already active.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = use case name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Deserialization - NamedType HigherVersionOfUseCaseIsAlreadyDeployedErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4246769398 - NamedType 212210601" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importing              #1######\</source>
           <note from="Developer" annotates="general" priority="2">Tax Type or Use Cases</note>
@@ -4003,6 +4303,11 @@
           <note from="Developer" annotates="general" priority="2">Tax Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Serialization - NamedType ValueLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3228594690 - NamedType 2026438490" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We have updated some use cases which were modified by you. please export these use cases and apply your changes manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Single Instance - NamedType UseCaseReplacedMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1009816673 - NamedType 152815584" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Posting is not configured for Use Case : %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Use Case Description</note>
@@ -4048,10 +4353,50 @@
           <note from="Developer" annotates="general" priority="2">%1 = Tax Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Export Mgmt. - Method ExportToFile - NamedType FileNameLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 212210601" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing              #1######\</source>
+          <note from="Developer" annotates="general" priority="2">Tax Rates</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType ImportingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 2101202869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing Values for Row No. %1</source>
+          <note from="Developer" annotates="general" priority="2">Row No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType ImportingValuesStageLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 2442619791" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Rate already exist with the same setup value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType TaxConfigurationAlreadyExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 91660698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stage      #3######\</source>
+          <note from="Developer" annotates="general" priority="2">Stage of Import for Tax Rate</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType TaxTypeImportStageLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 534894808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Rates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType TaxTypesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 2943328591" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validating Values for Row No. %1</source>
+          <note from="Developer" annotates="general" priority="2">Row No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType ValidatingValuesStageLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2111627200 - NamedType 2442600875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Type :              #2######\</source>
+          <note from="Developer" annotates="general" priority="2">Tax Type Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Rates Import Mgmt. - NamedType ValueLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3221350184 - NamedType 3513714702" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attribute does not exist with ID %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Attribute ID</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Setup Matrix Mgmt. - NamedType AttributeDoesNotExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3221350184 - NamedType 2705841674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete all Tax Rates for Tax Type : %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Tax Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Setup Matrix Mgmt. - NamedType CanDeleteAllTaxRatesQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 3221350184 - NamedType 3510802789" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rate Setup does not exist with Column ID %1 for Tax Type %2.</source>
@@ -4062,6 +4407,11 @@
           <source>Tax Rate already exist with the same setup value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Setup Matrix Mgmt. - NamedType TaxConfigurationAlreadyExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3221350184 - NamedType 973110457" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Rate already exist with the same setup value. key value : %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Key Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Setup Matrix Mgmt. - NamedType TaxRateAlreadyExistErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3221350184 - Method 88427751 - NamedType 2075667124" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value cannot be less than 0 for Column %1.</source>
@@ -5058,6 +5408,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Available Use Cases - Control Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1297780506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Component Calculation Dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Component Calculation Dialog - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1297780506 - Control 3304877602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the calculation formula of component.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5133,6 +5488,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Conditions Dialog - Control RHSValue - Method OnAssistEdit - NamedType NullLHSLookupErr</note>
         </trans-unit>
+        <trans-unit id="Page 3873931174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity Mapped To Attributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Entity Mapped To Attributes - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3873931174 - Control 2099455912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the table which will be mapped with the attribute.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5142,6 +5502,11 @@
           <source>Specifies the name of the field which will be mapped with the attribute.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Entity Mapped To Attributes - Control Mapping Field Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2454669535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity Value Factbox</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Entity Value Factbox - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2454669535 - Control 2006108605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the attribute name.</source>
@@ -5178,6 +5543,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Entity Value Factbox - Action EditAttributes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 7341069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entity Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Entity Values - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 7341069 - Control 2006108605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of attribute.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5202,6 +5572,11 @@
           <source>Value</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Entity Values - Control ValueTxt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 526281084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Field Lookup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 526281084 - Control 166597695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the field name of the table.</source>
@@ -5313,6 +5688,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Lookup Field Sorting Dialog - Control TableFieldName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4124468023 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Rate Setup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4124468023 - Control 1559054909 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether column on Rate Setup can be blank so that it can take priority if exact match is not found.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5388,6 +5768,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Context - Action Variables - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3582784468 - Action 3344066439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Context - Action Variables - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3093097258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script Editor</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5423,6 +5808,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Add Else Condition - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3093097258 - Action 363194359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add Else Condition</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Add Else Condition - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3093097258 - Action 3496562731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5433,10 +5823,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Delete Action - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3093097258 - Action 3016190073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Delete Action - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3093097258 - Action 1253838019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Add a new line in script editor.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Insert Action - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3093097258 - Action 1253838019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor - Action Insert Action - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2977685531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Script Editor</source>
@@ -5473,20 +5873,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action27 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2977685531 - Action 3092196101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action27</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action27 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2977685531 - Action 951524435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ActionGroup8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action ActionGroup8 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2977685531 - Action 3406667849 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deletes a action from script.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2977685531 - Action 3406667849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action10 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2977685531 - Action 1145709915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Insert a new action in the script</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action7 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2977685531 - Action 1145709915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action7 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2977685531 - Action 3358678337 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Insert a new action to script.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2977685531 - Action 3358678337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action9</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Editor Part - Action Action9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1242249331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Script Record Fields Subform</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Fields Subform - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1242249331 - Control 166597695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the field name.</source>
@@ -5513,10 +5943,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Fields Subform - Action Select All - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1242249331 - Action 1924145123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Fields Subform - Action Select All - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1242249331 - Action 3814921422 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>UnSelect all fields from tables as part of record variable.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Fields Subform - Action Unselect All - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1242249331 - Action 3814921422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unselect All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Fields Subform - Action Unselect All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924312096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Script Record Variable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Variable - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2924312096 - Control 730832363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the table name on record.</source>
@@ -5532,6 +5977,11 @@
           <source>Fields</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Variable - Control TableFields - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 893633143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Script Record Variable Fields</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Script Record Variable Fields - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 893633143 - Control 1067496828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the datatype of record field.</source>
@@ -5728,6 +6178,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Script Variables Part - Control Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3406982880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Switch Statements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Switch Statements - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3406982880 - NamedType 3137468645" size-unit="char" translate="yes" xml:space="preserve">
           <source>&lt; Always &gt;</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5767,6 +6222,11 @@
           <source>Sequence</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Switch Statements - Control Sequence - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3777779172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Acc. Period Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Acc. Period Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3777779172 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code of the Accounting period.</source>
@@ -5814,7 +6274,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Attribute - Control FieldNameText - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 135662507 - Control 1347940260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Refrence Field Name</source>
+          <source>Reference Field Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Attribute - Control FieldNameText - Property Caption</note>
         </trans-unit>
@@ -6223,6 +6683,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Engine Setup Wizard - Action ActionNext - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2098168345 - Action 221570191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Modified Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Engine Setup Wizard - Action ExportModified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2596603572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Entities</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Entities - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2596603572 - Control 694256805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of this table.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6312,6 +6782,11 @@
           <source>Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Insert Record Subform - Control TableFieldName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2866065182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Posting Setup Dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Posting Setup Dialog - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2866065182 - NamedType 3956347888" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot enter lookup value manually for source type Lookup.</source>
@@ -6493,6 +6968,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Control AttributeValue9 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 986968008 - Action 2283777931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes all tax rates for the tax type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action DeleteAllRates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 986968008 - Action 2283777931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action DeleteAllRates - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 986968008 - Action 2851454604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exports the tax rates to Excel.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6552,6 +7037,11 @@
           <source>Table Filters</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Table Relation Dialog - Control Lookup Table Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3433576562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Types - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3433576562 - Control 2327360480 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the accounting period linked to this tax type.</source>
@@ -6738,6 +7228,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Archival Log Entries - Action ShowUseCaseAsJson - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 36076369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Attribute Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Attribute Mapping - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 36076369 - Control 1440122853 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of attribute that is mapped in the use case for tax computation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6757,6 +7252,11 @@
           <source>Table Relation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Attribute Mapping - Control TableRelation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3069642853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3069642853 - NamedType 3686801667" size-unit="char" translate="yes" xml:space="preserve">
           <source>Condition : %1</source>
@@ -6903,6 +7403,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Card - Action PostingSetup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1332802415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Case List - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1332802415 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description of the use case.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6922,6 +7427,11 @@
           <source>Tax Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case List - Control Tax Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1823353513 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Posting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1823353513 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
@@ -6957,6 +7467,11 @@
           <source>Posting Script</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Posting - Action PostingScript - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2594940319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Case Rate Column Relation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Rate Column Relation - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2594940319 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the Rate column which will be mapped to this tax use case to find the tax rate, mapping is only needed for Range and Value type rate columns.</source>
@@ -7092,6 +7607,11 @@
           <source>Indent Nodes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Use Case Tree - Action Indent Nodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3772082224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Use Cases - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3772082224 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description of the tax use case.</source>

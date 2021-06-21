@@ -7808,6 +7808,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Transfer Shipment GST - Control ShowInternalInfo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 340522122 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext. - Action Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 340522122 - Action 2559125355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
           <source>Select this option to take print of the voucher.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7817,6 +7822,11 @@
           <source>Print Voucher</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Acc Ledg Entry Ext. - Action Print Voucher - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3614316979 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. Ledger Entry Ext. - Action Report - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3614316979 - Action 2559125355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
           <source>Select this option to take print of the voucher.</source>
@@ -7828,6 +7838,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cust. Ledger Entry Ext. - Action Print Voucher - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3482397921 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 377345500">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FA Ledger Entry Ext - Action Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3482397921 - Action 2559125355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 377345500">
           <source>Select this option to take print of the voucher.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7838,6 +7853,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension FA Ledger Entry Ext - Action Print Voucher - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1944853794 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entry Ext - Action Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1944853794 - Action 2559125355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Select this option to take print of the voucher.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7847,6 +7867,11 @@
           <source>Print Voucher</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entry Ext - Action Print Voucher - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1225766744 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1567633909">
+          <source>Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Ledger Entry Ext - Action Report - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1225766744 - Action 2559125355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1567633909">
           <source>Select this option to take print of the voucher.</source>

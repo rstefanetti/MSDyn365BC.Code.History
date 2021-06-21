@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Journal Voucher Posting Setup - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3289039365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Narration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Narration - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3289039365 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1773,6 +1778,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Voucher Register - Control PrintLineNarration1 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2797930870 - Action 3930228087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3470244815">
+          <source>Voucher Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant Role Center VI - Action Voucher Interface - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2797930870 - Action 2598131873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3470244815">
           <source>Generate the Bank Book according to the locations for all types of bank transactions.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2027,6 +2037,11 @@
           <source>Specifies the cheque number of the journal entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Receipt Voucher - Control Cheque No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3416248418 - Action 3930228087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Voucher Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Business Manager Role VI - Action Voucher Interface - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3416248418 - Action 2598131873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Generate the Bank Book according to the locations for all types of bank transactions.</source>
@@ -2303,6 +2318,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Location Card Ext. - Action Voucher Setup - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 108391818 - Action 2905359721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Voucher Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Location Card Ext. - Action Voucher Setup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3522356808 - NamedType 3157689106" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3522356808">
           <source>Void Check %1?</source>
           <note from="Developer" annotates="general" priority="2">%1= Cheque No.</note>
@@ -2327,6 +2347,11 @@
           <source>Specifies the cheque number of the journal entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Payment Journal VI - Control Cheque No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1628931880 - Action 3930228087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 743575308">
+          <source>Voucher Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchasing Agent Role VI - Action Voucher Interface - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1628931880 - Action 2598131873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 743575308">
           <source>Generate the Bank Book according to the locations for all types of bank transactions.</source>
@@ -2437,6 +2462,11 @@
           <source>Voucher Register</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchasing Agent Role VI - Action Voucher Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3619043797 - Action 3930228087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Voucher Interface</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Role Center Page Ext. - Action Voucher Interface - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3619043797 - Action 2598131873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>Generate the Bank Book according to the locations for all types of bank transactions.</source>

@@ -458,16 +458,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Fixed Asset Shift - Field Write-Down - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3210798129 - Method 2722598482" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckAddedDeprApplicable</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calc Normal Depreciation - Method CheckAddedDeprApplicable</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3210798129 - Method 3416426492" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckDeprRedApllicable</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calc Normal Depreciation - Method CheckDeprRedApllicable</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2492165717 - NamedType 2351639995" size-unit="char" translate="yes" xml:space="preserve">
           <source>%2 must not be 100 for %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Fixed Asset Name, %2 = Field Caption</note>
@@ -492,36 +482,6 @@
           <source>Cancel all the depreciation entries for the asset for the fiscal year before disposal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FA Insert Led. Entry Sub. - Method CheckDeprInFiscalYear - NamedType CancelDepreciationLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 123573880" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFiscalYearStartDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetFiscalYearStartDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 930072779" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFiscalYearEndDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetFiscalYearEndDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 2072883330" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDaysInFiscalYear</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetDaysInFiscalYear</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 2134642985" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFiscalYearStartDateInc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetFiscalYearStartDateInc</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 3407850393" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFiscalYearEndDateInc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetFiscalYearEndDateInc</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4180383101 - Method 1025985935" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDaysInFiscalYearInc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Fixed Asset Date Calculation - Method GetDaysInFiscalYearInc</note>
         </trans-unit>
         <trans-unit id="Codeunit 4180383101 - Method 404855272 - NamedType 1707647923" size-unit="char" translate="yes" xml:space="preserve">
           <source>It was not possible to find a %1 in %2.</source>

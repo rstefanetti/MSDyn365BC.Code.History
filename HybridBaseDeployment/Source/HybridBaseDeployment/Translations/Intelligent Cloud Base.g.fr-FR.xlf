@@ -666,7 +666,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3297083380 - NamedType 2551170292" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Don't show me again</source>
-          <target>Ne plus afficher ceci</target>
+          <target>Ne plus afficher ce message</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Post Migration Notificaton - NamedType DontShowAgainLbl</note>
         </trans-unit>

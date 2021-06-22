@@ -1237,7 +1237,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2334494483 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed checks.</source>
-          <target state="translated">Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed Cheques.</target>
+          <target state="translated">Setup AMC Banking - Positive Pay, to be able to make Positive Pay file for printed cheques.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control PPContent - Property ToolTip</note>
         </trans-unit>

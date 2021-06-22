@@ -721,7 +721,7 @@
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 3582926020 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether you are a member of the group, or the group's representative.</source>
-          <target>Anger om du är medlem i gruppen eller för gruppens representant.</target>
+          <target>Anger om du är medlem i gruppen eller gruppens representant.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATGroupRole - Property ToolTip</note>
         </trans-unit>

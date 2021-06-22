@@ -63,6 +63,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Execution Start Date/Time - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1786487985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Currency Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Export Currency Information - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2386421154 - Field 2681143077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Folder Path</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -448,6 +453,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 2998338620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Address - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3247374822 - Field 38781331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Bank Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -462,6 +472,11 @@
           <source>Check Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1387593085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Post Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3247374822 - Field 4166757670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Vendor</source>
@@ -1013,6 +1028,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExecutionStartDateTime - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2425194633 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that currency information must be included in the export to the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExportCurrencyInformation - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4159376791 - Control 2681143077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the complete path of the public folder that the SAF-T file is exported to.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1493,6 +1513,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - NamedType OpenWizardQst</note>
         </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 2627088132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the address that has not been set up correctly for SAF-T.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckAddress - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3247374822 - Control 3829821075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T on specific bank accounts.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1507,6 +1532,11 @@
           <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T for specific customers.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckCustomer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1459662141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the post code that has not been set up correctly for SAF-T.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckPostCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3247374822 - Control 1608686094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T for specific vendors</source>

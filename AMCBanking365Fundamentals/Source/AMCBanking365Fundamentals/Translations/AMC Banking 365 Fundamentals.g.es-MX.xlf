@@ -129,7 +129,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 129688762 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the user name that represents your company's sign-up for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files.</source>
-          <target>Especifica el nombre de usuario que se usa para registrar a la empresa en el servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta bancario.</target>
+          <target>Especifica el nombre de usuario que se usa para registrar a la empresa en el servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta de banco.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control User Name - Property ToolTip</note>
         </trans-unit>
@@ -193,7 +193,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 2575991450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
-          <target>Especifica la dirección del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta bancario. El servicio especificado en el campo URL de servicio, se usa cuando los usuarios exportan o importan archivos bancarios.</target>
+          <target>Especifica la dirección del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta de banco. El servicio especificado en el campo URL de servicio se usa cuando los usuarios exportan o importan archivos bancarios.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control Service URL - Property ToolTip</note>
         </trans-unit>
@@ -925,7 +925,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 3179812607" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in %1 %2. This conflicts with the %3 %4.\\Do you want to continue?</source>
-          <target>El estado de cuenta bancario que está importando contiene transacciones en %1 %2. Eso está en conflicto con el %3 %4.\\¿Desea continuar?</target>
+          <target>El estado de cuenta de banco que está importando contiene transacciones en %1 %2. Eso genera conflicto con %3 %4.\\¿Desea continuar?</target>
           <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 %4 = LCY Code DKK.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType DiffCurrQst</note>
         </trans-unit>
@@ -949,7 +949,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
-          <target>El estado de cuenta bancario que está importando contiene transacciones en divisas distintas que la %1 %2 de la cuenta bancaria %3.</target>
+          <target>El estado de cuenta de banco que está importando contiene transacciones en divisas distintas de %1 %2 de la cuenta bancaria %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 = Bank Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccCurrErr</note>
         </trans-unit>
@@ -1237,7 +1237,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 3504517071 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the sign-up page for the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. This is the web page where you enter your company's user name and password to sign up for the service.</source>
-          <target>Especifica la página de registro del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta bancario. Para registrarse en el servicio, debe escribir en esta página web el nombre de usuario y la contraseña de la empresa.</target>
+          <target>Especifica la página de registro del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta de banco. Para registrarse en el servicio, debe escribir en esta página web el nombre de usuario y la contraseña de la empresa.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control SignupURL - Property ToolTip</note>
         </trans-unit>
@@ -1249,7 +1249,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 2456674618 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the address of the service that converts bank data to the format required by your bank when you export payment bank files and import bank statement files. The service specified in the Service URL field is called when users export or import bank files.</source>
-          <target>Especifica la dirección del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta bancario. El servicio especificado en el campo URL de servicio, se usa cuando los usuarios exportan o importan archivos bancarios.</target>
+          <target>Especifica la dirección del servicio que convierte los datos bancarios al formato que admite el banco, cuando se exportan archivos bancarios de pagos y se importan archivos de estado de cuenta de banco. El servicio especificado en el campo URL de servicio se usa cuando los usuarios exportan o importan archivos bancarios.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control ServiceURL - Property ToolTip</note>
         </trans-unit>
@@ -1483,7 +1483,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1951053626 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup AMC Banking - Bank Statement, to be able to import Bank statements from your banks.</source>
-          <target>Configurar AMC Banking: estado de cuenta bancario, para poder importar estados de cuenta bancarios de sus bancos.</target>
+          <target>Permite configurar "AMC Banking: estado de cuenta de banco" para poder importar estados de cuenta de sus bancos.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control BANKDATACONVSERVSTMT - Property ToolTip</note>
         </trans-unit>

@@ -1246,11 +1246,11 @@
           <note from="Developer" annotates="general" priority="2">%1 - standard account no.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType CannotFindCategotyForStdAccErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1324273395 - NamedType 3310427773" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Media resource %1 has not content. Open the SAF-T Mapping Source page and choose the Update action on selected media resource code.</source>
-          <target state="translated">Medieressurs %1 har ikke innhold. Åpne siden SAF-T-tilordningskilde, og velg Oppdater-handlingen på valgt medieressurskode.</target>
+        <trans-unit id="Codeunit 1324273395 - NamedType 370782087" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tenant media %1 has no content. Open the SAF-T Mapping Source page and choose the Update action on selected tenant media code.</source>
+          <target state="translated">Leietakermediet %1 har ikke innhold. Åpne siden SAF-T-tilordningskilde, og velg Oppdater-handlingen på valgt leietakermediekode.</target>
           <note from="Developer" annotates="general" priority="2">File name, like GeneralLedgerAccounts.xml</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType MediaResourceNoContentErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType TenantMediaNoContentErr</note>
         </trans-unit>
         <trans-unit id="Page 4159376791 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export</source>

@@ -3,24 +3,9 @@
   <file datatype="xml" source-language="en-US" target-language="hr-HR" original="Payroll Data Import Definition (NO)">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 2876398573 - NamedType 1697846669" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;&lt;root&gt;&lt;DataExchDef Code="HULDT-LILLEVIK" Name="" Type="2" ReadingWritingXMLport="1220" ExternalDataHandlingCodeunit="1240" ColumnSeparator="2" FileType="1"&gt;&lt;DataExchLineDef LineType="0" Code="HULDT-LILLEVIK" Name="HULDT-LILLEVIK" ColumnCount="17"&gt;&lt;DataExchColumnDef ColumnNo="1" Name="AccountNo" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="2" Name="VATCode" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="3" Name="Department" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="4" Name="Project" Show="false" DataType="0" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="12" Name="PostingDate" Show="false" DataType="1" DataFormat="ddmmyyyy" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="15" Name="Quantity" Show="false" DataType="2" DataFormat="F" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchColumnDef ColumnNo="17" Name="Amount" Show="false" DataType="2" DataFormat="F" DataFormattingCulture="nb-NO" TextPaddingRequired="false" Justification="0" /&gt;&lt;DataExchMapping TableId="81" Name="" MappingCodeunit="1247"&gt;&lt;DataExchFieldMapping ColumnNo="1" FieldID="4" TransformationRule="EVAL_TXT_TO_INT"&gt;&lt;/DataExchFieldMapping&gt;&lt;DataExchFieldMapping ColumnNo="3" FieldID="24" Optional="true" TransformationRule="BLANK_DIM_CODE"/&gt;&lt;DataExchFieldMapping ColumnNo="4" FieldID="25" Optional="true" TransformationRule="BLANK_DIM_CODE"/&gt;&lt;DataExchFieldMapping ColumnNo="12" FieldID="5"/&gt;&lt;DataExchFieldMapping ColumnNo="15" FieldID="43" Optional="true" TransformationRule="AMOUNT_IN_CENTS"/&gt;&lt;DataExchFieldMapping ColumnNo="17" FieldID="13" TransformationRule="AMOUNT_IN_CENTS"/&gt;&lt;/DataExchMapping&gt;&lt;/DataExchLineDef&gt;&lt;/DataExchDef&gt;&lt;/root&gt;</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2876398573 - NamedType 807862682" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>HULDT-LILLEVIK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2876398573 - NamedType 2820649274" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Huldt &amp; Lillevik Payroll - transactions import.</source>
           <target state="translated">Huldt &amp; Lillevik Payroll - transactions import.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2876398573 - NamedType 4098239920" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AMOUNT_IN_CENTS</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
         </trans-unit>
@@ -30,19 +15,9 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2876398573 - NamedType 463377109" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>EVAL_TXT_TO_INT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2876398573 - NamedType 2923749637" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transform numeric strings with leading zeroes to integers.</source>
           <target state="translated">Transform numeric strings with leading zeroes to integers.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2876398573 - NamedType 2128612129" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BLANK_DIM_CODE</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration (NO</note>
         </trans-unit>

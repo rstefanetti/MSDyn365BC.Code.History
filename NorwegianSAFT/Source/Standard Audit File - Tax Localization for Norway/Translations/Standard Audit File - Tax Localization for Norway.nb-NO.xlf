@@ -802,11 +802,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingGLEntriesTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1071012676 - NamedType 1557271614" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Skatteetaten</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType SkatteetatenMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1071012676 - NamedType 3369811046" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blank</source>
           <target state="translated">Tom</target>
@@ -939,16 +934,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ParallelSAFTFileGenerationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3675363531 - NamedType 358039643" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Zip File (*.zip)|*.zip</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ZipArchiveFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3675363531 - NamedType 3264033655" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SAF-T Financial_%1.zip</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTZipFileTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 3058423012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export SAF-T archive</source>
           <target state="translated">Eksporter SAF-T-arkiv</target>
@@ -1008,11 +993,6 @@
           <target state="translated">De eksporterte ZIP-filene finnes allerede og er klare for nedlasting. Vil du generere ZIP-filene på nytt?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ExportFileAlreadyExistQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2208688230 - NamedType 2669253661" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>urn:StandardAuditFile-Taxation-Financial:NO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Helper - NamedType SAFTNameSpaceTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2929691879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No file generated</source>

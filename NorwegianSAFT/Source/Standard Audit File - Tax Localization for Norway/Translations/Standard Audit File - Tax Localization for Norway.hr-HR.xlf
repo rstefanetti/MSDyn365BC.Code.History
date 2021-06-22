@@ -479,11 +479,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingGLEntriesTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1071012676 - NamedType 1557271614" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Skatteetaten</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType SkatteetatenMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2299721209 - NamedType 1936075235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not specified</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -589,11 +584,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ParallelSAFTFileGenerationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3675363531 - NamedType 358039643" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Zip File (*.zip)|*.zip</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ZipArchiveFilterTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 3058423012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export SAF-T archive</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -638,11 +628,6 @@
           <source>Schedule a task for line %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ScheduleTaskForLineTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2208688230 - NamedType 2669253661" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>urn:StandardAuditFile-Taxation-Financial:NO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Helper - NamedType SAFTNameSpaceTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2929691879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No file generated</source>

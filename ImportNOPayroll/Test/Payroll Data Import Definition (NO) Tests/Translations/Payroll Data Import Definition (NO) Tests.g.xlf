@@ -3,26 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Payroll Data Import Definition (NO) Tests">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 4153178391 - NamedType 1574107339" size-unit="char" translate="no" xml:space="preserve">
-          <source>HULDT-LILLEVIK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration Test - NamedType DataExchNameTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4153178391 - NamedType 4098239920" size-unit="char" translate="no" xml:space="preserve">
-          <source>AMOUNT_IN_CENTS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration Test - NamedType AmountInCentsTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4153178391 - NamedType 2128612129" size-unit="char" translate="no" xml:space="preserve">
-          <source>BLANK_DIM_CODE</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration Test - NamedType BlankDimCodeTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4153178391 - NamedType 463377109" size-unit="char" translate="no" xml:space="preserve">
-          <source>EVAL_TXT_TO_INT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payroll Integration Test - NamedType EvaluateTextToIntegerTok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4153178391 - NamedType 3656526069" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 Field: "%2" different from expected.</source>
           <note from="Developer" annotates="general" priority="2"></note>

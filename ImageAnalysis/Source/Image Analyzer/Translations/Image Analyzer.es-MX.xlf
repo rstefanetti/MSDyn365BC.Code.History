@@ -207,36 +207,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType NeverShowAgainTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 64333105" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Image Analysis</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisCategoryLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 890164766" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Image Analysis enabled.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisEnabledLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 1190126406" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Enable notification sent.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType EnableNotificationSentLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 4071319644" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Image successfully analyzed.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType ImageAnalysisSuccesfulLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 1506353678" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Category was assigned.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType CategoryAssignedLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - NamedType 3947491962" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Attribute was assigned.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType AttributeAssignedLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3175899218 - NamedType 648729261" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open setup</source>
           <target state="translated">Abrir configuración</target>
@@ -516,21 +486,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType TermsPartTxt</note>
         </trans-unit>
-        <trans-unit id="Page 872216054 - NamedType 3546102265" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType OnlineServicesTermLinkLinkTxt</note>
-        </trans-unit>
         <trans-unit id="Page 872216054 - NamedType 3413784201" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Online Services Terms (OST)</source>
           <target state="translated">Condiciones del servicio en línea (OST)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType OnlineServicesTermLinkTxt</note>
-        </trans-unit>
-        <trans-unit id="Page 872216054 - NamedType 1258281696" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>http://go.microsoft.com/fwlink/?LinkID=829046</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Image Analyzer Wizard - NamedType CognitiveServicesLinkLinkTxt</note>
         </trans-unit>
         <trans-unit id="Page 872216054 - NamedType 1781401520" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Microsoft Cognitive Services</source>

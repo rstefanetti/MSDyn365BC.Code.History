@@ -375,31 +375,11 @@
           <note from="Developer" annotates="general" priority="2">Ref. is short for reference from Your Reference field. After Ref there will be a number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType YourReferenceTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 184518862" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://go.microsoft.com/fwlink/?linkid=844662</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType TermsOfServiceURLTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 19477768" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://secure-test.worldpay.com/wcc/purchase?testMode=100</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayBaseURLTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 1693987465" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>instId=%1&amp;cartId=%2&amp;amount=%3&amp;currency=%4&amp;desc=%5</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayMandatoryParametersTok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3394800156" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the target URL in the demonstration company.</source>
           <target state="translated">Ekki er hægt að breyta markslóð í sýnifyrirtækinu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType TargetURLCannotBeChangedInDemoCompanyErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 2114239923" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://secure-test.worldpay.com/wcc/purchase?testMode=100</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType SandboxWorldPayBaseURLTok</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3143294897" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Add WorldPay link to your invoices.</source>
@@ -407,47 +387,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayMenuDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 353171282" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://go.microsoft.com/fwlink/?linkid=844661</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayHomepageLinkTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 2259426355" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finance,WorldPay,Payment</source>
           <target state="translated">Fjármál,WorldPay,Greiðsla</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayBusinessSetupKeywordsTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 4147672854" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>WorldPay</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayPaymentMethodCodeTok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3149818938" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay payment</source>
           <target state="translated">WorldPay-greiðsla</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayPaymentMethodDescTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 797673599" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AL WorldPay</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayTelemetryCategoryTok</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 1825994920" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>WorldPay hyperlink included on sales document.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayHyperlinkIncludedTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 3218272645" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>WorldPay hyperlink generated for sales document.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayHyperlinkGeneratedTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 385548120" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>An error occured while creating the WorldPay payment link.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayNoLinkTelemetryTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 1788631818" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>An error occured while creating the WorldPay payment link.</source>
@@ -461,26 +411,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayNoLinkQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 2116285753" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>WorldPay target URL is empty.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayTargetURLIsEmptyTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 1259751509" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>WorldPay target URL is invalid.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType WorldPayTargetURLIsInvalidTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3255327378 - NamedType 101907022" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Demo Sandbox Account - </source>
           <target state="translated">Sýniútgáfa Sandbox-reiknings - </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Create Demo Data - NamedType DemoAccountPrefixTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3255327378 - NamedType 2786456873" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>1182302</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Create Demo Data - NamedType DemoAccountIDTxt</note>
         </trans-unit>
         <trans-unit id="Page 259547023 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay Payments Standard Setup</source>
@@ -607,11 +542,6 @@
           <target state="translated">Tölvupóstur WorldPay</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - Control AccountID - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2493693963 - NamedType 2519701119" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>sandbox.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - WorldPay Std. Settings - NamedType SandboxPrefixTok</note>
         </trans-unit>
         <trans-unit id="Page 2493693963 - NamedType 865041942" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to enable WorldPay Sandbox setup?</source>

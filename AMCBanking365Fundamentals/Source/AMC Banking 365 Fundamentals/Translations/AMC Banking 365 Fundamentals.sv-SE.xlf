@@ -1929,7 +1929,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3493802159 - Control 2640682147 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>XTL Journal associated with the Credit Transfer Register</source>
-          <target state="translated">XTL-journalen som är associerad till kreditöverföringsregistret</target>
+          <target state="translated">XTL-journal som är associerad till kreditöverföringsregistret</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 294717160</note>

@@ -47,7 +47,7 @@
         </trans-unit>
         <trans-unit id="Table 2062634445 - Field 1390308272 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ignore,Use as category,Use as attribute,Add to blacklist</source>
-          <target state="translated">Negeren,Gebruiken als categorie,Gebruiken als kenmerk,Toevoegen aan zwarte lijst</target>
+          <target state="translated">Negeren,Gebruiken als categorie,Gebruiken als kenmerk,Toevoegen aan blokkeringslijst</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Action To Perform - Property OptionCaption</note>
         </trans-unit>
@@ -293,7 +293,7 @@
         </trans-unit>
         <trans-unit id="Page 4132159392 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,Confidence Score,Blacklist</source>
-          <target state="translated">Nieuw,Proces,Rapport,Zekerheidsscore,Zwarte lijst</target>
+          <target state="translated">Nieuw,Proces,Rapport,Zekerheidsscore,Blokkeringslijst</target>
           <note from="Developer" annotates="general" priority="2">Blacklist is used to prevent the selected attributes from being suggested in the future.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Property PromotedActionCategories</note>
         </trans-unit>
@@ -329,13 +329,13 @@
         </trans-unit>
         <trans-unit id="Page 4132159392 - Action 2630983774 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blacklist</source>
-          <target state="translated">Zwarte lijst</target>
+          <target state="translated">Blokkeringslijst</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action BlacklistGroup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4132159392 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Blacklisted Attributes</source>
-          <target state="translated">Kenmerken op zwarte lijst weergeven</target>
+          <target state="translated">Kenmerken op blokkeringslijst weergeven</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action ViewBlacklistedTags - Property Caption</note>
         </trans-unit>
@@ -347,7 +347,7 @@
         </trans-unit>
         <trans-unit id="Page 2516211404 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Image Analyzer Blacklisted Attributes</source>
-          <target state="translated">Kenmerken op zwarte lijst van Afbeeldingsanalyse</target>
+          <target state="translated">Kenmerken op blokkeringslijst van Afbeeldingsanalyse</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Blacklist - Property Caption</note>
         </trans-unit>
@@ -560,7 +560,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3849677789 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Blacklisted Attributes</source>
-          <target state="translated">Kenmerken op zwarte lijst weergeven</target>
+          <target state="translated">Kenmerken op blokkeringslijst weergeven</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>

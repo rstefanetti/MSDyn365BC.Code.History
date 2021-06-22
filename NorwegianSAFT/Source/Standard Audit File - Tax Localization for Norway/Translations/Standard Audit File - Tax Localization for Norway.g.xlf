@@ -508,6 +508,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Dimension No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1882811858 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Default Post Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3247374822 - Field 3187525439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Company Information</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -552,6 +557,11 @@
           <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T on specific bank accounts.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1509787282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the post code to use when no values specified in the customer or vendor card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control DefaultPostCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3247374822 - NamedType 3820759387" size-unit="char" translate="yes" xml:space="preserve">
           <source>Something is not set up correctly for SAF-T. Do you want to open the SAF-T assisted setup guide?</source>
@@ -2018,12 +2028,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SAF-T Tax Setup - Field Purch. SAF-T Standard Tax Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 417346265 - NamedType 1278416368" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4132487568">
+        <trans-unit id="TableExtension 417346265 - NamedType 1278416368" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 417346265">
           <source>%1 is already used in VAT posting setup %2, %3, field %4</source>
           <note from="Developer" annotates="general" priority="2">%1 - name of the field, like SAF-T Tax Code. %2 - VAT Business Group Code. %3 - VAT Product Group Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SAF-T Tax Setup - NamedType AlreadyUsedErr</note>
         </trans-unit>
-        <trans-unit id="TableExtension 417346265 - NamedType 92375278" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4132487568">
+        <trans-unit id="TableExtension 417346265 - NamedType 92375278" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 417346265">
           <source>SAF-T Tax Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SAF-T Tax Setup - NamedType SAFTTaxCodeLbl</note>

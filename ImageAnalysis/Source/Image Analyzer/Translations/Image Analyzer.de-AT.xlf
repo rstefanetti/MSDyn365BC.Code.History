@@ -565,7 +565,7 @@
           <target state="translated">Beim Kontakt, dessen Bild Sie gerade analysieren, handelt es sich um ein Unternehmen, nicht um eine Person. Der Kontakt muss eine Person sein.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Page 3542408424</note>
+          <note from="ObjectTarget" annotates="general" priority="5">PageExtension 1450496495</note>
         </trans-unit>
         <trans-unit id="TableExtension 214061687 - Field 2508927063 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable Image Analyzer</source>
@@ -586,7 +586,7 @@
           <target state="translated">Um die Bildanalyse zu aktivieren, müssen Sie Administrator sein. Stellen Sie sicher, dass Ihnen der Benutzerberechtigungssatz "SUPER" zugewiesen ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 133985070</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 214061687</note>
         </trans-unit>
       </group>
     </body>

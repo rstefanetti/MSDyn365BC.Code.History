@@ -609,6 +609,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Dimension No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1882811858 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Post Code</source>
+          <target state="translated">Standard postnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Default Post Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3247374822 - Field 3187525439 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Company Information</source>
           <target state="translated">Kontroller selskapsopplysninger</target>
@@ -662,6 +668,12 @@
           <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T på bestemte bankkontoer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1509787282 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the post code to use when no values specified in the customer or vendor card.</source>
+          <target state="translated">Angir postnummeret som skal brukes når det ikke er angitt noen verdier på kunde- eller leverandørkortet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control DefaultPostCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3247374822 - NamedType 3820759387" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Something is not set up correctly for SAF-T. Do you want to open the SAF-T assisted setup guide?</source>
@@ -2445,14 +2457,14 @@
           <target state="translated">%1 er allerede brukt i mva-bokføringsoppsett %2, %3, felt %4</target>
           <note from="Developer" annotates="general" priority="2">%1 - name of the field, like SAF-T Tax Code. %2 - VAT Business Group Code. %3 - VAT Product Group Code</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 417346265</note>
         </trans-unit>
         <trans-unit id="TableExtension 417346265 - NamedType 92375278" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Tax Code</source>
           <target state="translated">SAF-T-avgiftskode</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 417346265</note>
         </trans-unit>
         <trans-unit id="Enum 1610557497 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

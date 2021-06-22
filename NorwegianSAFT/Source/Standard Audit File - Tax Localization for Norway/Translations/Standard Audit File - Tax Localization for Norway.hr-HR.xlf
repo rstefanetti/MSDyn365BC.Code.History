@@ -1726,13 +1726,13 @@
           <source>%1 is already used in VAT posting setup %2, %3, field %4</source>
           <note from="Developer" annotates="general" priority="2">%1 - name of the field, like SAF-T Tax Code. %2 - VAT Business Group Code. %3 - VAT Product Group Code</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 417346265</note>
         </trans-unit>
         <trans-unit id="TableExtension 417346265 - NamedType 92375278" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Tax Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 417346265</note>
         </trans-unit>
         <trans-unit id="Enum 733575408 - EnumValue 4000850171 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Two Digit Standard Account</source>

@@ -3696,7 +3696,7 @@
         </trans-unit>
         <trans-unit id="Page 3170013184 - Control 2014750533 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the version of the App.</source>
-          <target>Hiermee wordt de app-versie opgegeven.</target>
+          <target>Hiermee wordt de versie van de app opgegeven.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extension Deployment Status - Control AppVersion - Property ToolTip</note>
         </trans-unit>
@@ -4058,7 +4058,7 @@
         </trans-unit>
         <trans-unit id="Page 2491626637 - Control 2709452997 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the version of the App.</source>
-          <target>Hiermee wordt de app-versie opgegeven.</target>
+          <target>Hiermee wordt de versie van de app opgegeven.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Extn Deployment Status Detail - Control App Version - Property ToolTip</note>
         </trans-unit>

@@ -2237,7 +2237,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 4090787537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 is already installed.</source>
-          <target state="translated">L'estensione %1 è già installata.</target>
+          <target state="translated">Estensione %1 già installata.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyInstalledMsg</note>
         </trans-unit>
@@ -2540,7 +2540,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3666029466 - NamedType 4090787537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 is already installed.</source>
-          <target state="translated">L'estensione %1 è già installata.</target>
+          <target state="translated">Estensione %1 già installata.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Marketplace - NamedType AlreadyInstalledMsg</note>
         </trans-unit>

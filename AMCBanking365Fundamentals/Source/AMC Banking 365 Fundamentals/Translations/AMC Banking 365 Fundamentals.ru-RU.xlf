@@ -877,7 +877,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hong Kong branch number</source>
-          <target state="translated">Гонконгский код филиала</target>
+          <target state="translated">Код филиала в Гонконге</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
         </trans-unit>
@@ -1140,7 +1140,7 @@
         </trans-unit>
         <trans-unit id="Page 2582853259 - Control 567887726 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the relevant currency code for the bank account.</source>
-          <target state="translated">Определяет соответствующий код валюты для банковского счета.</target>
+          <target state="translated">Определяет код соответствующей валюты для банковского счета.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assist Bank Account - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
@@ -1490,7 +1490,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 867507620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Настройка определений обмена данными</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdateDataExchDef - Property Caption</note>
         </trans-unit>
@@ -1614,7 +1614,7 @@
         </trans-unit>
         <trans-unit id="Page 1294546084 - Control 1973572167 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
-          <target state="translated">Настройка базовых методов оплаты</target>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Assisted Setup - Control UpdatePayMeth - Property Caption</note>
         </trans-unit>
@@ -1904,7 +1904,7 @@
         </trans-unit>
         <trans-unit id="Page 1056736409 - Action 2526477354 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clear the list of all log entries.</source>
-          <target state="translated">Очистка всего списка записей журнала.</target>
+          <target state="translated">Очистка всего списка операций журнала.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Bank Webcall Log - Action Delete0days - Property ToolTip</note>
         </trans-unit>

@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Customs Declaration Tracking for Russia">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 145582456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD FA Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 495009349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Header Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field CD Header Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 3679650572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field CD No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 1680605642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Certificate Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 1991001892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FA No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field FA No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 145582456 - Field 1335914477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Temporary CD No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD FA Information - Field Temporary CD No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Location Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - NamedType 28698063" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete setup because it is used on one or more items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - NamedType CannotDeleteErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 2810494346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Temporary CD Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field Allow Temporary CD Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 3212671997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Info. Must Exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field CD Info. Must Exist - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 381986486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Purchase Check on Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field CD Purchase Check on Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 3780720395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Sales Check on Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field CD Sales Check on Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 65514489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field Item Tracking Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3323754071 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Location Setup - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2704331905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Number Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2704331905 - NamedType 411844913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid format: %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - CD number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Format - NamedType InvalidFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2704331905 - NamedType 1828928002" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ABCDEFGHIJKLMNOPQRSTUVWXYZÇüéâäà­åçêëèïîìÄÅÉæÆôöòûùÿÖÜø£Ø×ƒ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Format - NamedType PossibleCharsTxt</note>
+        </trans-unit>
+        <trans-unit id="Table 2704331905 - Field 2737878565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Format - Field Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2704331905 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Format - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Number Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - NamedType 28698063" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete Custom Declaration %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - custom declaration number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - NamedType CannotDeleteErr</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - NamedType 3481077568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename Custom Declaration %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 - custom declaration number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - NamedType CannotRenameErr</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - NamedType 2827316615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have changed the header. Do you want to change lines?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - NamedType ChangeLinesQst</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - NamedType 2555421232" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must enable Package Tracking in Feature management to create Customs Declarations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - NamedType PackageNoIsNotEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 1212385681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region of Origin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Country/Region of Origin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 3020704128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Declaration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Declaration Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 623083301 - Field 1753214751 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Customer,Vendor,Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CD Number Header - Field Source Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265811415 - NamedType 4211717801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD</source>
+          <note from="Developer" annotates="general" priority="2">Abbreviation for Customs Declaration</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CD Item Tracking Mgt. - NamedType CDTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265811415 - NamedType 897932920" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Tracking does not match for line %1, %2 %3, %4 %5</source>
+          <note from="Developer" annotates="general" priority="2">%1 = line no., %2 = line type, %3 = item no., %4 = field caption, %5 = qty. to ship</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CD Item Tracking Mgt. - NamedType ItemTrackingDoesNotMatchErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265811415 - NamedType 2318421360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 does not match the quantity defined in item tracking.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CD Item Tracking Mgt. - NamedType ItemTrackingMatchErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1010334270 - NamedType 4290357990" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is missing for %2 items %3 in line %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 tracking caption, %2 - quantity, %3 - item no, %4 - line no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CD Report Management - NamedType ValueMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD FA Information List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the related record is blocked from being posted in transactions, for example a customer that is declared insolvent or an item that is placed in quarantine.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 495009349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customs declaration. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control CD Header Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 3679650572 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customs declaration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control CD No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 1991001892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control FA No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926758762 - Control 1335914477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the temporary customs declaration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD FA Information List - Control Temporary CD No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Location Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 2810494346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that a purchase document can use temporary custom declaration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control Allow Temporary CD Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 3212671997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that information about customs declarations must exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control CD Info. Must Exist - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 381986486 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that a purchase document cannot be released if the customs declaration is missing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control CD Purchase Check on Release - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 3780720395 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that a sales document cannot be released if the customs declaration is missing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control CD Sales Check on Release - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 65514489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how serial or lot numbers assigned to the item are tracked in the supply chain.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control Item Tracking Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3323754071 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the warehouse or other place where the involved items are handled or stored.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3529781464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CD Number Formats</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Number Formats - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3529781464 - Control 2737878565 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies customer declaration number format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CD Number Formats - Control Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customs Declaration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 1212385681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code for the country/region where the item was produced or processed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control Country/Region of Origin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 3020704128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the declaration date associated with this custom declaration header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control Declaration Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the source document that the entry originates from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source type that applies to the source number that is shown in the Source No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Action 3538210097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find all entries and documents that exist for the document number and posting date on the selected entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Action Navigate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4201941100 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration - Action Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 495009349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the customs declaration. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control CD Header Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item quantity on hand associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 1044252002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item quantity of the posted negative adjustments associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Negative Adjmt. (Qty) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 4240543679 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customs declaration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Package No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 3441609866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item quantity of the posted positive adjustments associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Positive Adjmt. (Qty) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 3106452351 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item quantity of the posted purchase invoice associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Purchases (Qty) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 179903167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item quantity of the posted sales invoice associated with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Sales (Qty) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 3400459569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the temporary number of the customs declaration. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Temporary CD Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2615018486 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declaration Subform - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Custom Declarations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Control 1212385681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code for the country/region where the item was produced or processed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Control Country/Region of Origin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Control 3020704128 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the declaration date associated with this custom declaration header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Control Declaration Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the source document that the entry originates from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3336970317 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source type that applies to the source number that is shown in the Source No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Customs Declarations - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3784084117 - Action 1561491500 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>Open the Customs Declarations page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FinanceManagerRCExt - Action Custom Declarations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3784084117 - Action 1561491500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>Custom Declarations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FinanceManagerRCExt - Action Custom Declarations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3450269749 - Control 1807423832 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3133908286">
+          <source>Specifies the customs declaration number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension FixedAssetCardExt - Control CD Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1537322936 - Control 2060882459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1180040559">
+          <source>Specifies if customs declaration number format should be checked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension InventorySetupExt - Control Check CD Number Format - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 703045726 - Action 3323754071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3619874149">
+          <source>Set up custom declaration specific tracking for the location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemTrackingCodeCardExt - Action CD Location Setup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 703045726 - Action 3323754071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3619874149">
+          <source>CD Location Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemTrackingCodeCardExt - Action CD Location Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 703045726 - Control 1797285607 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3619874149">
+          <source>Specifies if any customs declaration numbers exist for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemTrackingCodeCardExt - Control CD Location Setup Exists - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3502924607 - Control 1797285607 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2933302576">
+          <source>Specifies if any customs declaration numbers exist for the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemTrackingCodesExt - Control CD Location Setup Exists - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592908394 - Action 3529781464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523480083">
+          <source>CD Number Formats</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WarehouseManagerRCExt - Action CD Number Formats - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2924407865 - Field 1807423832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 372951706">
+          <source>CD Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension FixedAssetExt - Field CD Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1537322936 - Field 2060882459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1180040559">
+          <source>Check CD Number Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension InventorySetupExt - Field Check CD Number Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1671082322 - Field 1797285607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 65514489">
+          <source>CD Location Setup Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTrackingCodeExt - Field CD Location Setup Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 495009349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>CD Header Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field CD Header Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 1044252002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>Negative Adjmt. (Qty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field Negative Adjmt. (Qty) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 3441609866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>Positive Adjmt. (Qty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field Positive Adjmt. (Qty) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 3106452351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>Purchases (Qty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field Purchases (Qty) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 179903167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>Sales (Qty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field Sales (Qty) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1119248274 - Field 3400459569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1754638163">
+          <source>Temporary CD Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension PackageNoInformationExt - Field Temporary CD Number - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1338,7 +1338,7 @@
         </trans-unit>
         <trans-unit id="Page 2166408973 - NamedType 1332930564" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must set a schedule time to continue.</source>
-          <target state="translated">È necessario impostare il tempo di programmazione per continuare.</target>
+          <target state="translated">Per continuare, è necessario impostare il tempo di programmazione.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Intelligent Cloud Schedule - NamedType NoScheduleTimeMsg</note>
         </trans-unit>

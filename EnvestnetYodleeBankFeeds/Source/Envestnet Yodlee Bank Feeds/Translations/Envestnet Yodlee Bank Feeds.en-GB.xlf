@@ -285,6 +285,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action ResetTokens - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4283638840 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Service</source>
+          <target state="translated">Disable Service</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action Disable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - Action 4283638840 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Stop using this service. Use this action only if something went wrong when you turned off the "Enabled" toggle.</source>
+          <target state="translated">Stop using this service. Use this action only if something went wrong when you turned off the "Enabled" toggle.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action Disable - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1268761635 - Action 2744013044 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Advanced Settings</source>
           <target state="translated">Show Advanced Settings</target>
@@ -386,6 +398,12 @@
           <target state="translated">Disabling the service will unlink all online bank accounts.\\Do you want to continue?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - NamedType RemoveConsumerOnDisableQst</note>
+        </trans-unit>
+        <trans-unit id="Page 1268761635 - NamedType 851647546" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disabling the service will break all links from the service to online bank accounts.\\Do you want to continue?</source>
+          <target state="translated">Disabling the service will break all links from the service to online bank accounts.\\Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - NamedType RemoveConsumerOnDeleteQst</note>
         </trans-unit>
         <trans-unit id="Table 4046891712 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>

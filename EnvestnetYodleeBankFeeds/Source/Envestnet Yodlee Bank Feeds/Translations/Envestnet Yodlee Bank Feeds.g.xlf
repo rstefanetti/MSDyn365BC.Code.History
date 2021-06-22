@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Envestnet Yodlee Bank Feeds">
     <body>
       <group id="body">
+        <trans-unit id="Table 4046891712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Yodlee Bank Acc. Link</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4046891712 - Field 4006719383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Automatic Logon Possible</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -47,6 +52,11 @@
           <source>Temp Linked Bank Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Acc. Link - Field Temp Linked Bank Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1268761635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Yodlee Bank Service Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1268761635 - NamedType 3203292152" size-unit="char" translate="yes" xml:space="preserve">
           <source>By modifying the Service URL you must specify your own Cobrand credentials.</source>
@@ -123,6 +133,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Service Setup - Field User Profile Email Address - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1535225911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Yodlee Bank Session</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1535225911 - Field 807152436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cob. Token Last Date Updated</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -147,6 +162,11 @@
           <source>Primary Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Bank Session - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 279003835 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Yodlee Data Exchange Def</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Yodlee Data Exchange Def - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 279003835 - Field 2859717442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Exchange Code</source>
@@ -494,7 +514,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshStatusErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 2530820335" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Refreshing the bank account on Envestnet Yodlee is taking longer than expected.\\You can import transactions up to the last successful refresh date while the refresh is running.</source>
+          <source>Refreshing the bank account on Envestnet Yodlee is taking longer than expected.\\The refresh on Envestnet Yodlee can take up to 5 minutes to complete. You can import transactions up to the last successful refresh date while the refresh is running.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RefreshTakingTooLongTxt</note>
         </trans-unit>

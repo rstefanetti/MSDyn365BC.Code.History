@@ -58,6 +58,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EmployeeTaxTok</note>
         </trans-unit>
+        <trans-unit id="Page 692256314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Ceridian Payroll Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 692256314 - NamedType 3838141333" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data encryption is not activated. It is recommended that you encrypt data. \Do you want to open the Data Encryption Management window?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -92,6 +97,11 @@
           <source>Specifies the name of the user.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Ceridian Payroll Setup - Control User Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1465817081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Ceridian Payroll</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Import Ceridian Payroll - Property Caption</note>
         </trans-unit>
       </group>
     </body>

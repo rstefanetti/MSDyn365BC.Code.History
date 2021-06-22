@@ -93,16 +93,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - Field Solution - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3704095706 - NamedType 3321025375" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>demouser</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - NamedType DemoUserNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Table 3704095706 - NamedType 2491328944" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>DemoPassword</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table AMC Banking Setup - NamedType DemoPasswordTxt</note>
-        </trans-unit>
         <trans-unit id="Page 3704095706 - Property 3863440606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>bank file import,bank file export,bank transfer,amc,bank service setup,bank data conversion</source>
           <target state="translated">importation fichier bancaire,exportation fichier bancaire,transfert bancaire,amc,configuration service bancaire,conversion données bancaires</target>
@@ -377,36 +367,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3725545329 - NamedType 2493814900" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://go.microsoft.com/fwlink/?linkid=2115384</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupHelpTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3725545329 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connect to an online bank service that can convert bank data from Business Central into the formats of your bank, to make it easier, and more accurate, to send data to your banks.</source>
           <target state="translated">Connectez-vous à un service bancaire en ligne capable de convertir les données bancaires de Business Central dans les formats de votre banque, afin de faciliter l’envoi de données à vos banques et pour une plus grande exactitude des informations.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType AssistedSetupDescriptionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3725545329 - NamedType 1358376081" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/pack</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType ReturnPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3725545329 - NamedType 3569617612" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>amcwebservice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType ModuleWebCallTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3725545329 - NamedType 3035914075" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>dataExchange</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType DataExchangeWebCallTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3725545329 - NamedType 3022150365" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>Response</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Assisted Mgt. - NamedType ResponseNodeTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2319047537 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please wait while the operation is being completed.</source>
@@ -462,11 +427,6 @@
           <note from="Developer" annotates="general" priority="2">%1=Support URL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3646414981 - NamedType 642046912" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>paymentExportBank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Exp. CT Hndl - NamedType PaymentExportWebCallTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3646414981 - NamedType 540628993" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>.txt</source>
           <target state="translated">.txt</target>
@@ -503,41 +463,11 @@
           <note from="Developer" annotates="general" priority="2">%1=Support URL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3927356675 - NamedType 143402242" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>bankList</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.BankList Hndl - NamedType BankListWebCallTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3857426880 - NamedType 2779639592" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Preparing line number #1#######</source>
           <target state="translated">Préparation du numéro de ligne #1#######</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Import Bank STMT - NamedType ProgressMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3925124761 - NamedType 2676459513" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/reportExportResponse/return/finsta/statement/balanceenddate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Post-Mapping - NamedType StmtDatePathFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3925124761 - NamedType 809723493" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/reportExportResponse/return/finsta/statement/balanceend</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Post-Mapping - NamedType StmtAmtPathFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3234607452 - NamedType 387681623" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/reportExportResponse/return/finsta/statement/ownbankaccount/bankaccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType StmtBankAccNoPathFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3234607452 - NamedType 368446010" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>='/reportExportResponse/return/finsta/statement/ownbankaccount/currency'|='/reportExportResponse/return/finsta/statement/finstatransus/amountdetails/currency'</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType CurrCodePathFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3234607452 - NamedType 2159309086" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/reportExportResponse/return/finsta/statement/statementno</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.-Pre-Mapping - NamedType StmtNoPathFilterTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 1810949511" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The request body is not set.</source>
@@ -550,11 +480,6 @@
           <target state="translated">Tous les fichiers(*.*)|*.*|Fichiers XML(*.xml)|*.xml|Fichiers texte(*.txt;*.csv;*.asc)|*.txt;*.csv;*.asc</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FileFilterTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 52548103 - NamedType 4100096721" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>txt,csv,asc,xml</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType FileFilterExtensionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 52548103 - NamedType 1051517620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The AMC Banking has not returned any statement transactions.\\For more information, go to %1.</source>
@@ -580,11 +505,6 @@
           <note from="Developer" annotates="general" priority="2">%1=Support URL</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType AddnlInfoTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 52548103 - NamedType 3884939420" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>reportExport</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Imp.STMT. Hndl - NamedType ReportExportWebCallTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 3164795350" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 is missing the user name or password. Do you want to open the %2 page?</source>
           <target state="translated">Il manque un nom d'utilisateur ou un mot de passe au %1. Voulez-vous ouvrir la page %2 ?</target>
@@ -597,66 +517,11 @@
           <note from="Developer" annotates="general" priority="2">%1=Pagename</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType MissingCredentialsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 4035481662" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>nav03</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ApiVersionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3323267032" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>amcbanking fundamentals bc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ClientCodeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3831436902" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>demo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DemoSolutionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3853440174" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>amcxml</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType LicenseXmlApiTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1412550074" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>amcwebservice</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ModuleInfoWebCallTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 2221827266" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BANKDATACONVSERVCT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameCtTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 289864401" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BANKDATACONVSERVSTMT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameStmtTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 51338091" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BANKDATACONVSERVPP</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNamePPTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 4095258164" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BANKDATACONVSERVCREM</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataExchNameCremTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1719713625" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>CT-MSG</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNoTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2654677523" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Transfer Msg. ID</source>
           <target state="translated">ID message de virement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType CreditTransMsgNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3551381072" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IntAcc2Acc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode1Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1549064060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (standard)</source>
@@ -664,21 +529,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc1Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 488556561" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IntAcc2AccExp</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode2Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 4065590717" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (express)</source>
           <target state="translated">Transfert compte international vers compte (express)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc2Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 90690834" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IntAcc2AccFoFa</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode3Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2681215102" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer</source>
@@ -686,21 +541,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc3Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3535909715" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IntAcc2AccHighVal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode4Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1079285239" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (high value)</source>
           <target state="translated">Transfert compte international vers compte (valeur élevée)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc4Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1732698452" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IntAcc2AccInterComp</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode5Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 416066872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>International account to account transfer (inter company)</source>
@@ -708,21 +553,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc5Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 2243683989" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>DomAcc2Acc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode6Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 2253012985" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer</source>
           <target state="translated">Transfert de compte national vers compte</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc6Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 2608552214" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>DomAcc2AccHighVal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode7Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1548217914" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer (high value)</source>
@@ -730,21 +565,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc7Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1654902183" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>DomAcc2AccInterComp</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode8Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 1793495987" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Domestic account to account transfer (inter company)</source>
           <target state="translated">Transfert compte national vers compte (intersociétés)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeDesc8Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1609524776" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>EurAcc2AccSepa</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType AMCBankingPmtTypeCode9Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - NamedType 3630442100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SEPA credit transfer</source>
@@ -758,56 +583,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType NoDetailsMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 1434987672" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/amc:%1/return/syslog[syslogtype[text()="error"]]</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ResultPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 2232507934" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/amc:%1/return/finsta/statement/finstatransus</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType FinstaPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3097643425" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/amc:%1/return/header/result[text()="error"]</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType HeaderErrPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 3843122408" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/amc:%1/return/pack/convertlog[syslogtype[text()="error"]]</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType ConvErrPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - NamedType 314874199" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>/amc:%1/return/pack/data/text()</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - NamedType DataPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 2012585824 - NamedType 1280327305" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BNKCONVDOM</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitPaymentMethods - NamedType BNKDOMACC_Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 2012585824 - NamedType 2924315302" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>BNKCONVINT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitPaymentMethods - NamedType BNKINTACC_Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1712108724" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>AustrianBankleitzahl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode1Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2491202904" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Austrian BLZ number</source>
           <target state="translated">Numéro BLZ autrichien</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc1Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3645005429" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>CanadianPaymentsARN</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode2Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 712762265" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Canadian ARN number</source>
@@ -815,21 +595,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc2Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2546385782" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>CHIPSParticipant</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode3Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3623353946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS number</source>
           <target state="translated">Numéro CHIPS américain</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc3Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2460946479" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>CHIPSUniversal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode4Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3566261211" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American CHIPS universal number</source>
@@ -837,21 +607,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc4Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4210371888" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>ExtensiveBranchNetwork</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode5Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2861466140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Extensive branch network number</source>
           <target state="translated">Numéro vaste réseau agences</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc5Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1168720753" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>FedwireRoutingNumber</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode6Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1845759453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>American Fedwire/ABA routing number</source>
@@ -859,21 +619,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc6Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3643911154" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>GermanBankleitzahl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode7Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1182541086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>German BLZ number</source>
           <target state="translated">Numéro BLZ allemand</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc7Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 516383755" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>HongKongBank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode8Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2735634831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Hong Kong branch number</source>
@@ -881,21 +631,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc8Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 471006348" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>IrishNSC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode9Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 277613648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Irish NSC number</source>
           <target state="translated">Numéro NSC irlandais</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc9Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2813775244" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>ItalianDomestic</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode10Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1424949952" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Italian domestic code</source>
@@ -903,21 +643,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc10Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2859152651" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>NewZealandNCC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode11Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2450858303" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Zealand NCC number</source>
           <target state="translated">Numéro NCC Nouvelle-Zélande</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc11Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3679427342" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>PortugueseNCC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode12Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4040992194" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portuguese NCC number</source>
@@ -925,21 +655,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc12Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3003647501" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>RussianCentralBankIdentificationCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode13Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1482888833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Russian CBI code</source>
           <target state="translated">Code CBI russe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc13Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 337490568" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SouthAfricanNCC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode14Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2557947140" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>South African NCC number</source>
@@ -947,21 +667,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc14Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3956678023" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SpanishDomesticInterbanking</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode15Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 3583855491" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Spanish domestic interbanking number</source>
           <target state="translated">Numéro interbancaire national espagnol</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc15Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1924299914" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SwissBC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode16Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 879022086" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss BC number</source>
@@ -969,21 +679,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc16Txt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 527362825" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>SwissSIC</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode17Tok</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 1894728773" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss SIC number</source>
           <target state="translated">Numéro SIC suisse</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardDesc17Txt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 4054877620" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>UKDomesticSortCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Banking Mgt. - Method InitBankClearingStandard - NamedType BankClearingStandardCode18Tok</note>
         </trans-unit>
         <trans-unit id="Codeunit 2568490811 - Method 3011157210 - NamedType 2164849672" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>British sorting code</source>
@@ -1062,41 +762,6 @@
           <target state="translated">Veuillez patienter pendant que le serveur traite votre demande.\Cette opération peut prendre plusieurs minutes.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType ProcessingWindowMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 1815440819" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>text/xml; charset=utf-8</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType ContentTypeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 2232507934" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/finsta/statement/finstatransus</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType FinstaPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 1010824515" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/syslog[syslogtype[text()="error"]]</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType SysErrPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 3843122408" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/pack/convertlog[syslogtype[text()="error"]]</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType ConvErrPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 314874199" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/pack/data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType DataPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 215984685" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/pack/bank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType BankPathTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4228874151 - NamedType 1482267448" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>//return/pack</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Service Request Mgt. - NamedType PackPathTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 33113820 - NamedType 930138903" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We have updated the AMC Banking 365 Fundamentals extension.\\Before you can use the extension you must provide some information. Go to the AMC Banking Setup page and run the Assisted Setup action.</source>

@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Image Analyzer">
     <body>
       <group id="body">
+        <trans-unit id="Table 2062634445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Image Analyzer Tags</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2062634445 - NamedType 686825585" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attribute '%1' is already set.</source>
           <note from="Developer" annotates="general" priority="2">%1 is the attribute name (ex 'Color')</note>
@@ -87,6 +92,11 @@
           <source>Detected Attribute Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Image Analyzer Tags - Field Tag Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 934628271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MS - Img. Analyzer Blacklist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MS - Img. Analyzer Blacklist - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 934628271 - Field 1716525935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tag Name</source>

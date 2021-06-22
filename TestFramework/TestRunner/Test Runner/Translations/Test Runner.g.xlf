@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Test Runner">
     <body>
       <group id="body">
+        <trans-unit id="Table 466518607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL Test Suite</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AL Test Suite - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 466518607 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -28,6 +33,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AL Test Suite - Field Run Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 466518607 - Field 3629177835 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,All,Active Codeunit,Active Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AL Test Suite - Field Run Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 466518607 - Field 4018684269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Test Runner Id</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -42,6 +52,11 @@
           <source>Tests to Execute</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table AL Test Suite - Field Tests to Execute - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1101906057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Method Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Test Method Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1101906057 - Field 3446276168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error Call Stack</source>
@@ -88,6 +103,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Test Method Line - Field Line Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1101906057 - Field 158172202 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codeunit,Function</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Test Method Line - Field Line Type - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1101906057 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -97,6 +117,11 @@
           <source>Result</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Test Method Line - Field Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1101906057 - Field 472338107 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Failure,Success,Skipped</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Test Method Line - Field Result - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1101906057 - Field 3851712227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run</source>
@@ -132,6 +157,11 @@
           <source>No test runner is selected.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Suite Mgt. - NamedType NoTestRunnerSelectedTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 134090330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL Test Suites</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AL Test Suites - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 134090330 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the test suite.</source>
@@ -508,10 +538,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Command Line Test Tool - Action RunSelectedTests - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2957074450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select TestRunner</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Select TestRunner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3642842519 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Tests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Select Tests - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 625957419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Tests By Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Select Tests By Range - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 625957419 - Control 1024059636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Selection Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Select Tests By Range - Control Selection Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2655277403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Role Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Role Center - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2655277403 - Action 1361235378 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the action for invoking Test Runner page</source>

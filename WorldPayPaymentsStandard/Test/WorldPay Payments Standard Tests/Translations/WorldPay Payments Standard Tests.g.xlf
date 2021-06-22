@@ -23,16 +23,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayStandardDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3769936425 - NamedType 1590636586" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://localhost:999/test?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType NewTargetURLTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3769936425 - NamedType 3630352208" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://localhost:999/logo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType NewLogoURLTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3769936425 - NamedType 1102136885" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settings have been set to default.</source>
           <note from="Developer" annotates="general" priority="2"></note>

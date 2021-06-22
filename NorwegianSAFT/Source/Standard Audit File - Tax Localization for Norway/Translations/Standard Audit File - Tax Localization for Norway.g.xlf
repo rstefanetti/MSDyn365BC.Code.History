@@ -33,6 +33,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Missing Field - Field Field Caption - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 602235041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 602235041 - Field 4250875323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export File - Field Export ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 602235041 - Field 2022107547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export File - Field File No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 602235041 - Field 382888509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export File - Field SAF-T File - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2386421154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Header</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -122,6 +142,21 @@
           <source>Data check status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Data check status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 2678142823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split By Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Split By Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 648601929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Zip File Generation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Disable Zip File Generation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 2148955958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Multiple Zip Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Create Multiple Zip Files - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 909457577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Line</source>
@@ -754,7 +789,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ZipArchiveFilterTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3675363531 - NamedType 3264033655" size-unit="char" translate="no" xml:space="preserve">
-          <source>SAF-T Financial.zip</source>
+          <source>SAF-T Financial_%1.zip</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTZipFileTxt</note>
         </trans-unit>
@@ -802,6 +837,11 @@
           <source>Schedule a task for line %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ScheduleTaskForLineTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3519284795" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The export ZIP files already exist and are ready for download. Do you want to generate the ZIP files again?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ExportFileAlreadyExistQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2669253661" size-unit="char" translate="no" xml:space="preserve">
           <source>urn:StandardAuditFile-Taxation-Financial:NO</source>
@@ -1058,6 +1098,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control SplitByMonth - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2286259903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether multiple SAF-T files will be generated for each day.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control SplitByDate - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4159376791 - Control 1347859192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the comment that is exported to the HeaderComment XML node of the SAF-T file</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1072,6 +1117,16 @@
           <source>Specifies the complete path of the public folder that the SAF-T file is exported to.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Folder Path - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 189094161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the ZIP file would not be generated automatically. This option is available only if the folder path is specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control DisableZipFileGeneration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2196498870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that multiple ZIP files will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control CreateMultipleZipFiles - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4159376791 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the overall status of one or more SAF-T files being generated.</source>
@@ -1118,15 +1173,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action Start - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 3703915130 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regenerate Zip File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action GenerateZipFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 3703915130 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate the ZIP file again.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action GenerateZipFile - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4159376791 - Action 2787516006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download File</source>
+          <source>Download Files</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action DownloadFile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4159376791 - Action 2787516006 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Download the generated SAF-T file.</source>
+          <source>Download the generated SAF-T files.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action DownloadFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503968184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Files - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503968184 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Files - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3503968184 - Action 2787516006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Files - Action DownloadFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3503968184 - Action 2787516006 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the generated SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Files - Action DownloadFile - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3666884878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Exports</source>
@@ -1162,6 +1247,11 @@
           <source>Specifies if multiple SAF-T files will be generated per each month.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control SplitByMonth - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 2286259903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether multiple SAF-T files will be generated for each day.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control SplitByDate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3666884878 - Control 2418865460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the earliest date and time when the background job must be run.</source>

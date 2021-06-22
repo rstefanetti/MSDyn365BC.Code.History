@@ -698,7 +698,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension DIOT Purch. &amp; Payables Setup - Field Default Vendor DIOT Type - Property OptionCaption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 116529096 - NamedType 958265227" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
+        <trans-unit id="TableExtension 116529096 - NamedType 958265227" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 116529096">
           <source>Non-Mexican vendors cannot have Lease and Rent as their DIOT operation type. This default will only work for MX vendors. The rest will have their type changed to Others.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension DIOT Purch. &amp; Payables Setup - NamedType LeaseAndRentMsg</note>

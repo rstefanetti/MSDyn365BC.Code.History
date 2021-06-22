@@ -22,7 +22,7 @@
           <source>To enable image analysis, you must be an administrator. Ensure that you are assigned the 'SUPER' user permission set.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 133985070</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 214061687</note>
         </trans-unit>
       </group>
     </body>

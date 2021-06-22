@@ -714,7 +714,7 @@
           <source>Non-Mexican vendors cannot have Lease and Rent as their DIOT operation type. This default will only work for MX vendors. The rest will have their type changed to Others.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">Table 3921990236</note>
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 116529096</note>
         </trans-unit>
         <trans-unit id="PageExtension 2519417953 - Control 1452465310 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>DIOT Type of Operation</source>

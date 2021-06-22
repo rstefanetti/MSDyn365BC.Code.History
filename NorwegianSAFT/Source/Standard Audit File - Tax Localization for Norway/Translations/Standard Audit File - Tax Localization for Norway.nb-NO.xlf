@@ -189,6 +189,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Create Multiple Zip Files - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1786487985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Currency Information</source>
+          <target state="translated">Eksporter valutainformasjon</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Export Currency Information - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 909457577 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Line</source>
           <target state="translated">SAF-T-eksportlinje</target>
@@ -639,6 +645,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Bank Account - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1387593085 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Post Code</source>
+          <target state="translated">Kontroller postnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 2998338620 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Address</source>
+          <target state="translated">Kontroller adresse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Address - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3247374822 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Setup</source>
           <target state="translated">SAF-T-oppsett</target>
@@ -668,6 +686,18 @@
           <target state="translated">Angir om du vil bli varslet om felt som ikke har blitt konfigurert riktig for SAF-T på bestemte bankkontoer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1459662141 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the post code that has not been set up correctly for SAF-T.</source>
+          <target state="translated">Angir om du vil bli varslet om postnummeret som ikke har blitt konfigurert riktig for SAF-T.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckPostCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 2627088132 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the address that has not been set up correctly for SAF-T.</source>
+          <target state="translated">Angir om du vil bli varslet om adressen som ikke har blitt konfigurert riktig for SAF-T.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckAddress - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3247374822 - Control 1509787282 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the post code to use when no values specified in the customer or vendor card.</source>
@@ -1361,6 +1391,12 @@
           <target state="translated">Angir at det blir generert flere ZIP-filer.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control CreateMultipleZipFiles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2425194633 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that currency information must be included in the export to the SAF-T file.</source>
+          <target state="translated">Angir at valutainformasjon må tas med i eksporten til SAF-T-filen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExportCurrencyInformation - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4159376791 - Control 513339096 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the overall status of one or more SAF-T files being generated.</source>
@@ -2488,6 +2524,7 @@
         </trans-unit>
         <trans-unit id="Enum 1610557497 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Data Check status - EnumValue   - Property Caption</note>
         </trans-unit>

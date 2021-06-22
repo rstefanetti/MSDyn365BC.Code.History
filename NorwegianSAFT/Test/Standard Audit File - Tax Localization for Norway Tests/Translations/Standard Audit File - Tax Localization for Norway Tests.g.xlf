@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CompanyInformationMissedFieldListTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1266366402 - NamedType 4289841102" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name,City,VAT Registration No.,Country/Region Code,SAF-T Contact No.,Bank Name or Bank Branch No. or Bank Account No. or IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CompanyInformationLimitedMissedFieldListTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1266366402 - NamedType 3339583646" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name or Bank Account No. or Bank Branch No. or IBAN</source>
           <note from="Developer" annotates="general" priority="2"></note>

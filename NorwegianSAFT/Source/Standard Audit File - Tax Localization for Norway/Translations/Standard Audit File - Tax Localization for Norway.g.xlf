@@ -158,6 +158,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Create Multiple Zip Files - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1786487985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Currency Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Export Currency Information - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 909457577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Export Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -533,6 +538,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Bank Account - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1387593085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 2998338620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Check Address - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3247374822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -557,6 +572,16 @@
           <source>Specifies if you want to be notified about fields that have not been set up correctly for SAF-T on specific bank accounts.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckBankAccount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 1459662141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the post code that has not been set up correctly for SAF-T.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckPostCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3247374822 - Control 2627088132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to be notified about the address that has not been set up correctly for SAF-T.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup - Control CheckAddress - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3247374822 - Control 1509787282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the post code to use when no values specified in the customer or vendor card.</source>
@@ -1137,6 +1162,11 @@
           <source>Specifies that multiple ZIP files will be generated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control CreateMultipleZipFiles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2425194633 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that currency information must be included in the export to the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExportCurrencyInformation - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4159376791 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the overall status of one or more SAF-T files being generated.</source>

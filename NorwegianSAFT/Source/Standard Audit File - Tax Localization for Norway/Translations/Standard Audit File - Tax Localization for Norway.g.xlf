@@ -1903,10 +1903,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control IncludesNoSourceCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 351339034 - Control 2374442188 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2170603285">
+        <trans-unit id="PageExtension 351339034 - Control 2374442188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2170603285">
           <source>Specifies the code that will be exported to the JournalID XML node in the SAF-T file.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Source Codes - Control SAFTSourceCode - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Source Codes - Control SAFTSourceCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 683032088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Copy Mapping</source>
@@ -1933,20 +1933,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3535736462 - Control 3797089627 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
+        <trans-unit id="PageExtension 3535736462 - Control 3797089627 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3469146285">
           <source>Specifies the employee of the company whose information will be exported as the contact for the SAF-T file.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Company Contact - Control SAFTContactNo - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Company Contact - Control SAFTContactNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3535736462 - Field 2377726822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3469146285">
           <source>SAF-T Contact No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension SAF-T Company Contact - Field SAF-T Contact No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3974796057 - Control 3684495470 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2173385693">
+        <trans-unit id="PageExtension 3974796057 - Control 3684495470 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2173385693">
           <source>Specifies the SAF-T code that will be exported to AnalysisType XML node of the SAF-T file.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Analysis - Control SAFTAnalysys - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T Analysis - Control SAFTAnalysys - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3974796057 - Control 3675218945 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2173385693">
           <source>Specifies if information about this dimension will be exported to the SAF-T file.</source>
@@ -1968,10 +1968,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T VAT Code - Control Compensation - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3059077503">
+        <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3059077503">
           <source>Specifies if the tax code is used for compensation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T VAT Code - Control Compensation - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SAF-T VAT Code - Control Compensation - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 766791453 - Field 3835983272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1256068594">
           <source>Compensation</source>

@@ -2276,7 +2276,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control IncludesNoSourceCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 351339034 - Control 2374442188 - Property 2001309823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 351339034 - Control 2374442188 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code that will be exported to the JournalID XML node in the SAF-T file.</source>
           <target state="translated">Angir koden som skal eksporteres til XML-noden for JournalID i SAF-T-filen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2313,7 +2313,7 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3535736462 - Control 3797089627 - Property 2001309823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3535736462 - Control 3797089627 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the employee of the company whose information will be exported as the contact for the SAF-T file.</source>
           <target state="translated">Angir den ansatte i selskapet som har informasjon som skal eksporteres som kontakten for SAF-T-filen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2327,7 +2327,7 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3974796057 - Control 3684495470 - Property 2001309823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 3974796057 - Control 3684495470 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the SAF-T code that will be exported to AnalysisType XML node of the SAF-T file.</source>
           <target state="translated">Angir SAF-T-koden som blir eksportert til XML-noden for AnalysisType i SAF-T-filen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2362,7 +2362,7 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3059077503</note>
         </trans-unit>
-        <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 2001309823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the tax code is used for compensation.</source>
           <target state="translated">Angir om avgiftskoden brukes for kompensasjon.</target>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2476,6 +2476,7 @@
         </trans-unit>
         <trans-unit id="Enum 1610557497 - EnumValue 1371923692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
+          <target state="translated"> </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Data Check status - EnumValue   - Property Caption</note>
         </trans-unit>

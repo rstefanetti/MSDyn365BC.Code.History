@@ -1,0 +1,1795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hu-HU" original="Standard Audit File - Tax Localization for Norway">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2386421154 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 2747192818 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Mapping Range Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 460889064 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 458406397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1045836580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parallel Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Parallel Processing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 18210474 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max No. Of Jobs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Max No. Of Jobs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1578191139 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split By Month</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Split By Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 6461729 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Earliest Start Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Earliest Start Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 2681143077 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Folder Path - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 513339096 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 513339096 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Started,In Progress,Failed,Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1347859192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Header Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 707229288 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execution Start Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Execution Start Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 1753067149 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Execution End Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field Execution End Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2386421154 - Field 382888509 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Header - Field SAF-T File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 3320823955 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 3958072724 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Task ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 4237402031 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Progress</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Progress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 513339096 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 513339096 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Started,In Progress,Failed,Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Status - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 138642376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Master Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 2934272260 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Of Retries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field No. Of Retries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 460889064 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 458406397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 382888509 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field SAF-T File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 3975658731 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Server Instance ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Server Instance ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 1829104285 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Session ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Session ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 909457577 - Field 892252506 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Line - Field Created Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3326605066 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3326605066 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3326605066 - Field 2747192818 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Setup - Field Mapping Range Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3326605066 - Field 1347859192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Export Setup - Field Header Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T G/L Account Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 2747192818 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field Mapping Range Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 3852983238 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field G/L Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 3984022072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field Mapping Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 2005121193 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field Category No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 3379764274 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Entries Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field G/L Entries Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2868310936 - Field 63418190 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T G/L Account Mapping - Field G/L Account Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903811563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903811563 - Field 3984022072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping - Field Mapping Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903811563 - Field 2005121193 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping - Field Category No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903811563 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903811563 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 672503691 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 672503691 - Field 3984022072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Category - Field Mapping Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 672503691 - Field 4200184881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Category - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 672503691 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Category - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 3004954119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 3984022072 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Mapping Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 460889064 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 458406397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 948037281 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Range Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Range Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 2327360480 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Accounting Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - Field 3376138136 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Incoming Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - Field Include Incoming Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - NamedType 2715514529" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting date cannot be before ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType DatesAreNotCorrectErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - NamedType 1427492155" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more G/L Account already mapped. Do you want to remove the mapping range?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType MappingExistQst</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - NamedType 4155606318" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more SAF-T exports exist for the mapping range. Do you want to remove the mapping range?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType SAFTExportsExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3901834970 - NamedType 2862659481" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot select the accounting period that does not have the ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Range - NamedType CannotSelectAccPeriodWithoutEndingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Enum 3901834970 - EnumValue 2327360480 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Range - EnumValue Accounting Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3901834970 - EnumValue 31514389 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Range - EnumValue Date Range - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1270772992 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1270772992 - Field 3641927271 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Source - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1270772992 - Field 1753214751 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Source - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1270772992 - Field 1882905478 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Source - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1270772992 - NamedType 2961757412" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is a mapping source with this file name already loaded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Mapping Source - NamedType SourceExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1270772992 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1270772992 - Control 3996861631 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source type of the mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Source - Control SourceType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1270772992 - Control 1900957152 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the source file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Source - Control SourceNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1270772992 - Action 50424960 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Source - Action ImportMappingSource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1270772992 - Action 50424960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update the mapping codes from the file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Source - Action ImportMappingSource - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 3132723251 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension No. Series Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Dimension No. Series Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 3397053526 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Last Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3247374822 - Field 3762453258 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Applicable VAT Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Setup - Field Not Applicable VAT Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 295034767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Source Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 295034767 - Field 3004954119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Source Code - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 295034767 - Field 3461834954 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Source Code - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 295034767 - Field 3289481650 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Includes No Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Source Code - Field Includes No Source Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 295034767 - NamedType 145639983" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T source code %1 already has the Include No Source Code enabled.. You cannot set this option for multiple SAF-T source codes</source>
+          <note from="Developer" annotates="general" priority="2">%1 = SAF-T source code no, like GL,AR,AP and so on</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table SAF-T Source Code - NamedType IncludeNoSourceCodeAlreadyExistErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 295034767 - Field 295034767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Source Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2720485332</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 638935147" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generating header...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType GeneratingHeaderTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 730525319" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting g/l Accounts...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingGLAccountsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 31545485" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting customers...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingCustomersTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 3381910885" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting vendors...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingVendorsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 2379590836" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting VAT Posting Setup...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingVATPostingSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 35759633" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting Dimensions...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingDimensionsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 2308184551" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporting G/L entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType ExportingGLEntriesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1071012676 - NamedType 1557271614" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Skatteetaten</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Generate SAF-T File - NamedType SkatteetatenMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2299721209 - NamedType 1936075235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not specified</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Check - NamedType FieldValueIsNotSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1940075867 - NamedType 4135272633" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed SAF-T export with ID: %1, Task ID: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - integer; %2 - GUID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Error Handler - NamedType FailedExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1940075867 - NamedType 2783537792" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Error Handler - NamedType SAFTExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3489821255" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The export is in progress. Starting a new job cancels the current progress.\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ExportIsInProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3437776458" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more export lines are in progress or completed.\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType LinesInProgressOrCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 547411560" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to cancel all export jobs and restart?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType CancelExportIsInProgressQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3732164277" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete the export entry?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType DeleteExportIsInProgressQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 4069002805" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to restart the export for this line?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType RestartExportLineQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 251770367" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The export was completed. You can download the export result choosing the Download SAF-T File action.\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ExportIsCompletedQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3884700983" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to restart the export to get a new SAF-T file?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType RestartExportQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 1908741162" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Earliest Start Date/Time field is not filled in. Do you want to proceed and start the export immediately?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SetStartDateTimeAsCurrentQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 2783537792" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 2102356600" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting SAF-T export with ID: %1, Parallel: %2, Split By Month: %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 - integer; %2,%3 - boolean</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType StartingExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3679109522" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelling SAF-T Export with ID: %1, Task ID: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - integer; %2 - GUID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType CancellingExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 2502530873" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You are not allowed to schedule the SAF-T file generation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType NotPossibleToScheduleMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3625992881" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Since you did not schedule the SAF-T file generation, it will be generated immediately which can take a while. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType GenerateSAFTFileImmediatelyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 1969555425" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The generation of a SAF-T file failed but no error message was logged.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType NoErrorMessageErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3709669307" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more files exist in the folder that you want to export the SAF-T file to. Specify a folder with no files in it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType FilesExistsInFolderErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3348963083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T file generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTFileGeneratedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 1661455056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T file not generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SAFTFileNotGeneratedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 212038813" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parallel SAF-T file generation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ParallelSAFTFileGenerationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 358039643" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>Zip File (*.zip)|*.zip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ZipArchiveFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3058423012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export SAF-T archive</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ZipArchiveSaveDialogTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 91316143" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MasterData</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType MasterDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 1241378796" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Ledger Entries from %1 to %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType GLEntriesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3056742058" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No zip file generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType NoZipFileGeneratedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3377795122" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No of jobs in progress: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType NoOfJobsInProgressTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 3230717189" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 jobs not started or failed</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType JobsStartedOrFailedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 1272624294" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The task for line %1 was lost.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType SessionLostTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 2948678666" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possible to schedule the task for line %1 because the Max. No. of Jobs field contains %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1,%2 = numbers</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType NotPossibleToScheduleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3675363531 - NamedType 2582843447" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule a task for line %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Export Mgt. - NamedType ScheduleTaskForLineTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2208688230 - NamedType 2669253661" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
+          <source>urn:StandardAuditFile-Taxation-Financial:NO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Helper - NamedType SAFTNameSpaceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2208688230 - NamedType 2929691879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No file generated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Helper - NamedType NoFileGeneratedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2640558072" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preparing the source for mapping...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType PreparingSourceForMappingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 777588163" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A chart of accounts does not exist in the current company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType ChartOfAccountsDoesNotExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3683577878" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify a starting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType StartingDateNotFilledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1525031959" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify an ending date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType EndingDateNotFilledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3003812014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 of %2 standard accounts have been automatically matched to the chart of accounts.</source>
+          <note from="Developer" annotates="general" priority="2">%1,%2 = both integer values</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType StandardAccountsMatchedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1614519160" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possible to copy the mapping due to different mapping types.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType DifferentMappingTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 922495134" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to match a chart of accounts with SAF-T standard account codes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType MatchChartOfAccountsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2213276311" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to create a chart of accounts based on SAF-T standard account codes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType CreateChartOfAccountsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2992087918" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No G/L account mapping was created for range ID %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = any integer number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType NoGLAccountMappingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2981755771" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping for category %1 with mapping code %2 already exists for range ID %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = category no., %2 = mapping code, %3 = any integer number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType MappingExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3959011560" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more G/L accounts do not have a mapping setup. Open the SAF-T Mapping Setup page for the selected mapping range and map each G/L account either to the  standard account or the grouping code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType MappingNotDoneErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3667637739" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more G/L accounts already have a mapping setup. Create a new mapping range with another mapping type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType MappingDoneErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2290190938" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more dimensions do not have a SAF-T analysis code. Open the Dimensions page and specify a SAF-T analysis code for each dimension.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType DimensionWithoutAnalysisCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1752140215" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more VAT posting setup do not have a %1. Open the VAT Posting Setup page and specify %1 for each VAT posting setup combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType VATPostingSetupWithoutTaxCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 367979656" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more source codes do not have a SAF-T source code. Open the Source Codes page and specify a SAF-T source code for each source code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType SourceCodeWithoutSAFTCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1823543024" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A chart of accounts must be empty to be created based on SAF-T standard accounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType ChartOfAccountsAlreadyExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1184871457" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assorted Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AssortedJournalsSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1460283503" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Ledger Journals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType GeneralLedgerJournalsSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2765860070" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Receivables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AccountReceivablesSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3192184248" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Payables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType AccountPayablesSourceCodeDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 2249180175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up SAF-T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType SAFTSetupGuideTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 1484253947" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DEFAULT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType DefaultLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 1372292303" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importing source for mapping...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType ImportingSourceForMappingLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 3909914300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to find the XML files for mapping type %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = a mapping type, one of the following - SAF-T Standard Account, Income Statement</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NotPossibleToFindXMLFilesForMappingTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 895049908" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to parse XML file with %1 for mapping</source>
+          <note from="Developer" annotates="general" priority="2">%1 = a mapping type, one of the following - SAF-T Standard Account, Income Statement</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NotPossibleToParseMappingXMLFileErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2714163751" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping source file %1 was not loaded. Choose the Import the Source Files For Mapping action and import one or more mapping source files.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = file name, like StandardVATCodes.xml</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType MappingFileNotLoadedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 224191084" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to identify mapping source type %1. Open a SAF-T Mapping Source page and import source file with such type</source>
+          <note from="Developer" annotates="general" priority="2">%1 = possible values: Two Digit Standard Account, Four Digit Standard Account, Income Statement, Standard Tax Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NoMappingSourceIdentifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 3913203067" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Standard Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType SAFTStandardAccountsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2194068219" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Grouping Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType SAFTGroupingCodesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2234776372" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Tax Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType SAFTTaxCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2919083552" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select an XML file with SAF-T codes for mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType SelectMappingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 956150553" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NA</source>
+          <note from="Developer" annotates="general" priority="2">Abbreviation from Not Applicable</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NATxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 4046492132" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not applicable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType NotApplicableTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 810739243" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType AssetsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2654346544" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Liability and capital</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType LiabilityAndCapitalLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 607009620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revenue</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType RevenueLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2232541515" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType PurchaseLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 1422840367" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salaries and HR Costs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType SaleriesAndHRCostsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 2840155746" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other costs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType OtherCostsLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 905701174" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType FinanceLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 891482242" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to find category for standard account %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - standard account no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType CannotFindCategotyForStdAccErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1324273395 - NamedType 3310427773" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Media resource %1 has not content. Open the SAF-T Mapping Source page and choose the Update action on selected media resource code.</source>
+          <note from="Developer" annotates="general" priority="2">File name, like GeneralLedgerAccounts.xml</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T XML Import - NamedType MediaResourceNoContentErr</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2747192818 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the mapping range code that represents the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Mapping Range Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 1369749204 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the change will be processed by parallel background jobs.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ParallelProcessing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 18210474 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of background jobs processed at the same time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Max No. Of Jobs - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 1862936795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if multiple SAF-T files will be generated per month.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control SplitByMonth - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 1347859192 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the comment that is exported to the HeaderComment XML node of the SAF-T file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Header Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2418865460 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the earliest date and time when the background job must be run.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control EarliestStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 2681143077 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the complete path of the public folder that the SAF-T file is exported to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Folder Path - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 513339096 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the overall status of one or more SAF-T files being generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 4085528741 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the SAF-T file generation was started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExecutionStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Control 3518803488 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the SAF-T file generation was completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Control ExecutionEndDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 620325036 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4159376791 - Action 620325036 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start the generation of the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Card - Action Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Exports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 2747192818 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the mapping range code that represents the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control Mapping Range Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 1369749204 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the change will be processed by parallel background jobs.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control ParallelProcessing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 18210474 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum number of background jobs that can be processed at the same time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control Max No. Of Jobs - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 1862936795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if multiple SAF-T files will be generated per each month.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control SplitByMonth - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 2418865460 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the earliest date and time when the background job must be run.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control EarliestStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 513339096 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the overall status of one or more SAF-T files being generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 4085528741 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the SAF-T file generation was started.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control ExecutionStartDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Control 3518803488 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the SAF-T file generation was completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Control ExecutionEndDateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Action 620325036 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Action Start - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Action 620325036 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start the generation of the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Action Start - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Action 2787516006 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Action DownloadFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3666884878 - Action 2787516006 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download the generated SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Exports - Action DownloadFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Control 4237402031 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the progress of the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Control Progress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Control 513339096 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Control 892252506 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date and time when the generation of the selected SAF-T file was completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Control Created Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 27446870 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restart</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action RestartTask - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 27446870 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restart the generation of the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action RestartTask - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 1700570109 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action ShowError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 1700570109 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the error that occurred when generating the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action ShowError - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 2316947810 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action LogEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2099396010 - Action 2316947810 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the activity log for the generation of the selected SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Export Subpage - Action LogEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Control 359961477 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account that is used to map the SAF-T standard account or grouping code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Control GLAccNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Control 1559625623 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the account that is used to map the SAF-T standard account or grouping code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Control GLAccName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Control 2092126059 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the SAF-T standard account or grouping code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Control CategoryNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Control 949215307 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the SAF-T standard account or grouping code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Control No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Action 3734234140 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update G/L Entry Availability</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Action UpdateGLEntriesExists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1594291934 - Action 3734234140 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mark G/L accounts that have posted G/L entries in green. If option Include Incoming Balance enabled then all posted G/L entries are considered for calculation. Otherwise only G/L entries of the reporting period are considered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T G/L Mapping Subpage - Action UpdateGLEntriesExists - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1320579448 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Grouping Categories</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Grouping Categories - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1320579448 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the grouping code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Grouping Categories - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1320579448 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the grouping that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Grouping Categories - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1320579448 - Action 1749679166 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Grouping Categories - Action MappingCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1320579448 - Action 1749679166 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the grouping codes of the selected category.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Grouping Categories - Action MappingCodes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2257608539 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Groupings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Groupings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2257608539 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the grouping code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Groupings - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2257608539 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the grouping that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Groupings - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 1634728413 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control MappingSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the mapping range code that represents the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 3984022072 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control Mapping Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 1833568529 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the range type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control RangeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 1597877536 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the accounting period that will be used as SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control AccountingPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2441102194 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Mapping Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New, Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1634728413 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control MappingSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the mapping range code that represents the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 3984022072 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control Mapping Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1833568529 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the range type for an accounting period or custom period with a flexible start date/time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control RangeType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1597877536 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the accounting period that will be used as SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control AccountingPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date of the SAF-T reporting period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Control 1163052056 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the incoming balance of G/L account of type "Balance Account" needs to be considered for mapping instead of the reporting period's net change.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Control IncludeIncomingBalance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Action 972680765 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Initialize Source for Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Action InitMappingSource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Action 972680765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate lines on the G/L Account Mapping page based on an existing chart of accounts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Action InitMappingSource - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Action 3517601603 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Mapping from Another Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Action CopyMapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2085307926 - Action 3517601603 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy the G/L account mapping from another mapping code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Action CopyMapping - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Standard Account Categories</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Control 3984022072 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Control Mapping Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Control 2961552353 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the category of the standard code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the standard account category that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Action 1749679166 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Action MappingCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 469797857 - Action 1749679166 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the standard account codes of the certain category.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Std. Account Categories - Action MappingCodes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3921999400 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Standard Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Standard Accounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3921999400 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the standard account code that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Standard Accounts - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3921999400 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the standard account category that is used for mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Standard Accounts - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Setup Guide</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1121962313 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control StandardBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 300852202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control FinishedBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3800514526 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to the setup of SAF-T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control Welcome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 859857378 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control SAFTDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 859857378 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The SAF-T (Standard Audit File - Tax) is a standard file format for exporting various types of accounting transactional data using the XML format. This guide helps you set up SAF-T for the Norwegian version of Dynamics 365 Business Central. If you do not have a chart of accounts, this guide helps you to create it based on SAF-T standard chart of accounts. If you do not want to set this up right now, close this page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control SAFTDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 146194493 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select chart of accounts mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingSourceNotLoaded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 146194493 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When sending your SAF-T file to the tax authorities, each G/L account must be mapped to either a financial standard account or the income statement for the type of business.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingSourceNotLoaded - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3572599862 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the preferred mapping type and then choose the Import the source files for mapping button. Import the mapping codes for standard tax and according to the mapping type specified in the field. Then choose Next.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingSourceOnPrem - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 2414211674 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the preferred mapping type and choose Next.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingSourceLoaded - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3720095904 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1412901032 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the period of the first SAF-T file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control ChooseMappingRangeChild - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1412901032 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the period of the first SAF-T file. Choose Next to map your chart of accounts to the values that SAF-T requires.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control ChooseMappingRangeChild - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 2427717989 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Range Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control MappingRange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1597877536 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control AccountingPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 543275552 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3592094765 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 575692331 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map SAF-T accounts to your chart of accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control DoMappingGeneral - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 575692331 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For each general ledger account, select the SAF-T account or grouping code depending on the mapping type selected in the previous step.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control DoMappingGeneral - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1891128134 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Accounts Mapped:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control GLAccountsMappedInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 351388067 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Map VAT posting setup to VAT codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control VATMappingGeneral - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 351388067 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify a value in the Sales SAF-T Standard Tax Code field and/or the Purchase SAF-T Standard Tax Code field depending on type of operations you perform with the certain combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control VATMappingGeneral - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3107569932 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Posting Setup mapped:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control VATMappedInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 414586598 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export dimensions to SAF-T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control DimensionExportGeneral - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 414586598 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change the value of Export to SAF-T on Dimensions page if a certain dimension must be skipped from export to the SAF-T File.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control DimensionExportGeneral - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 793767738 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the employee to contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control ContactGeneral - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 793767738 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the employee responsible for the content of the SAF-T File. The information about the contact will be exported to the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control ContactGeneral - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 3797089627 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control SAFTContactNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 2203603252 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The SAF-T setup is completed!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control FinishedChild - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1182202415 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control FinishDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Control 1182202415 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You're ready to use the SAF-T functionality. Do an additional mapping on the SAF-T Mapping Setup page if needed. Open the SAF-T Exports page to export the data in the SAF-T format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Control FinishDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 2438272767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 914282563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 3259912055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 326275288 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match chart of accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action MatchChartOfAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 326275288 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically match existing G/L accounts with SAF-T standard accounts codes, with either two or four digits depending on the mapping type selected in the previous step.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action MatchChartOfAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 1462567861 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create chart of accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action CreateChartOfAccounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 1462567861 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a chart of accounts in Business Central from SAF-T standard accounts codes, with either two or four digits depending on mapping type selected in the previous step.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action CreateChartOfAccounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - Action 2362823299 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import the source files for mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - Action ImportMappingSourceFiles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 3179315842" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A mapping type is not specified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType MappingTypeNotSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 984350027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up SAF-T has not been completed.\\Are you sure that you want to exit?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Set-up of SAFT</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType SetupNotCompletedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 1248164630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A source for mapping was not loaded due to the following error: %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType MappingSourceNotLoadedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 1730087084" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A mapping range was not set up due to the following error: %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType MappingRangeNotSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 1934323751" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the setup page to define G/L account mappings.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType OpenMappingSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 3317576682" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the setup page to define a VAT Posting Setup mapping.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType OpenVATMappingSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 1269338287" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the setup page to define which dimensions to export to SAF-T.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType OpenDimensionExportSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 243693635" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping is not mandatory if no G/L entries are posted in the reported period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType GLAccountMappingRemainderTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 3666634517" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For G/L account with no mapping code, enter NA.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType GLAccountMappingRemainder2Txt</note>
+        </trans-unit>
+        <trans-unit id="Page 3918905259 - NamedType 4187347892" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT posting setups without a mapping will be exported with the NA value to the XML file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType VATMappingRemainderTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T VAT Posting Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 1844012642 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 236064653 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT product posting group. Links business transactions made for the item, resource, or G/L account with the general ledger, to account for VAT amounts resulting from trade with that record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control VAT Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 2971014054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control VAT Calculation Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 1246077090 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the relevant VAT rate for the particular combination of VAT business posting group and VAT product posting group. Do not enter the percent sign, only the number. For example, if the VAT rate is 25 %, enter 25 in this field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control VAT % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the VAT posting setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 3378701591 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Sales SAF-T Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 127375946 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Purchase SAF-T Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 4053430370 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Sales SAF-T Standard Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 4150717296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Purch. SAF-T Standard Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 351339034 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Source Codes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 351339034 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the SAF-T source code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 351339034 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the SAF-T source code description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 351339034 - Control 1824987418 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if G/L entries with no source codes must be exported with this SAF-T source code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Source Codes - Control IncludesNoSourceCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 683032088 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Copy Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 683032088 - Control 362981690 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mapping Range Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control MappingRangeID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 683032088 - Control 362981690 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the mapping range code to copy mapping from</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control MappingRangeID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 683032088 - Control 363376037 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace Existing Mapping</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 683032088 - Control 363376037 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the existing mapping will be replaced by the mapping range to copy.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report SAF-T Copy Mapping - Control ReplaceControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3535736462 - Field 2377726822 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Contact No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3469146285</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3974796057 - Control 3675218945 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if information about this dimension will be exported to the SAF-T file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2173385693</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3974796057 - Field 1412124609 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Analysis Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 881177948</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3974796057 - Field 227023942 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export to SAF-T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 881177948</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3059077503</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 766791453 - Field 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1256068594</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1489669071 - Control 2867432420 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1489669071 - Control 3884584085 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1489669071 - Control 4138765653 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1489669071 - Control 2603357364 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3968840133 - Control 2867432420 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 434101636</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3968840133 - Control 3884584085 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 434101636</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3968840133 - Control 4138765653 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the sales VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 434101636</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3968840133 - Control 2603357364 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the VAT posting setup that will be used for the StandardTaxCode XML node in the SAF-T file for the purchase VAT entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 434101636</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - Field 3378701591 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales SAF-T Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - Field 127375946 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase SAF-T Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - Field 4053430370 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales SAF-T Standard Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - Field 4150717296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase SAF-T Standard Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - NamedType 1278416368" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is already used in VAT posting setup %2, %3, field %4</source>
+          <note from="Developer" annotates="general" priority="2">%1 - name of the field, like SAF-T Tax Code. %2 - VAT Business Group Code. %3 - VAT Product Group Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 417346265 - NamedType 92375278" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4132487568</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 4000850171 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Two Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Two Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 3851814869 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Four Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Four Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 1491939138 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Income Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 733575408 - EnumValue 538232189 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard Tax Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Source Type - EnumValue Standard Tax Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 4000850171 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Two Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Two Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 3851814869 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Four Digit Standard Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Four Digit Standard Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 962137475 - EnumValue 1491939138 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Statement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum SAF-T Mapping Type - EnumValue Income Statement - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -234,7 +234,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAccountLockedTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3294252954" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
+          <source>Additional authentication information is required. Open the corresponding bank account card and choose action Edit Online Bank Account Information.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAdditionalAuthInfoNeededTxt</note>
         </trans-unit>
@@ -254,7 +254,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshBankInBetaMaintenanceTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 2877570477" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
+          <source>Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Edit Online Bank Account Information.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshInvalidCredentialsTxt</note>
         </trans-unit>
@@ -942,6 +942,21 @@
           <source>Test Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Action TestSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3947369052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Edit Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3947369052 - Control 2029839919 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NOTE: You are accessing a third-party website and service. You should review the third-parties terms and privacy policy before acquiring or using its website or service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Edit Account - Control BankAccountAccessConsent - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 3947369052 - Control 2029839919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Edit Account - Control BankAccountAccessConsent - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2665008762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>

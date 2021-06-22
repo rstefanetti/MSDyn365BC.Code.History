@@ -790,12 +790,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType StaleCredentialsErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 2877570477" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
-          <target state="translated">Yodlee could not update your account because your username and/or password were reported to be incorrect. You must open the corresponding bank account card and choose action Refresh Online Bank Account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshInvalidCredentialsTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1916303894" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We are sorry, Yodlee encountered a technical problem while updating your account. Please try again later.</source>
           <target state="translated">We are sorry, Yodlee encountered a technical problem while updating your account. Please try again later.</target>
@@ -831,12 +825,6 @@
           <target state="translated">Your request timed out due to technical reasons. Please try again.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshTimedOutTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 3294252954" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</source>
-          <target state="translated">Additional authentication information is required. Open the corresponding bank account card and choose action Refresh Online Bank Account.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType BankAccountRefreshAdditionalAuthInfoNeededTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3104790385" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This failure has been ignored.</source>

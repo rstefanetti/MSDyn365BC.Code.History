@@ -544,12 +544,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control VATDueBoxNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 851437658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Group Settlement Document Nos.</source>
+          <source>Group Settlement General Journal Template</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupSettlementGenJnlTempl - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 27651019 - Control 851437658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the number series used for the document to post the Group VAT to the settlement account.</source>
+          <source>Specifies the general journal template used for the document to post the Group VAT to the settlement account.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Group Setup Guide - Control GroupSettlementGenJnlTempl - Property ToolTip</note>
         </trans-unit>
@@ -1254,7 +1254,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Report Setup Extension - Control VATDueBoxNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4146260181 - Control 851437658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 456029390">
-          <source>Specifies the number series used for the document to post VAT for the VAT group to the settlement account.</source>
+          <source>Specifies the general journal template used for the document to post VAT for the VAT group to the settlement account.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VAT Report Setup Extension - Control GroupSettlementGenJnlTempl - Property ToolTip</note>
         </trans-unit>

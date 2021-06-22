@@ -171,6 +171,9 @@
                         "path":  ".\\testframework\\TestRunner\\Test Runner"
                     },
                     {
+                        "path":  ".\\VATGroupManagement\\Test\\VAT Group Management Tests"
+                    },
+                    {
                         "path":  ".\\WorldPayPaymentsStandard\\Test\\WorldPay Payments Standard Tests"
                     }
                 ]

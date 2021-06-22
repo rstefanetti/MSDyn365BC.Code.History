@@ -3,50 +3,50 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Standard Audit File - Tax Localization for Norway Tests">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 4101635234 - NamedType 3959011560" size-unit="char" translate="yes" xml:space="preserve">
-          <source>One or more G/L accounts do not have a mapping setup. Open the SAF-T Mapping Setup page for the selected mapping range and map each G/L account either to the  standard account or the grouping code.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType MappingNotDoneErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4101635234 - NamedType 2290190938" size-unit="char" translate="yes" xml:space="preserve">
           <source>One or more dimensions do not have a SAF-T analysis code. Open the Dimensions page and specify a SAF-T analysis code for each dimension.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType DimensionWithoutAnalysisCodeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4101635234 - NamedType 1752140215" size-unit="char" translate="yes" xml:space="preserve">
-          <source>One or more VAT posting setup do not have a %1. Open the VAT Posting Setup page and specify %1 for each VAT posting setup combination.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType VATPostingSetupWithoutTaxCodeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4101635234 - NamedType 367979656" size-unit="char" translate="yes" xml:space="preserve">
-          <source>One or more source codes do not have a SAF-T source code. Open the Source Codes page and specify a SAF-T source code for each source code.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType SourceCodeWithoutSAFTCodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4101635234 - NamedType 1936075235" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not specified</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType FieldValueIsNotSpecifiedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1266366402 - NamedType 4100968325" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A field value missed</source>
+        <trans-unit id="Codeunit 4101635234 - NamedType 3959011560" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more G/L accounts do not have a mapping setup. Open the SAF-T Mapping Setup page for the selected mapping range and map each G/L account either to the  standard account or the grouping code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType MissedValueErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType MappingNotDoneErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1266366402 - NamedType 3068268610" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name,Address,City,VAT Registration No.,Post Code,Country/Region Code,SAF-T Contact No.,Bank Name or Bank Branch No. or Bank Account No. or IBAN</source>
+        <trans-unit id="Codeunit 4101635234 - NamedType 367979656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more source codes do not have a SAF-T source code. Open the Source Codes page and specify a SAF-T source code for each source code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CompanyInformationMissedFieldListTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType SourceCodeWithoutSAFTCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4101635234 - NamedType 1752140215" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more VAT posting setup do not have a %1. Open the VAT Posting Setup page and specify %1 for each VAT posting setup combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType VATPostingSetupWithoutTaxCodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1266366402 - NamedType 3339583646" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name or Bank Account No. or Bank Branch No. or IBAN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType BankAccountMissedFieldListTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1266366402 - NamedType 3068268610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name,Address,City,VAT Registration No.,Post Code,Country/Region Code,SAF-T Contact No.,Bank Name or Bank Branch No. or Bank Account No. or IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CompanyInformationMissedFieldListTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1266366402 - NamedType 304495222" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name or Bank Branch No. or Bank Account No. or IBAN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType CustvendBankAccountMissedFieldListTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1266366402 - NamedType 4100968325" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A field value missed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Data Check Tests - NamedType MissedValueErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4032324508 - NamedType 3625992881" size-unit="char" translate="yes" xml:space="preserve">
           <source>Since you did not schedule the SAF-T file generation, it will be generated immediately which can take a while. Do you want to continue?</source>
@@ -78,30 +78,30 @@
           <note from="Developer" annotates="general" priority="2">%1=XML Element Name;%2=Expected XML Element Value;%3=Actual XML element Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Test Helper - NamedType UnexpectedElementValueErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3129724570 - NamedType 922495134" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to match a chart of accounts with SAF-T standard account codes?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType MatchChartOfAccountsQst</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3129724570 - NamedType 2213276311" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to create a chart of accounts based on SAF-T standard account codes?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType CreateChartOfAccountsQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3129724570 - NamedType 3003812014" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 of %2 standard accounts have been automatically matched to the chart of accounts.</source>
-          <note from="Developer" annotates="general" priority="2">%1,%2 = both integer values</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType StandardAccountsMatchedMsg</note>
+        <trans-unit id="Codeunit 3129724570 - NamedType 3625992881" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Since you did not schedule the SAF-T file generation, it will be generated immediately which can take a while. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType GenerateSAFTFileImmediatelyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3129724570 - NamedType 922495134" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to match a chart of accounts with SAF-T standard account codes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType MatchChartOfAccountsQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 3129724570 - NamedType 1954114571" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to change the already defined G/L account mapping to the new mapping?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType OverwriteMappingQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3129724570 - NamedType 3625992881" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Since you did not schedule the SAF-T file generation, it will be generated immediately which can take a while. Do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType GenerateSAFTFileImmediatelyQst</note>
+        <trans-unit id="Codeunit 3129724570 - NamedType 3003812014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 of %2 standard accounts have been automatically matched to the chart of accounts.</source>
+          <note from="Developer" annotates="general" priority="2">%1,%2 = both integer values</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType StandardAccountsMatchedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2271899501 - NamedType 1484253947" size-unit="char" translate="yes" xml:space="preserve">
           <source>DEFAULT</source>

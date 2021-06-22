@@ -3,40 +3,40 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="WorldPay Payments Standard Tests">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3769936425 - NamedType 763264636" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A link for the WorldPay payment service will be included for new sales documents. To add it to existing sales documents, you must manually select it in the Payment Service field on the sales document.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType UpdateOpenInvoicesManuallyTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3769936425 - NamedType 498047254" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify an account ID for this payment service.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType ServiceNotSetupErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3769936425 - NamedType 3939406074" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WorldPay Payments Standard</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayStandardNameTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3769936425 - NamedType 3729521185" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Use the WorldPay Payments Standard service</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayStandardDescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3769936425 - NamedType 1102136885" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settings have been set to default.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType SetToDefaultMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3769936425 - NamedType 1234289210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This extension uses the WorldPay, a third-party provider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType ThirdPartyNoticeMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3769936425 - NamedType 763264636" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A link for the WorldPay payment service will be included for new sales documents. To add it to existing sales documents, you must manually select it in the Payment Service field on the sales document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType UpdateOpenInvoicesManuallyTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3769936425 - NamedType 524510965" size-unit="char" translate="yes" xml:space="preserve">
           <source>WorldPay</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayAccountPrefixTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3769936425 - NamedType 1234289210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This extension uses the WorldPay, a third-party provider.</source>
+        <trans-unit id="Codeunit 3769936425 - NamedType 3729521185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use the WorldPay Payments Standard service</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType ThirdPartyNoticeMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayStandardDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3769936425 - NamedType 3939406074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WorldPay Payments Standard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Tests - NamedType WorldPayStandardNameTxt</note>
         </trans-unit>
       </group>
     </body>

@@ -3751,7 +3751,7 @@
         </trans-unit>
         <trans-unit id="Page 523480673 - NamedType 2580697080" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number of available changes: %1. These can be name, email address, preferred language, and user access changes. Choose View changes to see the list.</source>
-          <target state="translated">Nombre de modifications disponibles : %1. Il peut s'agir de modifications du nom, de l'adresse de courriel, de la langue préférée et de l'accès utilisateur. Sélectionnez Afficher les modifications pour afficher la liste.</target>
+          <target state="translated">Nombre de modifications disponibles : %1. Il peut s’agir de modifications du nom, de l’adresse de courriel, de la langue préférée et de l’accès utilisateur. Sélectionnez Afficher les modifications pour afficher la liste.</target>
           <note from="Developer" annotates="general" priority="2">%1 = An integer count of total updates ready to apply</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Azure AD User Update Wizard - NamedType TotalUpdatesReadyToApplyTxt</note>
         </trans-unit>

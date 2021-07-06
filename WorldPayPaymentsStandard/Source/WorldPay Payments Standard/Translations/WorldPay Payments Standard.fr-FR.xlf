@@ -380,11 +380,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType TermsOfServiceURLTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - NamedType 396223260" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
-          <source>https://cdn-bc.dynamics.com/common/images/extensionslogos/worldpay_colour_v1.png</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - NamedType LogoURLTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 19477768" maxwidth="0" size-unit="char" translate="no" xml:space="preserve">
           <source>https://secure-test.worldpay.com/wcc/purchase?testMode=100</source>
           <note from="Developer" annotates="general" priority="2"></note>

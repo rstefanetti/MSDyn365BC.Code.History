@@ -7153,6 +7153,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control State Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Control 3292168846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies whether the customer last year aggregate turnover is less than 10 crores or more than 10 crores</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control Aggregate Turnover - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1496902179 - Control 4117274083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Specifies the Assessee Code by whom any tax or sum of money is payable</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7618,6 +7623,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry Ext. - Field Total TCS Including SHE CESS - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3292168846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Aggregate Turnover</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Aggregate Turnover - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1713901351 - Field 4117274083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Assessee Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7827,6 +7837,16 @@
           <source>Society/Co-op Society</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Company Status - EnumValue Society/Co-op Society - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4003044373 - EnumValue 2663019443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Less than 10 Crores</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cust Aggregate Turnover - EnumValue Less than 10 Crores - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4003044373 - EnumValue 3107930599 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>More than 10 Crores</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Cust Aggregate Turnover - EnumValue More than 10 Crores - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4017166990 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source></source>

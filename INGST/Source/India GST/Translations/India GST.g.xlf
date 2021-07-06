@@ -9498,6 +9498,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = GstRegNo ; %2 = StateCode</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType CompnayGSTPANErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2293320866 - NamedType 2132866371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Customer GST Registration No. or ARN No. in Customer should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType CustGSTARNErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2293320866 - NamedType 3007565760" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can select POS Out Of India field on header only if GST Customer/Vednor Type is Registered, Unregistered or Deemed Export.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9548,6 +9553,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = Position</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType OnlyZErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2293320866 - NamedType 2106540092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Order Address GST Registration No. or ARN No. in Order Address should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType OrderAddressGSTARNErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2293320866 - NamedType 240401758" size-unit="char" translate="yes" xml:space="preserve">
           <source>PAN No. must be entered in Company Information.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9572,6 +9582,11 @@
           <source>The GST Registration No. for the state %1 should start with %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = StateCode ; %2 = GST Reg. No</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType StateCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2293320866 - NamedType 778485899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Vendor GST Registration No. or ARN No. in Vendor should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - NamedType VendGSTARNErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2293320866 - NamedType 973238824" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can select POS Out Of India field on header only if GST Vendor Type is Registered.</source>
@@ -9712,6 +9727,16 @@
           <source>Either GST Registration No. or ARN No. should have a value in Ship To Code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Fin Charge Memo Validation - NamedType ShiptoGSTARNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3208754258 - NamedType 2240473604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST TDS/TCS Base Amount must not be greater than Amount %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 =Amount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Subscribers - NamedType GSTTDSTCSAmtGreaterErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3208754258 - NamedType 409411116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST TDS/TCS Base Amount must be positive.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Subscribers - NamedType GSTTDSTCSAmtPostiveErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1072956185 - NamedType 3562075389" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must select Ship-to Code as "GST Place of Supply" is "Ship-to Address" on GST Group.</source>
@@ -10462,6 +10487,36 @@
           <source>Account Type %1 is not a valid option.</source>
           <note from="Developer" annotates="general" priority="2">%1 = GST Settlement Account Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Settlement - Method GSTSettlementAccTypeEnum2GenJnlAccType - NamedType ConversionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 2132866371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Customer GST Registration No. or ARN No. in Customer should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType CustGSTARNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 4070209287" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All lines in the document must have same GST Jurisdiction Type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType DiffJurisdictionTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 3670246544" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select Ship-to Code or Ship-to Customer in transaction header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType GSTPlaceOfSupplyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 597186953" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select the same GST Registration No. / ARN No. for all lines in Document No. = %1, Line No. = %2 Registration No. / ARN No. is  %3  should be %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document No. ; %2 = Line No.; %3 = Registration No. / ARN No.;%4 = Registration No. / ARN No. </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType GSTRegistrationValidationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 101512666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Transaction with Ship-to Code is not allowed against Unregistered Customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType GSTShipToStateCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 978786969 - NamedType 1360120843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Ship-To Address GST Registration No. or ARN No. in Ship-To Address should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Ship To Address - NamedType ShipToGSTARNErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1318608991 - NamedType 1270164120" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Stock Transfer Use Cases</source>
@@ -26068,6 +26123,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Invoice Subform Ext - Control Qty. to Invoice - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4108601038 - Control 2006512971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
+          <source>Specifies unit prices are inclusive of tax on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Invoice Subform Ext - Control Unit Price Incl. of Tax - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3778758852 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
           <source>Specifies the function through which reference number can be updated in the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26313,6 +26373,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Order Subform Ext - Control Price Exclusive of Tax - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 33433679 - Control 2006512971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Specifies unit prices are inclusive of tax on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Order Subform Ext - Control Unit Price Incl. of Tax - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 266911913 - Control 3178831575 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 352260082">
           <source>Specifies if prices are Inclusive of tax on the line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26533,6 +26598,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Subform - Control GST Jurisdiction Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2280382500 - Control 1475517051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
+          <source>Specifies the GST Place of Supply. For example Bill-to Address, Ship-to Address, Location Address etc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Subform - Control GST Place Of Supply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2280382500 - Control 1429998465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
+          <source>Specifies if the price in inclusive of tax for the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Subform - Control Price Exclusive of Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2280382500 - Control 2006512971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
+          <source>Specifies unit prices are inclusive of tax on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Subform - Control Unit Price Incl. of Tax - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 425175426 - Control 2702658225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>Specifies the GST calculation dependency mentioned in sales and receivable setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26562,6 +26642,21 @@
           <source>Specifies the type related to GST jurisdiction. For example, interstate/intrastate.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales. Cr. Memo Subfrm Ext - Control GST Jurisdiction Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3287873257 - Control 1475517051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
+          <source>Specifies the GST Place of Supply. For example Bill-to Address, Ship-to Address, Location Address etc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales. Cr. Memo Subfrm Ext - Control GST Place Of Supply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3287873257 - Control 1429998465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
+          <source>Specifies if the price in inclusive of tax for the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales. Cr. Memo Subfrm Ext - Control Price Exclusive of Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3287873257 - Control 2006512971 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
+          <source>Specifies unit prices are inclusive of tax on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales. Cr. Memo Subfrm Ext - Control Unit Price Incl. of Tax - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1782299441 - Control 3463723080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1511989657">
           <source>Specifies the type of the customer. For example, Registered/Unregistered/Export/Exempted/SEZ Unit/SEZ Development etc.</source>

@@ -788,6 +788,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table TDS Entry - Field Original TDS Base Amount - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 966094113 - Field 759470552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Over &amp; Above Threshold Opening</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TDS Entry - Field Over &amp; Above Threshold Opening - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 966094113 - Field 2043947580 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Party Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3938,6 +3943,91 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Update TDS Register - Action Update Challan Details - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1363018782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS 194Q Opening</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - NamedType 2446562880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Section Code must have a value in Allowed Section for Vendor No. %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Vendor No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - NamedType AllowedSectionErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - NamedType 2932411483" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date must be earlier than effective date in TDS Rates %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Effective Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - NamedType PostingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 611320427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the assessee code that is defined on the vendor master.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control AssesseeCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 611320427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assessee Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control AssesseeCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number that will appear on the TDS ledger entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date on which the TDS ledger entries are to be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control PostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 2987783553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the purchase amount that needs to be posted as vendor opening entry for 194Q.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control PurchaseAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 2987783553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control PurchaseAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 523518649 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the TDS section code for which opening entry is to be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control TDSSectionCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 523518649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control TDSSectionCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 1188451980 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the TDS threshold amount that is defined on the TDS rate for TDS section code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control TDSThresholdAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 1188451980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Threshold Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control TDSThresholdAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 1607295407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor number for which 194Q opening is to be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control VendorNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1363018782 - Control 1607295407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TDS 194Q Opening - Control VendorNo - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 581065426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update Challan Details</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5223,6 +5313,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Return Order TDS - Control TDS Certificate Receivable - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1642199961 - Control 3111398849 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1642199961">
+          <source>Specifies the code for TDS above threshold opening entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Source Code Setup - Control TDS Above Threshold Opening - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1642199961 - Control 1283737167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1642199961">
           <source>Specifies the code for TDS Adjustment Journal.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5422,6 +5517,11 @@
           <source>TDS Certificate Receivable</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header - Field TDS Certificate Receivable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1642199961 - Field 3111398849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1642199961">
+          <source>TDS Over &amp; Above Threshold Opening</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Source Code Setup - Field TDS Above Threshold Opening - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1642199961 - Field 1283737167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1642199961">
           <source>TDS Adjustment Journal</source>

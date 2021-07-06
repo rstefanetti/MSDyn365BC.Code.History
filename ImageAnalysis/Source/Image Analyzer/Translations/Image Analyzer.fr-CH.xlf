@@ -335,7 +335,7 @@
         </trans-unit>
         <trans-unit id="Page 4132159392 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Blacklisted Attributes</source>
-          <target state="translated">Afficher les attributs sur liste rouge</target>
+          <target state="translated">Afficher les attributs sur la liste rouge</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Tags - Action ViewBlacklistedTags - Property Caption</note>
         </trans-unit>
@@ -347,7 +347,7 @@
         </trans-unit>
         <trans-unit id="Page 2516211404 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Image Analyzer Blacklisted Attributes</source>
-          <target state="translated">Attributs sur liste rouge de l'analyseur d'image</target>
+          <target state="translated">Attributs sur la liste rouge de l'analyseur d'image</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Image Analysis Blacklist - Property Caption</note>
         </trans-unit>
@@ -560,7 +560,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3849677789 - Action 3727368580 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View Blacklisted Attributes</source>
-          <target state="translated">Afficher les attributs sur liste rouge</target>
+          <target state="translated">Afficher les attributs sur la liste rouge</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 133985070</note>

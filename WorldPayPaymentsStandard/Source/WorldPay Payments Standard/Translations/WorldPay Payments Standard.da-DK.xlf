@@ -255,41 +255,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Create Demo Data - NamedType DemoAccountPrefixTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 1010519868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTemplate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method GetTemplate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 1339718823" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TemplateAssignDefaultValues</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method TemplateAssignDefaultValues</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 2601973645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetWorldPayPaymentMethod</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method GetWorldPayPaymentMethod</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 2571842470" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RegisterWorldPayStandardTemplate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method RegisterWorldPayStandardTemplate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 4262230926" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ValidateChangeTargetURL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method ValidateChangeTargetURL</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 7283618" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetTargetURL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method GetTargetURL</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1284802830 - Method 1131628512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSandboxURL</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - WorldPay Standard Mgt. - Method GetSandboxURL</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1284802830 - NamedType 3790335743" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Note: You're in an evaluation company, and this isn't a real invoice. You can't actually pay it.</source>
           <target state="translated">Bemærk: Du er i en prøvevirksomhed, og dette er ikke en rigtig faktura. Du kan ikke betale den i virkeligheden.</target>

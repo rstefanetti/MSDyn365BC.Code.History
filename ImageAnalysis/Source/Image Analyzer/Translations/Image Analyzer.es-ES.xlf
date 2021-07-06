@@ -123,36 +123,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MS - Img. Analyzer Blacklist - Field TagName - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 55375041" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnAfterImportPictureAnalyzePicture</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method OnAfterImportPictureAnalyzePicture</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 1849906947" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PopulateContact</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method PopulateContact</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 1844444293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetImageAnalyzerQuestionnaireCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method GetImageAnalyzerQuestionnaireCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 580406927" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetImageAnalyzerQuestionnaireDescription</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method GetImageAnalyzerQuestionnaireDescription</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 698027226" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAgeProfileQuestionDescription</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method GetAgeProfileQuestionDescription</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1854769596 - Method 897345263" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetGenderProfileQuestionDescription</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - Method GetGenderProfileQuestionDescription</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1854769596 - NamedType 683328826" maxwidth="250" size-unit="char" translate="yes" xml:space="preserve">
           <source>Detected age</source>
           <target state="translated">Edad detectada</target>
@@ -194,71 +164,6 @@
           <target state="translated">¡Buen trabajo! Puede ver los resultados del análisis de imágenes en la ficha desplegable Cuestionario del perfil</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Contact Picture Analyze - NamedType ProfileQuestionnairePopulatedTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 3492038586" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsSaasAndCannotUseRelationshipMgmt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method IsSaasAndCannotUseRelationshipMgmt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 123916384" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AnalyzePicture</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method AnalyzePicture</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 180199269" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HandleDeactivateNotification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method HandleDeactivateNotification</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 3471771399" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsInformationNotificationEnabled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method IsInformationNotificationEnabled</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 2006364499" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SendInformationNotification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method SendInformationNotification</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 4274358889" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SendEnableNotification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method SendEnableNotification</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 2433193876" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenSetupWizard</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method OpenSetupWizard</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 3933740478" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>HandleSetupAndEnable</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method HandleSetupAndEnable</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 2058104180" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsSetupNotificationEnabled</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method IsSetupNotificationEnabled</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 2990288799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DoNothing</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method DoNothing</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 2521835484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OpenSetup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method OpenSetup</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 1741752359" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetSetupNotificationId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method GetSetupNotificationId</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3175899218 - Method 115440014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetContactQuestionnairePopulatedNotificationId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - Method GetContactQuestionnairePopulatedNotificationId</note>
         </trans-unit>
         <trans-unit id="Codeunit 3175899218 - NamedType 861756657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Looks like the Image Analyzer extension is disabled. Do you want to learn more and enable it?</source>
@@ -355,21 +260,6 @@
           <target state="translated">Notificarme cuando alcance el número máximo de análisis de imágenes permitidos en el periodo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Image Analyzer Ext. Mgt. - NamedType TooManyCallsWarningNotificationDescriptionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1247484900 - Method 55375041" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnAfterImportPictureAnalyzePicture</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Attr Populate - Method OnAfterImportPictureAnalyzePicture</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1247484900 - Method 3768673006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>BuildTagListPrepopulateCategoryAndAttributes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Attr Populate - Method BuildTagListPrepopulateCategoryAndAttributes</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1247484900 - Method 1266698471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetItemCategory</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Attr Populate - Method SetItemCategory</note>
         </trans-unit>
         <trans-unit id="Codeunit 1247484900 - NamedType 2789778645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sorry, we didn't spot any attributes in the image. This happens occasionally. For example, sometimes we need more contrast between the item and the background. If you want, try another image.</source>

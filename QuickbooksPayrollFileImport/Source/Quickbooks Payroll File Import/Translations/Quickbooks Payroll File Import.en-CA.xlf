@@ -3,18 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-CA" original="Quickbooks Payroll File Import">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 489640992 - Method 448915840" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ImportGLTransactionsByIIFFileName</source>
-          <target state="translated">ImportGLTransactionsByIIFFileName</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - Method ImportGLTransactionsByIIFFileName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489640992 - Method 3068397153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetAppID</source>
-          <target state="translated">GetAppID</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Quickbooks Payroll Import - Method GetAppID</note>
-        </trans-unit>
         <trans-unit id="Codeunit 489640992 - NamedType 1888302128" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Importing Data...</source>
           <target state="translated">Importing Data...</target>

@@ -225,60 +225,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MTD Session Fraud Prev. Hdr - Field Value - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 2330851020" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_SubmitVATReturn</source>
-          <target state="translated">InvokeRequest_SubmitVATReturn</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_SubmitVATReturn</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 3456204479" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_RetrieveVATReturns</source>
-          <target state="translated">InvokeRequest_RetrieveVATReturns</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveVATReturns</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 3922553115" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_RetrieveVATReturnPeriods</source>
-          <target state="translated">InvokeRequest_RetrieveVATReturnPeriods</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveVATReturnPeriods</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 2857014073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_RetrieveLiabilities</source>
-          <target state="translated">InvokeRequest_RetrieveLiabilities</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrieveLiabilities</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 353824239" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_RetrievePayments</source>
-          <target state="translated">InvokeRequest_RetrievePayments</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RetrievePayments</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 3595525579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InvokeRequest_RefreshAccessToken</source>
-          <target state="translated">InvokeRequest_RefreshAccessToken</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method InvokeRequest_RefreshAccessToken</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 3383747664" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOAuthSetupCode</source>
-          <target state="translated">GetOAuthSetupCode</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method GetOAuthSetupCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 2838448337" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsError404NotFound</source>
-          <target state="translated">IsError404NotFound</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method IsError404NotFound</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3884121109 - Method 1313397173" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsError408Timeout</source>
-          <target state="translated">IsError408Timeout</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - Method IsError408Timeout</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3884121109 - NamedType 3921054357" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
           <target state="translated">OAuth setup is not enabled for HMRC Making Tax Digital.</target>
@@ -296,36 +242,6 @@
           <target state="translated">Do you want to open the setup?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Connection - NamedType OpenSetupQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2777125217 - Method 3077029969" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckInitDefaultHeadersList</source>
-          <target state="translated">CheckInitDefaultHeadersList</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckInitDefaultHeadersList</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2777125217 - Method 692826855" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckForMissingHeadersFromSetup</source>
-          <target state="translated">CheckForMissingHeadersFromSetup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckForMissingHeadersFromSetup</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2777125217 - Method 593006996" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GenerateSampleValues</source>
-          <target state="translated">GenerateSampleValues</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method GenerateSampleValues</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2777125217 - Method 331207054" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AddFraudPreventionHeaders</source>
-          <target state="translated">AddFraudPreventionHeaders</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method AddFraudPreventionHeaders</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2777125217 - Method 3666927709" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckForMissingHeadersAndConfirm</source>
-          <target state="translated">CheckForMissingHeadersAndConfirm</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Fraud Prevention Mgt. - Method CheckForMissingHeadersAndConfirm</note>
         </trans-unit>
         <trans-unit id="Codeunit 2777125217 - NamedType 2495299740" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>HMRC requires additional information that will be used to uniquely identify your request. The following fraud prevention headers will be sent:\\%1\If you accept that the data in the list is sent, choose the Yes button to continue. If you do not continue, the current HMRC communication will be cancelled, and no data will be sent or received.\Do you want to continue?</source>
@@ -465,60 +381,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Install - NamedType NoSeriesDescTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 1334136218" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SubmitVATReturn</source>
-          <target state="translated">SubmitVATReturn</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method SubmitVATReturn</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 2822134014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RetrieveVATReturns</source>
-          <target state="translated">RetrieveVATReturns</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveVATReturns</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 1353226107" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RetrieveVATReturnPeriods</source>
-          <target state="translated">RetrieveVATReturnPeriods</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveVATReturnPeriods</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 303806306" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RetrieveLiabilities</source>
-          <target state="translated">RetrieveLiabilities</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrieveLiabilities</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 1726792163" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RetrievePayments</source>
-          <target state="translated">RetrievePayments</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method RetrievePayments</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 2030171402" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ArchiveResponseMessage</source>
-          <target state="translated">ArchiveResponseMessage</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method ArchiveResponseMessage</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 3352156151" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckReturnPeriodLink</source>
-          <target state="translated">CheckReturnPeriodLink</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method CheckReturnPeriodLink</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 1598705645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetVATReportSetupUpgradeTag</source>
-          <target state="translated">GetVATReportSetupUpgradeTag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method GetVATReportSetupUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 594482495 - Method 3267912680" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDailyLimitUpgradeTag</source>
-          <target state="translated">GetDailyLimitUpgradeTag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - Method GetDailyLimitUpgradeTag</note>
-        </trans-unit>
         <trans-unit id="Codeunit 594482495 - NamedType 1253545892" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>including %1 new and %2 modified records.</source>
           <target state="translated">including %1 new and %2 modified records.</target>
@@ -621,36 +483,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Mgt. - NamedType SubmitReturnErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3066295172 - Method 4142254073" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOAuthPRODSetupCode</source>
-          <target state="translated">GetOAuthPRODSetupCode</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method GetOAuthPRODSetupCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3066295172 - Method 2932848370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOAuthSandboxSetupCode</source>
-          <target state="translated">GetOAuthSandboxSetupCode</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method GetOAuthSandboxSetupCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3066295172 - Method 2965794300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InitOAuthSetup</source>
-          <target state="translated">InitOAuthSetup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method InitOAuthSetup</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3066295172 - Method 87705887" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetToken</source>
-          <target state="translated">SetToken</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method SetToken</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3066295172 - Method 1586635988" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>IsMTDOAuthSetup</source>
-          <target state="translated">IsMTDOAuthSetup</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD OAuth 2.0 Mgt - Method IsMTDOAuthSetup</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3066295172 - NamedType 1481040075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
           <target state="translated">Authorisation successful.\Do you want to open the Company Information setup to verify the VAT registration number?</target>
@@ -749,7 +581,7 @@
         </trans-unit>
         <trans-unit id="Page 1334619501 - Action 2714932516 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Latest HMRC Request</source>
-          <target state="translated">cheque Latest HMRC Request</target>
+          <target state="translated">Check Latest HMRC Request</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MTD Fraud Prevention Headers - Action Check Latest HMRC Request - Property Caption</note>
         </trans-unit>

@@ -255,16 +255,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster - Initialize - NamedType XVATADVANCENOTIFICATIONTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2091453214 - Method 2921338925" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetElsterUpgradeTag</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - Method GetElsterUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2091453214 - Method 3754745012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCleanupElsterTag</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - Method GetCleanupElsterTag</note>
-        </trans-unit>
         <trans-unit id="Page 2767607058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic VAT Decl. Setup</source>
           <target state="translated">Elektronische Umsatzsteuererklärung - Einrichtung</target>

@@ -3,6 +3,191 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Core Localization Pack for Czech">
     <body>
       <group id="body">
+        <trans-unit id="Table 2527439656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Sched. Expression Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 3230162503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Sched. Row No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Acc. Sched. Row No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 1677964741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 1 Totaling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Dimension 1 Totaling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 2633557428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 2 Totaling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Dimension 2 Totaling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 120181091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 3 Totaling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Dimension 3 Totaling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 2502597586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 4 Totaling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Dimension 4 Totaling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 994132566 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expression</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Expression - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2527439656 - Field 2815904118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totaling Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Sched. Expr. Buffer CZL - Field Totaling Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Extension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - NamedType 430254759" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot rename a %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - NamedType RenameErr</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1804630393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Sign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Amount Sign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1804630393 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Positive,Negative</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Amount Sign - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3801397439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Bin Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 741059377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Document Type Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 809358940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Due Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 149522872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 149522872 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Purchase,Sale</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Entry Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 2446257311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field G/L Account Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3660148244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Amount Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field G/L Amount Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3660148244 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Debit,Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field G/L Amount Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 4277715959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 3220571008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Posting Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 2506518201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Group Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Posting Group Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1587433127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepayment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Prepayment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1587433127 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Yes,No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Prepayment - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 521919925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Sign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Reverse Sign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1058719839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Source Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 646284093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Source Table - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1637221577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field VAT Amount Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 1637221577 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Base,Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field VAT Amount Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 893925948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Bus. Post. Group Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field VAT Bus. Post. Group Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4226338242 - Field 2183052551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Post. Group Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Extension CZL - Field VAT Prod. Post. Group Filter - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2680770863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accounting Schedule File Mapping</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -67,6 +252,311 @@
           <source> ,Right,Left</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule File Mapping CZL - Field Split - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result Column</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2638546648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Amount Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 1973782107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Column Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 1389794395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Column No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2012224114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Column Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2729985605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comparison Date Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Comparison Date Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 886867686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comparison Period Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Comparison Period Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 3304877602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2105177955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Ledger Entry Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2893504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Result Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2410854689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rounding Factor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Rounding Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 2410854689 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None,1,1000,1000000</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Rounding Factor - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 366713437 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Always,Never,When Positive,When Negative</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Show - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 358786428 - Field 419857261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Opposite Sign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Col. CZL - Field Show Opposite Sign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 4206333399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Acc. Schedule Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 2593404061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Layout Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Column Layout Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 787118315 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 1 Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Dimension 1 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 2543226670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 2 Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Dimension 2 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 3105977037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 3 Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Dimension 3 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 808611784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension 4 Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Dimension 4 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 2893504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Result Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 537953175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Result Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 3555580328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field Result Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 258497850 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hdr. CZL - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 1389794395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Column No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 1127265756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified DateTime</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Modified DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 2432660905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field New Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 3205443024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Old Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Old Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 2893504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Result Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 2782707039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Row No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3812603562 - Field 3399910940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Hist. CZL - Field Variant No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2638546648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Amount Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2638546648 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Amount,Debit Amount,Credit Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Amount Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 442768151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bold</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Bold - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 4279250454 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Italic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Italic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 3900770161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field New Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2893504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Result Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2782707039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Row No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 1239890366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Row Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 1239890366 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Change,Balance at Date,Beginning Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Row Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 366713437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Show - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 366713437 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yes,No,If Any Column Not Zero,When Positive Balance,When Negative Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Show - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 419857261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Opposite Sign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Show Opposite Sign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 478049462 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totaling</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Totaling - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2815904118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totaling Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Totaling Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3745542340 - Field 2944017714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Underline</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Line CZL - Field Underline - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3938312039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Value CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3938312039 - Field 1389794395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Value CZL - Field Column No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3938312039 - Field 2893504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Value CZL - Field Result Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3938312039 - Field 2782707039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Value CZL - Field Row No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3938312039 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Acc. Schedule Result Value CZL - Field Value - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2185168351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Certificate Code</source>
@@ -2663,6 +3153,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table VIES Declaration Line CZL - Field VIES Declaration No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 944988832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType BDDateFormulaTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 164406485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ED</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType EDDateFormulaTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 101143300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid value for Date Filter = %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Date Filter</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType InvalidDateFilterErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 2843260694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType MonthDateFormulaTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 3610728398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Q</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType QuarterDataFormulaTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - NamedType 1486957455" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Y</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - NamedType YearDateFormulaTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - Method 1879163042 - NamedType 294628817" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify acc. schedule name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - Method CreateResults - NamedType ScheduleNameErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - Method 1879163042 - NamedType 2187933858" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify column layout name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - Method CreateResults - NamedType ColumnLayoutNameErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631371688 - Method 1879163042 - NamedType 4120771995" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must specify date filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Sched. Extension Mgt. CZL - Method CreateResults - NamedType DateFilterErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 30144176 - Method 1793367989 - NamedType 2367821945" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 has results. Do you want to delete it anyway?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Description</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Schedule Management CZL - Method ResultHeaderOnBeforeDeleteEvent - NamedType DeleteQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 30144176 - Method 1281169103 - NamedType 3310954642" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It's not possible assign value:%1 of field: %2 to data type decimal!</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Totaling, %2 = FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Acc. Schedule Management CZL - Method TotalingOnAfterValidateEvent - NamedType EvaluateErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1670026304 - NamedType 950880847" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank account no. is too long.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3728,6 +4273,421 @@
           <note from="Developer" annotates="general" priority="2">%1=NodePath, %2=XMLDocRoot.InnerXml</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit VAT Stmt XML Export Helper CZL - NamedType XmlNodesNotFoundErr</note>
         </trans-unit>
+        <trans-unit id="Page 1673751937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - NamedType 4094001306" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matrix column does not exists.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - NamedType MatrixErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 3616567109 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of account schedule result subpage matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Field1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 2978870492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of account schedule result subpage matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Field2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 2341173875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of account schedule result subpage matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Field3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 1703477258 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of account schedule result subpage matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Field4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1673751937 - Control 2782707039 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a Row number for the account schedule line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sch. Res. Sub. Matrix CZL - Control Row No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Res. Header List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 4206333399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the account schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Acc. Schedule Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 2593404061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the column layout that you want to use in the window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Column Layout Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 995090288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date filter of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 2893504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the result code of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Result Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 537953175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the created date of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Result Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 3555580328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the created time of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control Result Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 2733094149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Acc. Schedule Result - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 4125097576 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The funkction opens the account schedule result card.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 4125097576 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 1035945844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows the account schedule results export to excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Export to Excel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 1035945844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export to Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Export to Excel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 1002420131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows print the account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Print - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2224198679 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Hdr. List CZL - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Results Overview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2135116621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Dimension Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 787118315 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies dimensions which was used by account schedule results creating.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Dimension 1 Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2543226670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies dimensions which was used by account schedule results creating.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Dimension 2 Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 3105977037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies dimensions which was used by account schedule results creating.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Dimension 3 Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 808611784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies dimensions which was used by account schedule results creating.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Dimension 4 Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 4206333399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the account schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Acc. Schedule Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2593404061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the column layout that you want to use in the window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Column Layout Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 995090288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date filter of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2893504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the result code of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Result Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 537953175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the created date of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Result Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 3555580328 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the created time of account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control Result Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 1083927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the only changed values are to be show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control ShowOnlyChangedValues - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 1083927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Only Changed Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control ShowOnlyChangedValues - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1035945844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows the account schedule results export to excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Export to Excel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1035945844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export to Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Export to Excel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1002420131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allows print the account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Print - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1002420131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Print - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1734268175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to the next set of the account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Next Set - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 1734268175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Next Set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 3697385181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to the previous set of the account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Previous Set - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2321513384 - Action 3697385181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched. Res. Overview CZL - Action Previous Set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Sched. Formula Drill-Down</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - NamedType 3984828147" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column formula: %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Column Layout Formula</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - NamedType ColumnFormulaMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - NamedType 1589034123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row constant: %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Expression</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - NamedType LineConstantMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - NamedType 3838932199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Row formula: %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Expression</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - NamedType RowFormulaMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 3304877602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the formula of account schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Formula - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 3304877602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 3230162503 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the account schedule row.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Acc. Sched. Row No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 994132566 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies expression of account schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Expression - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 939557076 - Control 2815904118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the totaling type for the account schedule line. The type determines which accounts within the totaling interval you specify in the Totaling field will be totaled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Sched.Page.Drill-Down CZL - Control Totaling Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Extensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 1804630393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount sign for the account schedule extension.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Amount Sign - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 3801397439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the bin filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Bin Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of account schedule extensions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of account schedule extensions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 741059377 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies setup of documents type for filtr account schedule (invoice, payment).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Document Type Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 809358940 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the document's due date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Due Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 2446257311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the account number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control G/L Account Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 3660148244 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of G/L account type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control G/L Amount Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 4277715959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of location filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Location Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 3220571008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Posting Date Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 2506518201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Posting Group Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 1587433127 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if line of sales journal is prepayment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Prepayment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 521919925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies reverse sign</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Reverse Sign - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 1058719839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the source.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Source Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 646284093 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the selected source table (VAT entry, Value entry, Customer or vendor entry).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Source Table - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source type of the selected document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 1637221577 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the VAT amount type (Base or amount.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control VAT Amount Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 893925948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the VAT business posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control VAT Bus. Post. Group Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2252013879 - Control 2183052551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies filter setup of the VAT product posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Extensions CZL - Control VAT Prod. Post. Group Filter - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2680770863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accounting Schedule File Mapping</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3917,6 +4877,36 @@
           <source>Specifies the totaling type for the account schedule line. The type determines which accounts within the totaling interval you specify in the Totaling field will be totaled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Line List CZL - Control Totaling Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Result History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Control 1127265756 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies modified date time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Control Modified DateTime - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Control 2432660905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies new code for the fixed asset location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Control New Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Control 3205443024 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the old value of the account schedule result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Control Old Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of the user associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3812603562 - Control 3399910940 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the no. of the variant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Acc. Schedule Result Hist. CZL - Control Variant No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 339275761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Certificate Codes</source>
@@ -6342,6 +7332,66 @@
           <source>Verify Registration No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Registration Log CZL - Action Verify Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save Acc. Schedule Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 22653145 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of account schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control AccSchedName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 22653145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Acc. Schedule Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control AccSchedName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 1199622861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the column layout that you want to use in the window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control ColumnLayoutName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 1199622861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Layout Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control ColumnLayoutName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 539546824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date filter for G/L accounts entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control DateFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 539546824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control DateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of account schedule result.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 1822798884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the amounts in additional reporting currency is to be show</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control UseAmtsInAddCurr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3309767113 - Control 1822798884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Amounts in Add. Reporting Currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Save Acc. Schedule Result CZL - Control UseAmtsInAddCurr - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3198856623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specific Movements</source>
@@ -9202,6 +10252,36 @@
           <source>Show Amounts in Add. Reporting Currency</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Acc. Schedule Export File CZL - Control UseAmtsInAddCurrCZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Schedule Result</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - ReportLabel 805305210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - ReportLabel AccountScheduleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - ReportLabel 3160106402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Layout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - ReportLabel ColumnLayoutLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - ReportLabel 894566561" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - ReportLabel PeriodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3323169980 - ReportLabel 4100762307" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Result Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Account Schedule Result CZL - ReportLabel ResultDescriptionbl</note>
         </trans-unit>
         <trans-unit id="Report 1653583588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accounting Sheets</source>
@@ -12527,6 +13607,16 @@
           <source>VAT Reg. No.:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EET Confirmation CZL - ReportLabel VATRegNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2756403024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exp. Acc. Sched. Res. to Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Exp. Acc. Sched. Res. Exc. CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2756403024 - NamedType 1391254635" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyzing Data...\\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Exp. Acc. Sched. Res. Exc. CZL - NamedType AnalyzingDataTxt</note>
         </trans-unit>
         <trans-unit id="Report 2163065063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Export VAT Control Report</source>
@@ -19153,6 +20243,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort VIES Declaration CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1375621440 - Action 133069092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2524904379">
+          <source>Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Acc. Schedule Overview CZL - Action Results Group CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1375621440 - Action 2813176105 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2524904379">
+          <source>Opens account schedule result header list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Acc. Schedule Overview CZL - Action Results CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1375621440 - Action 2813176105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2524904379">
+          <source>Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Acc. Schedule Overview CZL - Action Results CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1375621440 - Action 2839892002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2524904379">
+          <source>Opens window for saving results of account schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Acc. Schedule Overview CZL - Action Save Results CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1375621440 - Action 2839892002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2524904379">
+          <source>Save Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Acc. Schedule Overview CZL - Action Save Results CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1131239435 - Action 1173525033 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
           <source>File Mapping allows to set up export to Excel. You can see three dots next to the field with Amount.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -19163,10 +20278,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action File Mapping CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 133815668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Specifies acc. schedule extensions page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Set up Custom Functions CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 133815668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Set up Custom Functions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Set up Custom Functions CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 133069092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Results Group CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 2813176105 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Opens acc. schedule res. header list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Results CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 2813176105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Results CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 2839892002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Opens window for saving results of acc. schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Save Results CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Action 2839892002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Save Results</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Action Save Results CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1131239435 - Control 1212464499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
           <source>Specifies the row code for the correction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Control Row Correction CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1131239435 - Control 838293474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
+          <source>Specifies the selected source table (VAT entry, Value entry, Customer or vendor entry).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Schedule CZL - Control Source Table CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1131239435 - Control 972477220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1848868896">
           <source>Specifies when the value can be calculated in the Account Schedule - Always, Never, When Positive, When Negative.</source>
@@ -20278,6 +21433,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Entries CZL - Control VAT Date CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2910014531 - Control 1334307691 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Specifies the code for the number series that will be used to assign numbers to account schedule results.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Setup CZL - Control Acc. Schedule Results Nos. CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2910014531 - Control 162134993 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
           <source>Specifies checking posting debit/credit.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -20327,6 +21487,11 @@
           <source>Specifies whether extended user controls will be activated based on User setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Setup CZL - Control User Checks Allowed CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2910014531 - Control 786119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Specifies to share the account schedule in general ledger setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Ledger Setup CZL - Control Shared Account Schedule CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 410836076 - Control 1784763174 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1925407999">
           <source>Specifies the inventory rounding adjustment account.</source>
@@ -26168,6 +27333,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Acc. Schedule Line CZL - Field Row Correction CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 255490091 - Field 838293474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1018831744">
+          <source>Source Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Acc. Schedule Line CZL - Field Source Table CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2005213924 - Field 329259081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4206333399">
           <source>Accounting Schedule Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26568,6 +27738,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Template CZL - Field Not Check Doc. Type CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2910014531 - Field 1334307691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+          <source>Acc. Schedule Results Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Acc. Schedule Results Nos. CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2910014531 - Field 1542667627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
           <source>Allow VAT Posting From</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -26602,6 +27777,11 @@
           <source>Rounding Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Rounding Date CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2910014531 - Field 786119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
+          <source>Shared Account Schedule</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension General Ledger Setup CZL - Field Shared Account Schedule CZL - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2910014531 - Field 3262726203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4050813720">
           <source>Use VAT Date</source>
@@ -29438,6 +30618,46 @@
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor Posting Group CZL - Method CheckOpenVendLedgEntriesCZL - NamedType ChangeAccountQst</note>
         </trans-unit>
+        <trans-unit id="Enum 3683982776 - EnumValue 2520683300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Table CZL - EnumValue Customer Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3683982776 - EnumValue 467645625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Table CZL - EnumValue Value Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3683982776 - EnumValue 2941967353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Table CZL - EnumValue VAT Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3683982776 - EnumValue 2723507500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Table CZL - EnumValue Vendor Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 396488822 - EnumValue 1682139193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Type CZL - EnumValue Bank Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 396488822 - EnumValue 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Type CZL - EnumValue Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 396488822 - EnumValue 372951706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Type CZL - EnumValue Fixed Asset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 396488822 - EnumValue 1936001480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Acc. Schedule Source Type CZL - EnumValue Vendor - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 1450513544 - EnumValue 3702499555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Always</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -29822,6 +31042,16 @@
           <source>Supplementary-Corrective</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum VAT Ctrl. Report Decl Type CZL - EnumValue Supplementary-Corrective - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2749115030 - EnumValue 748819949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4087461738">
+          <source>Constant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Acc. Sched. Line Tot. Type CZL - EnumValue Constant CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2749115030 - EnumValue 551121434 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4087461738">
+          <source>Custom</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Acc. Sched. Line Tot. Type CZL - EnumValue Custom CZL - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 4244063276 - EnumValue 276448218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 961356743">
           <source>Replace VAT Date</source>

@@ -63,6 +63,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field User ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1333083693 - Method 2666294569 - NamedType 398206678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot set %1 in Base Application if the same field is set in %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Application Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Default Dimension Handler CZA - Method TestSetupFieldsDuplicityBaseApp - NamedType BaseAppDuplicityErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1333083693 - Method 2223051845 - NamedType 398206678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot set %1 in %2 if the same field is set in Base Application.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Application Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Default Dimension Handler CZA - Method TestSetupFieldsDuplicityCZA - NamedType BaseAppDuplicityErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 504783951 - Method 2879428711 - NamedType 4058048616" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to initialize dimensions of the selected tables? This may take some time and you cannot undo your changes. Do you really want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimension Auto.Create Mgt. CZA - Method UpdateAllAutomaticDimValues - NamedType InitDimQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 3918827133" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 No. %2 does not have an application entry.</source>
           <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
@@ -933,6 +948,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control SkipEntriesDetailField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Action 2555008336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Enables to update default dimension values.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Action UpdateAutomaticDefaultDimensionsCZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Action 2555008336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Update automatic default dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Action UpdateAutomaticDefaultDimensionsCZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 4104537882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies a value posting for automatically created dimension value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Auto. Create Value Posting CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 1569652547 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies if a value will be created automatically.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Automatic Create CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 2679724641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies the ID of dimension description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Dim. Description Field ID CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 3679981417 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies the name of dimension description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Dim. Description Fld. Name CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 235583397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies a description format for the dimension value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Dim. Description Format CZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 943575171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2128748224">
+          <source>Specifies the rule for dimension description update.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Account Type Default Dim. CZA - Control Dim. Description Update CZA - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2996679564 - Control 1447799953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1662713252">
           <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1172,6 +1227,41 @@
           <source>User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Capacity Ledger Entry CZA - Field User ID CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 4104537882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Auto. Create Value Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Auto. Create Value Posting CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 1569652547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Automatic Create</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Automatic Create CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 2679724641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Dim. Description Field ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Dim. Description Field ID CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 3679981417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Dim. Description Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Dim. Description Fld. Name CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 235583397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Dim. Description Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Dim. Description Format CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 943575171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source>Dimension Description Update</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Dim. Description Update CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 943575171 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
+          <source> ,Create,Update</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Default Dimension CZA - Field Dim. Description Update CZA - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3309469980 - Field 1040549453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
           <source>Amount to Apply</source>

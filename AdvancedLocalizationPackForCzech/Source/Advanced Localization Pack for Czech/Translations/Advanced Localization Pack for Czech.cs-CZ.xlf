@@ -3,86 +3,15 @@
   <file datatype="xml" source-language="en-US" target-language="cs-CZ" original="Advanced Localization Pack for Czech">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3787870484 - Method 4080685496" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ApplyEvaluationClassificationsForPrivacy</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Class. Eval. Handler CZA - Method ApplyEvaluationClassificationsForPrivacy</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4241758104 - Method 1614032639" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDataVersion180PerCompanyUpgradeTag</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZA - Method GetDataVersion180PerCompanyUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4241758104 - Method 3120673726" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDataVersion182PerDatabaseUpgradeTag</source>
-          <target state="translated">GetDataVersion182PerDatabaseUpgradeTag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZA - Method GetDataVersion182PerDatabaseUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4241758104 - Method 3351383006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDataVersion180PerDatabaseUpgradeTag</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZA - Method GetDataVersion180PerDatabaseUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4241758104 - Method 3825781040" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDataVersion182PerCompanyUpgradeTag</source>
-          <target state="translated">GetDataVersion182PerCompanyUpgradeTag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade Tag Definitions CZA - Method GetDataVersion182PerCompanyUpgradeTag</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 2157516141" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ApplyGLEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method ApplyGLEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 2352270904" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>NotUseRequestPage</source>
-          <target state="translated">NotUseRequestPage</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method NotUseRequestPage</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 2661176269" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostUnApplyGLEntry</source>
-          <target state="translated">PostUnApplyGLEntry</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method PostUnApplyGLEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 3397859146" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetApplyingGLEntry</source>
-          <target state="translated">SetApplyingGLEntry</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method SetApplyingGLEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 3722835525" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AutomatedGLEntryApplication</source>
-          <target state="translated">AutomatedGLEntryApplication</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method AutomatedGLEntryApplication</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 4142784197" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UnApplyGLEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method UnApplyGLEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 533357233" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>PostApplyGLEntry</source>
-          <target state="translated">PostApplyGLEntry</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method PostApplyGLEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 884737566 - Method 619804548" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetAmountToApply</source>
-          <target state="translated">SetAmountToApply</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - Method SetAmountToApply</note>
-        </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 1185054713" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to apply.</source>
+          <target state="translated">Není co vyrovnat.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType NothingToApplyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 1375037186" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The entered %1 must not precede the latest %1 on %2.</source>
+          <target state="translated">Zadané %1 nesmí předcházet poslednímu %1 %2.</target>
           <note from="Developer" annotates="general" priority="2">%1 = FieldCatpion Postig Date, %2 = TableCaption G/L Entry</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType PrecedeLatestErr</note>
         </trans-unit>
@@ -94,6 +23,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 2821321058" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The entries have been successfully unapplied.</source>
+          <target state="translated">Vyrovnání položek bylo úspěšně zrušeno.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType SuccessfullyUnappliedMsg</note>
         </trans-unit>
@@ -111,11 +41,13 @@
         </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 3865415787" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The application has been successfully posted.</source>
+          <target state="translated">Vyrovnání bylo úspěšně zaúčtováno.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType SuccessfullyPostedMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 884737566 - NamedType 3918827133" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 No. %2 does not have an application entry.</source>
+          <target state="translated">%1 číslo %2 neobsahuje vyrovnávací položku.</target>
           <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType ApplicationEntryErr</note>
         </trans-unit>
@@ -137,6 +69,16 @@
           <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Entry Post Application CZA - NamedType UnapplyErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1333083693 - Method 2223051845 - NamedType 398206678" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot set %1 in %2 if the same field is set in Base Application.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Application Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Default Dimension Handler CZA - Method TestSetupFieldsDuplicityCZA - NamedType BaseAppDuplicityErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1333083693 - Method 2666294569 - NamedType 398206678" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot set %1 in Base Application if the same field is set in %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Application Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Default Dimension Handler CZA - Method TestSetupFieldsDuplicityBaseApp - NamedType BaseAppDuplicityErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 151968679 - Method 3980220125 - NamedType 1731395011" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify %1 or %2.</source>
           <target state="translated">Je nutné zadat %1 nebo %2.</target>
@@ -155,6 +97,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nonstock Item Handler CZA - Method ItemNoFromItemSeriesOnBeforeGetNewItemNo - NamedType AssistEditErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 504783951 - Method 2879428711 - NamedType 4058048616" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to initialize dimensions of the selected tables? This may take some time and you cannot undo your changes. Do you really want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Dimension Auto.Create Mgt. CZA - Method UpdateAllAutomaticDimValues - NamedType InitDimQst</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 3335123714 - EnumValue 1909666947 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No. Series</source>
           <target state="translated">Číselná řada zboží</target>
@@ -170,6 +117,7 @@
         </trans-unit>
         <trans-unit id="Page 168364323 - Action 1538659129 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Unapply</source>
+          <target state="translated">&amp;Zrušit vyrovnání</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Action Unapply - Property Caption</note>
         </trans-unit>
@@ -187,6 +135,7 @@
         </trans-unit>
         <trans-unit id="Page 1714971046 - Action 1533487230 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This batch job posts G/L entries application.</source>
+          <target state="translated">Tato dávková úloha účtuje vyrovnání věcných položek.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Post Application - Property ToolTip</note>
         </trans-unit>
@@ -750,6 +699,7 @@
         </trans-unit>
         <trans-unit id="Page 168364323 - NamedType 1450815584" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to unapply.</source>
+          <target state="translated">Neexistují žádné položky, u kterých by bylo možné zrušit vyrovnání.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - NamedType NothingToUnapplyErr</note>
         </trans-unit>
@@ -767,6 +717,7 @@
         </trans-unit>
         <trans-unit id="Page 168364323 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unapply General Ledger Entries</source>
+          <target state="translated">Zrušit vyrovnání věcných položek</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Unapply G/L Entries CZA - Property Caption</note>
         </trans-unit>
@@ -790,6 +741,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1540452705 - Action 1581848143 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View the list of open G/L entries to specific date.</source>
+          <target state="translated">Zobrazte seznam otevřených věcných položek k určitému datu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3105459369</note>
@@ -803,6 +755,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1540452705 - Action 166047328 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View the inventory account to specific date.</source>
+          <target state="translated">Zobrazte inventury účtu k určitému datu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3105459369</note>
@@ -816,6 +769,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1540452705 - Action 541621504 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Apply the G/L Entries.</source>
+          <target state="translated">Vyrovnejte věcné položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3105459369</note>
@@ -829,6 +783,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 1581848143 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View the list of open G/L entries to specific date.</source>
+          <target state="translated">Zobrazte seznam otevřených věcných položek k určitému datu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
@@ -842,6 +797,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 166047328 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View the inventory account to specific date.</source>
+          <target state="translated">Zobrazte inventury účtu k určitému datu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
@@ -855,6 +811,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 541621504 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Apply the G/L Entries.</source>
+          <target state="translated">Vyrovnejte věcné položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
@@ -868,6 +825,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3121100931 - Action 3335676794 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The function allows you to apply general ledger entries.</source>
+          <target state="translated">Tato funkce umožňuje vyrovnat věcné položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1887905131</note>
@@ -881,12 +839,14 @@
         </trans-unit>
         <trans-unit id="PageExtension 3121100931 - Action 3983903831 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The function allows you to cancel applied general ledger entries.</source>
+          <target state="translated">Tato funkce umožňuje zrušit vyrovnání věcných položek.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1887905131</note>
         </trans-unit>
         <trans-unit id="PageExtension 3121100931 - Action 3983903831 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unapply Entries</source>
+          <target state="translated">Zrušit vyrovnání položek</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1887905131</note>
@@ -904,6 +864,19 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1887905131</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Action 2555008336 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enables to update default dimension values.</source>
+          <target state="translated">Umožňuje aktualizovat výchozí hodnoty dimenzí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Action 2555008336 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update automatic default dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
         </trans-unit>
         <trans-unit id="PageExtension 1190526150 - Control 1258762823 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies where the entry originated</source>
@@ -1059,6 +1032,45 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 909755016</note>
         </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 1569652547 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if a value will be created automatically.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 235583397 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description format for the dimension value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 2679724641 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ID of dimension description field.</source>
+          <target state="translated">Určuje ID pole popis dimenze.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 3679981417 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of dimension description field.</source>
+          <target state="translated">Určuje ID pole popis dimenze.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 4104537882 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a value posting for automatically created dimension value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 665432168 - Control 943575171 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the rule for dimension description update.</source>
+          <target state="translated">Určuje pravidlo pro aktualizaci popisu dimenze.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
+        </trans-unit>
         <trans-unit id="PageExtension 884967737 - Control 1461697477 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies general bussiness posting group for items ship.</source>
           <target state="translated">Určuje obecnou obchodní účto skupinu pro dodávku zboží.</target>
@@ -1094,6 +1106,7 @@
         </trans-unit>
         <trans-unit id="Report 1581848143 - Control 1738519444 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when entry details are to be skip</source>
+          <target state="translated">Určuje, kdy mají být přeskočeny podrobnosti položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Open G/L Entries To Date CZA - Control SkipEntriesDetailField - Property ToolTip</note>
         </trans-unit>
@@ -1141,6 +1154,7 @@
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when the apllied entries is to be show</source>
+          <target state="translated">Určuje, kdy mají být zobrazeny vyrovnané položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property ToolTip</note>
         </trans-unit>
@@ -1422,6 +1436,7 @@
         </trans-unit>
         <trans-unit id="Table 3427427172 - Field 1277570778 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unapplied</source>
+          <target state="translated">Vyrovnání zrušeno</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Unapplied - Property Caption</note>
         </trans-unit>
@@ -1433,6 +1448,7 @@
         </trans-unit>
         <trans-unit id="Table 3427427172 - Field 1841447818 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unapplied by Entry No.</source>
+          <target state="translated">Vyrovnání zrušeno položkou č.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field Unapplied by Entry No. - Property Caption</note>
         </trans-unit>
@@ -1681,6 +1697,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 3309469980 - Field 745897596 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applying Entry</source>
+          <target state="translated">Vyrovnávací položka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2825951060</note>
@@ -1775,6 +1792,52 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1903112923</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 1569652547 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic Create</source>
+          <target state="translated">Automaticky vytvořit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 235583397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dim. Description Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 2679724641 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dim. Description Field ID</source>
+          <target state="translated">ID pole popisu dimenze</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 3679981417 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dim. Description Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 4104537882 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto. Create Value Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 943575171 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension Description Update</source>
+          <target state="translated">Aktualizace popisu dimenze</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3894160309 - Field 943575171 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Create,Update</source>
+          <target state="translated"> ,Vytvořit,Aktualizovat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 128399837</note>
         </trans-unit>
         <trans-unit id="TableExtension 58108147 - Field 1447799953 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Posting Group</source>

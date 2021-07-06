@@ -3,26 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="Tax File Formats (DK)">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3511232442 - Method 3647866042" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillZero</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - Method FillZero</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3511232442 - Method 1001699436" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TrimVatPrefix</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - Method TrimVatPrefix</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3511232442 - Method 3071999332" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOutputContent</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - Method GetOutputContent</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3511232442 - Method 3531794308" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AvoidDownload</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - Method AvoidDownload</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
           <target state="translated">Det er ikke muligt at vise %1 i et felt med en længde på %2.</target>

@@ -93,61 +93,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK Demodata - NamedType XInternationalBankTransferTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 2486580938" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateFIKCheckSum</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method CreateFIKCheckSum</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3728412279" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EvaluateFIK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method EvaluateFIK</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 4275772926" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFIK71String</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method GetFIK71String</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3578211022" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ImportFIKToBankAccRecLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method ImportFIKToBankAccRecLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3028573791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ImportFIKGenJournalLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method ImportFIKGenJournalLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3727398244" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UpdateGenJournalLines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method UpdateGenJournalLines</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 2642661042" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AddMatchCandidateWithDescription</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method AddMatchCandidateWithDescription</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3640758560" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckBankTransferCountryRegion</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method CheckBankTransferCountryRegion</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 3532358718" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckCustRefundPaymentTypeValidation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method CheckCustRefundPaymentTypeValidation</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 760948391" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCreditorNoLength</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method GetCreditorNoLength</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3470095905 - Method 674744346" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FormValidCreditorNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - Method FormValidCreditorNo</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3470095905 - NamedType 605215594" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot use bank account %1 for importing a FIK statement because the bank account currency is %2. The bank account currency must be DKK.</source>
           <target state="translated">Du kan ikke bruge bankkontoen %1 til at importere et FIK-kontoudtog, da bankkontoens valuta er %2. Bankkontoens valuta skal være DKK.</target>
@@ -196,141 +141,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType WrongCheckCypherErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 62029266" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnAfterCheckGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnAfterCheckGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3198699736" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeVendLedgEntryModify</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeVendLedgEntryModify</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 4248107471" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeInsertPmtExportDataJnlFromGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeInsertPmtExportDataJnlFromGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 2948506305" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeCreateGenJnlDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeCreateGenJnlDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1894925799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforePaymentExport</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforePaymentExport</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1730977824" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnCheckGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnCheckGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1749159225" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeInsertPmtExportDataJnlFromVendorLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 2725522002" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeCreateVendLedgerDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeCreateVendLedgerDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3284550464" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforePaymentExportVendorLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforePaymentExportVendorLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1018195774" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeCreateCustLedgerDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeCreateCustLedgerDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3916595356" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforePaymentExportCustLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforePaymentExportCustLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1304159635" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnPaymentExportGenJnlCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnPaymentExportGenJnlCheck</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3215644579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnPmtExportVendorLedgerCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnPmtExportVendorLedgerCheck</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1884818984" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnCheckEmptyPmtInfoVendorLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnCheckEmptyPmtInfoVendorLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3223240314" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnPmtExportCustLedgerCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnPmtExportCustLedgerCheck</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 2971838442" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeUpdateGenJnlLines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeUpdateGenJnlLines</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 2430780032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeInsertPaymentExoprtData</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeInsertPaymentExoprtData</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3723682682" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeTransferCandidatestoAppliedPmtEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeTransferCandidatestoAppliedPmtEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1118637422" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetReferenceTextOnGetReferenceText</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method SetReferenceTextOnGetReferenceText</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 999152850" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnBeforeUpdateGnlJnlLineDimensionsFromTempBuffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnBeforeUpdateGnlJnlLineDimensionsFromTempBuffer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 54358920" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnUpdateTempBufferFromVendorLedgerEntry</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnUpdateTempBufferFromVendorLedgerEntry</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3828583122" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnAfterCopyVendLedgerEntryFromGenJnlLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnAfterCopyVendLedgerEntryFromGenJnlLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 2466866317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnValidatePurchaseHeaderPayToVendorNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnValidatePurchaseHeaderPayToVendorNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3151489486" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnGenJnlLineGetVendorAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnGenJnlLineGetVendorAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 1313021271" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnAfterCopyGenJnlLineFromPurchHeaderPayment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnAfterCopyGenJnlLineFromPurchHeaderPayment</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 3466258474" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnGetPaymentReferenceLbl</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnGetPaymentReferenceLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2837327687 - Method 980742508" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnGetPaymentReference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - Method OnGetPaymentReference</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2837327687 - NamedType 4242579174" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>FIK Code</source>
           <target state="translated">FIK-kode</target>
@@ -366,16 +176,6 @@
           <target state="translated">%1 og %2 kan ikke bruges samtidig til betalinger.</target>
           <note from="Developer" annotates="general" priority="2">%1=Field;%2=Field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKSubscribers - NamedType SimultaneousPaymentDetailsErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - Method 3966506429" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - Method Code</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2671379033 - Method 2019006032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetBankStatementMatchingBuffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - Method GetBankStatementMatchingBuffer</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duplicate FIK Number</source>
@@ -461,31 +261,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType ProgressBarMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - Method 944188149" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - Method Code</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - Method 3011969111" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetMatchLengthThreshold</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - Method SetMatchLengthThreshold</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - Method 2350442230" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SetNormalizingFactor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - Method SetNormalizingFactor</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - Method 3142719342" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetMatchLengthTreshold</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - Method GetMatchLengthTreshold</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1543107980 - Method 3141303620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNormalizingFactor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - Method GetNormalizingFactor</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1543107980 - NamedType 498659135" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Duplicate FIK Number</source>
           <target state="translated">FIK-dubletnummer</target>
@@ -569,86 +344,6 @@
           <target state="translated">FI0</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_ReadFile - NamedType FIKPrefixValidateTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 3811664517" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ExportDataFromBuffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method ExportDataFromBuffer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2654636608" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateGenJnlDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CreateGenJnlDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 3174166338" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateVendLedgerDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CreateVendLedgerDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 1522819721" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateCustLedgerDataExchLine</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CreateCustLedgerDataExchLine</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 3108801933" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckBankTransferCountryRegion</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckBankTransferCountryRegion</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2613719446" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckFormatSpecificPaymentRules</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckFormatSpecificPaymentRules</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2221776637" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckCreditorPaymentReference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckCreditorPaymentReference</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2832555534" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGiroPaymentReference</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckGiroPaymentReference</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2062010545" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTransferCurrencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckTransferCurrencyCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 1430570940" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckCreditorCurrencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckCreditorCurrencyCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 935733983" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckGiroCurrencyCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckGiroCurrencyCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 170471380" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTransferCountryRegionCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckTransferCountryRegionCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 1168428713" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckSimultaneousPmtInfoGiroAcc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckSimultaneousPmtInfoGiroAcc</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2706850955" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTransferCurrencyCodeCustLedgerCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckTransferCurrencyCodeCustLedgerCheck</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 2389371077" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckTransferCountryRegionCodeCustLedgerCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckTransferCountryRegionCodeCustLedgerCheck</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3601034231 - Method 416913641" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CheckPaymentTypeValidationCustLedgerCheck</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - Method CheckPaymentTypeValidationCustLedgerCheck</note>
         </trans-unit>
         <trans-unit id="Codeunit 3601034231 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must have a value</source>

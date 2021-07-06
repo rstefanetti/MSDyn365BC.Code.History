@@ -4653,31 +4653,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 VendTrans - Field Voucher - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - Method 2092778615" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateCustomer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - Method OnMigrateCustomer</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - Method 3101934872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateCustomerDimensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - Method OnMigrateCustomerDimensions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - Method 1632440881" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateCustomerPostingGroups</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - Method OnMigrateCustomerPostingGroups</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - Method 2119913346" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateCustomerTransactions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - Method OnMigrateCustomerTransactions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1329906748 - Method 3328974405" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetHardCodedBatchName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - Method GetHardCodedBatchName</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1329906748 - NamedType 3968279446" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The CustDiscGroup '%1' was not found.</source>
           <target state="translated">Debitorrabatgruppen '%1' blev ikke fundet.</target>
@@ -4720,31 +4695,6 @@
           <note from="Developer" annotates="general" priority="2">%1 is the current customer number, %2 is the referenced customer's number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 CustTable Migrator - NamedType ReferencedCustomerDoesNotExistErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2415703809 - Method 3218805310" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillStagingTables</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Loader - Method FillStagingTables</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2415703809 - Method 3341677780" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>LoadC5LedTrans</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Loader - Method LoadC5LedTrans</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3039097726 - Method 2697525970" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ImportC5Data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Migration Mgt. - Method ImportC5Data</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3039097726 - Method 1862554447" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateDataMigrationEntites</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Migration Mgt. - Method CreateDataMigrationEntites</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3039097726 - Method 1330041901" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ApplySelectedData</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Migration Mgt. - Method ApplySelectedData</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3039097726 - NamedType 2482399980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are about to migrate data for one or more entities without migrating general ledger accounts. If you continue, transactions for the entities will not be migrated. To migrate transactions, you must migrate general ledger accounts. Do you want to continue without general ledger accounts?</source>
           <target state="translated">Du er ved at overflytte data til en eller flere enheder uden at overføre finanskonti. Hvis du fortsætter, overføres transaktioner for objekter ikke. Hvis du vil overføre transaktioner, skal du overføre finanskonti. Vil du fortsætte uden finanskontiene?</target>
@@ -4774,91 +4724,6 @@
           <target state="translated">Ups, noget gik galt.\Prøv igen senere.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Data Migration Mgt. - NamedType SomethingWentWrongErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 2487615948" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TryConvertFromStringDate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method TryConvertFromStringDate</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 2808655003" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReplaceLettersSubstitutions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method ReplaceLettersSubstitutions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 3393578447" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ProcessStreamForSubstitutions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method ProcessStreamForSubstitutions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 2013944924" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDimensionValueName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetDimensionValueName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 3439994901" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDepartmentDimensionCodeTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetDepartmentDimensionCodeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 44642648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCostCenterDimensionCodeTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetCostCenterDimensionCodeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 705275808" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurposeDimensionCodeTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetPurposeDimensionCodeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 3575076737" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDepartmentDimensionDescTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetDepartmentDimensionDescTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 218748542" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCostCenterDimensionDescTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetCostCenterDimensionDescTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 3165634645" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetPurposeDimensionDescTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetPurposeDimensionDescTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 3629218348" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FixLCYCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method FixLCYCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 2753893686" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ExtractPostCodeAndCity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method ExtractPostCodeAndCity</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 1831117802" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetLanguageCodeForC5Language</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetLanguageCodeForC5Language</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 920935375" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TrimSpaces</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method TrimSpaces</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 2435646411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CreateGLAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method CreateGLAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 1757312788" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MigrateExchangeRatesForCurrency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method MigrateExchangeRatesForCurrency</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3299432891 - Method 1085444496" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetFileContentAsStream</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - Method GetFileContentAsStream</note>
         </trans-unit>
         <trans-unit id="Codeunit 3299432891 - NamedType 657134055" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5COSTCENTRE</source>
@@ -4914,71 +4779,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Helper Functions - NamedType PurposeDimensionDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 2425663000" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItem</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItem</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 95540262" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateCostingMethod</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateCostingMethod</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 1196021142" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemTrackingCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemTrackingCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 2888794188" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemUnitOfMeasure</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemUnitOfMeasure</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 888045850" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemDiscountGroup</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemDiscountGroup</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 3973430877" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemSalesLineDiscount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemSalesLineDiscount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 3770259648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemPrices</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemPrices</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 2885218681" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemTariffNo</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemTariffNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 1343286157" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemDimensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemDimensions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 4277919672" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateItemPostingGroups</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateItemPostingGroups</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 3548117636" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateInventoryTransactions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method OnMigrateInventoryTransactions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 3319141012" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetOrCreateItemTrackingCode</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method GetOrCreateItemTrackingCode</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 819262142 - Method 3328974405" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetHardCodedBatchName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - Method GetHardCodedBatchName</note>
-        </trans-unit>
         <trans-unit id="Codeunit 819262142 - NamedType 3879193562" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>BATCH</source>
           <target state="translated">KØRSEL</target>
@@ -5027,76 +4827,6 @@
           <note from="Developer" annotates="general" priority="2">%1 is the current item number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Item Migrator - NamedType UnitOfMeasureNotSpecifiedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1468899392 - Method 1606120100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FillWithLeadingZeros</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTable Migrator - Method FillWithLeadingZeros</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1468899392 - Method 2984316195" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RemoveLeadingZeroes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTable Migrator - Method RemoveLeadingZeroes</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1468899392 - Method 3920774244" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateGlAccount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTable Migrator - Method OnMigrateGlAccount</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1468899392 - Method 1265692513" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateGlAccountDimensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTable Migrator - Method OnMigrateGlAccountDimensions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1468899392 - Method 1207353487" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>MigrateLedgerDetails</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTable Migrator - Method MigrateLedgerDetails</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3863875260 - Method 3328974405" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetHardCodedBatchName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 LedTrans Migrator - Method GetHardCodedBatchName</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4214254469 - Method 311668634" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>InitMigrationStatus</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Migr. Dashboard Mgt - Method InitMigrationStatus</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4214254469 - Method 33311422" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetC5MigrationTypeTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Migr. Dashboard Mgt - Method GetC5MigrationTypeTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 1481251963" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNumberOfAccounts</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetNumberOfAccounts</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 2272662757" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNumberOfHistoricalEntries</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetNumberOfHistoricalEntries</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 230537411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNumberOfItems</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetNumberOfItems</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 2795369167" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNumberOfCustomers</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetNumberOfCustomers</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 201435794" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetNumberOfVendors</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetNumberOfVendors</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3631254966 - Method 2988613082" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetDefinitionFileMissingErrorTxt</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Schema Reader - Method GetDefinitionFileMissingErrorTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3631254966 - NamedType 2217288702" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Oops, it seems the definition file (exp00000.def) was missing from the zip file.</source>
           <target state="translated">Ups, det lader til, at definitionsfilen (exp00000.def) manglede i zip-filen.</target>
@@ -5115,16 +4845,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Telemetry - NamedType EmptyZipFileBlobErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 4083125274 - Method 2982891399" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnZipFileBlobMissing</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Unzip - Method OnZipFileBlobMissing</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 4083125274 - Method 4198483293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnUnzipFileError</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Unzip - Method OnUnzipFileError</note>
-        </trans-unit>
         <trans-unit id="Codeunit 4083125274 - NamedType 64394730" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Zip File Blob is empty in C5SchemaParameters.</source>
           <target state="translated">Zipfil-blob er tom i C5SchemaParameters.</target>
@@ -5136,31 +4856,6 @@
           <target state="translated">Der opstod en fejl ved udpakning af zip-filen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 Unzip - NamedType ZipExtractionErrorTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - Method 2590489606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateVendor</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - Method OnMigrateVendor</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - Method 2644088120" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateVendorDimensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - Method OnMigrateVendorDimensions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - Method 3034797432" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateVendorPostingGroups</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - Method OnMigrateVendorPostingGroups</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - Method 4274157249" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>OnMigrateVendorTransactions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - Method OnMigrateVendorTransactions</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2391856692 - Method 3328974405" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetHardCodedBatchName</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit C5 VendTable Migrator - Method GetHardCodedBatchName</note>
         </trans-unit>
         <trans-unit id="Codeunit 2391856692 - NamedType 2876389526" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Delivery '%1' was not found.</source>
